@@ -1,0 +1,1379 @@
+{
+  "phase": "1C",
+  "objective": "Executable later multi-platform calibration plan with bias made explicit.",
+  "protocol": "All material decisions are typed enums. EV is posterior probability that an option is best for the Phase 1C objective. likelihood_multiplier = posterior(selected)/prior(selected).",
+  "plateau_design_verifier": {
+    "rounds": 6,
+    "plateau_rounds": [
+      5,
+      6
+    ]
+  },
+  "nodes": [
+    {
+      "id": "D01",
+      "question": "Primary unit of analysis",
+      "type": "enum",
+      "options": [
+        "company_round",
+        "company",
+        "platform_campaign"
+      ],
+      "prior": {
+        "company_round": 0.99,
+        "company": 0,
+        "platform_campaign": 0.01
+      },
+      "evidence": {
+        "summary": "Company-round preserves repeat rounds and cross-platform transitions.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.9596
+      },
+      "posterior": {
+        "company_round": 0.95,
+        "company": 0.05,
+        "platform_campaign": 0
+      },
+      "expected_value": {
+        "company_round": 0.95,
+        "company": 0.05,
+        "platform_campaign": 0
+      },
+      "selected_option": "company_round",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D02",
+      "question": "Identity-resolution architecture",
+      "type": "enum",
+      "options": [
+        "hierarchical_deterministic",
+        "fuzzy_name",
+        "manual_only"
+      ],
+      "prior": {
+        "hierarchical_deterministic": 1,
+        "fuzzy_name": 0,
+        "manual_only": 0
+      },
+      "evidence": {
+        "summary": "Cross-platform identity requires high precision; name-only matching is unsafe.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.99
+      },
+      "posterior": {
+        "hierarchical_deterministic": 0.99,
+        "fuzzy_name": 0,
+        "manual_only": 0.01
+      },
+      "expected_value": {
+        "hierarchical_deterministic": 0.99,
+        "fuzzy_name": 0,
+        "manual_only": 0.01
+      },
+      "selected_option": "hierarchical_deterministic",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D03",
+      "question": "Primary taxonomy granularity",
+      "type": "enum",
+      "options": [
+        "balanced_12",
+        "compact_8",
+        "fine_18"
+      ],
+      "prior": {
+        "balanced_12": 0.93,
+        "compact_8": 0,
+        "fine_18": 0.07
+      },
+      "evidence": {
+        "summary": "Balances field specificity with cell-size constraints.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0645
+      },
+      "posterior": {
+        "balanced_12": 0.99,
+        "compact_8": 0,
+        "fine_18": 0.01
+      },
+      "expected_value": {
+        "balanced_12": 0.99,
+        "compact_8": 0,
+        "fine_18": 0.01
+      },
+      "selected_option": "balanced_12",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D04",
+      "question": "Multi-field representation",
+      "type": "enum",
+      "options": [
+        "one_primary_plus_tags",
+        "multiple_primary",
+        "other_if_mixed"
+      ],
+      "prior": {
+        "one_primary_plus_tags": 0.66,
+        "multiple_primary": 0.31,
+        "other_if_mixed": 0.03
+      },
+      "evidence": {
+        "summary": "Avoid duplicate weighted rows while preserving multi-field detail.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.4242
+      },
+      "posterior": {
+        "one_primary_plus_tags": 0.94,
+        "multiple_primary": 0.05,
+        "other_if_mixed": 0.01
+      },
+      "expected_value": {
+        "one_primary_plus_tags": 0.94,
+        "multiple_primary": 0.05,
+        "other_if_mixed": 0.01
+      },
+      "selected_option": "one_primary_plus_tags",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D05",
+      "question": "Qualified follow-on valuation threshold",
+      "type": "enum",
+      "options": [
+        "stepup_1_5x",
+        "any_priced_up_round",
+        "stepup_2x"
+      ],
+      "prior": {
+        "stepup_1_5x": 0.56,
+        "any_priced_up_round": 0.2,
+        "stepup_2x": 0.24
+      },
+      "evidence": {
+        "summary": "Predeclared economically meaningful but attainable step-up.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.6964
+      },
+      "posterior": {
+        "stepup_1_5x": 0.95,
+        "any_priced_up_round": 0.03,
+        "stepup_2x": 0.02
+      },
+      "expected_value": {
+        "stepup_1_5x": 0.95,
+        "any_priced_up_round": 0.03,
+        "stepup_2x": 0.02
+      },
+      "selected_option": "stepup_1_5x",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D06",
+      "question": "Typed success event set",
+      "type": "enum",
+      "options": [
+        "typed_set",
+        "include_secondary_trading",
+        "exits_only"
+      ],
+      "prior": {
+        "typed_set": 0.9,
+        "include_secondary_trading": 0.03,
+        "exits_only": 0.07
+      },
+      "evidence": {
+        "summary": "Separates financing milestones and exits; secondary availability is insufficient.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0889
+      },
+      "posterior": {
+        "typed_set": 0.98,
+        "include_secondary_trading": 0.01,
+        "exits_only": 0.01
+      },
+      "expected_value": {
+        "typed_set": 0.98,
+        "include_secondary_trading": 0.01,
+        "exits_only": 0.01
+      },
+      "selected_option": "typed_set",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D07",
+      "question": "Censoring/event framework",
+      "type": "enum",
+      "options": [
+        "competing_risk_multistate",
+        "separate_km",
+        "crude_proportions"
+      ],
+      "prior": {
+        "competing_risk_multistate": 0.99,
+        "separate_km": 0.01,
+        "crude_proportions": 0
+      },
+      "evidence": {
+        "summary": "2024–2025 require proper right censoring and competing events.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0101
+      },
+      "posterior": {
+        "competing_risk_multistate": 1,
+        "separate_km": 0,
+        "crude_proportions": 0
+      },
+      "expected_value": {
+        "competing_risk_multistate": 1,
+        "separate_km": 0,
+        "crude_proportions": 0
+      },
+      "selected_option": "competing_risk_multistate",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D08",
+      "question": "Field cell minimum",
+      "type": "enum",
+      "options": [
+        "n30_e5",
+        "n50_e5",
+        "precision_based"
+      ],
+      "prior": {
+        "n30_e5": 0.56,
+        "n50_e5": 0.12,
+        "precision_based": 0.32
+      },
+      "evidence": {
+        "summary": "Balances stability and usable field coverage; ascertainment gate is added separately.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.6071
+      },
+      "posterior": {
+        "n30_e5": 0.9,
+        "n50_e5": 0.04,
+        "precision_based": 0.06
+      },
+      "expected_value": {
+        "n30_e5": 0.9,
+        "n50_e5": 0.04,
+        "precision_based": 0.06
+      },
+      "selected_option": "n30_e5",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D09",
+      "question": "Sparse-year pooling",
+      "type": "enum",
+      "options": [
+        "adjacent_expand",
+        "fixed_bands",
+        "all_years"
+      ],
+      "prior": {
+        "adjacent_expand": 0.97,
+        "fixed_bands": 0.03,
+        "all_years": 0
+      },
+      "evidence": {
+        "summary": "Preserves temporal locality and exposes maturity boundary.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1
+      },
+      "posterior": {
+        "adjacent_expand": 0.97,
+        "fixed_bands": 0.02,
+        "all_years": 0.01
+      },
+      "expected_value": {
+        "adjacent_expand": 0.97,
+        "fixed_bands": 0.02,
+        "all_years": 0.01
+      },
+      "selected_option": "adjacent_expand",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D10",
+      "question": "Cross-platform attribution",
+      "type": "enum",
+      "options": [
+        "predecessor_success_new_row",
+        "destination_only",
+        "latest_round_only"
+      ],
+      "prior": {
+        "predecessor_success_new_row": 0.99,
+        "destination_only": 0,
+        "latest_round_only": 0.01
+      },
+      "evidence": {
+        "summary": "Avoids native-platform undercount while preserving later round clock.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.9899
+      },
+      "posterior": {
+        "predecessor_success_new_row": 0.98,
+        "destination_only": 0.02,
+        "latest_round_only": 0
+      },
+      "expected_value": {
+        "predecessor_success_new_row": 0.98,
+        "destination_only": 0.02,
+        "latest_round_only": 0
+      },
+      "selected_option": "predecessor_success_new_row",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D11",
+      "question": "Repeated-round dependence",
+      "type": "enum",
+      "options": [
+        "company_cluster_bootstrap",
+        "treat_independent",
+        "first_round_only"
+      ],
+      "prior": {
+        "company_cluster_bootstrap": 1,
+        "treat_independent": 0,
+        "first_round_only": 0
+      },
+      "evidence": {
+        "summary": "Same company can contribute multiple dependent rounds.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1
+      },
+      "posterior": {
+        "company_cluster_bootstrap": 1,
+        "treat_independent": 0,
+        "first_round_only": 0
+      },
+      "expected_value": {
+        "company_cluster_bootstrap": 1,
+        "treat_independent": 0,
+        "first_round_only": 0
+      },
+      "selected_option": "company_cluster_bootstrap",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D12",
+      "question": "Same economic round identity",
+      "type": "enum",
+      "options": [
+        "instrument_terms_window",
+        "page_equals_round",
+        "calendar_year"
+      ],
+      "prior": {
+        "instrument_terms_window": 1,
+        "page_equals_round": 0,
+        "calendar_year": 0
+      },
+      "evidence": {
+        "summary": "Platform page is an observation source, not necessarily a distinct round.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.97
+      },
+      "posterior": {
+        "instrument_terms_window": 0.97,
+        "page_equals_round": 0.02,
+        "calendar_year": 0.01
+      },
+      "expected_value": {
+        "instrument_terms_window": 0.97,
+        "page_equals_round": 0.02,
+        "calendar_year": 0.01
+      },
+      "selected_option": "instrument_terms_window",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D13R",
+      "question": "Cohort label/time-zero",
+      "type": "enum",
+      "options": [
+        "two_layer_openyear_closeclock",
+        "round_open_only",
+        "closeyear_closeclock"
+      ],
+      "prior": {
+        "two_layer_openyear_closeclock": 0.3333333333333333,
+        "round_open_only": 0.3333333333333333,
+        "closeyear_closeclock": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Verifier corrected pre-investment exposure bias.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 2.76
+      },
+      "posterior": {
+        "two_layer_openyear_closeclock": 0.92,
+        "round_open_only": 0.01,
+        "closeyear_closeclock": 0.07
+      },
+      "expected_value": {
+        "two_layer_openyear_closeclock": 0.92,
+        "round_open_only": 0.01,
+        "closeyear_closeclock": 0.07
+      },
+      "selected_option": "two_layer_openyear_closeclock",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D14",
+      "question": "Success interaction with survival",
+      "type": "enum",
+      "options": [
+        "multistate_exit",
+        "censor_all_success",
+        "ignore_success_for_survival"
+      ],
+      "prior": {
+        "multistate_exit": 0.89,
+        "censor_all_success": 0.09,
+        "ignore_success_for_survival": 0.02
+      },
+      "evidence": {
+        "summary": "IPO/follow-on can be success while company remains operating.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0562
+      },
+      "posterior": {
+        "multistate_exit": 0.94,
+        "censor_all_success": 0.01,
+        "ignore_success_for_survival": 0.05
+      },
+      "expected_value": {
+        "multistate_exit": 0.94,
+        "censor_all_success": 0.01,
+        "ignore_success_for_survival": 0.05
+      },
+      "selected_option": "multistate_exit",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D15R",
+      "question": "Uncertainty architecture",
+      "type": "enum",
+      "options": [
+        "bootstrap_plus_analytic",
+        "bootstrap_only",
+        "bayesian_primary"
+      ],
+      "prior": {
+        "bootstrap_plus_analytic": 0.3333333333333333,
+        "bootstrap_only": 0.3333333333333333,
+        "bayesian_primary": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Verifier requested analytic diagnostic alongside clustered bootstrap.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 2.91
+      },
+      "posterior": {
+        "bootstrap_plus_analytic": 0.97,
+        "bootstrap_only": 0.02,
+        "bayesian_primary": 0.01
+      },
+      "expected_value": {
+        "bootstrap_plus_analytic": 0.97,
+        "bootstrap_only": 0.02,
+        "bayesian_primary": 0.01
+      },
+      "selected_option": "bootstrap_plus_analytic",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D16",
+      "question": "Primary field assignment",
+      "type": "enum",
+      "options": [
+        "rules_then_human",
+        "llm_only",
+        "platform_tag_only"
+      ],
+      "prior": {
+        "rules_then_human": 0.88,
+        "llm_only": 0.06,
+        "platform_tag_only": 0.06
+      },
+      "evidence": {
+        "summary": "Cross-platform consistency requires common rules plus adjudication.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.1364
+      },
+      "posterior": {
+        "rules_then_human": 1,
+        "llm_only": 0,
+        "platform_tag_only": 0
+      },
+      "expected_value": {
+        "rules_then_human": 1,
+        "llm_only": 0,
+        "platform_tag_only": 0
+      },
+      "selected_option": "rules_then_human",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D17",
+      "question": "Tag schema",
+      "type": "enum",
+      "options": [
+        "versioned_controlled_multilabel",
+        "platform_native_tags",
+        "free_text"
+      ],
+      "prior": {
+        "versioned_controlled_multilabel": 0.89,
+        "platform_native_tags": 0.03,
+        "free_text": 0.08
+      },
+      "evidence": {
+        "summary": "Prevents taxonomy drift; preserves raw native tags separately.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.1236
+      },
+      "posterior": {
+        "versioned_controlled_multilabel": 1,
+        "platform_native_tags": 0,
+        "free_text": 0
+      },
+      "expected_value": {
+        "versioned_controlled_multilabel": 1,
+        "platform_native_tags": 0,
+        "free_text": 0
+      },
+      "selected_option": "versioned_controlled_multilabel",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D18",
+      "question": "Source precedence",
+      "type": "enum",
+      "options": [
+        "platform_primary_hierarchy",
+        "any_public_web",
+        "search_snippets_ok"
+      ],
+      "prior": {
+        "platform_primary_hierarchy": 1,
+        "any_public_web": 0,
+        "search_snippets_ok": 0
+      },
+      "evidence": {
+        "summary": "User restricted evidence to the five accessible platforms.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1
+      },
+      "posterior": {
+        "platform_primary_hierarchy": 1,
+        "any_public_web": 0,
+        "search_snippets_ok": 0
+      },
+      "expected_value": {
+        "platform_primary_hierarchy": 1,
+        "any_public_web": 0,
+        "search_snippets_ok": 0
+      },
+      "selected_option": "platform_primary_hierarchy",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D19",
+      "question": "Right-censor date",
+      "type": "enum",
+      "options": [
+        "last_positive_platform_evidence",
+        "extraction_date",
+        "round_close"
+      ],
+      "prior": {
+        "last_positive_platform_evidence": 0.77,
+        "extraction_date": 0.07,
+        "round_close": 0.16
+      },
+      "evidence": {
+        "summary": "Accessible stale page alone does not prove current operation.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.2727
+      },
+      "posterior": {
+        "last_positive_platform_evidence": 0.98,
+        "extraction_date": 0,
+        "round_close": 0.02
+      },
+      "expected_value": {
+        "last_positive_platform_evidence": 0.98,
+        "extraction_date": 0,
+        "round_close": 0.02
+      },
+      "selected_option": "last_positive_platform_evidence",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D20",
+      "question": "Auto-match threshold",
+      "type": "enum",
+      "options": [
+        "tiered_high_precision",
+        "fuzzy_threshold",
+        "manual_everything"
+      ],
+      "prior": {
+        "tiered_high_precision": 0.98,
+        "fuzzy_threshold": 0,
+        "manual_everything": 0.02
+      },
+      "evidence": {
+        "summary": "Protect against false cross-platform matches while retaining scalability.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0102
+      },
+      "posterior": {
+        "tiered_high_precision": 0.99,
+        "fuzzy_threshold": 0.01,
+        "manual_everything": 0
+      },
+      "expected_value": {
+        "tiered_high_precision": 0.99,
+        "fuzzy_threshold": 0.01,
+        "manual_everything": 0
+      },
+      "selected_option": "tiered_high_precision",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D21",
+      "question": "Follow-on comparability",
+      "type": "enum",
+      "options": [
+        "comparable_metric_only",
+        "cap_as_valuation",
+        "amount_only_fallback"
+      ],
+      "prior": {
+        "comparable_metric_only": 1,
+        "cap_as_valuation": 0,
+        "amount_only_fallback": 0
+      },
+      "evidence": {
+        "summary": "SAFE cap is not actual priced valuation.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1
+      },
+      "posterior": {
+        "comparable_metric_only": 1,
+        "cap_as_valuation": 0,
+        "amount_only_fallback": 0
+      },
+      "expected_value": {
+        "comparable_metric_only": 1,
+        "cap_as_valuation": 0,
+        "amount_only_fallback": 0
+      },
+      "selected_option": "comparable_metric_only",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D22",
+      "question": "Cross-platform bias metric",
+      "type": "enum",
+      "options": [
+        "native_vs_graph_delta",
+        "graph_only",
+        "native_only"
+      ],
+      "prior": {
+        "native_vs_graph_delta": 0.97,
+        "graph_only": 0,
+        "native_only": 0.03
+      },
+      "evidence": {
+        "summary": "Directly measures bias in single-platform outcome recognition.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0206
+      },
+      "posterior": {
+        "native_vs_graph_delta": 0.99,
+        "graph_only": 0.01,
+        "native_only": 0
+      },
+      "expected_value": {
+        "native_vs_graph_delta": 0.99,
+        "graph_only": 0.01,
+        "native_only": 0
+      },
+      "selected_option": "native_vs_graph_delta",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D23",
+      "question": "Missing campaign page handling",
+      "type": "enum",
+      "options": [
+        "retain_with_missingness",
+        "complete_case_only",
+        "impute_from_other_rows"
+      ],
+      "prior": {
+        "retain_with_missingness": 0.91,
+        "complete_case_only": 0.09,
+        "impute_from_other_rows": 0
+      },
+      "evidence": {
+        "summary": "Complete-case deletion creates page-persistence bias.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0989
+      },
+      "posterior": {
+        "retain_with_missingness": 1,
+        "complete_case_only": 0,
+        "impute_from_other_rows": 0
+      },
+      "expected_value": {
+        "retain_with_missingness": 1,
+        "complete_case_only": 0,
+        "impute_from_other_rows": 0
+      },
+      "selected_option": "retain_with_missingness",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D24",
+      "question": "Multiple success events",
+      "type": "enum",
+      "options": [
+        "first_success_plus_history",
+        "highest_value_event",
+        "every_event_duplicate"
+      ],
+      "prior": {
+        "first_success_plus_history": 0.93,
+        "highest_value_event": 0.01,
+        "every_event_duplicate": 0.06
+      },
+      "evidence": {
+        "summary": "Time-to-first-success is estimable while event history remains auditable.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0753
+      },
+      "posterior": {
+        "first_success_plus_history": 1,
+        "highest_value_event": 0,
+        "every_event_duplicate": 0
+      },
+      "expected_value": {
+        "first_success_plus_history": 1,
+        "highest_value_event": 0,
+        "every_event_duplicate": 0
+      },
+      "selected_option": "first_success_plus_history",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D25",
+      "question": "Closure evidence",
+      "type": "enum",
+      "options": [
+        "explicit_platform_evidence",
+        "stale_page_proxy",
+        "investor_comments"
+      ],
+      "prior": {
+        "explicit_platform_evidence": 1,
+        "stale_page_proxy": 0,
+        "investor_comments": 0
+      },
+      "evidence": {
+        "summary": "No-news and page staleness are not closure.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1
+      },
+      "posterior": {
+        "explicit_platform_evidence": 1,
+        "stale_page_proxy": 0,
+        "investor_comments": 0
+      },
+      "expected_value": {
+        "explicit_platform_evidence": 1,
+        "stale_page_proxy": 0,
+        "investor_comments": 0
+      },
+      "selected_option": "explicit_platform_evidence",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D26",
+      "question": "Co-hosted round representation",
+      "type": "enum",
+      "options": [
+        "one_round_bridge",
+        "split_rows",
+        "exclude_multiplatform"
+      ],
+      "prior": {
+        "one_round_bridge": 1,
+        "split_rows": 0,
+        "exclude_multiplatform": 0
+      },
+      "evidence": {
+        "summary": "Preserves economic round unit without losing platform exposure.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1
+      },
+      "posterior": {
+        "one_round_bridge": 1,
+        "split_rows": 0,
+        "exclude_multiplatform": 0
+      },
+      "expected_value": {
+        "one_round_bridge": 1,
+        "split_rows": 0,
+        "exclude_multiplatform": 0
+      },
+      "selected_option": "one_round_bridge",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D27R",
+      "question": "Horizon reporting",
+      "type": "enum",
+      "options": [
+        "fixed_plus_max",
+        "fixed_only",
+        "max_only"
+      ],
+      "prior": {
+        "fixed_plus_max": 0.3333333333333333,
+        "fixed_only": 0.3333333333333333,
+        "max_only": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Verifier reconciled comparability with no-extrapolation requirement.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 3
+      },
+      "posterior": {
+        "fixed_plus_max": 1,
+        "fixed_only": 0,
+        "max_only": 0
+      },
+      "expected_value": {
+        "fixed_plus_max": 1,
+        "fixed_only": 0,
+        "max_only": 0
+      },
+      "selected_option": "fixed_plus_max",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D28",
+      "question": "RQ1 small-n handling",
+      "type": "enum",
+      "options": [
+        "report_with_warning",
+        "suppress_below_30",
+        "pool_platform_years"
+      ],
+      "prior": {
+        "report_with_warning": 0.96,
+        "suppress_below_30": 0.03,
+        "pool_platform_years": 0.01
+      },
+      "evidence": {
+        "summary": "RQ1 explicitly requires each platform × year.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0417
+      },
+      "posterior": {
+        "report_with_warning": 1,
+        "suppress_below_30": 0,
+        "pool_platform_years": 0
+      },
+      "expected_value": {
+        "report_with_warning": 1,
+        "suppress_below_30": 0,
+        "pool_platform_years": 0
+      },
+      "selected_option": "report_with_warning",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D29R",
+      "question": "Denominator architecture",
+      "type": "enum",
+      "options": [
+        "two_layer",
+        "all_launched_single",
+        "funded_only_single"
+      ],
+      "prior": {
+        "two_layer": 0.3333333333333333,
+        "all_launched_single": 0.3333333333333333,
+        "funded_only_single": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Separates investable-deal coverage from post-investment outcomes.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 3
+      },
+      "posterior": {
+        "two_layer": 1,
+        "all_launched_single": 0,
+        "funded_only_single": 0
+      },
+      "expected_value": {
+        "two_layer": 1,
+        "all_launched_single": 0,
+        "funded_only_single": 0
+      },
+      "selected_option": "two_layer",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D30",
+      "question": "Open/pending rounds",
+      "type": "enum",
+      "options": [
+        "exclude_pending_track",
+        "include_censored",
+        "shift_to_close_year"
+      ],
+      "prior": {
+        "exclude_pending_track": 0.93,
+        "include_censored": 0.07,
+        "shift_to_close_year": 0
+      },
+      "evidence": {
+        "summary": "No investor position exists before completion.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.957
+      },
+      "posterior": {
+        "exclude_pending_track": 0.89,
+        "include_censored": 0.11,
+        "shift_to_close_year": 0
+      },
+      "expected_value": {
+        "exclude_pending_track": 0.89,
+        "include_censored": 0.11,
+        "shift_to_close_year": 0
+      },
+      "selected_option": "exclude_pending_track",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D31",
+      "question": "Estimand label",
+      "type": "enum",
+      "options": [
+        "platform_observed",
+        "true_outcomes",
+        "infer_missing"
+      ],
+      "prior": {
+        "platform_observed": 1,
+        "true_outcomes": 0,
+        "infer_missing": 0
+      },
+      "evidence": {
+        "summary": "Platform-only evidence cannot guarantee complete real-world event ascertainment.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.99
+      },
+      "posterior": {
+        "platform_observed": 0.99,
+        "true_outcomes": 0.01,
+        "infer_missing": 0
+      },
+      "expected_value": {
+        "platform_observed": 0.99,
+        "true_outcomes": 0.01,
+        "infer_missing": 0
+      },
+      "selected_option": "platform_observed",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D32",
+      "question": "Identity QA audit",
+      "type": "enum",
+      "options": [
+        "stratified_10pct",
+        "all_manual",
+        "no_audit"
+      ],
+      "prior": {
+        "stratified_10pct": 0.3333333333333333,
+        "all_manual": 0.3333333333333333,
+        "no_audit": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Quantifies matcher error without making the system unscalable.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 2.97
+      },
+      "posterior": {
+        "stratified_10pct": 0.99,
+        "all_manual": 0.01,
+        "no_audit": 0
+      },
+      "expected_value": {
+        "stratified_10pct": 0.99,
+        "all_manual": 0.01,
+        "no_audit": 0
+      },
+      "selected_option": "stratified_10pct",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D33",
+      "question": "Lost-follow-up bias treatment",
+      "type": "enum",
+      "options": [
+        "primary_plus_bounds",
+        "censor_only",
+        "exclude_lost"
+      ],
+      "prior": {
+        "primary_plus_bounds": 0.3333333333333333,
+        "censor_only": 0.3333333333333333,
+        "exclude_lost": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Public-page disappearance can be informative censoring.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 2.97
+      },
+      "posterior": {
+        "primary_plus_bounds": 0.99,
+        "censor_only": 0.01,
+        "exclude_lost": 0
+      },
+      "expected_value": {
+        "primary_plus_bounds": 0.99,
+        "censor_only": 0.01,
+        "exclude_lost": 0
+      },
+      "selected_option": "primary_plus_bounds",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D34",
+      "question": "Ascertainment reporting",
+      "type": "enum",
+      "options": [
+        "report_with_coverage",
+        "suppress_below_80",
+        "ignore_coverage"
+      ],
+      "prior": {
+        "report_with_coverage": 0.3333333333333333,
+        "suppress_below_80": 0.3333333333333333,
+        "ignore_coverage": 0.3333333333333333
+      },
+      "evidence": {
+        "summary": "Expose coverage and gate field cells without erasing RQ1.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 2.61
+      },
+      "posterior": {
+        "report_with_coverage": 0.87,
+        "suppress_below_80": 0.12,
+        "ignore_coverage": 0.01
+      },
+      "expected_value": {
+        "report_with_coverage": 0.87,
+        "suppress_below_80": 0.12,
+        "ignore_coverage": 0.01
+      },
+      "selected_option": "report_with_coverage",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D35",
+      "question": "Exact primary taxonomy",
+      "type": "enum",
+      "options": [
+        "balanced12",
+        "compact9",
+        "fine16"
+      ],
+      "prior": {
+        "balanced12": 0.91,
+        "compact9": 0.05,
+        "fine16": 0.04
+      },
+      "evidence": {
+        "summary": "Specific enough for SaaS/biotech while controlling sparsity.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0549
+      },
+      "posterior": {
+        "balanced12": 0.96,
+        "compact9": 0.01,
+        "fine16": 0.03
+      },
+      "expected_value": {
+        "balanced12": 0.96,
+        "compact9": 0.01,
+        "fine16": 0.03
+      },
+      "selected_option": "balanced12",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D36",
+      "question": "Controlled tag dimensions",
+      "type": "enum",
+      "options": [
+        "balanced7",
+        "minimal4",
+        "exhaustive12"
+      ],
+      "prior": {
+        "balanced7": 0.85,
+        "minimal4": 0.14,
+        "exhaustive12": 0.01
+      },
+      "evidence": {
+        "summary": "Captures analytical structure without exploding missingness.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.1765
+      },
+      "posterior": {
+        "balanced7": 1,
+        "minimal4": 0,
+        "exhaustive12": 0
+      },
+      "expected_value": {
+        "balanced7": 1,
+        "minimal4": 0,
+        "exhaustive12": 0
+      },
+      "selected_option": "balanced7",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D37",
+      "question": "Primary-field tie-break",
+      "type": "enum",
+      "options": [
+        "dominant_product_then_revenue",
+        "analyst_preference",
+        "duplicate_fields"
+      ],
+      "prior": {
+        "dominant_product_then_revenue": 1,
+        "analyst_preference": 0,
+        "duplicate_fields": 0
+      },
+      "evidence": {
+        "summary": "Makes multi-field assignment reproducible.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 0.97
+      },
+      "posterior": {
+        "dominant_product_then_revenue": 0.97,
+        "analyst_preference": 0.02,
+        "duplicate_fields": 0.01
+      },
+      "expected_value": {
+        "dominant_product_then_revenue": 0.97,
+        "analyst_preference": 0.02,
+        "duplicate_fields": 0.01
+      },
+      "selected_option": "dominant_product_then_revenue",
+      "confidence": "high",
+      "reversible": "yes"
+    },
+    {
+      "id": "D38",
+      "question": "Acquisition success rule",
+      "type": "enum",
+      "options": [
+        "consideration_required",
+        "any_confirmed_acquisition",
+        "profitable_only"
+      ],
+      "prior": {
+        "consideration_required": 0.73,
+        "any_confirmed_acquisition": 0.26,
+        "profitable_only": 0.01
+      },
+      "evidence": {
+        "summary": "Distressed/unknown-value acquisitions are not automatically investor success.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.3699
+      },
+      "posterior": {
+        "consideration_required": 1,
+        "any_confirmed_acquisition": 0,
+        "profitable_only": 0
+      },
+      "expected_value": {
+        "consideration_required": 1,
+        "any_confirmed_acquisition": 0,
+        "profitable_only": 0
+      },
+      "selected_option": "consideration_required",
+      "confidence": "high",
+      "reversible": "no"
+    },
+    {
+      "id": "D39",
+      "question": "Profitable exit rule",
+      "type": "enum",
+      "options": [
+        "moic_gt1",
+        "moic_gt1_5",
+        "issuer_calls_profitable"
+      ],
+      "prior": {
+        "moic_gt1": 0.86,
+        "moic_gt1_5": 0.11,
+        "issuer_calls_profitable": 0.03
+      },
+      "evidence": {
+        "summary": "Requires positive investor economics rather than label-only success.",
+        "source": "Phase 1C design verifier + Jev structured evaluations"
+      },
+      "likelihood": {
+        "selected_multiplier": 1.0581
+      },
+      "posterior": {
+        "moic_gt1": 0.91,
+        "moic_gt1_5": 0.03,
+        "issuer_calls_profitable": 0.06
+      },
+      "expected_value": {
+        "moic_gt1": 0.91,
+        "moic_gt1_5": 0.03,
+        "issuer_calls_profitable": 0.06
+      },
+      "selected_option": "moic_gt1",
+      "confidence": "high",
+      "reversible": "no"
+    }
+  ]
+}
