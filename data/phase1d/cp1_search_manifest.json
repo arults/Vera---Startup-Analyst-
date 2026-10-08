@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-10-08T12:52:19.125927+00:00",
+  "captured_at": "2026-10-08T12:56:28.407572+00:00",
   "files": {
     "cp1_search_candidates.csv": "a8316811653a198303a4c50589b5d889353dfd2812aa33836890ec21a7d0cdd2",
-    "cp1_search_diagnostics.json": "a8779b0d3cde26e0e7c295d5ba6ab16f553e12798ff6514e6fa9ecd63a714035"
+    "cp1_search_diagnostics.json": "6184dd9414c27dd3be5fec4645091e507c9124b0553b3e1e697c9235f2a1db9e"
   },
   "method": "search-discovery-v1",
   "rows": 0
