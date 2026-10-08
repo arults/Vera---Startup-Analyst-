@@ -77,8 +77,15 @@ def verify_all():
     sums=[sum(p.probabilities.values()) for p in pts]
     gates.append(gate("C_12_AJ_PROBABILITY_CONSERVATION",all(abs(x-1)<1e-12 for x in sums),f"sums={sums}"))
     gates.append(gate("C_13_AJ_SURVIVAL_STATE",abs(independent_operating_probability(pts[-1])-.5)<1e-12,f"operating={independent_operating_probability(pts[-1])}"))
-    cr=[CompetingRiskObservation("a","ca",1,"success"),CompetingRiskObservation("b","cb",1,"closure"),CompetingRiskObservation("c","cc",3,None)]
-    gates.append(gate("C_14_SUCCESS_CLOSURE_DISTINCT",cif_at_horizon(cr,"success",3)!=cif_at_horizon(cr,"closure",3) or True,"typed competing causes supported"))
+    cr=[
+        CompetingRiskObservation("a","ca",1,"success"),
+        CompetingRiskObservation("b","cb",2,"closure"),
+        CompetingRiskObservation("c","cc",3,None),
+        CompetingRiskObservation("d","cd",4,"success"),
+    ]
+    success_cif=cif_at_horizon(cr,"success",4)
+    closure_cif=cif_at_horizon(cr,"closure",4)
+    gates.append(gate("C_14_SUCCESS_CLOSURE_DISTINCT",success_cif>closure_cif,f"success={success_cif} closure={closure_cif}"))
     reps=cluster_bootstrap_indices(["c1","c1","c2"],n_boot=10,seed=7)
     gates.append(gate("C_15_CLUSTERED_BOOTSTRAP",all(r.count(0)==r.count(1) for r in reps),"repeat rounds move together"))
 
