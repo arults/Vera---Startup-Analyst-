@@ -2,7 +2,10 @@ import unittest
 from datetime import date
 
 from src.phase1c.model import RoundRecord, validate_round
-from src.phase1c.identity import CompanyIdentity, match_company, audit_match_sample
+from src.phase1c.identity import (
+    CompanyIdentity,IdentityRecord,match_company,audit_match_sample,
+    generate_cross_platform_candidates,build_review_queue
+)
 from src.phase1c.graph import same_economic_round, qualifying_followon, next_round_edges, native_vs_graph_reclassification
 
 def rr(round_id, company, platform, open_date, close_date, valuation, instrument="priced_equity", status="funded_completed"):
@@ -50,6 +53,47 @@ class TestIdentity(unittest.TestCase):
         b=CompanyIdentity("Acme LLC",domain="https://www.acme.com",founders=("Ada Lovelace",))
         self.assertEqual(match_company(a,b).decision,"MATCH")
         self.assertEqual(match_company(a,b).tier,"MEDIUM_BUNDLE")
+
+    def test_cross_platform_candidate_generation(self):
+        rows=[
+            IdentityRecord("wf","wefunder",CompanyIdentity("Acme Inc",domain="acme.com",founders=("Ada",))),
+            IdentityRecord("re","republic_us",CompanyIdentity("Acme LLC",domain="www.acme.com",founders=("Ada",))),
+            IdentityRecord("wf2","wefunder",CompanyIdentity("Acme alt",domain="acme.com",founders=("Ada",))),
+        ]
+        c=generate_cross_platform_candidates(rows)
+        self.assertEqual(len(c),1)
+        self.assertEqual(c[0].result.decision,"MATCH")
+
+    def test_name_only_candidate_goes_to_review(self):
+        rows=[
+            IdentityRecord("a","wefunder",CompanyIdentity("North Star Inc")),
+            IdentityRecord("b","startengine",CompanyIdentity("North Star LLC")),
+        ]
+        c=generate_cross_platform_candidates(rows)
+        self.assertEqual(c[0].result.decision,"REVIEW")
+        q=build_review_queue(c)
+        self.assertEqual(q["mandatory_review_count"],1)
+
+    def test_medium_bundle_always_reviewed(self):
+        rows=[
+            IdentityRecord("a","wefunder",CompanyIdentity("Acme",domain="acme.com",founders=("Ada",))),
+            IdentityRecord("b","startengine",CompanyIdentity("Acme",domain="acme.com",founders=("Ada",))),
+        ]
+        c=generate_cross_platform_candidates(rows)
+        q=build_review_queue(c)
+        self.assertEqual(q["mandatory_review_count"],1)
+
+    def test_strong_match_audit_is_stratified(self):
+        rows=[]
+        for i in range(20):
+            rows.extend([
+                IdentityRecord(f"w{i}","wefunder",CompanyIdentity(f"A{i}",jurisdiction_entity_id=f"E{i}")),
+                IdentityRecord(f"r{i}","republic_us",CompanyIdentity(f"A{i}",jurisdiction_entity_id=f"E{i}")),
+            ])
+        c=generate_cross_platform_candidates(rows)
+        q=build_review_queue(c,.10)
+        self.assertEqual(q["strong_auto_match_count"],20)
+        self.assertGreaterEqual(q["strong_audit_count"],2)
 
     def test_audit_reopens_over_2pct(self):
         m=match_company(CompanyIdentity("A",domain="a.com",founders=("X",)),CompanyIdentity("A",domain="a.com",founders=("X",)))
