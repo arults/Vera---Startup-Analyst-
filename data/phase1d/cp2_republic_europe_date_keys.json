@@ -1,0 +1,25 @@
+{
+  "candidate_urls": 2073,
+  "date_key_frequency": {},
+  "first_live_by_year": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+  },
+  "first_live_known_2020_2025": 0,
+  "first_live_known_share": 0.0,
+  "funded_2020_2025": 952,
+  "funded_by_year": {
+    "2020": 210,
+    "2021": 223,
+    "2022": 205,
+    "2023": 162,
+    "2024": 87,
+    "2025": 65
+  },
+  "rejected_pages": 529,
+  "valid_campaign_pages": 1544
+}

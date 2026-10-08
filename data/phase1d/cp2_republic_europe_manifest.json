@@ -1,0 +1,34 @@
+{
+  "files": {
+    "cp2_republic_europe_date_keys.json": "c510ecbdb122de5241b9c82648e4faf1a16465c0d7962e559b599229b0514505",
+    "cp2_republic_europe_rejected.csv": "99ae08d0edd3116b842aef7acb3d4b5ca98de9a32ec736893cd25ad161b46e4f",
+    "cp2_republic_europe_rounds_raw.csv": "3cf41452c7f7ccc96e0f7a577ffef7e61d0385dd7dccb1a661a76a4a09daabd2"
+  },
+  "generated_at": "2026-10-08T13:11:21.190789Z",
+  "platform": "republic_europe",
+  "summary": {
+    "candidate_urls": 2073,
+    "date_key_frequency": {},
+    "first_live_by_year": {
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0
+    },
+    "first_live_known_2020_2025": 0,
+    "first_live_known_share": 0.0,
+    "funded_2020_2025": 952,
+    "funded_by_year": {
+      "2020": 210,
+      "2021": 223,
+      "2022": 205,
+      "2023": 162,
+      "2024": 87,
+      "2025": 65
+    },
+    "rejected_pages": 529,
+    "valid_campaign_pages": 1544
+  }
+}
