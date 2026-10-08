@@ -48,8 +48,8 @@ class TestOutcomeEvidence(unittest.TestCase):
 
 class TestSurvival(unittest.TestCase):
     def test_valid_curve(self):
-        g=verify_curve([{"survival_before":1.0,"survival":.8,"at_risk":10,"events":2,"ci95_lower":.5,"ci95_upper":.95},{"survival_before":.8,"survival":.6,"at_risk":8,"events":2,"ci95_lower":.3,"ci95_upper":.85}])
-        # second value is not exact product-limit arithmetic and should fail S03
+        g=verify_curve([{"survival_before":1.0,"survival":.8,"at_risk":10,"events":2,"ci95_lower":.5,"ci95_upper":.95},{"survival_before":.8,"survival":.61,"at_risk":8,"events":2,"ci95_lower":.3,"ci95_upper":.85}])
+        # second value deliberately differs from exact product-limit 0.60 and should fail S03
         self.assertTrue(next(x for x in g if x["id"]=="S01_PROBABILITY_BOUNDS")["passed"])
         self.assertTrue(next(x for x in g if x["id"]=="S02_NON_INCREASING")["passed"])
         self.assertFalse(next(x for x in g if x["id"]=="S03_RISK_SET_ARITHMETIC")["passed"])
