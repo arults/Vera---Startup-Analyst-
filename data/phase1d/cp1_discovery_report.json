@@ -1,48 +1,65 @@
 {
-  "captured_at": "2026-10-08T12:37:24.375422+00:00",
+  "captured_at": "2026-10-08T12:41:58.659935+00:00",
+  "method_version": "cp1-discovery-v2",
   "platforms": {
     "crowdcube": {
+      "browser_link_count": 0,
+      "browser_resources": [],
+      "browser_status": [
+        {
+          "error": "playwright_import:ModuleNotFoundError(\"No module named 'playwright'\")"
+        }
+      ],
       "candidate_count": 0,
       "robots": {
         "error": null,
         "final_url": "https://www.crowdcube.com/robots.txt",
         "ok": true,
-        "status": 403
+        "status": 403,
+        "transport": "requests"
       },
       "sample_candidates": [],
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "37209454eb2f3c895621f7fbb3bf4aaf91a109b2061b5dad0809bc671c302997",
+          "content_sha256": "d3dc177efd51146a1033b31fc4a1c8810e5d5353ac91f946fe59fb10f43a6efd",
           "error": null,
           "final_url": "https://www.crowdcube.com/",
           "ok": true,
           "seed": "https://www.crowdcube.com/",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "164c9f26e9599b389f9c1e82e60ca1c317c7e19277055d50ad23934854fffe48",
+          "content_sha256": "3f39245de1e71571054ab494231829fc8fdcac9af507b0cd368e1bdc87dd1de0",
           "error": null,
           "final_url": "https://www.crowdcube.com/explore",
           "ok": true,
           "seed": "https://www.crowdcube.com/explore",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "c3269aa0d91fb08ba585c618eac4088d4422366c5a302f6cf94922f3a07ab823",
+          "content_sha256": "881e387d5844067237e1fcfcf80329ec0fcd8fd3c6747967d4b9b4f3dddffe22",
           "error": null,
           "final_url": "https://www.crowdcube.com/companies",
           "ok": true,
           "seed": "https://www.crowdcube.com/companies",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "25420671ed79532e1ae6533c1855832bba9a1bd3fc826bcc4c92ea5e877fddec",
+          "content_sha256": "56c971552f3b5005a707b272f6b1b24ea59fcc4377a94ed666b1424b9cd3fefd",
           "error": null,
           "final_url": "https://www.crowdcube.com/investments",
           "ok": true,
           "seed": "https://www.crowdcube.com/investments",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         }
       ],
       "sitemap_candidates": [
@@ -54,69 +71,115 @@
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://www.crowdcube.com/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://www.crowdcube.com/sitemap_index.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://www.crowdcube.com/sitemap-index.xml"
         }
       ],
       "sitemap_url_count": 0
     },
     "republic_europe": {
-      "candidate_count": 2,
+      "browser_link_count": 0,
+      "browser_resources": [],
+      "browser_status": [],
+      "candidate_count": 2073,
       "robots": {
         "error": null,
         "final_url": "https://europe.republic.com/robots.txt",
         "ok": true,
-        "status": 200
+        "status": 200,
+        "transport": "requests"
       },
       "sample_candidates": [
-        "https://europe.republic.com/institutions-intermediary-investors",
-        "https://europe.republic.com/insights/"
+        "https://europe.republic.com/privacy_notice",
+        "https://europe.republic.com/playbrighter",
+        "https://europe.republic.com/digital-spin",
+        "https://europe.republic.com/satago",
+        "https://europe.republic.com/playenable-ltd",
+        "https://europe.republic.com/gigdropper",
+        "https://europe.republic.com/specialised-cameras",
+        "https://europe.republic.com/swogo1",
+        "https://europe.republic.com/uk-work-study-ltd",
+        "https://europe.republic.com/storemates-co-uk",
+        "https://europe.republic.com/u-challenge",
+        "https://europe.republic.com/bird-cycleworks",
+        "https://europe.republic.com/flexowrap",
+        "https://europe.republic.com/neardesk",
+        "https://europe.republic.com/somethingindie",
+        "https://europe.republic.com/evocha",
+        "https://europe.republic.com/microcosm",
+        "https://europe.republic.com/rare-pink",
+        "https://europe.republic.com/veeqo",
+        "https://europe.republic.com/the-printers-inc",
+        "https://europe.republic.com/sir-f-s",
+        "https://europe.republic.com/devario",
+        "https://europe.republic.com/swogo2",
+        "https://europe.republic.com/trustedhousesitters-com",
+        "https://europe.republic.com/desklodge",
+        "https://europe.republic.com/neardesk2",
+        "https://europe.republic.com/maxim-solutions",
+        "https://europe.republic.com/viva-la-vita",
+        "https://europe.republic.com/uk-work-study-ltd1",
+        "https://europe.republic.com/dinnr"
       ],
-      "seed_link_count": 18,
+      "seed_link_count": 27,
       "seed_status": [
         {
-          "content_sha256": "ae7233f2702fc961f46116892897323c8f389bc8bda2806eb8a5f141b60de19d",
+          "content_sha256": "6ed6a6f2696745ad206468b1eac843318b0e8db72597d02162174eb0dfdac3b8",
           "error": null,
           "final_url": "https://europe.republic.com/",
           "ok": true,
           "seed": "https://europe.republic.com/",
-          "status": 200
+          "status": 200,
+          "title": "Invest online in startups via equity crowdfunding | Republic Europe",
+          "transport": "requests"
         },
         {
-          "content_sha256": "f002f421ae72f231307daee54934839cadb322bb03df4042ba23fe888194308d",
+          "content_sha256": "50f36c299de852bd73a77211e43e17ed69bcc619bdd4c9761c550354863c6538",
           "error": null,
-          "final_url": "https://europe.republic.com:443/invest/raising-now",
+          "final_url": "https://europe.republic.com/invest/raising-now",
           "ok": true,
-          "seed": "https://europe.republic.com/invest",
-          "status": 200
+          "seed": "https://europe.republic.com/invest/raising-now",
+          "status": 200,
+          "title": "Invest In Startups. Equity Crowdfunding For Businesses | Republic Europe",
+          "transport": "requests"
         },
         {
-          "content_sha256": "d4f1e0f56fab71182fde3eb04bd3ceda6e6d2650b6e1cdf4c3576421debf71ac",
+          "content_sha256": "528281d4ce14563c24149281fe44d1f679abfc513e650d176ea7521f496f0768",
           "error": null,
-          "final_url": "https://europe.republic.com/companies",
+          "final_url": "https://europe.republic.com/invest/secondary-market",
           "ok": true,
-          "seed": "https://europe.republic.com/companies",
-          "status": 404
+          "seed": "https://europe.republic.com/invest/secondary-market",
+          "status": 404,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "1c1c746293175afcf4a53271fbb623b6789e1ba5a923c1121543f392873b9b0e",
+          "content_sha256": "2d7c2c6edd56f3885a853faf04e54f02fd10083900d20f94c64a4f53b1fbf87b",
           "error": null,
-          "final_url": "https://europe.republic.com/opportunities",
+          "final_url": "https://europe.republic.com/funded",
           "ok": true,
-          "seed": "https://europe.republic.com/opportunities",
-          "status": 404
+          "seed": "https://europe.republic.com/funded",
+          "status": 404,
+          "title": null,
+          "transport": "requests"
         }
       ],
       "sitemap_candidates": [
@@ -129,61 +192,75 @@
         {
           "error": null,
           "ok": true,
+          "prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"",
           "status": 200,
+          "transport": "requests",
           "url": "https://europe.republic.com/sitemaps/sitemap.xml.gz"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "",
           "status": 404,
+          "transport": "requests",
           "url": "https://europe.republic.com/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "",
           "status": 404,
+          "transport": "requests",
           "url": "https://europe.republic.com/sitemap_index.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "",
           "status": 404,
+          "transport": "requests",
           "url": "https://europe.republic.com/sitemap-index.xml"
         }
       ],
-      "sitemap_url_count": 0
+      "sitemap_url_count": 2896
     },
     "republic_us": {
-      "candidate_count": 29,
+      "browser_link_count": 0,
+      "browser_resources": [],
+      "browser_status": [],
+      "candidate_count": 22,
       "robots": {
         "error": null,
         "final_url": "https://republic.com/robots.txt",
         "ok": true,
-        "status": 200
+        "status": 200,
+        "transport": "requests"
       },
       "sample_candidates": [
-        "https://republic.com/register?after_sign_in=/investment-opportunities",
-        "https://republic.com/investment-opportunities",
-        "https://republic.com/ventures",
-        "https://republic.com/trading",
-        "https://republic.com/sharedrops",
-        "https://republic.com/launchpad",
-        "https://republic.com/tokenization",
-        "https://republic.com/infrastructure",
-        "https://republic.com/advisory",
-        "https://republic.com/note",
         "https://republic.com/animoca-trade",
-        "https://republic.com/wallet",
-        "https://republic.com/help",
-        "https://republic.com/risks",
-        "https://republic.com/accessibility",
-        "https://republic.com/insights",
-        "https://republic.com/events",
-        "https://republic.com/security",
-        "https://republic.com/reg-cf-offerings",
-        "https://republic.com/funded-ventures"
+        "https://republic.com/open-account",
+        "https://republic.com/secondary-market",
+        "https://republic.com/capital",
+        "https://republic.com/app",
+        "https://republic.com/academy",
+        "https://republic.com/capital-r",
+        "https://republic.com/miso-robotics",
+        "https://republic.com/animoca-brands",
+        "https://republic.com/code-blue",
+        "https://republic.com/fosh",
+        "https://republic.com/hope-neuron",
+        "https://republic.com/mightylicious",
+        "https://republic.com/mintworks",
+        "https://republic.com/olo",
+        "https://republic.com/sgold",
+        "https://republic.com/sherpa-healthy",
+        "https://republic.com/shredpay",
+        "https://republic.com/xavier-stinson",
+        "https://republic.com/xprize",
+        "https://republic.com/tradefunded",
+        "https://republic.com/yakuru"
       ],
-      "seed_link_count": 49,
+      "seed_link_count": 63,
       "seed_status": [
         {
           "content_sha256": "b05e2f040298bea9c4b95f0b8fdcb3213954b7dd7b4fb03f67321da6020135ac",
@@ -191,23 +268,49 @@
           "final_url": "https://republic.com/",
           "ok": true,
           "seed": "https://republic.com/",
-          "status": 200
+          "status": 200,
+          "title": "Republic \u2014 Invest in Startups, Crypto and More",
+          "transport": "requests"
         },
         {
           "content_sha256": "a5e347d26124221f3712c52ebc3b8b5a6412af56a1ba3e2ff035df7494f06231",
           "error": null,
           "final_url": "https://republic.com/investment-opportunities",
           "ok": true,
-          "seed": "https://republic.com/companies",
-          "status": 200
+          "seed": "https://republic.com/investment-opportunities",
+          "status": 200,
+          "title": "Explore investment opportunities on Republic",
+          "transport": "requests"
         },
         {
-          "content_sha256": "3d1dce9f9672aaac832341a6e90eb10312a921657d096a9c7a81a90c5caa1f04",
+          "content_sha256": "bd3ad57f750c65674d83f04321954ebe532884fceee28343bbc5093ca085e241",
           "error": null,
           "final_url": "https://republic.com/companies/portfolio",
           "ok": true,
           "seed": "https://republic.com/companies/portfolio",
-          "status": 200
+          "status": 200,
+          "title": "Portfolio \u2014 Republic",
+          "transport": "requests"
+        },
+        {
+          "content_sha256": "78359d88804759e6245965af896ffafdf1852a08dba0cf908050bd6ab1bb258d",
+          "error": null,
+          "final_url": "https://republic.com/funded-ventures",
+          "ok": true,
+          "seed": "https://republic.com/funded-ventures",
+          "status": 200,
+          "title": "Funded ventures \u2014 Republic",
+          "transport": "requests"
+        },
+        {
+          "content_sha256": "8916ee99fcca4a88167740f0b436a9d944f52f4d2dc66e3ab0a938e4ffabcb36",
+          "error": null,
+          "final_url": "https://republic.com/reg-cf-offerings",
+          "ok": true,
+          "seed": "https://republic.com/reg-cf-offerings",
+          "status": 200,
+          "title": "Republic \u2014 where anyone can invest in startups",
+          "transport": "requests"
         }
       ],
       "sitemap_candidates": [
@@ -220,72 +323,96 @@
         {
           "error": null,
           "ok": true,
+          "prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><sitemapindex xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLoca",
           "status": 200,
+          "transport": "requests",
           "url": "https://republic.com/sitemaps/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html> <html lang='en'> <head> <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'> <meta conten",
           "status": 404,
+          "transport": "requests",
           "url": "https://republic.com/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html> <html lang='en'> <head> <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'> <meta conten",
           "status": 404,
+          "transport": "requests",
           "url": "https://republic.com/sitemap_index.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html> <html lang='en'> <head> <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'> <meta conten",
           "status": 404,
+          "transport": "requests",
           "url": "https://republic.com/sitemap-index.xml"
         }
       ],
       "sitemap_url_count": 0
     },
     "startengine": {
+      "browser_link_count": 0,
+      "browser_resources": [],
+      "browser_status": [
+        {
+          "error": "playwright_import:ModuleNotFoundError(\"No module named 'playwright'\")"
+        }
+      ],
       "candidate_count": 0,
       "robots": {
         "error": null,
         "final_url": "https://www.startengine.com/robots.txt",
         "ok": true,
-        "status": 202
+        "status": 403,
+        "transport": "requests"
       },
       "sample_candidates": [],
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": null,
+          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
           "error": null,
           "final_url": "https://www.startengine.com/",
           "ok": true,
           "seed": "https://www.startengine.com/",
-          "status": 202
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": null,
+          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
           "error": null,
           "final_url": "https://www.startengine.com/explore",
           "ok": true,
           "seed": "https://www.startengine.com/explore",
-          "status": 202
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": null,
+          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
           "error": null,
           "final_url": "https://www.startengine.com/explore/offerings",
           "ok": true,
           "seed": "https://www.startengine.com/explore/offerings",
-          "status": 202
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": null,
+          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
           "error": null,
           "final_url": "https://www.startengine.com/offering",
           "ok": true,
           "seed": "https://www.startengine.com/offering",
-          "status": 202
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         }
       ],
       "sitemap_candidates": [
@@ -297,66 +424,88 @@
         {
           "error": null,
           "ok": true,
-          "status": 202,
+          "prefix": "<html>\r <head><title>403 Forbidden</title></head>\r <body>\r <center><h1>403 Forbidden</h1></center>\r </body>\r </html>\r <!",
+          "status": 403,
+          "transport": "requests",
           "url": "https://www.startengine.com/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
-          "status": 202,
+          "prefix": "<html>\r <head><title>403 Forbidden</title></head>\r <body>\r <center><h1>403 Forbidden</h1></center>\r </body>\r </html>\r <!",
+          "status": 403,
+          "transport": "requests",
           "url": "https://www.startengine.com/sitemap_index.xml"
         },
         {
           "error": null,
           "ok": true,
-          "status": 202,
+          "prefix": "<html>\r <head><title>403 Forbidden</title></head>\r <body>\r <center><h1>403 Forbidden</h1></center>\r </body>\r </html>\r <!",
+          "status": 403,
+          "transport": "requests",
           "url": "https://www.startengine.com/sitemap-index.xml"
         }
       ],
       "sitemap_url_count": 0
     },
     "wefunder": {
+      "browser_link_count": 0,
+      "browser_resources": [],
+      "browser_status": [
+        {
+          "error": "playwright_import:ModuleNotFoundError(\"No module named 'playwright'\")"
+        }
+      ],
       "candidate_count": 0,
       "robots": {
         "error": null,
         "final_url": "https://wefunder.com/robots.txt",
         "ok": true,
-        "status": 200
+        "status": 200,
+        "transport": "requests"
       },
       "sample_candidates": [],
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "add183e868de51b340329456a8cd803fcb13cb3c4b793d12c96723cbbf1cadb6",
+          "content_sha256": "b8ca07b1aef39c159ef16b2bfbbe3a8e720b7a3d7ab0e909096665bb8168822e",
           "error": null,
           "final_url": "https://wefunder.com/",
           "ok": true,
           "seed": "https://wefunder.com/",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "e4a0dba77e157ee0d5f1b5d90f07776f974a8aa1e58bb48b849d007320575614",
+          "content_sha256": "263d0974621eb28fa81ce8aa941113b9251c356371a1bc08e245093e94d8280c",
           "error": null,
           "final_url": "https://wefunder.com/explore",
           "ok": true,
           "seed": "https://wefunder.com/explore",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "7fc62250b5dd86731beff16b1da3881cdad89e642c3e15d0f5189435aea0d053",
+          "content_sha256": "7f4d3eafeb4691d140fd5867c52360eb97724a0e2f6cfc09602a7ae9adfafd6b",
           "error": null,
           "final_url": "https://wefunder.com/companies",
           "ok": true,
           "seed": "https://wefunder.com/companies",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         },
         {
-          "content_sha256": "336a936e8f883a512aa4b5bd960c2b60482cabab855ce762614ba358840c3555",
+          "content_sha256": "f33583e0e088f19831f46b63c68b3dfa778cd75eddfef58f26d75d8c859efd32",
           "error": null,
           "final_url": "https://wefunder.com/funded",
           "ok": true,
           "seed": "https://wefunder.com/funded",
-          "status": 403
+          "status": 403,
+          "title": null,
+          "transport": "requests"
         }
       ],
       "sitemap_candidates": [
@@ -372,43 +521,57 @@
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://wefunder.com/sitemap"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "# Wefunder Knowledge Base \u2014 Article Index  All published articles in the Wefunder Knowledge Base. Each links to a plain-",
           "status": 200,
+          "transport": "requests",
           "url": "https://wefunder.com/llms-articles.txt"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "# Wefunder Case Studies  Real stories from real founders who raised on Wefunder.  ## Substack: A New Economic Engine for",
           "status": 200,
+          "transport": "requests",
           "url": "https://wefunder.com/llms-case-studies.txt"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "# Wefunder Fundraising Playbook  Time-tested guides, templates, and resources for running a successful Community Round o",
           "status": 200,
+          "transport": "requests",
           "url": "https://wefunder.com/llms-playbook.txt"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://wefunder.com/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://wefunder.com/sitemap_index.xml"
         },
         {
           "error": null,
           "ok": true,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
+          "transport": "requests",
           "url": "https://wefunder.com/sitemap-index.xml"
         }
       ],
