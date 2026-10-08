@@ -119,3 +119,13 @@ Phase 1C was implemented as an executable framework only. Full five-platform dat
 
 ### Current verified state before plateau
 GitHub Actions run 37776384631: 45/45 tests PASS and 25/25 Phase 1C deterministic gates PASS. Phase 1B regression remains green (run 37776384486). Jev round 6 selected final documentation as the only next action with probability 1.00 and no material design-node flip with probability 1.00.
+
+
+## 2026-10-08 — Phase 1C plateau and v0.5.0 promotion
+
+The executable code was frozen after the hardened verifier passed 45/45 tests and 25/25 gates. No additional implementation feature was added during plateau assessment.
+
+- Round 7: plateau vs round 6 yes probability 0.77; no design flip probability 0.99.
+- Round 8: plateau vs round 7 yes probability 0.86; no design flip probability 0.96.
+
+The two consecutive plateau rounds satisfy the requested stop condition. Vera v0.5.0 therefore promotes the Phase 1C **framework only**. No multi-platform empirical rate is promoted by this version.
