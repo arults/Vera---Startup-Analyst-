@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vera.local/schema/phase1c-round.json",
+  "title": "Vera Phase 1C company-round",
+  "type": "object",
+  "required": [
+    "round_id",
+    "canonical_company_id",
+    "platform",
+    "offering_year",
+    "first_live_date",
+    "status",
+    "primary_field",
+    "instrument_type",
+    "legal_name",
+    "source_url",
+    "source_availability"
+  ],
+  "properties": {
+    "round_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_company_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "platform": {
+      "enum": [
+        "wefunder",
+        "startengine",
+        "crowdcube",
+        "republic_us",
+        "republic_europe"
+      ]
+    },
+    "offering_year": {
+      "type": "integer",
+      "minimum": 2020,
+      "maximum": 2025
+    },
+    "first_live_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "completion_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "funded_completed",
+        "failed",
+        "withdrawn"
+      ]
+    },
+    "primary_field": {
+      "enum": [
+        "saas_enterprise_software",
+        "biotech_therapeutics",
+        "healthcare_medtech",
+        "fintech_insurtech",
+        "consumer_retail",
+        "marketplaces_platforms",
+        "hardware_robotics_deeptech",
+        "climate_energy_industrial",
+        "food_beverage_agtech",
+        "media_gaming_creator",
+        "mobility_logistics_aerospace",
+        "realestate_hospitality_proptech",
+        "other_diversified"
+      ]
+    },
+    "instrument_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_availability": {
+      "enum": [
+        "PUBLIC_VISIBLE",
+        "AUTH_REQUIRED",
+        "UNAVAILABLE"
+      ]
+    },
+    "comparable_valuation": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "valuation_cap": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "amount_raised": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "cohost_platforms": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "wefunder",
+          "startengine",
+          "crowdcube",
+          "republic_us",
+          "republic_europe"
+        ]
+      },
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": true
+}
