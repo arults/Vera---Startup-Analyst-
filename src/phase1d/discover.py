@@ -125,10 +125,14 @@ def parse_sitemap(start_url,hosts,max_nested=100,max_urls=200000):
         locs=[(x.text or "").strip() for x in root.iter() if x.tag.lower().endswith("loc")]
         if root.tag.lower().endswith("sitemapindex"):
             for loc in locs:
-                if urlparse(loc).netloc in hosts and loc not in seen: queue.append(loc)
+                full=urljoin(u,loc)
+                if urlparse(full).netloc in hosts and full not in seen:
+                    queue.append(full)
         else:
             for loc in locs:
-                if urlparse(loc).netloc in hosts: urls.append(loc)
+                full=urljoin(u,loc)
+                if urlparse(full).netloc in hosts:
+                    urls.append(full)
     return list(dict.fromkeys(urls)),status
 
 def html_links(url,hosts):
