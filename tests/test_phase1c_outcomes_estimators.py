@@ -5,8 +5,10 @@ from src.phase1c.outcomes import (
     OutcomeEvent,EventType,State,is_qualified_success,is_confirmed_closure,next_state,censor_date
 )
 from src.phase1c.estimators import (
-    TimedTransition,SubjectFollowup,aalen_johansen_occupancy,
-    independent_operating_probability,cluster_bootstrap_indices,km_greenwood_interval
+    TimedTransition,SubjectFollowup,CompetingRiskObservation,
+    aalen_johansen_occupancy,independent_operating_probability,
+    competing_risk_cif,cif_at_horizon,bootstrap_cif_interval,
+    cluster_bootstrap_indices,km_greenwood_interval,interval_disagreement
 )
 from src.phase1c.reporting import rq1_cell_decision,rq2_field_cell_decision,adjacent_pool_order,lost_followup_sensitivity
 
@@ -25,7 +27,7 @@ class TestOutcomes(unittest.TestCase):
         self.assertTrue(is_qualified_success(e2))
         self.assertEqual(next_state(State.OPERATING_PRE_SUCCESS,e2),State.TERMINAL_SUCCESS_EXIT)
 
-    def test_secondary_or_nonplatform_cannot_create_success(self):
+    def test_nonplatform_cannot_create_success(self):
         e=OutcomeEvent("r",date(2024,1,1),EventType.IPO_DIRECT_LISTING,"u",False)
         self.assertFalse(is_qualified_success(e))
 
@@ -49,6 +51,7 @@ class TestEstimator(unittest.TestCase):
         self.assertEqual(len(pts),2)
         self.assertAlmostEqual(independent_operating_probability(pts[0]),1.0)
         self.assertAlmostEqual(independent_operating_probability(pts[1]),0.5)
+        self.assertAlmostEqual(sum(pts[-1].probabilities.values()),1.0)
 
     def test_event_after_censor_rejected(self):
         with self.assertRaises(ValueError):
@@ -57,16 +60,49 @@ class TestEstimator(unittest.TestCase):
                 [SubjectFollowup("a","c",2)]
             )
 
+    def test_competing_risk_success_cif(self):
+        obs=[
+            CompetingRiskObservation("a","ca",1,"success"),
+            CompetingRiskObservation("b","cb",1,"closure"),
+            CompetingRiskObservation("c","cc",3,None),
+            CompetingRiskObservation("d","cd",4,"success"),
+        ]
+        pts=competing_risk_cif(obs,"success")
+        self.assertAlmostEqual(pts[0].cumulative_incidence,.25)
+        # After two competing events at t=1, S=0.5; second success at t=4 has n=1.
+        self.assertAlmostEqual(cif_at_horizon(obs,"success",4),.75)
+
+    def test_closure_cif_is_distinct_from_success(self):
+        obs=[
+            CompetingRiskObservation("a","ca",1,"success"),
+            CompetingRiskObservation("b","cb",2,"closure"),
+            CompetingRiskObservation("c","cc",3,None),
+        ]
+        self.assertNotEqual(cif_at_horizon(obs,"success",3),cif_at_horizon(obs,"closure",3))
+
     def test_cluster_bootstrap_preserves_company_rounds(self):
         reps=cluster_bootstrap_indices(["c1","c1","c2"],n_boot=5,seed=1)
         self.assertEqual(len(reps),5)
-        # c1 is sampled as a unit: its two row indices occur together with equal multiplicity.
         for idx in reps:
             self.assertEqual(idx.count(0),idx.count(1))
+
+    def test_bootstrap_cif_contract(self):
+        obs=[
+            CompetingRiskObservation("a1","c1",1,"success"),
+            CompetingRiskObservation("a2","c1",3,None),
+            CompetingRiskObservation("b1","c2",2,"closure"),
+            CompetingRiskObservation("c1","c3",4,None),
+        ]
+        point,lo,hi=bootstrap_cif_interval(obs,"success",4,n_boot=50,seed=3)
+        self.assertTrue(0<=lo<=point<=hi<=1)
 
     def test_greenwood_diagnostic_bounds(self):
         s,lo,hi=km_greenwood_interval([1,2,3],[True,False,False],2)
         self.assertTrue(0<=lo<=s<=hi<=1)
+
+    def test_interval_disagreement(self):
+        self.assertTrue(interval_disagreement((.5,.9),(.2,.6),.1))
+        self.assertFalse(interval_disagreement((.5,.8),(.52,.82),.1))
 
 class TestReporting(unittest.TestCase):
     def test_rq1_low_n_still_reports(self):
