@@ -1,0 +1,30 @@
+{
+  "checkpoint": "PHASE_1B_CP4",
+  "verified_at": "2026-10-08",
+  "github_actions": {
+    "run_id": 37766937563,
+    "job_id": 113276786768,
+    "conclusion": "success",
+    "tests_passed": 18,
+    "tests_failed": 0
+  },
+  "scope": "Promoted v0.4.0 reference-class registry plus full Phase 1B denominator/outcome/survival verifier",
+  "registry_integrity_tests": [
+    "promoted version/status/scope",
+    "five-year values match frozen outputs",
+    "late-bound sensitivity values match frozen outputs",
+    "input hashes match CP3 verifier evidence",
+    "six-year output remains non-promoted"
+  ],
+  "phase1b_gates": {
+    "denominator": "D01-D08 PASS",
+    "outcomes": "O01-O07 PASS",
+    "survival": "S01-S03 PASS",
+    "registry": "5/5 registry integrity tests PASS"
+  },
+  "input_hashes": {
+    "manifest_sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+    "outcomes_sha256": "7f87d79c2a24bf748a6751180fed4cc286b678e0621d4fcbe8ec8b38b2afb5fc"
+  },
+  "promotion_gate": "PASS"
+}
