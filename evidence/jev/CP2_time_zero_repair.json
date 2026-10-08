@@ -1,0 +1,25 @@
+{
+  "evaluated_at": "2026-10-08",
+  "model": "jev-1.13.0",
+  "issue": "D08 chronology failed because some final campaign deadlines were later than a final/closed C-U filing.",
+  "answers": {
+    "time_zero_rule": {
+      "choice": "explicit_else_min_deadline_cu",
+      "confidence": 1,
+      "probabilities": {
+        "deadline_always": 0,
+        "explicit_else_min_deadline_cu": 1,
+        "cu_date_always": 0,
+        "exclude_without_explicit_date": 0
+      }
+    },
+    "retain_sensitivity": {
+      "yes_probability": 0.79
+    },
+    "denominator_affected": {
+      "yes_probability": 0.19
+    }
+  },
+  "implementation": "explicit C-U date if present; else min(latest SEC deadline, selected final/closed C-U filing date); proxy rows retain late-bound sensitivity date",
+  "denominator_membership_changed": false
+}
