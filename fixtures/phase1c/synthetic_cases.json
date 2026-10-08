@@ -1,0 +1,40 @@
+{
+  "description": "Synthetic adversarial cases only; never empirical Phase 1C data.",
+  "cases": [
+    {
+      "id": "same_name_false_match",
+      "expected": "REVIEW",
+      "rule": "name similarity alone never auto-matches"
+    },
+    {
+      "id": "two_medium_identity",
+      "expected": "MATCH",
+      "rule": "domain + founder bundle can auto-match"
+    },
+    {
+      "id": "cohost_same_round",
+      "expected": "COHOST_SAME_ROUND",
+      "rule": "same issuer/terms + overlapping window is one economic round"
+    },
+    {
+      "id": "cross_platform_followon",
+      "expected": "predecessor_success_new_row",
+      "rule": "comparable priced successor >=1.5x credits predecessor and starts new clock"
+    },
+    {
+      "id": "safe_cap_not_valuation",
+      "expected": "not_success",
+      "rule": "valuation cap cannot substitute for priced comparable valuation"
+    },
+    {
+      "id": "young_cohort_censor",
+      "expected": "right_censored",
+      "rule": "2024-2025 never get crude completion-adjusted rates"
+    },
+    {
+      "id": "quiet_company",
+      "expected": "censor_not_closure",
+      "rule": "no news/stale page is not closure"
+    }
+  ]
+}
