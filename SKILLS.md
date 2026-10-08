@@ -86,3 +86,27 @@ RQ2 cell gate:
 
 ## Next execution
 The next phase may populate the Phase 1C contracts with the real 2020–2025 platform data. Do not reopen Phase 1C design unless real execution produces a concrete contract failure, identity-error rate >2%, censoring/ascertainment failure, or a Jev/Verifier gate failure.
+
+
+## Phase 1D — real study execution (target Vera v0.6.0)
+Status: IN PROGRESS
+Date: 2026-10-08
+
+Execution checkpoints:
+1. CP1 source census + coverage manifests — PASS_WITH_SUPPRESSION
+2. CP2 normalized rounds + identity graph — IN PROGRESS
+3. CP3 outcome tracing + censoring — pending
+4. CP4 estimates + Verifier/Jev re-execution loop — pending
+5. CP5 plateau/final promotion — pending
+
+CP1 coverage:
+- Republic Europe: PASS_NATIVE_ENUMERABLE (2,896 sitemap URLs / 2,073 candidate slugs).
+- StartEngine: CENSUS_INCOMPLETE — official directory says 1,539 offerings but per-year complete URL census not recovered.
+- Republic US: CENSUS_INCOMPLETE.
+- Wefunder: CENSUS_INCOMPLETE.
+- Crowdcube: CENSUS_INCOMPLETE.
+
+Jev requires rate suppression for every CENSUS_INCOMPLETE platform-year cell. Search engines may discover canonical platform URLs, but snippets are never evidence. Public extraction of a canonical platform campaign page is acceptable platform evidence.
+
+Current next action:
+Normalize and validate the full Republic Europe native universe. Do not substitute funded year for first-live offering year unless a later typed Jev decision explicitly permits it after measured source failure.
