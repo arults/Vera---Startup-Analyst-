@@ -1,0 +1,94 @@
+{
+  "registry_id": "wefunder_regcf_2020_operating_survival_v1",
+  "vera_version": "0.4.0",
+  "status": "PROMOTED_LIMITED_REFERENCE_CLASS",
+  "promoted_at": "2026-10-08",
+  "analysis_cutoff": "2026-10-08",
+  "estimand": "Operating survival after confirmed successful Regulation Crowdfunding funding on Wefunder",
+  "cohort": {
+    "intermediary": "Wefunder Portal LLC",
+    "intermediary_cik": "0001670254",
+    "initial_form_c_year": 2020,
+    "funded_inclusion": "Direct SEC evidence of successful close or positive final proceeds",
+    "n": 42,
+    "observed_failures_total": 4
+  },
+  "time_zero": {
+    "definition": "Confirmed funding-close date",
+    "proxy_rows": 40,
+    "explicit_close_rows": 2,
+    "sensitivity": "Late-bound SEC funding-close dates are reported alongside the primary estimate"
+  },
+  "endpoint_rules": {
+    "failure": [
+      "shutdown",
+      "dissolution",
+      "bankruptcy",
+      "liquidation",
+      "clearly ceased operations"
+    ],
+    "acquisition": "non-failure terminal censor",
+    "public_listing": "primary censor at listing; continue-operating sensitivity retained",
+    "unknown": "right-censor at last independently confirmed active observation; never infer survival from silence"
+  },
+  "promoted_horizon": {
+    "years": 5,
+    "primary": {
+      "kaplan_meier_survival": 0.9301470588235294,
+      "ci95_lower": 0.7439661019746592,
+      "ci95_upper": 0.9824270488121086,
+      "at_risk": 12,
+      "failures_cumulative": 2,
+      "censored_cumulative": 28
+    },
+    "late_bound_sensitivity": {
+      "kaplan_meier_survival": 0.9256661991584854,
+      "ci95_lower": 0.7306904471566094,
+      "ci95_upper": 0.9811646010997864,
+      "at_risk": 8,
+      "failures_cumulative": 2,
+      "censored_cumulative": 32
+    },
+    "listing_continue_sensitivity": "No change to the current five-year estimate"
+  },
+  "not_promoted": {
+    "six_year_reason": "Underpowered tail: primary at-risk n=3; late-bound at-risk n=1",
+    "six_year_jev_yes_probability": 0.08
+  },
+  "applicability": {
+    "direct_substitution_for_company_success_probability": false,
+    "rule": "Use as a reference-class anchor or bound only after applicability checks; do not substitute for P(company succeeds), P(PMF), P(financing survives), or other startup-specific causal probabilities.",
+    "required_checks": [
+      "platform/cohort comparability",
+      "stage and age",
+      "sector/business-model relevance",
+      "capital intensity",
+      "geography/regulatory context",
+      "funding structure",
+      "follow-up horizon"
+    ]
+  },
+  "evidence_quality": {
+    "outcome_rows": 42,
+    "active_censor": 35,
+    "failure": 4,
+    "acquisition_censor": 2,
+    "listing_censor": 1,
+    "early_sec_fallback_rows": 9,
+    "company_controlled_fallback_rows": 4,
+    "company_fallback_policy": "Allowed only after documented independent-search exhaustion and labelled low/medium confidence"
+  },
+  "provenance": {
+    "manifest_sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+    "outcomes_sha256": "7f87d79c2a24bf748a6751180fed4cc286b678e0621d4fcbe8ec8b38b2afb5fc",
+    "verifier_run_id": 37766586864,
+    "verifier_gates": "D01-D08, O01-O07, S01-S03 PASS",
+    "cp3_jev_state": "pass_limited_5y",
+    "cp3_promote_5y_yes_probability": 0.79,
+    "cp4_final_state": "complete_limited_reference_class",
+    "cp4_version_selection_probability": 0.98,
+    "cp4_version_confidence": 0.97,
+    "cp4_direct_substitution_yes_probability": 0.06,
+    "cp4_phase_complete_yes_probability": 0.73
+  }
+}
