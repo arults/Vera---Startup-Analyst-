@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T12:41:58.659935+00:00",
+  "captured_at": "2026-10-08T12:43:57.102464+00:00",
   "method_version": "cp1-discovery-v2",
   "platforms": {
     "crowdcube": {
@@ -7,7 +7,32 @@
       "browser_resources": [],
       "browser_status": [
         {
-          "error": "playwright_import:ModuleNotFoundError(\"No module named 'playwright'\")"
+          "final_url": "https://www.crowdcube.com/",
+          "link_count": 0,
+          "seed": "https://www.crowdcube.com/",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://www.crowdcube.com/explore",
+          "link_count": 0,
+          "seed": "https://www.crowdcube.com/explore",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://www.crowdcube.com/companies",
+          "link_count": 0,
+          "seed": "https://www.crowdcube.com/companies",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://www.crowdcube.com/investments",
+          "link_count": 0,
+          "seed": "https://www.crowdcube.com/investments",
+          "status": 403,
+          "title": "Just a moment..."
         }
       ],
       "candidate_count": 0,
@@ -16,50 +41,50 @@
         "final_url": "https://www.crowdcube.com/robots.txt",
         "ok": true,
         "status": 403,
-        "transport": "requests"
+        "transport": "curl_cffi"
       },
       "sample_candidates": [],
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "d3dc177efd51146a1033b31fc4a1c8810e5d5353ac91f946fe59fb10f43a6efd",
+          "content_sha256": "bba5412fb22a5b28e948786b0afcb0764bcf3851ed8789c0a705c571dc8727a6",
           "error": null,
           "final_url": "https://www.crowdcube.com/",
           "ok": true,
           "seed": "https://www.crowdcube.com/",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "3f39245de1e71571054ab494231829fc8fdcac9af507b0cd368e1bdc87dd1de0",
+          "content_sha256": "b156db383b0cc1641378a71aabbbda3179fc0b77f62a5a3f14999ca7aff74789",
           "error": null,
           "final_url": "https://www.crowdcube.com/explore",
           "ok": true,
           "seed": "https://www.crowdcube.com/explore",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "881e387d5844067237e1fcfcf80329ec0fcd8fd3c6747967d4b9b4f3dddffe22",
+          "content_sha256": "46589c17b315a54321e589beeb6a19363c9eab36f10e05ce5c32ed3e52e114b4",
           "error": null,
           "final_url": "https://www.crowdcube.com/companies",
           "ok": true,
           "seed": "https://www.crowdcube.com/companies",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "56c971552f3b5005a707b272f6b1b24ea59fcc4377a94ed666b1424b9cd3fefd",
+          "content_sha256": "f43e4c709216bbac23dcbfa85352b29851037bfc2207950c2879eb9914d14040",
           "error": null,
           "final_url": "https://www.crowdcube.com/investments",
           "ok": true,
           "seed": "https://www.crowdcube.com/investments",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         }
       ],
       "sitemap_candidates": [
@@ -73,7 +98,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://www.crowdcube.com/sitemap.xml"
         },
         {
@@ -81,7 +106,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://www.crowdcube.com/sitemap_index.xml"
         },
         {
@@ -89,7 +114,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://www.crowdcube.com/sitemap-index.xml"
         }
       ],
@@ -142,7 +167,7 @@
       "seed_link_count": 27,
       "seed_status": [
         {
-          "content_sha256": "6ed6a6f2696745ad206468b1eac843318b0e8db72597d02162174eb0dfdac3b8",
+          "content_sha256": "2c4a91ddd7226b33f45b4010891d515bc5647278aeb8f3277bcc8fede422090a",
           "error": null,
           "final_url": "https://europe.republic.com/",
           "ok": true,
@@ -152,7 +177,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "50f36c299de852bd73a77211e43e17ed69bcc619bdd4c9761c550354863c6538",
+          "content_sha256": "2d31ac142fb3fed71c3b1e3ff9e97256deb7ece5c45c5096820de00c03a1b99e",
           "error": null,
           "final_url": "https://europe.republic.com/invest/raising-now",
           "ok": true,
@@ -162,7 +187,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "528281d4ce14563c24149281fe44d1f679abfc513e650d176ea7521f496f0768",
+          "content_sha256": "47199dc7b11560db74eb28f779777e4ac9b844b65def90e9eb189f9de03447df",
           "error": null,
           "final_url": "https://europe.republic.com/invest/secondary-market",
           "ok": true,
@@ -172,7 +197,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "2d7c2c6edd56f3885a853faf04e54f02fd10083900d20f94c64a4f53b1fbf87b",
+          "content_sha256": "556d0e4545cf21cfcdbb9a5aaffa2543b8055b914413bb3e481109cee56fc4ea",
           "error": null,
           "final_url": "https://europe.republic.com/funded",
           "ok": true,
@@ -283,7 +308,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "bd3ad57f750c65674d83f04321954ebe532884fceee28343bbc5093ca085e241",
+          "content_sha256": "ac07a98b2417d2b52dfcd93142e8c0b2a2da81f993a4157e52abe22cdccda199",
           "error": null,
           "final_url": "https://republic.com/companies/portfolio",
           "ok": true,
@@ -303,7 +328,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "8916ee99fcca4a88167740f0b436a9d944f52f4d2dc66e3ab0a938e4ffabcb36",
+          "content_sha256": "c785949d9a11f976e9461dee3c02c34d6f3c595101ec7d32d65beeb97eaaa682",
           "error": null,
           "final_url": "https://republic.com/reg-cf-offerings",
           "ok": true,
@@ -360,7 +385,32 @@
       "browser_resources": [],
       "browser_status": [
         {
-          "error": "playwright_import:ModuleNotFoundError(\"No module named 'playwright'\")"
+          "final_url": "https://www.startengine.com/",
+          "link_count": 0,
+          "seed": "https://www.startengine.com/",
+          "status": 403,
+          "title": "403 Forbidden"
+        },
+        {
+          "final_url": "https://www.startengine.com/explore",
+          "link_count": 0,
+          "seed": "https://www.startengine.com/explore",
+          "status": 403,
+          "title": "403 Forbidden"
+        },
+        {
+          "final_url": "https://www.startengine.com/explore/offerings",
+          "link_count": 0,
+          "seed": "https://www.startengine.com/explore/offerings",
+          "status": 403,
+          "title": "403 Forbidden"
+        },
+        {
+          "final_url": "https://www.startengine.com/offering",
+          "link_count": 0,
+          "seed": "https://www.startengine.com/offering",
+          "status": 403,
+          "title": "403 Forbidden"
         }
       ],
       "candidate_count": 0,
@@ -449,14 +499,41 @@
       "sitemap_url_count": 0
     },
     "wefunder": {
-      "browser_link_count": 0,
-      "browser_resources": [],
+      "browser_link_count": 35,
+      "browser_resources": [
+        "https://wefunder.com/-/users/show_current_user"
+      ],
       "browser_status": [
         {
-          "error": "playwright_import:ModuleNotFoundError(\"No module named 'playwright'\")"
+          "final_url": "https://wefunder.com/",
+          "link_count": 35,
+          "seed": "https://wefunder.com/",
+          "status": 200,
+          "title": "Wefunder \u2014 Raise Capital from Your Community"
+        },
+        {
+          "final_url": "https://wefunder.com/explore",
+          "link_count": 35,
+          "seed": "https://wefunder.com/explore",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://wefunder.com/companies",
+          "link_count": 35,
+          "seed": "https://wefunder.com/companies",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://wefunder.com/funded",
+          "link_count": 35,
+          "seed": "https://wefunder.com/funded",
+          "status": 403,
+          "title": "Just a moment..."
         }
       ],
-      "candidate_count": 0,
+      "candidate_count": 23,
       "robots": {
         "error": null,
         "final_url": "https://wefunder.com/robots.txt",
@@ -464,48 +541,72 @@
         "status": 200,
         "transport": "requests"
       },
-      "sample_candidates": [],
+      "sample_candidates": [
+        "https://wefunder.com/agents",
+        "https://wefunder.com/articles",
+        "https://wefunder.com/beehiiv",
+        "https://wefunder.com/boom",
+        "https://wefunder.com/case-studies",
+        "https://wefunder.com/community-round",
+        "https://wefunder.com/continue",
+        "https://wefunder.com/disclosures",
+        "https://wefunder.com/explore",
+        "https://wefunder.com/funds",
+        "https://wefunder.com/investor-warmup",
+        "https://wefunder.com/legal-primer",
+        "https://wefunder.com/news",
+        "https://wefunder.com/pbc",
+        "https://wefunder.com/playbook",
+        "https://wefunder.com/press",
+        "https://wefunder.com/pricing",
+        "https://wefunder.com/private-round",
+        "https://wefunder.com/roadshow",
+        "https://wefunder.com/spv",
+        "https://wefunder.com/syndicates",
+        "https://wefunder.com/vault",
+        "https://wefunder.com/verticals"
+      ],
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "b8ca07b1aef39c159ef16b2bfbbe3a8e720b7a3d7ab0e909096665bb8168822e",
+          "content_sha256": "2bf3f50d407e5718b39f78992720a13a9b34a9a56d2803233720d95c7b0dd966",
           "error": null,
           "final_url": "https://wefunder.com/",
           "ok": true,
           "seed": "https://wefunder.com/",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "263d0974621eb28fa81ce8aa941113b9251c356371a1bc08e245093e94d8280c",
+          "content_sha256": "50e1e1b54146b929bb8a0be6619bdda3b502fbd70bf46f3d7b352883bc99e24d",
           "error": null,
           "final_url": "https://wefunder.com/explore",
           "ok": true,
           "seed": "https://wefunder.com/explore",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "7f4d3eafeb4691d140fd5867c52360eb97724a0e2f6cfc09602a7ae9adfafd6b",
+          "content_sha256": "40ef140d279be793f91bfeb2676e7c676f737c9cb67a5f05db4dc8295af1e003",
           "error": null,
           "final_url": "https://wefunder.com/companies",
           "ok": true,
           "seed": "https://wefunder.com/companies",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "f33583e0e088f19831f46b63c68b3dfa778cd75eddfef58f26d75d8c859efd32",
+          "content_sha256": "0a97d3328930d9913e7ca7eab341bd56ce5d464dd3fe85395eb3d8a618f7b7fc",
           "error": null,
           "final_url": "https://wefunder.com/funded",
           "ok": true,
           "seed": "https://wefunder.com/funded",
           "status": 403,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         }
       ],
       "sitemap_candidates": [
@@ -523,7 +624,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://wefunder.com/sitemap"
         },
         {
@@ -555,7 +656,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://wefunder.com/sitemap.xml"
         },
         {
@@ -563,7 +664,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://wefunder.com/sitemap_index.xml"
         },
         {
@@ -571,7 +672,7 @@
           "ok": true,
           "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
           "status": 403,
-          "transport": "requests",
+          "transport": "curl_cffi",
           "url": "https://wefunder.com/sitemap-index.xml"
         }
       ],
