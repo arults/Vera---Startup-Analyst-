@@ -71,3 +71,38 @@ def native_vs_graph_reclassification(edges: list[RoundEdge]) -> dict:
         "cross_platform_reclassified":len(cross),
         "cross_platform_share":len(cross)/len(q) if q else 0.0,
     }
+
+
+@dataclass(frozen=True)
+class PlatformBiasRow:
+    platform: str
+    denominator_rounds: int
+    native_successes: int
+    graph_successes: int
+    cross_platform_reclassified: int
+    native_rate: float
+    graph_rate: float
+    absolute_delta: float
+
+def native_vs_graph_by_platform(
+    rounds: list[RoundRecord],
+    edges: list[RoundEdge],
+    native_success_round_ids: set[str],
+) -> list[PlatformBiasRow]:
+    eligible=[r for r in rounds if r.layer_b_eligible]
+    by_id={r.round_id:r for r in eligible}
+    graph_success=set(native_success_round_ids)
+    for e in edges:
+        if e.edge_type=="NEXT_ROUND" and e.cross_platform and e.qualified_followon_success and e.source_round_id in by_id:
+            graph_success.add(e.source_round_id)
+    out=[]
+    for platform in sorted({r.platform for r in eligible}):
+        ids={r.round_id for r in eligible if r.platform==platform}
+        n=len(ids)
+        native=len(ids & native_success_round_ids)
+        graph_n=len(ids & graph_success)
+        reclass=graph_n-native
+        nr=native/n if n else 0.0
+        gr=graph_n/n if n else 0.0
+        out.append(PlatformBiasRow(platform,n,native,graph_n,reclass,nr,gr,gr-nr))
+    return out
