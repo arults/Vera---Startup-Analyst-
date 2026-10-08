@@ -1,9 +1,9 @@
 {
   "candidate_rows": 2118,
-  "captured_at": "2026-10-08T12:43:57.102464+00:00",
+  "captured_at": "2026-10-08T12:51:52.764939+00:00",
   "files": {
-    "cp1_discovery_candidates.csv": "6a51d78ab3600c1f391d09a3288dc94bd994dac91dc4716d6e8b0555ab7b278f",
-    "cp1_discovery_report.json": "2e5c05373eb7950649b040aaad1d7c443180a0b6b123e3b7f3bcb8e27752172f"
+    "cp1_discovery_candidates.csv": "d0a851a86a3a39c4d3a11d871180cd601af5021635dc5934f84d0f3447d63f8b",
+    "cp1_discovery_report.json": "1185e6482eca5ceb8cc39d39b149d938c0f735e87676955c1e49b719f675bb12"
   },
   "method_version": "cp1-discovery-v2"
 }
