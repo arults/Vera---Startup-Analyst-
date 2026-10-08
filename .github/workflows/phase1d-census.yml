@@ -24,7 +24,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4 curl_cffi playwright\n      - run: python -m playwright install --with-deps chromium
+      - name: Install discovery dependencies
+        run: |
+          pip install requests beautifulsoup4 curl_cffi playwright
+          python -m playwright install --with-deps chromium
       - name: Discover public platform census surfaces
         run: python src/phase1d/discover.py
       - name: Persist checkpoint outputs
@@ -36,5 +39,7 @@ jobs:
             echo "No generated changes"
           else
             git commit -m "Phase 1D CP1: persist source discovery manifest [skip ci]"
-            git fetch origin phase-1d\n            git rebase origin/phase-1d\n            git push origin HEAD:phase-1d
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
           fi
