@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T12:51:52.764939+00:00",
+  "captured_at": "2026-10-08T12:56:55.698299+00:00",
   "method_version": "cp1-discovery-v2",
   "platforms": {
     "crowdcube": {
@@ -47,7 +47,7 @@
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "5dfee3ac383c739ff5007d035abe1cb1f708148e9677c958695fce5d3af15931",
+          "content_sha256": "2f9a8a1cadca5f140ad504bb463f0fa9b5a4e2fcd28d6ba1fce3dc458f8792eb",
           "error": null,
           "final_url": "https://www.crowdcube.com/",
           "ok": true,
@@ -57,7 +57,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "27a87aa367107232be98b65ea6b2f53a382ed24414e89e7f667ebc5217223a00",
+          "content_sha256": "ce08e849132e1895a6290527236882d3ba3c51edba4f7d2c07d38cad914317a3",
           "error": null,
           "final_url": "https://www.crowdcube.com/explore",
           "ok": true,
@@ -67,7 +67,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "9a290b6b67e06517b641ff177f8e74107ffdf9f88fe2e29273f2535407472071",
+          "content_sha256": "4b383fe6bb2575638c8de732af071d0c702910fb63c162ea5c76f0af8b3d9a20",
           "error": null,
           "final_url": "https://www.crowdcube.com/companies",
           "ok": true,
@@ -77,7 +77,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "38a1d9da24640567bd4bee273401c4be787ef95b5c2b1712537352bce4a6a34b",
+          "content_sha256": "a87ffd23fb90f311cc7021f2bd8df2158139979aeb5d84f4fa4b4ede3f414226",
           "error": null,
           "final_url": "https://www.crowdcube.com/investments",
           "ok": true,
@@ -167,7 +167,7 @@
       "seed_link_count": 27,
       "seed_status": [
         {
-          "content_sha256": "eb07ea00b898c422e0735103d3c92bcf9545ea3a532d2ac696d3720e5b51649a",
+          "content_sha256": "76dc6b2563e8f6be5d46985b2934ce049a6696bb8a65b9fc2020fd8ba680c396",
           "error": null,
           "final_url": "https://europe.republic.com/",
           "ok": true,
@@ -177,7 +177,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "7730e195760863a7be1664e9029598f99528aabf428b825b75e62f09b926b501",
+          "content_sha256": "0eb13b3d4691ca13f495d6865264e75cb14c65fd75bc1b201aabaad40a1e1e7a",
           "error": null,
           "final_url": "https://europe.republic.com/invest/raising-now",
           "ok": true,
@@ -187,7 +187,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "a1b8ea0bdf88c4c2d431de6a97f18b5fa380673ecfb8e9f1c510fe940156fb2d",
+          "content_sha256": "03833706a49da072e223792939f7ccb208258fa71e88fb9cd6003aab9d053a64",
           "error": null,
           "final_url": "https://europe.republic.com/invest/secondary-market",
           "ok": true,
@@ -197,7 +197,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "4cef6deb9dfdf967672d60b331d4056789ca08c0a836ead8618929206b9c98e2",
+          "content_sha256": "577d23b8a648b59ecb0d5cffca47158095c4c0be49c106cbb988474f5325c30a",
           "error": null,
           "final_url": "https://europe.republic.com/funded",
           "ok": true,
@@ -241,9 +241,9 @@
         {
           "error": null,
           "ok": true,
-          "prefix": "",
-          "status": 404,
-          "transport": "requests",
+          "prefix": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]>    <html class",
+          "status": 403,
+          "transport": "curl_cffi",
           "url": "https://europe.republic.com/sitemap-index.xml"
         }
       ],
@@ -308,7 +308,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "cc31c527fd456239ffd0ace193000489e79a8794805379e70e852adcf3446ec5",
+          "content_sha256": "3f3583cfef5bf2cec7d7a6036c6295577dd2d65af0fee7f2ce7adb01a010815d",
           "error": null,
           "final_url": "https://republic.com/companies/portfolio",
           "ok": true,
@@ -328,7 +328,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "b242595803c343154638b04daeedfb1cbb3367dcfad93eb6cfca005f841cb504",
+          "content_sha256": "3e5e0851dd6a8189c36c805cc4d76ffd3708af34fea48351c4048ecad4c71544",
           "error": null,
           "final_url": "https://republic.com/reg-cf-offerings",
           "ok": true,
@@ -381,88 +381,164 @@
       "sitemap_url_count": 0
     },
     "startengine": {
-      "browser_link_count": 0,
-      "browser_resources": [],
+      "browser_link_count": 44,
+      "browser_resources": [
+        "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint&page=0&query=%20&regulationTypes&size=250&sortBy=mostMomentum",
+        "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint&page=0&query=&regulationTypes&size=3&sortBy=mostMomentum",
+        "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint&page=0&query=&regulationTypes=Reg%20CF%2CReg%20A%2B%2CReg%20D&size=250&sortBy=recentlyLaunched&statuses=APPROVED",
+        "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint&page=0&query=&regulationTypes=Reg%20D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED",
+        "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint&page=0&query=&regulationTypes=Reg%20D&size=3&sortBy=mostMomentum&statuses=APPROVED",
+        "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint&page=0&query=&regulationTypes=Reg%20D&size=3&sortBy=mostMomentum&statuses=CLOSED",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/amp-robotics",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/compute-and-infrastructure-fund",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/consensys",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/grammarly",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/harvey-qp-1",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/higgsfield-qp-1",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/instabase",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/lambda-labs-4",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/lambda-labs-qp-1",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/omni-fund",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/onebrief",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/panthalassa-2",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/polymarket-qp-1",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/private/tombstones?page=0&size=100",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/psiquantum-4",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/psiquantum-ira-1",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/psiquantum-qp-1",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/restricted/tombstones?page=0&size=100",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/starcloud-qp-2",
+        "https://www.startengine.com/service/primary_facade/v2/offerings/vulcan-elements",
+        "https://www.startengine.com/service/reward/program",
+        "https://www.startengine.com/service/strapi/api/exclude-amount-offering-lists?populate=*",
+        "https://www.startengine.com/service/strapi/api/explore-banners?filters[is_active][$eq]=true&sort=display_order:asc&populate=image_desktop,image_mobile&pagination[pageSize]=10",
+        "https://www.startengine.com/service/strapi/api/explore-section-offerings?filters[is_active][$eq]=true&sort=display_order:asc&populate=*&pagination[pageSize]=50",
+        "https://www.startengine.com/service/strapi/api/explore-v2-config?populate=*",
+        "https://www.startengine.com/service/strapi/api/explore-v2-configs/active",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-config?populate[featured_offering][populate][0]=hero_image_desktop&populate[featured_offering][populate][1]=hero_image_mobile&populate[featured_offering_accredited][populate][0]=hero_image_desktop&populate[featured_offering_accredited][populate][1]=hero_image_mobile&populate[featured_offering_qp][populate][0]=hero_image_desktop&populate[featured_offering_qp][populate][1]=hero_image_mobile&populate[preipo_active_offerings_list]=true&populate[preipo_soldout_offerings_list]=true&populate[preipo_offerings][populate][0]=custom_image&populate[explore_banner_image_desktop]=true&populate[explore_banner_image_mobile]=true",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-offering-lists?populate=offering_slugs,preipo_offerings.custom_image&pagination[pageSize]=50",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-page-contents/current/accredited",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-page-contents/current/qp",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-page-contents/current/retail",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-placements/current/accredited",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-placements/current/qp",
+        "https://www.startengine.com/service/strapi/api/homepage-v2-placements/current/retail",
+        "https://www.startengine.com/service/strapi/api/homepages?populate=*",
+        "https://www.startengine.com/service/strapi/api/homepages?populate=*&pagination[page]=0&pagination[pageSize]=3",
+        "https://www.startengine.com/service/strapi/api/offering-show-amount-settings-collection?populate=*",
+        "https://www.startengine.com/service/strapi/api/private-landing-pages?populate=*",
+        "https://www.startengine.com/service/user_svc/user/validateJwt"
+      ],
       "browser_status": [
         {
           "final_url": "https://www.startengine.com/",
-          "link_count": 0,
+          "link_count": 20,
           "seed": "https://www.startengine.com/",
-          "status": 403,
-          "title": "403 Forbidden"
+          "status": 202,
+          "title": "StartEngine: Invest in Startups Online"
         },
         {
           "final_url": "https://www.startengine.com/explore",
-          "link_count": 0,
+          "link_count": 38,
           "seed": "https://www.startengine.com/explore",
-          "status": 403,
-          "title": "403 Forbidden"
+          "status": 200,
+          "title": "Explore Startups | StartEngine"
         },
         {
           "final_url": "https://www.startengine.com/explore/offerings",
-          "link_count": 0,
+          "link_count": 43,
           "seed": "https://www.startengine.com/explore/offerings",
-          "status": 403,
-          "title": "403 Forbidden"
+          "status": 404,
+          "title": "Page Not Found | StartEngine"
         },
         {
           "final_url": "https://www.startengine.com/offering",
-          "link_count": 0,
+          "link_count": 44,
           "seed": "https://www.startengine.com/offering",
-          "status": 403,
-          "title": "403 Forbidden"
+          "status": 200,
+          "title": "Page Not Found | StartEngine"
         }
       ],
-      "candidate_count": 0,
+      "candidate_count": 27,
       "robots": {
         "error": null,
         "final_url": "https://www.startengine.com/robots.txt",
         "ok": true,
-        "status": 403,
-        "transport": "requests"
+        "status": 202,
+        "transport": "curl_cffi"
       },
-      "sample_candidates": [],
+      "sample_candidates": [
+        "https://www.startengine.com/annual-report",
+        "https://www.startengine.com/annual-reports",
+        "https://www.startengine.com/business-continuity-plan-disclosure-statement",
+        "https://www.startengine.com/contact-us?source=footer",
+        "https://www.startengine.com/contact-us?source=header",
+        "https://www.startengine.com/disclaimer",
+        "https://www.startengine.com/disclosures",
+        "https://www.startengine.com/form-crs",
+        "https://www.startengine.com/marketplace",
+        "https://www.startengine.com/offering/artly",
+        "https://www.startengine.com/offering/compute-and-infrastructure-fund",
+        "https://www.startengine.com/offering/evoq-bio",
+        "https://www.startengine.com/offering/futurecardia",
+        "https://www.startengine.com/offering/greenfield-robotics",
+        "https://www.startengine.com/offering/higgsfield-qp-1",
+        "https://www.startengine.com/offering/lambda-labs-4",
+        "https://www.startengine.com/offering/lambda-labs-qp-1",
+        "https://www.startengine.com/offering/liquidpiston",
+        "https://www.startengine.com/offering/one-stop-halal",
+        "https://www.startengine.com/offering/panthalassa-2",
+        "https://www.startengine.com/offering/psiquantum-4",
+        "https://www.startengine.com/offering/repurpose-energy",
+        "https://www.startengine.com/offering/starcloud-qp-2",
+        "https://www.startengine.com/private",
+        "https://www.startengine.com/raise-capital",
+        "https://www.startengine.com/reg-bi-disclosure",
+        "https://www.startengine.com/venture-club"
+      ],
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
+          "content_sha256": "c77e17b1ecd13cc1198a6e6690335b9a3ad6cd8b347677e764b90167641b076a",
           "error": null,
           "final_url": "https://www.startengine.com/",
           "ok": true,
           "seed": "https://www.startengine.com/",
-          "status": 403,
+          "status": 202,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
+          "content_sha256": "c9d8eee0af50c1941b1ed6cf08ff61890361bd997556f88dff371384651fabe0",
           "error": null,
           "final_url": "https://www.startengine.com/explore",
           "ok": true,
           "seed": "https://www.startengine.com/explore",
-          "status": 403,
+          "status": 202,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
+          "content_sha256": "316694c824a166447112aa407cdf8befeaedb73b2e71f586b7aa3594e7984e18",
           "error": null,
           "final_url": "https://www.startengine.com/explore/offerings",
           "ok": true,
           "seed": "https://www.startengine.com/explore/offerings",
-          "status": 403,
+          "status": 202,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         },
         {
-          "content_sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
+          "content_sha256": "c0baedb2554b5633c2f477d9b7013082d6b67eef84134d9193fa7836b30a5bb0",
           "error": null,
           "final_url": "https://www.startengine.com/offering",
           "ok": true,
           "seed": "https://www.startengine.com/offering",
-          "status": 403,
+          "status": 202,
           "title": null,
-          "transport": "requests"
+          "transport": "curl_cffi"
         }
       ],
       "sitemap_candidates": [
@@ -474,25 +550,25 @@
         {
           "error": null,
           "ok": true,
-          "prefix": "<html>\r <head><title>403 Forbidden</title></head>\r <body>\r <center><h1>403 Forbidden</h1></center>\r </body>\r </html>\r <!",
-          "status": 403,
-          "transport": "requests",
+          "prefix": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width",
+          "status": 202,
+          "transport": "curl_cffi",
           "url": "https://www.startengine.com/sitemap.xml"
         },
         {
           "error": null,
           "ok": true,
-          "prefix": "<html>\r <head><title>403 Forbidden</title></head>\r <body>\r <center><h1>403 Forbidden</h1></center>\r </body>\r </html>\r <!",
-          "status": 403,
-          "transport": "requests",
+          "prefix": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width",
+          "status": 202,
+          "transport": "curl_cffi",
           "url": "https://www.startengine.com/sitemap_index.xml"
         },
         {
           "error": null,
           "ok": true,
-          "prefix": "<html>\r <head><title>403 Forbidden</title></head>\r <body>\r <center><h1>403 Forbidden</h1></center>\r </body>\r </html>\r <!",
-          "status": 403,
-          "transport": "requests",
+          "prefix": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width",
+          "status": 202,
+          "transport": "curl_cffi",
           "url": "https://www.startengine.com/sitemap-index.xml"
         }
       ],
@@ -569,7 +645,7 @@
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "83f7f094f7a2444fe3e705f560915bd00a9218f8e4ca72abcc449e91383a9e8a",
+          "content_sha256": "b76a7685f522490ed2383087880eb3e27fffb986f9a054d826dbd2c82e07d957",
           "error": null,
           "final_url": "https://wefunder.com/",
           "ok": true,
@@ -579,7 +655,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "7b72eca67e645509a03baae035a656be2dfc4f18d1f9286feb1acd3e66595bab",
+          "content_sha256": "47c7739d075d38f3a67de0e5ce198461e8d918cd2371501f6b5ff9db94bc5504",
           "error": null,
           "final_url": "https://wefunder.com/explore",
           "ok": true,
@@ -589,7 +665,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "d5df4cb3cd96843e96acb8e885f5cefc999e9ba9f20fc3afb74c66d5a4f0bab5",
+          "content_sha256": "d2266d193d18816521ecc36262505c2655b91dce60c4994e169b1bc0b2e39326",
           "error": null,
           "final_url": "https://wefunder.com/companies",
           "ok": true,
@@ -599,7 +675,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "35081dd143213a8a2761e7f03c54004c6a815a8455ef2e48bc1151b3d1562aac",
+          "content_sha256": "f742b660e476cecb6617a403081135a3164166538da90bb776c90f157942c191",
           "error": null,
           "final_url": "https://wefunder.com/funded",
           "ok": true,
