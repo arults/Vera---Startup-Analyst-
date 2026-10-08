@@ -1,6 +1,11 @@
 name: Phase 1D census discovery
 on:
   workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/phase1d/**'
+      - '.github/workflows/phase1d-census.yml'
   push:
     branches: [phase-1d]
     paths:
