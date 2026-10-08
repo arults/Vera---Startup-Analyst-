@@ -111,3 +111,6 @@ REM is a decision-engine input, not an exit valuation and not a replacement for 
 `market capture -> revenue path -> unit economics -> financing/dilution -> exit distribution -> investor return`.
 
 No numeric REM may be promoted as calibrated without Vera's ordinary evidence, exchangeability, verifier and calibration gates.
+
+## TAM verification dependency
+REM v3 depends on `docs/TAM_VERIFICATION_ENGINE.md`. TAM/SAM bounds used by REM must carry compatible units, geography and horizon; an unverified TAM must not silently become a precise SAM or REM ceiling.
