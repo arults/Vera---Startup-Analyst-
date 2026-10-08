@@ -42,3 +42,9 @@ Progress: GitHub lineage initialized; next gate is exact SEC-backed 2020 Wefunde
 
 Phase 1B CP2 — Denominator freeze: 360 initial 2020 Wefunder offerings -> 43 with C-U -> 42 SEC-positive funded rows; D01-D08 PASS, hash 62468cea…f78c8.
 Progress: first verifier caught and repaired a chronology defect; Jev selected frozen_primary_denominator with 0.95 probability (confidence 0.92), so outcomes research begins.
+
+Phase 1B CP3 — Outcomes + survival: 42/42 sourced endpoints, 4 observed failures, 2 acquisition censors, 1 listing censor; D/O/S gates and 13/13 tests PASS.
+Progress: 5-year KM = 93.01% (95% CI 74.40–98.24%; n-risk 12), late-bound sensitivity 92.57%; Jev passes limited 5-year reference class and rejects the underpowered 6-year tail.
+
+Vera v0.4.0 / Phase 1B CP4 — First verified empirical reference class promoted with cohort definition, hashes, confidence interval, risk set, censoring and funding-date sensitivity attached.
+Iteration lesson: empirical base rates are anchors, not company-specific probabilities; 18/18 registry/verifier tests PASS, while 6-year and direct-substitution uses remain explicitly non-promoted.
