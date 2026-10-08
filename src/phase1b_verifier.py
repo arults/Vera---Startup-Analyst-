@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-import csv, hashlib, json, math
-from datetime import date, datetime
+import csv, hashlib, json
+from datetime import date
 from pathlib import Path
+from survival import kaplan_meier, verify_curve
 
 EXPECTED_INTERMEDIARY = "Wefunder Portal LLC"
 EXPECTED_INTERMEDIARY_CIK = "0001670254"
+CUTOFF = "2026-10-08"
 
 def read_csv(path):
     with open(path, newline="", encoding="utf-8") as f:
@@ -34,13 +36,12 @@ def verify_denominator(path, expected_count=42):
         return amt>0 and bool(r.get("funding_update_accession")) and bool(r.get("funding_evidence_text")) and r.get("sec_funding_url","").startswith("https://www.sec.gov/Archives/edgar/data/")
     add("D06_SEC_CONFIRMED_FUNDING", all(positive(r) for r in rows), "positive proceeds + C-U evidence + SEC URL")
     add("D07_NO_FINAL_WITHDRAWALS", all(int(r.get("withdrawal_count","0") or 0)==0 for r in rows), "zero withdrawals on admitted rows")
-    chrono=True; bad=[]
+    bad=[]
     for r in rows:
-        try:
-            ok=d(r["initial_form_c_date"]) <= d(r["funding_close_date"]) <= d(r["funding_update_date"])
+        try: ok=d(r["initial_form_c_date"]) <= d(r["funding_close_date"]) <= d(r["funding_update_date"])
         except Exception: ok=False
-        if not ok: bad.append(r.get("offering_key")); chrono=False
-    add("D08_CHRONOLOGY", chrono, f"bad={bad}")
+        if not ok: bad.append(r.get("offering_key"))
+    add("D08_CHRONOLOGY", not bad, f"bad={bad}")
     return {
         "milestone":"Phase 1B denominator freeze",
         "manifest":str(path),
@@ -50,7 +51,7 @@ def verify_denominator(path, expected_count=42):
         "gates":gates,
     }
 
-def verify_outcomes(manifest_path, outcomes_path, cutoff="2026-10-08"):
+def verify_outcomes(manifest_path, outcomes_path, cutoff=CUTOFF):
     cohort=read_csv(manifest_path); outs=read_csv(outcomes_path)
     keys={r["offering_key"] for r in cohort}; okeys=[r.get("offering_key","") for r in outs]
     gates=[]
@@ -59,17 +60,61 @@ def verify_outcomes(manifest_path, outcomes_path, cutoff="2026-10-08"):
     add("O02_NO_EXTRA_OUTCOME_ROWS", set(okeys)<=keys, f"extra={sorted(set(okeys)-keys)}")
     allowed={"failure","active_censor","acquisition_censor","listing_censor"}
     add("O03_ALLOWED_EVENT_TYPES", all(r.get("event_type") in allowed for r in outs), "event types valid")
-    add("O04_VERIFIED_OUTCOME_EVIDENCE", all(r.get("evidence_url") and r.get("evidence_quality") in {"primary","independent_secondary","regulatory"} for r in outs), "source + quality required")
-    cutoff_d=d(cutoff); dated=True; bad=[]
+
+    def evidence_ok(r):
+        if not r.get("evidence_url"):
+            return False
+        q=r.get("evidence_quality")
+        if q in {"primary","independent_secondary","regulatory"}:
+            return True
+        if q=="company_controlled_fallback":
+            return (
+                r.get("search_exhausted","").lower()=="true"
+                and r.get("evidence_confidence") in {"low","medium"}
+                and r.get("evidence_basis") in {
+                    "current_operating_functionality",
+                    "dated_current_operating_functionality",
+                    "dated_company_document",
+                }
+            )
+        return False
+    bad_e=[r.get("issuer_name") for r in outs if not evidence_ok(r)]
+    add("O04_VERIFIED_OUTCOME_EVIDENCE", not bad_e, f"bad={bad_e}; company-controlled evidence allowed only as documented exhausted-search fallback")
+
+    cutoff_d=d(cutoff); bad_dates=[]
     close={r["offering_key"]:d(r["funding_close_date"]) for r in cohort}
     for r in outs:
-        try: od=d(r["observation_date"]); ok=close[r["offering_key"]] <= od <= cutoff_d
-        except Exception: ok=False
-        if not ok: dated=False; bad.append(r.get("offering_key"))
-    add("O05_DATED_OBSERVATIONS", dated, f"bad={bad}")
-    add("O06_OUTCOME_AFTER_FUNDING", dated, "observation date is not before funding close")
-    add("O07_NO_SILENCE_EQUALS_SURVIVAL", all(not (r.get("event_type")=="active_censor" and r.get("observation_date")==cutoff and r.get("evidence_basis")=="silence") for r in outs), "no silence-to-cutoff rule")
+        try:
+            od=d(r["observation_date"])
+            ok=close[r["offering_key"]] <= od <= cutoff_d
+        except Exception:
+            ok=False
+        if not ok: bad_dates.append(r.get("offering_key"))
+    add("O05_DATED_OBSERVATIONS", not bad_dates, f"bad={bad_dates}")
+    add("O06_OUTCOME_AFTER_FUNDING", not bad_dates, "observation date is not before funding close and not after cutoff")
+    bad_silence=[
+        r.get("issuer_name") for r in outs
+        if r.get("event_type")=="active_censor"
+        and r.get("observation_date")==cutoff
+        and r.get("evidence_basis") in {"silence","no_evidence","assumed_alive"}
+    ]
+    add("O07_NO_SILENCE_EQUALS_SURVIVAL", not bad_silence, f"bad={bad_silence}")
     return {"gates":gates,"promotion_gate":"PASS" if all(g["passed"] for g in gates) else "BLOCKED"}
+
+def verify_phase1b(manifest_path, outcomes_path):
+    out=verify_denominator(manifest_path)
+    oo=verify_outcomes(manifest_path,outcomes_path)
+    curve=kaplan_meier(manifest_path,outcomes_path)
+    sg=verify_curve(curve)
+    out["outcomes_sha256"]=sha256(outcomes_path)
+    out["outcome_gates"]=oo["gates"]
+    out["survival_gates"]=sg
+    out["event_counts"]={}
+    for r in read_csv(outcomes_path):
+        out["event_counts"][r["event_type"]]=out["event_counts"].get(r["event_type"],0)+1
+    if oo["promotion_gate"]!="PASS" or not all(g["passed"] for g in sg):
+        out["promotion_gate"]="BLOCKED"
+    return out
 
 if __name__=="__main__":
     import argparse
@@ -78,11 +123,7 @@ if __name__=="__main__":
     ap.add_argument("--outcomes")
     ap.add_argument("--output")
     a=ap.parse_args()
-    out=verify_denominator(a.manifest)
-    if a.outcomes:
-        oo=verify_outcomes(a.manifest,a.outcomes)
-        out["outcome_gates"]=oo["gates"]
-        if oo["promotion_gate"]!="PASS": out["promotion_gate"]="BLOCKED"
+    out=verify_phase1b(a.manifest,a.outcomes) if a.outcomes else verify_denominator(a.manifest)
     text=json.dumps(out,indent=2,sort_keys=True)
     if a.output: Path(a.output).write_text(text+"\n",encoding="utf-8")
     print(text)
