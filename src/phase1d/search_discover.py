@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import csv, hashlib, json, re, time
+import base64, csv, hashlib, json, re, time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus, urlparse, parse_qs, unquote
@@ -67,8 +67,16 @@ def fetch(url):
 
 def unwrap(href):
     if not href: return ""
-    if href.startswith("/ck/a"):
-        # Bing redirect can't be resolved reliably without clicking; ignore.
+    if href.startswith("/ck/a") or "bing.com/ck/a" in href:
+        q=parse_qs(urlparse(href).query)
+        u=(q.get("u") or [""])[0]
+        if u.startswith("a1"):
+            raw=u[2:]
+            try:
+                raw += "=" * (-len(raw) % 4)
+                return base64.urlsafe_b64decode(raw.encode()).decode("utf-8","ignore")
+            except Exception:
+                pass
         return ""
     if "duckduckgo.com/l/?" in href:
         q=parse_qs(urlparse(href).query)
