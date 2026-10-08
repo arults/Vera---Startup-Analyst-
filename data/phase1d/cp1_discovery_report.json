@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T13:02:29.564048+00:00",
+  "captured_at": "2026-10-08T13:03:59.108280+00:00",
   "method_version": "cp1-discovery-v2",
   "platforms": {
     "crowdcube": {
@@ -47,7 +47,7 @@
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "3f334ee4f58b85b612088b4f4c0e4ada0708cc55ea702a3fcfba8a03d1b10534",
+          "content_sha256": "164635bdd89c851573ed94a90c1c1c70b91e5d958c192ec566ef61bdca599e1e",
           "error": null,
           "final_url": "https://www.crowdcube.com/",
           "ok": true,
@@ -57,7 +57,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "ffedf6936cb41bf6ba3f32d3041d450cf5cde54d12356a21465fd60d82b65583",
+          "content_sha256": "edb2a7aac464f4c83520acf8fc3b2d9f79c332b7b7c8101e2ca969cbf026f0c3",
           "error": null,
           "final_url": "https://www.crowdcube.com/explore",
           "ok": true,
@@ -67,7 +67,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "8baacd78be6a6dfe7a6d3e7b5b48d9f5577583666c0cec2852aa7f506525e6b8",
+          "content_sha256": "881f1fc264632dd835f983d4dca42e34c660acca1e4790747e38ac83d7c7c2bb",
           "error": null,
           "final_url": "https://www.crowdcube.com/companies",
           "ok": true,
@@ -77,7 +77,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "ecf6448054e694fbb7cbc7471cf4a83a57a9cf79dc6544d1a7578ced716495ee",
+          "content_sha256": "be763b3c5a460fb881e15e4507ed152567bd96b118f9f096970337134147fe68",
           "error": null,
           "final_url": "https://www.crowdcube.com/investments",
           "ok": true,
@@ -167,7 +167,7 @@
       "seed_link_count": 27,
       "seed_status": [
         {
-          "content_sha256": "c11dbb7a8f3bb828a45271cc798fb8dab712a882ec5c791e7706007f06880a20",
+          "content_sha256": "d205b64c917c138a2997de26a0914847246f8037b77e281bee081d40dfd1911a",
           "error": null,
           "final_url": "https://europe.republic.com/",
           "ok": true,
@@ -177,7 +177,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "5a65f03c5c25bd78d96d821e5505babbd0837d6325f1a6a8d67004231ba9fbce",
+          "content_sha256": "d53b152e5b9cd00fe3a90534b41fb54940b8858eea7bc3f3a6918cc5d3f588c0",
           "error": null,
           "final_url": "https://europe.republic.com/invest/raising-now",
           "ok": true,
@@ -187,7 +187,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "95c28a2ad50eede84ff82b93b680a8ac979f5aa6ccb7ed668238662d4c97d286",
+          "content_sha256": "7c5f618051d80ea610d6d59fcb8c735c018f662be182d46130be11005f3a20da",
           "error": null,
           "final_url": "https://europe.republic.com/invest/secondary-market",
           "ok": true,
@@ -197,7 +197,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "e4954fe87c4560488285b9110b6ceb063833d934b90b207784af144200105008",
+          "content_sha256": "78e0d0004b730e81970fd8e7faeeb4e7ebc26ec20f201c12f53993f4a0f10706",
           "error": null,
           "final_url": "https://europe.republic.com/funded",
           "ok": true,
@@ -308,7 +308,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "7465c9a814ff1f7a534ea8766ab957dd48d91612e4cd12538e910220e3884a1c",
+          "content_sha256": "0cf00f92f1f8b7b3857d9ded721d4a08247be309047f9743d7ac0bd0bd511cdd",
           "error": null,
           "final_url": "https://republic.com/companies/portfolio",
           "ok": true,
@@ -328,7 +328,7 @@
           "transport": "requests"
         },
         {
-          "content_sha256": "c350ebf14ca1bfe841915b71c732269c233752fb8f8013ed2b5c9b497e403e01",
+          "content_sha256": "4c3c811695829222064dff91880271139a3fcea78f311ba8df86ae641edaa52c",
           "error": null,
           "final_url": "https://republic.com/reg-cf-offerings",
           "ok": true,
@@ -499,10 +499,45 @@
       "sitemap_url_count": 0
     },
     "wefunder": {
-      "browser_link_count": 0,
-      "browser_resources": [],
-      "browser_status": [],
-      "candidate_count": 19,
+      "browser_link_count": 51,
+      "browser_resources": [
+        "https://wefunder.com/-/ahoy_events",
+        "https://wefunder.com/-/companies/explore/vc_and_angel_backed?index=Company_sorted_by_trending_desc&tagFilters=[%22-eu%22,%22venture_backed_notable_angels%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true",
+        "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_amount_past_week_desc&tagFilters=[%22-eu%22,%22most_raised%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true",
+        "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=[%22-eu%22,%22closing_soon%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true",
+        "https://wefunder.com/-/companies/explore?index=Company_sorted_by_profile_promoted_at_desc&tagFilters=[%22-eu%22,%22new_this_week%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
+      ],
+      "browser_status": [
+        {
+          "final_url": "https://wefunder.com/",
+          "link_count": 0,
+          "seed": "https://wefunder.com/",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://wefunder.com/explore",
+          "link_count": 51,
+          "seed": "https://wefunder.com/explore",
+          "status": 200,
+          "title": "Invest in Startups You Love | Explore Companies | Wefunder, Home of the Community Round"
+        },
+        {
+          "final_url": "https://wefunder.com/companies",
+          "link_count": 51,
+          "seed": "https://wefunder.com/companies",
+          "status": 403,
+          "title": "Just a moment..."
+        },
+        {
+          "final_url": "https://wefunder.com/funded",
+          "link_count": 51,
+          "seed": "https://wefunder.com/funded",
+          "status": 403,
+          "title": "Just a moment..."
+        }
+      ],
+      "candidate_count": 42,
       "robots": {
         "error": null,
         "final_url": "https://wefunder.com/robots.txt",
@@ -511,30 +546,41 @@
         "transport": "requests"
       },
       "sample_candidates": [
-        "https://wefunder.com/explore",
-        "https://wefunder.com/vault",
-        "https://wefunder.com/pbc",
+        "https://wefunder.com/airthium?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=64712",
         "https://wefunder.com/articles",
-        "https://wefunder.com/news",
-        "https://wefunder.com/press",
-        "https://wefunder.com/continue",
-        "https://wefunder.com/community-round",
-        "https://wefunder.com/private-round",
-        "https://wefunder.com/investor-warmup",
-        "https://wefunder.com/pricing",
+        "https://wefunder.com/bbqtools?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=190318",
+        "https://wefunder.com/bito?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=201818",
+        "https://wefunder.com/blushiftaerospace?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=77952",
         "https://wefunder.com/case-studies",
-        "https://wefunder.com/verticals",
-        "https://wefunder.com/legal_primer",
-        "https://wefunder.com/playbook",
-        "https://wefunder.com/syndicates",
+        "https://wefunder.com/community-round",
+        "https://wefunder.com/continue",
+        "https://wefunder.com/dermasensor?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=174282",
+        "https://wefunder.com/disclosures",
+        "https://wefunder.com/eaglecathedralcitylimited?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=187524",
+        "https://wefunder.com/eastperry?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=201570",
+        "https://wefunder.com/endosound?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=163242",
+        "https://wefunder.com/explore",
+        "https://wefunder.com/fieldstorehouse?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=182796",
         "https://wefunder.com/funds",
-        "https://wefunder.com/spv",
-        "https://wefunder.com/disclosures"
+        "https://wefunder.com/ghostinindianafilm?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=194567",
+        "https://wefunder.com/gigastar?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=179583",
+        "https://wefunder.com/hepatx?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=201949",
+        "https://wefunder.com/investor-warmup",
+        "https://wefunder.com/kindora?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=203113",
+        "https://wefunder.com/legal_primer",
+        "https://wefunder.com/mahzitherapeutics?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=191812",
+        "https://wefunder.com/myosanatherapeutics?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=181753",
+        "https://wefunder.com/news",
+        "https://wefunder.com/oshi?referrer=explore&target_type=explore_card&subject_type=Company&subject_id=191913",
+        "https://wefunder.com/pbc",
+        "https://wefunder.com/playbook",
+        "https://wefunder.com/press",
+        "https://wefunder.com/pricing"
       ],
-      "seed_link_count": 23,
+      "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "964249dc5219e27f80763e5c5e1a3c5dac267f198811959cd8f49ed339f36737",
+          "content_sha256": "8853e65c18a62a4ee43424dc2d012380279d646a33c218b223cb0aa98da9e3be",
           "error": null,
           "final_url": "https://wefunder.com/",
           "ok": true,
@@ -544,7 +590,7 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "f10d790c5d97172a2c5fc76ec7aa10303d15909e2f67d8d139ad78b18fd6037c",
+          "content_sha256": "3c339ed9198269509346522838f9a3cc79e105c4d389d3a557f654b4f3026ebc",
           "error": null,
           "final_url": "https://wefunder.com/explore",
           "ok": true,
@@ -554,17 +600,17 @@
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "0d024977f33a314de8dfae7a9d8be660ba82bce4677922d5161defa8162fe312",
+          "content_sha256": "f8f152f3e77619aaaf233d1586c2afe7ecd3dc64810ee70c2ff03cd8ca445af8",
           "error": null,
           "final_url": "https://wefunder.com/explore",
           "ok": true,
           "seed": "https://wefunder.com/companies",
-          "status": 200,
-          "title": "Invest in Startups You Love | Explore Companies | Wefunder, Home of the Community Round",
+          "status": 403,
+          "title": null,
           "transport": "curl_cffi"
         },
         {
-          "content_sha256": "3654027a763aec20af2434fc830fb3290b117422be29ccb621e8b7e237cb67e6",
+          "content_sha256": "62eb7a9ce921a4ba182c85808be68ef02eab1c9d328765c19d3580b0ade532f8",
           "error": null,
           "final_url": "https://wefunder.com/funded",
           "ok": true,
@@ -619,26 +665,10 @@
         {
           "error": null,
           "ok": true,
-          "prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><sitemapindex xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLoca",
-          "status": 200,
+          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
+          "status": 403,
           "transport": "curl_cffi",
           "url": "https://wefunder.com/sitemap.xml"
-        },
-        {
-          "error": null,
-          "ok": true,
-          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
-          "status": 403,
-          "transport": "curl_cffi",
-          "url": "https://wefunder.com/sitemaps/sitemap-app.xml"
-        },
-        {
-          "error": null,
-          "ok": true,
-          "prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
-          "status": 403,
-          "transport": "curl_cffi",
-          "url": "https://wefunder.com/sitemap-marketing.xml"
         },
         {
           "error": null,
