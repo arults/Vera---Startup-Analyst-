@@ -4,12 +4,12 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'src/phase1d/**'
+      - 'src/phase1d/discover.py'
       - '.github/workflows/phase1d-census.yml'
   push:
     branches: [phase-1d]
     paths:
-      - 'src/phase1d/**'
+      - 'src/phase1d/discover.py'
       - '.github/workflows/phase1d-census.yml'
 permissions:
   contents: write
