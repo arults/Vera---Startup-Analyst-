@@ -1,0 +1,42 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-08",
+  "answers": {
+    "implementation_scope": {
+      "choice": "executable_framework",
+      "confidence": 1,
+      "probabilities": {
+        "executable_framework": 1,
+        "full_dataset": 0,
+        "docs_only": 0
+      }
+    },
+    "version": {
+      "choice": "v0_5_0",
+      "confidence": 0.69,
+      "probabilities": {
+        "v0_5_0": 0.79,
+        "v0_4_1": 0.21,
+        "v1_0_0": 0
+      }
+    },
+    "checkpoints": {
+      "choice": "four",
+      "confidence": 1,
+      "probabilities": {
+        "four": 1,
+        "two": 0,
+        "one": 0
+      }
+    },
+    "merge_policy": {
+      "choice": "final_green_plateau",
+      "confidence": 0.89,
+      "probabilities": {
+        "final_green_plateau": 0.93,
+        "manual_only": 0.07,
+        "first_green": 0
+      }
+    }
+  }
+}
