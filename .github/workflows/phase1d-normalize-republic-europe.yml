@@ -1,0 +1,42 @@
+name: Phase 1D Republic Europe normalize
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/phase1d/normalize_republic_europe.py'
+      - '.github/workflows/phase1d-normalize-republic-europe.yml'
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/normalize_republic_europe.py'
+      - '.github/workflows/phase1d-normalize-republic-europe.yml'
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Validate and normalize Republic Europe candidates
+        run: python src/phase1d/normalize_republic_europe.py
+      - name: Persist CP2 raw normalization
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/cp2_republic_europe_*
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Phase 1D CP2: persist Republic Europe normalized rounds [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi
