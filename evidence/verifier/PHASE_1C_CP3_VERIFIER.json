@@ -1,0 +1,45 @@
+{
+  "checkpoint": "PHASE_1C_CP3",
+  "verified_at": "2026-10-08",
+  "github_actions": {
+    "phase1c_run_id": 37776384631,
+    "phase1c_conclusion": "success",
+    "unit_tests_passed": 45,
+    "deterministic_gates_passed": 25,
+    "deterministic_gates_total": 25
+  },
+  "phase1b_regression": {
+    "run_id": 37776384486,
+    "conclusion": "success"
+  },
+  "gate_ids": [
+    "C_01_REQUIRED_FILES",
+    "C_02_TYPED_DECISIONS",
+    "C_03_DECISION_FIELDS",
+    "C_04_PLATFORM_ENUM",
+    "C_05_FIELD_ENUM",
+    "C_06_NO_NAME_ONLY_AUTOMATCH",
+    "C_07_MEDIUM_MATCH_REVIEW",
+    "C_08_NO_INCOMPARABLE_FOLLOWON_SUCCESS",
+    "C_09_ACQ_VALUE_UNKNOWN",
+    "C_10_EXPLICIT_CLOSURE_REQUIRED",
+    "C_11_CENSOR_CAPPED_AT_EXTRACTION",
+    "C_12_AJ_PROBABILITY_CONSERVATION",
+    "C_13_AJ_SURVIVAL_STATE",
+    "C_14_SUCCESS_CLOSURE_DISTINCT",
+    "C_15_CLUSTERED_BOOTSTRAP",
+    "C_16_RQ1_SMALL_N_VISIBLE",
+    "C_17_RQ2_CELL_GATE",
+    "C_18_MATURITY_POOLING",
+    "C_19_FIVE_ADAPTERS",
+    "C_20_PLATFORM_HOST_BOUNDARY",
+    "C_21_MANIFEST_HASH_STABLE",
+    "C_22_RESULT_CONTRACT",
+    "C_23_NO_HORIZON_EXTRAPOLATION",
+    "C_24_GRAPH_AWARE_RECLASSIFICATION",
+    "C_25_SCOPE_GUARD"
+  ],
+  "promotion_gate": "PASS",
+  "empirical_rates_computed": false,
+  "full_dataset_collected": false
+}

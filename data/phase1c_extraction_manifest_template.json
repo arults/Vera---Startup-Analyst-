@@ -1,0 +1,23 @@
+{
+  "schema_version": "phase1c-source-manifest-v1",
+  "note": "Template only. Phase 1C does not collect the full real dataset.",
+  "extraction_started_at": null,
+  "extraction_cutoff": null,
+  "platforms": [
+    "wefunder",
+    "startengine",
+    "crowdcube",
+    "republic_us",
+    "republic_europe"
+  ],
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "captures": [],
+  "manifest_sha256": null
+}

@@ -97,3 +97,35 @@ Jev selected `pass_limited_5y` with probability 1.00 / confidence 1.00. Five-yea
 6. **Keep it as v0.3.6 only.** Passed over; Jev assigned 0.02 probability versus 0.98 for v0.4.0.
 
 Final registry-integrity CI run 37766937563 passed 18/18 tests and the full Phase 1B verifier. Phase 1B completion yes probability from Jev: 0.73; final state `complete_limited_reference_class` selected with probability 1.00 / confidence 1.00.
+
+
+## 2026-10-08 — Phase 1C build loop
+
+Phase 1C was implemented as an executable framework only. Full five-platform data collection and final rates were explicitly excluded by Jev (executable_framework probability 1.00). Target version v0.5.0 was selected with probability 0.79.
+
+### Build → Verify → Feedback → Rebuild iterations
+1. Initial framework: schemas, identity resolver, graph, state machine, AJ occupancy, reporting gates and CI.
+2. Verifier feedback prioritized explicit success/closure competing-risk estimands (0.64). Added CIF + clustered bootstrap orchestration.
+3. Next verifier prioritized source adapters/provenance (0.73). Added five adapters, host boundaries, availability states and manifest hashing.
+4. Next verifier prioritized identity candidate generation (0.57). Added blocking, cross-platform candidate queue, mandatory medium/manual review and strong-match audit.
+5. Next verifier prioritized pooling/report contracts with probability 1.00. Added adjacent-year pooling executor, native-vs-graph bias report and structured platform-observed result contract.
+6. Final implementation verifier required deterministic-verifier hardening with probability 1.00. Expanded to 25 fail-closed gates.
+
+### Failed / corrected approaches preserved
+- **Typed-node verifier bug:** first full verifier expected 41 decision IDs because it demanded superseded D15/D27/D29 as well as replacement nodes. Corrected to the final 39-node authority; no typed-coverage rule was weakened.
+- **Candidate test assumption:** a test expected only one cross-platform candidate even though a second identity shared two medium identifiers (domain + founder). The algorithm was correct; the test was changed to require both candidates and mandatory review, reducing false-split risk.
+- **Partial connector write:** a transport disconnect occurred during the pooling/report rebuild. Branch state was inspected before retry; already-written files were retained and only missing files were created.
+- **Weak verifier assertion caught before CI:** an initial competing-cause gate was too permissive. It was strengthened to a synthetic fixture where success CIF must exceed closure CIF.
+
+### Current verified state before plateau
+GitHub Actions run 37776384631: 45/45 tests PASS and 25/25 Phase 1C deterministic gates PASS. Phase 1B regression remains green (run 37776384486). Jev round 6 selected final documentation as the only next action with probability 1.00 and no material design-node flip with probability 1.00.
+
+
+## 2026-10-08 — Phase 1C plateau and v0.5.0 promotion
+
+The executable code was frozen after the hardened verifier passed 45/45 tests and 25/25 gates. No additional implementation feature was added during plateau assessment.
+
+- Round 7: plateau vs round 6 yes probability 0.77; no design flip probability 0.99.
+- Round 8: plateau vs round 7 yes probability 0.86; no design flip probability 0.96.
+
+The two consecutive plateau rounds satisfy the requested stop condition. Vera v0.5.0 therefore promotes the Phase 1C **framework only**. No multi-platform empirical rate is promoted by this version.

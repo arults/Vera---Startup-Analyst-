@@ -1,0 +1,54 @@
+{
+  "model": "jev-1.13.0",
+  "rule": "Stop after two consecutive verifier rounds where no normalized dimension improves by >0.05 and no material D01-D39 node flips.",
+  "rounds": [
+    {
+      "round": 7,
+      "raw_scores": {
+        "design_fidelity": 7.98,
+        "implementation_completeness": 8.15,
+        "statistical_correctness": 6.09,
+        "identity_graph_correctness": 7.51,
+        "test_verifier_coverage": 7.51,
+        "execution_readiness": 7.3
+      },
+      "normalized": {
+        "design_fidelity": 0.898,
+        "implementation_completeness": 0.915,
+        "statistical_correctness": 0.709,
+        "identity_graph_correctness": 0.851,
+        "test_verifier_coverage": 0.851,
+        "execution_readiness": 0.83
+      },
+      "plateau_yes_probability": 0.77,
+      "no_design_flip_probability": 0.99
+    },
+    {
+      "round": 8,
+      "raw_scores": {
+        "design_fidelity": 7.7,
+        "implementation_completeness": 7.84,
+        "statistical_correctness": 6.17,
+        "identity_graph_correctness": 7.31,
+        "test_verifier_coverage": 7.49,
+        "execution_readiness": 7.07
+      },
+      "normalized": {
+        "design_fidelity": 0.87,
+        "implementation_completeness": 0.884,
+        "statistical_correctness": 0.717,
+        "identity_graph_correctness": 0.831,
+        "test_verifier_coverage": 0.849,
+        "execution_readiness": 0.807
+      },
+      "plateau_yes_probability": 0.86,
+      "no_design_flip_probability": 0.96
+    }
+  ],
+  "declaration": "PLATEAU_REACHED",
+  "total_implementation_verifier_rounds": 8,
+  "consecutive_plateau_rounds": [
+    7,
+    8
+  ]
+}

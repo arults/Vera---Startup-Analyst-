@@ -1,0 +1,17 @@
+name: Phase 1C verifier
+on:
+  pull_request:
+  push:
+    branches: [phase-1c]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -p 'test_phase1c*.py' -v
+      - name: Phase 1C deterministic verifier
+        run: python -m src.phase1c.verifier

@@ -1,0 +1,35 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-08",
+  "candidate_version": "0.5.0",
+  "pre_decision_branch_head": "57991b8256b2cd994c01d1c47816bab042afe662",
+  "verification": {
+    "phase1c_ci_run": 37776902939,
+    "phase1b_regression_run": 37776902956,
+    "unit_tests": "45/45 PASS",
+    "deterministic_gates": "25/25 PASS",
+    "plateau_rounds": [
+      7,
+      8
+    ]
+  },
+  "answers": {
+    "promote_framework": {
+      "yes_probability": 0.86
+    },
+    "final_state": {
+      "choice": "complete_framework",
+      "confidence": 1,
+      "probabilities": {
+        "complete_framework": 1,
+        "blocked": 0,
+        "experimental": 0
+      }
+    },
+    "reopen_design": {
+      "yes_probability": 0.11
+    }
+  },
+  "decision": "PROMOTE_V0_5_0_PHASE_1C_FRAMEWORK",
+  "constraint": "Framework promotion only; no full multi-platform dataset or final rates are promoted."
+}
