@@ -31,7 +31,7 @@ def verify_all():
 
     d=json.loads((ROOT/"decisions/PHASE_1C_DECISIONS.json").read_text())
     ids={x["id"] for x in d["nodes"]}
-    expected={f"D{i:02d}" for i in range(1,13)} | {f"D{i}" for i in range(14,27)} | {f"D{i}" for i in range(28,40)} | {"D13R","D15R","D27R","D29R"}
+    expected={f"D{i:02d}" for i in range(1,13)} | {"D13R","D14","D15R"} | {f"D{i}" for i in range(16,27)} | {"D27R","D28","D29R"} | {f"D{i}" for i in range(30,40)}
     gates.append(gate("C_02_TYPED_DECISIONS",expected<=ids,f"typed={len(ids)} expected_subset={len(expected)}"))
     required_fields=["id","question","type","options","prior","evidence","likelihood","posterior","expected_value","selected_option","confidence","reversible"]
     gates.append(gate("C_03_DECISION_FIELDS",all(all(k in n for k in required_fields) for n in d["nodes"]),"required fields on every node"))
