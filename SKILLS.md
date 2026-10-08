@@ -34,3 +34,6 @@ CP3 outcomes + Kaplan-Meier IN PROGRESS. No survival prior is promoted yet.
 
 ## Market-capture methodology
 - `docs/REM_PROBABILISTIC_CAPTURE_ENGINE.md`: REM v3 — probabilistic execution-constrained market-capture engine. TAM/SAM remain bounds; SOM is context; REM is Vera's company-specific revenue distribution by horizon. Method promoted by Jev, but numeric outputs remain calibration-gated/UNCALIBRATED when anchors are weak.
+
+## TAM verification methodology
+- `docs/TAM_VERIFICATION_ENGINE.md`: multi-method TAM estimation and promotion gates. Vera must triangulate TAM with >=2 independent methods when feasible (bottom-up preferred), time-index the market, use broad market reports as cross-checks, preserve disagreement ranges, and return UNVERIFIED/UNCALIBRATED rather than qualitative claims like "TAM is large".
