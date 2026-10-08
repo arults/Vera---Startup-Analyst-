@@ -13,3 +13,14 @@
 - T4L INC (020-27165) filed a C-U saying only that it was launching on StartEngine and is excluded as CU_PRESENT_BUT_NO_POSITIVE_PROCEEDS.
 
 The remembered historical denominator of 42 was not used as an input filter. The reconstruction independently returned 42.
+
+## CP2 chronology repair
+
+The first independent verifier run reproduced 42 rows and passed D01-D07 but failed D08 chronology for seven rows because a cleaned "final campaign deadline" could be later than a Form C-U already describing the offering as final/closed.
+
+Jev decision (jev-1.13.0):
+- close-time rule: explicit C-U close date when available; otherwise earlier of latest SEC campaign deadline and final/closed C-U filing date. Confidence 1.00; selected-option probability 1.00.
+- retain proxy-date sensitivity: yes probability 0.79.
+- change denominator membership because of this defect: yes probability 0.19. Membership therefore remains 42; only time-zero metadata was repaired.
+
+The manifest now records `funding_close_is_proxy` and `funding_close_date_late_bound`. Forty rows use a conservative proxy and two rows have an explicit close date in the C-U text. The late-bound field supports the preregistered timing sensitivity analysis in CP3.
