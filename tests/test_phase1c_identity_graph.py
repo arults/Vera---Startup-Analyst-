@@ -61,8 +61,10 @@ class TestIdentity(unittest.TestCase):
             IdentityRecord("wf2","wefunder",CompanyIdentity("Acme alt",domain="acme.com",founders=("Ada",))),
         ]
         c=generate_cross_platform_candidates(rows)
-        self.assertEqual(len(c),1)
-        self.assertEqual(c[0].result.decision,"MATCH")
+        self.assertEqual(len(c),2)
+        self.assertTrue(all(x.result.decision=="MATCH" for x in c))
+        q=build_review_queue(c)
+        self.assertEqual(q["mandatory_review_count"],2)
 
     def test_name_only_candidate_goes_to_review(self):
         rows=[
