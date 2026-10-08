@@ -30,3 +30,6 @@ REM should account for geography, distribution, sales capacity, pricing, adoptio
 
 ## Vera usage rule
 Treat this document as a reusable research-input source, analogous to a research memo. Any claim reused in a live company analysis must still be verified against current primary/independent sources where possible. No numeric prior or calibrated probability may be promoted from this file without passing Vera's Verifier and JEV promotion process.
+
+## REM supersession note
+The earlier simple REM formula in this memo is **superseded for Vera methodology**. REM v3 in `docs/REM_PROBABILISTIC_CAPTURE_ENGINE.md` defines REM as a probabilistic, execution-constrained revenue distribution by horizon, not a static fourth market-size layer. Keep the simple formula only as historical iteration context.
