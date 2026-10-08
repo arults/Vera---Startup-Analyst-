@@ -39,3 +39,6 @@ Iteration lesson: a remembered denominator count is not a frozen cohort; row-lev
 
 Phase 1B CP1 — Rules/repository freeze: four checkpoint workflow, verified-only promotion policy, historical “42” retained but not promoted.
 Progress: GitHub lineage initialized; next gate is exact SEC-backed 2020 Wefunder denominator reconstruction.
+
+Phase 1B CP2 — Denominator freeze: 360 initial 2020 Wefunder offerings -> 43 with C-U -> 42 SEC-positive funded rows; D01-D08 PASS, hash 62468cea…f78c8.
+Progress: first verifier caught and repaired a chronology defect; Jev selected frozen_primary_denominator with 0.95 probability (confidence 0.92), so outcomes research begins.
