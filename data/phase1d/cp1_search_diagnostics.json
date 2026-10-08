@@ -1,0 +1,5602 @@
+{
+  "captured_at": "2026-10-08T12:52:19.125927+00:00",
+  "method": "search-discovery-v1",
+  "platforms": {
+    "crowdcube": {
+      "query_count": 103,
+      "query_stats": [
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"software\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"saas\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"biotech\"",
+          "raw": 15,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 15,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"healthcare\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"fintech\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"marketplace\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"hardware\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"climate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"energy\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"food\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"gaming\"",
+          "raw": 16,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 16,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"mobility\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"hospitality\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"robotics\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"software\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"saas\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"biotech\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"healthcare\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"fintech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"consumer\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"marketplace\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"energy\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"food\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"mobility\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"hospitality\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"software\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"saas\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"fintech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"consumer\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"marketplace\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"hardware\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"climate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"energy\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"food\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"real estate\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"hospitality\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"robotics\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"software\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"saas\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"biotech\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"fintech\"",
+          "raw": 26,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 26,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"consumer\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"marketplace\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"energy\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"mobility\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"hospitality\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"robotics\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"software\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"biotech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"fintech\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"consumer\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"hardware\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"climate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"energy\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"food\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"mobility\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"hospitality\"",
+          "raw": 16,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 16,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"robotics\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"software\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"saas\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"healthcare\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"fintech\"",
+          "raw": 10,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 10,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"consumer\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"marketplace\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"climate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"energy\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"food\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"gaming\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"mobility\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"real estate\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"hospitality\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        }
+      ],
+      "unique_urls": 0
+    },
+    "republic_us": {
+      "query_count": 103,
+      "query_stats": [
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"software\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"healthcare\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"fintech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"consumer\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"marketplace\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"hardware\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"climate\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"energy\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"food\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"gaming\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"mobility\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"hospitality\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"robotics\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021",
+          "raw": 70,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"software\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"saas\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"consumer\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"marketplace\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"hardware\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"climate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"energy\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"food\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"gaming\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"robotics\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"software\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"saas\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"biotech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"consumer\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"marketplace\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"hardware\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"climate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"energy\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"food\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"gaming\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"mobility\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"real estate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"hospitality\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"robotics\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023",
+          "raw": 66,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"software\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"saas\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"consumer\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"marketplace\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"energy\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"gaming\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"hospitality\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"robotics\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024",
+          "raw": 66,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"software\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"biotech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"consumer\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"energy\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"mobility\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"hospitality\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"software\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"saas\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"biotech\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"healthcare\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"consumer\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"marketplace\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"climate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"energy\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"food\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"gaming\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"mobility\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"robotics\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        }
+      ],
+      "unique_urls": 0
+    },
+    "startengine": {
+      "query_count": 103,
+      "query_stats": [
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020",
+          "raw": 70,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"software\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"saas\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"biotech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"fintech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"consumer\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"hardware\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"climate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"energy\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"robotics\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021",
+          "raw": 59,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"software\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"fintech\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"marketplace\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"energy\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"food\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"gaming\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"mobility\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"robotics\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022",
+          "raw": 68,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"software\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"fintech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"marketplace\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"energy\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"food\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"gaming\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"mobility\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"hospitality\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"robotics\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"software\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"saas\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"biotech\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"healthcare\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"marketplace\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"hardware\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"energy\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"gaming\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"real estate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"hospitality\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"robotics\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024",
+          "raw": 61,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"software\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"saas\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"fintech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"hardware\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"climate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"energy\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"food\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"real estate\"",
+          "raw": 21,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 21,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"robotics\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025",
+          "raw": 68,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"software\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"saas\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"fintech\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"climate\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"energy\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"food\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"mobility\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"real estate\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"hospitality\"",
+          "raw": 25,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 25,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        }
+      ],
+      "unique_urls": 0
+    },
+    "wefunder": {
+      "query_count": 103,
+      "query_stats": [
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020",
+          "raw": 61,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 22,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"software\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"saas\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"fintech\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"marketplace\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"hardware\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"climate\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"energy\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"mobility\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"real estate\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"software\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"biotech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"fintech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"consumer\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"hardware\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"climate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"energy\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"food\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"mobility\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"real estate\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"hospitality\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"robotics\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"software\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"saas\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"biotech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"healthcare\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"fintech\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"marketplace\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"hardware\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"climate\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"energy\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"food\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"mobility\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"real estate\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"hospitality\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"robotics\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023",
+          "raw": 59,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"software\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"saas\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"biotech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"healthcare\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"fintech\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"marketplace\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"hardware\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"climate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"energy\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"mobility\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"robotics\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024",
+          "raw": 62,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"software\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"saas\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"biotech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"fintech\"",
+          "raw": 23,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"consumer\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"marketplace\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"climate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"energy\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"food\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"gaming\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"mobility\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"real estate\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"hospitality\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025",
+          "raw": 65,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 11,
+              "n": 23,
+              "provider": "bing",
+              "status": 200
+            },
+            {
+              "first": 21,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"software\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"saas\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"biotech\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"healthcare\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"fintech\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"consumer\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"marketplace\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"hardware\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"climate\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"energy\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"food\"",
+          "raw": 19,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 19,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"gaming\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"mobility\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"real estate\"",
+          "raw": 24,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 24,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"hospitality\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"robotics\"",
+          "raw": 20,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 20,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        }
+      ],
+      "unique_urls": 0
+    }
+  }
+}
