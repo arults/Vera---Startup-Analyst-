@@ -29,3 +29,17 @@ This file preserves ideas, approaches and intermediate states that **did not ent
 
 ## Promotion discipline
 A rule or empirical result can move from this log into the promoted reference-class registry only after its evidence requirements pass the independent Verifier and the resulting verified state is submitted to Jev for a structured promotion decision.
+
+## 2026-10-08 — CP2 verifier feedback: chronology defect
+
+### Failed approach preserved
+The first denominator manifest used the cleaned dataset's final campaign deadline whenever the C-U did not spell out a close date. The independent verifier rejected this because seven rows had a deadline *after* a C-U that already described the raise as final/closed.
+
+### Repair admitted by Jev
+- Rejected: `deadline_always`.
+- Selected: explicit C-U close date when present; otherwise `min(latest SEC deadline, final/closed C-U filing date)`.
+- Jev confidence: 1.00; probability of selected rule: 1.00.
+- Timing sensitivity retained: yes probability 0.79.
+- Denominator-membership change: yes probability only 0.19; the 42 rows stay unchanged.
+
+This failure is retained as evidence that row count alone is not sufficient for a denominator freeze; chronology is a separate gate.
