@@ -13,5 +13,5 @@ jobs:
           python-version: '3.12'
       - name: Unit tests
         run: python -m unittest discover -s tests -v
-      - name: Denominator verifier
-        run: python src/phase1b_verifier.py --manifest data/cohort_manifest.csv
+      - name: Full Phase 1B verifier
+        run: python src/phase1b_verifier.py --manifest data/cohort_manifest.csv --outcomes data/outcomes.csv
