@@ -1,0 +1,46 @@
+{
+  "checkpoint": "PHASE_1B_CP4",
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-08",
+  "answers": {
+    "final_phase_state": {
+      "choice": "complete_limited_reference_class",
+      "confidence": 1,
+      "probabilities": {
+        "complete_limited_reference_class": 1,
+        "complete_exploratory_only": 0,
+        "blocked": 0
+      }
+    },
+    "version": {
+      "choice": "v0_4_0",
+      "confidence": 0.97,
+      "probabilities": {
+        "v0_4_0": 0.98,
+        "v0_3_6": 0.02,
+        "v1_0_0": 0
+      }
+    },
+    "registry_contents": {
+      "choice": "five_year_with_full_context",
+      "confidence": 1,
+      "probabilities": {
+        "five_year_with_full_context": 1,
+        "point_estimate_only": 0,
+        "full_curve_all_horizons": 0
+      }
+    },
+    "direct_probability_use": {
+      "yes_probability": 0.06
+    },
+    "phase1b_complete": {
+      "yes_probability": 0.73
+    }
+  },
+  "decision": "PROMOTE_V0_4_0_LIMITED_5Y_REFERENCE_CLASS",
+  "constraints": [
+    "Carry five-year primary estimate together with confidence interval, at-risk count, cohort definition, hashes, late-bound sensitivity and limitations.",
+    "Do not promote six-year output.",
+    "Do not directly substitute the Wefunder operating-survival estimate for an individual startup's causal success probabilities."
+  ]
+}

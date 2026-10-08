@@ -1,0 +1,56 @@
+{
+  "checkpoint": "PHASE_1B_CP2",
+  "github_actions_run_id": 37750379057,
+  "job_id": 113221852811,
+  "tests": {
+    "run": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "verified_manifest_rows": 42,
+  "manifest_sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+  "promotion_gate": "PASS",
+  "gates": [
+    {
+      "id": "D01_EXACT_COUNT",
+      "passed": true,
+      "detail": "rows=42 expected=42"
+    },
+    {
+      "id": "D02_UNIQUE_OFFERING_KEYS",
+      "passed": true,
+      "detail": "unique=42/42"
+    },
+    {
+      "id": "D03_WEFUNDER_ONLY",
+      "passed": true
+    },
+    {
+      "id": "D04_INITIAL_FORM_C_IN_2020",
+      "passed": true
+    },
+    {
+      "id": "D05_INITIAL_SEC_EVIDENCE",
+      "passed": true
+    },
+    {
+      "id": "D06_SEC_CONFIRMED_FUNDING",
+      "passed": true
+    },
+    {
+      "id": "D07_NO_FINAL_WITHDRAWALS",
+      "passed": true
+    },
+    {
+      "id": "D08_CHRONOLOGY",
+      "passed": true,
+      "detail": "bad=[]"
+    }
+  ],
+  "prior_failed_attempt": {
+    "run_id": 37749673003,
+    "D08_passed": false,
+    "bad_rows": 7,
+    "disposition": "preserved; repaired using Jev-selected time-zero rule, not waived"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "evaluated_at": "2026-10-08",
+  "model": "jev-1.13.0",
+  "manifest_sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+  "answers": {
+    "freeze_denominator": {
+      "yes_probability": 0.79
+    },
+    "cp2_state": {
+      "choice": "frozen_primary_denominator",
+      "confidence": 0.92,
+      "probabilities": {
+        "frozen_primary_denominator": 0.95,
+        "exploratory_only": 0.04,
+        "blocked_source_verification": 0.01
+      }
+    },
+    "mirror_use_acceptable": {
+      "yes_probability": 0.8
+    },
+    "proceed_outcomes": {
+      "yes_probability": 0.78
+    }
+  },
+  "decision": "CP2_PASS_FROZEN_PRIMARY_DENOMINATOR"
+}

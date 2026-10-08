@@ -1,0 +1,62 @@
+{
+  "checkpoint": "PHASE_1B_CP3",
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-08",
+  "state": {
+    "verifier_run": 37766586864,
+    "verifier_promotion_gate": "PASS",
+    "cohort_n": 42,
+    "failure_events": 4,
+    "five_year_primary": {
+      "survival": 0.9301470588235294,
+      "ci95_lower": 0.7439661019746592,
+      "ci95_upper": 0.9824270488121086,
+      "at_risk": 12
+    },
+    "five_year_late_bound": {
+      "survival": 0.9256661991584854,
+      "ci95_lower": 0.7306904471566094,
+      "ci95_upper": 0.9811646010997864,
+      "at_risk": 8
+    },
+    "six_year_primary": {
+      "survival": 0.8138786764705883,
+      "ci95_lower": 0.44659180646286345,
+      "ci95_upper": 0.9487458844723311,
+      "at_risk": 3
+    },
+    "six_year_late_bound": {
+      "survival": 0.6171107994389904,
+      "ci95_lower": 0.20349992570033926,
+      "ci95_upper": 0.8638534380577269,
+      "at_risk": 1
+    }
+  },
+  "answers": {
+    "cp3_state": {
+      "choice": "pass_limited_5y",
+      "confidence": 1,
+      "probabilities": {
+        "pass_limited_5y": 1,
+        "exploratory_only": 0,
+        "blocked": 0
+      }
+    },
+    "promote_5y": {
+      "yes_probability": 0.79
+    },
+    "promote_6y": {
+      "yes_probability": 0.08
+    },
+    "five_year_representation": {
+      "choice": "primary_plus_sensitivity",
+      "confidence": 1,
+      "probabilities": {
+        "primary_plus_sensitivity": 1,
+        "primary_only": 0,
+        "midpoint": 0
+      }
+    }
+  },
+  "decision": "CP3_PASS_LIMITED_5Y"
+}

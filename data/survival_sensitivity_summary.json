@@ -1,0 +1,60 @@
+{
+  "generated_from": {
+    "manifest_blob_sha": "45d143961d73585dcbe8f7534463ea7362513249",
+    "outcomes_blob_sha": "61fddd1f3aada351e572c0d6c60a72e255755d8a"
+  },
+  "cohort_rows": 42,
+  "outcome_rows": 42,
+  "event_counts": {
+    "active_censor": 35,
+    "failure": 4,
+    "acquisition_censor": 2,
+    "listing_censor": 1
+  },
+  "primary_5y": {
+    "year": 5,
+    "at_risk": 12,
+    "failures_cumulative": 2,
+    "censored_cumulative": 28,
+    "survival": 0.9301470588235294,
+    "ci95_lower": 0.7439661019746592,
+    "ci95_upper": 0.9824270488121086
+  },
+  "late_bound_5y": {
+    "year": 5,
+    "at_risk": 8,
+    "failures_cumulative": 2,
+    "censored_cumulative": 32,
+    "survival": 0.9256661991584854,
+    "ci95_lower": 0.7306904471566094,
+    "ci95_upper": 0.9811646010997864
+  },
+  "primary_6y": {
+    "year": 6,
+    "at_risk": 3,
+    "failures_cumulative": 3,
+    "censored_cumulative": 36,
+    "survival": 0.8138786764705883,
+    "ci95_lower": 0.44659180646286345,
+    "ci95_upper": 0.9487458844723311
+  },
+  "late_bound_6y": {
+    "year": 6,
+    "at_risk": 1,
+    "failures_cumulative": 4,
+    "censored_cumulative": 37,
+    "survival": 0.6171107994389904,
+    "ci95_lower": 0.20349992570033926,
+    "ci95_upper": 0.8638534380577269
+  },
+  "public_listing_continue_to_cutoff_5y": {
+    "year": 5,
+    "at_risk": 12,
+    "failures_cumulative": 2,
+    "censored_cumulative": 28,
+    "survival": 0.9301470588235294,
+    "ci95_lower": 0.7439661019746592,
+    "ci95_upper": 0.9824270488121086
+  },
+  "interpretation": "Five-year survival is the candidate empirical prior. Six-year survival is sensitivity-only because the risk set is too small. Listing-continuation sensitivity does not change the current five-year estimate."
+}

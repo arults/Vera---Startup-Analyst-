@@ -1,0 +1,35 @@
+{
+  "evaluated_at": "2026-10-08",
+  "model": "jev-1.13.0",
+  "repo_versioning": {
+    "choice": "import_as_v0_3_5_then_phase1b_checkpoints",
+    "confidence": 1,
+    "probabilities": {
+      "import_only_latest": 0,
+      "call_everything_v1_now": 0,
+      "import_as_v0_3_5_then_phase1b_checkpoints": 1
+    }
+  },
+  "acceptance_policy": {
+    "choice": "verified_only",
+    "confidence": 1,
+    "probabilities": {
+      "include_best_effort": 0,
+      "include_historical_42": 0,
+      "verified_only": 1
+    }
+  },
+  "checkpoint_policy": {
+    "choice": "four_gates",
+    "confidence": 0.98,
+    "probabilities": {
+      "per_company": 0.01,
+      "four_gates": 0.99,
+      "one_final_commit": 0
+    }
+  },
+  "promote_historical_42": {
+    "yes_probability": 0.14
+  },
+  "decision": "CP1_RULES_FREEZE_PASS"
+}

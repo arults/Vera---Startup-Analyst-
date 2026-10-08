@@ -1,0 +1,50 @@
+Vera v0.1 — Initial Decision Analysis analyst: causal startup-success chain, TAM/SAM/SOM/REM, dilution, PWMOIC/IRR and outcome distributions.
+Iteration lesson: useful structure, but probability calibration was too subjective and needed empirical reference classes.
+
+Vera v0.2 — Calibration upgrade: require reference classes before probabilities; return UNCALIBRATED when evidence cannot support precision.
+Iteration lesson: causal reasoning alone is not enough; evidence-backed priors and uncertainty discipline become mandatory.
+
+Vera v0.2.1 — Research Coverage Matrix: systematic search of terms, filings, team, customers, market, competition, adverse evidence and references.
+Iteration lesson: every material research area must be marked searched/not-found/inaccessible/not-material rather than silently skipped.
+
+Vera v0.2.2 — Research Sufficiency: weighted completeness gates FULL/LIMITED/INSUFFICIENT.
+Iteration lesson: source count is not the same thing as decision-quality coverage.
+
+Vera v0.2.3 — Adaptive Research: Value-of-Information prioritizes unknowns most likely to change INVEST vs PASS.
+Iteration lesson: stop low-value research and focus effort where new evidence can change the decision.
+
+Vera v0.2.4 — Evidence Weighting: authority, independence, directness, recency and corroboration determine evidentiary weight.
+Iteration lesson: issuer claims, user reviews and independent filings must not move probabilities equally.
+
+Vera v0.2.5 — Contradiction Resolution: conflicting credible sources become explicit scenarios/ledger entries.
+Iteration lesson: never silently choose a preferred number when valuation, traction, timing or milestones conflict.
+
+Vera v0.2.6 — Sector-Specific Adverse Research: negative research adapts to SaaS, biotech, fintech, hardware, healthcare and marketplaces.
+Iteration lesson: “not found” means searched-not-found, not proof that no adverse issue exists.
+
+Vera v0.2.7 — Source Access & Reference Sources: substitute authoritative sources when a primary path is inaccessible.
+Iteration lesson: inaccessible evidence must remain visible and cannot be silently replaced by weaker evidence.
+
+Vera v0.2.8 — Reference-Class Registry: auditable stage/sector benchmarks with cohort, date, applicability and refresh rules.
+Iteration lesson: benchmarks guide priors/bounds but are not automatically startup-specific success probabilities.
+
+Vera v0.2.9 — Discussion & Review Bias Controls: positive/negative sampling, duplicate removal and reviewer-context checks.
+Iteration lesson: investor enthusiasm and community sentiment remain separate from independently verified facts.
+
+Vera v0.2.10 — Tiered Diligence: SCREEN, STANDARD and DEEP DILIGENCE with escalation triggers.
+Iteration lesson: diligence depth should match decision importance without under-researching or wasting effort.
+
+Vera v0.3.5 — Phase 1B empirical engine: SEC cohort reconstruction → denominator freeze → dated outcomes/censoring → KM → Verifier → Jev.
+Iteration lesson: a remembered denominator count is not a frozen cohort; row-level evidence, hashes and fail-closed promotion are mandatory.
+
+Phase 1B CP1 — Rules/repository freeze: four checkpoint workflow, verified-only promotion policy, historical “42” retained but not promoted.
+Progress: GitHub lineage initialized; next gate is exact SEC-backed 2020 Wefunder denominator reconstruction.
+
+Phase 1B CP2 — Denominator freeze: 360 initial 2020 Wefunder offerings -> 43 with C-U -> 42 SEC-positive funded rows; D01-D08 PASS, hash 62468cea…f78c8.
+Progress: first verifier caught and repaired a chronology defect; Jev selected frozen_primary_denominator with 0.95 probability (confidence 0.92), so outcomes research begins.
+
+Phase 1B CP3 — Outcomes + survival: 42/42 sourced endpoints, 4 observed failures, 2 acquisition censors, 1 listing censor; D/O/S gates and 13/13 tests PASS.
+Progress: 5-year KM = 93.01% (95% CI 74.40–98.24%; n-risk 12), late-bound sensitivity 92.57%; Jev passes limited 5-year reference class and rejects the underpowered 6-year tail.
+
+Vera v0.4.0 / Phase 1B CP4 — First verified empirical reference class promoted with cohort definition, hashes, confidence interval, risk set, censoring and funding-date sensitivity attached.
+Iteration lesson: empirical base rates are anchors, not company-specific probabilities; 18/18 registry/verifier tests PASS, while 6-year and direct-substitution uses remain explicitly non-promoted.
