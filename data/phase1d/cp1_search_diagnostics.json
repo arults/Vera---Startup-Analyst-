@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T13:02:04.475585+00:00",
+  "captured_at": "2026-10-08T13:07:03.017458+00:00",
   "method": "search-discovery-v1",
   "platforms": {
     "crowdcube": {
@@ -8,6 +8,19 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\"",
+          "raw": 18,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 18,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020",
           "raw": 14,
           "statuses": [
             {
@@ -20,25 +33,12 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020",
-          "raw": 13,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 13,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"software\"",
-          "raw": 13,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -73,11 +73,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"healthcare\"",
-          "raw": 14,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -112,32 +112,6 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"marketplace\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"hardware\"",
-          "raw": 11,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 11,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"climate\"",
           "raw": 13,
           "statuses": [
             {
@@ -150,59 +124,7 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"energy\"",
-          "raw": 8,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 8,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"food\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"gaming\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"mobility\"",
-          "raw": 11,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 11,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"real estate\"",
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"hardware\"",
           "raw": 18,
           "statuses": [
             {
@@ -215,12 +137,90 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"hospitality\"",
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"climate\"",
+          "raw": 9,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 9,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"energy\"",
+          "raw": 9,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 9,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"food\"",
+          "raw": 13,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"gaming\"",
+          "raw": 18,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 18,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"mobility\"",
           "raw": 14,
           "statuses": [
             {
               "first": 1,
               "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"real estate\"",
+          "raw": 13,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2020 \"hospitality\"",
+          "raw": 13,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -242,11 +242,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021",
-          "raw": 14,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -255,11 +255,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"software\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -281,11 +281,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"biotech\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -294,19 +294,6 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"healthcare\"",
-          "raw": 17,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 17,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"fintech\"",
           "raw": 13,
           "statuses": [
             {
@@ -319,12 +306,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"consumer\"",
-          "raw": 17,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"fintech\"",
+          "raw": 11,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 11,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"consumer\"",
+          "raw": 18,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -346,32 +346,6 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"hardware\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"climate\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"energy\"",
           "raw": 17,
           "statuses": [
             {
@@ -384,12 +358,38 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"food\"",
-          "raw": 13,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"climate\"",
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"energy\"",
+          "raw": 18,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 18,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"food\"",
+          "raw": 11,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 11,
               "provider": "bing",
               "status": 200
             }
@@ -398,11 +398,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"gaming\"",
-          "raw": 13,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -411,11 +411,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"mobility\"",
-          "raw": 18,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -424,32 +424,6 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"real estate\"",
-          "raw": 15,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 15,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"hospitality\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"robotics\"",
           "raw": 13,
           "statuses": [
             {
@@ -462,12 +436,38 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022",
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"hospitality\"",
           "raw": 14,
           "statuses": [
             {
               "first": 1,
               "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2021 \"robotics\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022",
+          "raw": 13,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -489,11 +489,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"saas\"",
-          "raw": 17,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -502,11 +502,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"biotech\"",
-          "raw": 13,
+          "raw": 15,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 15,
               "provider": "bing",
               "status": 200
             }
@@ -541,11 +541,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"consumer\"",
-          "raw": 14,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -554,11 +554,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"marketplace\"",
-          "raw": 13,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -567,11 +567,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"hardware\"",
-          "raw": 17,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -580,11 +580,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"climate\"",
-          "raw": 14,
+          "raw": 15,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 15,
               "provider": "bing",
               "status": 200
             }
@@ -593,45 +593,6 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"energy\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"food\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"gaming\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"mobility\"",
           "raw": 17,
           "statuses": [
             {
@@ -644,12 +605,51 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"real estate\"",
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"food\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"gaming\"",
           "raw": 13,
           "statuses": [
             {
               "first": 1,
               "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"mobility\"",
+          "raw": 13,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"real estate\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -671,11 +671,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2022 \"robotics\"",
-          "raw": 14,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -684,11 +684,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023",
-          "raw": 11,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 11,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -723,11 +723,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"biotech\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -736,11 +736,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"healthcare\"",
-          "raw": 8,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 8,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -749,11 +749,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"fintech\"",
-          "raw": 14,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -775,11 +775,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"marketplace\"",
-          "raw": 13,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -788,11 +788,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"hardware\"",
-          "raw": 13,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -801,11 +801,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"climate\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -814,11 +814,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"energy\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -827,11 +827,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"food\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -853,11 +853,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"mobility\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -866,11 +866,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"real estate\"",
-          "raw": 14,
+          "raw": 15,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 15,
               "provider": "bing",
               "status": 200
             }
@@ -879,11 +879,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2023 \"hospitality\"",
-          "raw": 15,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 15,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -905,11 +905,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024",
-          "raw": 14,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -918,11 +918,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"software\"",
-          "raw": 11,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 11,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -931,11 +931,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"saas\"",
-          "raw": 14,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -957,11 +957,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"healthcare\"",
-          "raw": 13,
+          "raw": 11,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 11,
               "provider": "bing",
               "status": 200
             }
@@ -970,32 +970,6 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"fintech\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"consumer\"",
-          "raw": 13,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 13,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"marketplace\"",
           "raw": 14,
           "statuses": [
             {
@@ -1008,7 +982,20 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"hardware\"",
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"consumer\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"marketplace\"",
           "raw": 17,
           "statuses": [
             {
@@ -1021,12 +1008,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"climate\"",
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"hardware\"",
           "raw": 13,
           "statuses": [
             {
               "first": 1,
               "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"climate\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1048,11 +1048,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"food\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1061,11 +1061,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"gaming\"",
-          "raw": 13,
+          "raw": 11,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 11,
               "provider": "bing",
               "status": 200
             }
@@ -1074,11 +1074,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"mobility\"",
-          "raw": 12,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 12,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1087,11 +1087,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"real estate\"",
-          "raw": 13,
+          "raw": 8,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 8,
               "provider": "bing",
               "status": 200
             }
@@ -1100,6 +1100,19 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"hospitality\"",
+          "raw": 15,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 15,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"robotics\"",
           "raw": 13,
           "statuses": [
             {
@@ -1112,25 +1125,12 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2024 \"robotics\"",
-          "raw": 17,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 17,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025",
-          "raw": 17,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1152,11 +1152,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"saas\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -1165,11 +1165,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"biotech\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1178,11 +1178,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"healthcare\"",
-          "raw": 11,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 11,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1204,11 +1204,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"consumer\"",
-          "raw": 14,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -1230,11 +1230,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"hardware\"",
-          "raw": 4,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 4,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -1243,11 +1243,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"climate\"",
-          "raw": 14,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -1256,11 +1256,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"energy\"",
-          "raw": 18,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -1269,11 +1269,11 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"food\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -1308,6 +1308,19 @@
         {
           "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"real estate\"",
+          "raw": 17,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 17,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"hospitality\"",
           "raw": 13,
           "statuses": [
             {
@@ -1320,25 +1333,12 @@
         },
         {
           "accepted": 0,
-          "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"hospitality\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:crowdcube.com \"Crowdcube\" \"funded\" 2025 \"robotics\"",
-          "raw": 11,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 11,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -1370,7 +1370,7 @@
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             },
@@ -1382,7 +1382,7 @@
             },
             {
               "first": 21,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1391,11 +1391,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"software\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1404,11 +1404,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"saas\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1482,11 +1482,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"hardware\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1508,11 +1508,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"energy\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1521,11 +1521,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"food\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1573,11 +1573,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2020 \"hospitality\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1603,13 +1603,13 @@
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             },
             {
               "first": 11,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
@@ -1624,11 +1624,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"software\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1637,11 +1637,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"saas\"",
-          "raw": 13,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1676,11 +1676,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"fintech\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1702,19 +1702,6 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"marketplace\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"hardware\"",
           "raw": 14,
           "statuses": [
             {
@@ -1727,7 +1714,7 @@
         },
         {
           "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"climate\"",
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"hardware\"",
           "raw": 18,
           "statuses": [
             {
@@ -1740,12 +1727,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"energy\"",
-          "raw": 18,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"climate\"",
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"energy\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1793,19 +1793,6 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"real estate\"",
-          "raw": 18,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 18,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"hospitality\"",
           "raw": 14,
           "statuses": [
             {
@@ -1818,12 +1805,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"robotics\"",
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"hospitality\"",
           "raw": 18,
           "statuses": [
             {
               "first": 1,
               "n": 18,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2021 \"robotics\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1857,11 +1857,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"software\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -1922,11 +1922,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"consumer\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1935,11 +1935,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"marketplace\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -1987,11 +1987,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"food\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2052,11 +2052,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2022 \"robotics\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2065,7 +2065,7 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2023",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
@@ -2075,7 +2075,7 @@
             },
             {
               "first": 11,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             },
@@ -2116,11 +2116,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"biotech\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2181,11 +2181,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"hardware\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2194,19 +2194,6 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"climate\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"energy\"",
           "raw": 18,
           "statuses": [
             {
@@ -2219,12 +2206,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"food\"",
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"energy\"",
           "raw": 14,
           "statuses": [
             {
               "first": 1,
               "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:republic.com \"Successfully funded and closed on\" 2023 \"food\"",
+          "raw": 18,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2298,11 +2298,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
@@ -2314,7 +2314,7 @@
             },
             {
               "first": 21,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2323,11 +2323,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"software\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2349,11 +2349,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"biotech\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2375,11 +2375,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"fintech\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2414,11 +2414,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"hardware\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2427,11 +2427,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"climate\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2453,11 +2453,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"food\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2479,11 +2479,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"mobility\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2492,11 +2492,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2024 \"real estate\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2535,19 +2535,19 @@
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             },
             {
               "first": 11,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
             {
               "first": 21,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2556,11 +2556,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"software\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2569,11 +2569,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"saas\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2621,11 +2621,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"consumer\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2647,11 +2647,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"hardware\"",
-          "raw": 18,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 18,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2673,11 +2673,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"energy\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2699,11 +2699,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"gaming\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2738,11 +2738,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"hospitality\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2751,11 +2751,11 @@
         {
           "accepted": 0,
           "query": "site:republic.com \"Successfully funded and closed on\" 2025 \"robotics\"",
-          "raw": 14,
+          "raw": 18,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 18,
               "provider": "bing",
               "status": 200
             }
@@ -2783,11 +2783,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             },
@@ -2808,11 +2808,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"software\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2821,11 +2821,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"saas\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -2873,11 +2873,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"consumer\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -2899,11 +2899,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"hardware\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2938,11 +2938,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"food\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -2964,11 +2964,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2020 \"mobility\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3016,11 +3016,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2021",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
@@ -3093,11 +3093,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"fintech\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3106,32 +3106,6 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"consumer\"",
-          "raw": 10,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 10,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"marketplace\"",
-          "raw": 10,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 10,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"hardware\"",
           "raw": 14,
           "statuses": [
             {
@@ -3144,12 +3118,38 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"climate\"",
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"marketplace\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"hardware\"",
           "raw": 10,
           "statuses": [
             {
               "first": 1,
               "n": 10,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"climate\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3197,11 +3197,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"mobility\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3210,32 +3210,6 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"real estate\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"hospitality\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"robotics\"",
           "raw": 10,
           "statuses": [
             {
@@ -3248,8 +3222,34 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2022",
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"hospitality\"",
           "raw": 10,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 10,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2021 \"robotics\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022",
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
@@ -3259,7 +3259,7 @@
             },
             {
               "first": 11,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
@@ -3287,6 +3287,19 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"saas\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"biotech\"",
           "raw": 10,
           "statuses": [
             {
@@ -3299,25 +3312,12 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"biotech\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"healthcare\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3339,19 +3339,6 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"consumer\"",
-          "raw": 10,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 10,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"marketplace\"",
           "raw": 14,
           "statuses": [
             {
@@ -3364,12 +3351,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"hardware\"",
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"marketplace\"",
           "raw": 10,
           "statuses": [
             {
               "first": 1,
               "n": 10,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"hardware\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3391,11 +3391,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"energy\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3430,6 +3430,19 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"mobility\"",
+          "raw": 10,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 10,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"real estate\"",
           "raw": 14,
           "statuses": [
             {
@@ -3442,25 +3455,12 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"real estate\"",
-          "raw": 10,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 10,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2022 \"hospitality\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3498,7 +3498,7 @@
             },
             {
               "first": 21,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3546,11 +3546,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"healthcare\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3572,11 +3572,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"consumer\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3650,11 +3650,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2023 \"gaming\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3725,13 +3725,13 @@
             },
             {
               "first": 11,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
             {
               "first": 21,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3753,11 +3753,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"saas\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3766,11 +3766,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"biotech\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3818,11 +3818,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"marketplace\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3831,11 +3831,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"hardware\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3870,6 +3870,19 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"food\"",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"gaming\"",
           "raw": 10,
           "statuses": [
             {
@@ -3882,25 +3895,12 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"gaming\"",
-          "raw": 14,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 14,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"mobility\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -3922,19 +3922,6 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"hospitality\"",
-          "raw": 10,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 10,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"robotics\"",
           "raw": 14,
           "statuses": [
             {
@@ -3947,7 +3934,7 @@
         },
         {
           "accepted": 0,
-          "query": "site:startengine.com/offering \"Offering Closed\" 2025",
+          "query": "site:startengine.com/offering \"Offering Closed\" 2024 \"robotics\"",
           "raw": 10,
           "statuses": [
             {
@@ -3955,10 +3942,23 @@
               "n": 10,
               "provider": "bing",
               "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:startengine.com/offering \"Offering Closed\" 2025",
+          "raw": 14,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 14,
+              "provider": "bing",
+              "status": 200
             },
             {
               "first": 11,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             },
@@ -3986,11 +3986,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"saas\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -3999,11 +3999,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"biotech\"",
-          "raw": 14,
+          "raw": 10,
           "statuses": [
             {
               "first": 1,
-              "n": 14,
+              "n": 10,
               "provider": "bing",
               "status": 200
             }
@@ -4025,11 +4025,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"fintech\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -4038,11 +4038,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"consumer\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -4090,11 +4090,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"energy\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -4116,11 +4116,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"gaming\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -4168,11 +4168,11 @@
         {
           "accepted": 0,
           "query": "site:startengine.com/offering \"Offering Closed\" 2025 \"robotics\"",
-          "raw": 10,
+          "raw": 14,
           "statuses": [
             {
               "first": 1,
-              "n": 10,
+              "n": 14,
               "provider": "bing",
               "status": 200
             }
@@ -4204,7 +4204,7 @@
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             },
@@ -4225,11 +4225,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"software\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4238,11 +4238,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"saas\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4264,11 +4264,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"healthcare\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4277,11 +4277,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"fintech\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4290,11 +4290,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"consumer\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4303,11 +4303,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"marketplace\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4316,11 +4316,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"hardware\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4368,11 +4368,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"gaming\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4381,11 +4381,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"mobility\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4394,11 +4394,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2020 \"real estate\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4437,7 +4437,7 @@
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             },
@@ -4449,7 +4449,7 @@
             },
             {
               "first": 21,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4458,11 +4458,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"software\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4484,11 +4484,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"biotech\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4510,19 +4510,6 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"fintech\"",
-          "raw": 13,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 13,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
-          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"consumer\"",
           "raw": 17,
           "statuses": [
             {
@@ -4535,12 +4522,25 @@
         },
         {
           "accepted": 0,
-          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"marketplace\"",
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"consumer\"",
           "raw": 13,
           "statuses": [
             {
               "first": 1,
               "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"marketplace\"",
+          "raw": 17,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4562,11 +4562,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"climate\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4575,11 +4575,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"energy\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4640,11 +4640,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"hospitality\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4653,11 +4653,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2021 \"robotics\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4704,11 +4704,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"saas\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4756,11 +4756,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"consumer\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4769,11 +4769,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"marketplace\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4834,11 +4834,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"gaming\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4860,11 +4860,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"real estate\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4873,11 +4873,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2022 \"hospitality\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4899,7 +4899,7 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
@@ -4915,7 +4915,7 @@
             },
             {
               "first": 21,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -4924,11 +4924,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"software\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -4937,11 +4937,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"saas\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5015,11 +5015,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"hardware\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5054,11 +5054,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"food\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -5067,11 +5067,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"gaming\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -5106,6 +5106,19 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"hospitality\"",
+          "raw": 13,
+          "statuses": [
+            {
+              "first": 1,
+              "n": 13,
+              "provider": "bing",
+              "status": 200
+            }
+          ]
+        },
+        {
+          "accepted": 0,
+          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"robotics\"",
           "raw": 17,
           "statuses": [
             {
@@ -5118,37 +5131,24 @@
         },
         {
           "accepted": 0,
-          "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2023 \"robotics\"",
-          "raw": 13,
-          "statuses": [
-            {
-              "first": 1,
-              "n": 13,
-              "provider": "bing",
-              "status": 200
-            }
-          ]
-        },
-        {
-          "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             },
             {
               "first": 11,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             },
             {
               "first": 21,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5170,11 +5170,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"saas\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5209,11 +5209,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"fintech\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5222,11 +5222,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"consumer\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5313,11 +5313,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"mobility\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -5326,11 +5326,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"real estate\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5352,11 +5352,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2024 \"robotics\"",
-          "raw": 13,
+          "raw": 11,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 11,
               "provider": "bing",
               "status": 200
             }
@@ -5369,7 +5369,7 @@
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             },
@@ -5390,11 +5390,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"software\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -5416,11 +5416,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"biotech\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5455,11 +5455,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"consumer\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5481,11 +5481,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"hardware\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -5494,11 +5494,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"climate\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
@@ -5559,11 +5559,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"real estate\"",
-          "raw": 17,
+          "raw": 13,
           "statuses": [
             {
               "first": 1,
-              "n": 17,
+              "n": 13,
               "provider": "bing",
               "status": 200
             }
@@ -5585,11 +5585,11 @@
         {
           "accepted": 0,
           "query": "site:wefunder.com \"This offering is hosted by Wefunder Portal LLC\" 2025 \"robotics\"",
-          "raw": 13,
+          "raw": 17,
           "statuses": [
             {
               "first": 1,
-              "n": 13,
+              "n": 17,
               "provider": "bing",
               "status": 200
             }
