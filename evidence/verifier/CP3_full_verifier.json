@@ -1,0 +1,61 @@
+{
+  "checkpoint": "PHASE_1B_CP3",
+  "verified_at": "2026-10-08",
+  "github_actions": {
+    "run_id": 37766586864,
+    "job_id": 113275634623,
+    "conclusion": "success",
+    "tests_passed": 13,
+    "tests_failed": 0
+  },
+  "inputs": {
+    "manifest_sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+    "outcomes_sha256": "7f87d79c2a24bf748a6751180fed4cc286b678e0621d4fcbe8ec8b38b2afb5fc",
+    "rows": 42
+  },
+  "event_counts": {
+    "active_censor": 35,
+    "failure": 4,
+    "acquisition_censor": 2,
+    "listing_censor": 1
+  },
+  "denominator_gates": {
+    "D01_EXACT_COUNT": "PASS",
+    "D02_UNIQUE_OFFERING_KEYS": "PASS",
+    "D03_WEFUNDER_ONLY": "PASS",
+    "D04_INITIAL_FORM_C_IN_2020": "PASS",
+    "D05_INITIAL_SEC_EVIDENCE": "PASS",
+    "D06_SEC_CONFIRMED_FUNDING": "PASS",
+    "D07_NO_FINAL_WITHDRAWALS": "PASS",
+    "D08_CHRONOLOGY": "PASS"
+  },
+  "outcome_gates": {
+    "O01_ONE_OUTCOME_PER_COHORT_ROW": "PASS",
+    "O02_NO_EXTRA_OUTCOME_ROWS": "PASS",
+    "O03_ALLOWED_EVENT_TYPES": "PASS",
+    "O04_VERIFIED_OUTCOME_EVIDENCE": "PASS",
+    "O05_DATED_OBSERVATIONS": "PASS",
+    "O06_OUTCOME_AFTER_FUNDING": "PASS",
+    "O07_NO_SILENCE_EQUALS_SURVIVAL": "PASS"
+  },
+  "survival_gates": {
+    "S01_PROBABILITY_BOUNDS": "PASS",
+    "S02_NON_INCREASING": "PASS",
+    "S03_RISK_SET_ARITHMETIC": "PASS"
+  },
+  "promotion_gate": "PASS",
+  "failed_attempts_preserved": [
+    {
+      "run_id": 37765870945,
+      "reason": "package import failed: survival module path"
+    },
+    {
+      "run_id": 37766008386,
+      "reason": "repair accidentally wrote literal newline escape sequences"
+    },
+    {
+      "run_id": 37766514445,
+      "reason": "unit-test fixture incorrectly labelled exact KM arithmetic as invalid"
+    }
+  ]
+}
