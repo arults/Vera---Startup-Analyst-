@@ -129,3 +129,44 @@ The executable code was frozen after the hardened verifier passed 45/45 tests an
 - Round 8: plateau vs round 7 yes probability 0.86; no design flip probability 0.96.
 
 The two consecutive plateau rounds satisfy the requested stop condition. Vera v0.5.0 therefore promotes the Phase 1C **framework only**. No multi-platform empirical rate is promoted by this version.
+
+
+## 2026-10-08 — Phase 1D CP1 real execution / census recovery
+
+Phase 1D targets Vera v0.6.0 and executes the frozen Phase 1C study. Jev selected five execution checkpoints and the same two-consecutive-round plateau rule.
+
+### First census attempt — failed closed
+- Wefunder: plain HTTP historical directory returned 403; zero usable census candidates.
+- StartEngine: plain HTTP returned asynchronous/blocked responses; zero candidates.
+- Crowdcube: Cloudflare 403; zero candidates.
+- Republic US: partial public seed links only.
+- Republic Europe: initial gzip sitemap parser did not decode the sitemap.
+- Generated checkpoint push also hit a non-fast-forward race.
+
+Jev selected browser_and_gzip recovery with probability 1.00 and marked the first CP1 attempt blocked_rebuild rather than allowing a partial denominator.
+
+### Rebuild
+- Added gzip sitemap parsing.
+- Added TLS/Chrome impersonation and Chromium rendering.
+- Corrected workflow persistence to rebase before checkpoint push.
+- Fixed a workflow bug where literal newline escape characters had prevented Playwright installation.
+- Fixed relative nested-sitemap URL resolution.
+
+Result:
+- Republic Europe: 2,896 sitemap URLs / 2,073 candidate slugs — reproducibly enumerable.
+- Wefunder: partial browser root only; historical directory remains blocked.
+- StartEngine: browser/TLS blocked.
+- Crowdcube: browser/TLS blocked.
+- Republic US: public pages work but no exhaustive year denominator recovered.
+
+### Search discovery
+Search-engine discovery remained discovery-only. A first Bing worker failed because redirect targets were not decoded; this was preserved rather than treated as evidence. Structured platform-domain search later recovered discovery subsets including 112 StartEngine and 108 Republic US campaign URLs, plus smaller Wefunder/Crowdcube sets, but these are not complete denominators.
+
+### Final CP1 Jev gate
+Jev decisions:
+- incomplete census -> suppress_invalid_cells: probability 1.00 / confidence 1.00.
+- completeness requires reproducible native enumeration or convergent independent discovery with platform validation: probability 1.00 / confidence 1.00.
+- canonical platform-page extracts may count as platform evidence; search snippets may not: probability 1.00 / confidence 1.00.
+- CP1 state = PASS_WITH_SUPPRESSION: probability 1.00 / confidence 1.00.
+
+Therefore the study proceeds with Republic Europe while preserving the other four platforms' discovery rows and coverage diagnostics but prohibiting their outcome-rate estimates until denominator coverage becomes defensible.
