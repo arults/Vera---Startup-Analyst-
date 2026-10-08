@@ -54,3 +54,9 @@ Progress: 45/45 tests and 25/25 deterministic gates PASS; Phase 1B regression re
 
 Vera v0.5.0 / Phase 1C CP4 — Build→Verify→Feedback→Rebuild loop reached plateau after 8 verifier rounds, with rounds 7 and 8 satisfying the two-consecutive-round stop rule.
 Iteration lesson: execution frameworks must make identity, censoring, cross-platform attribution, ascertainment and small-cell suppression machine-checkable before scaling data collection.
+
+Phase 1D CP1 — Real multi-platform execution began under Vera v0.6.0 target: source census, immutable discovery manifests and coverage gates were run against all five platforms.
+Progress: Republic Europe achieved native enumerable coverage (2,896 sitemap URLs / 2,073 candidate slugs); StartEngine, Republic US, Wefunder and Crowdcube remain CENSUS_INCOMPLETE and their rates are suppressed by Jev rather than estimated from biased subsets.
+
+Phase 1D CP2 — Republic Europe normalization IN PROGRESS: validate the full native candidate universe, reconstruct company-round rows, strong company IDs, funded dates, sectors, valuations and discover whether first-live dates are platform-observable.
+Iteration lesson so far: source access failure is a denominator-quality problem, not a reason to weaken evidence standards or publish sample-based platform rates.
