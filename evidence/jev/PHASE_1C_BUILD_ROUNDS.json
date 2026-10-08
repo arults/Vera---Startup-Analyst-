@@ -1,0 +1,139 @@
+{
+  "model": "jev-1.13.0",
+  "phase": "1C_build",
+  "scoring_note": "Raw score is Jev's 0..9 index over the 0.1..1.0 ordered legend; normalized score=(raw+1)/10.",
+  "rounds": [
+    {
+      "round": 1,
+      "scores": {
+        "design_fidelity": 6.91,
+        "implementation_completeness": 5.54,
+        "statistical_correctness": 6.27,
+        "identity_graph_correctness": 7.14,
+        "test_verifier_coverage": 7.24,
+        "execution_readiness": 6.88
+      },
+      "feedback": "Implement explicit success/closure competing-risk estimands.",
+      "next": "estimands",
+      "no_design_flip_probability": 0.99,
+      "normalized": {
+        "design_fidelity": 0.791,
+        "implementation_completeness": 0.654,
+        "statistical_correctness": 0.727,
+        "identity_graph_correctness": 0.814,
+        "test_verifier_coverage": 0.824,
+        "execution_readiness": 0.788
+      }
+    },
+    {
+      "round": 2,
+      "scores": {
+        "design_fidelity": 5.94,
+        "implementation_completeness": 4.53,
+        "statistical_correctness": 6.88,
+        "identity_graph_correctness": 4.63,
+        "test_verifier_coverage": 5.61,
+        "execution_readiness": 4.3
+      },
+      "feedback": "Add platform source adapter and provenance contracts.",
+      "next": "adapters",
+      "no_design_flip_probability": 0.98,
+      "normalized": {
+        "design_fidelity": 0.694,
+        "implementation_completeness": 0.553,
+        "statistical_correctness": 0.788,
+        "identity_graph_correctness": 0.563,
+        "test_verifier_coverage": 0.661,
+        "execution_readiness": 0.53
+      }
+    },
+    {
+      "round": 3,
+      "scores": {
+        "design_fidelity": 7.63,
+        "implementation_completeness": 7.11,
+        "statistical_correctness": 7.19,
+        "identity_graph_correctness": 6.85,
+        "test_verifier_coverage": 7.34,
+        "execution_readiness": 6.45
+      },
+      "feedback": "Add cross-platform identity candidate generation and review queue.",
+      "next": "identity_candidates",
+      "no_design_flip_probability": 0.76,
+      "normalized": {
+        "design_fidelity": 0.863,
+        "implementation_completeness": 0.811,
+        "statistical_correctness": 0.819,
+        "identity_graph_correctness": 0.785,
+        "test_verifier_coverage": 0.834,
+        "execution_readiness": 0.745
+      }
+    },
+    {
+      "round": 4,
+      "scores": {
+        "design_fidelity": 7.34,
+        "implementation_completeness": 7.19,
+        "statistical_correctness": 6.87,
+        "identity_graph_correctness": 7.33,
+        "test_verifier_coverage": 7.04,
+        "execution_readiness": 6.66
+      },
+      "feedback": "Implement pooling executor, graph-bias output and structured result contracts.",
+      "next": "pooling_reports",
+      "no_design_flip_probability": 0.79,
+      "normalized": {
+        "design_fidelity": 0.834,
+        "implementation_completeness": 0.819,
+        "statistical_correctness": 0.787,
+        "identity_graph_correctness": 0.833,
+        "test_verifier_coverage": 0.804,
+        "execution_readiness": 0.766
+      }
+    },
+    {
+      "round": 5,
+      "scores": {
+        "design_fidelity": 7.56,
+        "implementation_completeness": 7.05,
+        "statistical_correctness": 7.12,
+        "identity_graph_correctness": 6.66,
+        "test_verifier_coverage": 5.31,
+        "execution_readiness": 6.69
+      },
+      "feedback": "Harden deterministic verifier over all newly implemented contracts.",
+      "next": "harden_verifier",
+      "no_design_flip_probability": 0.99,
+      "normalized": {
+        "design_fidelity": 0.856,
+        "implementation_completeness": 0.805,
+        "statistical_correctness": 0.812,
+        "identity_graph_correctness": 0.766,
+        "test_verifier_coverage": 0.631,
+        "execution_readiness": 0.769
+      }
+    },
+    {
+      "round": 6,
+      "scores": {
+        "design_fidelity": 8.67,
+        "implementation_completeness": 8.79,
+        "statistical_correctness": 7.58,
+        "identity_graph_correctness": 8.05,
+        "test_verifier_coverage": 8.18,
+        "execution_readiness": 8.26
+      },
+      "feedback": "No material code gap; freeze docs/checkpoints and begin plateau checks.",
+      "next": "final_docs",
+      "no_design_flip_probability": 1,
+      "normalized": {
+        "design_fidelity": 0.967,
+        "implementation_completeness": 0.979,
+        "statistical_correctness": 0.858,
+        "identity_graph_correctness": 0.905,
+        "test_verifier_coverage": 0.918,
+        "execution_readiness": 0.926
+      }
+    }
+  ]
+}
