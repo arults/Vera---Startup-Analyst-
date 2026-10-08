@@ -31,3 +31,6 @@ CP3 outcomes + Kaplan-Meier IN PROGRESS. No survival prior is promoted yet.
 
 ## Research-input sources
 - `docs/WEFUNDER_JEV_RESEARCH_INPUT.md`: reusable diligence/model-design learnings from live Wefunder + JEV analyses. Treat as a provenance-tagged research memo, not an empirical prior. Re-verify company-specific claims against current sources before use; no raw JEV probability is promoted without calibration/Verifier/JEV gates.
+
+## Market-capture methodology
+- `docs/REM_PROBABILISTIC_CAPTURE_ENGINE.md`: REM v3 — probabilistic execution-constrained market-capture engine. TAM/SAM remain bounds; SOM is context; REM is Vera's company-specific revenue distribution by horizon. Method promoted by Jev, but numeric outputs remain calibration-gated/UNCALIBRATED when anchors are weak.
