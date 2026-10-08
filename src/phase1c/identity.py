@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import dataclass
+from math import ceil
 from urllib.parse import urlparse
 
 LEGAL_SUFFIXES = {
@@ -20,11 +22,25 @@ class CompanyIdentity:
     product_key: str = ""
 
 @dataclass(frozen=True)
+class IdentityRecord:
+    record_id: str
+    platform: str
+    identity: CompanyIdentity
+
+@dataclass(frozen=True)
 class MatchResult:
     decision: str   # MATCH | REVIEW | NO_MATCH
     tier: str       # STRONG | MEDIUM_BUNDLE | AMBIGUOUS | NONE
     score: int
     reasons: tuple[str, ...]
+
+@dataclass(frozen=True)
+class IdentityCandidate:
+    left_record_id: str
+    right_record_id: str
+    left_platform: str
+    right_platform: str
+    result: MatchResult
 
 def _tokens(s: str) -> list[str]:
     s=re.sub(r"[^a-z0-9 ]+"," ",s.lower())
@@ -71,6 +87,84 @@ def match_company(a: CompanyIdentity, b: CompanyIdentity) -> MatchResult:
     if medium == 1:
         return MatchResult("REVIEW","AMBIGUOUS",medium,tuple(reasons))
     return MatchResult("NO_MATCH","NONE",0,())
+
+def blocking_keys(x: CompanyIdentity) -> set[str]:
+    keys=set()
+    if x.jurisdiction_entity_id:
+        keys.add("entity:"+x.jurisdiction_entity_id.lower())
+    n=normalize_name(x.legal_name)
+    if n: keys.add("name:"+n)
+    d=normalize_domain(x.domain)
+    if d: keys.add("domain:"+d)
+    for f in _founders(x):
+        keys.add("founder:"+f)
+    return keys
+
+def generate_cross_platform_candidates(records: list[IdentityRecord]) -> list[IdentityCandidate]:
+    """
+    Candidate generation is blocking-key based. Pairs on the same platform are never emitted.
+    Pairs with no shared blocking key are not compared; name-only shared keys yield REVIEW, not MATCH.
+    """
+    blocks: dict[str,list[int]]={}
+    for i,r in enumerate(records):
+        for key in blocking_keys(r.identity):
+            blocks.setdefault(key,[]).append(i)
+    pairs=set()
+    for ids in blocks.values():
+        for p in range(len(ids)):
+            for q in range(p+1,len(ids)):
+                i,j=ids[p],ids[q]
+                if records[i].platform==records[j].platform:
+                    continue
+                pairs.add((min(i,j),max(i,j)))
+    out=[]
+    for i,j in sorted(pairs):
+        a,b=records[i],records[j]
+        result=match_company(a.identity,b.identity)
+        if result.decision!="NO_MATCH":
+            out.append(IdentityCandidate(a.record_id,b.record_id,a.platform,b.platform,result))
+    return out
+
+def _candidate_key(c: IdentityCandidate) -> str:
+    return "|".join(sorted([c.left_record_id,c.right_record_id]))
+
+def _pair_key(c: IdentityCandidate) -> str:
+    return "→".join(sorted([c.left_platform,c.right_platform]))
+
+def build_review_queue(candidates: list[IdentityCandidate], strong_audit_rate: float=0.10) -> dict:
+    """
+    100% review of ambiguous and medium-bundle matches.
+    Strong exact matches receive a deterministic, platform-pair-stratified audit sample.
+    """
+    if not 0 <= strong_audit_rate <= 1:
+        raise ValueError("invalid_audit_rate")
+    mandatory=[
+        c for c in candidates
+        if c.result.decision=="REVIEW" or c.result.tier=="MEDIUM_BUNDLE"
+    ]
+    strong=[c for c in candidates if c.result.decision=="MATCH" and c.result.tier=="STRONG"]
+
+    by_pair: dict[str,list[IdentityCandidate]]={}
+    for c in strong:
+        by_pair.setdefault(_pair_key(c),[]).append(c)
+
+    audit=[]
+    for pair,group in sorted(by_pair.items()):
+        ranked=sorted(
+            group,
+            key=lambda c: hashlib.sha256(_candidate_key(c).encode()).hexdigest()
+        )
+        k=ceil(len(ranked)*strong_audit_rate) if ranked else 0
+        audit.extend(ranked[:k])
+
+    dedup={_candidate_key(c):c for c in mandatory+audit}
+    return {
+        "mandatory_review_count":len(mandatory),
+        "strong_auto_match_count":len(strong),
+        "strong_audit_count":len(audit),
+        "review_record_ids":sorted(dedup),
+        "review_candidates":[dedup[k] for k in sorted(dedup)],
+    }
 
 def audit_match_sample(results: list[tuple[MatchResult, bool]], reopen_threshold: float=0.02) -> dict:
     """truth=True means the candidate pair is actually the same company."""
