@@ -1,0 +1,42 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-08",
+  "answers": {
+    "execution_phase_name": {
+      "choice": "phase1d_v0_6_0",
+      "confidence": 0.66,
+      "probabilities": {
+        "phase1d_v0_6_0": 0.77,
+        "phase1c1_v0_5_1": 0.23,
+        "phase2_v1_0": 0
+      }
+    },
+    "checkpoint_policy": {
+      "choice": "five",
+      "confidence": 1,
+      "probabilities": {
+        "five": 1,
+        "three": 0,
+        "one": 0
+      }
+    },
+    "plateau_rule": {
+      "choice": "two_rounds_0_05",
+      "confidence": 1,
+      "probabilities": {
+        "two_rounds_0_05": 1,
+        "one_round": 0,
+        "fixed_three": 0
+      }
+    },
+    "design_reopen_threshold": {
+      "choice": "concrete_failure_only",
+      "confidence": 1,
+      "probabilities": {
+        "concrete_failure_only": 1,
+        "anytime_uncertain": 0,
+        "never": 0
+      }
+    }
+  }
+}
