@@ -28,3 +28,6 @@ CP1 PASS. CP2 PASS / FROZEN. The primary 2020 Wefunder funded denominator is 42 
 Independent GitHub verifier run 37750379057: 8/8 tests PASS and D01-D08 PASS. Jev chose frozen_primary_denominator with probability 0.95 / confidence 0.92; freeze yes probability 0.79; mirror use acceptable probability 0.80; proceed to outcomes probability 0.78.
 
 CP3 outcomes + Kaplan-Meier IN PROGRESS. No survival prior is promoted yet.
+
+## Research-input sources
+- `docs/WEFUNDER_JEV_RESEARCH_INPUT.md`: reusable diligence/model-design learnings from live Wefunder + JEV analyses. Treat as a provenance-tagged research memo, not an empirical prior. Re-verify company-specific claims against current sources before use; no raw JEV probability is promoted without calibration/Verifier/JEV gates.
