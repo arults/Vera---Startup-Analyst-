@@ -1,66 +1,88 @@
 # SKILLS.md — Vera operational research memory
 
-Version: 0.4.0
+Version: 0.5.0
 Date: 2026-10-08
 Phase 1B: **COMPLETE — limited empirical reference class promoted**
+Phase 1C: **COMPLETE — multi-platform calibration framework built; full dataset/rates intentionally not run**
 
 ## Current system state
-Vera's research/calibration architecture now includes its first verified empirical reference class. The 2020 Wefunder funded cohort has been reconstructed, frozen, outcome-traced, analyzed with censoring-aware Kaplan-Meier, independently verified, sensitivity-tested, and promoted through Jev.
+Vera now has:
+1. a promoted, provenance-bound empirical reference class from Phase 1B; and
+2. an executable Phase 1C framework for later censored multi-platform cohort execution across Wefunder, StartEngine, Crowdcube, Republic US and Republic Europe, 2020–2025.
 
 ## Non-negotiables
-- Never promote a remembered count without immutable row evidence and source provenance.
-- Never convert missing evidence into survival; right-censor at the last supported observation.
-- Preserve failed, superseded and rejected approaches in `docs/ITERATION_LOG.md`.
-- Promoted empirical files contain only Verifier-passing and Jev-promoted claims.
-- A reference-class rate is an anchor/bound, not an automatic startup-specific probability.
-- Always carry uncertainty, applicability and censoring information with a base rate.
+- Never promote remembered counts or unsourced rates.
+- Never convert missing evidence into survival or closure.
+- Closure requires explicit evidence; no news/stale page is not closure.
+- 2024–2025 are right-censored; crude success/closure proportions are invalid.
+- Company-round is the analytical unit; repeat rounds remain linked by canonical company.
+- Cross-platform qualified follow-ons can credit predecessor success and also start a new later-round clock.
+- SAFE/convertible caps are not priced valuations.
+- Same-platform secondary trading alone is not success.
+- A reference-class rate is an anchor/bound, not a startup-specific causal probability.
+- Preserve failed/rejected approaches in docs/ITERATION_LOG.md.
+- Full multi-platform rates may be promoted only after later execution, deterministic verification and Jev promotion.
 
-## Promoted reference class — Wefunder 2020
+## Phase 1B promoted reference class
 Registry: `reference_classes/wefunder_2020_operating_survival.json`
+- cohort n = 42 successfully funded Wefunder offerings anchored to 2020 initial Form C;
+- promoted 5-year operating survival = 93.01%;
+- 95% CI = 74.40%–98.24%;
+- at risk at 5 years = 12;
+- late-bound sensitivity = 92.57%, 95% CI 73.07%–98.12%, at risk 8.
+Six-year output remains non-promoted and direct substitution into company-specific success probabilities is prohibited.
 
-Cohort:
-- Wefunder Portal LLC, intermediary CIK 0001670254.
-- Earliest Form C in calendar 2020.
-- Direct SEC successful-close / positive-proceeds evidence required.
-- Frozen denominator: **42** offerings.
-- Manifest SHA-256: `62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8`.
-- Outcomes SHA-256: `7f87d79c2a24bf748a6751180fed4cc286b678e0621d4fcbe8ec8b38b2afb5fc`.
+## Phase 1C architecture
+Design authority:
+- `docs/PHASE_1C_SPEC.md`
+- `decisions/PHASE_1C_DECISIONS.json`
 
-Outcome state:
-- 35 active/right-censored.
-- 4 failures.
-- 2 acquisition censors.
-- 1 public-listing censor.
+Cohorts:
+- Layer A = all publicly launched accessible deals for coverage/selection analysis.
+- Layer B = successfully funded/completed rounds for investor-outcome estimation.
+- offering year = first-live year;
+- outcome time zero = successful close/completion.
 
-Promoted horizon:
-- **5-year operating survival: 93.01%**
-- 95% CI: **74.40%–98.24%**
-- At risk at 5 years: **12**
-- Late-bound funding-date sensitivity: **92.57%**, 95% CI **73.07%–98.12%**, at risk **8**.
+Taxonomy:
+- 12 primary analytical fields + Other/Diversified;
+- exactly one primary field + seven versioned controlled tag dimensions;
+- raw platform-native tags retained.
 
-Not promoted:
-- Six-year tail: underpowered (primary n-risk 3; late-bound n-risk 1).
-- Point-estimate-only representation.
-- Direct substitution into P(company succeeds), P(PMF), P(financing survives), or other startup-specific causal probabilities.
+Identity:
+- exact strong ID or >=2 independent medium identifiers for auto-match;
+- name-only match prohibited;
+- 100% review of medium/manual matches;
+- stratified 10% audit of strong matches;
+- reopen matcher if sampled false-match or false-split >2%.
 
-## Applicability
-Before using the Wefunder prior, Vera must check platform/cohort comparability, stage/age, sector/business model, capital intensity, geography/regulation, financing structure and horizon. If applicability is weak, widen uncertainty or use the result as a loose bound rather than a prior.
+Outcomes:
+- survival = independent operating-state occupancy;
+- success = first typed qualifying event;
+- closure = explicit confirmed terminal failure;
+- acquisition with unknown consideration is terminal but success UNKNOWN.
 
-## Verification
-CP3 GitHub Actions run `37766586864`: 13/13 tests PASS; D01–D08, O01–O07, S01–S03 PASS.
-CP4 registry-integrity run `37766937563`: **18/18 tests PASS**; full Phase 1B verifier PASS.
+Statistics:
+- Aalen–Johansen / competing-risk multistate framework;
+- company-cluster bootstrap primary uncertainty;
+- analytic diagnostic interval;
+- 12/24/36/60-month landmarks only when supported + maximum supported follow-up;
+- platform-observed ascertainment label and lost-follow-up sensitivity bounds.
 
-Jev CP4:
-- final state `complete_limited_reference_class`: probability 1.00, confidence 1.00.
-- version `v0.4.0`: probability 0.98, confidence 0.97.
-- full-context registry representation: probability 1.00, confidence 1.00.
-- direct substitution allowed: yes probability 0.06.
-- Phase 1B complete: yes probability 0.73.
+RQ2 cell gate:
+- n>=30;
+- >=5 informative events;
+- >=80% ascertainment;
+- otherwise adjacent-year pooling within maturity block; no silent 2023/2024 boundary crossing.
 
-## Historical / research modules retained
-- `docs/WEFUNDER_JEV_RESEARCH_INPUT.md`: provenance-tagged diligence/model-design learnings; not itself an empirical prior.
-- `docs/REM_PROBABILISTIC_CAPTURE_ENGINE.md`: REM v3 probabilistic market-capture methodology; numeric outputs remain evidence/calibration gated.
-- `docs/TAM_VERIFICATION_ENGINE.md`: multi-method TAM triangulation and verification rules.
+## Phase 1C verification
+- 45/45 unit/adversarial tests PASS.
+- 25/25 deterministic gates PASS.
+- Phase 1C CI run: `37776384631`.
+- Phase 1B regression run on Phase 1C branch: `37776384486` PASS.
+- Jev implementation rounds: 8.
+- Plateau rounds: 7 and 8.
+- Round 7 plateau probability 0.77; no-flip probability 0.99.
+- Round 8 plateau probability 0.86; no-flip probability 0.96.
 
-## Next phase
-Phase 1B is closed. The next empirical-calibration step should add independent cohorts/years and sector/stage stratification before increasing the weight of reference-class priors in company analyses.
+## Next execution
+The next phase may populate the Phase 1C contracts with the real 2020–2025 platform data. Do not reopen Phase 1C design unless real execution produces a concrete contract failure, identity-error rate >2%, censoring/ascertainment failure, or a Jev/Verifier gate failure.
