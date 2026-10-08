@@ -27,6 +27,22 @@ class OccupancyPoint:
     probabilities: dict[str,float]
     risk_by_state: dict[str,int]
 
+@dataclass(frozen=True)
+class CompetingRiskObservation:
+    subject_id: str
+    company_id: str
+    time: float
+    cause: str | None  # None = right censor
+
+@dataclass(frozen=True)
+class CIFPoint:
+    time: float
+    at_risk: int
+    target_events: int
+    all_events: int
+    event_free_survival: float
+    cumulative_incidence: float
+
 TRANSIENT=(State.OPERATING_PRE_SUCCESS,State.OPERATING_POST_SUCCESS)
 ALL_STATES=(
     State.OPERATING_PRE_SUCCESS,
@@ -43,10 +59,7 @@ def _matmul(a,b):
     return [[sum(a[i][k]*b[k][j] for k in range(len(b))) for j in range(len(b[0]))] for i in range(len(a))]
 
 def aalen_johansen_occupancy(transitions: list[TimedTransition], followup: list[SubjectFollowup]) -> list[OccupancyPoint]:
-    """
-    A small dependency-free Aalen-Johansen state-occupancy engine.
-    All subjects begin in OPERATING_PRE_SUCCESS at t=0.
-    """
+    """Dependency-free Aalen-Johansen state-occupancy engine."""
     ids={f.subject_id for f in followup}
     if len(ids)!=len(followup):
         raise ValueError("duplicate_subject_followup")
@@ -94,7 +107,6 @@ def aalen_johansen_occupancy(transitions: list[TimedTransition], followup: list[
                 step[index[a]][index[b]]+=c/n
 
         P=_matmul(P,step)
-        # update observed states after using pre-event risk sets
         for tr in at_t:
             state[tr.subject_id]=tr.destination
 
@@ -108,6 +120,34 @@ def independent_operating_probability(point: OccupancyPoint) -> float:
         point.probabilities.get(State.OPERATING_PRE_SUCCESS.value,0.0)
         + point.probabilities.get(State.OPERATING_POST_SUCCESS.value,0.0)
     )
+
+def competing_risk_cif(observations: list[CompetingRiskObservation], target_cause: str) -> list[CIFPoint]:
+    """
+    Aalen-Johansen cumulative incidence for a first-event estimand.
+    Other non-null causes are competing events; None is right censoring.
+    """
+    if not observations:
+        return []
+    if any(o.time < 0 for o in observations):
+        raise ValueError("negative_followup")
+    times=sorted({o.time for o in observations if o.cause is not None})
+    s=1.0
+    cif=0.0
+    out=[]
+    for t in times:
+        n=sum(1 for o in observations if o.time >= t)
+        all_events=sum(1 for o in observations if o.time==t and o.cause is not None)
+        target=sum(1 for o in observations if o.time==t and o.cause==target_cause)
+        if n<=0 or all_events<=0:
+            continue
+        cif += s * target/n
+        s *= 1-all_events/n
+        out.append(CIFPoint(t,n,target,all_events,s,cif))
+    return out
+
+def cif_at_horizon(observations: list[CompetingRiskObservation], target_cause: str, horizon: float) -> float:
+    pts=[p for p in competing_risk_cif(observations,target_cause) if p.time<=horizon]
+    return pts[-1].cumulative_incidence if pts else 0.0
 
 def cluster_bootstrap_indices(company_ids: list[str], n_boot: int=1000, seed: int=0) -> list[list[int]]:
     """Return row indices from resampling canonical companies, preserving all rounds of each sampled company."""
@@ -124,6 +164,33 @@ def cluster_bootstrap_indices(company_ids: list[str], n_boot: int=1000, seed: in
             idx.extend(groups[c])
         reps.append(idx)
     return reps
+
+def bootstrap_cif_interval(
+    observations: list[CompetingRiskObservation],
+    target_cause: str,
+    horizon: float,
+    n_boot: int=1000,
+    seed: int=0,
+    alpha: float=0.05,
+) -> tuple[float,float,float]:
+    if not observations:
+        raise ValueError("empty_observations")
+    point=cif_at_horizon(observations,target_cause,horizon)
+    reps=cluster_bootstrap_indices([o.company_id for o in observations],n_boot=n_boot,seed=seed)
+    values=[]
+    for idx in reps:
+        sample=[
+            CompetingRiskObservation(
+                subject_id=f"boot{j}:{observations[i].subject_id}",
+                company_id=f"boot{j}:{observations[i].company_id}",
+                time=observations[i].time,
+                cause=observations[i].cause,
+            )
+            for j,i in enumerate(idx)
+        ]
+        values.append(cif_at_horizon(sample,target_cause,horizon))
+    lo,hi=percentile_interval(values,alpha)
+    return point,lo,hi
 
 def percentile_interval(values: list[float], alpha: float=0.05) -> tuple[float,float]:
     if not values:
@@ -153,3 +220,6 @@ def km_greenwood_interval(durations: list[float], terminal_event: list[bool], ho
     lo=exp(-exp(ll+z*se))
     hi=exp(-exp(ll-z*se))
     return s,lo,hi
+
+def interval_disagreement(primary: tuple[float,float], diagnostic: tuple[float,float], tolerance: float=0.10) -> bool:
+    return abs(primary[0]-diagnostic[0])>tolerance or abs(primary[1]-diagnostic[1])>tolerance
