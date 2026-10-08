@@ -43,3 +43,15 @@ The first denominator manifest used the cleaned dataset's final campaign deadlin
 - Denominator-membership change: yes probability only 0.19; the 42 rows stay unchanged.
 
 This failure is retained as evidence that row count alone is not sufficient for a denominator freeze; chronology is a separate gate.
+
+## 2026-10-08 — CP2 denominator freeze decision
+
+The repaired 42-row manifest passed all denominator gates in GitHub Actions run 37750379057. SHA-256: `62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8`.
+
+Jev decision:
+- freeze denominator: yes probability 0.79;
+- CP2 state `frozen_primary_denominator`: probability 0.95, confidence 0.92;
+- SEC-data mirror use acceptable with provenance/direct EDGAR identifiers: yes probability 0.80;
+- proceed to outcomes rather than more denominator search: yes probability 0.78.
+
+The remembered historical 42 is now superseded by an independently reconstructed 42-row manifest. The equality of counts is corroboration, not a selection criterion.
