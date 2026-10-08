@@ -1,0 +1,418 @@
+{
+  "captured_at": "2026-10-08T12:36:31.452828+00:00",
+  "platforms": {
+    "crowdcube": {
+      "candidate_count": 0,
+      "robots": {
+        "error": null,
+        "final_url": "https://www.crowdcube.com/robots.txt",
+        "ok": true,
+        "status": 403
+      },
+      "sample_candidates": [],
+      "seed_link_count": 0,
+      "seed_status": [
+        {
+          "content_sha256": "3f6b7e867bd73323d83084c9bbb8db05ca4d28c9a700f37c1db096901452125f",
+          "error": null,
+          "final_url": "https://www.crowdcube.com/",
+          "ok": true,
+          "seed": "https://www.crowdcube.com/",
+          "status": 403
+        },
+        {
+          "content_sha256": "cca6a549341321bd6cad61542c6293fa5016573f2d957f0cac691bd0a1d4f341",
+          "error": null,
+          "final_url": "https://www.crowdcube.com/explore",
+          "ok": true,
+          "seed": "https://www.crowdcube.com/explore",
+          "status": 403
+        },
+        {
+          "content_sha256": "c43e810044a7c3f158af8080720a876369dceac832d81eb0f864e0be0cafe8c4",
+          "error": null,
+          "final_url": "https://www.crowdcube.com/companies",
+          "ok": true,
+          "seed": "https://www.crowdcube.com/companies",
+          "status": 403
+        },
+        {
+          "content_sha256": "ddc2bff54a09ca913be1cd81fbca3263ba4591baecc15f55ad7a90abfb307e34",
+          "error": null,
+          "final_url": "https://www.crowdcube.com/investments",
+          "ok": true,
+          "seed": "https://www.crowdcube.com/investments",
+          "status": 403
+        }
+      ],
+      "sitemap_candidates": [
+        "https://www.crowdcube.com/sitemap.xml",
+        "https://www.crowdcube.com/sitemap_index.xml",
+        "https://www.crowdcube.com/sitemap-index.xml"
+      ],
+      "sitemap_status": [
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://www.crowdcube.com/sitemap.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://www.crowdcube.com/sitemap_index.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://www.crowdcube.com/sitemap-index.xml"
+        }
+      ],
+      "sitemap_url_count": 0
+    },
+    "republic_europe": {
+      "candidate_count": 2,
+      "robots": {
+        "error": null,
+        "final_url": "https://europe.republic.com/robots.txt",
+        "ok": true,
+        "status": 200
+      },
+      "sample_candidates": [
+        "https://europe.republic.com/institutions-intermediary-investors",
+        "https://europe.republic.com/insights/"
+      ],
+      "seed_link_count": 18,
+      "seed_status": [
+        {
+          "content_sha256": "d58e3e58d0cf527a16e29f87c2adca4a16e2e6a4f3b9e7186e081cb42e37ee96",
+          "error": null,
+          "final_url": "https://europe.republic.com/",
+          "ok": true,
+          "seed": "https://europe.republic.com/",
+          "status": 200
+        },
+        {
+          "content_sha256": "080915c8516c89132d8db5337a3b55e3feff64191ab30ea7fcd0ad7f1390bcb7",
+          "error": null,
+          "final_url": "https://europe.republic.com:443/invest/raising-now",
+          "ok": true,
+          "seed": "https://europe.republic.com/invest",
+          "status": 200
+        },
+        {
+          "content_sha256": "a7f5d4b7ed5ab4769c40681ad9a6b43f37ad39ea6beca2ba5cdce83d46f7a24d",
+          "error": null,
+          "final_url": "https://europe.republic.com/companies",
+          "ok": true,
+          "seed": "https://europe.republic.com/companies",
+          "status": 404
+        },
+        {
+          "content_sha256": "a9b76fdbc935349d99b224de626a52c283520c103a92d0beedc5a75a6913c353",
+          "error": null,
+          "final_url": "https://europe.republic.com/opportunities",
+          "ok": true,
+          "seed": "https://europe.republic.com/opportunities",
+          "status": 404
+        }
+      ],
+      "sitemap_candidates": [
+        "https://europe.republic.com/sitemaps/sitemap.xml.gz",
+        "https://europe.republic.com/sitemap.xml",
+        "https://europe.republic.com/sitemap_index.xml",
+        "https://europe.republic.com/sitemap-index.xml"
+      ],
+      "sitemap_status": [
+        {
+          "error": null,
+          "ok": true,
+          "status": 200,
+          "url": "https://europe.republic.com/sitemaps/sitemap.xml.gz"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 404,
+          "url": "https://europe.republic.com/sitemap.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 404,
+          "url": "https://europe.republic.com/sitemap_index.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 404,
+          "url": "https://europe.republic.com/sitemap-index.xml"
+        }
+      ],
+      "sitemap_url_count": 0
+    },
+    "republic_us": {
+      "candidate_count": 29,
+      "robots": {
+        "error": null,
+        "final_url": "https://republic.com/robots.txt",
+        "ok": true,
+        "status": 200
+      },
+      "sample_candidates": [
+        "https://republic.com/register?after_sign_in=/investment-opportunities",
+        "https://republic.com/investment-opportunities",
+        "https://republic.com/ventures",
+        "https://republic.com/trading",
+        "https://republic.com/sharedrops",
+        "https://republic.com/launchpad",
+        "https://republic.com/tokenization",
+        "https://republic.com/infrastructure",
+        "https://republic.com/advisory",
+        "https://republic.com/note",
+        "https://republic.com/animoca-trade",
+        "https://republic.com/wallet",
+        "https://republic.com/help",
+        "https://republic.com/risks",
+        "https://republic.com/accessibility",
+        "https://republic.com/insights",
+        "https://republic.com/events",
+        "https://republic.com/security",
+        "https://republic.com/reg-cf-offerings",
+        "https://republic.com/funded-ventures"
+      ],
+      "seed_link_count": 49,
+      "seed_status": [
+        {
+          "content_sha256": "b05e2f040298bea9c4b95f0b8fdcb3213954b7dd7b4fb03f67321da6020135ac",
+          "error": null,
+          "final_url": "https://republic.com/",
+          "ok": true,
+          "seed": "https://republic.com/",
+          "status": 200
+        },
+        {
+          "content_sha256": "a5e347d26124221f3712c52ebc3b8b5a6412af56a1ba3e2ff035df7494f06231",
+          "error": null,
+          "final_url": "https://republic.com/investment-opportunities",
+          "ok": true,
+          "seed": "https://republic.com/companies",
+          "status": 200
+        },
+        {
+          "content_sha256": "178a4630146b6b1be890622ffd85d7624891335b8465c8b253b640935b115306",
+          "error": null,
+          "final_url": "https://republic.com/companies/portfolio",
+          "ok": true,
+          "seed": "https://republic.com/companies/portfolio",
+          "status": 200
+        }
+      ],
+      "sitemap_candidates": [
+        "https://republic.com/sitemaps/sitemap.xml",
+        "https://republic.com/sitemap.xml",
+        "https://republic.com/sitemap_index.xml",
+        "https://republic.com/sitemap-index.xml"
+      ],
+      "sitemap_status": [
+        {
+          "error": null,
+          "ok": true,
+          "status": 200,
+          "url": "https://republic.com/sitemaps/sitemap.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 404,
+          "url": "https://republic.com/sitemap.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 404,
+          "url": "https://republic.com/sitemap_index.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 404,
+          "url": "https://republic.com/sitemap-index.xml"
+        }
+      ],
+      "sitemap_url_count": 0
+    },
+    "startengine": {
+      "candidate_count": 0,
+      "robots": {
+        "error": null,
+        "final_url": "https://www.startengine.com/robots.txt",
+        "ok": true,
+        "status": 202
+      },
+      "sample_candidates": [],
+      "seed_link_count": 0,
+      "seed_status": [
+        {
+          "content_sha256": null,
+          "error": null,
+          "final_url": "https://www.startengine.com/",
+          "ok": true,
+          "seed": "https://www.startengine.com/",
+          "status": 202
+        },
+        {
+          "content_sha256": null,
+          "error": null,
+          "final_url": "https://www.startengine.com/explore",
+          "ok": true,
+          "seed": "https://www.startengine.com/explore",
+          "status": 202
+        },
+        {
+          "content_sha256": null,
+          "error": null,
+          "final_url": "https://www.startengine.com/explore/offerings",
+          "ok": true,
+          "seed": "https://www.startengine.com/explore/offerings",
+          "status": 202
+        },
+        {
+          "content_sha256": null,
+          "error": null,
+          "final_url": "https://www.startengine.com/offering",
+          "ok": true,
+          "seed": "https://www.startengine.com/offering",
+          "status": 202
+        }
+      ],
+      "sitemap_candidates": [
+        "https://www.startengine.com/sitemap.xml",
+        "https://www.startengine.com/sitemap_index.xml",
+        "https://www.startengine.com/sitemap-index.xml"
+      ],
+      "sitemap_status": [
+        {
+          "error": null,
+          "ok": true,
+          "status": 202,
+          "url": "https://www.startengine.com/sitemap.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 202,
+          "url": "https://www.startengine.com/sitemap_index.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 202,
+          "url": "https://www.startengine.com/sitemap-index.xml"
+        }
+      ],
+      "sitemap_url_count": 0
+    },
+    "wefunder": {
+      "candidate_count": 0,
+      "robots": {
+        "error": null,
+        "final_url": "https://wefunder.com/robots.txt",
+        "ok": true,
+        "status": 200
+      },
+      "sample_candidates": [],
+      "seed_link_count": 0,
+      "seed_status": [
+        {
+          "content_sha256": "02ea4ed89f26b0ddf64b005d2a974223b63e4f2a0fcc0284e26e54718b69005c",
+          "error": null,
+          "final_url": "https://wefunder.com/",
+          "ok": true,
+          "seed": "https://wefunder.com/",
+          "status": 403
+        },
+        {
+          "content_sha256": "9b79aa62bf0e61fea6d625f3481ffe40c799da3f3544a6b0bea654c96cae1f76",
+          "error": null,
+          "final_url": "https://wefunder.com/explore",
+          "ok": true,
+          "seed": "https://wefunder.com/explore",
+          "status": 403
+        },
+        {
+          "content_sha256": "7ff1c2e972091dbc93219063dfccdd6afdd43813dec6a31f3a9de9b75828063f",
+          "error": null,
+          "final_url": "https://wefunder.com/companies",
+          "ok": true,
+          "seed": "https://wefunder.com/companies",
+          "status": 403
+        },
+        {
+          "content_sha256": "e64b3adbad0dea8b29fa7c128c01629e320f2c6fcd47ba0b15cbe671130d80cb",
+          "error": null,
+          "final_url": "https://wefunder.com/funded",
+          "ok": true,
+          "seed": "https://wefunder.com/funded",
+          "status": 403
+        }
+      ],
+      "sitemap_candidates": [
+        "https://wefunder.com/sitemap",
+        "https://wefunder.com/llms-articles.txt",
+        "https://wefunder.com/llms-case-studies.txt",
+        "https://wefunder.com/llms-playbook.txt",
+        "https://wefunder.com/sitemap.xml",
+        "https://wefunder.com/sitemap_index.xml",
+        "https://wefunder.com/sitemap-index.xml"
+      ],
+      "sitemap_status": [
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://wefunder.com/sitemap"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 200,
+          "url": "https://wefunder.com/llms-articles.txt"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 200,
+          "url": "https://wefunder.com/llms-case-studies.txt"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 200,
+          "url": "https://wefunder.com/llms-playbook.txt"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://wefunder.com/sitemap.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://wefunder.com/sitemap_index.xml"
+        },
+        {
+          "error": null,
+          "ok": true,
+          "status": 403,
+          "url": "https://wefunder.com/sitemap-index.xml"
+        }
+      ],
+      "sitemap_url_count": 0
+    }
+  }
+}
