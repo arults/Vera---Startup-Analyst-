@@ -48,3 +48,9 @@ Progress: 5-year KM = 93.01% (95% CI 74.40–98.24%; n-risk 12), late-bound sens
 
 Vera v0.4.0 / Phase 1B CP4 — First verified empirical reference class promoted with cohort definition, hashes, confidence interval, risk set, censoring and funding-date sensitivity attached.
 Iteration lesson: empirical base rates are anchors, not company-specific probabilities; 18/18 registry/verifier tests PASS, while 6-year and direct-substitution uses remain explicitly non-promoted.
+
+Phase 1C CP1–CP3 — Built the five-platform 2020–2025 execution framework: typed decisions, company-round schema, identity/graph, source adapters, censoring-aware estimators, pooling and report contracts.
+Progress: 45/45 tests and 25/25 deterministic gates PASS; Phase 1B regression remains green; no full real dataset or final rates were computed.
+
+Vera v0.5.0 / Phase 1C CP4 — Build→Verify→Feedback→Rebuild loop reached plateau after 8 verifier rounds, with rounds 7 and 8 satisfying the two-consecutive-round stop rule.
+Iteration lesson: execution frameworks must make identity, censoring, cross-platform attribution, ascertainment and small-cell suppression machine-checkable before scaling data collection.
