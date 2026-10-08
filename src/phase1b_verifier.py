@@ -2,7 +2,7 @@
 import csv, hashlib, json
 from datetime import date
 from pathlib import Path
-from survival import kaplan_meier, verify_curve
+try:\n    from .survival import kaplan_meier, verify_curve\nexcept ImportError:\n    from survival import kaplan_meier, verify_curve
 
 EXPECTED_INTERMEDIARY = "Wefunder Portal LLC"
 EXPECTED_INTERMEDIARY_CIK = "0001670254"
