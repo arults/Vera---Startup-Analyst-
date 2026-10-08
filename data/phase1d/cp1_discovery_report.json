@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T12:36:31.452828+00:00",
+  "captured_at": "2026-10-08T12:37:24.375422+00:00",
   "platforms": {
     "crowdcube": {
       "candidate_count": 0,
@@ -13,7 +13,7 @@
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "3f6b7e867bd73323d83084c9bbb8db05ca4d28c9a700f37c1db096901452125f",
+          "content_sha256": "37209454eb2f3c895621f7fbb3bf4aaf91a109b2061b5dad0809bc671c302997",
           "error": null,
           "final_url": "https://www.crowdcube.com/",
           "ok": true,
@@ -21,7 +21,7 @@
           "status": 403
         },
         {
-          "content_sha256": "cca6a549341321bd6cad61542c6293fa5016573f2d957f0cac691bd0a1d4f341",
+          "content_sha256": "164c9f26e9599b389f9c1e82e60ca1c317c7e19277055d50ad23934854fffe48",
           "error": null,
           "final_url": "https://www.crowdcube.com/explore",
           "ok": true,
@@ -29,7 +29,7 @@
           "status": 403
         },
         {
-          "content_sha256": "c43e810044a7c3f158af8080720a876369dceac832d81eb0f864e0be0cafe8c4",
+          "content_sha256": "c3269aa0d91fb08ba585c618eac4088d4422366c5a302f6cf94922f3a07ab823",
           "error": null,
           "final_url": "https://www.crowdcube.com/companies",
           "ok": true,
@@ -37,7 +37,7 @@
           "status": 403
         },
         {
-          "content_sha256": "ddc2bff54a09ca913be1cd81fbca3263ba4591baecc15f55ad7a90abfb307e34",
+          "content_sha256": "25420671ed79532e1ae6533c1855832bba9a1bd3fc826bcc4c92ea5e877fddec",
           "error": null,
           "final_url": "https://www.crowdcube.com/investments",
           "ok": true,
@@ -87,7 +87,7 @@
       "seed_link_count": 18,
       "seed_status": [
         {
-          "content_sha256": "d58e3e58d0cf527a16e29f87c2adca4a16e2e6a4f3b9e7186e081cb42e37ee96",
+          "content_sha256": "ae7233f2702fc961f46116892897323c8f389bc8bda2806eb8a5f141b60de19d",
           "error": null,
           "final_url": "https://europe.republic.com/",
           "ok": true,
@@ -95,7 +95,7 @@
           "status": 200
         },
         {
-          "content_sha256": "080915c8516c89132d8db5337a3b55e3feff64191ab30ea7fcd0ad7f1390bcb7",
+          "content_sha256": "f002f421ae72f231307daee54934839cadb322bb03df4042ba23fe888194308d",
           "error": null,
           "final_url": "https://europe.republic.com:443/invest/raising-now",
           "ok": true,
@@ -103,7 +103,7 @@
           "status": 200
         },
         {
-          "content_sha256": "a7f5d4b7ed5ab4769c40681ad9a6b43f37ad39ea6beca2ba5cdce83d46f7a24d",
+          "content_sha256": "d4f1e0f56fab71182fde3eb04bd3ceda6e6d2650b6e1cdf4c3576421debf71ac",
           "error": null,
           "final_url": "https://europe.republic.com/companies",
           "ok": true,
@@ -111,7 +111,7 @@
           "status": 404
         },
         {
-          "content_sha256": "a9b76fdbc935349d99b224de626a52c283520c103a92d0beedc5a75a6913c353",
+          "content_sha256": "1c1c746293175afcf4a53271fbb623b6789e1ba5a923c1121543f392873b9b0e",
           "error": null,
           "final_url": "https://europe.republic.com/opportunities",
           "ok": true,
@@ -202,7 +202,7 @@
           "status": 200
         },
         {
-          "content_sha256": "178a4630146b6b1be890622ffd85d7624891335b8465c8b253b640935b115306",
+          "content_sha256": "3d1dce9f9672aaac832341a6e90eb10312a921657d096a9c7a81a90c5caa1f04",
           "error": null,
           "final_url": "https://republic.com/companies/portfolio",
           "ok": true,
@@ -327,7 +327,7 @@
       "seed_link_count": 0,
       "seed_status": [
         {
-          "content_sha256": "02ea4ed89f26b0ddf64b005d2a974223b63e4f2a0fcc0284e26e54718b69005c",
+          "content_sha256": "add183e868de51b340329456a8cd803fcb13cb3c4b793d12c96723cbbf1cadb6",
           "error": null,
           "final_url": "https://wefunder.com/",
           "ok": true,
@@ -335,7 +335,7 @@
           "status": 403
         },
         {
-          "content_sha256": "9b79aa62bf0e61fea6d625f3481ffe40c799da3f3544a6b0bea654c96cae1f76",
+          "content_sha256": "e4a0dba77e157ee0d5f1b5d90f07776f974a8aa1e58bb48b849d007320575614",
           "error": null,
           "final_url": "https://wefunder.com/explore",
           "ok": true,
@@ -343,7 +343,7 @@
           "status": 403
         },
         {
-          "content_sha256": "7ff1c2e972091dbc93219063dfccdd6afdd43813dec6a31f3a9de9b75828063f",
+          "content_sha256": "7fc62250b5dd86731beff16b1da3881cdad89e642c3e15d0f5189435aea0d053",
           "error": null,
           "final_url": "https://wefunder.com/companies",
           "ok": true,
@@ -351,7 +351,7 @@
           "status": 403
         },
         {
-          "content_sha256": "e64b3adbad0dea8b29fa7c128c01629e320f2c6fcd47ba0b15cbe671130d80cb",
+          "content_sha256": "336a936e8f883a512aa4b5bd960c2b60482cabab855ce762614ba358840c3555",
           "error": null,
           "final_url": "https://wefunder.com/funded",
           "ok": true,
