@@ -86,3 +86,4 @@ if __name__=="__main__":
     text=json.dumps(out,indent=2,sort_keys=True)
     if a.output: Path(a.output).write_text(text+"\n",encoding="utf-8")
     print(text)
+    raise SystemExit(0 if out["promotion_gate"]=="PASS" else 1)
