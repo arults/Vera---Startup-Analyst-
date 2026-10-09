@@ -170,3 +170,30 @@ Jev decisions:
 - CP1 state = PASS_WITH_SUPPRESSION: probability 1.00 / confidence 1.00.
 
 Therefore the study proceeds with Republic Europe while preserving the other four platforms' discovery rows and coverage diagnostics but prohibiting their outcome-rate estimates until denominator coverage becomes defensible.
+
+
+## 2026-10-09 — Phase 1D CP2 Republic Europe execution
+
+Republic Europe exposed a concrete execution gap: funded dates were available, but exact first-live dates were not. The platform-hosted approval date was available for 910/952 rows; median approval→funding lag was 50 days and there were zero negative lags.
+
+### Jev resolution
+- Use a bounded offering year only where approval and funded dates fall in the same calendar year: probability 0.61.
+- Preserve exact first-live date as unresolved and store the approval/funding interval bounds: probability 1.00.
+- Do not reopen Phase 1C D13R solely for this bounded representation: reopen yes probability 0.16.
+
+This yielded 796 rate-eligible rows and 156 year-unresolved/suppressed rows.
+
+### Identity / round audit
+- 946/952 normalized rows have strong platform company numbers.
+- All 796 usable cohort rows have strong IDs.
+- 121 companies have multiple rounds.
+- 160 chronological next-round edges were retained.
+- Zero pairs met the same-economic-round duplicate review threshold; no rows were collapsed.
+
+Jev froze CP2 with probability 0.99.
+
+### Checkpointing failure retained
+The first bounded-cohort workflow computed the same 796-row result correctly but failed to push because another writer moved the branch. Writer paths were then serialized/rebased; the successful rerun persisted the cohort. Lesson: execution workers writing durable research checkpoints need serialized branch writes or explicit lease/rebase logic.
+
+### CP3 follow-on refinement
+The first qualified-follow-on pass looked only at immediate n→n+1 edges and found 57 successes. Jev then clarified with probability 1.00 that each index round must scan all later comparable rounds chronologically for the first >=1.5x priced follow-on, while the graph itself remains immediate n→n+1. The corrected derived relation found 63 qualified follow-on successes, including 6 non-adjacent first successes.
