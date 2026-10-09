@@ -1,0 +1,47 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "state": {
+    "candidate_version": "candidate_v3",
+    "verifier_run": 37898349963,
+    "tests": "164/164 PASS",
+    "scientific_gates": "36/36 PASS",
+    "rates_promoted": false,
+    "rq1_low_information_cells": 24,
+    "rq2_reportable_cells": 0,
+    "closure_events": 0,
+    "max_absolute_delta_from_v2": 0.06928267093756288
+  },
+  "answers": {
+    "candidate_state": {
+      "choice": "retain_candidate_v3",
+      "confidence": 1.0,
+      "probabilities": {
+        "retain_candidate_v3": 1.0,
+        "revert_v2": 0.0,
+        "promote_rates": 0.0
+      }
+    },
+    "next_improvement": {
+      "choice": "bounded_zero_valuation_closure_audit",
+      "confidence": 1.0,
+      "probabilities": {
+        "bounded_zero_valuation_closure_audit": 1.0,
+        "begin_plateau": 0.0,
+        "broaden_external_sources": 0.0,
+        "retry_blocked_platforms": 0.0
+      }
+    },
+    "plateau_status": {
+      "choice": "no_closure_audit_remains",
+      "confidence": 0.92,
+      "probabilities": {
+        "no_closure_audit_remains": 0.95,
+        "yes": 0.02,
+        "uncertain": 0.03
+      }
+    }
+  },
+  "decision": "RETAIN_VERIFIED_CANDIDATE_V3_AND_EXECUTE_ONE_BOUNDED_PLATFORM_ONLY_CLOSURE_AUDIT",
+  "promotion_boundary": "No Phase 1D rate is promoted. Candidate v3 remains a verified low-information execution artifact."
+}
