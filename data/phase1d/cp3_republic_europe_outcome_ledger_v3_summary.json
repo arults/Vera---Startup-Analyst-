@@ -1,0 +1,14 @@
+{
+  "version": "v3",
+  "correction": "Terminal acquisition event is positive existence evidence through the event and therefore extends, rather than truncates at, an earlier last-positive censor date.",
+  "corrected_rounds": [
+    "reurope:zeigo-energy",
+    "reurope:zeigo-energy1"
+  ],
+  "terminal_midpoint": "2022-07-02",
+  "zeigo_followup_months": {
+    "reurope:zeigo-energy": "26.316",
+    "reurope:zeigo-energy1": "18.398"
+  },
+  "supersedes": "cp3_republic_europe_outcome_ledger_v2.csv for estimation; v2 retained as failed iteration evidence"
+}
