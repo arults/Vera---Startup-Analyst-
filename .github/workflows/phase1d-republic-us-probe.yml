@@ -1,0 +1,42 @@
+name: Phase 1D Republic US probe
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/probe_republic_us.py'
+      - '.github/workflows/phase1d-republic-us-probe.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Probe Republic US public portfolio and network surfaces
+        run: python src/phase1d/probe_republic_us.py
+      - name: Persist Republic US probe
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/cp1_republic_us_probe.json data/phase1d/cp1_republic_us_probe_summary.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Phase 1D CP1: persist Republic US native probe [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi
