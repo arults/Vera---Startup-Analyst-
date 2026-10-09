@@ -1,7 +1,7 @@
 {
   "capture_count": 23,
-  "captured_at": "2026-10-09T05:13:24.545756+00:00",
-  "raw_sha256": "d0e293d6090936c7b85d2f804ade62d59d014108896ff5fa7a68192d028f79e8",
+  "captured_at": "2026-10-09T05:15:15.417777+00:00",
+  "raw_sha256": "d634a4bbbd74f12a3bb5a3db47541d1f9798f88373480a0b9a47608888792f6e",
   "responses": [
     {
       "probe_label": "browser_capture",
@@ -20,24 +20,6 @@
         "type": "dict"
       },
       "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_profile_promoted_at_desc&tagFilters=[%22-eu%22,%22new_this_week%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
-    },
-    {
-      "probe_label": "browser_capture",
-      "status": 200,
-      "summary": {
-        "facetish": {},
-        "keys": [
-          "companies",
-          "nbHits",
-          "nbPages",
-          "page"
-        ],
-        "nbHits": 36,
-        "nbPages": 1,
-        "page": 0,
-        "type": "dict"
-      },
-      "url": "https://wefunder.com/-/companies/explore/vc_and_angel_backed?index=Company_sorted_by_trending_desc&tagFilters=[%22-eu%22,%22venture_backed_notable_angels%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
     },
     {
       "probe_label": "browser_capture",
@@ -74,6 +56,24 @@
         "type": "dict"
       },
       "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=[%22-eu%22,%22closing_soon%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
+    },
+    {
+      "probe_label": "browser_capture",
+      "status": 200,
+      "summary": {
+        "facetish": {},
+        "keys": [
+          "companies",
+          "nbHits",
+          "nbPages",
+          "page"
+        ],
+        "nbHits": 36,
+        "nbPages": 1,
+        "page": 0,
+        "type": "dict"
+      },
+      "url": "https://wefunder.com/-/companies/explore/vc_and_angel_backed?index=Company_sorted_by_trending_desc&tagFilters=[%22-eu%22,%22venture_backed_notable_angels%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
     },
     {
       "probe_label": "baseline_live",
