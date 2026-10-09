@@ -1,0 +1,19 @@
+{
+  "historical_census_complete": false,
+  "new_live_observations": 0,
+  "original_snapshot_preserved": true,
+  "public_campaign_links": ["https://republic.com/animoca-brands", "https://republic.com/code-blue", "https://republic.com/fosh", "https://republic.com/hope-neuron", "https://republic.com/mightylicious", "https://republic.com/mintworks", "https://republic.com/olo", "https://republic.com/sgold", "https://republic.com/sherpa-healthy", "https://republic.com/shredpay", "https://republic.com/tradefunded", "https://republic.com/xavier-stinson", "https://republic.com/xprize", "https://republic.com/yakuru"],
+  "rates_promoted": false,
+  "repair": "252-character native directory was rejected by generic300-character cutoff. The exact source and heading structure now determine directory scope only.",
+  "research_plateau": false,
+  "scope": "ACTIVE_ONLY_NOT_HISTORICAL_CENSUS",
+  "self_tests": {"active_scope_not_historical": true, "challenge_title_rejected": true, "different_directory_scope_not_assumed": true, "generic_text_without_heading_rejected": true, "no_platform_links_rejected": true, "valid_short_page_accepted": true, "wrong_page_rejected": true},
+  "source_capture_path": "data/phase1d/cp8/cycle-2-native-outcomes/captures/8fa9b06bcea45fd47d478bb76494968da4f37c6569527efcec493add740315ca.html.gz",
+  "source_sha256": "8fa9b06bcea45fd47d478bb76494968da4f37c6569527efcec493add740315ca",
+  "source_structure_verified": true,
+  "source_url": "https://republic.com/reg-cf-offerings",
+  "supersedes_only": "cycle-2 summary active_only_directory_confirmed=false and public_pages_verified=3; corrected values true and4. No campaign/outcome/rate change.",
+  "verification_environment": "Local execution against downloaded GitHub artifact11627225291 from run37952724156; archive SHA2565ae2d29b1f5c29b2ee2e1ecc4295aa015dfc58f12d3041da66a098831e282a68",
+  "full_regression_reexecuted_after_repair": {"passed":218,"total":218},
+  "parser_specific_checks": {"passed":7,"total":7}
+}
