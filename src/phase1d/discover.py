@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import csv, gzip, hashlib, json, re
+import csv, gzip, hashlib, json, re, subprocess, sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -233,5 +233,9 @@ def main():
         "cp3_republic_europe_business_candidates.csv":hashlib.sha256((OUT/"cp3_republic_europe_business_candidates.csv").read_bytes()).hexdigest()}}
     (OUT/"cp1_manifest.json").write_text(json.dumps(manifest,indent=2,sort_keys=True)+"\n")
     print("TOTAL_CANDIDATES",len(rows))
+    # CP3 follow-up is derived only from the platform-native Republic Europe business-page census just written above.
+    followup=ROOT/"src/phase1d/followup_republic_europe_businesses.py"
+    if followup.exists() and (OUT/"cp3_republic_europe_business_candidates.csv").exists():
+        subprocess.run([sys.executable,str(followup)],check=True)
 
 if __name__=="__main__": main()
