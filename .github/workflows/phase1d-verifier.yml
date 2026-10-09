@@ -5,7 +5,9 @@ on:
   push:
     branches: [phase-1d]
     paths:
-      - 'src/phase1d/verifier.py'
+      - 'src/phase1d/verifier_v3.py'
+      - 'src/phase1d/**'
+      - 'tests/test_phase1d*'
       - 'data/phase1d/**'
       - '.github/workflows/phase1d-verifier.yml'
       - 'checkpoints/PHASE_1D*'
@@ -15,10 +17,15 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Phase 1D deterministic verifier
-        run: python src/phase1d/verifier.py
+      - name: Install optional recovery dependencies
+        run: pip install requests curl_cffi
+      - name: Full regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Phase 1D candidate v3 scientific verifier
+        run: python src/phase1d/verifier_v3.py
