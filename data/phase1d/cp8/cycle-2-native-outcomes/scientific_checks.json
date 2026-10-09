@@ -1,0 +1,11 @@
+{
+  "all_observation_sources_hash_bound": true,
+  "candidate_urls_unique": true,
+  "no_aggregate_denominator_promotion": true,
+  "no_annualized_return_relabelled_as_moic": true,
+  "no_asset_sale_auto_closure": true,
+  "no_close_year_substitution": true,
+  "no_observation_used_for_rates": true,
+  "no_outcome_year_substitution": true,
+  "ring4_not_new_2021_cohort": true
+}

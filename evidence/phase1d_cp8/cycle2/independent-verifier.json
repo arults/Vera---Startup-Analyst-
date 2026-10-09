@@ -1,0 +1,13 @@
+{
+  "all_existing_data_files_preserved": true,
+  "data_files_verified": 1259,
+  "mutation_challenges": [
+    {
+      "challenge": "altered content hash",
+      "rejected": true
+    }
+  ],
+  "observations_independently_checked": 3,
+  "full_study_complete": false,
+  "rates_promoted": false
+}

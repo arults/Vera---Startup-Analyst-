@@ -1,0 +1,45 @@
+{
+  "Jev_choice": "capture_native_outcomes_with_scoped_holds",
+  "Jev_confidence": 1.0,
+  "Jev_probability": 1.0,
+  "no_access_bypass": true,
+  "no_promotion": true,
+  "queue": [
+    {
+      "platform": "republic_us",
+      "reasons": [
+        "new_native_annual_report_payout_evidence"
+      ],
+      "url": "https://republic.com/2021"
+    },
+    {
+      "platform": "republic_us",
+      "reasons": [
+        "new_primary_campaign_not_in_prior120"
+      ],
+      "url": "https://republic.com/trusst"
+    },
+    {
+      "platform": "republic_us",
+      "reasons": [
+        "negative_control_2018_campaign_2021_principal_payout"
+      ],
+      "url": "https://republic.com/ring4"
+    },
+    {
+      "platform": "republic_us",
+      "reasons": [
+        "footer_all_companies_link_actual_scope_check"
+      ],
+      "url": "https://republic.com/reg-cf-offerings"
+    },
+    {
+      "platform": "wefunder",
+      "reasons": [
+        "search_discovered_CabinetM_dissolution_full_source_required"
+      ],
+      "url": "https://wefunder.com/feed/235158"
+    }
+  ],
+  "started_at": "2026-10-09T15:34:30.571822+00:00"
+}
