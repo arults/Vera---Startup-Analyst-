@@ -1,0 +1,11 @@
+{
+  "all_expected_2020_2025_plus_2026Q1_Q3_archives_verified": false,
+  "archive_statuses": {},
+  "archives_discovered": 0,
+  "archives_verified": 0,
+  "completed_at": "2026-10-09T09:55:16.816996+00:00",
+  "platform_census_complete": false,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "source_scope": "EXTERNAL_REGULATOR_DISCOVERY_ONLY"
+}
