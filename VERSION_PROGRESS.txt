@@ -60,3 +60,9 @@ Progress: Republic Europe achieved native enumerable coverage (2,896 sitemap URL
 
 Phase 1D CP2 — Republic Europe cohort FROZEN: 952 funded rounds normalized, 796 defensible bounded-year rows, 156 year-unresolved/suppressed, 99.37% strong-ID coverage, and 160 chronological next-round edges retained.
 Iteration lesson: when exact first-live dates are absent, preserve platform date bounds and suppress ambiguous year assignments rather than substituting approval or funded year as if exact.
+
+Phase 1D CP3 — Republic Europe outcome tracing reached ledger v3: 55 bounded-cohort qualified follow-on successes, 0 explicit closures, 2 Zeigo acquisition-value-unknown terminal rows, and 784 native secondary-business pages crawled.
+Iteration lesson: platform eligibility and zero valuation are evidence signals, not outcome labels; explicit closure standards stayed intact, while an incorrect Zeigo terminal-censor implementation was caught and superseded rather than patched silently.
+
+Phase 1D CP4 Round 1 — Corrected Republic Europe candidate estimates passed 27/27 deterministic execution gates; every estimable RQ1 cell is still LOW_INFORMATION and no RQ2 field cell passes the frozen n/events/80% gate.
+Progress: Jev keeps these estimates candidate-only (86%) and prioritizes unlocking Wefunder next; full v0.6.0 study promotion remains blocked by four incomplete platform denominators.
