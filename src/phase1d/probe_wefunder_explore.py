@@ -108,6 +108,30 @@ def main():
             except Exception as e:
                 captures.append({"url":base,"status":None,"probe_label":label,"error":repr(e)})
                 print("PROBE_ERROR",label,repr(e),flush=True)
+        # Full enumeration probes for the historical listed subset.
+        enum_variants=[
+            ("enum_us_listed_visible","Company_sorted_by_funding_closed_at_asc",["-eu","listed_campaign","visible_by_non_accredited_investors"],False),
+            ("enum_status_funded","Company_sorted_by_funding_closed_at_asc",["-eu","listed_campaign","status_funded","visible_by_non_accredited_investors"],False),
+            ("enum_no_tags_nocap","Company_sorted_by_funding_closed_at_asc",[],False),
+            ("enum_listed_only_nocap","Company_sorted_by_funding_closed_at_asc",["listed_campaign"],False),
+        ]
+        for label,index_name,tags,cap in enum_variants:
+            params={
+                "index":index_name,
+                "tagFilters":json.dumps(tags,separators=(",",":")),
+                "page":"0","hitsPerPage":"1000","filters":"",
+                "vipOverride":"false","capCompanyCount":"true" if cap else "false"
+            }
+            try:
+                rr=context.request.get(base,params=params,timeout=30000)
+                txt=rr.text()
+                try: body=json.loads(txt)
+                except Exception: body={"_raw_text":txt[:500000]}
+                captures.append({"url":rr.url,"status":rr.status,"probe_label":label,"body":body})
+                print("ENUM",label,rr.status,body.get("nbHits") if isinstance(body,dict) else None,len(body.get("companies",[])) if isinstance(body,dict) else None,flush=True)
+            except Exception as e:
+                captures.append({"url":base,"status":None,"probe_label":label,"error":repr(e)})
+                print("ENUM_ERROR",label,repr(e),flush=True)
         browser.close()
 
     # Deduplicate by URL + probe label, keeping last response.
