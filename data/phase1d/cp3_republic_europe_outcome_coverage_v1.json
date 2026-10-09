@@ -1,0 +1,142 @@
+{
+  "normalized_rounds": 952,
+  "rate_eligible_rounds": 796,
+  "rate_eligible_unique_companies": 679,
+  "qualified_followon_success_events": 55,
+  "explicit_closure_events": 0,
+  "usable_rounds_with_current_eligible_evidence": 321,
+  "current_eligible_round_share": 0.40326633165829145,
+  "coverage_by_offering_year": {
+    "2020": {
+      "n": 184,
+      "success_events": 18,
+      "current_eligible": 59,
+      "coverage_12m": 0.41847826086956524,
+      "supported_12m": 77,
+      "coverage_24m": 0.3858695652173913,
+      "supported_24m": 71,
+      "coverage_36m": 0.375,
+      "supported_36m": 69,
+      "coverage_60m": 0.3641304347826087,
+      "supported_60m": 67
+    },
+    "2021": {
+      "n": 191,
+      "success_events": 21,
+      "current_eligible": 59,
+      "coverage_12m": 0.41361256544502617,
+      "supported_12m": 79,
+      "coverage_24m": 0.38219895287958117,
+      "supported_24m": 73,
+      "coverage_36m": 0.3612565445026178,
+      "supported_36m": 69,
+      "coverage_60m": 0.2879581151832461,
+      "supported_60m": 55
+    },
+    "2022": {
+      "n": 181,
+      "success_events": 12,
+      "current_eligible": 73,
+      "coverage_12m": 0.49171270718232046,
+      "supported_12m": 89,
+      "coverage_24m": 0.46408839779005523,
+      "supported_24m": 84,
+      "coverage_36m": 0.4530386740331492,
+      "supported_36m": 82,
+      "coverage_60m": 0.06629834254143646,
+      "supported_60m": 12
+    },
+    "2023": {
+      "n": 142,
+      "success_events": 3,
+      "current_eligible": 66,
+      "coverage_12m": 0.5,
+      "supported_12m": 71,
+      "coverage_24m": 0.47183098591549294,
+      "supported_24m": 67,
+      "coverage_36m": 0.352112676056338,
+      "supported_36m": 50,
+      "coverage_60m": 0.02112676056338028,
+      "supported_60m": 3
+    },
+    "2024": {
+      "n": 47,
+      "success_events": 1,
+      "current_eligible": 27,
+      "coverage_12m": 0.5957446808510638,
+      "supported_12m": 28,
+      "coverage_24m": 0.574468085106383,
+      "supported_24m": 27,
+      "coverage_36m": 0.02127659574468085,
+      "supported_36m": 1,
+      "coverage_60m": 0.02127659574468085,
+      "supported_60m": 1
+    },
+    "2025": {
+      "n": 51,
+      "success_events": 0,
+      "current_eligible": 37,
+      "coverage_12m": 0.43137254901960786,
+      "supported_12m": 22,
+      "coverage_24m": 0,
+      "supported_24m": 0,
+      "coverage_36m": 0,
+      "supported_36m": 0,
+      "coverage_60m": 0,
+      "supported_60m": 0
+    }
+  },
+  "field_counts": {
+    "media_gaming_creator": {
+      "n": 32,
+      "success_events": 0,
+      "current_eligible": 12
+    },
+    "climate_energy_industrial": {
+      "n": 46,
+      "success_events": 3,
+      "current_eligible": 14
+    },
+    "saas_enterprise_software": {
+      "n": 79,
+      "success_events": 3,
+      "current_eligible": 28
+    },
+    "other_diversified": {
+      "n": 68,
+      "success_events": 4,
+      "current_eligible": 23
+    },
+    "mobility_logistics_aerospace": {
+      "n": 95,
+      "success_events": 6,
+      "current_eligible": 43
+    },
+    "food_beverage_agtech": {
+      "n": 196,
+      "success_events": 13,
+      "current_eligible": 80
+    },
+    "fintech_insurtech": {
+      "n": 124,
+      "success_events": 11,
+      "current_eligible": 52
+    },
+    "consumer_retail": {
+      "n": 57,
+      "success_events": 8,
+      "current_eligible": 26
+    },
+    "healthcare_medtech": {
+      "n": 63,
+      "success_events": 6,
+      "current_eligible": 28
+    },
+    "realestate_hospitality_proptech": {
+      "n": 36,
+      "success_events": 1,
+      "current_eligible": 15
+    }
+  },
+  "warning": "No explicit closure event has yet passed the frozen closure rule; closure/survival estimates must be treated as under-ascertained until Verifier/Jev decides zero-event handling."
+}
