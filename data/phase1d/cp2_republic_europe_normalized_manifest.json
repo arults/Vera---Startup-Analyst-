@@ -1,10 +1,12 @@
 {
   "files": {
-    "cp2_republic_europe_rounds_normalized.csv": "b6798dc8acd85cf80cfe19080422a876d89a259c21a1d59f112c8b2044ee74ed",
-    "cp2_republic_europe_year_unresolved.csv": "551b3711d4e0cc0543ad21cfd08d872f6b20f232653bb47c2b6d7d7156557986"
+    "cp2_republic_europe_company_id_collision_audit.csv": "d54334cb3ec97b7c4450e27a22910c6c03495c3b0b21dd2df0f126e9bc53745a",
+    "cp2_republic_europe_rounds_normalized.csv": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+    "cp2_republic_europe_year_unresolved.csv": "01adb52dd228b27c795914c47ff6769d97d50345e3841292b8b3d719e2366680"
   },
-  "generated_at": "2026-10-09T01:51:10.594356Z",
+  "generated_at": "2026-10-09T06:59:11.925390+00:00",
   "summary": {
+    "blocked_collision_keys": [],
     "bounded_year_by_year": {
       "2020": 184,
       "2021": 191,
@@ -28,16 +30,22 @@
     "cohort_year_unresolved_rows": 156,
     "cohort_year_usable_rows": 796,
     "cohort_year_usable_share": 0.8361344537815126,
+    "collision_groups_blocked_for_review": 0,
+    "company_id_rule": "Unicode NFKC; remove control/format and non-alphanumeric separators; uppercase; strip leading zeroes for all-digit comparison key; preserve raw value",
+    "formatting_collision_groups_merged": 3,
     "jev": {
+      "block_nonformat_collision_probability": 1.0,
       "bounded_same_year_probability": 0.61,
+      "company_number_normalization_probability": 0.95,
       "design_reopen_yes_probability": 0.16,
-      "exact_date_interval_bounds_probability": 1.0
+      "exact_date_interval_bounds_probability": 1.0,
+      "merge_with_audit_probability": 0.98
     },
     "normalized_rows": 952,
     "platform": "republic_europe",
-    "repeat_company_round_rows": 160,
+    "repeat_company_round_rows": 163,
     "scope": "funded rounds with platform funded year 2020-2025",
-    "unique_companies": 792,
+    "unique_companies": 789,
     "unique_round_ids": 952,
     "year_rule": "offering year assigned only when approval_date and funded_date are both platform-hosted and in the same calendar year; exact first_live_date remains null"
   }
