@@ -1,0 +1,13 @@
+{
+  "Jev_choice": "crowdcube_native_and_wefunder_public_api",
+  "Jev_confidence": 1.0,
+  "Jev_probability": 1.0,
+  "action": "Native Crowdcube directory and Wefunder observed public API year-sliced collection",
+  "created_at": "2026-10-09T09:43:26.699012+00:00",
+  "guard": "No authentication, CAPTCHA solving, proxies, stealth, VIP access, or access-control bypass. Stop bounded errors; metadata remains candidates.",
+  "prior_cycles": [
+    "cycle-1",
+    "cycle-2",
+    "cycle-3"
+  ]
+}

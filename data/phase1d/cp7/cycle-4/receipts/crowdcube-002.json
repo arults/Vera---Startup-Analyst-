@@ -1,0 +1,9 @@
+{
+  "capture_path": "data/phase1d/cp7/cycle-4/captures/c7029b4050385e9d8f0ff0ed6b74730c15b1632bad1256c844f674ba29739d77.bin.gz",
+  "gzip_sha256": "059c2a415813cb37ae143b9a7dea5d563351af581f25e2b779bfbacf2a28b59a",
+  "http_status": 403,
+  "label": "crowdcube-002",
+  "raw_sha256": "c7029b4050385e9d8f0ff0ed6b74730c15b1632bad1256c844f674ba29739d77",
+  "received_at": "2026-10-09T09:43:27.602272+00:00",
+  "url": "https://www.crowdcube.com/companies?page=2"
+}
