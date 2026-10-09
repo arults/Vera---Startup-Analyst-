@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import json, hashlib
+import csv, json, hashlib, re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -12,6 +12,8 @@ OUT=ROOT/"data/phase1d"
 OUT.mkdir(parents=True,exist_ok=True)
 RAW=OUT/"cp1_wefunder_explore_probe.json"
 SUMMARY=OUT/"cp1_wefunder_explore_probe_summary.json"
+ENUMCSV=OUT/"cp1_wefunder_us_listed_visible.csv"
+ENUMSUMMARY=OUT/"cp1_wefunder_us_listed_visible_summary.json"
 
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"
 
@@ -150,7 +152,80 @@ def main():
         "raw_sha256":hashlib.sha256(RAW.read_bytes()).hexdigest()
     }
     SUMMARY.write_text(json.dumps(summary,indent=2,sort_keys=True,ensure_ascii=False)+"\n",encoding="utf-8")
-    print(json.dumps({"capture_count":len(captures),"summaries":[x["summary"] for x in summary["responses"]]},sort_keys=True))
+
+    # Compact historical listed-visible enumeration and completeness audit.
+    enum_capture=next((x for x in captures if x.get("probe_label")=="enum_us_listed_visible"),None)
+    companies=(enum_capture or {}).get("body",{}).get("companies",[]) if isinstance((enum_capture or {}).get("body"),dict) else []
+    def iso(sec):
+        try:
+            sec=float(sec)
+            if sec<=0:return ""
+            return datetime.fromtimestamp(sec,timezone.utc).date().isoformat()
+        except Exception:return ""
+    fields=["id","objectID","name","legalName","slug","fundraiseHostName","fundingStartedDate","fundingPublicDate","fundingClosedDate","fundingClosedAtInPast","fundingAmount","totalRaisedThisCampaign","pastFunding","securityType","valuation","latestFundraiseCurrency","Tags"]
+    with ENUMCSV.open("w",newline="",encoding="utf-8") as fh:
+        w=csv.DictWriter(fh,fieldnames=fields);w.writeheader()
+        for x in companies:
+            w.writerow({
+                "id":x.get("id",""),"objectID":x.get("objectID",""),"name":x.get("name",""),"legalName":x.get("legalName",""),"slug":x.get("slug",""),
+                "fundraiseHostName":x.get("fundraiseHostName",""),"fundingStartedDate":iso(x.get("fundingStartedAtSeconds")),
+                "fundingPublicDate":iso(x.get("fundingPublicAtSeconds")),"fundingClosedDate":iso(x.get("fundingClosedAtSeconds")),
+                "fundingClosedAtInPast":x.get("fundingClosedAtInPast",""),"fundingAmount":x.get("fundingAmount",""),
+                "totalRaisedThisCampaign":x.get("totalRaisedThisCampaign",""),"pastFunding":x.get("pastFunding",""),
+                "securityType":x.get("securityType",""),"valuation":x.get("valuation",""),"latestFundraiseCurrency":x.get("latestFundraiseCurrency",""),
+                "Tags":json.dumps(x.get("Tags",[]),separators=(",",":"))
+            })
+
+    def norm_name(s):
+        s=re.sub(r"[^a-z0-9]+"," ",(s or "").lower()).strip()
+        suffix={"inc","incorporated","llc","ltd","limited","corp","corporation","company","co","plc","pbc"}
+        return " ".join(x for x in s.split() if x not in suffix)
+    known=[]
+    known_path=ROOT/"data/cohort_manifest.csv"
+    if known_path.exists():
+        with known_path.open(newline="",encoding="utf-8") as fh:
+            known=list(csv.DictReader(fh))
+    enum_names={}
+    for x in companies:
+        for raw in [x.get("name"),x.get("legalName")]:
+            n=norm_name(raw)
+            if n: enum_names.setdefault(n,[]).append(x.get("slug") or x.get("name"))
+    matched=[];unmatched=[]
+    for r in known:
+        n=norm_name(r.get("issuer_name"))
+        if n in enum_names: matched.append({"issuer_name":r.get("issuer_name"),"matches":enum_names[n]})
+        else: unmatched.append(r.get("issuer_name"))
+
+    def year_counts(field):
+        d={}
+        for x in companies:
+            y=(field(x) or "")[:4]
+            if y:d[y]=d.get(y,0)+1
+        return dict(sorted(d.items()))
+    enum_summary={
+        "nbHits":(enum_capture or {}).get("body",{}).get("nbHits"),
+        "company_count":len(companies),
+        "fundraise_host_counts":{},
+        "closed_year_counts":year_counts(lambda x:iso(x.get("fundingClosedAtSeconds"))),
+        "started_year_counts":year_counts(lambda x:iso(x.get("fundingStartedAtSeconds"))),
+        "public_year_counts":year_counts(lambda x:iso(x.get("fundingPublicAtSeconds"))),
+        "status_funded_count":sum(1 for x in companies if "status_funded" in (x.get("Tags") or [])),
+        "funded_tag_count":sum(1 for x in companies if "funded" in (x.get("Tags") or [])),
+        "has_non_draft_form_c_count":sum(1 for x in companies if "has_non_draft_form_c" in (x.get("Tags") or [])),
+        "closed_in_past_count":sum(1 for x in companies if x.get("fundingClosedAtInPast")),
+        "positive_total_raised_count":sum(1 for x in companies if (x.get("totalRaisedThisCampaign") or 0)>0),
+        "phase1b_2020_known_denominator":len(known),
+        "phase1b_name_matches":len(matched),
+        "phase1b_name_match_share":len(matched)/len(known) if known else None,
+        "phase1b_matches":matched,
+        "phase1b_unmatched":unmatched,
+        "csv_sha256":hashlib.sha256(ENUMCSV.read_bytes()).hexdigest()
+    }
+    for x in companies:
+        h=x.get("fundraiseHostName") or "MISSING"
+        enum_summary["fundraise_host_counts"][h]=enum_summary["fundraise_host_counts"].get(h,0)+1
+    ENUMSUMMARY.write_text(json.dumps(enum_summary,indent=2,sort_keys=True,ensure_ascii=False)+"\n",encoding="utf-8")
+    print(json.dumps({"capture_count":len(captures),"enum_summary":enum_summary},sort_keys=True))
 
 if __name__=="__main__":
     main()
