@@ -1,0 +1,62 @@
+name: Phase 1D Republic Europe closure audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/audit_republic_europe_zero_valuation_closures.py'
+      - 'tests/test_phase1d_republic_europe_closure_audit.py'
+      - '.github/workflows/phase1d-republic-europe-closure-audit.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      AUDIT_RUN_ID: gh-${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install platform-page collector
+        run: |
+          mkdir -p data/phase1d/republic_europe_closure_audit/$AUDIT_RUN_ID
+          pip install requests beautifulsoup4 curl_cffi
+          pip freeze > data/phase1d/republic_europe_closure_audit/$AUDIT_RUN_ID/runtime.txt
+      - name: Run full regression suite
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests -v 2>&1 | tee data/phase1d/republic_europe_closure_audit/$AUDIT_RUN_ID/tests.txt
+          sha256sum src/phase1d/audit_republic_europe_zero_valuation_closures.py tests/test_phase1d_republic_europe_closure_audit.py > data/phase1d/republic_europe_closure_audit/$AUDIT_RUN_ID/code_sha256.txt
+      - name: Execute bounded platform-only closure audit
+        run: |
+          set -o pipefail
+          python -m src.phase1d.audit_republic_europe_zero_valuation_closures --run-id "$AUDIT_RUN_ID" --max-update-links-per-campaign 20 2>&1 | tee data/phase1d/republic_europe_closure_audit/$AUDIT_RUN_ID/execution.txt
+      - name: Upload independent audit copy
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase1d-republic-europe-closure-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/phase1d/republic_europe_closure_audit/${{ env.AUDIT_RUN_ID }}/
+          if-no-files-found: warn
+          retention-days: 90
+      - name: Persist closure-audit checkpoint
+        if: always()
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/republic_europe_closure_audit/
+          if ! git diff --cached --quiet; then
+            git commit -m "Phase 1D: persist Republic Europe closure audit $AUDIT_RUN_ID [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi
