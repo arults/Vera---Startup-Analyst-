@@ -1,0 +1,32 @@
+{
+  "sequence_edges": 160,
+  "qualified_priced_followon_successes": 57,
+  "comparable_edge_share": 0.35625,
+  "incomparable_or_below_threshold_edges": 103,
+  "success_by_source_offering_year": {
+    "2020": 15,
+    "2021": 20,
+    "2022": 11,
+    "2023": 3,
+    "2024": 1,
+    "UNRESOLVED": 7
+  },
+  "success_by_source_field": {
+    "food_beverage_agtech": 16,
+    "mobility_logistics_aerospace": 4,
+    "fintech_insurtech": 11,
+    "consumer_retail": 6,
+    "other_diversified": 6,
+    "realestate_hospitality_proptech": 1,
+    "healthcare_medtech": 6,
+    "climate_energy_industrial": 3,
+    "saas_enterprise_software": 4
+  },
+  "instrument_distribution": {
+    "Equity": 818,
+    "Cohort": 5,
+    "Convertible": 127,
+    "Debt": 2
+  },
+  "rule": "Both rounds must be Equity, have nonzero comparable pre-money valuations in the same currency, and destination/source valuation >=1.5x. Valuation caps are not substituted."
+}
