@@ -1,0 +1,65 @@
+name: Phase 1D deterministic plateau
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/plateau_verifier.py'
+      - 'tests/test_phase1d_plateau_verifier.py'
+      - '.github/workflows/phase1d-plateau.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  plateau:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional regression dependencies
+        run: pip install requests beautifulsoup4 curl_cffi
+      - name: Run full regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Verify current scientific state
+        run: python -m src.phase1d.verifier_v4
+      - name: Capture frozen plateau baseline
+        run: python -m src.phase1d.plateau_verifier --round-id deterministic-a
+      - name: Verify plateau round one
+        run: python -m src.phase1d.plateau_verifier --round-id deterministic-b --previous deterministic-a
+      - name: Verify plateau round two
+        run: python -m src.phase1d.plateau_verifier --round-id deterministic-c --previous deterministic-b
+      - name: Assert two consecutive plateau rounds
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('data/phase1d/plateau')
+          b=json.loads((root/'deterministic-b.json').read_text())
+          c=json.loads((root/'deterministic-c.json').read_text())
+          assert b['comparison']['plateau'] is True
+          assert c['comparison']['plateau'] is True
+          assert not b['comparison']['improvements_over_threshold']
+          assert not c['comparison']['improvements_over_threshold']
+          assert not b['comparison']['material_label_flips']
+          assert not c['comparison']['material_label_flips']
+          print('TWO_CONSECUTIVE_DETERMINISTIC_PLATEAU_ROUNDS=PASS')
+          PY
+      - name: Persist deterministic plateau evidence
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/plateau/
+          if ! git diff --cached --quiet; then
+            git commit -m "Phase 1D: persist deterministic plateau evidence [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi
