@@ -1,0 +1,16 @@
+{
+  "candidate_version": "cp4_v1",
+  "platform": "republic_europe",
+  "rate_eligible_rounds": 796,
+  "year_cells": 24,
+  "estimable_year_horizon_cells": 17,
+  "low_information_year_horizon_cells": 17,
+  "field_audit_cells": 312,
+  "field_gate_pass_cells": 0,
+  "field_gate_pass_examples": [],
+  "zero_closure_rule": "point CIF=0 where horizon estimable; SUPPORT_SET_BOUND upper=1-0.05^(1/n_supported), not AJ/bootstrap CI",
+  "zero_success_rule": "zero success point uses same SUPPORT_SET_BOUND convention",
+  "zero_terminal_survival_rule": "survival point=1 with SUPPORT_SET_LOWER=0.05^(1/n_supported), not 1-1 bootstrap CI",
+  "zeigo_sensitivity": "Primary uses 2022-07-02 midpoint; start/end sensitivity columns use 2022-01-01 / 2022-12-31.",
+  "warning": "Candidate estimates only; not promoted until Phase 1D deterministic Verifier + Jev approval."
+}
