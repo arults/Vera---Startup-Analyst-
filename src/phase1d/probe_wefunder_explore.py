@@ -77,24 +77,26 @@ def main():
         # Probe historical-enumeration variants inside the same browser context.
         base="https://wefunder.com/-/companies/explore"
         variants=[
-            ("no_tags",[]),
-            ("listed_only",["listed_campaign"]),
-            ("visible_only",["visible_by_non_accredited_investors"]),
-            ("listed_visible",["listed_campaign","visible_by_non_accredited_investors"]),
-            ("us_listed_visible",["-eu","listed_campaign","visible_by_non_accredited_investors"]),
+            ("baseline_live","Company_sorted_by_funding_closed_at_asc",["-eu","closing_soon","listed_campaign","status_fundraising","visible_by_non_accredited_investors"],True),
+            ("asc_no_tags_cap","Company_sorted_by_funding_closed_at_asc",[],True),
+            ("asc_listed_cap","Company_sorted_by_funding_closed_at_asc",["listed_campaign"],True),
+            ("asc_us_listed_visible_cap","Company_sorted_by_funding_closed_at_asc",["-eu","listed_campaign","visible_by_non_accredited_investors"],True),
+            ("asc_us_listed_visible_nocap","Company_sorted_by_funding_closed_at_asc",["-eu","listed_campaign","visible_by_non_accredited_investors"],False),
+            ("promoted_us_listed_visible_cap","Company_sorted_by_profile_promoted_at_desc",["-eu","listed_campaign","visible_by_non_accredited_investors"],True),
+            ("promoted_us_listed_visible_nocap","Company_sorted_by_profile_promoted_at_desc",["-eu","listed_campaign","visible_by_non_accredited_investors"],False),
         ]
         status_guesses=[
             "status_funded","status_closed","status_finished","status_completed",
             "status_successfully_funded","status_not_fundraising","past_campaign","funding_closed"
         ]
         for tag in status_guesses:
-            variants.append(("guess_"+tag,["-eu","listed_campaign",tag,"visible_by_non_accredited_investors"]))
-        for label,tags in variants:
+            variants.append(("asc_guess_"+tag,"Company_sorted_by_funding_closed_at_asc",["-eu","listed_campaign",tag,"visible_by_non_accredited_investors"],True))
+        for label,index_name,tags,cap in variants:
             params={
-                "index":"Company_sorted_by_funding_closed_at_desc",
+                "index":index_name,
                 "tagFilters":json.dumps(tags,separators=(",",":")),
                 "page":"0","hitsPerPage":"5","filters":"",
-                "vipOverride":"false","capCompanyCount":"false"
+                "vipOverride":"false","capCompanyCount":"true" if cap else "false"
             }
             try:
                 rr=context.request.get(base,params=params,timeout=30000)
