@@ -1,0 +1,52 @@
+{
+  "checkpoint": "PHASE_1D_CP4_POST_CLOSURE_AUDIT",
+  "verified_at": "2026-10-09",
+  "github_actions": {
+    "run_id": 37899158528,
+    "job_id": 113717404928,
+    "conclusion": "success",
+    "tests_passed": 179,
+    "tests_failed": 0
+  },
+  "scientific_verifier": {
+    "revision": "v4_post_zero_valuation_closure_audit",
+    "passed": 43,
+    "total": 43,
+    "promotion_gate": "PASS",
+    "closure_audit_effect": "NO_OUTCOME_LABEL_CHANGE"
+  },
+  "candidate": {
+    "version": "candidate_v3",
+    "source_rounds": 952,
+    "rate_eligible_rounds": 796,
+    "canonical_companies": 789,
+    "success_events": 63,
+    "closure_events": 0,
+    "terminal_nonclosure_events": 2,
+    "rq1_cells": 24,
+    "rq1_estimable_cells": 17,
+    "rq1_low_information_cells": 24,
+    "rq2_cells": 60,
+    "rq2_reportable_cells": 0,
+    "promotion_status": "CANDIDATE_ONLY",
+    "rates_promoted": false
+  },
+  "platform_coverage": {
+    "republic_europe": "PASS_NATIVE_ENUMERABLE",
+    "wefunder": "CENSUS_INCOMPLETE_SUPPRESS",
+    "republic_us": "CENSUS_INCOMPLETE_SUPPRESS",
+    "startengine": "CENSUS_INCOMPLETE_SUPPRESS",
+    "crowdcube": "CENSUS_INCOMPLETE_SUPPRESS"
+  },
+  "closure_audit": {
+    "target_companies": 13,
+    "captures": 41,
+    "successful_captures": 41,
+    "review_candidates": 14,
+    "dated_candidates": 0,
+    "false_positive_contract_candidates": 14,
+    "accepted_closures": 0,
+    "zero_valuation_signal": "UNRESOLVED_ADVERSE_SIGNAL"
+  },
+  "promotion_boundary": "Verifier PASS certifies the execution and suppression logic; it does not promote any Phase 1D rate."
+}
