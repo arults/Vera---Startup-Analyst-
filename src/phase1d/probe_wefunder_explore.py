@@ -74,10 +74,42 @@ def main():
                 print("PAGE",url,resp.status if resp else None,page.url,page.title(),flush=True)
             except Exception as e:
                 print("PAGE_ERROR",url,repr(e),flush=True)
+        # Probe historical-enumeration variants inside the same browser context.
+        base="https://wefunder.com/-/companies/explore"
+        variants=[
+            ("no_tags",[]),
+            ("listed_only",["listed_campaign"]),
+            ("visible_only",["visible_by_non_accredited_investors"]),
+            ("listed_visible",["listed_campaign","visible_by_non_accredited_investors"]),
+            ("us_listed_visible",["-eu","listed_campaign","visible_by_non_accredited_investors"]),
+        ]
+        status_guesses=[
+            "status_funded","status_closed","status_finished","status_completed",
+            "status_successfully_funded","status_not_fundraising","past_campaign","funding_closed"
+        ]
+        for tag in status_guesses:
+            variants.append(("guess_"+tag,["-eu","listed_campaign",tag,"visible_by_non_accredited_investors"]))
+        for label,tags in variants:
+            params={
+                "index":"Company_sorted_by_funding_closed_at_desc",
+                "tagFilters":json.dumps(tags,separators=(",",":")),
+                "page":"0","hitsPerPage":"5","filters":"",
+                "vipOverride":"false","capCompanyCount":"false"
+            }
+            try:
+                rr=context.request.get(base,params=params,timeout=30000)
+                txt=rr.text()
+                try: body=json.loads(txt)
+                except Exception: body={"_raw_text":txt[:200000]}
+                captures.append({"url":rr.url,"status":rr.status,"probe_label":label,"body":body})
+                print("PROBE",label,rr.status,body.get("nbHits") if isinstance(body,dict) else None,flush=True)
+            except Exception as e:
+                captures.append({"url":base,"status":None,"probe_label":label,"error":repr(e)})
+                print("PROBE_ERROR",label,repr(e),flush=True)
         browser.close()
 
-    # Deduplicate identical response URLs, keeping last response.
-    by_url={c.get("url",""):c for c in captures if c.get("url")}
+    # Deduplicate by URL + probe label, keeping last response.
+    by_url={(c.get("url",""),c.get("probe_label","browser_capture")):c for c in captures if c.get("url")}
     captures=list(by_url.values())
     payload={
         "captured_at":now(),
@@ -88,7 +120,7 @@ def main():
     summary={
         "captured_at":payload["captured_at"],
         "capture_count":len(captures),
-        "responses":[{"url":c.get("url"),"status":c.get("status"),"summary":summarize_body(c.get("body"))} for c in captures],
+        "responses":[{"url":c.get("url"),"status":c.get("status"),"probe_label":c.get("probe_label","browser_capture"),"summary":summarize_body(c.get("body"))} for c in captures],
         "raw_sha256":hashlib.sha256(RAW.read_bytes()).hexdigest()
     }
     SUMMARY.write_text(json.dumps(summary,indent=2,sort_keys=True,ensure_ascii=False)+"\n",encoding="utf-8")
