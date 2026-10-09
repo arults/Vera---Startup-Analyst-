@@ -197,7 +197,7 @@ def rq1_rows(ledger: list[dict]) -> list[dict]:
         for horizon in HORIZONS:
             success_supported = sum(supported(o, horizon) for o in success_obs)
             closure_supported = sum(supported(o, horizon) for o in closure_obs)
-            survival_supported = sum(followup_time(r) >= horizon or (terminal_date(r) and (months(r["completion_date"], terminal_date(r)) or 0) <= horizon) for r in cell)
+            survival_supported = sum(bool(followup_time(r) >= horizon or (terminal_date(r) and (months(r["completion_date"], terminal_date(r)) or 0) <= horizon)) for r in cell)
             n_supported = min(success_supported, closure_supported, survival_supported)
             estimable = n > 0 and n_supported > 0
             success_events = event_count(success_obs, "success", horizon)
