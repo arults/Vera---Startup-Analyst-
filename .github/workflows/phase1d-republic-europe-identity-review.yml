@@ -5,7 +5,9 @@ on:
     branches: [phase-1d]
     paths:
       - 'src/phase1d/build_republic_europe_identity_review.py'
+      - 'src/phase1d/apply_republic_europe_identity_review.py'
       - 'tests/test_phase1d_republic_europe_identity_review.py'
+      - 'tests/test_phase1d_republic_europe_identity_apply.py'
       - '.github/workflows/phase1d-republic-europe-identity-review.yml'
 concurrency:
   group: phase1d-writer
@@ -28,9 +30,11 @@ jobs:
         run: pip install requests curl_cffi
       - name: Run full regression suite
         run: python -m unittest discover -s tests -v
-      - name: Build fail-closed identity review queue
+      - name: Rebuild fail-closed identity review queue
         run: python -m src.phase1d.build_republic_europe_identity_review
-      - name: Persist review checkpoint
+      - name: Apply conservative Jev review disposition
+        run: python -m src.phase1d.apply_republic_europe_identity_review
+      - name: Persist reviewed identity checkpoint
         run: |
           git config user.name "vera-phase1d-bot"
           git config user.email "vera-phase1d-bot@users.noreply.github.com"
@@ -38,8 +42,13 @@ jobs:
           git add data/phase1d/cp3_republic_europe_identity_unmatched_after_queue.csv
           git add data/phase1d/cp3_republic_europe_identity_review_summary.json
           git add data/phase1d/cp3_republic_europe_identity_review_manifest.json
+          git add data/phase1d/cp3_republic_europe_identity_review_decisions.csv
+          git add data/phase1d/cp3_republic_europe_identity_matches_accepted.csv
+          git add data/phase1d/cp3_republic_europe_business_observations_v2.csv
+          git add data/phase1d/cp3_republic_europe_identity_review_applied_summary.json
+          git add data/phase1d/cp3_republic_europe_identity_review_applied_manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "Phase 1D: persist Republic Europe identity review queue [skip ci]"
+            git commit -m "Phase 1D: persist reviewed Republic Europe identity matches [skip ci]"
             git fetch origin phase-1d
             git rebase origin/phase-1d
             git push origin HEAD:phase-1d
