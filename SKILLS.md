@@ -1,5 +1,30 @@
 # SKILLS.md — Vera operational research memory
 
+## Latest authority — CP8, execution0.6.3-dev.research.1
+
+Read checkpoints/PHASE_1D_CP8_EMPIRICAL_RESEARCH_VERIFIED.md and evidence/jev/PHASE_1D_CP8_DECISION_LOG.json before continuing. This section supersedes older restart pointers below. The complete CP6 operational text remains preserved below, and all its scientific safeguards remain in force. Promoted VERSION remains0.5.0.
+
+Latest status: VERIFIED EMPIRICAL PROGRESS; FOUR HISTORICAL CENSUSES INCOMPLETE; GLOBAL RESEARCH PLATEAU NOT ESTABLISHED. No main merge and no Phase1D numerical-prior promotion.
+
+Reconciled CP7 evidence is now saved under data/phase1d/cp7/analysis-cp8-verified/. Republic Europe stays952rounds/796year-eligible; qualifying follow-ons increased55->62eligible (63->70fulluniverse), from8added and1rounded falsepositive removed. Follow-up extended17rows/12companies. These are reconciled saved CP7sources, not newly captured CP8companies. All24RQ1candidatecells remain LOW_INFORMATION and0RQ2cells are reportable.
+
+Republic US has122source campaign records after2new pages, INCLUDING the2018Ring4negative control. Only1new2020–2025funded-close record was added; close year is NOT offering year. Three native payout observations are saved: Trusst positive acquisition/payout candidate, Ring4principal-return control, Boeing Ave property scope hold. No observation is estimation-eligible.102%annualized is not2.02x realized; principal repayment is not profit; asset sale is not company closure.
+
+Wefunder has65public2020–2025event candidates for57companies recovered from a preserved985profile archive, NOT complete5132advertised-index coverage and NOT new live observations. Publication/privacy holds remain. CabinetM's full public feed returned403, so its search excerpt is not admitted as closure evidence. StartEngine and Crowdcube still lack historical censuses.
+
+SEC direct published-archive route yielded0archives after2HTTPerrors;24requests were not attempted after the circuit opened.26quarters were published through2026Q2;2026Q3was not yet listed. RegCFfilings would remain discovery-only and not complete all-platform denominators. Failed access is not research plateau.
+
+Cycle2's legitimate252-character active-only directory was initially rejected by a generic300-character cutoff. The additive correction data/phase1d/cp8/cycle-2-feedback/directory-scope-verifier.json supersedes only that source-scope count:4native pages verified, active-only directory confirmed. It does NOT supply a historical census. Seven focused structural checks and218full regressions passed locally; original snapshot retained. No new live observations were added by this repair.
+
+Durability: runs37951562361 and37952724156 completed and committed source/evidence.218full tests,21reconciled scientific checks,43historical checks,8archive assertions and9native checks passed.1259pre-existing data files were hash-verified unchanged in cycle2; altered-hash evidence was rejected. These engineering/data-integrity passes do not complete the research.
+
+Final Jev selected verified_empirical_progress_research_incomplete and checkpoint_with_explicit_blockers_not_plateau, each probability1.00/confidence1.00; numerical-prior promotion yes0.04. Model judgments are not statistical certainty. All actual outputs are preserved in the CP8decision log with input states labeled summaries.
+
+Next material work: admissible full historical platform coverage, first-live/strongissuer/economic-round identity resolution, dated operating/shutdown/exit follow-up, and Trusst date/return/identity holds. Use new substantive sources or authorized exports, not unchanged403retries. Never count green tests, replay snapshots or blocked downloads as global research plateau. No unattended continuation is implied.
+
+---
+## Preserved CP6 operational memory — historical restart pointer superseded by CP8
+
 Current correction: 0.6.1-dev.audit.1, 2026-10-09. Promoted VERSION is unchanged.
 Phase 1B: COMPLETE — limited empirical reference class.
 Phase 1C: COMPLETE — executable calibration framework.
