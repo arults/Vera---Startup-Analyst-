@@ -1,6 +1,6 @@
 {
   "capture_count": 23,
-  "captured_at": "2026-10-09T05:11:28.440978+00:00",
+  "captured_at": "2026-10-09T05:13:24.545756+00:00",
   "captures": [
     {
       "body": {
@@ -453,965 +453,6 @@
       },
       "status": 200,
       "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_profile_promoted_at_desc&tagFilters=[%22-eu%22,%22new_this_week%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
-    },
-    {
-      "body": {
-        "companies": [
-          {
-            "Geoloc": {
-              "lat": 39.79929,
-              "lng": -75.54464
-            },
-            "Highlightresult": {
-              "Tags": [
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "status_fundraising"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "has_non_draft_form_c"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "privacy_search_tag"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "exemption_reg_cf"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "security_safe"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "perks_exist"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "listed_campaign"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "visible_by_non_accredited_investors"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "eyewear"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "deep_tech"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "material_science"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "sustainable_materials"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "polymers"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "coatings"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "thin_films"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "anti-fingerprint"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "tough_tech"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "ecommerce"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "consumer_goods"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "fashion"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "science_and_r_and_d"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "female_founder"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "b2b"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "minority_founder"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "notable_angel"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "5_days_left"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "closing_soon"
-                }
-              ],
-              "city": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Wilmington"
-              },
-              "legalName": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Unsmudgeable, Inc."
-              },
-              "name": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Unsmudgeable"
-              },
-              "tagline": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Never wipe your glasses again™"
-              },
-              "url": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "unsmudgeable"
-              }
-            },
-            "Tags": [
-              "status_fundraising",
-              "has_non_draft_form_c",
-              "privacy_search_tag",
-              "exemption_reg_cf",
-              "security_safe",
-              "perks_exist",
-              "listed_campaign",
-              "visible_by_non_accredited_investors",
-              "eyewear",
-              "deep_tech",
-              "material_science",
-              "sustainable_materials",
-              "polymers",
-              "coatings",
-              "thin_films",
-              "anti-fingerprint",
-              "tough_tech",
-              "ecommerce",
-              "consumer_goods",
-              "fashion",
-              "science_and_r_and_d",
-              "female_founder",
-              "b2b",
-              "minority_founder",
-              "notable_angel",
-              "5_days_left",
-              "closing_soon"
-            ],
-            "adminRejected": false,
-            "adminTagMappings": [
-              {
-                "humanizedName": "Notable Angel",
-                "standardizedName": "notable_angel"
-              },
-              {
-                "humanizedName": "Minority Founder",
-                "standardizedName": "minority_founder"
-              },
-              {
-                "humanizedName": "Female Founder",
-                "standardizedName": "female_founder"
-              }
-            ],
-            "ageInMonths": 41,
-            "annualRevenue": 3704,
-            "cashInBank": 25078,
-            "city": "Wilmington",
-            "companyHumanizedTags": [
-              "eyewear",
-              "deep tech",
-              "material science",
-              "sustainable materials",
-              "polymers",
-              "coatings",
-              "thin films",
-              "anti-fingerprint",
-              "tough tech"
-            ],
-            "country": [
-              "United States",
-              "US"
-            ],
-            "coverPhoto": {
-              "large": {
-                "url": "/assets/blank.gif"
-              },
-              "medium": {
-                "url": "/assets/blank.gif"
-              },
-              "thumbnail": {
-                "url": "/assets/blank.gif"
-              },
-              "url": "/assets/blank.gif",
-              "xl": {
-                "url": "/assets/blank.gif"
-              }
-            },
-            "createdAtSeconds": 1730744106,
-            "customCardPhotoUrl": {
-              "normal": "//uploads.wefunder.com/uploads/company/custom_card_photo/168420/company_card_Unsmudgeable_explore_card_photo_1743098370379.jpg",
-              "retina": "//uploads.wefunder.com/uploads/company/custom_card_photo/168420/company_card_retina_Unsmudgeable_explore_card_photo_1743098370379.jpg"
-            },
-            "deleted": false,
-            "description": null,
-            "ebActive": false,
-            "ebTermsDealEnabled": true,
-            "fact": "LOI signed with Bühler Leybold Optics, global leader in eyewear manufacturing",
-            "featured": false,
-            "followersCounterCache": 94,
-            "founderAvatarUrl": "//uploads.wefunder.com/uploads/company_role/custom_photo/5307969/square_blob.jpg?1771609189",
-            "founderInfo": {
-              "bio": "As Unsmudgeable's founder, I've conducted 500+ experiments and 100 user interviews, driven by 16 years of personal frustration with smudged glasses. Working with polymer experts, we've developed a solution to a problem no major eyewear brand has solved.",
-              "name": "Swarna Shiv",
-              "title": "Founder/CEO"
-            },
-            "fundingAmount": 217500,
-            "fundingAmountPastMonth": 800.0,
-            "fundingAmountPastWeek": -700.0,
-            "fundingClosedAtInPast": 0,
-            "fundingClosedAtSeconds": 1791950399,
-            "fundingClosingAtInFuture": 1,
-            "fundingClosingAtSeconds": 1791950399,
-            "fundingPublicAtSeconds": null,
-            "fundingStartedAtSeconds": 1742599408,
-            "fundraiseHostName": "Wefunder Portal LLC",
-            "hasTimelineStartDate": 0,
-            "id": 168420,
-            "investorCount": 193,
-            "isFund": false,
-            "label": "5_days_left",
-            "latestFundraiseCurrency": "USD",
-            "legalName": "Unsmudgeable, Inc.",
-            "logo": {
-              "large": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/168420/large_blob.jpeg"
-              },
-              "medium": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/168420/medium_blob.jpeg"
-              },
-              "small": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/168420/small_blob.jpeg"
-              },
-              "thumbnail": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/168420/thumbnail_blob.jpeg"
-              },
-              "url": "//uploads.wefunder.com/uploads/company/logo/168420/blob.jpeg",
-              "xl": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/168420/xl_blob.jpeg"
-              },
-              "xxl": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/168420/xxl_blob.jpeg"
-              }
-            },
-            "name": "Unsmudgeable",
-            "objectID": "168420",
-            "ownerPublished": true,
-            "pastFunding": 102700,
-            "percentFunded": 402,
-            "postFundingEvents": [],
-            "privacyInviteOnly": false,
-            "privacySearch": true,
-            "profilePromotedAtSeconds": "2025-03-22T00:12:49.226Z",
-            "qualityScore": 6.672846507634744,
-            "region": "MA",
-            "securityType": "equity",
-            "slug": "unsmudgeable",
-            "state": "DE",
-            "statusTier": 0,
-            "tagline": "Never wipe your glasses again™",
-            "terms": {
-              "eb": "$4.5M",
-              "localized": {
-                "de": {
-                  "eb": "4,5 Mio. $",
-                  "nb": "5 Mio. $",
-                  "txt": "post-money valuation cap"
-                },
-                "es": {
-                  "eb": "4,5 M$",
-                  "nb": "5 M$",
-                  "txt": "post-money valuation cap"
-                },
-                "fr": {
-                  "eb": "4,5 M $",
-                  "nb": "5 M $",
-                  "txt": "post-money valuation cap"
-                },
-                "it": {
-                  "eb": "4,5 Mio $",
-                  "nb": "5 Mio $",
-                  "txt": "post-money valuation cap"
-                },
-                "nl": {
-                  "eb": "$ 4,5 mln.",
-                  "nb": "$ 5 mln.",
-                  "txt": "post-money valuation cap"
-                },
-                "pt": {
-                  "eb": "$ 4,5 mi",
-                  "nb": "$ 5 mi",
-                  "txt": "post-money valuation cap"
-                }
-              },
-              "nb": "$5M",
-              "txt": "post-money valuation cap"
-            },
-            "timelineStartDateSeconds": 0,
-            "totalInvestorsThisCampaign": 212,
-            "totalRaisedThisCampaign": 217500,
-            "url": "unsmudgeable",
-            "userEBTermsDeal": false,
-            "userFollows": false,
-            "valuation": 0,
-            "verticalAndSectorTagNames": [
-              "consumer_goods",
-              "fashion",
-              "science_and_r_and_d"
-            ],
-            "vettedLevel": 0,
-            "videoCoverPhotoUrl": "//uploads.wefunder.com/uploads/company/header_media_photo/168420/standard_blob.jpg",
-            "videoUrl": "https://dcd73ta2suabk.cloudfront.net/yaqbv17dzbpidw58uwy50h6yvzj4"
-          },
-          {
-            "Geoloc": {
-              "lat": 47.69073,
-              "lng": -122.39566
-            },
-            "Highlightresult": {
-              "Tags": [
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "status_fundraising"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "has_non_draft_form_c"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "privacy_search_tag"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "exemption_reg_cf"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "security_safe"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "listed_campaign"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "visible_by_non_accredited_investors"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "healthcare"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "health_and_fitness"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "science_and_r_and_d"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "technology"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "7_days_left"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "closing_soon"
-                }
-              ],
-              "city": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Seattle"
-              },
-              "legalName": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Myosana Therapeutics, Inc."
-              },
-              "name": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Myosana Therapeutics"
-              },
-              "tagline": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Non-viral gene therapy platform for muscle and heart diseases"
-              },
-              "url": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "myosana.therapeutics"
-              }
-            },
-            "Tags": [
-              "status_fundraising",
-              "has_non_draft_form_c",
-              "privacy_search_tag",
-              "exemption_reg_cf",
-              "security_safe",
-              "listed_campaign",
-              "visible_by_non_accredited_investors",
-              "healthcare",
-              "health_and_fitness",
-              "science_and_r_and_d",
-              "technology",
-              "7_days_left",
-              "closing_soon"
-            ],
-            "adminRejected": false,
-            "adminTagMappings": [
-              {
-                "humanizedName": "Health & Fitness",
-                "standardizedName": "health_and_fitness"
-              },
-              {
-                "humanizedName": "Healthcare",
-                "standardizedName": "healthcare"
-              }
-            ],
-            "ageInMonths": 100,
-            "annualRevenue": 0,
-            "cashInBank": 37467,
-            "city": "Seattle",
-            "companyHumanizedTags": [],
-            "country": [
-              "United States",
-              "US"
-            ],
-            "coverPhoto": {
-              "large": {
-                "url": "/assets/blank.gif"
-              },
-              "medium": {
-                "url": "/assets/blank.gif"
-              },
-              "thumbnail": {
-                "url": "/assets/blank.gif"
-              },
-              "url": "/assets/blank.gif",
-              "xl": {
-                "url": "/assets/blank.gif"
-              }
-            },
-            "createdAtSeconds": 1748981266,
-            "customCardPhotoUrl": {
-              "normal": "//uploads.wefunder.com/uploads/company/custom_card_photo/181753/company_card_Myosana_Therapeutics_1778613820227.jpg",
-              "retina": "//uploads.wefunder.com/uploads/company/custom_card_photo/181753/company_card_retina_Myosana_Therapeutics_1778613820227.jpg"
-            },
-            "deleted": false,
-            "description": null,
-            "ebActive": false,
-            "ebTermsDealEnabled": true,
-            "fact": "Developing a gene therapy treatment for Duchenne muscular dystrophy (DMD).\r\n",
-            "featured": false,
-            "followersCounterCache": 92,
-            "founderAvatarUrl": "//uploads.wefunder.com/uploads/company_role/custom_photo/5789237/square_blob.jpg?1771621513",
-            "founderInfo": {
-              "bio": "Expert in muscle physiology and DMD research for more than 20 years. PhD from Monash University, Australia. Associate Professor at the University of Washington. Pivotal research elucidated novel roles of dystrophin. Inventor of Myosana’s technology.",
-              "name": "Nicholas Whitehead",
-              "title": "CEO, Co-Founder and CSO"
-            },
-            "fundingAmount": 561211,
-            "fundingAmountPastMonth": 13700.0,
-            "fundingAmountPastWeek": 1600.0,
-            "fundingClosedAtInPast": 0,
-            "fundingClosedAtSeconds": 1792123199,
-            "fundingClosingAtInFuture": 1,
-            "fundingClosingAtSeconds": 1792123199,
-            "fundingPublicAtSeconds": 1773666000,
-            "fundingStartedAtSeconds": 1762992497,
-            "fundraiseHostName": "Wefunder Portal LLC",
-            "hasTimelineStartDate": 0,
-            "id": 181753,
-            "investorCount": 55,
-            "isFund": false,
-            "label": "7_days_left",
-            "latestFundraiseCurrency": "USD",
-            "legalName": "Myosana Therapeutics, Inc.",
-            "logo": {
-              "large": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/181753/large_blob"
-              },
-              "medium": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/181753/medium_blob"
-              },
-              "small": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/181753/small_blob"
-              },
-              "thumbnail": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/181753/thumbnail_blob"
-              },
-              "url": "//uploads.wefunder.com/uploads/company/logo/181753/blob",
-              "xl": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/181753/xl_blob"
-              },
-              "xxl": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/181753/xxl_blob"
-              }
-            },
-            "name": "Myosana Therapeutics",
-            "objectID": "181753",
-            "ownerPublished": true,
-            "pastFunding": 6400478,
-            "percentFunded": 1122,
-            "postFundingEvents": [],
-            "privacyInviteOnly": false,
-            "privacySearch": true,
-            "profilePromotedAtSeconds": "2026-05-12T19:30:41.558Z",
-            "qualityScore": 10.47328646257205,
-            "region": "WA",
-            "securityType": "equity",
-            "slug": "myosanatherapeutics",
-            "state": "WA",
-            "statusTier": 0,
-            "tagline": "Non-viral gene therapy platform for muscle and heart diseases",
-            "terms": {
-              "eb": "$25M",
-              "localized": {
-                "de": {
-                  "eb": "25 Mio. $",
-                  "nb": "27,384 Mio. $",
-                  "txt": "post-money valuation cap"
-                },
-                "es": {
-                  "eb": "25 M$",
-                  "nb": "27,384 M$",
-                  "txt": "post-money valuation cap"
-                },
-                "fr": {
-                  "eb": "25 M $",
-                  "nb": "27,384 M $",
-                  "txt": "post-money valuation cap"
-                },
-                "it": {
-                  "eb": "25 Mio $",
-                  "nb": "27,384 Mio $",
-                  "txt": "post-money valuation cap"
-                },
-                "nl": {
-                  "eb": "$ 25 mln.",
-                  "nb": "$ 27,384 mln.",
-                  "txt": "post-money valuation cap"
-                },
-                "pt": {
-                  "eb": "$ 25 mi",
-                  "nb": "$ 27,384 mi",
-                  "txt": "post-money valuation cap"
-                }
-              },
-              "nb": "$27.384M",
-              "txt": "post-money valuation cap"
-            },
-            "timelineStartDateSeconds": 0,
-            "totalInvestorsThisCampaign": 55,
-            "totalRaisedThisCampaign": 561211,
-            "url": "myosana.therapeutics",
-            "userEBTermsDeal": false,
-            "userFollows": false,
-            "valuation": 0,
-            "verticalAndSectorTagNames": [
-              "healthcare",
-              "health_and_fitness",
-              "science_and_r_and_d",
-              "technology"
-            ],
-            "vettedLevel": 0,
-            "videoCoverPhotoUrl": "//uploads.wefunder.com/uploads/company/header_media_photo/181753/standard_blob.jpg",
-            "videoUrl": "https://dcd73ta2suabk.cloudfront.net/amzgbfbdoniju0na2l5rru8raoo0"
-          },
-          {
-            "Geoloc": {
-              "lat": 42.37911,
-              "lng": -71.09508
-            },
-            "Highlightresult": {
-              "Tags": [
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "status_fundraising"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "has_non_draft_form_c"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "privacy_search_tag"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "exemption_reg_cf"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "security_equity"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "perks_exist"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "listed_campaign"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "most_raised"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "visible_by_non_accredited_investors"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "repeat_founder"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "investment_memo"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "venture_backed"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "minority_founder"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "almost_fully_funded"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "hot_this_week"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "8_days_left"
-                },
-                {
-                  "matchLevel": "none",
-                  "matchedWords": [],
-                  "value": "closing_soon"
-                }
-              ],
-              "city": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Boston"
-              },
-              "legalName": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "LiftWave, Inc."
-              },
-              "name": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "RISE Robotics"
-              },
-              "tagline": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Electrifying heavy machines"
-              },
-              "url": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "riserobotics"
-              }
-            },
-            "Tags": [
-              "status_fundraising",
-              "has_non_draft_form_c",
-              "privacy_search_tag",
-              "exemption_reg_cf",
-              "security_equity",
-              "perks_exist",
-              "listed_campaign",
-              "most_raised",
-              "visible_by_non_accredited_investors",
-              "repeat_founder",
-              "investment_memo",
-              "venture_backed",
-              "minority_founder",
-              "almost_fully_funded",
-              "hot_this_week",
-              "8_days_left",
-              "closing_soon"
-            ],
-            "adminRejected": false,
-            "adminTagMappings": [
-              {
-                "humanizedName": "VC-Backed",
-                "standardizedName": "venture_backed"
-              },
-              {
-                "humanizedName": "Repeat Founder",
-                "standardizedName": "repeat_founder"
-              },
-              {
-                "humanizedName": "Minority Founder",
-                "standardizedName": "minority_founder"
-              }
-            ],
-            "ageInMonths": 192,
-            "annualRevenue": 431460,
-            "cashInBank": 443878,
-            "city": "Boston",
-            "companyHumanizedTags": [],
-            "country": [
-              "United States",
-              "US"
-            ],
-            "coverPhoto": {
-              "large": {
-                "url": "/assets/blank.gif"
-              },
-              "medium": {
-                "url": "/assets/blank.gif"
-              },
-              "thumbnail": {
-                "url": "/assets/blank.gif"
-              },
-              "url": "/assets/blank.gif",
-              "xl": {
-                "url": "/assets/blank.gif"
-              }
-            },
-            "createdAtSeconds": 1717519832,
-            "customCardPhotoUrl": {
-              "normal": "//uploads.wefunder.com/uploads/company/custom_card_photo/160424/company_card_open-uri20250625-1-5fv4j8.jpg",
-              "retina": "//uploads.wefunder.com/uploads/company/custom_card_photo/160424/company_card_retina_open-uri20250625-1-5fv4j8.jpg"
-            },
-            "deleted": false,
-            "description": null,
-            "ebActive": false,
-            "ebTermsDealEnabled": false,
-            "fact": "$9.7M in revenue. 20+ patents. Backed by Techstars, Kingscrowd, and 2900+ Wefunder investors.",
-            "featured": false,
-            "followersCounterCache": 1056,
-            "founderAvatarUrl": "//uploads.wefunder.com/uploads/company_role/custom_photo/5131141/square_blob.jpg?1786486390",
-            "founderInfo": {
-              "bio": "Mechanical innovator & genius behind Beltdraulic innovation. Forbes 30 Under 30 Manufacturing. Work featured in WSJ. Pro Tool Innovation Award for air compressor, Whitelaw Prize & Luis de Florez MIT award for innovation. MIT BS, Mechanical Engineering",
-              "name": "Blake Sessions",
-              "title": "Co-Founder & CTO"
-            },
-            "fundingAmount": 3173624,
-            "fundingAmountPastMonth": 67835.0,
-            "fundingAmountPastWeek": -16501.0,
-            "fundingClosedAtInPast": 0,
-            "fundingClosedAtSeconds": 1792209599,
-            "fundingClosingAtInFuture": 1,
-            "fundingClosingAtSeconds": 1792209599,
-            "fundingPublicAtSeconds": null,
-            "fundingStartedAtSeconds": 1775693276,
-            "fundraiseHostName": "Wefunder Portal LLC",
-            "hasTimelineStartDate": 0,
-            "id": 160424,
-            "investorCount": 3222,
-            "isFund": false,
-            "label": "8_days_left",
-            "latestFundraiseCurrency": "USD",
-            "legalName": "LiftWave, Inc.",
-            "logo": {
-              "large": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/160424/large_blob.jpeg"
-              },
-              "medium": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/160424/medium_blob.jpeg"
-              },
-              "small": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/160424/small_blob.jpeg"
-              },
-              "thumbnail": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/160424/thumbnail_blob.jpeg"
-              },
-              "url": "//uploads.wefunder.com/uploads/company/logo/160424/blob.jpeg",
-              "xl": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/160424/xl_blob.jpeg"
-              },
-              "xxl": {
-                "url": "//uploads.wefunder.com/uploads/company/logo/160424/xxl_blob.jpeg"
-              }
-            },
-            "name": "RISE Robotics",
-            "objectID": "160424",
-            "ownerPublished": true,
-            "pastFunding": 27222665,
-            "percentFunded": 257,
-            "postFundingEvents": [],
-            "privacyInviteOnly": false,
-            "privacySearch": true,
-            "profilePromotedAtSeconds": "2026-04-07T16:33:38.552Z",
-            "qualityScore": 19.27585215860538,
-            "region": "MA",
-            "securityType": "equity",
-            "slug": "riserobotics",
-            "state": "MA",
-            "statusTier": 0,
-            "tagline": "Electrifying heavy machines",
-            "terms": {
-              "eb": null,
-              "localized": {
-                "de": {
-                  "eb": null,
-                  "nb": "62,1 Mio. $",
-                  "txt": "Pre-Money-Bewertung"
-                },
-                "es": {
-                  "eb": null,
-                  "nb": "62,1 M$",
-                  "txt": "valoración previa a la inversión"
-                },
-                "fr": {
-                  "eb": null,
-                  "nb": "62,1 M $",
-                  "txt": "évaluation préfinancement"
-                },
-                "it": {
-                  "eb": null,
-                  "nb": "62,1 Mio $",
-                  "txt": "valutazione premonetaria"
-                },
-                "nl": {
-                  "eb": null,
-                  "nb": "$ 62,1 mln.",
-                  "txt": "pre-moneywaardering"
-                },
-                "pt": {
-                  "eb": null,
-                  "nb": "$ 62,1 mi",
-                  "txt": "avaliação pré-investimento/financiamento"
-                }
-              },
-              "nb": "$62.1M",
-              "txt": "pre-money valuation"
-            },
-            "timelineStartDateSeconds": 0,
-            "totalInvestorsThisCampaign": 1024,
-            "totalRaisedThisCampaign": 18997982.0,
-            "url": "riserobotics",
-            "userEBTermsDeal": false,
-            "userFollows": false,
-            "valuation": 0,
-            "verticalAndSectorTagNames": [],
-            "vettedLevel": 0,
-            "videoCoverPhotoUrl": "//uploads.wefunder.com/uploads/company/header_media_photo/160424/standard_avatar.jpg",
-            "videoUrl": "https://dcd73ta2suabk.cloudfront.net/jsy7ianvnk4da3h7co4w2v4lnlzu"
-          }
-        ],
-        "nbHits": 3,
-        "nbPages": 1,
-        "page": 0
-      },
-      "headers": {
-        "content-type": "application/json; charset=utf-8"
-      },
-      "status": 200,
-      "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=[%22-eu%22,%22closing_soon%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
     },
     {
       "body": {
@@ -9804,6 +8845,965 @@
         "nbPages": 1,
         "page": 0
       },
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "status": 200,
+      "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=[%22-eu%22,%22closing_soon%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
+    },
+    {
+      "body": {
+        "companies": [
+          {
+            "Geoloc": {
+              "lat": 39.79929,
+              "lng": -75.54464
+            },
+            "Highlightresult": {
+              "Tags": [
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "status_fundraising"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "has_non_draft_form_c"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "privacy_search_tag"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "exemption_reg_cf"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "security_safe"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "perks_exist"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "listed_campaign"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "visible_by_non_accredited_investors"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "eyewear"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "deep_tech"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "material_science"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "sustainable_materials"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "polymers"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "coatings"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "thin_films"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "anti-fingerprint"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "tough_tech"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "ecommerce"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "consumer_goods"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "fashion"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "science_and_r_and_d"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "female_founder"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "b2b"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "minority_founder"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "notable_angel"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "5_days_left"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "closing_soon"
+                }
+              ],
+              "city": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Wilmington"
+              },
+              "legalName": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Unsmudgeable, Inc."
+              },
+              "name": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Unsmudgeable"
+              },
+              "tagline": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Never wipe your glasses again™"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "unsmudgeable"
+              }
+            },
+            "Tags": [
+              "status_fundraising",
+              "has_non_draft_form_c",
+              "privacy_search_tag",
+              "exemption_reg_cf",
+              "security_safe",
+              "perks_exist",
+              "listed_campaign",
+              "visible_by_non_accredited_investors",
+              "eyewear",
+              "deep_tech",
+              "material_science",
+              "sustainable_materials",
+              "polymers",
+              "coatings",
+              "thin_films",
+              "anti-fingerprint",
+              "tough_tech",
+              "ecommerce",
+              "consumer_goods",
+              "fashion",
+              "science_and_r_and_d",
+              "female_founder",
+              "b2b",
+              "minority_founder",
+              "notable_angel",
+              "5_days_left",
+              "closing_soon"
+            ],
+            "adminRejected": false,
+            "adminTagMappings": [
+              {
+                "humanizedName": "Notable Angel",
+                "standardizedName": "notable_angel"
+              },
+              {
+                "humanizedName": "Minority Founder",
+                "standardizedName": "minority_founder"
+              },
+              {
+                "humanizedName": "Female Founder",
+                "standardizedName": "female_founder"
+              }
+            ],
+            "ageInMonths": 41,
+            "annualRevenue": 3704,
+            "cashInBank": 25078,
+            "city": "Wilmington",
+            "companyHumanizedTags": [
+              "eyewear",
+              "deep tech",
+              "material science",
+              "sustainable materials",
+              "polymers",
+              "coatings",
+              "thin films",
+              "anti-fingerprint",
+              "tough tech"
+            ],
+            "country": [
+              "United States",
+              "US"
+            ],
+            "coverPhoto": {
+              "large": {
+                "url": "/assets/blank.gif"
+              },
+              "medium": {
+                "url": "/assets/blank.gif"
+              },
+              "thumbnail": {
+                "url": "/assets/blank.gif"
+              },
+              "url": "/assets/blank.gif",
+              "xl": {
+                "url": "/assets/blank.gif"
+              }
+            },
+            "createdAtSeconds": 1730744106,
+            "customCardPhotoUrl": {
+              "normal": "//uploads.wefunder.com/uploads/company/custom_card_photo/168420/company_card_Unsmudgeable_explore_card_photo_1743098370379.jpg",
+              "retina": "//uploads.wefunder.com/uploads/company/custom_card_photo/168420/company_card_retina_Unsmudgeable_explore_card_photo_1743098370379.jpg"
+            },
+            "deleted": false,
+            "description": null,
+            "ebActive": false,
+            "ebTermsDealEnabled": true,
+            "fact": "LOI signed with Bühler Leybold Optics, global leader in eyewear manufacturing",
+            "featured": false,
+            "followersCounterCache": 94,
+            "founderAvatarUrl": "//uploads.wefunder.com/uploads/company_role/custom_photo/5307969/square_blob.jpg?1771609189",
+            "founderInfo": {
+              "bio": "As Unsmudgeable's founder, I've conducted 500+ experiments and 100 user interviews, driven by 16 years of personal frustration with smudged glasses. Working with polymer experts, we've developed a solution to a problem no major eyewear brand has solved.",
+              "name": "Swarna Shiv",
+              "title": "Founder/CEO"
+            },
+            "fundingAmount": 217500,
+            "fundingAmountPastMonth": 800.0,
+            "fundingAmountPastWeek": -700.0,
+            "fundingClosedAtInPast": 0,
+            "fundingClosedAtSeconds": 1791950399,
+            "fundingClosingAtInFuture": 1,
+            "fundingClosingAtSeconds": 1791950399,
+            "fundingPublicAtSeconds": null,
+            "fundingStartedAtSeconds": 1742599408,
+            "fundraiseHostName": "Wefunder Portal LLC",
+            "hasTimelineStartDate": 0,
+            "id": 168420,
+            "investorCount": 193,
+            "isFund": false,
+            "label": "5_days_left",
+            "latestFundraiseCurrency": "USD",
+            "legalName": "Unsmudgeable, Inc.",
+            "logo": {
+              "large": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/168420/large_blob.jpeg"
+              },
+              "medium": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/168420/medium_blob.jpeg"
+              },
+              "small": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/168420/small_blob.jpeg"
+              },
+              "thumbnail": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/168420/thumbnail_blob.jpeg"
+              },
+              "url": "//uploads.wefunder.com/uploads/company/logo/168420/blob.jpeg",
+              "xl": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/168420/xl_blob.jpeg"
+              },
+              "xxl": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/168420/xxl_blob.jpeg"
+              }
+            },
+            "name": "Unsmudgeable",
+            "objectID": "168420",
+            "ownerPublished": true,
+            "pastFunding": 102700,
+            "percentFunded": 402,
+            "postFundingEvents": [],
+            "privacyInviteOnly": false,
+            "privacySearch": true,
+            "profilePromotedAtSeconds": "2025-03-22T00:12:49.226Z",
+            "qualityScore": 6.672846507634744,
+            "region": "MA",
+            "securityType": "equity",
+            "slug": "unsmudgeable",
+            "state": "DE",
+            "statusTier": 0,
+            "tagline": "Never wipe your glasses again™",
+            "terms": {
+              "eb": "$4.5M",
+              "localized": {
+                "de": {
+                  "eb": "4,5 Mio. $",
+                  "nb": "5 Mio. $",
+                  "txt": "post-money valuation cap"
+                },
+                "es": {
+                  "eb": "4,5 M$",
+                  "nb": "5 M$",
+                  "txt": "post-money valuation cap"
+                },
+                "fr": {
+                  "eb": "4,5 M $",
+                  "nb": "5 M $",
+                  "txt": "post-money valuation cap"
+                },
+                "it": {
+                  "eb": "4,5 Mio $",
+                  "nb": "5 Mio $",
+                  "txt": "post-money valuation cap"
+                },
+                "nl": {
+                  "eb": "$ 4,5 mln.",
+                  "nb": "$ 5 mln.",
+                  "txt": "post-money valuation cap"
+                },
+                "pt": {
+                  "eb": "$ 4,5 mi",
+                  "nb": "$ 5 mi",
+                  "txt": "post-money valuation cap"
+                }
+              },
+              "nb": "$5M",
+              "txt": "post-money valuation cap"
+            },
+            "timelineStartDateSeconds": 0,
+            "totalInvestorsThisCampaign": 212,
+            "totalRaisedThisCampaign": 217500,
+            "url": "unsmudgeable",
+            "userEBTermsDeal": false,
+            "userFollows": false,
+            "valuation": 0,
+            "verticalAndSectorTagNames": [
+              "consumer_goods",
+              "fashion",
+              "science_and_r_and_d"
+            ],
+            "vettedLevel": 0,
+            "videoCoverPhotoUrl": "//uploads.wefunder.com/uploads/company/header_media_photo/168420/standard_blob.jpg",
+            "videoUrl": "https://dcd73ta2suabk.cloudfront.net/yaqbv17dzbpidw58uwy50h6yvzj4"
+          },
+          {
+            "Geoloc": {
+              "lat": 47.69073,
+              "lng": -122.39566
+            },
+            "Highlightresult": {
+              "Tags": [
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "status_fundraising"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "has_non_draft_form_c"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "privacy_search_tag"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "exemption_reg_cf"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "security_safe"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "listed_campaign"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "visible_by_non_accredited_investors"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "healthcare"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "health_and_fitness"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "science_and_r_and_d"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "technology"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "7_days_left"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "closing_soon"
+                }
+              ],
+              "city": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Seattle"
+              },
+              "legalName": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Myosana Therapeutics, Inc."
+              },
+              "name": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Myosana Therapeutics"
+              },
+              "tagline": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Non-viral gene therapy platform for muscle and heart diseases"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "myosana.therapeutics"
+              }
+            },
+            "Tags": [
+              "status_fundraising",
+              "has_non_draft_form_c",
+              "privacy_search_tag",
+              "exemption_reg_cf",
+              "security_safe",
+              "listed_campaign",
+              "visible_by_non_accredited_investors",
+              "healthcare",
+              "health_and_fitness",
+              "science_and_r_and_d",
+              "technology",
+              "7_days_left",
+              "closing_soon"
+            ],
+            "adminRejected": false,
+            "adminTagMappings": [
+              {
+                "humanizedName": "Health & Fitness",
+                "standardizedName": "health_and_fitness"
+              },
+              {
+                "humanizedName": "Healthcare",
+                "standardizedName": "healthcare"
+              }
+            ],
+            "ageInMonths": 100,
+            "annualRevenue": 0,
+            "cashInBank": 37467,
+            "city": "Seattle",
+            "companyHumanizedTags": [],
+            "country": [
+              "United States",
+              "US"
+            ],
+            "coverPhoto": {
+              "large": {
+                "url": "/assets/blank.gif"
+              },
+              "medium": {
+                "url": "/assets/blank.gif"
+              },
+              "thumbnail": {
+                "url": "/assets/blank.gif"
+              },
+              "url": "/assets/blank.gif",
+              "xl": {
+                "url": "/assets/blank.gif"
+              }
+            },
+            "createdAtSeconds": 1748981266,
+            "customCardPhotoUrl": {
+              "normal": "//uploads.wefunder.com/uploads/company/custom_card_photo/181753/company_card_Myosana_Therapeutics_1778613820227.jpg",
+              "retina": "//uploads.wefunder.com/uploads/company/custom_card_photo/181753/company_card_retina_Myosana_Therapeutics_1778613820227.jpg"
+            },
+            "deleted": false,
+            "description": null,
+            "ebActive": false,
+            "ebTermsDealEnabled": true,
+            "fact": "Developing a gene therapy treatment for Duchenne muscular dystrophy (DMD).\r\n",
+            "featured": false,
+            "followersCounterCache": 92,
+            "founderAvatarUrl": "//uploads.wefunder.com/uploads/company_role/custom_photo/5789237/square_blob.jpg?1771621513",
+            "founderInfo": {
+              "bio": "Expert in muscle physiology and DMD research for more than 20 years. PhD from Monash University, Australia. Associate Professor at the University of Washington. Pivotal research elucidated novel roles of dystrophin. Inventor of Myosana’s technology.",
+              "name": "Nicholas Whitehead",
+              "title": "CEO, Co-Founder and CSO"
+            },
+            "fundingAmount": 561211,
+            "fundingAmountPastMonth": 13700.0,
+            "fundingAmountPastWeek": 1600.0,
+            "fundingClosedAtInPast": 0,
+            "fundingClosedAtSeconds": 1792123199,
+            "fundingClosingAtInFuture": 1,
+            "fundingClosingAtSeconds": 1792123199,
+            "fundingPublicAtSeconds": 1773666000,
+            "fundingStartedAtSeconds": 1762992497,
+            "fundraiseHostName": "Wefunder Portal LLC",
+            "hasTimelineStartDate": 0,
+            "id": 181753,
+            "investorCount": 55,
+            "isFund": false,
+            "label": "7_days_left",
+            "latestFundraiseCurrency": "USD",
+            "legalName": "Myosana Therapeutics, Inc.",
+            "logo": {
+              "large": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/181753/large_blob"
+              },
+              "medium": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/181753/medium_blob"
+              },
+              "small": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/181753/small_blob"
+              },
+              "thumbnail": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/181753/thumbnail_blob"
+              },
+              "url": "//uploads.wefunder.com/uploads/company/logo/181753/blob",
+              "xl": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/181753/xl_blob"
+              },
+              "xxl": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/181753/xxl_blob"
+              }
+            },
+            "name": "Myosana Therapeutics",
+            "objectID": "181753",
+            "ownerPublished": true,
+            "pastFunding": 6400478,
+            "percentFunded": 1122,
+            "postFundingEvents": [],
+            "privacyInviteOnly": false,
+            "privacySearch": true,
+            "profilePromotedAtSeconds": "2026-05-12T19:30:41.558Z",
+            "qualityScore": 10.47328646257205,
+            "region": "WA",
+            "securityType": "equity",
+            "slug": "myosanatherapeutics",
+            "state": "WA",
+            "statusTier": 0,
+            "tagline": "Non-viral gene therapy platform for muscle and heart diseases",
+            "terms": {
+              "eb": "$25M",
+              "localized": {
+                "de": {
+                  "eb": "25 Mio. $",
+                  "nb": "27,384 Mio. $",
+                  "txt": "post-money valuation cap"
+                },
+                "es": {
+                  "eb": "25 M$",
+                  "nb": "27,384 M$",
+                  "txt": "post-money valuation cap"
+                },
+                "fr": {
+                  "eb": "25 M $",
+                  "nb": "27,384 M $",
+                  "txt": "post-money valuation cap"
+                },
+                "it": {
+                  "eb": "25 Mio $",
+                  "nb": "27,384 Mio $",
+                  "txt": "post-money valuation cap"
+                },
+                "nl": {
+                  "eb": "$ 25 mln.",
+                  "nb": "$ 27,384 mln.",
+                  "txt": "post-money valuation cap"
+                },
+                "pt": {
+                  "eb": "$ 25 mi",
+                  "nb": "$ 27,384 mi",
+                  "txt": "post-money valuation cap"
+                }
+              },
+              "nb": "$27.384M",
+              "txt": "post-money valuation cap"
+            },
+            "timelineStartDateSeconds": 0,
+            "totalInvestorsThisCampaign": 55,
+            "totalRaisedThisCampaign": 561211,
+            "url": "myosana.therapeutics",
+            "userEBTermsDeal": false,
+            "userFollows": false,
+            "valuation": 0,
+            "verticalAndSectorTagNames": [
+              "healthcare",
+              "health_and_fitness",
+              "science_and_r_and_d",
+              "technology"
+            ],
+            "vettedLevel": 0,
+            "videoCoverPhotoUrl": "//uploads.wefunder.com/uploads/company/header_media_photo/181753/standard_blob.jpg",
+            "videoUrl": "https://dcd73ta2suabk.cloudfront.net/amzgbfbdoniju0na2l5rru8raoo0"
+          },
+          {
+            "Geoloc": {
+              "lat": 42.37911,
+              "lng": -71.09508
+            },
+            "Highlightresult": {
+              "Tags": [
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "status_fundraising"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "has_non_draft_form_c"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "privacy_search_tag"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "exemption_reg_cf"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "security_equity"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "perks_exist"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "listed_campaign"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "most_raised"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "visible_by_non_accredited_investors"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "repeat_founder"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "investment_memo"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "venture_backed"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "minority_founder"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "almost_fully_funded"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "hot_this_week"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "8_days_left"
+                },
+                {
+                  "matchLevel": "none",
+                  "matchedWords": [],
+                  "value": "closing_soon"
+                }
+              ],
+              "city": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Boston"
+              },
+              "legalName": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "LiftWave, Inc."
+              },
+              "name": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "RISE Robotics"
+              },
+              "tagline": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Electrifying heavy machines"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "riserobotics"
+              }
+            },
+            "Tags": [
+              "status_fundraising",
+              "has_non_draft_form_c",
+              "privacy_search_tag",
+              "exemption_reg_cf",
+              "security_equity",
+              "perks_exist",
+              "listed_campaign",
+              "most_raised",
+              "visible_by_non_accredited_investors",
+              "repeat_founder",
+              "investment_memo",
+              "venture_backed",
+              "minority_founder",
+              "almost_fully_funded",
+              "hot_this_week",
+              "8_days_left",
+              "closing_soon"
+            ],
+            "adminRejected": false,
+            "adminTagMappings": [
+              {
+                "humanizedName": "VC-Backed",
+                "standardizedName": "venture_backed"
+              },
+              {
+                "humanizedName": "Repeat Founder",
+                "standardizedName": "repeat_founder"
+              },
+              {
+                "humanizedName": "Minority Founder",
+                "standardizedName": "minority_founder"
+              }
+            ],
+            "ageInMonths": 192,
+            "annualRevenue": 431460,
+            "cashInBank": 443878,
+            "city": "Boston",
+            "companyHumanizedTags": [],
+            "country": [
+              "United States",
+              "US"
+            ],
+            "coverPhoto": {
+              "large": {
+                "url": "/assets/blank.gif"
+              },
+              "medium": {
+                "url": "/assets/blank.gif"
+              },
+              "thumbnail": {
+                "url": "/assets/blank.gif"
+              },
+              "url": "/assets/blank.gif",
+              "xl": {
+                "url": "/assets/blank.gif"
+              }
+            },
+            "createdAtSeconds": 1717519832,
+            "customCardPhotoUrl": {
+              "normal": "//uploads.wefunder.com/uploads/company/custom_card_photo/160424/company_card_open-uri20250625-1-5fv4j8.jpg",
+              "retina": "//uploads.wefunder.com/uploads/company/custom_card_photo/160424/company_card_retina_open-uri20250625-1-5fv4j8.jpg"
+            },
+            "deleted": false,
+            "description": null,
+            "ebActive": false,
+            "ebTermsDealEnabled": false,
+            "fact": "$9.7M in revenue. 20+ patents. Backed by Techstars, Kingscrowd, and 2900+ Wefunder investors.",
+            "featured": false,
+            "followersCounterCache": 1056,
+            "founderAvatarUrl": "//uploads.wefunder.com/uploads/company_role/custom_photo/5131141/square_blob.jpg?1786486390",
+            "founderInfo": {
+              "bio": "Mechanical innovator & genius behind Beltdraulic innovation. Forbes 30 Under 30 Manufacturing. Work featured in WSJ. Pro Tool Innovation Award for air compressor, Whitelaw Prize & Luis de Florez MIT award for innovation. MIT BS, Mechanical Engineering",
+              "name": "Blake Sessions",
+              "title": "Co-Founder & CTO"
+            },
+            "fundingAmount": 3173624,
+            "fundingAmountPastMonth": 67835.0,
+            "fundingAmountPastWeek": -16501.0,
+            "fundingClosedAtInPast": 0,
+            "fundingClosedAtSeconds": 1792209599,
+            "fundingClosingAtInFuture": 1,
+            "fundingClosingAtSeconds": 1792209599,
+            "fundingPublicAtSeconds": null,
+            "fundingStartedAtSeconds": 1775693276,
+            "fundraiseHostName": "Wefunder Portal LLC",
+            "hasTimelineStartDate": 0,
+            "id": 160424,
+            "investorCount": 3222,
+            "isFund": false,
+            "label": "8_days_left",
+            "latestFundraiseCurrency": "USD",
+            "legalName": "LiftWave, Inc.",
+            "logo": {
+              "large": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/160424/large_blob.jpeg"
+              },
+              "medium": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/160424/medium_blob.jpeg"
+              },
+              "small": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/160424/small_blob.jpeg"
+              },
+              "thumbnail": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/160424/thumbnail_blob.jpeg"
+              },
+              "url": "//uploads.wefunder.com/uploads/company/logo/160424/blob.jpeg",
+              "xl": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/160424/xl_blob.jpeg"
+              },
+              "xxl": {
+                "url": "//uploads.wefunder.com/uploads/company/logo/160424/xxl_blob.jpeg"
+              }
+            },
+            "name": "RISE Robotics",
+            "objectID": "160424",
+            "ownerPublished": true,
+            "pastFunding": 27222665,
+            "percentFunded": 257,
+            "postFundingEvents": [],
+            "privacyInviteOnly": false,
+            "privacySearch": true,
+            "profilePromotedAtSeconds": "2026-04-07T16:33:38.552Z",
+            "qualityScore": 19.27585215860538,
+            "region": "MA",
+            "securityType": "equity",
+            "slug": "riserobotics",
+            "state": "MA",
+            "statusTier": 0,
+            "tagline": "Electrifying heavy machines",
+            "terms": {
+              "eb": null,
+              "localized": {
+                "de": {
+                  "eb": null,
+                  "nb": "62,1 Mio. $",
+                  "txt": "Pre-Money-Bewertung"
+                },
+                "es": {
+                  "eb": null,
+                  "nb": "62,1 M$",
+                  "txt": "valoración previa a la inversión"
+                },
+                "fr": {
+                  "eb": null,
+                  "nb": "62,1 M $",
+                  "txt": "évaluation préfinancement"
+                },
+                "it": {
+                  "eb": null,
+                  "nb": "62,1 Mio $",
+                  "txt": "valutazione premonetaria"
+                },
+                "nl": {
+                  "eb": null,
+                  "nb": "$ 62,1 mln.",
+                  "txt": "pre-moneywaardering"
+                },
+                "pt": {
+                  "eb": null,
+                  "nb": "$ 62,1 mi",
+                  "txt": "avaliação pré-investimento/financiamento"
+                }
+              },
+              "nb": "$62.1M",
+              "txt": "pre-money valuation"
+            },
+            "timelineStartDateSeconds": 0,
+            "totalInvestorsThisCampaign": 1024,
+            "totalRaisedThisCampaign": 18997982.0,
+            "url": "riserobotics",
+            "userEBTermsDeal": false,
+            "userFollows": false,
+            "valuation": 0,
+            "verticalAndSectorTagNames": [],
+            "vettedLevel": 0,
+            "videoCoverPhotoUrl": "//uploads.wefunder.com/uploads/company/header_media_photo/160424/standard_avatar.jpg",
+            "videoUrl": "https://dcd73ta2suabk.cloudfront.net/jsy7ianvnk4da3h7co4w2v4lnlzu"
+          }
+        ],
+        "nbHits": 3,
+        "nbPages": 1,
+        "page": 0
+      },
       "probe_label": "baseline_live",
       "status": 200,
       "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=%5B%22-eu%22%2C%22closing_soon%22%2C%22listed_campaign%22%2C%22status_fundraising%22%2C%22visible_by_non_accredited_investors%22%5D&page=0&hitsPerPage=5&filters=&vipOverride=false&capCompanyCount=true"
@@ -9811,7 +9811,7 @@
     {
       "body": {
         "companies": [],
-        "nbHits": 5130,
+        "nbHits": 5132,
         "nbPages": 200,
         "page": 0
       },
@@ -353834,7 +353834,7 @@
             "videoUrl": "https://dcd73ta2suabk.cloudfront.net/1wixp1ku0a0znyzasr2xc9x3eze2"
           }
         ],
-        "nbHits": 5130,
+        "nbHits": 5132,
         "nbPages": 1,
         "page": 0
       },

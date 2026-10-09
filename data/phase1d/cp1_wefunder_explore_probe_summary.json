@@ -1,7 +1,7 @@
 {
   "capture_count": 23,
-  "captured_at": "2026-10-09T05:11:28.440978+00:00",
-  "raw_sha256": "8c7d87f2c3a5f6fecf358a65d1db01306fc2441235141e0cb0157a69874c4ad9",
+  "captured_at": "2026-10-09T05:13:24.545756+00:00",
+  "raw_sha256": "d0e293d6090936c7b85d2f804ade62d59d014108896ff5fa7a68192d028f79e8",
   "responses": [
     {
       "probe_label": "browser_capture",
@@ -20,24 +20,6 @@
         "type": "dict"
       },
       "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_profile_promoted_at_desc&tagFilters=[%22-eu%22,%22new_this_week%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
-    },
-    {
-      "probe_label": "browser_capture",
-      "status": 200,
-      "summary": {
-        "facetish": {},
-        "keys": [
-          "companies",
-          "nbHits",
-          "nbPages",
-          "page"
-        ],
-        "nbHits": 3,
-        "nbPages": 1,
-        "page": 0,
-        "type": "dict"
-      },
-      "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=[%22-eu%22,%22closing_soon%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
     },
     {
       "probe_label": "browser_capture",
@@ -76,6 +58,24 @@
       "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_amount_past_week_desc&tagFilters=[%22-eu%22,%22most_raised%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
     },
     {
+      "probe_label": "browser_capture",
+      "status": 200,
+      "summary": {
+        "facetish": {},
+        "keys": [
+          "companies",
+          "nbHits",
+          "nbPages",
+          "page"
+        ],
+        "nbHits": 3,
+        "nbPages": 1,
+        "page": 0,
+        "type": "dict"
+      },
+      "url": "https://wefunder.com/-/companies/explore?index=Company_sorted_by_funding_closed_at_asc&tagFilters=[%22-eu%22,%22closing_soon%22,%22listed_campaign%22,%22status_fundraising%22,%22visible_by_non_accredited_investors%22]&page=0&hitsPerPage=1000&filters=&vipOverride=false&capCompanyCount=true"
+    },
+    {
       "probe_label": "baseline_live",
       "status": 200,
       "summary": {
@@ -104,7 +104,7 @@
           "nbPages",
           "page"
         ],
-        "nbHits": 5130,
+        "nbHits": 5132,
         "nbPages": 200,
         "page": 0,
         "type": "dict"
@@ -392,7 +392,7 @@
           "nbPages",
           "page"
         ],
-        "nbHits": 5130,
+        "nbHits": 5132,
         "nbPages": 1,
         "page": 0,
         "type": "dict"
