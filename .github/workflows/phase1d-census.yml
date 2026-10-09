@@ -6,6 +6,9 @@ on:
     paths:
       - 'src/phase1d/discover.py'
       - '.github/workflows/phase1d-census.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
