@@ -1,0 +1,59 @@
+name: Phase 1D Republic US archive normalization
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/normalize_republic_us_archive.py'
+      - 'tests/test_phase1d_archive.py'
+      - '.github/workflows/phase1d-republic-us-archive.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      RUN_KEY: gh-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run all regression tests
+        run: python -m unittest discover -s tests -v > /tmp/phase1d-tests.txt 2>&1
+      - name: Normalize preserved public source
+        run: |
+          python -m src.phase1d.normalize_republic_us_archive --run-id "$RUN_KEY"
+          cp /tmp/phase1d-tests.txt data/phase1d/republic_us_archive/$RUN_KEY/tests.txt
+          sha256sum src/phase1d/normalize_republic_us_archive.py tests/test_phase1d_archive.py > data/phase1d/republic_us_archive/$RUN_KEY/code_sha256.txt
+      - name: Preserve independent output artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase1d-republic-us-archive-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/phase1d/republic_us_archive/${{ env.RUN_KEY }}/
+            /tmp/phase1d-tests.txt
+          if-no-files-found: warn
+          retention-days: 90
+      - name: Persist run-specific output on execution branch
+        if: always()
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          if [ -d "data/phase1d/republic_us_archive/$RUN_KEY" ]; then
+            git add "data/phase1d/republic_us_archive/$RUN_KEY"
+            if ! git diff --cached --quiet; then
+              git commit -m "Phase 1D: persist archive normalization $RUN_KEY [skip ci]"
+              git fetch origin phase-1d
+              git rebase origin/phase-1d
+              git push origin HEAD:phase-1d
+            fi
+          fi
