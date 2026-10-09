@@ -1,0 +1,72 @@
+{
+  "candidate_urls": [],
+  "captures": [
+    {
+      "candidate_count": 0,
+      "candidate_urls": [],
+      "captured_at": "2026-10-09T06:51:09.430803+00:00",
+      "kind": "observed_tombstones",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": null,
+      "total_hints": [],
+      "transport": "none",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+    },
+    {
+      "candidate_count": 0,
+      "candidate_urls": [],
+      "captured_at": "2026-10-09T06:51:09.506897+00:00",
+      "kind": "observed_industries",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": null,
+      "total_hints": [],
+      "transport": "none",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+    },
+    {
+      "candidate_count": 0,
+      "candidate_urls": [],
+      "captured_at": "2026-10-09T06:51:09.654013+00:00",
+      "kind": "observed_search_page",
+      "page": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": null,
+      "total_hints": [],
+      "transport": "none",
+      "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&query=&regulationTypes=Reg+D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED&page=0"
+    }
+  ],
+  "census_status": "CENSUS_INCOMPLETE",
+  "created_at": "2026-10-09T06:51:09.264143+00:00",
+  "directory_stops": [
+    {
+      "at": "2026-10-09T06:51:09.655042+00:00",
+      "reason": "ACCESS_OR_SCHEMA_ERROR",
+      "seed": "/service/elastic-search/search/offering/search"
+    }
+  ],
+  "endpoint_scope": "OBSERVED_ONLY",
+  "errors": [
+    {
+      "at": "2026-10-09T06:51:09.431181+00:00",
+      "error": "requests:HTTP 403;curl_cffi:HTTP 403",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+    },
+    {
+      "at": "2026-10-09T06:51:09.506974+00:00",
+      "error": "requests:HTTP 403;curl_cffi:HTTP 403",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+    },
+    {
+      "at": "2026-10-09T06:51:09.654186+00:00",
+      "error": "requests:HTTP 403;curl_cffi:HTTP 403",
+      "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&query=&regulationTypes=Reg+D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED&page=0"
+    }
+  ],
+  "rates_promoted": false,
+  "run_id": "gh-37895699284",
+  "schema": "phase1d-startengine-observed-endpoints-v1",
+  "scope": "Exact public endpoints observed in StartEngine browser traffic; search endpoint is Reg D filtered and cannot establish the full 2020-2025 denominator.",
+  "seeds_completed": [],
+  "total_hints": []
+}
