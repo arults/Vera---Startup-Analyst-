@@ -1,0 +1,34 @@
+name: Phase 1D Republic Europe cohort normalize
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/build_republic_europe_cohort.py'
+      - '.github/workflows/phase1d-republic-europe-cohort.yml'
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build bounded-year normalized cohort
+        run: python src/phase1d/build_republic_europe_cohort.py
+      - name: Persist CP2 normalized cohort
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/cp2_republic_europe_rounds_normalized.csv data/phase1d/cp2_republic_europe_year_unresolved.csv data/phase1d/cp2_republic_europe_normalized_manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Phase 1D CP2: persist Republic Europe bounded-year cohort [skip ci]"
+            git push origin HEAD:phase-1d
+          fi
