@@ -1,0 +1,24 @@
+name: Phase 1D verifier
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/verifier.py'
+      - 'data/phase1d/**'
+      - '.github/workflows/phase1d-verifier.yml'
+      - 'checkpoints/PHASE_1D*'
+      - 'evidence/jev/PHASE_1D*'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Phase 1D deterministic verifier
+        run: python src/phase1d/verifier.py
