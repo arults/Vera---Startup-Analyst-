@@ -39,7 +39,7 @@ jobs:
       - name: Execute exact observed public endpoints
         run: |
           set -o pipefail
-          python src/phase1d/recover_startengine_endpoints.py --run-id "$RECOVERY_RUN_ID" --max-pages 10 2>&1 | tee data/phase1d/startengine_endpoint_recovery/$RECOVERY_RUN_ID/execution.txt
+          python -m src.phase1d.recover_startengine_endpoints --run-id "$RECOVERY_RUN_ID" --max-pages 10 2>&1 | tee data/phase1d/startengine_endpoint_recovery/$RECOVERY_RUN_ID/execution.txt
       - name: Upload independent recovery copy
         if: always()
         uses: actions/upload-artifact@v4
