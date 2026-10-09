@@ -1,0 +1,77 @@
+{
+  "api_capture_row_counts": [],
+  "candidate_count": 0,
+  "capture_count": 0,
+  "census_status": "CENSUS_INCOMPLETE",
+  "completed_seed_count": 0,
+  "directory_stops": [
+    {
+      "at": "2026-10-09T06:36:07.562790+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/companies/portfolio"
+    },
+    {
+      "at": "2026-10-09T06:36:07.622406+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/funded-ventures"
+    },
+    {
+      "at": "2026-10-09T06:36:07.705821+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/reg-cf-offerings"
+    },
+    {
+      "at": "2026-10-09T06:36:07.799006+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/investment-opportunities"
+    }
+  ],
+  "errors": [
+    {
+      "at": "2026-10-09T06:36:07.562769+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/companies/portfolio"
+    },
+    {
+      "at": "2026-10-09T06:36:07.622385+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/funded-ventures"
+    },
+    {
+      "at": "2026-10-09T06:36:07.705801+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/reg-cf-offerings"
+    },
+    {
+      "at": "2026-10-09T06:36:07.798987+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/investment-opportunities"
+    }
+  ],
+  "integrity_gates": {
+    "checks": {
+      "canonical_urls": true,
+      "distinct_responses_preserved": true,
+      "historical_census_incomplete": true,
+      "no_rate_promotion": true,
+      "per_page_not_cumulative": true,
+      "public_api_only": true,
+      "schema": true,
+      "snapshot_hashes_verified": true,
+      "timestamps_present": true,
+      "union_reconciles": true
+    },
+    "passed": 10,
+    "scope": "Capture-integrity checks ONLY, not historical census completion.",
+    "total": 10
+  },
+  "manifest_sha256": "7cf3de62c8ea077c77fc707621c83a49e3907884df5d1dfd8b8aa9b32c729776",
+  "per_directory_candidate_counts": {
+    "https://republic.com/companies/portfolio": 0,
+    "https://republic.com/funded-ventures": 0,
+    "https://republic.com/investment-opportunities": 0,
+    "https://republic.com/reg-cf-offerings": 0
+  },
+  "rates_promoted": false,
+  "run_id": "gh-37894313863"
+}
