@@ -1,0 +1,38 @@
+name: Phase 1D CP7 full repeat-round precision audit
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp7-cycle3.yml]
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Set checkpoint identity
+        run: |
+          git config user.name 'Vera research checkpoint'
+          git config user.email '109891188+arults@users.noreply.github.com'
+      - name: Collect exact prices and commit every 40 pages
+        run: python -m src.phase1d.capture_cp7_cycle3 --persist
+      - name: Export evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp7-cycle3
+          if test -d data/phase1d/cp7/cycle-3; then tar -czf /tmp/vera-cp7-cycle3/research.tar.gz data/phase1d/cp7/cycle-3; fi
+          git rev-parse HEAD > /tmp/vera-cp7-cycle3/commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp7-cycle3-${{ github.run_id }}
+          path: /tmp/vera-cp7-cycle3/
+          retention-days: 90
+          if-no-files-found: error
