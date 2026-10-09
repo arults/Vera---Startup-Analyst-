@@ -1,9 +1,11 @@
 {
-  "candidate_rows": 2149,
-  "captured_at": "2026-10-09T01:50:00.482753+00:00",
+  "candidate_rows": 2135,
+  "captured_at": "2026-10-09T04:46:21.258951+00:00",
   "files": {
-    "cp1_discovery_candidates.csv": "a52122b450e63a55548baeadd1cc1398c4bc7ca6ada3038a52f8bcf26b77fa33",
-    "cp1_discovery_report.json": "f98861069d5f85415638209fa31f664f2dd55e8b39c43d7ffd5952097bde020d"
+    "cp1_discovery_candidates.csv": "554286bdda73aba0ca2149395ac6b9ab03d81ae84d98878c158f4fd3ff6e2db1",
+    "cp1_discovery_report.json": "f00607a92207b7e70d1c3d8c286b4e11ba451675961793e95764a8d6ed05ce76",
+    "cp3_republic_europe_business_candidates.csv": "14af5979968efd7bb66cae333e7d5b41e2279ac9130f5147a658790c5f6018d4"
   },
-  "method_version": "cp1-discovery-v2"
+  "method_version": "cp1-discovery-v3",
+  "republic_europe_business_pages": 784
 }
