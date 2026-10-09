@@ -1,0 +1,21 @@
+{
+  "version": "v2",
+  "rows": 952,
+  "rate_eligible_rows": 796,
+  "qualified_followon_success_events": 55,
+  "explicit_closure_events": 0,
+  "acquisition_value_unknown_terminal_rows": 2,
+  "acquisition_value_unknown_companies": 1,
+  "zeigo_event_interval": [
+    "2022-01-01",
+    "2022-12-31"
+  ],
+  "primary_terminal_date_approximation": "2022-07-02",
+  "sensitivity_required": true,
+  "evidence": "Republic Europe Sustainable Accelerator track record states Zeigo was acquired by Schneider Electric in 2022; no investor consideration disclosed on recovered platform page.",
+  "jev": {
+    "classify_terminal_unknown_probability": 1,
+    "interval_start_end_sensitivity_probability": 0.99,
+    "apply_all_prior_rounds_probability": 0.94
+  }
+}
