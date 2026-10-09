@@ -1,0 +1,22 @@
+{
+  "closure_rows": 0,
+  "followup_companies_extended": 1,
+  "followup_rounds_extended": 2,
+  "identity_rows_migrated": 946,
+  "positive_observation_companies": 291,
+  "rows": 952,
+  "rules": {
+    "company_identity": "round_id -> canonical normalized company identity from CP2 rebuild",
+    "not_eligible": "neutral; does not extend follow-up and is not closure",
+    "positive_followup": "latest reviewed Eligible business-page observation extends only nonterminal rows",
+    "terminal": "later secondary status cannot reopen a terminal endpoint"
+  },
+  "success_rows": 63,
+  "supersedes_for_estimation": "cp3_republic_europe_outcome_ledger_v3.csv",
+  "terminal_events_reopened": 0,
+  "terminal_rows": 2,
+  "unique_companies": 789,
+  "usable_rows": 796,
+  "usable_unique_companies": 676,
+  "version": "v4"
+}
