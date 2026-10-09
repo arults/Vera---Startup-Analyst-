@@ -1,16 +1,14 @@
 name: Phase 1D Republic Europe normalize
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [main]
-    paths:
-      - 'src/phase1d/normalize_republic_europe.py'
-      - '.github/workflows/phase1d-normalize-republic-europe.yml'
   push:
     branches: [phase-1d]
     paths:
       - 'src/phase1d/normalize_republic_europe.py'
       - '.github/workflows/phase1d-normalize-republic-europe.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
