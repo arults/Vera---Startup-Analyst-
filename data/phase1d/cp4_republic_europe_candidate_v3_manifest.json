@@ -1,0 +1,48 @@
+{
+  "bootstrap_replicates": 1000,
+  "generated_at": "2026-10-09T07:11:15.654959+00:00",
+  "output_files": {
+    "cp4_republic_europe_candidate_v3_summary.json": "76726f31080399d34d8763833b6d51ffb0c35fb79b27616f1ba2cf0325bc1f46",
+    "cp4_republic_europe_rq1_candidate_v3.csv": "0fbc9ab4d1549438fe69347393f28dbd19f88055a3cee9a883ebd62ee3b902ca",
+    "cp4_republic_europe_rq2_gate_v3.csv": "66db32e276ba6e81828b01b5d54499f28e6f7438f11e39e7a82500b10da812ca"
+  },
+  "source_files": {
+    "cp3_republic_europe_outcome_ledger_v4.csv": "bdde1df18a6e345b0951b00c41ad399f7de64036c6bafbe7313491ae76fcc57c",
+    "cp4_republic_europe_rq1_candidate_v2.csv": "aae3809bf8b875d903345393d18c1b3476f2453ad337a494ae5bf99a9bbb719a"
+  },
+  "summary": {
+    "closure_events_total": 0,
+    "comparison_to_candidate_v2": {
+      "comparable_metric_count": 51,
+      "largest_delta_cell": {
+        "absolute_delta": 0.06928267093756288,
+        "after": 0.196966925388,
+        "before": 0.2662495963255629,
+        "horizon": 36,
+        "metric": "success_cif",
+        "year": 2021
+      },
+      "max_absolute_point_estimate_delta": 0.06928267093756288,
+      "prior_present": true
+    },
+    "limitations": [
+      "Only Republic Europe has a denominator-grade native census.",
+      "All estimable RQ1 cells remain low-information because closure ascertainment is zero and/or ascertainment/support gates fail.",
+      "RQ2 field estimates remain suppressed unless n/event/ascertainment gates pass.",
+      "2024-2025 remain right-censored; unsupported horizons are not estimated."
+    ],
+    "promotion_status": "CANDIDATE_ONLY",
+    "rates_promoted": false,
+    "rq1_cells": 24,
+    "rq1_estimable_cells": 17,
+    "rq1_low_information_cells": 24,
+    "rq2_cells": 60,
+    "rq2_reportable_cells": 0,
+    "rq2_suppressed_cells": 60,
+    "source_ledger": "cp3_republic_europe_outcome_ledger_v4.csv",
+    "source_rows": 952,
+    "success_events_total": 63,
+    "terminal_nonclosure_events_total": 2,
+    "version": "candidate_v3"
+  }
+}
