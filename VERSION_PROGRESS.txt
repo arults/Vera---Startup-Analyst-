@@ -58,5 +58,5 @@ Iteration lesson: execution frameworks must make identity, censoring, cross-plat
 Phase 1D CP1 — Real multi-platform execution began under Vera v0.6.0 target: source census, immutable discovery manifests and coverage gates were run against all five platforms.
 Progress: Republic Europe achieved native enumerable coverage (2,896 sitemap URLs / 2,073 candidate slugs); StartEngine, Republic US, Wefunder and Crowdcube remain CENSUS_INCOMPLETE and their rates are suppressed by Jev rather than estimated from biased subsets.
 
-Phase 1D CP2 — Republic Europe normalization IN PROGRESS: validate the full native candidate universe, reconstruct company-round rows, strong company IDs, funded dates, sectors, valuations and discover whether first-live dates are platform-observable.
-Iteration lesson so far: source access failure is a denominator-quality problem, not a reason to weaken evidence standards or publish sample-based platform rates.
+Phase 1D CP2 — Republic Europe cohort FROZEN: 952 funded rounds normalized, 796 defensible bounded-year rows, 156 year-unresolved/suppressed, 99.37% strong-ID coverage, and 160 chronological next-round edges retained.
+Iteration lesson: when exact first-live dates are absent, preserve platform date bounds and suppress ambiguous year assignments rather than substituting approval or funded year as if exact.
