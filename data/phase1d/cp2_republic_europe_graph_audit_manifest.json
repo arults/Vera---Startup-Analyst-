@@ -1,28 +1,27 @@
 {
-  "platform": "republic_europe",
-  "source_normalized_blob_sha": "46451af4f232fbec3dfca964bf8ec13d967ea02a",
   "files": {
-    "cp2_republic_europe_repeat_round_audit.json": "58fa4e471ccf96ff792558feb9097c64ff67e08c",
-    "cp2_republic_europe_same_round_candidates.csv": "52c9dfd49f9bbb0ae18d0e45673d38a152900cc0",
-    "cp2_republic_europe_sequence_edges.csv": "c64c0925cda106b1a105432435702313ff96ea43"
+    "cp2_republic_europe_repeat_round_audit.json": "9bcad9f0fb3edd5117218efdd40de88c863ed7575dc4f951466eac69eefe12a0",
+    "cp2_republic_europe_same_round_candidates.csv": "cae801d90230202711a221e1e2a66a21fc157422c7b8cd2987fb161fa09a73fd",
+    "cp2_republic_europe_sequence_edges.csv": "646c162e20df02342275d4b9d098cb9de8f343b4a7fd8c3ae16b7208dd44968f"
   },
+  "generated_at": "2026-10-09T07:00:42.038662Z",
   "summary": {
-    "platform": "republic_europe",
+    "companies_with_multiple_rounds": 124,
     "normalized_rounds": 952,
-    "unique_companies": 792,
-    "companies_with_multiple_rounds": 121,
-    "repeat_round_rows": 281,
+    "platform": "republic_europe",
+    "policy": "Audit only; no candidate auto-collapsed before Jev/Verifier decision.",
+    "repeat_round_rows": 287,
     "rounds_per_company_distribution": {
-      "1": 671,
-      "2": 91,
+      "1": 665,
+      "2": 94,
       "3": 24,
       "4": 4,
       "5": 1,
       "6": 1
     },
-    "sequence_edge_candidates": 160,
     "same_round_review_candidates": 0,
     "same_round_score_distribution": {},
-    "policy": "Audit only; no candidate auto-collapsed before Jev/Verifier decision."
+    "sequence_edge_candidates": 163,
+    "unique_companies": 789
   }
 }

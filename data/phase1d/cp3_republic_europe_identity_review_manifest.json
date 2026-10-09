@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-09T06:54:44.295409+00:00",
+  "generated_at": "2026-10-09T07:00:44.079094+00:00",
   "output_files": {
-    "cp3_republic_europe_identity_review_queue.csv": "5fcdc0d2e9c0e35c92af59ee929bdeefa8265f18dfba7fabde9c880661780b81",
-    "cp3_republic_europe_identity_review_summary.json": "001fbbb92b2cf41c656d8bbc4df81e0a0644118dae3a155aa41b5e9088d27f75",
+    "cp3_republic_europe_identity_review_queue.csv": "83ef037c115b8041f30f72ee6931e87eb61a0e5f69697133cdccecf2174a78a5",
+    "cp3_republic_europe_identity_review_summary.json": "f75de5a7432f675f23916a9dc802a5d3f238b0cb9534b4c8fcad02c18eced070",
     "cp3_republic_europe_identity_unmatched_after_queue.csv": "2367038bf2d0429158cb117fa12542034082068a24c629f51caf5fd5f62bff04"
   },
   "source_files": {
-    "cp2_republic_europe_rounds_normalized.csv": "b6798dc8acd85cf80cfe19080422a876d89a259c21a1d59f112c8b2044ee74ed",
+    "cp2_republic_europe_rounds_normalized.csv": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
     "cp3_republic_europe_business_pages_raw.csv": "21a1e3bb42efc47ea1439d1fa8470ffd9111f278ff7f27839994d7ad23718ed7"
   },
   "summary": {
-    "candidate_rows": 30,
+    "candidate_rows": 27,
     "eligible_pages_with_candidates": 11,
     "followup_rows_extended": 0,
-    "generated_at": "2026-10-09T06:54:44.295409+00:00",
+    "generated_at": "2026-10-09T07:00:44.079094+00:00",
     "matches_applied": 0,
     "pages_with_candidates": 23,
     "pages_without_candidates": 308,
@@ -24,8 +24,8 @@
       "slug_signal": "review only; no automatic match"
     },
     "strong_company_number_candidate_pages": 1,
-    "unique_top_candidate_pages": 17,
-    "unique_top_with_two_or_more_signals": 5,
+    "unique_top_candidate_pages": 20,
+    "unique_top_with_two_or_more_signals": 8,
     "unmatched_business_pages_input": 331
   }
 }
