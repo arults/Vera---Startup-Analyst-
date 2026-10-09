@@ -25,3 +25,5 @@ jobs:
           path: /tmp/vera-cp7/
           retention-days: 30
           if-no-files-found: error
+# CP8 continuation: re-export current CP7 integrated source to reconcile actual
+# evidence and tests before new empirical research. No source data is altered.
