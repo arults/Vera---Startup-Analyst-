@@ -22,7 +22,8 @@
       "reason": "Public campaign pages validate, but exhaustive platform-year denominator not recovered."
     },
     "wefunder": {
-      "status": "PARTIAL_RECENT_ARCHIVE",
+      "status": "CENSUS_INCOMPLETE",
+      "archive_status": "PARTIAL_RECENT_ARCHIVE",
       "rate_policy": "SUPPRESS",
       "native_api_nbHits": 149,
       "native_api_company_rows": 149,
