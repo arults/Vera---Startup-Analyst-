@@ -6,6 +6,9 @@ on:
     paths:
       - 'src/phase1d/search_discover.py'
       - '.github/workflows/phase1d-search-discovery.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
