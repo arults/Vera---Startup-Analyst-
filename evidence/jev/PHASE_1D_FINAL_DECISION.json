@@ -1,0 +1,44 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "state": {
+    "phase": "Phase 1D final gate after deterministic plateau",
+    "candidate_version": "v0.6.0",
+    "scientific_verifier": "179/179 tests and 43/43 gates PASS",
+    "deterministic_plateau": "two consecutive rounds PASS",
+    "rates_promoted": false,
+    "denominator_grade_platforms": ["republic_europe"],
+    "suppressed_platforms": ["wefunder", "republic_us", "startengine", "crowdcube"],
+    "existing_promoted_prior": "Phase 1B Wefunder 2020 only"
+  },
+  "answers": {
+    "final_state": {
+      "choice": "complete_limited_execution",
+      "confidence": 0.99,
+      "probabilities": {
+        "complete_limited_execution": 0.99,
+        "continue": 0.01,
+        "blocked_discard": 0.0,
+        "promote_rates": 0.0
+      }
+    },
+    "version": {
+      "choice": "v0_6_0",
+      "confidence": 1.0,
+      "probabilities": {
+        "v0_6_0": 1.0,
+        "v0_5_1": 0.0,
+        "v1_0_0": 0.0
+      }
+    },
+    "merge": {
+      "yes_probability": 0.42
+    },
+    "promote_new_prior": {
+      "yes_probability": 0.13
+    }
+  },
+  "decision": "COMPLETE_LIMITED_EXECUTION_V0_6_0_NO_NEW_EMPIRICAL_PRIOR",
+  "repository_policy": "Preserve the completed v0.6.0 execution package on the Phase 1D branch and PR. Do not merge automatically because the final Jev merge probability is below 0.50.",
+  "promotion_boundary": "Candidate v3 remains a verified low-information artifact; no Phase 1D rate enters the promoted reference-class registry."
+}
