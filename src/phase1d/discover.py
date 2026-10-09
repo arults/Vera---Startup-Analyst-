@@ -191,7 +191,7 @@ def classify(platform,url):
     return "candidate"
 
 def main():
-    captured=now(); report={"captured_at":captured,"platforms":{},"method_version":"cp1-discovery-v2"}; rows=[]
+    captured=now(); report={"captured_at":captured,"platforms":{},"method_version":"cp1-discovery-v3"}; rows=[]; republic_europe_businesses=[]
     for platform,cfg in PLATFORMS.items():
         hosts=set(cfg["hosts"]); smaps,robots=robots_sitemaps(cfg["base"])
         sitemap_urls=[]; sitemap_status=[]
@@ -205,6 +205,8 @@ def main():
         if len(first_candidates)<10:
             browser_seed_links,browser_resources,browser_status=browser_links(cfg)
         all_urls=list(dict.fromkeys(sitemap_urls+seed_links+browser_seed_links)); candidates=[u for u in all_urls if path_matches(platform,u)]
+        if platform=="republic_europe":
+            republic_europe_businesses=sorted({u.split("#")[0].split("?")[0].rstrip("/") for u in all_urls if urlparse(u).path.startswith("/businesses/")})
         for u in candidates:
             rows.append({"platform":platform,"url":u,"classification":classify(platform,u),"discovery_source":"sitemap_or_public_seed_or_browser","captured_at":captured})
         report["platforms"][platform]={
@@ -222,9 +224,13 @@ def main():
     with (OUT/"cp1_discovery_candidates.csv").open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=["platform","url","classification","discovery_source","captured_at"]); w.writeheader(); w.writerows(rows)
     (OUT/"cp1_discovery_report.json").write_text(json.dumps(report,indent=2,sort_keys=True)+"\n",encoding="utf-8")
-    manifest={"captured_at":captured,"candidate_rows":len(rows),"method_version":"cp1-discovery-v2","files":{
+    with (OUT/"cp3_republic_europe_business_candidates.csv").open("w",newline="",encoding="utf-8") as f:
+        w=csv.DictWriter(f,fieldnames=["platform","url","captured_at"]); w.writeheader();
+        for u in republic_europe_businesses: w.writerow({"platform":"republic_europe","url":u,"captured_at":captured})
+    manifest={"captured_at":captured,"candidate_rows":len(rows),"method_version":"cp1-discovery-v3","republic_europe_business_pages":len(republic_europe_businesses),"files":{
         "cp1_discovery_candidates.csv":hashlib.sha256((OUT/"cp1_discovery_candidates.csv").read_bytes()).hexdigest(),
-        "cp1_discovery_report.json":hashlib.sha256((OUT/"cp1_discovery_report.json").read_bytes()).hexdigest()}}
+        "cp1_discovery_report.json":hashlib.sha256((OUT/"cp1_discovery_report.json").read_bytes()).hexdigest(),
+        "cp3_republic_europe_business_candidates.csv":hashlib.sha256((OUT/"cp3_republic_europe_business_candidates.csv").read_bytes()).hexdigest()}}
     (OUT/"cp1_manifest.json").write_text(json.dumps(manifest,indent=2,sort_keys=True)+"\n")
     print("TOTAL_CANDIDATES",len(rows))
 
