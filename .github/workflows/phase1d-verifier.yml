@@ -6,6 +6,7 @@ on:
     branches: [phase-1d]
     paths:
       - 'src/phase1d/verifier_v3.py'
+      - 'src/phase1d/verifier_v3_repaired.py'
       - 'src/phase1d/**'
       - 'tests/test_phase1d*'
       - 'data/phase1d/**'
@@ -27,5 +28,5 @@ jobs:
         run: pip install requests curl_cffi
       - name: Full regression suite
         run: python -m unittest discover -s tests -v
-      - name: Phase 1D candidate v3 scientific verifier
-        run: python src/phase1d/verifier_v3.py
+      - name: Phase 1D candidate v3 repaired scientific verifier
+        run: python -m src.phase1d.verifier_v3_repaired
