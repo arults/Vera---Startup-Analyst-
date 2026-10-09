@@ -22,10 +22,27 @@
       "reason": "Public campaign pages validate, but exhaustive platform-year denominator not recovered."
     },
     "wefunder": {
-      "status": "CENSUS_INCOMPLETE",
-      "structured_search_unique": 46,
-      "native_browser_candidates": 23,
-      "reason": "Historical directory blocked; partial discovery only."
+      "status": "PARTIAL_RECENT_ARCHIVE",
+      "rate_policy": "SUPPRESS",
+      "native_api_nbHits": 149,
+      "native_api_company_rows": 149,
+      "wefunder_portal_llc_rows": 144,
+      "phase1b_2020_known_denominator": 42,
+      "phase1b_known_name_matches": 0,
+      "phase1b_known_match_share": 0,
+      "observed_started_year_counts": {
+        "2021": 3,
+        "2022": 7,
+        "2023": 12,
+        "2024": 1,
+        "2025": 26,
+        "2026": 82
+      },
+      "reason": "Wefunder native explore API is genuine and useful for recent platform observations, but the enumerated listed/visible archive recovers 0/42 of Vera's frozen 2020 Wefunder cohort; it is not denominator-grade for 2020-2025.",
+      "evidence_files": [
+        "cp1_wefunder_us_listed_visible.csv",
+        "cp1_wefunder_us_listed_visible_summary.json"
+      ]
     },
     "crowdcube": {
       "status": "CENSUS_INCOMPLETE",
@@ -53,6 +70,13 @@
       "choice": "pass_with_suppression",
       "probability": 1,
       "confidence": 1
+    },
+    "wefunder_native_api": {
+      "choice": "partial_suppress",
+      "probability": 1,
+      "confidence": 1,
+      "next_platform": "republic_us",
+      "next_platform_probability": 0.96
     }
   },
   "constraints": [
