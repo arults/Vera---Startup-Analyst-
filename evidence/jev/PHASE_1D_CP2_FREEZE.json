@@ -1,0 +1,46 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "state": {
+    "normalized_funded_rounds": 952,
+    "cohort_year_usable_rows": 796,
+    "cohort_year_unresolved_rows": 156,
+    "strong_company_id_rows": 946,
+    "usable_strong_rows": 796,
+    "unique_companies": 792,
+    "sequence_edge_candidates": 160,
+    "same_round_review_candidates": 0
+  },
+  "answers": {
+    "cp2_state": {
+      "choice": "pass_frozen",
+      "confidence": 0.98,
+      "probabilities": {
+        "pass_frozen": 0.99,
+        "review_more": 0.01,
+        "blocked": 0
+      }
+    },
+    "same_round_policy": {
+      "choice": "keep_all",
+      "confidence": 0.83,
+      "probabilities": {
+        "keep_all": 0.89,
+        "manual_all_repeats": 0.11,
+        "collapse_repeats": 0
+      }
+    },
+    "sequence_graph": {
+      "choice": "freeze_candidates",
+      "confidence": 1,
+      "probabilities": {
+        "freeze_candidates": 1,
+        "ignore": 0,
+        "auto_success": 0
+      }
+    },
+    "proceed_cp3": {
+      "yes_probability": 0.53
+    }
+  }
+}
