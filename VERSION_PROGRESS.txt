@@ -66,3 +66,11 @@ Iteration lesson: platform eligibility and zero valuation are evidence signals, 
 
 Phase 1D CP4 Round 1 — Corrected Republic Europe candidate estimates passed 27/27 deterministic execution gates; every estimable RQ1 cell is still LOW_INFORMATION and no RQ2 field cell passes the frozen n/events/80% gate.
 Progress: Jev keeps these estimates candidate-only (86%) and prioritizes unlocking Wefunder next; full v0.6.0 study promotion remains blocked by four incomplete platform denominators.
+
+Phase 1D CP4B / execution 0.6.0-dev.r2 — Continued from the newer Wefunder rejection gate, which supersedes the older Wefunder-next instruction above. Jev selected Republic US; four real capture defects were repaired with a bounded, checkpointed collector and 19 adversarial tests.
+Failed attempt retained: live run 37894313863 passed 82/82 engineering tests but all four directory requests returned HTTP403; zero new captures. Green CI and 10/10 integrity checks did not mean research succeeded.
+
+Phase 1D CP4B / feedback -> rebuild -> re-execution — Jev selected safe reuse of the preserved public API archive rather than retrying identical blocked requests. Run 37894925070 normalized 144 existing candidate rows, with 0 rejects/duplicates/conflicts, 15/15 normalization gates and 101/101 total regression tests PASS. Raw/source hashes and a 144-item date/identity/census resolution queue are checkpointed.
+Iteration lesson: archive reprocessing is not new live evidence; deadline month is not first-live/funded-close date; a native slug is not a strong legal identity; a cap is not a priced valuation. All 144 remain estimation-ineligible. Source availability must be a separate gate from data integrity.
+
+Current state after CP4B (2026-10-09): Jev accepts the candidate checkpoint only (selected probability 1.00, confidence 1.00), keeps the full study incomplete/not plateau (probability 1.00, confidence 1.00), and prioritizes historical census/date recovery. Promoted release stays v0.5.0; v0.6.0 remains an execution target. Four historical platform denominators still block promotion. Resume from checkpoints/PHASE_1D_CP4B_REPUBLIC_US_RECOVERY.md and evidence/jev/PHASE_1D_CP4_ROUND2_RECOVERY.json, not older next-action text.
