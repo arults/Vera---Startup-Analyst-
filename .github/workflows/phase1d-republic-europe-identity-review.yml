@@ -6,8 +6,10 @@ on:
     paths:
       - 'src/phase1d/build_republic_europe_identity_review.py'
       - 'src/phase1d/apply_republic_europe_identity_review.py'
+      - 'src/phase1d/rebuild_republic_europe_outcomes_v4.py'
       - 'tests/test_phase1d_republic_europe_identity_review.py'
       - 'tests/test_phase1d_republic_europe_identity_apply.py'
+      - 'tests/test_phase1d_republic_europe_outcomes_v4.py'
       - '.github/workflows/phase1d-republic-europe-identity-review.yml'
 concurrency:
   group: phase1d-writer
@@ -34,7 +36,9 @@ jobs:
         run: python -m src.phase1d.build_republic_europe_identity_review
       - name: Apply conservative Jev review disposition
         run: python -m src.phase1d.apply_republic_europe_identity_review
-      - name: Persist reviewed identity checkpoint
+      - name: Rebuild canonical outcome ledger v4
+        run: python -m src.phase1d.rebuild_republic_europe_outcomes_v4
+      - name: Persist reviewed identity and outcome checkpoint
         run: |
           git config user.name "vera-phase1d-bot"
           git config user.email "vera-phase1d-bot@users.noreply.github.com"
@@ -47,8 +51,11 @@ jobs:
           git add data/phase1d/cp3_republic_europe_business_observations_v2.csv
           git add data/phase1d/cp3_republic_europe_identity_review_applied_summary.json
           git add data/phase1d/cp3_republic_europe_identity_review_applied_manifest.json
+          git add data/phase1d/cp3_republic_europe_outcome_ledger_v4.csv
+          git add data/phase1d/cp3_republic_europe_outcome_ledger_v4_summary.json
+          git add data/phase1d/cp3_republic_europe_outcome_ledger_v4_manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "Phase 1D: persist reviewed Republic Europe identity matches [skip ci]"
+            git commit -m "Phase 1D: persist canonical Republic Europe outcome ledger v4 [skip ci]"
             git fetch origin phase-1d
             git rebase origin/phase-1d
             git push origin HEAD:phase-1d
