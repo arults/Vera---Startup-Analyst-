@@ -6,6 +6,9 @@ on:
     paths:
       - 'src/phase1d/build_republic_europe_cohort.py'
       - '.github/workflows/phase1d-republic-europe-cohort.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -30,5 +33,7 @@ jobs:
             echo "No generated changes"
           else
             git commit -m "Phase 1D CP2: persist Republic Europe bounded-year cohort [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
             git push origin HEAD:phase-1d
           fi
