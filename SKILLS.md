@@ -1,126 +1,135 @@
 # SKILLS.md — Vera operational research memory
 
-Promoted version: 0.5.0
-Execution increment: 0.6.0-dev.r2 (NOT a promoted release)
+Branch version: 0.6.0
 Date: 2026-10-09
 Phase 1B: **COMPLETE — limited empirical reference class promoted**
-Phase 1C: **COMPLETE — multi-platform calibration framework built; full dataset/rates intentionally not run in Phase 1C**
-Phase 1D: **INCOMPLETE / UNPROMOTED — partial execution, four historical denominators incomplete**
+Phase 1C: **COMPLETE — multi-platform calibration framework built**
+Phase 1D: **COMPLETE — limited verified execution; no new empirical rate promoted**
 
 ## Current system state
-Vera now has:
-1. a promoted, provenance-bound empirical reference class from Phase 1B;
-2. an executable Phase 1C framework for censored multi-platform cohort execution across Wefunder, StartEngine, Crowdcube, Republic US and Republic Europe, 2020–2025; and
-3. Phase 1D Republic Europe provisional candidate estimates plus an audited Republic US archive-candidate checkpoint. Neither is a promoted full-study result.
 
-Current continuation authority: `checkpoints/PHASE_1D_CP4B_REPUBLIC_US_RECOVERY.md` and `evidence/jev/PHASE_1D_CP4_ROUND2_RECOVERY.json`. Older instructions to normalize Republic Europe from scratch or retry Wefunder's visible API census are superseded. Historical decisions and rejected approaches remain preserved.
+Vera now has:
+
+1. the promoted Phase 1B Wefunder 2020 five-year operating-survival reference class;
+2. the Phase 1C executable multi-platform calibration framework; and
+3. a completed Phase 1D execution package showing exactly which 2020–2025 public-platform evidence is sufficient and which platform cells must remain suppressed.
+
+Phase 1D final authority:
+
+- `checkpoints/PHASE_1D_CP4_VERIFIED_CANDIDATE_V3.md`
+- `checkpoints/PHASE_1D_CP5_PLATEAU_FINAL.md`
+- `evidence/verifier/PHASE_1D_CP4_POST_CLOSURE_VERIFIER.json`
+- `evidence/jev/PHASE_1D_DETERMINISTIC_PLATEAU.json`
+- `evidence/jev/PHASE_1D_FINAL_DECISION.json`
 
 ## Non-negotiables
-- Never promote remembered counts or unsourced rates.
+
+- Never promote remembered counts, incomplete denominators or unsourced rates.
 - Never convert missing evidence into survival or closure.
-- Closure requires explicit evidence; no news/stale page is not closure.
+- Closure requires explicit platform evidence; no news, stale page, Not eligible status or zero valuation is not closure.
 - 2024–2025 are right-censored; crude success/closure proportions are invalid.
 - Company-round is the analytical unit; repeat rounds remain linked by canonical company.
-- Cross-platform qualified follow-ons can credit predecessor success and also start a new later-round clock.
-- SAFE/convertible caps are not priced valuations.
+- Qualified follow-on success requires a comparable priced valuation at least 1.5× the index round; valuation caps are not priced valuations.
 - Same-platform secondary trading alone is not success.
-- A reference-class rate is an anchor/bound, not a startup-specific causal probability.
-- Preserve failed/rejected approaches in docs/ITERATION_LOG.md.
-- Full multi-platform rates may be promoted only after later execution, deterministic verification and Jev promotion.
-- Successful CI and capture-integrity checks do not prove evidence availability or census completeness. Zero captures must be NO_EVIDENCE or ACCESS_BLOCKED, never research success.
-- Archived-source reprocessing is not new live evidence. Deadline month, first-live date and successful close are different fields.
-- Do not repeatedly retry the same HTTP403 path without changed authorized access or a materially different evidentiary route. Never bypass access controls.
+- Search snippets are discovery only, never evidence.
+- Successful CI/integrity gates do not prove census completeness or evidence availability.
+- Never repeatedly retry an unchanged HTTP403/access-blocked route and call it new research.
+- Preserve every failed, superseded and rejected approach in `docs/ITERATION_LOG.md`.
+- Reference-class rates are anchors/bounds, not startup-specific causal probabilities.
 
-## Phase 1B promoted reference class
+## Phase 1B promoted empirical reference class
+
 Registry: `reference_classes/wefunder_2020_operating_survival.json`
-- cohort n = 42 successfully funded Wefunder offerings anchored to 2020 initial Form C;
-- promoted 5-year operating survival = 93.01%;
-- 95% CI = 74.40%–98.24%;
-- at risk at 5 years = 12;
-- late-bound sensitivity = 92.57%, 95% CI 73.07%–98.12%, at risk 8.
-Six-year output remains non-promoted and direct substitution into company-specific success probabilities is prohibited.
 
-## Phase 1C architecture
-Design authority:
-- `docs/PHASE_1C_SPEC.md`
-- `decisions/PHASE_1C_DECISIONS.json`
+- denominator: 42 SEC-confirmed funded Wefunder offerings anchored to initial Form C in 2020;
+- promoted five-year operating survival: **93.01%**;
+- 95% CI: **74.40%–98.24%**;
+- at risk at five years: **12**;
+- late-bound sensitivity: **92.57%**, 95% CI **73.07%–98.12%**, at risk **8**.
 
-Cohorts:
-- Layer A = all publicly launched accessible deals for coverage/selection analysis.
-- Layer B = successfully funded/completed rounds for investor-outcome estimation.
-- offering year = first-live year;
-- outcome time zero = successful close/completion.
+Six-year output remains non-promoted. Direct substitution into P(company succeeds), P(PMF), P(financing survives) or another company-specific probability is prohibited.
 
-Taxonomy:
-- 12 primary analytical fields + Other/Diversified;
-- exactly one primary field + seven versioned controlled tag dimensions;
-- raw platform-native tags retained.
+## Phase 1C frozen architecture
 
-Identity:
-- exact strong ID or >=2 independent medium identifiers for auto-match;
-- name-only match prohibited;
-- 100% review of medium/manual matches;
-- stratified 10% audit of strong matches;
-- reopen matcher if sampled false-match or false-split >2%.
+- Layer A: all publicly launched accessible deals for coverage/selection analysis.
+- Layer B: funded/completed rounds for investor-outcome estimation.
+- Unit: economic company-round.
+- Offering year: first-live year; outcome time zero: successful close/completion.
+- Taxonomy: 12 primary fields plus Other/Diversified; one primary field plus controlled tags.
+- Identity: strong ID or at least two independent medium identifiers; name-only auto-match prohibited.
+- Estimators: Aalen–Johansen / competing risks, company-cluster bootstrap, analytic diagnostic interval.
+- Horizons: 12/24/36/60 months only when supported.
+- RQ2 gate: n≥30, at least five informative events and at least 80% ascertainment; otherwise adjacent-year pooling within maturity block or suppression.
+- Results must remain `platform_observed` unless the evidence scope changes.
 
-Outcomes:
-- survival = independent operating-state occupancy;
-- success = first typed qualifying event;
-- closure = explicit confirmed terminal failure;
-- acquisition with unknown consideration is terminal but success UNKNOWN.
+Do not reopen Phase 1C unless execution exposes a concrete contract failure, identity-error rate above 2%, censoring/ascertainment failure or Verifier/Jev gate failure.
 
-Statistics:
-- Aalen–Johansen / competing-risk multistate framework;
-- company-cluster bootstrap primary uncertainty;
-- analytic diagnostic interval;
-- 12/24/36/60-month landmarks only when supported + maximum supported follow-up;
-- platform-observed ascertainment label and lost-follow-up sensitivity bounds.
+## Phase 1D final execution state
 
-RQ2 cell gate:
-- n>=30;
-- >=5 informative events;
-- >=80% ascertainment;
-- otherwise adjacent-year pooling within maturity block; no silent 2023/2024 boundary crossing.
+### Platform denominator coverage
 
-## Phase 1C verification
-- 45/45 unit/adversarial tests PASS.
-- 25/25 deterministic gates PASS.
-- Phase 1C CI run: `37776384631`.
-- Phase 1B regression run on Phase 1C branch: `37776384486` PASS.
-- Jev implementation rounds: 8.
-- Plateau rounds: 7 and 8.
-- Round 7 plateau probability 0.77; no-flip probability 0.99.
-- Round 8 plateau probability 0.86; no-flip probability 0.96.
+- Republic Europe: **PASS_NATIVE_ENUMERABLE**.
+- Wefunder: **CENSUS_INCOMPLETE**; 149-row recent/listed native archive recovers 0/42 known 2020 cohort members; rates suppressed.
+- Republic US: **CENSUS_INCOMPLETE**; verified 144-row archive has zero resolved cohort years, zero strong legal IDs and zero estimation-eligible rows; native recovery returned zero candidates; rates suppressed.
+- StartEngine: **CENSUS_INCOMPLETE**; browser and exact observed public endpoints were access-blocked; rates suppressed.
+- Crowdcube: **CENSUS_INCOMPLETE**; rates suppressed.
 
-Do not reopen Phase 1C design unless real execution produces a concrete contract failure, identity-error rate >2%, censoring/ascertainment failure, or a Jev/Verifier gate failure.
+No rate may be computed or promoted for a `CENSUS_INCOMPLETE` platform-year cell.
 
-## Phase 1D — real study execution (target Vera v0.6.0)
-Status: INCOMPLETE / UNPROMOTED
-Date: 2026-10-09
+### Republic Europe cohort
 
-Execution checkpoints:
-1. CP1 source census + coverage manifests — PASS_WITH_SUPPRESSION; four platform censuses still incomplete.
-2. CP2 — Republic Europe bounded-year cohort FROZEN; other platforms not frozen.
-3. CP3 — Republic Europe outcome ledger v3 traced; low information remains; other platform outcomes not ready.
-4. CP4 — Republic Europe candidate v2 previously passed 27/27 execution gates; CP4B Republic US archived-candidate increment verified and checkpointed.
-5. CP5 — full-study plateau/final promotion NOT reached. Access blocks are not statistical convergence.
+- normalized funded rounds: **952**;
+- bounded-year/rate-eligible rows: **796**;
+- year-unresolved/suppressed rows: **156**;
+- canonical companies: **789**;
+- usable-year counts: 2020 **184**, 2021 **191**, 2022 **181**, 2023 **142**, 2024 **47**, 2025 **51**;
+- strong canonical legal ID coverage among rate-eligible rows: **100%**;
+- repeat-company NEXT_ROUND edges: **163**;
+- same-economic-round duplicate candidates: **0**.
 
-Coverage:
-- Republic Europe: native enumeration recorded 2,896 sitemap URLs / 2,073 candidate slugs; 952 funded rounds, 796 bounded-year rows, 156 year-unresolved/suppressed. Ledger v3 has 55 qualifying follow-on successes in bounded-year rows and 2 Zeigo acquisition-value-unknown terminal rows; no explicit closures were invented. Candidate rates remain LOW_INFORMATION; no RQ2 field cell passes its frozen gate.
-- StartEngine: CENSUS_INCOMPLETE. CP1 recorded an official directory total of 1,539 offerings but no complete year-specific in-scope URL census.
-- Republic US: CENSUS_INCOMPLETE. New live recovery returned four HTTP403s and zero captures; 144 existing public-note archive rows were normalized as candidates, not historical funded rounds.
-- Wefunder: CENSUS_INCOMPLETE. Previously recovered 149 native API rows / 144 Portal LLC rows do not match the known 42-row 2020 cohort and cannot establish historical coverage.
-- Crowdcube: CENSUS_INCOMPLETE.
+Exact first-live dates were unavailable. Republic Europe offering year is assigned only when platform approval and funded dates bound the same calendar year; the exact first-live date remains null.
 
-Jev requires rate suppression for every CENSUS_INCOMPLETE platform-year cell. Search engines may discover canonical platform URLs, but snippets are never evidence. Public extraction of a canonical platform campaign page is acceptable platform evidence.
+### Outcomes and identity
 
-## CP4B execution and recovery
-- Live run `37894313863`: 82/82 regression tests PASS, but 0 new captures and 4 HTTP403 errors. Research state ACCESS_BLOCKED, regardless of green workflow/integrity status.
-- Archive normalization run `37894925070`: 101/101 total regression tests PASS, including 38 new tests; 15/15 normalization gates PASS.
-- Saved output: `data/phase1d/republic_us_archive/gh-37894925070-1/`.
-- 144 source-bound archived candidates; 0 rejects, duplicates or slug conflicts; 144-item resolution queue; source and output hashes retained.
-- 0 resolved first-live cohort years, 0 strong legal-entity IDs and 0 estimation-eligible rows. Deadline-year counts 2016–2020 are NOT offering-year assignments.
-- Final Jev accepts candidate checkpoint only: probability 1.00, confidence 1.00; overall study remains incomplete/not plateau: probability 1.00, confidence 1.00. These are model decision judgments, not empirical outcome probabilities.
+- qualified priced-follow-on successes: **63**;
+- confirmed closures: **0**;
+- terminal non-closure events: **2**;
+- reviewed identity matches accepted: **5**;
+- accepted Eligible pages adding positive follow-up: **2**;
+- positive follow-up coverage among usable companies: **38.76%**;
+- 22 ambiguous identity candidates remain held.
 
-## Current next action
-Recover and reconcile a defensibly enumerable historical census from permitted platform-native sources or an authorized export, using existing discovery manifests rather than restarting. Then resolve legal-entity IDs, first-live dates and successful funding completion dates from the saved queue before outcome estimation. Do not substitute the 144-row old Republic Note subset for the 2020–2025 denominator, reinterpret deadline dates, or rerun unchanged blocked paths as though they were a new strategy.
+The 13 Not eligible + zero-valuation businesses were exhaustively reviewed through 41 Republic Europe captures. Fourteen phrase candidates were contractual liquidation/default language, not observed closures. Zero-valuation status remains an unresolved adverse signal only.
+
+### Candidate v3
+
+- RQ1 cells: **24**;
+- estimable RQ1 cells: **17**;
+- LOW_INFORMATION RQ1 cells: **24/24**;
+- RQ2 cells: **60**;
+- reportable RQ2 cells: **0**;
+- maximum point-estimate change from candidate v2: **0.06928**.
+
+Candidate v3 is retained as a verified low-information research artifact and supersedes v2 methodologically. It is not a promoted empirical prior.
+
+### Verification and plateau
+
+- final scientific workflow run: `37899158528`;
+- tests: **179/179 PASS**;
+- scientific gates: **43/43 PASS**;
+- deterministic plateau workflow run: `37899535030`;
+- plateau rounds `deterministic-b` and `deterministic-c`: both PASS;
+- no dimension improvement above 0.05;
+- no material label flip;
+- no source-hash change.
+
+Final Jev:
+
+- state `complete_limited_execution`: probability **0.99**;
+- version `v0.6.0`: probability **1.00**;
+- promote a new Phase 1D prior: yes probability **0.13** → no;
+- automatic merge to main: yes probability **0.42** → keep the completed package on the Phase 1D branch/PR pending deliberate merge.
+
+## Next action
+
+Phase 1D is closed. Do not repeat exhausted access routes. Further calibration improvement requires materially new public platform access, an authorized export, additional platform-hosted closure/outcome disclosures, or later follow-up time sufficient to move cells out of LOW_INFORMATION status.
