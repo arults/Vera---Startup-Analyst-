@@ -1,0 +1,30 @@
+{
+  "input_summary": "Final CP6 evidence: tested commit b08c26c07e0ada61c5f048e1612cb95fb8ea4346, successful workflow 37905828468/job113738925358, downloaded and hash-verified artifact11604790649, actual 218 full-suite tests PASS and 43 scientific gates PASS. Actual old-snapshot audit is replay_stable=true/research_plateau=false with missing two substantive iteration receipts. Local repairs and two different no-new-defect engineering challenges are not empirical research. No new startup data or main merge; four censuses and low-information results remain unresolved.",
+  "model": "jev-1.13.0",
+  "answers": {
+    "checkpoint_state": {
+      "type": "choice",
+      "choice": "repair_integrated_verified_research_incomplete",
+      "confidence": 1,
+      "probabilities": {
+        "repair_integrated_verified_research_incomplete": 1,
+        "global_phase1d_complete": 0,
+        "discard_verified_empirical_data": 0
+      }
+    },
+    "repair_stop_scope": {
+      "type": "choice",
+      "choice": "bounded_engineering_stop_only",
+      "confidence": 1,
+      "probabilities": {
+        "bounded_engineering_stop_only": 1,
+        "empirical_research_plateau_proved": 0,
+        "no_repair_progress": 0
+      }
+    },
+    "promote_numerical_prior_now": {"type": "noul", "noul": 0.05},
+    "merge_to_main_now": {"type": "noul", "noul": 0.05}
+  },
+  "usage": {"input_tokens": 1345, "output_tokens": 170},
+  "note": "Input condensed; answers preserve exact returned values. Noul did not return a separate confidence. These are decision-model judgments, not empirical startup probabilities."
+}

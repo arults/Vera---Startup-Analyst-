@@ -7,7 +7,7 @@ Phase 1D: LIMITED VERIFIED EXECUTION; GLOBAL RESEARCH PLATEAU NOT DEMONSTRATED.
 
 ## Current authority
 
-Read `checkpoints/PHASE_1D_CP6_STOP_GATE_AUDIT.md` and `docs/PHASE_1D_CP6_ITERATION_LOG.md` before resuming. CP6 supersedes ONLY CP5's claim that three unchanged snapshots establish two substantive research plateau rounds. Existing empirical data, candidate analyses and suppression rules remain intact.
+Read `checkpoints/PHASE_1D_CP6_INTEGRATION_VERIFIED.md`, then `checkpoints/PHASE_1D_CP6_STOP_GATE_AUDIT.md` and `docs/PHASE_1D_CP6_ITERATION_LOG.md` before resuming. CP6 supersedes ONLY CP5's claim that three unchanged snapshots establish two substantive research plateau rounds. Existing empirical data, candidate analyses and suppression rules remain intact.
 
 The prior operational memory is preserved byte-for-byte at `evidence/phase1d_cp6/SKILLS_pre_audit.md` (original Git blob fa1c5794ef6429bb11b2d915985f9dfeeac9d6ee). It contains the complete historical Phase 1B/1C/1D counts, rules and checkpoint map; its global plateau/closure statements are superseded by CP6.
 
@@ -30,7 +30,11 @@ Republic Europe: 952 normalized rounds; 796 bounded-year eligible; 156 year-unre
 
 Wefunder, Republic US, StartEngine and Crowdcube remain CENSUS_INCOMPLETE. Wefunder's current 149-row listing is not a historical census; Republic US's 144 archived candidates remain estimation-ineligible. Candidate v3 remains low information: 24/24 RQ1 cells flagged; 0 reportable RQ2 cells. No Phase 1D empirical prior is promoted.
 
-Historical scientific workflow 37899158528 passed. The saved CP5 package reports 179 tests and 43 gates. CP6 has 39 passing local conformance tests plus 10,000 randomized comparisons and 38 receipt-removal checks; full repository integration is PENDING until a current workflow receipt is saved. Do not copy local test counts into full-suite claims.
+## CP6 integration verified
+
+Actual workflow 37905828468/job113738925358 on repair commit b08c26c07e0ada61c5f048e1612cb95fb8ea4346 completed successfully. Downloaded evidence confirms 218 full-repository tests PASS and 43/43 scientific gates PASS. Artifact11604790649 ZIP SHA-256 is 86222f85982f94697a3678350c4ae9e6e1688b2da599d55daae2a6ed7517b28e. The audit report is saved at evidence/phase1d_cp6/research-stop-report.json: replay stability=true, research plateau=false, missing two substantive iteration receipts. This resolves the earlier CP6 FULL CI PENDING status without asserting research completion.
+
+Three local repair loops and two different adversarial challenges reached a bounded engineering stopping point; they are not new empirical observations. Final Jev chose repair_integrated_verified_research_incomplete and bounded_engineering_stop_only, each with selected probability/confidence1.00. Numeric-prior promotion yes=.05; automatic main merge yes=.05. No promotion or merge occurred.
 
 ## Research stop gate
 
@@ -40,4 +44,4 @@ Legacy `plateau_verifier.py` cannot authorize a stop or write snapshots. Histori
 
 ## Restart
 
-Read CP6 and its latest integration receipt; run full tests and verifier_v4; audit saved snapshots through research_plateau_gate. Resume real sourcing only with a materially different admissible source, authorized export, new platform-hosted outcome evidence, or changed access conditions. Record blockers separately from plateau. Do not fabricate two research receipts retrospectively for the old replay run.
+Read the verified CP6 receipt; run full tests and verifier_v4; audit saved snapshots through research_plateau_gate. Resume real sourcing only with a materially different admissible source, authorized export, new platform-hosted outcome evidence, or changed access conditions. Record blockers separately from plateau. Do not fabricate two research receipts retrospectively for the old replay run. The prior data and historical work remain available; do not restart from zero.
