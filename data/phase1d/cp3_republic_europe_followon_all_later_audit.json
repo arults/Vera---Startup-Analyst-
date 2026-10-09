@@ -1,0 +1,36 @@
+{
+  "qualified_index_to_later_successes": 63,
+  "source_year_counts": {
+    "2020": 18,
+    "2021": 21,
+    "2022": 12,
+    "2023": 3,
+    "2024": 1,
+    "UNRESOLVED": 8
+  },
+  "source_field_counts": {
+    "food_beverage_agtech": 16,
+    "mobility_logistics_aerospace": 6,
+    "fintech_insurtech": 11,
+    "consumer_retail": 8,
+    "other_diversified": 6,
+    "climate_energy_industrial": 5,
+    "realestate_hospitality_proptech": 1,
+    "healthcare_medtech": 6,
+    "saas_enterprise_software": 4
+  },
+  "intermediate_round_count_distribution": {
+    "0": 57,
+    "1": 4,
+    "2": 2
+  },
+  "adjacent_successes": 57,
+  "nonadjacent_first_successes": 6,
+  "rule": "For each index round, scan all later same-company rounds chronologically; first later Equity round with comparable nonzero pre-money valuation in the same currency and valuation >=1.5x index is the success time. Immediate NEXT_ROUND graph remains separate.",
+  "jev": {
+    "followon_scan": "all_later_vs_index",
+    "probability": 1,
+    "graph_structure": "immediate_plus_derived",
+    "probability_graph": 1
+  }
+}
