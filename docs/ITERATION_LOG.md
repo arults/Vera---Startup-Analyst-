@@ -197,3 +197,34 @@ The first bounded-cohort workflow computed the same 796-row result correctly but
 
 ### CP3 follow-on refinement
 The first qualified-follow-on pass looked only at immediate n→n+1 edges and found 57 successes. Jev then clarified with probability 1.00 that each index round must scan all later comparable rounds chronologically for the first >=1.5x priced follow-on, while the graph itself remains immediate n→n+1. The corrected derived relation found 63 qualified follow-on successes, including 6 non-adjacent first successes.
+
+
+## 2026-10-09 — Phase 1D CP3/CP4 Republic Europe execution
+
+### Outcome-evidence rebuild
+Republic Europe secondary-market business pages were enumerated natively from the platform sitemap: 784/784 pages fetched, 453 matched to frozen company lineages, and current Eligible status supplied medium-confidence positive operating evidence. Jev explicitly kept Not eligible neutral and rejected using indicative valuation alone as current operating evidence.
+
+The raw acquisition keyword queue contained 467 hits, but 453 were boilerplate ("shares were acquired from a campaign"). Fourteen true "wholly owned subsidiary" notices were reclassified by Jev as internal successor restructures, not acquisition successes, and were linked into canonical company lineages.
+
+Thirteen Not eligible pages carried £/€0 indicative valuation. Jev selected these as targeted closure-review triggers only; targeted public-platform review found no explicit admissible closure statement, so zero closures were invented.
+
+### Qualified follow-on correction
+An adjacent-only n→n+1 pass found 57 qualifying >=1.5x priced follow-on successes. Jev clarified with probability 1.00 that each index round must scan all later same-company rounds for the first comparable >=1.5x success while preserving immediate NEXT_ROUND graph edges. The corrected full-universe count became 63, including 6 non-adjacent first successes; 55 belong to bounded-year rate-eligible rows.
+
+### Ledger v2 failure -> ledger v3
+Zeigo was correctly classified as a 2022 acquisition-value-unknown terminal event, but ledger v2 accidentally kept its censor date at its last 2020 funding evidence instead of extending follow-up to the known terminal acquisition interval. Candidate CP4 v1 therefore failed an internal reality check: 2020 operating survival incorrectly stayed 1.0.
+
+The mistake was preserved, not overwritten. Ledger v3 extends both Zeigo 2020 rounds to the Jev-approved midpoint approximation (2022-07-02), with 2022-01-01 / 2022-12-31 sensitivity bounds. Corrected CP4 v2 then shows the terminal event in the 2020 survival curve.
+
+### Zero-event uncertainty
+Because no explicit closure passed the frozen rule, Jev rejected 0-0 bootstrap confidence intervals. Zero target-event cells use a one-sided 95% SUPPORT_SET_BOUND based only on rounds demonstrably followed through the target horizon. Likewise, 1.0 survival cells with zero terminal events carry a support-set lower bound rather than a 1-1 bootstrap interval.
+
+### Deterministic execution verification
+Corrected candidate v2 passed 27/27 Phase 1D gates in GitHub Actions run 37886717240.
+The verifier checks census suppression, 952/796 cohort integrity, strong IDs, outcome counts, no zero-valuation auto-closure, Zeigo interval handling, all-later success scan, probability bounds, no horizon extrapolation, monotonicity, zero-event support bounds, RQ2 fail-closed suppression, and explicit invalidation of CP4 candidate v1.
+
+Jev execution round 1 after the verifier:
+- denominator breadth remains the weakest dimension because only Republic Europe is rate-eligible;
+- Republic Europe outputs remain candidate_only, probability 0.86;
+- no Phase 1C design flip, probability 0.88;
+- highest expected-value next improvement = attempt Wefunder denominator recovery through the on-platform explore API.
