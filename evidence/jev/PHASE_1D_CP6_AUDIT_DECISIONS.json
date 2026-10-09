@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-09",
+  "note": "Input summaries are condensed; answers, model and usage below preserve the returned values. No confidence field was returned for noul answers. These are decision-model judgments, not empirical startup probabilities.",
+  "evaluations": [
+    {
+      "input_summary": "Live branch ahead of conversation; identical deterministic snapshots alone may demonstrate replay stability rather than research exhaustion. Audit actual saved execution before accepting closure.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "next_action": {"type":"choice","choice":"audit_saved_execution_and_plateau","confidence":1,"probabilities":{"audit_saved_execution_and_plateau":1,"repeat_all_platform_scrapes":0,"accept_all_claims_without_check":0}},
+        "identical_snapshots_sufficient": {"type":"noul","noul":0.05},
+        "promote_phase1d_prior_now": {"type":"noul","noul":0.11}
+      },
+      "usage": {"input_tokens":894,"output_tokens":109}
+    },
+    {
+      "input_summary": "Verified defects: no-op workflow, quality-decrease acceptance, mutable snapshot writes, incomplete numeric/schema validation. Preserve data and repair only stop gate.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "repair_scope": {"type":"choice","choice":"repair_stop_gate_only_preserve_data","confidence":1,"probabilities":{"repair_stop_gate_only_preserve_data":1,"ignore_because_prior_jev_approved":0,"restart_all_empirical_research":0}},
+        "current_research_state": {"type":"choice","choice":"limited_verified_execution_plateau_not_demonstrated","confidence":1,"probabilities":{"limited_verified_execution_plateau_not_demonstrated":1,"complete_global_plateau":0,"all_results_invalid":0}},
+        "merge_main_now": {"type":"noul","noul":0.03}
+      },
+      "usage": {"input_tokens":1038,"output_tokens":150}
+    },
+    {
+      "input_summary": "Loop1: 22 synthetic tests pass. Critique: execution artifacts can be relabeled and synthetic evidence is not yet rejected; fix these and old workflow authority before integration.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "next_repair": {"type":"choice","choice":"harden_evidence_and_authority","confidence":1,"probabilities":{"harden_evidence_and_authority":1,"ship_without_hardening":0,"declare_research_plateau":0}},
+        "prior_promotion": {"type":"noul","noul":0.04}
+      },
+      "usage": {"input_tokens":772,"output_tokens":86}
+    },
+    {
+      "input_summary": "Three rebuild loops; 39 integrated local tests pass, 10,000 independent comparison checks and 38 receipt removal checks pass. Full repository CI pending. Persist on research branch with old data unchanged; no new empirical observations.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "integration_decision": {"type":"choice","choice":"commit_research_branch_and_run_full_verification","confidence":1,"probabilities":{"commit_research_branch_and_run_full_verification":1,"declare_complete_and_merge_main":0,"discard_existing_empirical_dataset":0}},
+        "repair_scope_checkpoint": {"type":"choice","choice":"local_repair_verified_full_ci_pending_research_plateau_unproven","confidence":1,"probabilities":{"local_repair_verified_full_ci_pending_research_plateau_unproven":1,"phase1d_complete":0}},
+        "allow_numeric_promotion": {"type":"noul","noul":0.05}
+      },
+      "usage": {"input_tokens":974,"output_tokens":154}
+    }
+  ]
+}

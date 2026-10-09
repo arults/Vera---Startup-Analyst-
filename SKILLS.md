@@ -1,135 +1,43 @@
 # SKILLS.md — Vera operational research memory
 
-Branch version: 0.6.0
-Date: 2026-10-09
-Phase 1B: **COMPLETE — limited empirical reference class promoted**
-Phase 1C: **COMPLETE — multi-platform calibration framework built**
-Phase 1D: **COMPLETE — limited verified execution; no new empirical rate promoted**
+Current correction: 0.6.1-dev.audit.1, 2026-10-09. Promoted VERSION is unchanged.
+Phase 1B: COMPLETE — limited empirical reference class.
+Phase 1C: COMPLETE — executable calibration framework.
+Phase 1D: LIMITED VERIFIED EXECUTION; GLOBAL RESEARCH PLATEAU NOT DEMONSTRATED.
 
-## Current system state
+## Current authority
 
-Vera now has:
+Read `checkpoints/PHASE_1D_CP6_STOP_GATE_AUDIT.md` and `docs/PHASE_1D_CP6_ITERATION_LOG.md` before resuming. CP6 supersedes ONLY CP5's claim that three unchanged snapshots establish two substantive research plateau rounds. Existing empirical data, candidate analyses and suppression rules remain intact.
 
-1. the promoted Phase 1B Wefunder 2020 five-year operating-survival reference class;
-2. the Phase 1C executable multi-platform calibration framework; and
-3. a completed Phase 1D execution package showing exactly which 2020–2025 public-platform evidence is sufficient and which platform cells must remain suppressed.
+The prior operational memory is preserved byte-for-byte at `evidence/phase1d_cp6/SKILLS_pre_audit.md` (original Git blob fa1c5794ef6429bb11b2d915985f9dfeeac9d6ee). It contains the complete historical Phase 1B/1C/1D counts, rules and checkpoint map; its global plateau/closure statements are superseded by CP6.
 
-Phase 1D final authority:
-
-- `checkpoints/PHASE_1D_CP4_VERIFIED_CANDIDATE_V3.md`
-- `checkpoints/PHASE_1D_CP5_PLATEAU_FINAL.md`
-- `evidence/verifier/PHASE_1D_CP4_POST_CLOSURE_VERIFIER.json`
-- `evidence/jev/PHASE_1D_DETERMINISTIC_PLATEAU.json`
-- `evidence/jev/PHASE_1D_FINAL_DECISION.json`
-
-## Non-negotiables
+## Non-negotiable evidence rules
 
 - Never promote remembered counts, incomplete denominators or unsourced rates.
-- Never convert missing evidence into survival or closure.
-- Closure requires explicit platform evidence; no news, stale page, Not eligible status or zero valuation is not closure.
-- 2024–2025 are right-censored; crude success/closure proportions are invalid.
-- Company-round is the analytical unit; repeat rounds remain linked by canonical company.
-- Qualified follow-on success requires a comparable priced valuation at least 1.5× the index round; valuation caps are not priced valuations.
-- Same-platform secondary trading alone is not success.
-- Search snippets are discovery only, never evidence.
-- Successful CI/integrity gates do not prove census completeness or evidence availability.
-- Never repeatedly retry an unchanged HTTP403/access-blocked route and call it new research.
-- Preserve every failed, superseded and rejected approach in `docs/ITERATION_LOG.md`.
-- Reference-class rates are anchors/bounds, not startup-specific causal probabilities.
+- Missing evidence is not survival, closure or success; legal existence and platform eligibility are not definitive operating proof.
+- Closure requires explicit admissible platform evidence. Not eligible, a dead page, contractual liquidation boilerplate and zero valuation do not establish closure.
+- Keep 2024–2025 right censoring, economic company-round identity, canonical repeat-round linkage and bounded offering-year uncertainty.
+- Qualified follow-on success requires a comparable priced valuation at least 1.5x the index round; scan all later comparable rounds. SAFE caps and secondary trading alone do not qualify.
+- Search snippets are discovery only. Platform-year rates remain suppressed when the census is incomplete.
+- Do not equate successful CI with evidence availability, historical census completeness or calibrated returns.
+- No main merge or numerical-prior promotion is authorized by this correction.
+- Keep failed approaches, raw sources, prior snapshots and old decisions. Never retry unchanged blocked routes and call that a new research iteration.
+- Reference-class rates are contextual anchors, not startup-specific causal probabilities.
 
-## Phase 1B promoted empirical reference class
+## Verified historical state, not new observations in CP6
 
-Registry: `reference_classes/wefunder_2020_operating_survival.json`
+Republic Europe: 952 normalized rounds; 796 bounded-year eligible; 156 year-unresolved; 789 canonical companies. Follow-ons: 63 across the full normalized universe; the detailed CP3/CP4 log reports 55 within bounded-year eligible rows. Do not mix these denominators. Positive follow-up among usable companies: 38.76%. Zero confirmed closures means missing admissible closure evidence, not zero real failures.
 
-- denominator: 42 SEC-confirmed funded Wefunder offerings anchored to initial Form C in 2020;
-- promoted five-year operating survival: **93.01%**;
-- 95% CI: **74.40%–98.24%**;
-- at risk at five years: **12**;
-- late-bound sensitivity: **92.57%**, 95% CI **73.07%–98.12%**, at risk **8**.
+Wefunder, Republic US, StartEngine and Crowdcube remain CENSUS_INCOMPLETE. Wefunder's current 149-row listing is not a historical census; Republic US's 144 archived candidates remain estimation-ineligible. Candidate v3 remains low information: 24/24 RQ1 cells flagged; 0 reportable RQ2 cells. No Phase 1D empirical prior is promoted.
 
-Six-year output remains non-promoted. Direct substitution into P(company succeeds), P(PMF), P(financing survives) or another company-specific probability is prohibited.
+Historical scientific workflow 37899158528 passed. The saved CP5 package reports 179 tests and 43 gates. CP6 has 39 passing local conformance tests plus 10,000 randomized comparisons and 38 receipt-removal checks; full repository integration is PENDING until a current workflow receipt is saved. Do not copy local test counts into full-suite claims.
 
-## Phase 1C frozen architecture
+## Research stop gate
 
-- Layer A: all publicly launched accessible deals for coverage/selection analysis.
-- Layer B: funded/completed rounds for investor-outcome estimation.
-- Unit: economic company-round.
-- Offering year: first-live year; outcome time zero: successful close/completion.
-- Taxonomy: 12 primary fields plus Other/Diversified; one primary field plus controlled tags.
-- Identity: strong ID or at least two independent medium identifiers; name-only auto-match prohibited.
-- Estimators: Aalen–Johansen / competing risks, company-cluster bootstrap, analytic diagnostic interval.
-- Horizons: 12/24/36/60 months only when supported.
-- RQ2 gate: n≥30, at least five informative events and at least 80% ascertainment; otherwise adjacent-year pooling within maturity block or suppression.
-- Results must remain `platform_observed` unless the evidence scope changes.
+`src/phase1d/research_plateau_gate.py` requires three chronological snapshots and two distinct completed research alternatives with feedback, execution and verifier artifacts; state bindings, byte hashes, no remaining material action, no regression, and no synthetic/replay evidence. Its strongest result is a scoped candidate requiring Verifier/Jev adjudication, never empirical promotion.
 
-Do not reopen Phase 1C unless execution exposes a concrete contract failure, identity-error rate above 2%, censoring/ascertainment failure or Verifier/Jev gate failure.
+Legacy `plateau_verifier.py` cannot authorize a stop or write snapshots. Historical deterministic-a/b/c are read-only. The revised workflow audits them without altering source data. New JSON artifacts use atomic non-overwrite publication.
 
-## Phase 1D final execution state
+## Restart
 
-### Platform denominator coverage
-
-- Republic Europe: **PASS_NATIVE_ENUMERABLE**.
-- Wefunder: **CENSUS_INCOMPLETE**; 149-row recent/listed native archive recovers 0/42 known 2020 cohort members; rates suppressed.
-- Republic US: **CENSUS_INCOMPLETE**; verified 144-row archive has zero resolved cohort years, zero strong legal IDs and zero estimation-eligible rows; native recovery returned zero candidates; rates suppressed.
-- StartEngine: **CENSUS_INCOMPLETE**; browser and exact observed public endpoints were access-blocked; rates suppressed.
-- Crowdcube: **CENSUS_INCOMPLETE**; rates suppressed.
-
-No rate may be computed or promoted for a `CENSUS_INCOMPLETE` platform-year cell.
-
-### Republic Europe cohort
-
-- normalized funded rounds: **952**;
-- bounded-year/rate-eligible rows: **796**;
-- year-unresolved/suppressed rows: **156**;
-- canonical companies: **789**;
-- usable-year counts: 2020 **184**, 2021 **191**, 2022 **181**, 2023 **142**, 2024 **47**, 2025 **51**;
-- strong canonical legal ID coverage among rate-eligible rows: **100%**;
-- repeat-company NEXT_ROUND edges: **163**;
-- same-economic-round duplicate candidates: **0**.
-
-Exact first-live dates were unavailable. Republic Europe offering year is assigned only when platform approval and funded dates bound the same calendar year; the exact first-live date remains null.
-
-### Outcomes and identity
-
-- qualified priced-follow-on successes: **63**;
-- confirmed closures: **0**;
-- terminal non-closure events: **2**;
-- reviewed identity matches accepted: **5**;
-- accepted Eligible pages adding positive follow-up: **2**;
-- positive follow-up coverage among usable companies: **38.76%**;
-- 22 ambiguous identity candidates remain held.
-
-The 13 Not eligible + zero-valuation businesses were exhaustively reviewed through 41 Republic Europe captures. Fourteen phrase candidates were contractual liquidation/default language, not observed closures. Zero-valuation status remains an unresolved adverse signal only.
-
-### Candidate v3
-
-- RQ1 cells: **24**;
-- estimable RQ1 cells: **17**;
-- LOW_INFORMATION RQ1 cells: **24/24**;
-- RQ2 cells: **60**;
-- reportable RQ2 cells: **0**;
-- maximum point-estimate change from candidate v2: **0.06928**.
-
-Candidate v3 is retained as a verified low-information research artifact and supersedes v2 methodologically. It is not a promoted empirical prior.
-
-### Verification and plateau
-
-- final scientific workflow run: `37899158528`;
-- tests: **179/179 PASS**;
-- scientific gates: **43/43 PASS**;
-- deterministic plateau workflow run: `37899535030`;
-- plateau rounds `deterministic-b` and `deterministic-c`: both PASS;
-- no dimension improvement above 0.05;
-- no material label flip;
-- no source-hash change.
-
-Final Jev:
-
-- state `complete_limited_execution`: probability **0.99**;
-- version `v0.6.0`: probability **1.00**;
-- promote a new Phase 1D prior: yes probability **0.13** → no;
-- automatic merge to main: yes probability **0.42** → keep the completed package on the Phase 1D branch/PR pending deliberate merge.
-
-## Next action
-
-Phase 1D is closed. Do not repeat exhausted access routes. Further calibration improvement requires materially new public platform access, an authorized export, additional platform-hosted closure/outcome disclosures, or later follow-up time sufficient to move cells out of LOW_INFORMATION status.
+Read CP6 and its latest integration receipt; run full tests and verifier_v4; audit saved snapshots through research_plateau_gate. Resume real sourcing only with a materially different admissible source, authorized export, new platform-hosted outcome evidence, or changed access conditions. Record blockers separately from plateau. Do not fabricate two research receipts retrospectively for the old replay run.

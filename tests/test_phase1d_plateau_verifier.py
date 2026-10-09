@@ -1,52 +1,25 @@
+"""CP6 compatibility regression: no legacy call can claim research plateau."""
 import unittest
-
-from src.phase1d.plateau_verifier import compare_snapshots
-
-
-def state(value=0.5, label="stable", digest="a"):
-    return {
-        "dimensions": {"x": value, "y": 0.2},
-        "labels": {"status": label},
-        "source_hashes": {"artifact": digest},
-    }
+from src.phase1d.plateau_verifier import compare_snapshots, main, safe_round_id
 
 
 class Phase1DPlateauVerifierTests(unittest.TestCase):
-    def test_identical_state_is_plateau(self):
-        result = compare_snapshots(state(), state())
-        self.assertTrue(result["plateau"])
-        self.assertEqual(result["improvements_over_threshold"], [])
-
-    def test_exactly_point_zero_five_improvement_is_plateau(self):
-        result = compare_snapshots(state(0.5), state(0.55))
-        self.assertTrue(result["plateau"])
-
-    def test_improvement_above_threshold_breaks_plateau(self):
-        result = compare_snapshots(state(0.5), state(0.551))
+    def test_legacy_empty_snapshot_does_not_authorize_plateau(self):
+        result = compare_snapshots({}, {})
         self.assertFalse(result["plateau"])
-        self.assertEqual(result["improvements_over_threshold"], ["x"])
+        self.assertFalse(result["research_plateau"])
 
-    def test_score_decrease_does_not_break_plateau(self):
-        result = compare_snapshots(state(0.5), state(0.4))
-        self.assertTrue(result["plateau"])
+    def test_legacy_cli_cannot_overwrite_prior_snapshots(self):
+        with self.assertRaises(SystemExit):
+            main()
 
-    def test_material_label_flip_breaks_plateau(self):
-        result = compare_snapshots(state(label="a"), state(label="b"))
-        self.assertFalse(result["plateau"])
-        self.assertIn("status", result["material_label_flips"])
+    def test_safe_identifier(self):
+        self.assertEqual(safe_round_id("cp6-audit_1"), "cp6-audit_1")
 
-    def test_source_hash_change_breaks_plateau(self):
-        result = compare_snapshots(state(digest="a"), state(digest="b"))
-        self.assertFalse(result["plateau"])
-        self.assertIn("artifact", result["source_hash_changes"])
-
-    def test_missing_dimension_breaks_plateau(self):
-        before = state()
-        after = state()
-        del after["dimensions"]["y"]
-        result = compare_snapshots(before, after)
-        self.assertFalse(result["plateau"])
-        self.assertEqual(result["missing_dimensions"], ["y"])
+    def test_path_traversal_rejected(self):
+        for value in ["../a", "/a", "", "a" * 81]:
+            with self.assertRaises(ValueError):
+                safe_round_id(value)
 
 
 if __name__ == "__main__":

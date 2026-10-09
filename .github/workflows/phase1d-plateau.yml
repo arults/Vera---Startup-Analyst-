@@ -1,65 +1,54 @@
-name: Phase 1D deterministic plateau
+name: Phase 1D replay audit and research stop guard
 on:
   workflow_dispatch:
   push:
     branches: [phase-1d]
     paths:
+      - 'src/phase1d/research_plateau_gate.py'
       - 'src/phase1d/plateau_verifier.py'
+      - 'tests/test_phase1d_research_plateau_gate.py'
       - 'tests/test_phase1d_plateau_verifier.py'
       - '.github/workflows/phase1d-plateau.yml'
-concurrency:
-  group: phase1d-writer
-  cancel-in-progress: false
 permissions:
-  contents: write
+  contents: read
 jobs:
-  plateau:
+  audit:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: phase-1d
-          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install optional regression dependencies
+      - name: Install existing regression dependencies
         run: pip install requests beautifulsoup4 curl_cffi
-      - name: Run full regression suite
-        run: python -m unittest discover -s tests -v
-      - name: Verify current scientific state
-        run: python -m src.phase1d.verifier_v4
-      - name: Capture frozen plateau baseline
-        run: python -m src.phase1d.plateau_verifier --round-id deterministic-a
-      - name: Verify plateau round one
-        run: python -m src.phase1d.plateau_verifier --round-id deterministic-b --previous deterministic-a
-      - name: Verify plateau round two
-        run: python -m src.phase1d.plateau_verifier --round-id deterministic-c --previous deterministic-b
-      - name: Assert two consecutive plateau rounds
+      - name: Full regression suite
         run: |
+          mkdir -p runtime-audit
+          set -o pipefail
+          python -m unittest discover -s tests -v 2>&1 | tee runtime-audit/tests.txt
+      - name: Reverify unchanged scientific data
+        run: |
+          set -o pipefail
+          python -m src.phase1d.verifier_v4 | tee runtime-audit/scientific-verifier.txt
+      - name: Audit historical snapshots without rewriting them
+        run: |
+          python -m src.phase1d.research_plateau_gate --root . \
+            --snapshots data/phase1d/plateau/deterministic-a.json data/phase1d/plateau/deterministic-b.json data/phase1d/plateau/deterministic-c.json \
+            --output runtime-audit/research-stop-report.json
           python - <<'PY'
           import json
           from pathlib import Path
-          root=Path('data/phase1d/plateau')
-          b=json.loads((root/'deterministic-b.json').read_text())
-          c=json.loads((root/'deterministic-c.json').read_text())
-          assert b['comparison']['plateau'] is True
-          assert c['comparison']['plateau'] is True
-          assert not b['comparison']['improvements_over_threshold']
-          assert not c['comparison']['improvements_over_threshold']
-          assert not b['comparison']['material_label_flips']
-          assert not c['comparison']['material_label_flips']
-          print('TWO_CONSECUTIVE_DETERMINISTIC_PLATEAU_ROUNDS=PASS')
+          result=json.loads(Path('runtime-audit/research-stop-report.json').read_text())
+          assert result['research_plateau'] is False
+          assert result['empirical_promotion'] is False
+          assert 'two_substantive_iteration_receipts_required' in result['reasons']
+          print('GUARD_PASS: historical replay is NOT research plateau')
           PY
-      - name: Persist deterministic plateau evidence
-        run: |
-          git config user.name "vera-phase1d-bot"
-          git config user.email "vera-phase1d-bot@users.noreply.github.com"
-          git add data/phase1d/plateau/
-          if ! git diff --cached --quiet; then
-            git commit -m "Phase 1D: persist deterministic plateau evidence [skip ci]"
-            git fetch origin phase-1d
-            git rebase origin/phase-1d
-            git push origin HEAD:phase-1d
-          fi
+      - name: Retain audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase1d-cp6-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: runtime-audit/
+          if-no-files-found: error
