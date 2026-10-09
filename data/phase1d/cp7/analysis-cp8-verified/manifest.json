@@ -1,0 +1,18 @@
+{
+  "baseline_data_preserved_files": 179,
+  "created_at": "2026-10-09T15:25:30.091815+00:00",
+  "outputs": {
+    "candidate_v3_to_v4_comparison.csv": "311d97c9cacd2884c1f7ee6f31d42802b6072b787f9330eee74426b01d5e34ba",
+    "preserved_pre_cp7_data_hashes.json": "f0b8a87c8a9066b758f5e1b23ce3e6671d132aaa797b3f1c12c513c6a320413c",
+    "republic_europe_all_later_exact_pair_audit.csv": "530a7459cdab90cb15b0bbbe8ece80caf5572d5114c120a20eb88d285be8bc34",
+    "republic_europe_changes.csv": "0ffc46aeb7019ff1b148e70b184fdbafa40ac9883f31162311ee145211b46223",
+    "republic_europe_outcome_ledger_v5.csv": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+    "republic_europe_rq1_candidate_v4.csv": "15b5db6c9fcb3bc226fed78de089ad1c48a5c20411895f0298156c9b0e61e426",
+    "republic_europe_rq2_candidate_v4.csv": "d6443adbac3f82cc87ba7136bf6f40f0c22809a2b3a3152159c2a40bca884294",
+    "republic_europe_verified_campaign_prices.csv": "fd7d1a764dfafabc99141632611c0526deba987fdd3ba442292db9d427d21a93",
+    "republic_us_campaign_candidates.csv": "3cf129821f44c8b03a6526a4fa89c5f2369772af7986ea8f3aba80981f74085c",
+    "scientific_verifier.json": "7e6d91ac10cd14020555e6941ede5b4cab10f89f6848a059fa4990a9388458ad",
+    "summary.json": "5bad417522874c5786e144a788d9b5f4c8787b362519693d78192820e9efa09c",
+    "wefunder_public_profile_event_candidates.csv": "20c466c83e96d361c3a2ef17640433b479cdcf551773a0970a2de7d7bd8ad5ef"
+  }
+}

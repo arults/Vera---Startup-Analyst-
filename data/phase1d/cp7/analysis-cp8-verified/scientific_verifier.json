@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "all_capture_hashes_verified": true,
+    "all_equity_exact_values_independently_dom_verified": true,
+    "all_pre_cp7_data_files_preserved": true,
+    "all_repeat_legal_ids_independently_dom_verified": true,
+    "all_repeat_sources_bound_to_raw_identity_date_instrument": true,
+    "all_repeat_sources_captured": true,
+    "all_successes_within_supported_followup": true,
+    "candidate_rates_not_promoted": true,
+    "closure_labels_unchanged_without_new_evidence": true,
+    "cohort_cardinality_unchanged": true,
+    "cohort_ids_unchanged": true,
+    "cohort_years_unchanged": true,
+    "followup_nondecreasing": true,
+    "independent_all_pairs_oracle_agrees": true,
+    "no_2026_cohort_added": true,
+    "no_event_after_cutoff": true,
+    "old_terminal_rows_not_reopened": true,
+    "strong_id_collision_gates": true,
+    "us_candidates_not_rate_eligible": true,
+    "us_close_dates_not_misassigned_as_first_live": true,
+    "wf_profile_events_not_rate_eligible": true
+  },
+  "passed": 21,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "total": 21
+}

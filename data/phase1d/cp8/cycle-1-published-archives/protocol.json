@@ -1,0 +1,18 @@
+{
+  "Jev_choice": "published_archives_plus_reconciled_cp7",
+  "Jev_confidence": 1.0,
+  "Jev_probability": 1.0,
+  "index_evidence": "Web tool opened official index 2026-10-09, source turn751014view0, lines23-65; three direct archive links followed.",
+  "max_consecutive_errors": 2,
+  "minimum_request_spacing_seconds": 1,
+  "rules": [
+    "RegCF is not RegA/RegD.",
+    "A Form C is not confirmed funding.",
+    "Filing date is not first-live.",
+    "C-TR is not company closure.",
+    "No promotion, no main merge, no access bypass."
+  ],
+  "scope": "EXTERNAL_REGULATOR_DISCOVERY_ONLY",
+  "source_index": "https://www.sec.gov/data-research/sec-markets-data/crowdfunding-offerings-data-sets",
+  "started_at": "2026-10-09T15:25:09.388332+00:00"
+}
