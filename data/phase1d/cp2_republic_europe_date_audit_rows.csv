@@ -1,0 +1,953 @@
+campaign_name,candidate_url,company_number,funded_date,funded_year,approval_date,approval_year,lag_days,same_calendar_year
+Smoke & Salt,https://europe.republic.com/smokeandsalt,10163379,2020-01-06,2020,2019-10-17,2019,81,False
+Sustainable Accelerator 2019,https://europe.republic.com/saif3,,2020-01-09,2020,2019-10-18,2019,83,False
+Salcombe Distilling Co.,https://europe.republic.com/salcombegin,09140632,2020-01-09,2020,2019-11-21,2019,49,False
+Skinny Tonic™️,https://europe.republic.com/skinny-tonic,10843995,2020-01-17,2020,2019-12-19,2019,29,False
+Nc'nean,https://europe.republic.com/ncnean,SC445789,2020-01-17,2020,2019-12-04,2019,44,False
+JAFA (Just A Fan's Analysis),https://europe.republic.com/jafa,10334837,2020-01-21,2020,2019-12-05,2019,47,False
+The British Snack Co.,https://europe.republic.com/the-british-snack-co,08647804,2020-01-25,2020,2019-11-15,2019,71,False
+Koor,https://europe.republic.com/koor,11802407,2020-01-26,2020,2019-11-15,2019,72,False
+Found,https://europe.republic.com/found,61332,2020-01-27,2020,2019-11-15,2019,73,False
+Baanx,https://europe.republic.com/baanx,11155938,2020-01-30,2020,2019-11-22,2019,69,False
+Lazy Flora,https://europe.republic.com/lazyflora,,2020-01-31,2020,2019-11-22,2019,70,False
+Safari Deal,https://europe.republic.com/safari-deal,11040155,2020-01-31,2020,2019-10-03,2019,120,False
+The BIB Wine Company,https://europe.republic.com/bibwine,10760777,2020-02-03,2020,2019-12-04,2019,61,False
+Breca Swimrun,https://europe.republic.com/brecaswimrun,8838707,2020-02-03,2020,2019-11-01,2019,94,False
+Padoq,https://europe.republic.com/padoq,08599320,2020-02-05,2020,2019-09-26,2019,132,False
+Innis & Gunn,https://europe.republic.com/innisandgunn,SC335320,2020-02-06,2020,2019-11-07,2019,91,False
+Q Doctor,https://europe.republic.com/qdoctor,09768044,2020-02-07,2020,2019-10-16,2019,114,False
+Sullivan's Brewing Co,https://europe.republic.com/sullivan-s-brewing-co,541748,2020-02-11,2020,2019-10-18,2019,116,False
+Yodomo,https://europe.republic.com/yodomo2,10555641,2020-02-18,2020,2020-01-15,2020,34,True
+Fleet,https://europe.republic.com/fleet1,586289,2020-02-18,2020,2019-11-11,2019,99,False
+Drinkly,https://europe.republic.com/drinkly,SC561782,2020-02-18,2020,2019-12-11,2019,69,False
+Bricksave,https://europe.republic.com/bricksave,10140737,2020-02-20,2020,2019-11-29,2019,83,False
+HubrisOne,https://europe.republic.com/hubrisone2,11529615,2020-02-24,2020,2019-12-10,2019,76,False
+Tiimo,https://europe.republic.com/tiimo1,36904089,2020-02-24,2020,2019-12-06,2019,80,False
+Hycube,https://europe.republic.com/hycube,HRB718714,2020-02-26,2020,2020-01-08,2020,49,True
+AndCo,https://europe.republic.com/andco,10809914,2020-02-28,2020,2020-01-07,2020,52,True
+Holly and Beau,https://europe.republic.com/holly-and-beau1,08143964,2020-03-02,2020,2020-01-09,2020,53,True
+Thread Tales,https://europe.republic.com/threadtales,10549699,2020-03-04,2020,2019-09-30,2019,156,False
+savvy navvy,https://europe.republic.com/savvy-navvy1,10919572,2020-03-04,2020,2020-02-03,2020,30,True
+Learn Amp,https://europe.republic.com/learn-amp,08570213,2020-03-06,2020,2020-02-19,2020,16,True
+allplants,https://europe.republic.com/allplants,10185899,2020-03-07,2020,2020-02-06,2020,30,True
+Firetree Chocolate,https://europe.republic.com/firetree-chocolate,10360756,2020-03-09,2020,2020-01-14,2020,55,True
+Elfin Market,https://europe.republic.com/elfin-market,10309136,2020-03-10,2020,2020-01-24,2020,46,True
+CityFALCON,https://europe.republic.com/cityfalcon4,09107763,2020-03-15,2020,2020-01-30,2020,45,True
+The Funky Appliance Company,https://europe.republic.com/the-funky-appliance-company,10248770,2020-03-15,2020,2020-01-27,2020,48,True
+Trisbee,https://europe.republic.com/trisbee,CZ04775660,2020-03-16,2020,2020-02-07,2020,38,True
+StadtFarm,https://europe.republic.com/stadtfarm,HRB132858B,2020-03-16,2020,2020-01-17,2020,59,True
+TheVeganKind,https://europe.republic.com/thevegankind,08610535,2020-03-17,2020,2020-01-28,2020,49,True
+AxiaFunder,https://europe.republic.com/axiafunder,10532108,2020-03-17,2020,2020-02-24,2020,22,True
+ManíLife,https://europe.republic.com/manilife2,09617757,2020-03-18,2020,2020-02-14,2020,33,True
+Wombat Invest,https://europe.republic.com/wombat-invest,10966427,2020-03-18,2020,2020-02-13,2020,34,True
+Quin,https://europe.republic.com/quin,09206022,2020-03-26,2020,2020-02-24,2020,31,True
+BEEN London,https://europe.republic.com/been-london,11580598,2020-03-27,2020,2020-02-27,2020,29,True
+Bidvine,https://europe.republic.com/bidvine,09242142,2020-03-31,2020,2020-02-28,2020,32,True
+Gone West,https://europe.republic.com/gonewest,08771195,2020-04-01,2020,2019-11-29,2019,124,False
+Noa Marine,https://europe.republic.com/noa,KRS0000606618,2020-04-01,2020,2019-10-18,2019,166,False
+Fully Charged,https://europe.republic.com/fullycharged,10798872,2020-04-09,2020,2020-03-08,2020,32,True
+NEVOMO,https://europe.republic.com/hyper-poland1,0000674695,2020-04-10,2020,2020-02-17,2020,53,True
+Flooring Hut,https://europe.republic.com/flooringhut2,09611722,2020-04-11,2020,2020-03-18,2020,24,True
+Big Drop Brewing Co,https://europe.republic.com/big-drop-brewing-co,10305828,2020-04-13,2020,2020-02-12,2020,61,True
+Miso Tasty,https://europe.republic.com/misotasty3,07887611,2020-04-15,2020,2020-02-25,2020,50,True
+GUNNA Drinks,https://europe.republic.com/gunna-drinks,09895112,2020-04-22,2020,2020-03-23,2020,30,True
+Zeigo Energy,https://europe.republic.com/zeigo-energy,11255249,2020-04-22,2020,2020-04-09,2020,13,True
+Different Dog,https://europe.republic.com/differentdog,10589054,2020-04-23,2020,2020-03-04,2020,50,True
+Ticketpass,https://europe.republic.com/ticketpass,10885983,2020-04-24,2020,2020-01-15,2020,100,True
+GeoDB,https://europe.republic.com/geodb,11858893,2020-04-28,2020,2020-02-26,2020,62,True
+The Cheeky Panda,https://europe.republic.com/cheekypanda,09936357,2020-05-05,2020,2020-04-03,2020,32,True
+Propetly,https://europe.republic.com/propetly,11381518,2020-05-05,2020,2020-02-25,2020,70,True
+Ayoa by OpenGenius,https://europe.republic.com/ayoa,05653541,2020-05-13,2020,2020-04-21,2020,22,True
+LuggageHero,https://europe.republic.com/luggagehero1,DK37611328,2020-05-15,2020,2020-04-23,2020,22,True
+Lifetise,https://europe.republic.com/lifetise,08202341,2020-05-18,2020,2020-03-02,2020,77,True
+3RD ROCK,https://europe.republic.com/3rdrock,07120773,2020-05-21,2020,2020-02-28,2020,83,True
+AdLaunch,https://europe.republic.com/adlaunch2,10502395,2020-05-22,2020,2020-03-09,2020,74,True
+Crua Outdoors,https://europe.republic.com/crua-outdoors2,553249(Ireland),2020-05-25,2020,2020-02-25,2020,90,True
+Lupe Technology,https://europe.republic.com/lupe-technology,08988260,2020-05-26,2020,2020-04-01,2020,55,True
+Riversimple,https://europe.republic.com/riversimple2,09623909,2020-06-04,2020,2020-05-21,2020,14,True
+Ripple,https://europe.republic.com/ripple1,10565718,2020-06-04,2020,2020-05-23,2020,12,True
+planarTECH,https://europe.republic.com/planartech,12397187,2020-06-04,2020,2020-02-26,2020,99,True
+Creative Hub,https://europe.republic.com/creativehub,06043884,2020-06-05,2020,2020-04-01,2020,65,True
+Tech Will Save Us,https://europe.republic.com/tech-will-save-us,07661485,2020-06-05,2020,2020-04-27,2020,39,True
+Perfect World,https://europe.republic.com/perfect-world1,8080000,2020-06-08,2020,2020-04-06,2020,63,True
+UnderTheDoormat,https://europe.republic.com/underthedoormat3,08968561,2020-06-10,2020,2020-05-21,2020,20,True
+EstateGuru,https://europe.republic.com/estateguru-2020,12558919,2020-06-11,2020,2020-04-28,2020,44,True
+GUNNA Drinks,https://europe.republic.com/gunna-drinks1,09895112,2020-06-12,2020,2020-05-22,2020,21,True
+Killing Kittens,https://europe.republic.com/killing-kittens,07613827,2020-06-13,2020,2020-05-22,2020,22,True
+TV.FIT,https://europe.republic.com/tv-fit,SC541304,2020-06-13,2020,2020-04-28,2020,46,True
+Algarve Rock Brewery,https://europe.republic.com/algarve-rock-brewery,12164445,2020-06-16,2020,2020-03-24,2020,84,True
+Lendahand,https://europe.republic.com/lendahand,55711766,2020-06-16,2020,2020-05-01,2020,46,True
+Troubadour Goods,https://europe.republic.com/troubadour-goods2,07870731,2020-06-19,2020,2020-05-11,2020,39,True
+Doordeck,https://europe.republic.com/doordeck,09482374,2020-06-24,2020,2020-02-06,2020,139,True
+Mr Lee's Pure Foods Co,https://europe.republic.com/mrlees,09679948,2020-06-24,2020,2020-04-14,2020,71,True
+Cranes,https://europe.republic.com/cranes2,08637309,2020-06-25,2020,2020-05-07,2020,49,True
+Future Planet Capital,https://europe.republic.com/future-planet-capital,306743,2020-06-29,2020,2020-04-16,2020,74,True
+Slim Wine,https://europe.republic.com/slim-wine,11039619,2020-07-03,2020,2020-05-18,2020,46,True
+Brickowner,https://europe.republic.com/brickowner7,11938868,2020-07-06,2020,2020-05-14,2020,53,True
+Eversend,https://europe.republic.com/eversend,831566112,2020-07-09,2020,2020-05-15,2020,55,True
+And I Wonder,https://europe.republic.com/and-i-wonder,PT510648550,2020-07-09,2020,2020-04-28,2020,72,True
+Electric Dutchman,https://europe.republic.com/electricdutchman,65461304,2020-07-10,2020,2020-04-08,2020,93,True
+Pynk,https://europe.republic.com/pynk,11339494,2020-07-11,2020,2020-05-28,2020,44,True
+Houst (Airsorted),https://europe.republic.com/houst,09423618,2020-07-13,2020,2020-06-17,2020,26,True
+Strowz,https://europe.republic.com/strowz,10540836,2020-07-13,2020,2020-05-27,2020,47,True
+Assetz Capital,https://europe.republic.com/assetz-capital3,8007191,2020-07-16,2020,2020-06-01,2020,45,True
+Pass The Keys,https://europe.republic.com/pass-the-keys,09546159,2020-07-20,2020,2020-06-10,2020,40,True
+FutureYou Cambridge,https://europe.republic.com/future-you-cambridge,07322398,2020-07-21,2020,2020-06-24,2020,27,True
+Knoma,https://europe.republic.com/knoma,1650366,2020-07-22,2020,2020-05-22,2020,61,True
+Darqube,https://europe.republic.com/darqube,12197411,2020-07-25,2020,2020-06-11,2020,44,True
+Honestly Good Smoothie Company,https://europe.republic.com/honestlygood,10027821,2020-07-27,2020,2020-03-05,2020,144,True
+SamsonVT,https://europe.republic.com/samsonvt1,11043300,2020-07-28,2020,2020-07-03,2020,25,True
+miiCARE,https://europe.republic.com/miicare,11250727,2020-08-01,2020,2020-05-28,2020,65,True
+West Berkshire Brewery,https://europe.republic.com/west-berkshire-brewery1,03667842,2020-08-03,2020,2020-05-20,2020,75,True
+Propelair,https://europe.republic.com/propelair,03681995,2020-08-03,2020,2020-06-12,2020,52,True
+BIOHM | Future of Home,https://europe.republic.com/biohm,10271534,2020-08-05,2020,2020-06-04,2020,62,True
+Square Mile Farms,https://europe.republic.com/square-mile-farms,11628016,2020-08-06,2020,2020-06-18,2020,49,True
+One Year No Beer (OYNB),https://europe.republic.com/oynb,09626599,2020-08-10,2020,2020-06-18,2020,53,True
+AirSensa,https://europe.republic.com/airsensa,10858151,2020-08-10,2020,2020-05-21,2020,81,True
+nHouse,https://europe.republic.com/nhouse1,10453844,2020-08-11,2020,2020-06-15,2020,57,True
+Intellibonds,https://europe.republic.com/intellibonds,11616273,2020-08-11,2020,2020-06-26,2020,46,True
+MATE.BIKE,https://europe.republic.com/matebike,37934208,2020-08-11,2020,2020-06-30,2020,42,True
+Nude,https://europe.republic.com/nude,10761771,2020-08-12,2020,2020-07-03,2020,40,True
+THIS™,https://europe.republic.com/this,11104088,2020-08-14,2020,2020-08-06,2020,8,True
+BYP Network,https://europe.republic.com/bypnetwork,10440856,2020-08-17,2020,2020-07-03,2020,45,True
+Span Health,https://europe.republic.com/span-health,11497171,2020-08-17,2020,2020-06-18,2020,60,True
+CapitalRise,https://europe.republic.com/capitalrise2,09571824,2020-08-19,2020,2020-07-21,2020,29,True
+We Build Bots,https://europe.republic.com/webuildbots2,10899737,2020-08-19,2020,2020-06-26,2020,54,True
+honcho,https://europe.republic.com/honcho,09190148,2020-08-23,2020,2020-07-08,2020,46,True
+Thyngs,https://europe.republic.com/thyngs1,10049849,2020-08-25,2020,2020-06-19,2020,67,True
+Bagboard,https://europe.republic.com/bagboard,10412336,2020-08-25,2020,2020-07-02,2020,54,True
+Marine Power Systems,https://europe.republic.com/marine-power-systems,06669123,2020-08-26,2020,2020-07-03,2020,54,True
+Livia's,https://europe.republic.com/livias,09209224,2020-08-26,2020,2020-07-31,2020,26,True
+Thalamos,https://europe.republic.com/thalamos2,10814088,2020-09-01,2020,2020-08-12,2020,20,True
+CakeDrop,https://europe.republic.com/cakedrop,10295405,2020-09-02,2020,2020-06-12,2020,82,True
+Cracker Drinks Co Ltd,https://europe.republic.com/cracker-drinks,06209979,2020-09-03,2020,2020-07-17,2020,48,True
+Fore Fitness Group,https://europe.republic.com/fore-fitness,11849873,2020-09-09,2020,2020-05-22,2020,110,True
+Avallen Spirits,https://europe.republic.com/avallen-spirits,74063642,2020-09-09,2020,2020-07-20,2020,51,True
+Not In The Guidebooks,https://europe.republic.com/not-in-the-guidebooks,10554780,2020-09-14,2020,2020-07-16,2020,60,True
+Green,https://europe.republic.com/green,11042716,2020-09-15,2020,2020-06-30,2020,77,True
+Urban,https://europe.republic.com/urban,09948725,2020-09-16,2020,2020-08-26,2020,21,True
+FETCH,https://europe.republic.com/fetch,11071470,2020-09-22,2020,2020-07-02,2020,82,True
+The Brook,https://europe.republic.com/the-brook2,11349127,2020-09-22,2020,2020-08-07,2020,46,True
+People Matter.,https://europe.republic.com/people-matter,11172525,2020-09-23,2020,2020-07-09,2020,76,True
+Sophia Technologies,https://europe.republic.com/sophia-technologies,11541298,2020-09-23,2020,2020-07-21,2020,64,True
+Zumo,https://europe.republic.com/zumo,SC583644,2020-09-25,2020,2020-08-21,2020,35,True
+Echofin,https://europe.republic.com/echofin,6805417,2020-09-29,2020,2020-07-17,2020,74,True
+Heard,https://europe.republic.com/heard,10592427,2020-10-05,2020,2020-06-22,2020,105,True
+Stem & Glory,https://europe.republic.com/stemglory,11013817,2020-10-06,2020,2020-08-19,2020,48,True
+Nourish,https://europe.republic.com/nourish1,09907004,2020-10-08,2020,2020-08-05,2020,64,True
+LoyalT,https://europe.republic.com/loyalt,11129723,2020-10-09,2020,2020-07-29,2020,72,True
+CityFALCON,https://europe.republic.com/cityfalcon5,09107763,2020-10-14,2020,2020-09-23,2020,21,True
+Unifi,https://europe.republic.com/unifi,12090101,2020-10-14,2020,2020-08-24,2020,51,True
+MapStand,https://europe.republic.com/mapstand,09648878,2020-10-15,2020,2020-09-07,2020,38,True
+Farmstand,https://europe.republic.com/farmstand,09899173,2020-10-15,2020,2020-07-17,2020,90,True
+Really Local Group,https://europe.republic.com/really-local-group,11050534,2020-10-16,2020,2020-07-31,2020,77,True
+Family Secret,https://europe.republic.com/family-secret,9464530,2020-10-16,2020,2020-06-25,2020,113,True
+DeadHappy,https://europe.republic.com/deadhappy,08624700,2020-10-19,2020,2020-09-17,2020,32,True
+DCYPHER,https://europe.republic.com/dcypher,09107848,2020-10-19,2020,2020-09-14,2020,35,True
+Something & Nothing,https://europe.republic.com/somethingandnothing,10928856,2020-10-19,2020,2020-08-28,2020,52,True
+Burleighs Gin,https://europe.republic.com/burleighsgin,11100191,2020-10-19,2020,2020-05-29,2020,143,True
+Yayzy,https://europe.republic.com/yayzy,12272318,2020-10-19,2020,2020-08-27,2020,53,True
+iknowa,https://europe.republic.com/iknowa,12234230,2020-10-20,2020,2020-07-30,2020,82,True
+Prepaired,https://europe.republic.com/prepaired,12545007,2020-10-20,2020,2020-08-17,2020,64,True
+Billmonitor,https://europe.republic.com/billmonitor1,05391490,2020-10-21,2020,2020-09-24,2020,27,True
+RoosterMoney,https://europe.republic.com/roostermoney,06830114,2020-10-21,2020,2020-09-16,2020,35,True
+Upside Saving,https://europe.republic.com/upsidesaving,12393337,2020-10-22,2020,2020-08-17,2020,66,True
+Abundance investment,https://europe.republic.com/abundance,07049166,2020-10-23,2020,2020-09-10,2020,43,True
+Antaco,https://europe.republic.com/antaco,07802022,2020-10-26,2020,2020-09-04,2020,52,True
+easyHire,https://europe.republic.com/easyhire,10754055,2020-10-29,2020,2020-10-09,2020,20,True
+Rnwl,https://europe.republic.com/rnwl,12091439,2020-10-31,2020,2020-09-07,2020,54,True
+Snoop,https://europe.republic.com/snoop,11797870,2020-11-05,2020,2020-09-20,2020,46,True
+Intelligent Internet Machines,https://europe.republic.com/iim,BE0628.984.820,2020-11-05,2020,2020-09-25,2020,41,True
+Clima Investments,https://europe.republic.com/clima-investments,12292575,2020-11-07,2020,2020-10-23,2020,15,True
+Nuw,https://europe.republic.com/nuw,11344064,2020-11-10,2020,2020-09-02,2020,69,True
+PHARMASEAL,https://europe.republic.com/pharmaseal,09993255,2020-11-13,2020,2020-09-01,2020,73,True
+Mazzanti Automobili,https://europe.republic.com/mazzanti-automobili,PI-190687,2020-11-13,2020,2020-09-04,2020,70,True
+Podcast Radio,https://europe.republic.com/podcastradio,11783984,2020-11-16,2020,2020-08-21,2020,87,True
+Feastr,https://europe.republic.com/feastr,11951302,2020-11-23,2020,2020-10-08,2020,46,True
+Perspective Pictures,https://europe.republic.com/perspective-pictures1,09996201,2020-11-24,2020,2020-09-24,2020,61,True
+Aguulp,https://europe.republic.com/aguulp,11782769,2020-11-25,2020,2020-10-01,2020,55,True
+Big Night,https://europe.republic.com/big-night,12633787,2020-11-25,2020,2020-09-18,2020,68,True
+Cook + Thief,https://europe.republic.com/cookandthief,08264057,2020-11-30,2020,2020-09-09,2020,82,True
+South Shields Football Club,https://europe.republic.com/southshieldsfc,12291987,2020-11-30,2020,2020-10-06,2020,55,True
+Twin Science & Robotics,https://europe.republic.com/twin,12768352,2020-11-30,2020,2020-09-30,2020,61,True
+Ziglu,https://europe.republic.com/ziglu,09204810,2020-12-01,2020,2020-09-18,2020,74,True
+Heights,https://europe.republic.com/heights,08403776,2020-12-03,2020,2020-11-25,2020,8,True
+Uni Compare,https://europe.republic.com/uni-compare,08108791,2020-12-04,2020,2020-10-30,2020,35,True
+Zobi,https://europe.republic.com/zobi1,11335678,2020-12-04,2020,2020-09-17,2020,78,True
+Coinrule,https://europe.republic.com/coinrule,11265766,2020-12-06,2020,2020-10-16,2020,51,True
+WhyBuy,https://europe.republic.com/whybuy,11781520,2020-12-07,2020,2020-09-11,2020,87,True
+Laka Insurance,https://europe.republic.com/laka,10575209,2020-12-08,2020,2020-11-05,2020,33,True
+Kraydel,https://europe.republic.com/kraydel,NI638874,2020-12-08,2020,2020-10-15,2020,54,True
+Evaclite,https://europe.republic.com/evaclite,11820274,2020-12-11,2020,2020-10-30,2020,42,True
+Float,https://europe.republic.com/float,07368809,2020-12-14,2020,2020-10-27,2020,48,True
+The Cauldron,https://europe.republic.com/the-cauldron,11344372,2020-12-14,2020,2020-10-14,2020,61,True
+LANDBAY,https://europe.republic.com/landbay12,08668507,2020-12-15,2020,2020-11-27,2020,18,True
+Nebeus,https://europe.republic.com/nebeus,09492138,2020-12-15,2020,2020-11-06,2020,39,True
+Equipsme,https://europe.republic.com/equipsme,10652765,2020-12-15,2020,2020-11-04,2020,41,True
+Peckwater Brands,https://europe.republic.com/peckwater-brands,12284429,2020-12-15,2020,2020-11-12,2020,33,True
+FutureBricks,https://europe.republic.com/futurebricks,10190839,2020-12-16,2020,2020-10-30,2020,47,True
+blend my day,https://europe.republic.com/blend-my-day,FC037095,2020-12-16,2020,2020-11-05,2020,41,True
+Loowatt,https://europe.republic.com/loowatt,07082726,2020-12-17,2020,2020-11-02,2020,45,True
+Gravity Co-Living,https://europe.republic.com/gravity-coliving,10893206,2020-12-17,2020,2020-10-09,2020,69,True
+&SISTERS,https://europe.republic.com/andsisters,10510951,2020-12-18,2020,2020-10-28,2020,51,True
+GuestReady,https://europe.republic.com/guestready,CHE-200.707.566,2020-12-18,2020,2020-10-28,2020,51,True
+Zeigo Energy,https://europe.republic.com/zeigo-energy1,11255249,2020-12-19,2020,2020-12-08,2020,11,True
+Personalised Co,https://europe.republic.com/personalised-co,11710632,2020-12-20,2020,2020-10-15,2020,66,True
+Brickowner,https://europe.republic.com/brickowner8,11938868,2020-12-21,2020,2020-11-05,2020,46,True
+gowithYamo,https://europe.republic.com/gowithyamo,12668131,2020-12-21,2020,2020-11-13,2020,38,True
+Wavepaths,https://europe.republic.com/joinwavepaths,10485374,2020-12-22,2020,2020-10-28,2020,55,True
+Paysme,https://europe.republic.com/paysme,07435577,2020-12-23,2020,2020-11-13,2020,40,True
+ByRuby,https://europe.republic.com/byruby,10767605,2020-12-23,2020,2020-11-17,2020,36,True
+Bambooloo,https://europe.republic.com/bambooloo,12173827,2020-12-25,2020,2020-10-19,2020,67,True
+golfscape,https://europe.republic.com/golfscape,1762145(BVI),2020-12-26,2020,2020-10-12,2020,75,True
+Vertically Urban,https://europe.republic.com/verticallyurban,12197956,2020-12-27,2020,2020-11-03,2020,54,True
+Upside Down House UK™,https://europe.republic.com/upsidedownhouse,11378846,2020-12-28,2020,2020-11-13,2020,45,True
+Ripple,https://europe.republic.com/ripple2,10565718,2020-12-29,2020,2020-11-06,2020,53,True
+Fortu Wealth,https://europe.republic.com/fortu,11966971,2020-12-29,2020,2020-11-09,2020,50,True
+Coconuts Organic,https://europe.republic.com/coconutsorganic1,08930892,2020-12-30,2020,2020-12-15,2020,15,True
+Assetz Exchange,https://europe.republic.com/assetz-exchange2,09285310,2020-12-30,2020,2020-10-29,2020,62,True
+Nova,https://europe.republic.com/nova,10189159,2020-12-30,2020,2020-10-22,2020,69,True
+GeoDB,https://europe.republic.com/geodb1,11858893,2020-12-31,2020,2020-11-13,2020,48,True
+HealthBox,https://europe.republic.com/healthbox,12485469,2020-12-31,2020,2020-11-27,2020,34,True
+FoodMarble,https://europe.republic.com/foodmarble,574999,2021-01-01,2021,2020-12-04,2020,28,False
+Sweep,https://europe.republic.com/sweep,10648989,2021-01-06,2021,2020-11-06,2020,61,False
+Sustainable Accelerator 4,https://europe.republic.com/sa4,,2021-01-07,2021,2020-09-30,2020,99,False
+Skinny Tonic,https://europe.republic.com/skinny-tonic2,10843995,2021-01-07,2021,2020-11-14,2020,54,False
+GridDuck,https://europe.republic.com/gridduck,09545657,2021-01-11,2021,2020-10-16,2020,87,False
+Equals Health,https://europe.republic.com/equals-health,10625531,2021-01-12,2021,2020-11-19,2020,54,False
+Koor,https://europe.republic.com/koor1,11802407,2021-01-15,2021,2020-11-27,2020,49,False
+Wurkr Ltd,https://europe.republic.com/wurkr,11067728,2021-01-18,2021,2020-11-24,2020,55,False
+Whatbook,https://europe.republic.com/whatbook,SC571818,2021-01-18,2021,2020-12-01,2020,48,False
+WRAP,https://europe.republic.com/wrap,12007546,2021-01-21,2021,2020-11-12,2020,70,False
+Hiro,https://europe.republic.com/hiro,12787431,2021-01-22,2021,2021-01-14,2021,8,True
+Solivus,https://europe.republic.com/solivus,10076849,2021-01-26,2021,2020-12-04,2020,53,False
+Karshare,https://europe.republic.com/karshare,09992443,2021-01-27,2021,2020-11-20,2020,68,False
+Your Dog's Club,https://europe.republic.com/your-dogs-club,11825005,2021-01-27,2021,2021-01-06,2021,21,True
+Gamerpro,https://europe.republic.com/gamerpro,09543452,2021-01-28,2021,2021-01-08,2021,20,True
+nHouse,https://europe.republic.com/nhouse2,10453844,2021-01-28,2021,2020-10-27,2020,93,False
+Wavepiston,https://europe.republic.com/wavepiston,35680829,2021-01-28,2021,2020-11-24,2020,65,False
+Conigital,https://europe.republic.com/conigital,09696591,2021-01-29,2021,2020-10-30,2020,91,False
+HUN Wines,https://europe.republic.com/hun-wines,12097240,2021-02-02,2021,2021-01-21,2021,12,True
+Kestrl,https://europe.republic.com/kestrl,12297799,2021-02-03,2021,2020-12-04,2020,61,False
+Lemonade Dolls,https://europe.republic.com/lemonadedolls,09185882,2021-02-06,2021,2020-12-17,2020,51,False
+Nooro,https://europe.republic.com/nooro,12142171,2021-02-07,2021,2020-12-17,2020,52,False
+Capture Education,https://europe.republic.com/capture-education,10923840,2021-02-08,2021,2020-09-17,2020,144,False
+Borrow A Boat,https://europe.republic.com/borrow-a-boat,10490013,2021-02-09,2021,2020-12-16,2020,55,False
+Pleasy Play,https://europe.republic.com/pleasy-play,516119478,2021-02-13,2021,2020-12-17,2020,58,False
+Hydro Wind Energy,https://europe.republic.com/hydro-wind-energy1,11194750,2021-02-16,2021,2021-01-25,2021,22,True
+Virtually Visiting,https://europe.republic.com/virtuallyvisiting,12617723,2021-02-17,2021,2021-01-28,2021,20,True
+Drop Wine App,https://europe.republic.com/dropwine,10519028,2021-02-19,2021,2020-12-08,2020,73,False
+Carverter,https://europe.republic.com/carverter,11670586,2021-02-22,2021,2020-12-22,2020,62,False
+Uhive,https://europe.republic.com/uhive,11200253,2021-02-23,2021,2020-10-23,2020,123,False
+Aqua British,https://europe.republic.com/aquabritish,11556275,2021-02-23,2021,2021-02-11,2021,12,True
+Comino,https://europe.republic.com/comino,10541126,2021-02-25,2021,2020-11-27,2020,90,False
+trukl,https://europe.republic.com/trukl,12033978,2021-03-01,2021,2021-01-14,2021,46,True
+Halo Coffee,https://europe.republic.com/halocoffee,10008523,2021-03-03,2021,2020-12-04,2020,89,False
+BlockDox,https://europe.republic.com/blockdox,10201527,2021-03-04,2021,2021-01-11,2021,52,True
+Hypha,https://europe.republic.com/hypha,12555768,2021-03-05,2021,2021-01-11,2021,53,True
+Maison Sport,https://europe.republic.com/maison-sport1,09903593,2021-03-08,2021,2021-01-06,2021,61,True
+WATR,https://europe.republic.com/watr,11026072,2021-03-08,2021,2021-01-15,2021,52,True
+Get Set Pet,https://europe.republic.com/getsetpet,11814871,2021-03-08,2021,2021-01-07,2021,60,True
+Voyager CBD,https://europe.republic.com/voyagercbd,SC680788,2021-03-08,2021,2021-02-11,2021,25,True
+QED Naval,https://europe.republic.com/qed-naval,SC339873,2021-03-09,2021,2020-12-21,2020,78,False
+UFODRIVE,https://europe.republic.com/ufodrive,B221549,2021-03-11,2021,2020-12-11,2020,90,False
+SwipeStation,https://europe.republic.com/swipestation1,08051966,2021-03-15,2021,2021-01-15,2021,59,True
+FounderTribes,https://europe.republic.com/foundertribes,12967944,2021-03-15,2021,2021-02-26,2021,17,True
+Vegums,https://europe.republic.com/vegums,10388042,2021-03-16,2021,2021-03-05,2021,11,True
+easyProperty,https://europe.republic.com/easyproperty,06389052,2021-03-17,2021,2021-01-22,2021,54,True
+Screach,https://europe.republic.com/screach,07007633,2021-03-17,2021,2020-11-06,2020,131,False
+Percayso,https://europe.republic.com/percayso,10507204,2021-03-22,2021,2021-02-03,2021,47,True
+White Rabbit,https://europe.republic.com/whiterabbit,09398865,2021-03-23,2021,2021-01-18,2021,64,True
+Imployable,https://europe.republic.com/imployable,10850868,2021-03-26,2021,2021-02-12,2021,42,True
+Green Wallet,https://europe.republic.com/green-wallet,09416516,2021-03-29,2021,2021-03-04,2021,25,True
+Grocemania,https://europe.republic.com/grocemania3,09992207,2021-03-29,2021,2021-02-11,2021,46,True
+Loanpad,https://europe.republic.com/loanpad,10621687,2021-03-29,2021,2021-03-09,2021,20,True
+Crua Outdoors,https://europe.republic.com/crua3,553249(Ireland),2021-03-29,2021,2021-02-03,2021,54,True
+Better Nature,https://europe.republic.com/betternature,11613856,2021-03-31,2021,2021-03-23,2021,8,True
+Square Root Soda,https://europe.republic.com/square-root-soda,08784537,2021-04-01,2021,2021-02-11,2021,49,True
+JUMP into DESIGN,https://europe.republic.com/jump-into-design,13059872,2021-04-03,2021,2021-03-01,2021,33,True
+iFactor,https://europe.republic.com/ifactor,CIF:35793952,2021-04-06,2021,2021-01-08,2021,88,True
+DMALINK,https://europe.republic.com/dma,09360817,2021-04-07,2021,2021-02-10,2021,56,True
+Emerald Stay,https://europe.republic.com/emerald-stay,CHE-420.659.492,2021-04-08,2021,2021-02-19,2021,48,True
+HairFare,https://europe.republic.com/hairfare,11805803,2021-04-09,2021,2021-02-19,2021,49,True
+Baanx,https://europe.republic.com/baanx1,11155938,2021-04-10,2021,2021-02-18,2021,51,True
+Analog Motion,https://europe.republic.com/analogmotion,11084148,2021-04-11,2021,2021-01-29,2021,72,True
+OFFschool,https://europe.republic.com/offschool,01474436,2021-04-12,2021,2020-10-13,2020,181,False
+Exchange Train Ltd,https://europe.republic.com/exchangetrain,12094692,2021-04-13,2021,2021-02-16,2021,56,True
+Qardus,https://europe.republic.com/qardus,12181387,2021-04-13,2021,2021-02-23,2021,49,True
+innerworks,https://europe.republic.com/innerworks,12891874,2021-04-13,2021,2021-01-15,2021,88,True
+Thrillz,https://europe.republic.com/thrillz,11657704,2021-04-19,2021,2021-03-04,2021,46,True
+savvy navvy,https://europe.republic.com/savvy-navvy2,10919572,2021-04-20,2021,2021-03-22,2021,29,True
+ShareVision,https://europe.republic.com/sharevision,12949231,2021-04-20,2021,2021-03-05,2021,46,True
+GUNNA,https://europe.republic.com/gunna,09895112,2021-04-25,2021,2021-03-19,2021,37,True
+Nix & Kix,https://europe.republic.com/nixandkix,09270784,2021-04-26,2021,2021-03-05,2021,52,True
+Infinity,https://europe.republic.com/infinity,11737832,2021-04-26,2021,2020-11-13,2020,164,False
+Ruby Violet,https://europe.republic.com/rubyviolet,07577860,2021-04-27,2021,2021-03-03,2021,55,True
+The Juggling King Rum Company,https://europe.republic.com/jugglingkingrum,11458974,2021-04-28,2021,2021-02-02,2021,85,True
+MacRebur,https://europe.republic.com/macrebur3,SC635744,2021-04-28,2021,2021-03-22,2021,37,True
+Sip Champagnes,https://europe.republic.com/sipchampagnes,12664906,2021-04-29,2021,2021-04-08,2021,21,True
+Much Better Adventures,https://europe.republic.com/much-better-adventures,06916506,2021-04-30,2021,2021-04-13,2021,17,True
+Lendonomy,https://europe.republic.com/lendonomy,921270259,2021-04-30,2021,2021-03-25,2021,36,True
+Pluto,https://europe.republic.com/pluto1,10252067,2021-05-01,2021,2021-03-23,2021,39,True
+StepLadder,https://europe.republic.com/stepladder,10052693,2021-05-08,2021,2021-03-15,2021,54,True
+YEO Messaging,https://europe.republic.com/yeo-messaging,10785061,2021-05-09,2021,2021-03-19,2021,51,True
+TIME-TO-FIND,https://europe.republic.com/timetofind,10876941,2021-05-11,2021,2021-03-12,2021,60,True
+Lupe Technology Limited,https://europe.republic.com/lupe,08988260,2021-05-12,2021,2021-04-08,2021,34,True
+8dates,https://europe.republic.com/8dates,12640037,2021-05-13,2021,2020-12-08,2020,156,False
+EstateGuru,https://europe.republic.com/estateguru-2021,12558919,2021-05-14,2021,2021-05-05,2021,9,True
+TheCarCrowd,https://europe.republic.com/thecarcrowd,12286089,2021-05-15,2021,2021-03-18,2021,58,True
+Alphagreen,https://europe.republic.com/alphagreen,12249253,2021-05-19,2021,2021-04-12,2021,37,True
+Cannabrew,https://europe.republic.com/cannabrew,12197289,2021-05-20,2021,2021-04-29,2021,21,True
+Career Masterclass,https://europe.republic.com/careermasterclass,09847041,2021-05-24,2021,2021-04-08,2021,46,True
+Cypher Coders,https://europe.republic.com/cyphercoders,10214421,2021-05-24,2021,2021-04-08,2021,46,True
+Fagura,https://europe.republic.com/fagura,14532315,2021-05-24,2021,2021-05-11,2021,13,True
+NOQ,https://europe.republic.com/noq,11805571,2021-05-25,2021,2021-03-16,2021,70,True
+Virtus Energy,https://europe.republic.com/virtusenergy,12080810,2021-05-26,2021,2021-04-07,2021,49,True
+The Cookaway,https://europe.republic.com/thecookaway,11570053,2021-05-29,2021,2021-03-23,2021,67,True
+3RD ROCK,https://europe.republic.com/3rd-rock,07120773,2021-05-31,2021,2021-05-07,2021,24,True
+Kocktail,https://europe.republic.com/kocktail,SC673584,2021-06-01,2021,2021-04-12,2021,50,True
+The British Snack Co.,https://europe.republic.com/britishsnackco,08647804,2021-06-02,2021,2021-04-08,2021,55,True
+Zoom Food Group Ltd,https://europe.republic.com/zoom1hr,09553671,2021-06-08,2021,2021-04-29,2021,40,True
+KLORIS,https://europe.republic.com/kloriscbd,11486144,2021-06-08,2021,2021-04-27,2021,42,True
+Crypterium,https://europe.republic.com/crypteriumwallet,14352837,2021-06-09,2021,2021-03-09,2021,92,True
+BARE Dating,https://europe.republic.com/bare,11781579,2021-06-11,2021,2021-04-08,2021,64,True
+FlairBox,https://europe.republic.com/flairbox,12159832,2021-06-12,2021,2021-05-13,2021,30,True
+Zvilo,https://europe.republic.com/zvilo,11342079,2021-06-14,2021,2021-04-27,2021,48,True
+Mystery Vibe,https://europe.republic.com/mysteryvibe,09040033,2021-06-15,2021,2021-04-14,2021,62,True
+Byrd,https://europe.republic.com/byrd,12393845,2021-06-21,2021,2021-05-25,2021,27,True
+Percuro,https://europe.republic.com/percuro,12414136,2021-06-21,2021,2021-05-06,2021,46,True
+EBar,https://europe.republic.com/ebar1,SC543722,2021-06-21,2021,2021-05-13,2021,39,True
+Expend,https://europe.republic.com/expend,08531792,2021-06-23,2021,2021-04-26,2021,58,True
+The Funky Appliance Company,https://europe.republic.com/the-funky-appliance-company2,10248770,2021-06-23,2021,2021-06-10,2021,13,True
+SmartGuide,https://europe.republic.com/smartguide,CZ07254890,2021-06-24,2021,2021-02-08,2021,136,True
+Wegaw,https://europe.republic.com/wegaw2021,CH-660.1.368.016-2,2021-06-25,2021,2021-05-20,2021,36,True
+Dr Will's,https://europe.republic.com/dr-wills,09965620,2021-06-28,2021,2021-06-04,2021,24,True
+NEVOMO,https://europe.republic.com/nevomo,0000674695,2021-07-02,2021,2021-04-15,2021,78,True
+Glint,https://europe.republic.com/glint,09507932,2021-07-05,2021,2021-04-30,2021,66,True
+Generous APE,https://europe.republic.com/the-generous-ape-1,11848219,2021-07-06,2021,2021-05-07,2021,60,True
+Skin In Motion,https://europe.republic.com/skininmotion,11020779,2021-07-07,2021,2021-05-14,2021,54,True
+Chapel Down,https://europe.republic.com/chapeldownjoinus,04362181,2021-07-08,2021,2021-06-04,2021,34,True
+havebike,https://europe.republic.com/havebike,08919298,2021-07-08,2021,2021-05-07,2021,62,True
+Avida Global,https://europe.republic.com/avidaglobal,11540240,2021-07-12,2021,2021-05-21,2021,52,True
+Black Ballad,https://europe.republic.com/black-ballad,09025425,2021-07-13,2021,2021-05-26,2021,48,True
+Orbital Machines,https://europe.republic.com/orbital-machines,921026730,2021-07-14,2021,2021-05-07,2021,68,True
+MyT,https://europe.republic.com/myt,10745708,2021-07-20,2021,2021-05-19,2021,62,True
+WeVee,https://europe.republic.com/wevee,11794128,2021-07-21,2021,2021-04-13,2021,99,True
+Windsor & Eton Brewery,https://europe.republic.com/webrew,07069266,2021-07-22,2021,2021-06-24,2021,28,True
+Outfts,https://europe.republic.com/outfts,11882861,2021-07-27,2021,2021-05-19,2021,69,True
+The Cheeky Panda,https://europe.republic.com/the-cheeky-panda1,09936357,2021-07-28,2021,2021-06-10,2021,48,True
+Atom Universe,https://europe.republic.com/atomuniverse,09337155,2021-08-02,2021,2021-05-20,2021,74,True
+Brickowner,https://europe.republic.com/brickowner9,11938868,2021-08-02,2021,2021-06-16,2021,47,True
+Nourish by Jane Clarke,https://europe.republic.com/nourishbyjaneclarke,09649346,2021-08-03,2021,2021-05-18,2021,77,True
+CrowdProperty,https://europe.republic.com/crowdproperty3,08764786,2021-08-04,2021,2021-07-08,2021,27,True
+Riversimple,https://europe.republic.com/riversimple3,09623909,2021-08-06,2021,2021-05-26,2021,72,True
+Unistellar,https://europe.republic.com/unistellar,812339356,2021-08-06,2021,2021-06-25,2021,42,True
+IceRobotics,https://europe.republic.com/icerobotics,SC331391,2021-08-09,2021,2021-06-25,2021,45,True
+Ember Snacks,https://europe.republic.com/embersnacks,10331087,2021-08-11,2021,2021-07-08,2021,34,True
+Nordic Oil,https://europe.republic.com/nordicoil,74864238,2021-08-11,2021,2021-06-25,2021,47,True
+Lime Global,https://europe.republic.com/lime-global1,09666467,2021-08-12,2021,2021-06-08,2021,65,True
+Crowdtolive®,https://europe.republic.com/crowdtolive,10347767,2021-08-16,2021,2021-06-30,2021,47,True
+Vite Naturals,https://europe.republic.com/vitenaturals,10467278,2021-08-19,2021,2021-06-28,2021,52,True
+Fitbakes,https://europe.republic.com/fitbakes,11343162,2021-08-20,2021,2021-07-22,2021,29,True
+Food Disco,https://europe.republic.com/fooddisco,11926582,2021-08-24,2021,2021-07-07,2021,48,True
+WyzePay,https://europe.republic.com/wyzepay,11962345,2021-08-25,2021,2021-07-21,2021,35,True
+Revvies Energy Strips,https://europe.republic.com/revvies,09367399,2021-08-27,2021,2021-07-21,2021,37,True
+PANTSANDSOCKS.COM,https://europe.republic.com/pantsandsocks,12474063,2021-08-27,2021,2021-06-16,2021,72,True
+FETCH,https://europe.republic.com/fetch1,11071470,2021-09-01,2021,2021-06-18,2021,75,True
+Endlesss,https://europe.republic.com/endlesss,10565641,2021-09-07,2021,2021-08-04,2021,34,True
+Mootral,https://europe.republic.com/mootral,13161424,2021-09-09,2021,2021-07-09,2021,62,True
+Camptoo,https://europe.republic.com/camptoo1,61500763,2021-09-10,2021,2021-01-22,2021,231,True
+Quotall,https://europe.republic.com/quotall,07215557,2021-09-14,2021,2021-08-03,2021,42,True
+Datam,https://europe.republic.com/datam,11066556,2021-09-15,2021,2021-07-29,2021,48,True
+Perkier,https://europe.republic.com/perkierfoods,07974955,2021-09-16,2021,2021-08-10,2021,37,True
+Wild & Stone,https://europe.republic.com/wildandstone,11490908,2021-09-19,2021,2021-08-12,2021,38,True
+Beija London,https://europe.republic.com/beijalondon,09560414,2021-09-22,2021,2021-07-23,2021,61,True
+Jersey Hemp,https://europe.republic.com/jerseyhemp,128968,2021-09-22,2021,2021-07-29,2021,55,True
+Dadsnet,https://europe.republic.com/dadsnet,10006960,2021-09-24,2021,2021-05-27,2021,120,True
+GRNDHOUSE,https://europe.republic.com/grndhouse,12899538,2021-09-24,2021,2021-07-27,2021,59,True
+Typewise,https://europe.republic.com/typewise,CHE-222.930.167,2021-09-27,2021,2021-08-16,2021,42,True
+GuestReady,https://europe.republic.com/guestready1,CHE-200.707.566,2021-09-30,2021,2021-09-03,2021,27,True
+Market Halls,https://europe.republic.com/markethalls,13407113,2021-10-01,2021,2021-08-02,2021,60,True
+Occuity,https://europe.republic.com/occuity,12192959,2021-10-05,2021,2021-08-17,2021,49,True
+Plant Based News,https://europe.republic.com/plantbasednews,10638129,2021-10-06,2021,2021-08-31,2021,36,True
+FloatWind Ltd,https://europe.republic.com/floatwind,12785634,2021-10-06,2021,2021-08-17,2021,50,True
+Ripple,https://europe.republic.com/ripple3,10565718,2021-10-07,2021,2021-09-02,2021,35,True
+NuUnlimited,https://europe.republic.com/nuunlimited,11074352,2021-10-09,2021,2021-07-23,2021,78,True
+Dalston's Soda,https://europe.republic.com/dalstons-soda,08020637,2021-10-11,2021,2021-08-24,2021,48,True
+Global Equality Collective,https://europe.republic.com/globalequalitycollective,12447354,2021-10-14,2021,2021-08-20,2021,55,True
+Open for Vintage,https://europe.republic.com/open-for-vintage1,09684926,2021-10-18,2021,2021-08-06,2021,73,True
+SupportRoom,https://europe.republic.com/supportroom,12554309,2021-10-18,2021,2021-07-30,2021,80,True
+Class-ify,https://europe.republic.com/class-ify,12796667,2021-10-18,2021,2021-09-07,2021,41,True
+QLASH,https://europe.republic.com/qlash,CHE-319.582.333,2021-10-18,2021,2021-08-27,2021,52,True
+Propelair,https://europe.republic.com/propelair1,03681995,2021-10-20,2021,2021-08-31,2021,50,True
+Wearth London,https://europe.republic.com/wearthlondon,10627883,2021-10-20,2021,2021-08-10,2021,71,True
+AVATR,https://europe.republic.com/avatr1,09444238,2021-10-21,2021,2021-10-01,2021,20,True
+The Coffee Apothecary,https://europe.republic.com/thecoffeeapothecary,SC459884,2021-10-21,2021,2021-10-05,2021,16,True
+Staykeepers,https://europe.republic.com/staykeepers,12034575,2021-10-22,2021,2021-07-27,2021,87,True
+OXTO Energy,https://europe.republic.com/oxtoenergy,10161898,2021-10-25,2021,2021-07-19,2021,98,True
+Esooko,https://europe.republic.com/esooko,12080254,2021-10-25,2021,2021-09-13,2021,42,True
+CarCloud,https://europe.republic.com/carcloudcommunity,11397547,2021-10-27,2021,2021-09-16,2021,41,True
+ekko,https://europe.republic.com/ekko-card,12338538,2021-10-28,2021,2021-09-03,2021,55,True
+PamperBook,https://europe.republic.com/pamperbook,12503710,2021-10-28,2021,2021-09-08,2021,50,True
+On The Mend,https://europe.republic.com/on-the-mend,10758082,2021-11-01,2021,2021-09-17,2021,45,True
+OTO CBD,https://europe.republic.com/otocbd,11389551,2021-11-01,2021,2021-10-08,2021,24,True
+Shorts Boy Distillery,https://europe.republic.com/the-tidal-rum,11467254,2021-11-01,2021,2021-09-07,2021,55,True
+We Build Bots,https://europe.republic.com/webuildbots3,WeBuildBots,2021-11-02,2021,2021-09-09,2021,54,True
+OceanSaver,https://europe.republic.com/oceansaver,11356014,2021-11-04,2021,2021-09-15,2021,50,True
+Ziglu,https://europe.republic.com/ziglu1,09204810,2021-11-09,2021,2021-09-22,2021,48,True
+Strangeways CBD Spirits,https://europe.republic.com/strangewaysspirits,07860554,2021-11-12,2021,2021-09-29,2021,44,True
+TINCTURE London,https://europe.republic.com/tincturelondon,09016711,2021-11-12,2021,2021-09-08,2021,65,True
+Libations Rum,https://europe.republic.com/libationrum,12259550,2021-11-12,2021,2021-10-07,2021,36,True
+Spotlas,https://europe.republic.com/spotlas,11739745,2021-11-15,2021,2021-09-20,2021,56,True
+The Beagle Button,https://europe.republic.com/beagle,11926789,2021-11-15,2021,2021-09-21,2021,55,True
+BUA FIT,https://europe.republic.com/buafit,10466004,2021-11-16,2021,2021-09-08,2021,69,True
+The Neighbourhood Kitchen,https://europe.republic.com/theneighbourhoodkitchen,12632134,2021-11-17,2021,2021-10-14,2021,34,True
+Riley,https://europe.republic.com/riley,685489,2021-11-19,2021,2021-10-13,2021,37,True
+South Shields Football Club,https://europe.republic.com/southshields-fc,12291987,2021-11-20,2021,2021-09-29,2021,52,True
+EMSOL,https://europe.republic.com/emsol,10547298,2021-11-22,2021,2021-10-14,2021,39,True
+Plateaway,https://europe.republic.com/plateaway,11065308,2021-11-22,2021,2021-10-05,2021,48,True
+Daisy Green Collection,https://europe.republic.com/daisy-green-collection,08024998,2021-11-23,2021,2021-11-05,2021,18,True
+Louenna,https://europe.republic.com/louenna,12032634,2021-11-24,2021,2021-10-15,2021,40,True
+Roadfill,https://europe.republic.com/roadfill,11430738,2021-11-26,2021,2021-11-03,2021,23,True
+Peters' Cleaners,https://europe.republic.com/peterscleaners,09952953,2021-11-28,2021,2021-10-12,2021,47,True
+Mamamade,https://europe.republic.com/mamamade,11495394,2021-11-29,2021,2021-10-26,2021,34,True
+Flagship Reporting,https://europe.republic.com/flagship-reporting,09714495,2021-12-01,2021,2021-10-07,2021,55,True
+easyHire,https://europe.republic.com/easyhire1,10754055,2021-12-02,2021,2021-09-02,2021,91,True
+Equipsme,https://europe.republic.com/equipsme1,10652765,2021-12-04,2021,2021-10-06,2021,59,True
+Mindstone,https://europe.republic.com/mindstone,12535319,2021-12-06,2021,2021-10-29,2021,38,True
+Achelous Energy,https://europe.republic.com/achelousenergy,10640223,2021-12-08,2021,2021-11-04,2021,34,True
+Maslife,https://europe.republic.com/maslife,11534603,2021-12-09,2021,2021-10-18,2021,52,True
+xigxag,https://europe.republic.com/xigxag,12102414,2021-12-10,2021,2021-11-11,2021,29,True
+Crunch,https://europe.republic.com/crunch,06014477,2021-12-11,2021,2021-11-11,2021,30,True
+GOODFOLIO,https://europe.republic.com/goodfolio,13402423,2021-12-11,2021,2021-11-04,2021,37,True
+Dearbump,https://europe.republic.com/dearbump,11217852,2021-12-14,2021,2021-10-06,2021,69,True
+Baotree,https://europe.republic.com/baotree,12539971,2021-12-14,2021,2021-09-17,2021,88,True
+Kobots,https://europe.republic.com/kobots,39699133,2021-12-16,2021,2021-10-21,2021,56,True
+Locket,https://europe.republic.com/locket,12787431,2021-12-17,2021,2021-12-03,2021,14,True
+Straight & Narrow,https://europe.republic.com/straight-narrow,12973448,2021-12-17,2021,2021-11-04,2021,43,True
+Future Planet Capital,https://europe.republic.com/futureplanetcapital,306743,2021-12-17,2021,2021-11-19,2021,28,True
+ARMD,https://europe.republic.com/armd,12391104,2021-12-20,2021,2021-11-24,2021,26,True
+Rnwl,https://europe.republic.com/rnwl1,12091439,2021-12-21,2021,2021-11-17,2021,34,True
+BritYard,https://europe.republic.com/brityard,12681384,2021-12-22,2021,2021-10-25,2021,58,True
+Smashed Grapes,https://europe.republic.com/smashed-grapes,12940055,2021-12-24,2021,2021-12-01,2021,23,True
+Hofmeister,https://europe.republic.com/hofmeister,09925185,2021-12-25,2021,2021-11-26,2021,29,True
+Junk Kouture,https://europe.republic.com/junk-kouture,668372,2021-12-29,2021,2021-11-09,2021,50,True
+Ride Tandem,https://europe.republic.com/ride-tandem,11908428,2022-01-06,2022,2021-11-19,2021,48,False
+DeadHappy,https://europe.republic.com/deadhappy1,08624700,2022-01-10,2022,2021-12-10,2021,31,False
+Plenaire,https://europe.republic.com/plenaire,133278,2022-01-10,2022,2021-10-06,2021,96,False
+Purearth,https://europe.republic.com/purearth1,08272544,2022-01-11,2022,2021-10-22,2021,81,False
+Thyngs,https://europe.republic.com/thyngs2,10049849,2022-01-11,2022,2021-11-04,2021,68,False
+The Eighth Door,https://europe.republic.com/theeighthdoor,10264779,2022-01-12,2022,2021-10-05,2021,99,False
+Modern Persian Kitchen,https://europe.republic.com/modernpersiankitchen,11888544,2022-01-14,2022,2021-11-23,2021,52,False
+SpiceBox,https://europe.republic.com/spicebox,09811308,2022-01-17,2022,2021-11-18,2021,60,False
+The Funky Appliance Company,https://europe.republic.com/the-funky-appliance-company3,10248770,2022-01-17,2022,2021-11-22,2021,56,False
+WASE,https://europe.republic.com/wase,10616124,2022-01-17,2022,2021-12-16,2021,32,False
+UNLTD.,https://europe.republic.com/unltd,12187743,2022-01-17,2022,2022-01-05,2022,12,True
+Novus World,https://europe.republic.com/novusworld,12558352,2022-01-17,2022,2021-11-19,2021,59,False
+Vagabund Brauerei,https://europe.republic.com/vagabundbrauerei,HRB137356B,2022-01-17,2022,2021-12-03,2021,45,False
+Stay in a Pub,https://europe.republic.com/stayinapub,08434545,2022-01-21,2022,2021-11-16,2021,66,False
+For The Creators,https://europe.republic.com/for-the-creators,12914205,2022-01-24,2022,2021-11-26,2021,59,False
+Sustainable Accelerator 5,https://europe.republic.com/sa5,,2022-01-27,2022,2021-11-04,2021,84,False
+Tonic Health,https://europe.republic.com/tonic-health1,12174856,2022-02-03,2022,2021-12-17,2021,48,False
+Gazeal,https://europe.republic.com/gazeal,06772691,2022-02-07,2022,2021-11-17,2021,82,False
+Good-Loop,https://europe.republic.com/good-loop1,SC548356,2022-02-09,2022,2022-01-18,2022,22,True
+Findingaplace,https://europe.republic.com/findingaplace,06253289,2022-02-10,2022,2021-10-25,2021,108,False
+Sipful,https://europe.republic.com/sipful,11365558,2022-02-11,2022,2022-01-07,2022,35,True
+Crua Outdoors,https://europe.republic.com/crua-convertible,553249(Ireland),2022-02-11,2022,2022-01-26,2022,16,True
+nHouse,https://europe.republic.com/nhouse3,10453844,2022-02-14,2022,2021-12-22,2021,54,False
+CLUBZERØ,https://europe.republic.com/clubzero,09693923,2022-02-18,2022,2022-01-05,2022,44,True
+Income Company,https://europe.republic.com/income,16014116,2022-02-21,2022,2022-01-13,2022,39,True
+Legal Utopia,https://europe.republic.com/legal-utopia,10909418,2022-02-23,2022,2021-12-02,2021,83,False
+savvy navvy,https://europe.republic.com/savvy-navvy3,10919572,2022-02-24,2022,2022-01-21,2022,34,True
+Ferris,https://europe.republic.com/ferris,13142206,2022-02-26,2022,2022-01-21,2022,36,True
+The Transformation Chef,https://europe.republic.com/the-transformation-chef,10764796,2022-03-03,2022,2021-12-01,2021,92,False
+Nurture Brands,https://europe.republic.com/nurture-brands,09190657,2022-03-11,2022,2022-02-03,2022,36,True
+The Cheeky Panda,https://europe.republic.com/the-cheeky-panda2,09936357,2022-03-15,2022,2022-02-07,2022,36,True
+Pikl,https://europe.republic.com/pikl-ltd,10449346,2022-03-17,2022,2022-02-11,2022,34,True
+Global Wealth Group,https://europe.republic.com/global-wealth-group,10928486,2022-03-17,2022,2022-01-27,2022,49,True
+Lovetovisit.com,https://europe.republic.com/lovetovisit,13386956,2022-03-22,2022,2022-02-08,2022,42,True
+Vegums,https://europe.republic.com/vegums1,10388042,2022-03-23,2022,2022-02-16,2022,35,True
+DIAL Global,https://europe.republic.com/dialglobal,11899632,2022-03-23,2022,2021-12-17,2021,96,False
+Nettle,https://europe.republic.com/nettle,12080508,2022-03-23,2022,2022-02-15,2022,36,True
+Grazer,https://europe.republic.com/grazer1,10656114,2022-03-25,2022,2022-02-02,2022,51,True
+Square Mile Farms,https://europe.republic.com/square-mile-farms2,11628016,2022-03-25,2022,2022-02-14,2022,39,True
+nuumi,https://europe.republic.com/nuumi,HRB213078B,2022-03-25,2022,2022-01-24,2022,60,True
+One Planet Pizza,https://europe.republic.com/one-planet-pizza3,07037949,2022-03-29,2022,2022-02-18,2022,39,True
+ZAG Drinks,https://europe.republic.com/zag-drinks,11932615,2022-03-29,2022,2022-02-18,2022,39,True
+Yumello,https://europe.republic.com/yumello,10226649,2022-03-31,2022,2022-02-18,2022,41,True
+Nordstreet,https://europe.republic.com/nordstreet,304565690,2022-03-31,2022,2022-02-15,2022,44,True
+Hippie Turtle Herbal Co,https://europe.republic.com/hippieturtle,13303578,2022-04-04,2022,2022-01-18,2022,76,True
+SPOKE,https://europe.republic.com/spoke,08265501,2022-04-05,2022,2022-03-18,2022,18,True
+Fungtn,https://europe.republic.com/fungtn,12590568,2022-04-05,2022,2022-02-11,2022,53,True
+Emerald Stay,https://europe.republic.com/emerald-stay1,CHE-420.659.492,2022-04-06,2022,2022-02-28,2022,37,True
+Hewi,https://europe.republic.com/hewi,07002732,2022-04-15,2022,2022-03-07,2022,39,True
+COAT Paints,https://europe.republic.com/coat,12502151,2022-04-19,2022,2022-03-17,2022,33,True
+Happy Drinks Co,https://europe.republic.com/skinny-drinks-group,10843995,2022-04-20,2022,2021-11-25,2021,146,False
+The Portfolio Collective,https://europe.republic.com/the-portfolio-collective,12699120,2022-04-20,2022,2022-02-07,2022,72,True
+Rude Records,https://europe.republic.com/rude-records1,IT06197660969,2022-04-21,2022,2022-03-07,2022,45,True
+Your Dog's Club,https://europe.republic.com/your-dog-s-club,11825005,2022-04-27,2022,2022-03-14,2022,44,True
+Anorak,https://europe.republic.com/anorak,13215050,2022-04-27,2022,2022-02-22,2022,64,True
+CityFALCON,https://europe.republic.com/cityfalcon7,09107763,2022-04-28,2022,2022-03-18,2022,41,True
+Fearne & Rosie,https://europe.republic.com/fearne-rosie,12318512,2022-04-28,2022,2022-03-22,2022,37,True
+Buildiro,https://europe.republic.com/buildiro,12226534,2022-05-02,2022,2022-02-28,2022,63,True
+HOLOS Kombucha,https://europe.republic.com/holoslondon,11199297,2022-05-03,2022,2022-03-18,2022,46,True
+StonePay,https://europe.republic.com/stonepay,12203188,2022-05-03,2022,2022-02-28,2022,64,True
+Kitche,https://europe.republic.com/kitche,11450155,2022-05-04,2022,2022-03-16,2022,49,True
+Tom Savano Cocktails,https://europe.republic.com/tom-savano-cocktails,11549361,2022-05-06,2022,2022-03-29,2022,38,True
+Oceain Insights,https://europe.republic.com/oceain,12795199,2022-05-09,2022,2022-03-09,2022,61,True
+NuroKor Limited,https://europe.republic.com/nurokor,11328713,2022-05-11,2022,2022-03-24,2022,48,True
+dotte,https://europe.republic.com/dotte,12671379,2022-05-12,2022,2022-04-23,2022,19,True
+IKÓ,https://europe.republic.com/iko-drinks,12135241,2022-05-16,2022,2022-03-10,2022,67,True
+The Climate App,https://europe.republic.com/the-climate-app,13733089,2022-05-21,2022,2022-03-17,2022,65,True
+Salcombe Distilling Co.,https://europe.republic.com/salcombedistillingco,09140632,2022-05-24,2022,2022-04-14,2022,40,True
+Onoco,https://europe.republic.com/onoco,12397107,2022-05-25,2022,2022-03-31,2022,55,True
+Estateguru,https://europe.republic.com/estateguru1,12558919,2022-05-31,2022,2022-04-27,2022,34,True
+spacebands,https://europe.republic.com/space-bands,12681754,2022-06-01,2022,2022-04-07,2022,55,True
+CROSSIP,https://europe.republic.com/crossip,12488688,2022-06-07,2022,2022-04-13,2022,55,True
+A Hoppy Place,https://europe.republic.com/a-hoppy-place,11480161,2022-06-10,2022,2022-05-13,2022,28,True
+"Pixii, A NEVA Group Brand",https://europe.republic.com/pixii,12971363,2022-06-10,2022,2022-04-25,2022,46,True
+Virtually Visiting,https://europe.republic.com/virtually-visiting,12617723,2022-06-13,2022,2022-04-20,2022,54,True
+The Happiness Index,https://europe.republic.com/the-happiness-index,09049797,2022-06-14,2022,2022-04-26,2022,49,True
+Leaf Envy,https://europe.republic.com/leaf-envy,11734922,2022-06-14,2022,2022-04-12,2022,63,True
+Treekly,https://europe.republic.com/treekly,11812617,2022-06-19,2022,2022-04-01,2022,79,True
+GridDuck,https://europe.republic.com/grid-duck,09545657,2022-06-21,2022,2022-04-22,2022,60,True
+Get Set Pet,https://europe.republic.com/get-set-pet1,11814871,2022-06-21,2022,2022-05-04,2022,48,True
+Strabo,https://europe.republic.com/strabo,12585284,2022-06-21,2022,2022-05-04,2022,48,True
+Gazelle Wind Power,https://europe.republic.com/gazelle-wind-power,683798,2022-06-21,2022,2022-03-17,2022,96,True
+Pennyworth,https://europe.republic.com/pennyworth,12375981,2022-06-23,2022,2022-05-13,2022,41,True
+TripShift. Move Better.,https://europe.republic.com/tripshift,11706017,2022-06-24,2022,2022-04-21,2022,64,True
+Ebru Evrim,https://europe.republic.com/ebru-evrim,11749097,2022-06-24,2022,2022-01-06,2022,169,True
+Zibble,https://europe.republic.com/zibble,12355538,2022-06-24,2022,2022-02-24,2022,120,True
+Cuvva,https://europe.republic.com/cuvva,13496602,2022-06-24,2022,2022-05-18,2022,37,True
+Borrow A Boat,https://europe.republic.com/borrow-a-boat2,10490013,2022-06-27,2022,2022-05-19,2022,39,True
+Nippy Groceries,https://europe.republic.com/nippy,13540598,2022-06-27,2022,2022-05-12,2022,46,True
+GreenGrowth,https://europe.republic.com/greengrowth,12480089,2022-06-28,2022,2022-05-03,2022,56,True
+Beanstalk,https://europe.republic.com/beanstalk,05439349,2022-07-01,2022,2022-05-13,2022,49,True
+FanHub,https://europe.republic.com/fanhub,11331519,2022-07-01,2022,2022-05-09,2022,53,True
+Just Fix,https://europe.republic.com/justfix,12819875,2022-07-01,2022,2022-05-13,2022,49,True
+Ascot Brewing Company,https://europe.republic.com/ascot-brewing-company,06059203,2022-07-05,2022,2022-04-13,2022,83,True
+Honestly Tasty,https://europe.republic.com/honestly-tasty,11728863,2022-07-08,2022,2022-06-01,2022,37,True
+Hēdoïne,https://europe.republic.com/hedoine,11509037,2022-07-11,2022,2022-05-18,2022,54,True
+Bedfolk,https://europe.republic.com/bedfolk,10820067,2022-07-13,2022,2022-06-06,2022,37,True
+DAI,https://europe.republic.com/dai,10409375,2022-07-14,2022,2022-06-23,2022,21,True
+Bloody Drinks,https://europe.republic.com/bloody-drinks,11097855,2022-07-14,2022,2022-05-31,2022,44,True
+Currensea,https://europe.republic.com/currensea2,11413946,2022-07-17,2022,2022-06-27,2022,20,True
+Field Doctor,https://europe.republic.com/field-doctor,12118273,2022-07-18,2022,2022-05-25,2022,54,True
+We Build Bots,https://europe.republic.com/we-build-bots1,10899737,2022-07-20,2022,2022-06-08,2022,42,True
+Naked Sprout,https://europe.republic.com/naked-sprout,12861535,2022-07-21,2022,2022-07-05,2022,16,True
+THIS™,https://europe.republic.com/this2022,11104088,2022-07-22,2022,2022-06-15,2022,37,True
+Residently,https://europe.republic.com/residently,10834962,2022-07-25,2022,2022-03-17,2022,130,True
+Famli,https://europe.republic.com/famli,12594370,2022-07-25,2022,2022-05-27,2022,59,True
+AKT London,https://europe.republic.com/akt-london,11211232,2022-07-26,2022,2022-06-08,2022,48,True
+Blind Cupid,https://europe.republic.com/blind-cupid,12065615,2022-07-27,2022,2022-05-17,2022,71,True
+Wrisk,https://europe.republic.com/wrisk3,09721622,2022-07-29,2022,2022-06-06,2022,53,True
+Fy!,https://europe.republic.com/iamfy,08924569,2022-08-01,2022,2022-05-30,2022,63,True
+Morph,https://europe.republic.com/morph,12106103,2022-08-02,2022,2022-03-17,2022,138,True
+Heights,https://europe.republic.com/heights3,08403776,2022-08-03,2022,,,,
+Port of Leith Distillery,https://europe.republic.com/leithdistillery,SC490302,2022-08-03,2022,2022-06-23,2022,41,True
+Tendril,https://europe.republic.com/tendril,12157991,2022-08-04,2022,2022-05-26,2022,70,True
+Really Local Group,https://europe.republic.com/really-local-group1,11050534,2022-08-05,2022,2022-06-14,2022,52,True
+The Baby Goat,https://europe.republic.com/thebabygoat,HRB174759,2022-08-08,2022,2022-04-29,2022,101,True
+IPG,https://europe.republic.com/ipg,10044404,2022-08-09,2022,2022-06-09,2022,61,True
+KANKAN,https://europe.republic.com/kankan,11935001,2022-08-10,2022,2022-06-08,2022,63,True
+Feel Fit,https://europe.republic.com/my-feel-fit,11374528,2022-08-12,2022,2022-04-27,2022,107,True
+Jarvo,https://europe.republic.com/jarvo,13348228,2022-08-15,2022,2022-07-28,2022,18,True
+The Modern Nursery,https://europe.republic.com/the-modern-nursery,10330781,2022-08-16,2022,2022-07-06,2022,41,True
+SquareBook,https://europe.republic.com/squarebook,SC553691,2022-08-17,2022,2022-06-17,2022,61,True
+Creditspring,https://europe.republic.com/creditspring3,10522518,2022-08-18,2022,2022-06-30,2022,49,True
+Beeline,https://europe.republic.com/beeline4,09548906,2022-08-23,2022,2022-07-06,2022,48,True
+Phomo,https://europe.republic.com/phomo,12835732,2022-08-23,2022,2022-07-07,2022,47,True
+Fishbrain,https://europe.republic.com/fishbrain,556796-5370,2022-08-25,2022,2022-06-27,2022,59,True
+BIYU (Bob Is Your Uncle),https://europe.republic.com/biyu-bob-is-your-uncle,80174590,2022-09-02,2022,2022-07-06,2022,58,True
+Pleesecakes,https://europe.republic.com/pleesecakes,12302199,2022-09-04,2022,2022-05-31,2022,96,True
+QED Naval,https://europe.republic.com/qed-naval1,SC339873,2022-09-05,2022,2022-07-22,2022,45,True
+Renude,https://europe.republic.com/renude,12368798,2022-09-08,2022,2022-07-21,2022,49,True
+Midnightdeal,https://europe.republic.com/midnightdeal,474441h,2022-09-08,2022,2022-07-20,2022,50,True
+Clean Kitchen Club,https://europe.republic.com/clean-kitchen,13575555,2022-09-10,2022,2022-08-10,2022,31,True
+EcoHedge,https://europe.republic.com/ecohedge,09392547,2022-09-13,2022,2022-08-02,2022,42,True
+Floan,https://europe.republic.com/floan,10079805,2022-09-13,2022,2022-05-25,2022,111,True
+Ripple,https://europe.republic.com/ripple4,10565718,2022-09-14,2022,2022-08-26,2022,19,True
+Luxuryshakes,https://europe.republic.com/luxury-shakes,11020129,2022-09-15,2022,2022-07-26,2022,51,True
+Uni Compare,https://europe.republic.com/uni-compare1,08108791,2022-09-16,2022,2022-08-10,2022,37,True
+Crua Outdoors,https://europe.republic.com/crua-outdoors3,553249(Ireland),2022-09-21,2022,2022-07-08,2022,75,True
+Assetz Capital,https://europe.republic.com/assetz-capital4,08007191,2022-09-22,2022,2022-07-28,2022,56,True
+BuildMyTalent,https://europe.republic.com/collabed,12991554,2022-09-22,2022,2022-08-16,2022,37,True
+Puresport,https://europe.republic.com/puresport,SC615410,2022-09-27,2022,2022-08-16,2022,42,True
+Used & Loved,https://europe.republic.com/used-loved,13379202,2022-09-28,2022,2022-07-28,2022,62,True
+Blackwater Distillery,https://europe.republic.com/blackwater-distillery,543070,2022-09-29,2022,2022-08-12,2022,48,True
+Avallen,https://europe.republic.com/avallen-spirits1,74063642,2022-09-29,2022,2022-06-17,2022,104,True
+LandEx,https://europe.republic.com/landex,16203774,2022-10-04,2022,2022-08-11,2022,54,True
+Made For Drink,https://europe.republic.com/made-for-drink,10158508,2022-10-05,2022,2022-08-19,2022,47,True
+Sip Champagnes,https://europe.republic.com/sip-champagnes,12664906,2022-10-06,2022,2022-09-26,2022,10,True
+Bluebell,https://europe.republic.com/bluebell,10011792,2022-10-10,2022,2022-08-03,2022,68,True
+Kudo Insurance,https://europe.republic.com/kudo-insurance,10368531,2022-10-10,2022,2022-08-19,2022,52,True
+houseof,https://europe.republic.com/houseof,11526636,2022-10-10,2022,2022-07-25,2022,77,True
+PropertyLoop,https://europe.republic.com/property-loop,13779394,2022-10-10,2022,2022-08-08,2022,63,True
+Tilly,https://europe.republic.com/tilly,559228-1165,2022-10-14,2022,2022-08-16,2022,59,True
+Peckwater Brands,https://europe.republic.com/peckwater-brands2,12284429,2022-10-15,2022,2022-09-02,2022,43,True
+Hedgehog,https://europe.republic.com/hedgehog,13336465,2022-10-18,2022,2022-09-02,2022,46,True
+The Refillable.Co,https://europe.republic.com/the-refillable-co,12741780,2022-10-21,2022,2022-09-16,2022,35,True
+GOODFOLIO,https://europe.republic.com/goodfolio1,13402423,2022-10-21,2022,2022-09-02,2022,49,True
+WalkSafe,https://europe.republic.com/walk-safe,10641845,2022-10-24,2022,2022-09-13,2022,41,True
+Greening the Islands,https://europe.republic.com/greening-the-islands,GreeningtheIslands,2022-10-25,2022,2022-05-06,2022,172,True
+JUMP into DESIGN,https://europe.republic.com/jump-into-design1,13059872,2022-10-29,2022,2022-09-22,2022,37,True
+Hunter & Gather,https://europe.republic.com/hunter-gather,10469907,2022-11-02,2022,2022-10-07,2022,26,True
+Square Root,https://europe.republic.com/square-root-soda1,08784537,2022-11-07,2022,2022-06-10,2022,150,True
+Dinoski,https://europe.republic.com/dinoski,10857241,2022-11-07,2022,2022-10-03,2022,35,True
+bndle,https://europe.republic.com/bndle,13521264,2022-11-08,2022,2022-07-29,2022,102,True
+Roam,https://europe.republic.com/roam,12547891,2022-11-12,2022,2022-10-10,2022,33,True
+Dropless,https://europe.republic.com/dropless,11018311,2022-11-14,2022,2022-09-27,2022,48,True
+Second Nature,https://europe.republic.com/second-nature1,08511152,2022-11-15,2022,2022-10-06,2022,40,True
+Better World Brewing,https://europe.republic.com/better-world-brewing,13148438,2022-11-15,2022,2022-09-09,2022,67,True
+Olly's,https://europe.republic.com/ollys-snacks,09988592,2022-11-17,2022,2022-09-27,2022,51,True
+Fussy,https://europe.republic.com/fussy,12462889,2022-11-20,2022,2022-10-03,2022,48,True
+Crowdtolive®,https://europe.republic.com/crowdtolive1,10347767,2022-11-21,2022,2022-09-20,2022,62,True
+Moonalabs,https://europe.republic.com/moonalabs,13128144,2022-11-21,2022,2022-09-02,2022,80,True
+ClearWatt by Future Motion,https://europe.republic.com/future-motion,09793739,2022-11-25,2022,2022-10-17,2022,39,True
+Farm Girl,https://europe.republic.com/farm-girl,11826865,2022-11-26,2022,2022-10-13,2022,44,True
+Tutti,https://europe.republic.com/tutti-space,10489900,2022-11-27,2022,2022-09-22,2022,66,True
+Mamamade,https://europe.republic.com/mamamade1,11495394,2022-11-28,2022,2022-10-19,2022,40,True
+Silatha,https://europe.republic.com/silatha,81915179,2022-11-28,2022,2022-07-12,2022,139,True
+Van Hunks Drinks,https://europe.republic.com/van-hunks-drinks,12102039,2022-11-29,2022,2022-08-19,2022,102,True
+Big Drop Brewing,https://europe.republic.com/bigdropbrewing1,10305828,2022-12-02,2022,2022-11-07,2022,25,True
+BreezeMove,https://europe.republic.com/breeze-move,12303629,2022-12-02,2022,2022-09-13,2022,80,True
+meetspaceVR,https://europe.republic.com/meetspacevr,11168601,2022-12-03,2022,2022-10-31,2022,33,True
+Wayhome,https://europe.republic.com/wayhome,10395239,2022-12-05,2022,2022-10-28,2022,38,True
+Altilium Metals,https://europe.republic.com/altilium-metal,12863419,2022-12-05,2022,2022-10-21,2022,45,True
+BUX,https://europe.republic.com/bux4,58402357,2022-12-05,2022,2022-10-10,2022,56,True
+DAME,https://europe.republic.com/dame,08509842,2022-12-07,2022,2022-10-25,2022,43,True
+Sky Wave Gin,https://europe.republic.com/sky-wave-gin,11929772,2022-12-07,2022,2022-10-18,2022,50,True
+NextGen Planners,https://europe.republic.com/nextgenplanners,10424588,2022-12-09,2022,2022-11-22,2022,17,True
+Glint,https://europe.republic.com/glint1,09507932,2022-12-12,2022,2022-11-02,2022,40,True
+T8,https://europe.republic.com/t8-wealth,12955709,2022-12-12,2022,2022-09-28,2022,75,True
+G-VOLUTION,https://europe.republic.com/g-volution,05638299,2022-12-13,2022,2022-10-14,2022,60,True
+Solivus,https://europe.republic.com/solivus2,10076849,2022-12-13,2022,2022-11-11,2022,32,True
+Forest Spa Finland,https://europe.republic.com/forest-spa-finland,13264245,2022-12-14,2022,2022-09-09,2022,96,True
+Zvilo,https://europe.republic.com/zvilo1,11342079,2022-12-18,2022,2022-11-07,2022,41,True
+CBD One,https://europe.republic.com/cbd-one,10950690,2022-12-19,2022,2022-10-07,2022,73,True
+Let’s Go See,https://europe.republic.com/letsgosee,12536577,2022-12-19,2022,2022-10-27,2022,53,True
+Taylor & Hart,https://europe.republic.com/taylor-hart3,07592365,2022-12-21,2022,2022-11-29,2022,22,True
+The Cheeky Panda,https://europe.republic.com/the-cheeky-panda3,09936357,2022-12-21,2022,2022-11-04,2022,47,True
+DabbaDrop,https://europe.republic.com/dabbadrop,11305503,2022-12-21,2022,2022-11-11,2022,40,True
+Zereau Drinks,https://europe.republic.com/zereaudrinks,71620915,2022-12-21,2022,2022-09-16,2022,96,True
+Verv Energy,https://europe.republic.com/verv-energy,07179872,2022-12-23,2022,2022-11-04,2022,49,True
+Foodhak,https://europe.republic.com/foodhak,12038695,2022-12-23,2022,2022-11-10,2022,43,True
+Betmate Ltd,https://europe.republic.com/betmate,12612922,2022-12-23,2022,2022-11-17,2022,36,True
+Rightcharge,https://europe.republic.com/rightcharge1,11957019,2022-12-24,2022,2022-11-17,2022,37,True
+EverTrek,https://europe.republic.com/evertrek,10586281,2022-12-28,2022,2022-11-11,2022,47,True
+Occuity,https://europe.republic.com/occuity2022,12192959,2022-12-29,2022,2022-11-04,2022,55,True
+Darksquare,https://europe.republic.com/dark-square,13040414,2022-12-29,2022,2022-11-17,2022,42,True
+Fagura,https://europe.republic.com/fagura1,14532315,2023-01-05,2023,2022-11-15,2022,51,False
+CrediNord,https://europe.republic.com/credinord,2994963-1,2023-01-05,2023,2022-11-11,2022,55,False
+The British Snack Co.,https://europe.republic.com/the-british-snack-co1,08647804,2023-01-09,2023,2022-11-23,2022,47,False
+Cosimo Art,https://europe.republic.com/cosimo-art,10942598,2023-01-09,2023,2022-11-11,2022,59,False
+Kaleido Rolls,https://europe.republic.com/kaleido-rolls,10571290,2023-01-10,2023,2022-11-22,2022,49,False
+Thrift+,https://europe.republic.com/thrift,10630791,2023-01-11,2023,2022-11-28,2022,44,False
+Hydr,https://europe.republic.com/hydr,12843859,2023-01-13,2023,2022-11-17,2022,57,False
+Blake Mill,https://europe.republic.com/blake-mill,06686612,2023-01-14,2023,2022-11-11,2022,64,False
+Electric Assisted Vehicles,https://europe.republic.com/eav4,11639420,2023-01-17,2023,2022-11-25,2022,53,False
+Crumbs Brewing,https://europe.republic.com/crumbs-brewing,11900889,2023-01-17,2023,2022-11-11,2022,67,False
+ALVÁTECH,https://europe.republic.com/alvatech,12017113,2023-01-19,2023,2022-11-18,2022,62,False
+Seaweed Generation,https://europe.republic.com/seaweed-generation,13383923,2023-01-21,2023,2022-12-14,2022,38,False
+YesColours.,https://europe.republic.com/yescolours,12925133,2023-01-24,2023,2022-11-18,2022,67,False
+Hydro Wind Energy,https://europe.republic.com/hydro-wind-energy3,3238675,2023-01-24,2023,2022-11-16,2022,69,False
+Roslin Technologies,https://europe.republic.com/roslin-technologies,sc529447,2023-01-25,2023,2022-11-18,2022,68,False
+Marvin's Den,https://europe.republic.com/marvin-s-den,13477528,2023-01-26,2023,2022-11-29,2022,58,False
+Ludimos,https://europe.republic.com/ludimos,75739399,2023-01-26,2023,2022-11-08,2022,79,False
+Farmison & Co,https://europe.republic.com/farmison-co,13922579,2023-01-27,2023,2022-11-10,2022,78,False
+Faace,https://europe.republic.com/faace,11782441,2023-02-06,2023,2022-12-23,2022,45,False
+Sustainable Accelerator 6,https://europe.republic.com/sa6,,2023-02-08,2023,2022-10-24,2022,107,False
+The Portfolio Platform,https://europe.republic.com/the-portfolio-platform,12628399,2023-02-23,2023,2023-02-15,2023,8,True
+Omni Pet,https://europe.republic.com/omni-pet,13024483,2023-02-27,2023,2023-01-20,2023,38,True
+Oddbox,https://europe.republic.com/oddbox3,9638976,2023-02-27,2023,2023-01-24,2023,34,True
+Fantasy Football Hub,https://europe.republic.com/fantasy-football-hub3,11545808,2023-02-28,2023,2023-01-19,2023,40,True
+lettingaproperty.com,https://europe.republic.com/lettingaproperty,06679146,2023-03-06,2023,2023-01-19,2023,46,True
+savvy navvy,https://europe.republic.com/savvy-navvy4,10919572,2023-03-06,2023,2023-01-30,2023,35,True
+EBar,https://europe.republic.com/ebar4,SC543722,2023-03-08,2023,2023-01-27,2023,40,True
+Jump Ship Brewing,https://europe.republic.com/jump-ship,SC616013,2023-03-13,2023,2023-02-07,2023,34,True
+easyHire,https://europe.republic.com/easyhire2,10754055,2023-03-15,2023,2023-02-04,2023,39,True
+MPower,https://europe.republic.com/mpower,CHE-452.912.844,2023-03-16,2023,2023-01-18,2023,57,True
+Wavepiston,https://europe.republic.com/wavepiston1,35680829,2023-03-21,2023,2023-02-08,2023,41,True
+Riversimple,https://europe.republic.com/riversimple5,09623909,2023-03-23,2023,2023-01-23,2023,59,True
+Ferris,https://europe.republic.com/ferris1,13142206,2023-03-24,2023,2023-01-20,2023,63,True
+Coopah,https://europe.republic.com/coopah,12602120,2023-03-25,2023,2023-03-01,2023,24,True
+Tweaq,https://europe.republic.com/tweaq,12935381,2023-03-27,2023,2023-02-03,2023,52,True
+Biscuit Tin,https://europe.republic.com/biscuit-tin,SC543343,2023-03-27,2023,2023-02-10,2023,45,True
+ARMD,https://europe.republic.com/armd1,12391104,2023-03-28,2023,2023-02-28,2023,28,True
+Kurk,https://europe.republic.com/kurk,12680542,2023-03-31,2023,2023-02-20,2023,39,True
+Sheep Inc.,https://europe.republic.com/sheep-inc,11226906,2023-04-04,2023,2023-02-03,2023,60,True
+PARIA,https://europe.republic.com/paria,12333068,2023-04-04,2023,2023-02-28,2023,35,True
+The Herd Group Holdings Ltd,https://europe.republic.com/the-herd-group,14426992,2023-04-06,2023,2023-02-24,2023,41,True
+OceanSaver,https://europe.republic.com/oceansaver1,11356014,2023-04-09,2023,2023-03-08,2023,32,True
+Imployable,https://europe.republic.com/imployable1,10850868,2023-04-11,2023,2023-02-10,2023,60,True
+NICE,https://europe.republic.com/nice-drinks,11281620,2023-04-12,2023,2023-03-03,2023,40,True
+DRTY Drinks,https://europe.republic.com/drty-drinks,11635960,2023-04-13,2023,2023-03-01,2023,43,True
+EVO,https://europe.republic.com/evo-pm,11453099,2023-04-14,2023,2023-03-03,2023,42,True
+STELAR,https://europe.republic.com/stelar,10776508,2023-04-19,2023,2023-03-13,2023,37,True
+Splint Invest,https://europe.republic.com/splint-invest,CHE-317.401.567,2023-04-19,2023,2023-02-21,2023,57,True
+BIOFACTORY,https://europe.republic.com/biofactory,11618581,2023-04-21,2023,2023-03-14,2023,38,True
+Your.Rentals,https://europe.republic.com/your-rentals,DK38123947,2023-04-25,2023,2023-02-24,2023,60,True
+KIDLY,https://europe.republic.com/kidly,07672877,2023-04-26,2023,2023-03-31,2023,26,True
+Burning Barn Rum,https://europe.republic.com/burning-barn-rum,10678832,2023-04-26,2023,2023-03-10,2023,47,True
+CrowdProperty,https://europe.republic.com/crowdproperty4,08764786,2023-04-27,2023,2023-02-24,2023,62,True
+Frost,https://europe.republic.com/frost-money,12231881,2023-04-28,2023,2023-03-17,2023,42,True
+LogicDialog,https://europe.republic.com/we-build-bots2,10899737,2023-05-02,2023,2023-03-10,2023,53,True
+Sapling Spirits,https://europe.republic.com/sapling-spirits,11266941,2023-05-02,2023,2023-03-16,2023,47,True
+Honest Mobile,https://europe.republic.com/honest-mobile,11648112,2023-05-02,2023,2023-03-16,2023,47,True
+ClimaFi,https://europe.republic.com/climafi,14287938,2023-05-02,2023,2023-03-10,2023,53,True
+Family Secret,https://europe.republic.com/family-secret1,09464530,2023-05-04,2023,2023-02-17,2023,76,True
+Freestar,https://europe.republic.com/freestar,11737165,2023-05-04,2023,2023-03-24,2023,41,True
+Portfolio,https://europe.republic.com/portfolio1,13997249,2023-05-05,2023,2023-04-18,2023,17,True
+Tonic Health,https://europe.republic.com/tonic-health2,12174856,2023-05-12,2023,2023-03-31,2023,42,True
+Bullet & Bone,https://europe.republic.com/bullet-and-bone,10693686,2023-05-16,2023,2023-01-26,2023,110,True
+ManiLife,https://europe.republic.com/manilife3,09617757,2023-05-18,2023,2023-04-20,2023,28,True
+LondonLink,https://europe.republic.com/londonlink,11668544,2023-05-18,2023,2023-03-29,2023,50,True
+wawa fertility,https://europe.republic.com/wawa-fertility,41507349,2023-05-18,2023,2023-03-10,2023,69,True
+Hofmeister,https://europe.republic.com/hofmeister-beer,09925185,2023-05-22,2023,2023-03-28,2023,55,True
+PHARMASEAL International Ltd,https://europe.republic.com/pharmaseal1,09993255,2023-05-22,2023,2023-04-06,2023,46,True
+Perkier,https://europe.republic.com/perkier,07974955,2023-05-26,2023,2023-03-31,2023,56,True
+WiseAlpha,https://europe.republic.com/wisealpha6,08967521,2023-05-30,2023,2023-04-03,2023,57,True
+Exhale Healthy Coffee,https://europe.republic.com/exhale-coffee,12160821,2023-05-31,2023,2023-04-03,2023,58,True
+Freeflow Technologies,https://europe.republic.com/freeflow-technologies,SC420118,2023-05-31,2023,2023-04-18,2023,43,True
+Riley,https://europe.republic.com/riley1,685489,2023-06-02,2023,2023-04-27,2023,36,True
+SolarBotanic™ Trees,https://europe.republic.com/solarbotanic-trees,14184815,2023-06-06,2023,2023-04-14,2023,53,True
+givestar,https://europe.republic.com/givestar,11323235,2023-06-07,2023,2023-04-12,2023,56,True
+Rubies in the Rubble,https://europe.republic.com/rubies-in-the-rubble1,07931505,2023-06-09,2023,2023-04-28,2023,42,True
+Sway,https://europe.republic.com/sway-money,13808531,2023-06-09,2023,2023-04-21,2023,49,True
+Nebeus,https://europe.republic.com/nebeus1,09492138,2023-06-14,2023,2023-03-31,2023,75,True
+UNLTD.,https://europe.republic.com/unltd1,12187743,2023-06-14,2023,2023-04-12,2023,63,True
+Yonder,https://europe.republic.com/yonder,12739942,2023-06-15,2023,2023-04-27,2023,49,True
+Equitas,https://europe.republic.com/equitas,NI639081,2023-06-16,2023,2023-04-11,2023,66,True
+Ethical Bedding,https://europe.republic.com/ethical-bedding,12452401,2023-06-19,2023,2023-03-31,2023,80,True
+Loowatt,https://europe.republic.com/loowatt2,07082726,2023-06-20,2023,2023-04-25,2023,56,True
+CapitalRise,https://europe.republic.com/capitalrise3,09571824,2023-06-21,2023,2023-05-11,2023,41,True
+Crua Outdoors,https://europe.republic.com/crua-outdoors4,553249,2023-06-21,2023,2023-04-13,2023,69,True
+CarCrowd,https://europe.republic.com/thecarcrowd1,12286089,2023-06-22,2023,2023-04-17,2023,66,True
+Selma,https://europe.republic.com/selma,2752815-5,2023-07-03,2023,2023-06-05,2023,28,True
+The Good Pea Co.,https://europe.republic.com/the-good-pea-co,12602434,2023-07-04,2023,2023-05-10,2023,55,True
+Jamii.one,https://europe.republic.com/jamii-one,39855518,2023-07-06,2023,2023-05-26,2023,41,True
+Not In The Guidebooks,https://europe.republic.com/not-in-the-guidebooks1,10554780,2023-07-07,2023,2023-06-01,2023,36,True
+Craft Gin Club,https://europe.republic.com/craft-gin-club,09405978,2023-07-12,2023,2023-06-05,2023,37,True
+RideTandem,https://europe.republic.com/ride-tandem1,11908428,2023-07-15,2023,2023-06-08,2023,37,True
+Bundlee,https://europe.republic.com/bundlee,10869679,2023-07-18,2023,2023-06-02,2023,46,True
+Rnwl,https://europe.republic.com/rnwl2,12091439,2023-07-20,2023,2023-06-12,2023,38,True
+Qardus,https://europe.republic.com/qardus1,12181387,2023-07-21,2023,2023-06-02,2023,49,True
+Shoorah,https://europe.republic.com/shoorah,14174217,2023-07-21,2023,2023-06-13,2023,38,True
+Fanzine,https://europe.republic.com/fanzine,08388489,2023-07-24,2023,2023-06-14,2023,40,True
+Whitebox Cocktails,https://europe.republic.com/whitebox-cocktails,SC693603,2023-07-27,2023,2023-06-09,2023,48,True
+ZIM Connections,https://europe.republic.com/zim-connections,12989693,2023-07-31,2023,2023-06-06,2023,55,True
+GrowLab Organics,https://europe.republic.com/grow-organics,020307V,2023-08-04,2023,2023-06-02,2023,63,True
+Green Lithium,https://europe.republic.com/green-lithium,13137770,2023-08-08,2023,2023-06-16,2023,53,True
+Nova A.I.,https://europe.republic.com/nova-ai,14346569,2023-08-16,2023,2023-05-15,2023,93,True
+The Funky Appliance Company,https://europe.republic.com/the-funky-appliance-company5,10248770,2023-08-18,2023,2023-06-22,2023,57,True
+Zinia AI,https://europe.republic.com/zinia-ai,11878239,2023-08-18,2023,2023-06-29,2023,50,True
+Carnot Engines,https://europe.republic.com/carnot-engines,12179870,2023-08-18,2023,2023-06-01,2023,78,True
+Onoco,https://europe.republic.com/onoco1,12397107,2023-08-21,2023,2023-06-20,2023,62,True
+LABFRESH,https://europe.republic.com/labfresh,68187874,2023-08-23,2023,2023-07-11,2023,43,True
+TERA Technologies,https://europe.republic.com/tera-technology,CHE-461.574.278,2023-08-23,2023,2023-07-06,2023,48,True
+Ahascragh Distillery,https://europe.republic.com/ahascragh-distillery,630257,2023-08-30,2023,2023-06-09,2023,82,True
+Dorking Wanderers FC,https://europe.republic.com/dwfc,08964370,2023-09-01,2023,2023-08-02,2023,30,True
+DMALINK,https://europe.republic.com/dmalink3,09360817,2023-09-05,2023,2023-08-18,2023,18,True
+EMSOL,https://europe.republic.com/emsol1,10547298,2023-09-11,2023,2023-07-07,2023,66,True
+BeneTalk,https://europe.republic.com/benetalk,09914647,2023-09-13,2023,2023-07-20,2023,55,True
+Fieldwork Robotics,https://europe.republic.com/fieldwork-robotics,10432153,2023-09-13,2023,2023-08-10,2023,34,True
+Wavey Ice,https://europe.republic.com/wavey-ice,NI689111,2023-09-13,2023,2023-07-31,2023,44,True
+LOAH,https://europe.republic.com/loah-beer,12650267,2023-10-03,2023,2023-07-21,2023,74,True
+Troubadour,https://europe.republic.com/troubadour-goods4,07870731,2023-10-04,2023,2023-08-30,2023,35,True
+Player+,https://europe.republic.com/player,12370950,2023-10-04,2023,2023-07-21,2023,75,True
+SquareBook,https://europe.republic.com/squarebook1,11971730,2023-10-10,2023,2023-08-18,2023,53,True
+Stasher,https://europe.republic.com/stasher,09787338,2023-10-11,2023,2023-08-30,2023,42,True
+AKT London,https://europe.republic.com/akt-london1,11211232,2023-10-16,2023,2023-09-13,2023,33,True
+Cellar Rats,https://europe.republic.com/cellar-rats,14061272,2023-10-18,2023,2023-09-06,2023,42,True
+HouseStars,https://europe.republic.com/housestars,13802305,2023-10-19,2023,2023-09-11,2023,38,True
+Homethings,https://europe.republic.com/homethings,12118074,2023-10-23,2023,2023-09-11,2023,42,True
+Hytro,https://europe.republic.com/hytro1,12161623,2023-10-26,2023,2023-09-22,2023,34,True
+Aspira,https://europe.republic.com/aspira,09887042,2023-10-27,2023,2023-08-11,2023,77,True
+Skybound,https://europe.republic.com/skybound,SkyboundHoldingsLLC,2023-10-27,2023,2023-07-26,2023,93,True
+Stamp Free,https://europe.republic.com/stamp-free,SC608907,2023-10-28,2023,2023-09-26,2023,32,True
+Myn,https://europe.republic.com/myn,10888914,2023-10-31,2023,2023-08-04,2023,88,True
+SRSLY Low carb,https://europe.republic.com/srsly-low-carb,12054962,2023-10-31,2023,2023-09-22,2023,39,True
+Lovetovisit.com,https://europe.republic.com/lovetovisit-com,13386956,2023-11-07,2023,2023-09-21,2023,47,True
+Better Nature Tempeh,https://europe.republic.com/betternaturetempeh,11613856,2023-11-08,2023,2023-09-25,2023,44,True
+Bayfikr,https://europe.republic.com/bayfikr,12522212,2023-11-08,2023,2023-10-03,2023,36,True
+Spendology,https://europe.republic.com/spendology,10059951,2023-11-13,2023,2023-09-12,2023,62,True
+GuestReady,https://europe.republic.com/guestready2,CHE-200.707.566,2023-11-15,2023,2023-10-19,2023,27,True
+Batch.Works,https://europe.republic.com/batch-works,11127427,2023-11-17,2023,2023-10-05,2023,43,True
+Vendoir,https://europe.republic.com/vendoir,12986100,2023-11-19,2023,2023-08-30,2023,81,True
+Unwasted,https://europe.republic.com/unwasted,11202703,2023-11-21,2023,2023-10-09,2023,43,True
+Heliac,https://europe.republic.com/heliac,35841911,2023-11-22,2023,2023-10-18,2023,35,True
+Big Sister Swap,https://europe.republic.com/big-sister-swap,12258453,2023-11-27,2023,2023-09-06,2023,82,True
+After Cloud,https://europe.republic.com/aftercloud,12014911,2023-11-28,2023,2023-08-02,2023,118,True
+Solivus,https://europe.republic.com/solivus3,10076849,2023-12-01,2023,2023-10-24,2023,38,True
+Ripple,https://europe.republic.com/ripple5,10565718,2023-12-03,2023,2023-11-17,2023,16,True
+Airponix,https://europe.republic.com/airponix,09256154,2023-12-04,2023,2023-10-27,2023,38,True
+Oatsu,https://europe.republic.com/oatsu,12353410,2023-12-06,2023,2023-10-13,2023,54,True
+Elfin Market,https://europe.republic.com/elfin-market3,10309136,2023-12-07,2023,2023-10-06,2023,62,True
+Swisscann,https://europe.republic.com/swisscan,CHE-152.681.235,2023-12-07,2023,2023-10-20,2023,48,True
+Honestly Tasty,https://europe.republic.com/honestly-tasty1,11728863,2023-12-13,2023,2023-11-08,2023,35,True
+Sonichem,https://europe.republic.com/sonichem,06450324,2023-12-14,2023,2023-11-14,2023,30,True
+Signature Brew,https://europe.republic.com/signature-brew,07823971,2023-12-15,2023,2023-10-19,2023,57,True
+INTELLITHING®,https://europe.republic.com/intellithing,12378970,2023-12-15,2023,2023-11-09,2023,36,True
+Viritech,https://europe.republic.com/viritech,13063420,2023-12-15,2023,2023-10-24,2023,52,True
+Loom Club,https://europe.republic.com/loom-club,12894239,2023-12-18,2023,2023-11-06,2023,42,True
+Centaur Robotics,https://europe.republic.com/centaur-robotics,09130056,2023-12-19,2023,2023-11-02,2023,47,True
+Nix & Kix,https://europe.republic.com/nix-kix1,09270784,2023-12-19,2023,2023-11-17,2023,32,True
+PonchoPay,https://europe.republic.com/poncho-pay,12875128,2023-12-20,2023,2023-10-13,2023,68,True
+Cheran's Bakery,https://europe.republic.com/cherans-bakery,13970243,2023-12-22,2023,2023-10-27,2023,56,True
+Transparent,https://europe.republic.com/transparent-speaker,SE5569179517,2023-12-23,2023,2023-10-24,2023,60,True
+Pashley Cycles,https://europe.republic.com/pashley-cycles,13249117,2023-12-27,2023,2023-11-09,2023,48,True
+Oru Space,https://europe.republic.com/oru-space,11733835,2023-12-28,2023,2023-07-26,2023,155,True
+AgLabs,https://europe.republic.com/ag-labs,14492170,2023-12-28,2023,2023-09-13,2023,106,True
+HomeCooks,https://europe.republic.com/homecooks,12812856,2023-12-29,2023,2023-11-15,2023,44,True
+Baotree,https://europe.republic.com/baotree1,12539971,2024-01-11,2024,2023-11-01,2023,71,False
+Munro Vehicles,https://europe.republic.com/munro-ev,SC635202,2024-01-11,2024,2023-10-20,2023,83,False
+Planera (Fluus),https://europe.republic.com/planera-fluus,10821096,2024-01-15,2024,2023-12-03,2023,43,False
+Cycling Brands,https://europe.republic.com/cycling-brands,09852982,2024-01-16,2024,2023-11-24,2023,53,False
+ProcureCircular by AMBIO-N,https://europe.republic.com/ambio-n1,11691371,2024-01-16,2024,2023-10-13,2023,95,False
+Pronto POS,https://europe.republic.com/pronto-pos,14668208,2024-01-17,2024,2023-11-10,2023,68,False
+BIYU (Bob's Your Uncle),https://europe.republic.com/biyu,80174590,2024-01-29,2024,2023-11-23,2023,67,False
+Baulogic,https://europe.republic.com/baulogic,11908711,2024-01-31,2024,2023-11-24,2023,68,False
+VAUX Brewery,https://europe.republic.com/vaux-brewery,11806499,2024-02-16,2024,2023-11-13,2023,95,False
+nuumi,https://europe.republic.com/nuumi1,HRB213078B,2024-02-26,2024,2023-11-16,2023,102,False
+Naked Sprout,https://europe.republic.com/naked-sprout1,12861535,2024-03-01,2024,2024-02-22,2024,8,True
+Laundryheap,https://europe.republic.com/laundryheap5,09193151,2024-03-04,2024,2024-02-01,2024,32,True
+Shoot,https://europe.republic.com/shoot,05151614,2024-03-06,2024,2023-12-15,2023,82,False
+Sustainable Accelerator 7,https://europe.republic.com/sa7,,2024-03-07,2024,2023-11-03,2023,125,False
+Nirvana Brewery,https://europe.republic.com/nirvana-brewery,10013728,2024-03-18,2024,2024-02-01,2024,46,True
+GT Green Technologies,https://europe.republic.com/gt-green-technologies,13705157,2024-03-19,2024,2024-02-06,2024,42,True
+Brewser,https://europe.republic.com/brewser,13221718,2024-03-20,2024,2024-02-15,2024,34,True
+The Common Ground,https://europe.republic.com/the-common-ground,14515040,2024-03-24,2024,2024-02-12,2024,41,True
+Synergised,https://europe.republic.com/synergised,12628429,2024-03-25,2024,2024-02-09,2024,45,True
+Verv Energy,https://europe.republic.com/verv-energy1,07179872,2024-03-26,2024,2024-02-14,2024,41,True
+THIS™,https://europe.republic.com/this1,11104088,2024-03-26,2024,2024-03-01,2024,25,True
+Valla,https://europe.republic.com/valla,SC658140,2024-03-26,2024,2024-02-23,2024,32,True
+The Deli Society,https://europe.republic.com/the-deli-society,12999955,2024-03-27,2024,2024-01-26,2024,61,True
+Element 2,https://europe.republic.com/element-2,12651834,2024-03-29,2024,2024-02-14,2024,44,True
+A-dam,https://europe.republic.com/a-dam,61494526,2024-04-09,2024,2024-02-15,2024,54,True
+ETHOSA,https://europe.republic.com/ethosa,13410711,2024-04-18,2024,2024-02-29,2024,49,True
+Hidramed Solutions,https://europe.republic.com/hidramed-solutions,581597,2024-04-29,2024,2024-02-28,2024,61,True
+Artscapy,https://europe.republic.com/artscapy,12918699,2024-04-30,2024,2024-03-07,2024,54,True
+Candam Technologies,https://europe.republic.com/candam-tech,B66947367,2024-05-02,2024,2024-02-19,2024,73,True
+Copenhagen Nanosystems,https://europe.republic.com/copenhagen-nanosystems,DK37293903,2024-05-03,2024,2024-01-11,2024,113,True
+Superbutler,https://europe.republic.com/superbutler,14597604,2024-05-08,2024,2024-02-07,2024,91,True
+Thrift+,https://europe.republic.com/thrift1,10630791,2024-05-15,2024,2024-04-09,2024,36,True
+Arksen,https://europe.republic.com/arksen,11055912,2024-05-15,2024,2024-03-22,2024,54,True
+Crua Outdoors,https://europe.republic.com/crua-outdoors5,553249,2024-05-29,2024,2024-02-27,2024,92,True
+Logicdialog,https://europe.republic.com/logicdialog-by-we-build-bots,10899737,2024-06-02,2024,2024-04-04,2024,59,True
+savvy navvy,https://europe.republic.com/savvy-navvy5,10919572,2024-06-05,2024,2024-04-29,2024,37,True
+OGGS,https://europe.republic.com/oggs,11299079,2024-06-07,2024,2024-03-28,2024,71,True
+Beans Coffee Club,https://europe.republic.com/beans-coffee-club,11974026,2024-06-10,2024,2024-04-17,2024,54,True
+Mirror Margarita,https://europe.republic.com/mirror-margarita,13515432,2024-06-10,2024,2024-04-12,2024,59,True
+Spirits of Virtue,https://europe.republic.com/spirits-of-virtue,SC587973,2024-06-10,2024,2024-04-17,2024,54,True
+CarCloud,https://europe.republic.com/carcloud1,11397547,2024-06-11,2024,2024-05-02,2024,40,True
+Whitby Distillery,https://europe.republic.com/whitby-distillery,10989129,2024-06-12,2024,2024-05-01,2024,42,True
+Freckl,https://europe.republic.com/freckl1,11846852,2024-06-12,2024,2024-04-18,2024,55,True
+Truffle Guys,https://europe.republic.com/truffle-guys,12304399,2024-06-14,2024,2024-04-19,2024,56,True
+Wavepiston,https://europe.republic.com/wavepiston2,35680829,2024-06-17,2024,2024-04-23,2024,55,True
+ClearWatt,https://europe.republic.com/clearwatt,09793739,2024-06-18,2024,2024-04-09,2024,70,True
+MishiPay,https://europe.republic.com/mishi-pay,09717666,2024-06-19,2024,2024-05-24,2024,26,True
+Tala Thrive,https://europe.republic.com/tala-thrive,14703044,2024-06-19,2024,2024-05-15,2024,35,True
+Veri,https://europe.republic.com/veri,3115245-3,2024-06-19,2024,2024-04-19,2024,61,True
+Peckwater Brands,https://europe.republic.com/peckwater-brands4,12284429,2024-06-20,2024,2024-05-17,2024,34,True
+The BE Company,https://europe.republic.com/the-be-company,14484648,2024-06-21,2024,2024-03-15,2024,98,True
+Stir Cambridge,https://europe.republic.com/stir-cambridge,09508827,2024-06-25,2024,2024-05-24,2024,32,True
+COAT Paints,https://europe.republic.com/coat-paints,12502151,2024-07-04,2024,,,,
+Wowzabox,https://europe.republic.com/wowzabox,09280862,2024-07-05,2024,2024-04-11,2024,85,True
+Launched,https://europe.republic.com/launched,13503755,2024-07-15,2024,2024-05-17,2024,59,True
+Snakehive,https://europe.republic.com/snakehive,08246737,2024-07-22,2024,,,,
+Currensea,https://europe.republic.com/currensea3,11413946,2024-07-23,2024,,,,
+JimJams,https://europe.republic.com/jim-jams,08693873,2024-07-26,2024,2024-06-20,2024,36,True
+Mode Mobile,https://europe.republic.com/mode-mobile,473902362,2024-07-31,2024,2024-05-02,2024,90,True
+Vinterior,https://europe.republic.com/vinterior,09647881,2024-08-01,2024,,,,
+Acadèmia.tv,https://europe.republic.com/academia-tv,11454950962,2024-08-01,2024,2024-06-26,2024,36,True
+Georganics,https://europe.republic.com/georganics,14587447,2024-08-05,2024,,,,
+Green Lithium,https://europe.republic.com/green-lithium2,13137770,2024-08-06,2024,,,,
+Solent Automation,https://europe.republic.com/solent-automation1,12342259,2024-08-07,2024,,,,
+Shorts Boy Distillery,https://europe.republic.com/shorts-boy-distillery,11467254,2024-08-08,2024,,,,
+CLIQ,https://europe.republic.com/the-cliq,14655103,2024-08-08,2024,,,,
+Peaks,https://europe.republic.com/peaks,68262620,2024-08-08,2024,,,,
+Windsor & Eton Brewery,https://europe.republic.com/windsor-eton-brewery,13483394,2024-08-21,2024,,,,
+Whitebox Cocktails,https://europe.republic.com/whitebox-cocktails1,SC693603,2024-08-28,2024,,,,
+Wegaw,https://europe.republic.com/wegaw1,CHE-155.570.566,2024-09-16,2024,,,,
+imabi,https://europe.republic.com/imabi-anchor-lite-pdr-ecf,12854897,2024-09-24,2024,2024-05-20,2024,127,True
+E-Vittles,https://europe.republic.com/e-vittles,14225407,2024-09-27,2024,2024-06-10,2024,109,True
+Carnot Engines,https://europe.republic.com/carnot-engines1,12179870,2024-09-30,2024,,,,
+Tilted East,https://europe.republic.com/tilted-east,14181426,2024-10-14,2024,,,,
+Heights,https://europe.republic.com/heights4,08403776,2024-10-21,2024,,,,
+Fantacycling,https://europe.republic.com/fantacycling,02357540505,2024-10-23,2024,,,,
+Selma,https://europe.republic.com/selma1,2752815-5,2024-10-28,2024,,,,
+Watford FC,https://europe.republic.com/watford-fc,00104194,2024-11-03,2024,,,,
+Salcombe Distilling Co.,https://europe.republic.com/salcombe-distilling-co1,09140632,2024-11-05,2024,,,,
+MPower,https://europe.republic.com/mpower1,CHE-452.912.844,2024-11-13,2024,,,,
+Origen Carbon,https://europe.republic.com/origen-carbon,08580554,2024-11-18,2024,,,,
+OceanSaver,https://europe.republic.com/oceansaver3,11356014,2024-12-02,2024,,,,
+PropertyLoop,https://europe.republic.com/propertyloop,13779394,2024-12-09,2024,,,,
+Stamp Free,https://europe.republic.com/stamp-free1,SC608907,2024-12-10,2024,,,,
+Waken,https://europe.republic.com/waken,11549393,2024-12-13,2024,,,,
+Metallobio,https://europe.republic.com/metallobio,13295116,2024-12-19,2024,,,,
+PÄRLA,https://europe.republic.com/parla,12182200,2024-12-24,2024,,,,
+Our Pets Life,https://europe.republic.com/our-pets-life,11239237,2025-01-13,2025,2024-11-18,2024,56,False
+Equisera (formerly Wild Hydrogen),https://europe.republic.com/equisera,13911460,2025-01-14,2025,,,,
+Lemonade Dolls,https://europe.republic.com/lemonade-dolls2,09185882,2025-01-15,2025,,,,
+Cookaway,https://europe.republic.com/the-cookaway1,11570053,2025-01-17,2025,,,,
+Tide Ocean,https://europe.republic.com/tide-ocean,CHE-138.803.657,2025-01-27,2025,,,,
+For The Creators,https://europe.republic.com/for-the-creators2,12914205,2025-01-30,2025,,,,
+EBar,https://europe.republic.com/ebar5,SC543722,2025-01-30,2025,,,,
+LND.,https://europe.republic.com/lnd,15378066,2025-02-05,2025,,,,
+Reality Games,https://europe.republic.com/reality-games2,08983817,2025-02-07,2025,,,,
+Samudra Oceans,https://europe.republic.com/samudra-ocean,14470952,2025-02-25,2025,,,,
+Mizen,https://europe.republic.com/mizen,881397640,2025-03-06,2025,,,,
+THE UPCYCL,https://europe.republic.com/the-upcycl,38649795,2025-03-17,2025,,,,
+Salford Rum,https://europe.republic.com/salford-rum,11216010,2025-03-19,2025,2025-02-21,2025,26,True
+Smart Container Company,https://europe.republic.com/the-smart-container,11241573,2025-03-21,2025,2025-02-12,2025,37,True
+Orange County SC,https://europe.republic.com/orange-county-sc,6093017,2025-03-25,2025,,,,
+Minviro,https://europe.republic.com/minviro2,11654153,2025-03-27,2025,2025-02-20,2025,35,True
+Son of a Tailor,https://europe.republic.com/son-of-a-tailor,DK34732590,2025-03-27,2025,,,,
+Lick,https://europe.republic.com/join-lick,12062607,2025-04-28,2025,2025-04-14,2025,14,True
+Airturb,https://europe.republic.com/airturb,72093798,2025-05-01,2025,2025-02-11,2025,79,True
+Astra Mining,https://europe.republic.com/astra-mining,10706409,2025-05-14,2025,2025-03-17,2025,58,True
+Shack Cabins,https://europe.republic.com/shack-cabins,14989249,2025-05-17,2025,2025-02-13,2025,93,True
+Keepr,https://europe.republic.com/keepr,10338438,2025-05-27,2025,2025-04-15,2025,42,True
+Long Lane,https://europe.republic.com/long-lane,15790730,2025-05-31,2025,2025-03-10,2025,82,True
+Pronto POS,https://europe.republic.com/pronto-pos1,14668208,2025-06-09,2025,2025-05-15,2025,25,True
+Devon Rum Company,https://europe.republic.com/devon-rum-company,13939153,2025-06-17,2025,2025-04-15,2025,63,True
+Amaro Dolce,https://europe.republic.com/amaro-dolce,14666118,2025-06-25,2025,2025-04-22,2025,64,True
+Howl,https://europe.republic.com/howl,14752221,2025-06-26,2025,2025-04-29,2025,58,True
+Isle of Barra Distillers,https://europe.republic.com/isle-of-barra-distillers1,SC553952,2025-06-30,2025,2025-05-12,2025,49,True
+HASHTAG UNITED,https://europe.republic.com/hashtag-united,10575088,2025-07-04,2025,2025-05-27,2025,38,True
+Obligate,https://europe.republic.com/obligate,CHE-379.891.298,2025-07-08,2025,2025-05-30,2025,39,True
+CANVVS,https://europe.republic.com/canvvs,12966444,2025-07-14,2025,2025-05-23,2025,52,True
+Altilium,https://europe.republic.com/altilium,12863419,2025-07-16,2025,2025-06-09,2025,37,True
+swisscann,https://europe.republic.com/swisscann,CHE­152.681.235,2025-07-28,2025,2025-06-12,2025,46,True
+Striver,https://europe.republic.com/striver,16307327,2025-07-29,2025,2025-06-12,2025,47,True
+ClearWatt,https://europe.republic.com/clearwatt1,09793739,2025-07-31,2025,2025-06-05,2025,56,True
+Watergate AI,https://europe.republic.com/watergate-ai,15320638,2025-07-31,2025,2025-06-24,2025,37,True
+CAESL,https://europe.republic.com/caesl,11098150,2025-08-12,2025,2025-05-01,2025,103,True
+Salcombe Dairy,https://europe.republic.com/salcombe-dairy,06163893,2025-08-19,2025,2025-06-24,2025,56,True
+Resiclo,https://europe.republic.com/resiclo,2665075-7,2025-08-19,2025,2025-05-28,2025,83,True
+Hyppo Hydrogen Solutions,https://europe.republic.com/hyppo-hydrogen,14516343,2025-09-08,2025,2025-07-29,2025,41,True
+Spare Parts 3D,https://europe.republic.com/spare-parts-3d4,841469265,2025-09-17,2025,2025-07-01,2025,78,True
+QED Naval,https://europe.republic.com/qed-naval2,SC339873,2025-09-18,2025,2025-07-30,2025,50,True
+Golisto,https://europe.republic.com/golisto,37502316,2025-09-19,2025,2025-07-29,2025,52,True
+Nebeus,https://europe.republic.com/nebeus2,09492138,2025-09-30,2025,2025-07-16,2025,76,True
+rSPAX Mirror Notes,https://europe.republic.com/rspax-mirror-notes,10232987,2025-10-08,2025,2025-09-17,2025,21,True
+Hofmeister,https://europe.republic.com/hofmeister2,09925185,2025-10-20,2025,2025-09-12,2025,38,True
+Van Hunks Drinks,https://europe.republic.com/van-hunks-drinks2,12102039,2025-10-22,2025,2025-08-20,2025,63,True
+Surf London,https://europe.republic.com/surflondon,11577592,2025-11-04,2025,2025-09-25,2025,40,True
+Oru El Saltador,https://europe.republic.com/oru-el-saltador,16419717,2025-11-04,2025,2025-09-10,2025,55,True
+Stir Cambridge,https://europe.republic.com/stir-cambridge1,09508827,2025-11-06,2025,2025-10-13,2025,24,True
+Odysse,https://europe.republic.com/odysse,12916243,2025-11-10,2025,2025-09-18,2025,53,True
+The Home Hospital,https://europe.republic.com/virtue-health1,14259545,2025-11-11,2025,2025-09-30,2025,42,True
+Tomato+,https://europe.republic.com/tomato,REABS-563153,2025-11-17,2025,2025-09-18,2025,60,True
+AI Venture Builder,https://europe.republic.com/ai-venture-builder,15371011,2025-11-25,2025,2025-09-03,2025,83,True
+Daya Ventures,https://europe.republic.com/daya-ventures,5594285396,2025-12-04,2025,2025-10-31,2025,34,True
+Lapee,https://europe.republic.com/lapee,39152592,2025-12-08,2025,2025-11-03,2025,35,True
+savvy navvy,https://europe.republic.com/savvy-navvy6,10919572,2025-12-09,2025,2025-11-10,2025,29,True
+rTTOK Mirror Notes,https://europe.republic.com/rttok-mirror-notes,10232987,2025-12-10,2025,2025-10-30,2025,41,True
+Fieldwork Robotics,https://europe.republic.com/fieldwork-robotics1,10432153,2025-12-12,2025,2025-10-10,2025,63,True
+Pollen Projects,https://europe.republic.com/pollen-projects,13892581,2025-12-17,2025,2025-11-07,2025,40,True
+Chirp,https://europe.republic.com/chirp,629187,2025-12-19,2025,2025-10-31,2025,49,True
+Jump Ship Brewing,https://europe.republic.com/jump-ship-brewing,SC616013,2025-12-19,2025,2025-11-28,2025,21,True
+Nordic microbes,https://europe.republic.com/nordic-microbes,42559997,2025-12-20,2025,2025-11-11,2025,39,True
+Occuity,https://europe.republic.com/occuity2,12192959,2025-12-23,2025,2025-11-05,2025,48,True
+Woolf Helmets,https://europe.republic.com/woolf-helmets,13656665,2025-12-24,2025,2025-10-23,2025,62,True
