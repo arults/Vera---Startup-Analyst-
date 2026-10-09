@@ -228,3 +228,30 @@ Jev execution round 1 after the verifier:
 - Republic Europe outputs remain candidate_only, probability 0.86;
 - no Phase 1C design flip, probability 0.88;
 - highest expected-value next improvement = attempt Wefunder denominator recovery through the on-platform explore API.
+
+## 2026-10-09 — Phase 1D CP4B / execution 0.6.0-dev.r2
+
+### Continuation-state correction
+The later Wefunder Jev gate rejected the 149-row current visible API subset (144 Portal LLC rows, no matches to the known 42-row 2020 cohort) as a historical denominator and selected Republic US next. SKILLS.md and the old next-action paragraph above had become stale. They are retained as history; the current checkpoint is `checkpoints/PHASE_1D_CP4B_REPUBLIC_US_RECOVERY.md`.
+
+### Concrete capture defects repaired
+The legacy Republic US probe rejected `companies` before its intended company-profile allowance, used cumulative global candidates for supposed per-page counts, deduplicated all responses by URL regardless of content, and relied only on scrolling. An additive collector now preserves per-page evidence, distinct same-URL response hashes, bounded native pagination, immutable source snapshots and run-scoped checkpoints. Nineteen adversarial tests cover the capture increment. Prior evidence files are untouched.
+
+### Failed live attempt retained
+Run 37894313863 executed and persisted correctly; 82/82 regression tests passed. Nevertheless, all four public directory requests returned HTTP403 and produced zero new captures. The workflow was green because it successfully recorded errors, not because research had succeeded. Its 10/10 integrity checks cannot prove the presence or completeness of data.
+
+Rejected: reporting green CI as successful evidence collection; declaring a historical census complete from visible-list exhaustion; repeating the identical four blocked requests without a changed access condition. Jev selected ACCESS_BLOCKED / no new evidence, probability 1.00 and confidence 1.00. No authentication or access controls were bypassed.
+
+### Feedback -> rebuild -> re-execute
+Jev selected normalization of the already-preserved public API archive, probability 1.00 and confidence 1.00. A second 19-test increment added exact integer-cents handling, month-bound date parsing, raw-row/source hashes, duplicate/conflict flags, a missing-evidence queue and non-empty evidence gates.
+
+Run 37894925070 persisted 144 archived native candidates with 144 unique slugs, zero rejected rows, zero exact duplicate rows and zero slug conflicts. All 15 normalization/provenance gates and 101 total regression tests passed. The raw archive's Git blob and SHA-256 were verified before processing; output hashes and an independent artifact copy are retained.
+
+Rejected: calling these 144 newly discovered or verified funded rounds; assigning first-live offering years from deadline months; treating a cap as a priced valuation; matching legal entities by name alone; assuming funding completion or survival from a portfolio listing. The 49 records with 2020 deadline bounds are not a validated 2020 cohort, and this archive has no 2021–2025 deadline entries. All 144 remain estimation-ineligible with unresolved legal IDs and first-live/funded-close dates.
+
+### Checkpoint and remaining work
+Output: `data/phase1d/republic_us_archive/gh-37894925070-1/`, including a 144-item resolution queue. Live errors remain in `data/phase1d/republic_us_recovery/gh-37894313863/`. All four Jev evaluations and exact confidence/probability distributions are retained in `evidence/jev/PHASE_1D_CP4_ROUND2_RECOVERY.json`.
+
+Jev's final choice accepts the candidate checkpoint only (probability 1.00, confidence 1.00), keeps the whole study incomplete/not plateau (probability 1.00, confidence 1.00), and prioritizes historical census/date recovery. These are decision-model judgments, not empirical startup success probabilities. Four platform historical denominators remain incomplete; no outcome rate or release was promoted. Promoted version stays v0.5.0; execution increment is 0.6.0-dev.r2.
+
+Lesson: data-source availability, capture integrity, historical coverage and statistical eligibility are distinct gates. Progress on one must never be presented as completion of the others. The next resumption must use the saved manifests/queue and a defensible historical source, not restart failed access attempts or infer missing outcomes.
