@@ -1,0 +1,44 @@
+{
+  "files": {
+    "cp2_republic_europe_rounds_normalized.csv": "b6798dc8acd85cf80cfe19080422a876d89a259c21a1d59f112c8b2044ee74ed",
+    "cp2_republic_europe_year_unresolved.csv": "551b3711d4e0cc0543ad21cfd08d872f6b20f232653bb47c2b6d7d7156557986"
+  },
+  "generated_at": "2026-10-09T01:51:10.594356Z",
+  "summary": {
+    "bounded_year_by_year": {
+      "2020": 184,
+      "2021": 191,
+      "2022": 181,
+      "2023": 142,
+      "2024": 47,
+      "2025": 51
+    },
+    "bounded_year_field_counts": {
+      "climate_energy_industrial": 46,
+      "consumer_retail": 57,
+      "fintech_insurtech": 124,
+      "food_beverage_agtech": 196,
+      "healthcare_medtech": 63,
+      "media_gaming_creator": 32,
+      "mobility_logistics_aerospace": 95,
+      "other_diversified": 68,
+      "realestate_hospitality_proptech": 36,
+      "saas_enterprise_software": 79
+    },
+    "cohort_year_unresolved_rows": 156,
+    "cohort_year_usable_rows": 796,
+    "cohort_year_usable_share": 0.8361344537815126,
+    "jev": {
+      "bounded_same_year_probability": 0.61,
+      "design_reopen_yes_probability": 0.16,
+      "exact_date_interval_bounds_probability": 1.0
+    },
+    "normalized_rows": 952,
+    "platform": "republic_europe",
+    "repeat_company_round_rows": 160,
+    "scope": "funded rounds with platform funded year 2020-2025",
+    "unique_companies": 792,
+    "unique_round_ids": 952,
+    "year_rule": "offering year assigned only when approval_date and funded_date are both platform-hosted and in the same calendar year; exact first_live_date remains null"
+  }
+}
