@@ -1,0 +1,28 @@
+{
+  "platform": "republic_europe",
+  "source_normalized_blob_sha": "46451af4f232fbec3dfca964bf8ec13d967ea02a",
+  "files": {
+    "cp2_republic_europe_repeat_round_audit.json": "58fa4e471ccf96ff792558feb9097c64ff67e08c",
+    "cp2_republic_europe_same_round_candidates.csv": "52c9dfd49f9bbb0ae18d0e45673d38a152900cc0",
+    "cp2_republic_europe_sequence_edges.csv": "c64c0925cda106b1a105432435702313ff96ea43"
+  },
+  "summary": {
+    "platform": "republic_europe",
+    "normalized_rounds": 952,
+    "unique_companies": 792,
+    "companies_with_multiple_rounds": 121,
+    "repeat_round_rows": 281,
+    "rounds_per_company_distribution": {
+      "1": 671,
+      "2": 91,
+      "3": 24,
+      "4": 4,
+      "5": 1,
+      "6": 1
+    },
+    "sequence_edge_candidates": 160,
+    "same_round_review_candidates": 0,
+    "same_round_score_distribution": {},
+    "policy": "Audit only; no candidate auto-collapsed before Jev/Verifier decision."
+  }
+}
