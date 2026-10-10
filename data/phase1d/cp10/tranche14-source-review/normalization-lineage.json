@@ -1,0 +1,1192 @@
+{
+  "schema": "vera.phase1d.portable_source_review_lineage.v1",
+  "status": "DERIVATIVES_PENDING_SEPARATE_NORMALIZATION_ATTESTATION",
+  "upstream_artifacts": {
+    "fourteen-dispositions.json": {
+      "upstream_sha256": "ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23",
+      "upstream_artifact_name": "fourteen-dispositions.json"
+    },
+    "independent-final-review.json": {
+      "upstream_sha256": "63c9a17c822847ec84b85b5c34d7c2c0fef3b1f1fd722d7cc4d0fa5251af1f70",
+      "upstream_artifact_name": "independent-final-review.json"
+    },
+    "PRIMARY_REVIEW_REPORT.md": {
+      "upstream_sha256": "ec5dcd15c4e35ef454336aeb96dbb4f52018a48a6755578cca762d1d4be0462c",
+      "upstream_artifact_name": "PRIMARY_REVIEW_REPORT.md"
+    },
+    "amendment-inventory.json": {
+      "upstream_sha256": "71d4af6b7d97a23ca232dfe37d7411901227df79fa24193007cb49f6b5815c89",
+      "upstream_artifact_name": "amendment-local-inventory.json"
+    }
+  },
+  "derivative_files": {
+    "fourteen-dispositions.json": {
+      "sha256": "53e2d98e240551782132eb62c707a6c1f0fbeb49ad2857fd1b6a5b602f9fe958",
+      "bytes": 421665
+    },
+    "independent-final-review.json": {
+      "sha256": "950b421dc3796ecc891dc23468333669ce63ad25cc24efbab44b7a68c2e81c2c",
+      "bytes": 13399
+    },
+    "PRIMARY_REVIEW_REPORT.md": {
+      "sha256": "c0274ab2dbb14211baaf71dd314498c511681ccea7a51ead46b69543bd58bf01",
+      "bytes": 10087
+    },
+    "amendment-inventory.json": {
+      "sha256": "c1b9222e91606f55495b861dafeea83ac1c642bae7835bb0eaca6c937aa5b86c",
+      "bytes": 6446
+    }
+  },
+  "json_changes": [
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/original_offered_field_ledger/path",
+      "old_value_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4",
+      "new_value": "sha256:4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/native/0/receipt",
+      "old_value_sha256": "820322f96018487805a7211c82f30c96e5cadb3118cae15b5f9a928caae7d816",
+      "new_value": "sha256:4140de2359057d29bdf733c750340256d23aee7ddc0826bfd56fe61e960e8ff2",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/native/0/original_path",
+      "old_value_sha256": "ab560eea6038d0a47b04e62190b097108335363bfbb697fd2f2e60d8ddcc0edd",
+      "new_value": "sha256:5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/native/0/gzip_path",
+      "old_value_sha256": "59c6e747b5e97b9d96431b3dc5f08b9e62f10c16f9f12d62c246c9b414777234",
+      "new_value": "sha256:e5ab00cf16f17ffa94c77005dc7b8be57d5d9941ef2590f8be934108dfa11c8f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/native/1/receipt",
+      "old_value_sha256": "5456e9015a054e3450c1a50b651d40d16eab41106621e655fd3d1f85083f0f9a",
+      "new_value": "sha256:b8e0f2b8492cdd888672d7640663b40d77e8a90a75a36a78d5c4e0c4ed8e49d0",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/native/1/original_path",
+      "old_value_sha256": "eeceb6684cb751368b0aa35a889dccf4b25063cd7911493f5b4182ef81c84b52",
+      "new_value": "sha256:1b7d47699b604da1a46e8e97c4f8b195565c12bd1acf932199099ba35daf4c00",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/native/1/gzip_path",
+      "old_value_sha256": "6d9e9ea83d8a63f474327d08b70a7e1d2d78ffef3c24dc962edde5bca9182e6b",
+      "new_value": "sha256:6b24756b15feb26c9b1041e57cd1d807e306ae4ae82b02858313ab6f34ba8aef",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/reviewed_document/local_path",
+      "old_value_sha256": "68fb5930c6f274289b9f358ddb1529bf240af32f4f88e8f41ca5134b86aed333",
+      "new_value": "sha256:a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4",
+      "new_value": "sha256:4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/original_offered_field_ledger/path",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/native/0/receipt",
+      "old_value_sha256": "db7e0f21707794890f9da0bd31468008a8a916113d30942c952d55cb7af2a2ad",
+      "new_value": "sha256:a787f1a5e83279ca2a1cad0cc3576dab4356ea1b7cd38826f8979ab63bcacd7c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/native/0/original_path",
+      "old_value_sha256": "93d4c29fa46f22743a2e8da5910f0b6db62d9f8c7e0a1eb78e3ea8ec3bf91bb0",
+      "new_value": "sha256:cedf155f7daf0beea2b1a3dd319e665cfdcc103191569f6ed971e59fc979e5c7",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/native/0/gzip_path",
+      "old_value_sha256": "54ec3e09ec5d2cc1629bac851e71d02363fdff386318a445866b88e1e460eb5a",
+      "new_value": "sha256:a0a6812e3155d2248c94f39e223c0cb6ccd802f8b0ff31aba31807a156269738",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/native/1/receipt",
+      "old_value_sha256": "7eb25cdfb74701de43ffdca0b230f2ce0f61c5e73ac260e30a715ac7e6ca9033",
+      "new_value": "sha256:33101af64656db44391630304b9c418723309c17f1191a745164639c5174f3f0",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/native/1/original_path",
+      "old_value_sha256": "90829ce51198d7d36ca3e2aa07216db60680e3c605688d7f8b6a7aae8440f50c",
+      "new_value": "sha256:c5772425c42fc4fa6a0b9a9529eb161c471608609c0b8f5e7dfaa7cce705b6ce",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/native/1/gzip_path",
+      "old_value_sha256": "2ff048473b6231ae2964686c8fdcaeb1a1087822e5220483a298b7b89db1a918",
+      "new_value": "sha256:62b5cdc49ca62b683cc98cafd2af4721b49356c044d788411fdeb941e5105e36",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/reviewed_document/local_path",
+      "old_value_sha256": "04013b1270715084bcbe1defa7a8d21b395c077d917308bb38bac8d7ba382257",
+      "new_value": "sha256:dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/original_offered_field_ledger/path",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/native/0/receipt",
+      "old_value_sha256": "ff52d16810b845ef6da7cba494827455f5c162598ed152124c193e7421c1ac21",
+      "new_value": "sha256:a5ffab89ed773095220e0900dec40a6b16400b41089c0c6e01fcb990f8a0b0fb",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/native/0/original_path",
+      "old_value_sha256": "d9030a7d075bace9a003aeac53a438cf1bbe7012e8e4873fe1961c7b4cd42d40",
+      "new_value": "sha256:3a8d208661c2f2d5990791ec700d8af718044b24198487359213f5abd0b21cc7",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/native/0/gzip_path",
+      "old_value_sha256": "156431aa63e63c478cd853d32be7d76887d25663f3aa7f33e4b900dbb899aee7",
+      "new_value": "sha256:9efcfd93752906c23bc56675ed08f5dd2fe4d4cad3b2d9c7b1082fa07135dc6c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/native/1/receipt",
+      "old_value_sha256": "e42190c70cd00400a7763f0f382c0b7b573aab7defaf08914d43ab701ea27211",
+      "new_value": "sha256:ea02509e101649f6bb29e8f0c0c917d9bc46ebf6132a16041209fb75673687a7",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/native/1/original_path",
+      "old_value_sha256": "020c6733d0779f3f2602f7f1cd2b2e4ab4153941940a8869961d7cdb0be1c63c",
+      "new_value": "sha256:8d67063a444c5e4e2f211abada42d475a5d522dfce06e4b88a1a727cebd9bdc3",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/native/1/gzip_path",
+      "old_value_sha256": "0a05dd20a43f2762a67e8ba751a6027799532155527c29f69df4c319eff63051",
+      "new_value": "sha256:14029a353d2b5836498074bb49e9f54ec14279e1901b99bf4c0a2b7848ddf60a",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/reviewed_document/local_path",
+      "old_value_sha256": "12e61896098978fa9a976122d6317fb43d4980bac9217a244bdb51fec2f26378",
+      "new_value": "sha256:08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/original_offered_field_ledger/path",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/native/0/receipt",
+      "old_value_sha256": "e5b53257aa5c8de9ddf178a59c66e5458073f81352f16a210595a9d92387649f",
+      "new_value": "sha256:2fa84792fbffeba2e76a91713416bffbf152640aa53ae622882401565573bb63",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/native/0/original_path",
+      "old_value_sha256": "7cc9ee8a727c4a8e1e6a415975b3fe6a2d707d827c956da6d6a85e3f991cc19b",
+      "new_value": "sha256:976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/native/0/gzip_path",
+      "old_value_sha256": "60696d227476c74d4301d9feb112e7d197e1abaf8e1f325968ab6de643615304",
+      "new_value": "sha256:2663c1b0b16607a76421aa874efc9916252e1b19141ee3faa9e6507113ef0e87",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/native/1/receipt",
+      "old_value_sha256": "ba611dc405e2fbc5d45af6132fd8698d776fa11a13e6b29ab6e1702f64a6351e",
+      "new_value": "sha256:da9e5c6f51f5a62efc9219073fe26f021f13b40593f36f6a7f62e70e03744cac",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/native/1/original_path",
+      "old_value_sha256": "bb5e0dd6a44c470e2f1505f47c881078aaf7a1460195ddc2b17d0a0e44b34f80",
+      "new_value": "sha256:acb182a43820f3804235daf759b7f9b95c97da14ee86a14ed9d37fb02f32bbbc",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/native/1/gzip_path",
+      "old_value_sha256": "03beef2a22b62c0f006e04ca581327ca83e8a9e00661e1e89e53759236565e87",
+      "new_value": "sha256:54cde671984e3db8b6562a668db804fff3d020f9d8a43c50e889c3bed73a1977",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/reviewed_document/local_path",
+      "old_value_sha256": "ca9ce5a86144930b036abdde1c24483b0b013b5b6a8db13156954bffec2d90c9",
+      "new_value": "sha256:99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/original_offered_field_ledger/path",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/native/0/receipt",
+      "old_value_sha256": "e656b656c45964b8739591527ef8704b62a6cb019335379a0aca237de137fa4f",
+      "new_value": "sha256:39f743f9cc72e94c46739851a31422b363c128076e9137dab61912f88be1a641",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/native/0/original_path",
+      "old_value_sha256": "a079a33240e1388dbf14feead8fad2b9e940fe64403befb7c3ee4e49ff64be0b",
+      "new_value": "sha256:53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/native/0/gzip_path",
+      "old_value_sha256": "036af015ab35ca02c52b82f7884ac28a5c425b8c0cd4a6732c1120f8fb15746e",
+      "new_value": "sha256:7147f615293b801a3feb608757e8f9df80d675fd1bf028c8aeb2ae0c5caf2793",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/native/1/receipt",
+      "old_value_sha256": "428c91d211c5adcad30628aa9f05297fd9ff46c7e8d13e9419d7e6df2a52ccdc",
+      "new_value": "sha256:50c206dad7b51d322e929dc4503a213cda82b05103c0309bbcb9a7fb11205283",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/native/1/original_path",
+      "old_value_sha256": "a0feb53bebea1ab4dc3efce37379d5a220cdfeca2124f4485a39181310716e77",
+      "new_value": "sha256:fe1b43f4130aae52292f600872723970a88def359edfd58e93290f0c7b38ba9a",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/native/1/gzip_path",
+      "old_value_sha256": "07e7c937d097d101e012ba22ae8198b7ce0aa0ecf96a8b77f669cda507a1b353",
+      "new_value": "sha256:5369cebb1017708361399df033835b30ef9e3af9c9e7f1b902fb99f2e0fde34c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/reviewed_document/local_path",
+      "old_value_sha256": "274dd4e77b77128495fac27299a6671b00f1760efc6f343cf66ad279b1dcbecb",
+      "new_value": "sha256:c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/original_offered_field_ledger/path",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/native/0/receipt",
+      "old_value_sha256": "db7df53c27264a61ee598b382d1835b0919a58646384f419ff0354828f7c6687",
+      "new_value": "sha256:9a2bcb783d8a33c4559a3a179cdf000561a886c910d4014cafc26f7035c049d8",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/native/0/original_path",
+      "old_value_sha256": "01566f9de68dae2cb93878e30c337409a4083a046f29c93394e055a90b24674d",
+      "new_value": "sha256:0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/native/0/gzip_path",
+      "old_value_sha256": "9592b236b74a74da2f388c938d187bde8bf7e5a02f99c6fdbe51625df7bc5999",
+      "new_value": "sha256:fecbe23ab9c676abcb7f0d7c5effcd577f758e771ebef4c589b2d5d2ef7517f0",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/native/1/receipt",
+      "old_value_sha256": "420af3b247bb4aec01f8f89840b92f70d744b55fbe195725fbff01be2aa0057f",
+      "new_value": "sha256:afc08d358c6c304dbbee6647d5aa0f263546ddb21d95d1ce52273acad013dec3",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/native/1/original_path",
+      "old_value_sha256": "b60116d67f53f4cf30c506ca9cf6c41ef813666b047ad1d9a3bc75479af2d4c4",
+      "new_value": "sha256:d2606b9589f47fbbba593804a7b5bddf86e709b1f11631cfe6fd3893b8be4198",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/native/1/gzip_path",
+      "old_value_sha256": "a947a38883e7fa6ace161f8b51b2469286ec05661307ff7d9522a7b916cc954b",
+      "new_value": "sha256:045bed51b4c928bd8813ed863883948cf03bfa6cec44889a0164b271a0f1dbab",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/reviewed_document/local_path",
+      "old_value_sha256": "49a3040f6c143ff4325d06cc27815ddf153aec9edb9ea97ada4b6e212be4f984",
+      "new_value": "sha256:e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/original_offered_field_ledger/path",
+      "old_value_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4",
+      "new_value": "sha256:4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/native/0/receipt",
+      "old_value_sha256": "209112d6ed9f076b46de4546b5f296fba2b19e6f829adef20785bc5dccae9dbf",
+      "new_value": "sha256:cbf4504f43ffe1bbe325c338f138cdce5f47f15953682866f02a3d82d36da80e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/native/0/original_path",
+      "old_value_sha256": "348ab625b080ddf7676012948f6071af448239434dd666c441fa3aeb38a5cc6a",
+      "new_value": "sha256:be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/native/0/gzip_path",
+      "old_value_sha256": "5ae0f3c9edefe8abea307191eb065741333b208d975694dc34673a7ec8ee3b5e",
+      "new_value": "sha256:a51b222e6a29caa7acd40f5face3eac6de527e1d5d1818fd8b707bb2cec86819",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/native/1/receipt",
+      "old_value_sha256": "4418b4b08c3129f47f9162a3f5e088998907485f3558bc8d2f0e5a3df56a957d",
+      "new_value": "sha256:6c53ff3878f997fec3b5c6aee206e876e57d053b276fbff353fd1b2d2473590f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/native/1/original_path",
+      "old_value_sha256": "a523dfd3b569f9eea393edadcfd5899c4dc4bafa734a50fb4a93b5de3cec4245",
+      "new_value": "sha256:d655a4ea7fb0948e1fc19ed7ec491e158aafacf2f073e6cf23dfc778336f9133",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/native/1/gzip_path",
+      "old_value_sha256": "a3df1edd6b26d92698d859255482f4f524263d83f5a027efb42f7f2d08eec51d",
+      "new_value": "sha256:837877d32b71e915344de48d35352a200c283d8ffdc33554687bdc7c3ded4c9c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/reviewed_document/local_path",
+      "old_value_sha256": "67034a54ef7a6cd56c83884c1af311b893494326d20fde863345a98c28e6edfc",
+      "new_value": "sha256:8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4",
+      "new_value": "sha256:4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/original_offered_field_ledger/path",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/native/0/receipt",
+      "old_value_sha256": "c9d0d1b98ccd6ae3fd8ad0199ea0763e54f7c5669767bf6fdf629b441345595d",
+      "new_value": "sha256:aee2571494f25a327144041ad4b07810f1fb855f221a58f3f16622a8f88d0856",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/native/0/original_path",
+      "old_value_sha256": "f21020eebb4a953069e21f6c4a2143d780c9e4be117eeacf1f212ffe3cf334b3",
+      "new_value": "sha256:d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/native/0/gzip_path",
+      "old_value_sha256": "a00ea23446fde941f5983d3ee08a0177e9cde4ca7a0546e9dc34ff4d4f1839f5",
+      "new_value": "sha256:de6a9665b5cab828a1a6614d550baf137462ef29e53ec30c2c1ba81dfd243f5b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/native/1/receipt",
+      "old_value_sha256": "67190e56a7702f696097abff7f53a042a448c447982ef290002ee25752e534d9",
+      "new_value": "sha256:3def0bf7c82f1861e892b9ead616363b33e7b509beb4f61590faab6425ef107c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/native/1/original_path",
+      "old_value_sha256": "385e10fadb045ae33036bf82157b20cff1b621bccee52a2e8a7512bfe6410c71",
+      "new_value": "sha256:e752bd425ea677f8ed48a5c2bf85430a7086a8962bf1fa15dfda46e59a1964c1",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/native/1/gzip_path",
+      "old_value_sha256": "8e2cef81a324ee62be0c37fe4b2fbfa7a41ff3bb8069d21f6543d4e5927be9dc",
+      "new_value": "sha256:7e0aff0a70a3ffa87347db459465a299b21262ba8b983d0980eaa96596b2b087",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/reviewed_document/local_path",
+      "old_value_sha256": "299fee0cef7f5e111f5875be19b906314f2f60072a53ac03b7b3da55b45568ea",
+      "new_value": "sha256:55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/original_offered_field_ledger/path",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/native/0/receipt",
+      "old_value_sha256": "43a7282876f832da3a7970fca63899ce460fb5ae0b1261559ba2b2c097078ae2",
+      "new_value": "sha256:89f3f5b642b2a4576b22773fea4949f3f5598c6bcecd34cef31f08e38dc11a90",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/native/0/original_path",
+      "old_value_sha256": "bc557650df6e16748a1219fda665f78032c219e464552afa3cedffac29ce9f8c",
+      "new_value": "sha256:aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/native/0/gzip_path",
+      "old_value_sha256": "dc837bb4f62a2499d285e4c2690aa9e9a812637c5eb412e976ffe06c0b2c2921",
+      "new_value": "sha256:d7dd5f72915cefd811c265674b7c744bf28e75b151950ea5531e0974e40f0555",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/native/1/receipt",
+      "old_value_sha256": "283ec45b690d33e71e45fcdf9df394e620675dd1c9af28fede758c902717dcb2",
+      "new_value": "sha256:af124e1a3985480c4f1584f3520272e86dbae2dd01ab563f9172e485c45a7da8",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/native/1/original_path",
+      "old_value_sha256": "cb859774679b09c2dc491a26677b212d8e784c84be3f483edca98546afed582b",
+      "new_value": "sha256:f25af4c8ba12cd93a9dd667243546ab03f66f7ef937562ede63ee223dc295d02",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/native/1/gzip_path",
+      "old_value_sha256": "81c2fc3995d793dea80f67176be3d3a94ae947a42f50a394b0a2cc909cecb4cb",
+      "new_value": "sha256:0d4e6fbddaa8551acb4b32202dbc7f60e36ecc54feb581f548da1ca72f342c7f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/reviewed_document/local_path",
+      "old_value_sha256": "dec7edd35648d4d089ff9d989c8885be913435732b5cef60be44d9e7c53e30db",
+      "new_value": "sha256:145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/original_offered_field_ledger/path",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/native/0/receipt",
+      "old_value_sha256": "8fb6e5cd1a5314af6f6c1990fba22778e34c963cfae3a059d689c49c960972ec",
+      "new_value": "sha256:0ddcb30f3778b0e440f15866add1e629034d332905e0f1841cf14451f8fc3f67",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/native/0/original_path",
+      "old_value_sha256": "d057263bfd43814eb24fd4b4b69d22e54c74437c72f468bbebdba3f1ef669967",
+      "new_value": "sha256:16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/native/0/gzip_path",
+      "old_value_sha256": "c0823270c61f44b8b985bfd3d1957d322d3c7168defd4668218bf75c2fb69d88",
+      "new_value": "sha256:e2a6dd81f17d188eefb745076428424a5f2a1e8f208d84eb27dcc706944b4d51",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/native/1/receipt",
+      "old_value_sha256": "03912a270ffe6b7fd7e883bd6a3e6f7c0bc5778dc097f63a7e6e014972975d8e",
+      "new_value": "sha256:d80a30d8b1de72c87917b0afada92b107ac361cf3a08a9e530b3b8635a678ee0",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/native/1/original_path",
+      "old_value_sha256": "d087bbe770e2abc8dacafc9861e537b45878efb7cbec837971435ebf8331e6aa",
+      "new_value": "sha256:9d66cdcfce03dedaf816a67523b8580b40debe9ffdbde59b3256d3b0751506b9",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/native/1/gzip_path",
+      "old_value_sha256": "f3a91e128b7d09d543b40250fe6c908b9c0cebd31bba220909669a4c4e4c587f",
+      "new_value": "sha256:835055b0c13832090e4c2b7862b3088de4cdd1b4c3192b6f7665b549b6b964fb",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/reviewed_document/local_path",
+      "old_value_sha256": "755b92fb8e423f8f74c1671b7d9c57983a3e099347f1ef074c9971f3743bcf5e",
+      "new_value": "sha256:8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "b876355db06551b76314118caee0d9a8009aaae592e52e8e57ad8b47fc1f1f4b",
+      "new_value": "sha256:36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/original_offered_field_ledger/path",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/native/0/receipt",
+      "old_value_sha256": "9621a390bf523f07196ab825fa06bea03548483d606054a4d82458016774204f",
+      "new_value": "sha256:64c55658b9e4d1513d35fdfaa7df7da520a3d49b3fb5dfb6a8aa570170028f83",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/native/0/original_path",
+      "old_value_sha256": "9c2a0d368e518862f3cd51cc1b21b950bb8592799848b265b7618a4842242da1",
+      "new_value": "sha256:e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/native/0/gzip_path",
+      "old_value_sha256": "b779efc620d2f0afbd5b1370b0dd5a89dec1da15815a4069a7abc128cd6bf343",
+      "new_value": "sha256:547ad69a93b2d66f2b0240a85d1768b956329a1f92c8111cfb5ef203218af67b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/native/1/receipt",
+      "old_value_sha256": "c596105c1299db48ce7abfda7bbf7903aa0d5b2aca815b10a8caec56e11bca96",
+      "new_value": "sha256:459fade1c0ef275ee1e859730c4646d359a148aa3cb6464a66813ea6071bb072",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/native/1/original_path",
+      "old_value_sha256": "06d08ae7db1fcac0b18a1bbac64dd3d46bb8301672f7ed538409419f957562fc",
+      "new_value": "sha256:826e19445ac01d7649b195cd57354ed59f62e745fd0981d73fc62c2a37a3bd8b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/native/1/gzip_path",
+      "old_value_sha256": "f5f28c42c5b6ba80cf628218303393e37c0f3da2be93036f4e712273c55d4e79",
+      "new_value": "sha256:cc54ea59296a578fa6cdf80ed62fb9c38330f5269a42646dbb3551de0519a206",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/reviewed_document/local_path",
+      "old_value_sha256": "8dbb5b4655903ea69a744fdfaab1c209929b2ea7e50d14f3e2b3154572eb53f4",
+      "new_value": "sha256:d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/original_offered_field_ledger/path",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/native/0/receipt",
+      "old_value_sha256": "7323e7d0fc33245b8757129fa012c07d6fdc5cdbf9ea6c7884366d015cb1ccf9",
+      "new_value": "sha256:297b3606d4b66b914ebf7e2a7e43b977754d1ac80cd44d078eab19add8d26b8b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/native/0/original_path",
+      "old_value_sha256": "365d5fc4f69492a2c9f834b95ed058bce8a06b59c3ea222c1e8d875a16c7ee4e",
+      "new_value": "sha256:b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/native/0/gzip_path",
+      "old_value_sha256": "3e36860e51c5f7ca20aba60604ef517864a6abca20f268915842ab2401f73b04",
+      "new_value": "sha256:d47535f770c3e71564f05e065416e9a8b381476ea1eb9efbf76b41d61ab9288b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/native/1/receipt",
+      "old_value_sha256": "816191399c6be6c7d6311799cefd6f182065fa4a742f3d5f31298a8403619dc4",
+      "new_value": "sha256:37f263ade2b5e01aa426e01b590fd27506611c055508c5160779a8cd52fb5e9b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/native/1/original_path",
+      "old_value_sha256": "7ff0d5266748a14381e3c2490c0c438befbed15e341a0af7a4cb972176303a25",
+      "new_value": "sha256:2c66f8bf9d3d8033fb6e50bc34c0ccaa12a22dc6a7a40f042d13447a0cf1c2ea",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/native/1/gzip_path",
+      "old_value_sha256": "11ab32d5821b52d0c968299c1aa8467530a63e9d158087539a8bcf2d1f8bfcb0",
+      "new_value": "sha256:4a0d1093620b1dd3de2f6e61226188ca75b821d7c22409b0f4cea394e513fe77",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/reviewed_document/local_path",
+      "old_value_sha256": "3965459f9f46b938b435b59c7535322d549eab33971d562e1ea97a52b6b87570",
+      "new_value": "sha256:52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "f0d8cf44375c086d2a7e9e3ae5f4c333f3a9b32bed4792a474be03d677dfaa5c",
+      "new_value": "sha256:aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/original_offered_field_ledger/path",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/native/0/receipt",
+      "old_value_sha256": "02e499a6427d9b2055c3fa9c7a3b48a2f5fa15dfcb4f8e90308ebd8ac595f5f1",
+      "new_value": "sha256:63ee82f10d91ddc12d2f389e30dfd6302c7a7cedcd098dae77215c1e6480dab8",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/native/0/original_path",
+      "old_value_sha256": "5a8402e50e1bf7646f4d64fad622b6a9d6686148ea1402ce0324e84cec35dc25",
+      "new_value": "sha256:ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/native/0/gzip_path",
+      "old_value_sha256": "fb87ddea9c11c692d473bf7decae2ca0fc2c6e001a40f30f1d87c2f5da4e7567",
+      "new_value": "sha256:62d52613db8721eeef76d6ae09f0301ddf5a02c352e104b74a3789ac19c175c7",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/native/1/receipt",
+      "old_value_sha256": "abe37b17f5830fa473a3ef9adf6000df7290704c9f1862d87e22a601c68363d7",
+      "new_value": "sha256:9578d9140e39ba2266594deb20e534dcaf95865fffec042c462235da1fe96428",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/native/1/original_path",
+      "old_value_sha256": "61b8996de3dd18b664b9ed4ae022fd762f0a88fe929b6f0ed7375e2d9798717a",
+      "new_value": "sha256:338f6102fc80d45005400f1045b925b04b3b157b1bd6fe2c21e0a96154df6959",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/native/1/gzip_path",
+      "old_value_sha256": "3c23a6b91b6639e9766078a29df6abb51939400c167d137fdbe8c6949cd332ba",
+      "new_value": "sha256:acc037c0be2f01b1790a78b818920cd95c577d1674d756237692bba9e5f8c5ec",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/reviewed_document/local_path",
+      "old_value_sha256": "c64b197a9213e589f13d8fa6efc1d43d609e22b19a9a58bd7fa2318c551f7739",
+      "new_value": "sha256:fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/original_offered_field_ledger/path",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/native/0/receipt",
+      "old_value_sha256": "f6aff0d3d8910de914f81d130a80d006706217c864b5500b6dda131dc2b10716",
+      "new_value": "sha256:8d66b98a0b809d2ccd287f54a0e0cd8cd9ef00ede5e5127c6a7fafac8b81ccba",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/native/0/original_path",
+      "old_value_sha256": "90893bb227ef5b3b875d977082a187cae1c6f9fe0a0275fc5c9f7ca680d7cc6c",
+      "new_value": "sha256:55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/native/0/gzip_path",
+      "old_value_sha256": "63cddc96d35de17658b74178e7246e4a76dc5f61c8f8edb46de031b1c2c58e40",
+      "new_value": "sha256:031b33e5f8923bbf6e161635e77ce632bc4436e09ea46a69e00f5fdb72d7fb0c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/native/1/receipt",
+      "old_value_sha256": "ee047c86a216b510af22d3626141e6328f7f98681f6ef2578c2292089ca7a26c",
+      "new_value": "sha256:1aaa356184eabf40612290fd3909924d0516c7e3e4bca541783456fa91ed7d7e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/native/1/original_path",
+      "old_value_sha256": "696920cbdb842ab9531aa7c9c11720d6b8cac4c028da1651ed16d47693e6acbd",
+      "new_value": "sha256:b6fc542f8a1712a6d67d3706753d0d7ff1ec8508e6c4654f157dd9c782495035",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/native/1/gzip_path",
+      "old_value_sha256": "48383bcf460adae5dd2ef593878d24efab45851c510a19413d92795e7158ad83",
+      "new_value": "sha256:7a336cb8265b809635a322e413e74d05301ff73dc3aa7312a79eaab49d07816c",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/reviewed_document/local_path",
+      "old_value_sha256": "fd20477aeca09c1053a8bba19a1789a134b3ed7d8bb53eda41fcf7eb1d45d63d",
+      "new_value": "sha256:2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/reviewed_document/original_document_ledger",
+      "old_value_sha256": "96d4f9bc27c7cf395bae44ce1ec4ad0780452b4ba48cec7e9e2f8e6bf5e181c8",
+      "new_value": "sha256:afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/sources/frozen_spec/path",
+      "old_value_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d",
+      "new_value": "sha256:7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "category": "local_artifact_path_to_content_hash"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/0/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/1/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/2/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/3/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/4/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/5/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/6/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/7/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/8/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/9/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/10/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/11/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/12/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "fourteen-dispositions.json",
+      "json_pointer": "/rows/13/jev_status",
+      "old_value_sha256": "263889dc671c80a6205177d0c745433b6c241a5dea4c269f5a3c58ba178f7b45",
+      "new_value": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION_AND_FINAL_EVALUATION",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "independent-final-review.json",
+      "json_pointer": "/primary_matrix/path",
+      "old_value_sha256": "5de7cf20830e63ec8a33e23b240c98c1456b2f111ccba6e97be616523be74a53",
+      "new_value": "upstream-artifact:fourteen-dispositions.json",
+      "category": "upstream_local_locator_to_lineage_reference"
+    },
+    {
+      "file": "independent-final-review.json",
+      "json_pointer": "/primary_report/path",
+      "old_value_sha256": "09f3550071f2a201076b39dadc6b044af32574b023529817a37d0bea880e9ffd",
+      "new_value": "upstream-artifact:PRIMARY_REVIEW_REPORT.md",
+      "category": "upstream_local_locator_to_lineage_reference"
+    },
+    {
+      "file": "independent-final-review.json",
+      "json_pointer": "/frozen_rules/path",
+      "old_value_sha256": "17f9c39e1555d22b7aa37c29a2f34c920fec061dbea7ca11de854834c947d0c0",
+      "new_value": "docs/PHASE_1C_SPEC.md",
+      "category": "frozen_rule_repository_locator"
+    },
+    {
+      "file": "independent-final-review.json",
+      "json_pointer": "/pending_gate/status",
+      "old_value_sha256": "a6c25485e48a51ac26ed0162f56ffa1595b7a8e97aa42a9442104cca0eee0d89",
+      "new_value": "Specific disclosure authorization and final JEV evaluation remain pending; no final JEV assessment exists for this tranche.",
+      "category": "private_retry_detail_to_project_gate"
+    },
+    {
+      "file": "amendment-inventory.json",
+      "json_pointer": "/manifest_path",
+      "old_value_sha256": "9bec678c52ae3f87b257cc0a5a551da5d30709f7f7d8bc8dfa65327e07210754",
+      "new_value": "data/phase1d/cp10/collection-1/manifest.json",
+      "category": "preserved_manifest_repository_locator"
+    }
+  ],
+  "report_text_changes": [
+    {
+      "old_text_sha256": "1b7831ac9ea3d2a533d85fed01a918a62bec3d51de1ea7c178e9cf7081844fe6",
+      "new_text": "No final JEV assessment exists for this tranche. Specific authorization to disclose its methodology/findings for that external evaluation is pending; the final gate and any versioned admission extension remain uncompleted.",
+      "category": "private_retry_and_coordination_detail_to_project_gate"
+    },
+    {
+      "old_text_sha256": "b448bec2a1779325a4e5a5d78c9657caceba4d62a11fc8664e5ac4a888a412a7",
+      "new_text": "`fourteen-dispositions.json`",
+      "category": "portable_relative_link"
+    },
+    {
+      "old_text_sha256": "1030f54d4ef599a023c294795d665c22382ba364c6f94721b951df6470c4c2ff",
+      "new_text": "The separately frozen independent review supports all fourteen dispositions on the original matrix hash; see the portable lineage/normalization manifest for the derivative byte bindings.",
+      "category": "explicit_subsequent_review_status"
+    },
+    {
+      "old_text_sha256": "4ce3c7915cdf4534761acb29856c26b21d9da85f0883bd91c27d6b82944b25ad",
+      "new_text": "`docs/PHASE_1C_SPEC.md`",
+      "category": "frozen_rule_repository_locator"
+    },
+    {
+      "old_text_sha256": "b3cb4a73bddc43cf58348f266fab6cc3dd50baf790db2c87bbb1b96e6587df70",
+      "new_text": "2. Complete the authorized source-final JEV evaluation after the specific disclosure approval is available. Until then, preserve the pending gate.",
+      "category": "private_retry_instruction_to_project_gate"
+    },
+    {
+      "old_text_sha256": "eb92f0bd5f538d3d49398d4e8bc8bca64b37a1ec2cca798f0a22b4f717bc0b97",
+      "new_text": "This source-review tranche used 28 existing-capture read actions and reused local documents without new PDF/DOCX acquisition. Final JEV and any admission extension remain pending. Reproducible native capture references are preserved in source-references.json; no original capture/PDF/DOCX binary bodies or denied-tool responses are copied into this checkpoint. Reviewed source-text excerpts remain embedded in the matrix.",
+      "category": "private_denial_accounting_to_reproducible_project_scope"
+    }
+  ],
+  "report_prefix_added": true,
+  "scientific_json_fields_unchanged_except_non_scientific_locators_and_gate_wording": true,
+  "historical_receipts_rebound": false,
+  "upstream_pending_labels_retained": "The original matrix second-review pending labels remain historical; the separate final review resolves them for the original hash. All final JEV/admission gates remain pending.",
+  "excluded": "No raw denied-tool responses, chat authorization IDs, private coordination notes, executor absolute paths, original capture/PDF/DOCX binary bodies or JEV request payloads. Reviewed source-text excerpts remain embedded."
+}

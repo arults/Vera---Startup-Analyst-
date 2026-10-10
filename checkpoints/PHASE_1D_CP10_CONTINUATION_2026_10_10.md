@@ -1,6 +1,6 @@
 # Phase 1D CP10 continuation: verified fields, corrections and open gates
 
-Latest continuation: sections 13-17 correct the admission-rule interpretation, integrate targeted graph/CI repairs and apply two reviewed legacy rounds to a versioned research ledger. Earlier document-only sections retain their original scope. Exact integrated remote CI remains pending; Phase 1D and global plateau remain unproven.
+Latest continuation: sections 13-17 correct the admission-rule interpretation, integrate targeted graph/CI repairs and apply two reviewed legacy rounds to a versioned research ledger. Earlier document-only sections retain their original scope. The integration CI runs have since passed for revision ee9c79e (section 18); Phase 1D and global plateau remain unproven.
 
 Date: 2026-10-10 UTC. Source snapshot: `7291d33ff32cdd6b07ae9cfe1f342849a447f536`, committed 2026-10-10 02:39:50 UTC. This is a documentation/source-field checkpoint. It does not promote production data, a numerical prior, a new release or full-study completion.
 
@@ -220,3 +220,58 @@ The package passed 45 focused tests, 34 independent checks, repository-layout/de
 Reproduce from a full checkout with `python data/phase1d/cp10/canonical-admission-v1/scripts/admission_adapter.py --source-root .` and the normal repository unittest command. The complete portable file manifest and final acceptance/independent/JEV receipts are bundled under that directory. Full repository regression and the relevant scientific verifiers on the exact integrated revision remain pending actual remote CI; local targeted passes must not be represented as that result.
 
 Current disposition: reviewed bounded research integration with rates suppressed; exact integrated CI pending. This is progress toward a PASS_WITH_SUPPRESSION checkpoint, not an unqualified Phase 1D completion or global plateau. Missing outcomes can legitimately remain censored/unknown and sparse cells suppressed under the frozen rules; completion never requires zero missingness. It does require defensible declared-scope coverage and properly applied evidence/reporting gates. Feasible review of existing source evidence, historical frame recovery, dated outcome/follow-up ascertainment and downstream graph-diagnostic integration remain material work. A later scoped execution stop must satisfy the original genuine-research-iteration and independent stopping tests; engineering tests, access failure or a relabeled unresolved queue are insufficient.
+
+## 18. Exact integration CI completed
+
+Observed 2026-10-10 06:27:40 UTC. The integration commit `ee9c79eccfc5a2c9106138f6c6988f1d18db2133` has four completed successful GitHub Actions runs:
+
+- [Phase 1B verifier (pull_request)](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030746958), run `38030746958`: completed / success.
+- [Phase 1D verifier (pull_request)](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030747008), run `38030747008`: completed / success.
+- [Phase 1C verifier (pull_request)](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030746994), run `38030746994`: completed / success.
+- [Phase 1D verifier (push)](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030743225), run `38030743225`: completed / success.
+
+The push-triggered Phase 1D run checks the published branch revision; the pull-request runs are associated with the same source head through GitHub's PR workflow context. This closes the previously pending integrated CI observation for that revision, including the formerly failing Phase 1B dependency path. It does not retroactively turn focused local tests into a full-checkout test run, nor certify a later documentation commit before its own checks run.
+
+Sections 16-17 retain the limits and pending status recorded at integration time. The two-row ledger, original accepted source bytes and code are unchanged by this follow-up. There are still two applied research companies/rounds, zero production admissions and zero estimator-eligible rows. Successful engineering CI is not scientific study completion, global plateau, full historical coverage or evidence of new outcomes.
+
+## 19. Remaining fourteen-document source review; final JEV and application pending
+
+The fourteen remaining campaigns in the selected sixteen-document set now have independently supported local dispositions. This completes this bounded source-review pass, not every CP10 document's semantic review or the larger research scope. The split is nine ordinary observed-round proposals, one observed-financing proposal with an estimator-clock hold, two canonical-round holds retaining positive source evidence, and two 2019 first-live exclusions. None of these fourteen has been applied to the existing two-row admission release.
+
+The source-final JEV gate remains unrun because specific authorization to transmit this tranche's methodology/findings for that external review is pending. Independent support is not represented as final JEV acceptance. A separately reviewed, versioned adapter extension is also required before any additional research-ledger admission; the current immutable two-row release is unchanged.
+
+| Campaign | Native first live | Native final campaign completion | Dated campaign amount (USD) | Independently supported local disposition |
+|---|---|---|---|---|
+| [Get on Board](https://republic.com/get-on-board) | 2024-04-02 | 2024-07-02 | 64100 | Observed-round proposal |
+| [Inlightened](https://republic.com/inlightened) | 2022-08-26 | 2022-11-05 | 162629.13 | Observed-round proposal |
+| [Chilling](https://republic.com/chilling) | 2022-08-19 | 2023-03-01 | 289450.61 | Observed-round proposal |
+| [Revero](https://republic.com/revero) | 2025-09-23 | 2025-12-23 | 1262624.85 | Observed-round proposal |
+| [Nobody Studios](https://republic.com/nobodystudios) | 2022-12-26 | 2023-04-08 | 771105 | Observed financing; estimator clock held |
+| [StartGlobal](https://republic.com/startglobal) | 2024-08-13 | 2024-11-12 | 115776 | Observed-round proposal |
+| [BuyAlerts](https://republic.com/buy-alerts) | 2023-03-13 | 2023-07-12 | 1470818.40 | Canonical round held; positive source facts retained |
+| [Currently Wine](https://republic.com/currently-wine) | 2025-01-21 | 2025-04-22 | 478706 | Observed-round proposal |
+| [Ecotone Renewables](https://republic.com/ecotone-renewables) | 2024-12-17 | 2025-02-16 | 208391 | Observed-round proposal |
+| [Moriondo Coffee](https://republic.com/moriondo-coffee) | 2022-12-21 | 2023-02-20 | 58700 | Observed-round proposal |
+| [Upside](https://republic.com/upside-app) | 2024-08-20 | 2025-03-02 | 122815.83 | Canonical round held; positive source facts retained |
+| [Reental](https://republic.com/reental) | 2024-03-22 | 2024-09-18 | 202725 | Observed-round proposal |
+| [Layali](https://republic.com/layali) | 2019-09-28 | 2020-04-21 | 77172 | Exclude: 2019 first-live year |
+| [Soar Robotics](https://republic.com/soar-robotics) | 2019-09-05 | 2020-03-11 | 1070000 | Exclude: 2019 first-live year |
+
+The dated amounts above are native campaign aggregates, not audited net cash or current combined fundraising totals. Twenty-eight existing captured parent/timeline objects were recovered with Git-blob, gzip and raw-byte verification: 652,844 compressed bytes and 3,575,526 decompressed bytes. Fourteen already materialized documents (13 PDFs and one DOCX) were reused. No additional original document download or capture-count increase is implied.
+
+Primary review passed 150 source/schema checks. Independent review passed 308 original-integrity/date checks, 152 matrix/schema/scope checks and 267 original-document anchor checks, including rereading all close-to-security clauses. These are distinct review units, not additional companies, outcomes or pooled sample sizes. The exact primary ledger is bound by SHA-256 `ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23`; the companion manifest records the final independent artifact bindings and selected source hashes. Its embedded row summary is a documentation projection, not an edited replacement for the frozen ledger.
+
+### Findings and remaining case-specific gates
+
+- Header scope matters. Currently Wine displays USD 1,408,706 in a combined header, while its dated milestone/footer is USD 478,706. Upside displays USD 742,815 in the header versus milestone USD 122,815.83 and footer USD 122,816. Both native tooltips explicitly describe public plus private funding at the same terms over a source-stated twelve-month period; the lookback anchor was not independently established. Keep these amounts separate. Do not infer exact private cash by subtracting rounded displays, or apply this interpretation to the earlier 305-row funnels without checking each source.
+- Currently Wine's USD 930,000 prior SAFE dated 2024-02-16 makes arithmetic reconciliation plausible, but does not prove dollar-level tracing. Upside explicitly mentions outside investors, so outside financing is not merely hypothetical; its actual dates/economic-round grouping and amendment 13466 remain unreviewed. Its positive native campaign financing survives the canonical-round hold.
+- BuyAlerts has explicit dated successful-close evidence alongside a `preparing_to_finalize` attribute and evolved maximum-offering amounts. Amendments 3878/3879 require case-specific reconciliation. Do not turn the DOM state into a universal finalized-only gate or infer invalid fundraising.
+- Nobody Studios' document records a 2023-01-31 first security closing of USD 137,536 within the same offering that ended on 2023-04-08. Preserve both dates without inventing a second round. The estimator's first-versus-final close clock remains held.
+- Reental's observed campaign funding can remain a proposal while amendment 10583 and final operative terms remain unresolved. Ecotone's Series Seed-4 preferred shares and Moriondo's two offered cap tranches keep their original instrument scopes. StartGlobal's DOCX close-to-security clause supplies bounded aggregate-funding context without claiming every investor's private contract is known.
+- Layali and Soar retain their native 2019 launches even though final completion is in 2020. Soar's earlier cash draw reserved securities without issuing them; cash movement alone is not a new security-producing round.
+
+Identity review uses legal-name/domain evidence with mandatory independent second review. Headquarters discrepancies are not counted as matches; different reciprocal document slugs are not called exact URL matches. The bounded Republic collision frame contains 693 records: 682 with searchable identity fields and 11 with null fields. Selected names/linked-CIK aliases match only their own URLs among those searchable records. This is neither clearance of the null records nor an exhaustive five-platform graph; linked CIKs remain unvalidated as strong issuer identifiers.
+
+Status after this documentation update: two earlier research rows applied; fourteen independently supported local proposals/holds/exclusions pending final JEV and any adapter extension; zero production or estimator admissions. Outcomes, historical coverage, final operative terms where material, global plateau and full Phase 1D completion remain open. Finishing the selected source-review queue does not establish broad research exhaustion.
+
+Durable resume checkpoint: [`data/phase1d/cp10/tranche14-source-review`](../data/phase1d/cp10/tranche14-source-review/README.md). It includes the portable matrix, independent review, project report, all native repository source references, scoped amendment inventory and an independently verified normalization/hash manifest. Original scientific values and original artifact hashes are preserved. Local path metadata and private retry details were normalized explicitly; the historical reviews are not silently rebound to changed bytes. No new native capture or ledger admission is introduced.

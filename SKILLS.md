@@ -1,5 +1,9 @@
 # SKILLS.md — Vera operational research memory
 
+## Latest integration verification, 2026-10-10
+
+The four recorded Phase 1B/1C/1D CI runs associated with `ee9c79eccfc5a2c9106138f6c6988f1d18db2133` passed; see checkpoint section 18 for exact run links and event context. Earlier pending-CI wording is an as-of-integration record. Keep source head, PR merge context, run identity and observation time explicit; a passing integration run does not certify a later revision or satisfy scientific outcome/coverage gates. The two-row research ledger remains the only applied admission set in this continuation.
+
 ## Latest correction: restore the frozen stagewise admission rules
 
 2026-10-10; protocol audit at `994175e232687dcb0d1ddcd11a6917e72b02ff74`. Read sections 13 onward of `checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md`. This corrects overbroad general gate wording; it does not erase earlier PDF-only unknowns or lower source-proof, identity, outcome or population standards.
@@ -193,3 +197,11 @@ Legacy `plateau_verifier.py` cannot authorize a stop or write snapshots. Histori
 ## Restart
 
 Read the verified CP6 receipt; run full tests and verifier_v4; audit saved snapshots through research_plateau_gate. Resume real sourcing only with a materially different admissible source, authorized export, new platform-hosted outcome evidence, or changed access conditions. Record blockers separately from plateau. Do not fabricate two research receipts retrospectively for the old replay run. The prior data and historical work remain available; do not restart from zero.
+
+## Remaining-tranche lessons: preserve amount, date and search scope
+
+- Read amount tooltips and dated milestones before treating a campaign header as the campaign's own proceeds. Currently Wine and Upside explicitly combine public/private same-terms funding over twelve months in their headers. Preserve that source-stated scope, the unresolved lookback anchor, exact milestone decimals and separately displayed footer values. Do not infer precise private cash by subtraction or retrofit a new interpretation onto unreviewed rows.
+- First security closing and final campaign completion can be different dates in one offering. Keep both source-attested events; adjudicate the estimator clock separately instead of splitting a round or substituting a filing/deadline date.
+- A stale or unexplained DOM state can conflict with explicit dated completion evidence. Apply a case-specific source/amendment hold rather than inventing a universal DOM-finalized requirement or discarding supported early stages.
+- Count the searchable portion of an identity diagnostic. This bounded frame is 693 records, with 682 searchable and 11 null-identity records. No collision in searched fields is not clearance of null records or a complete cross-platform graph. Address or reciprocal-slug discrepancies must stay visible.
+- Freeze local dispositions and bind independent review to their exact hash. A pending final JEV or versioned adapter gate is not approval, and a source-review proposal is not an applied research-ledger row. Preserve the existing two-row release until a separately reviewed extension is ready.

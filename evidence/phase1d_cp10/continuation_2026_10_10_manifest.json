@@ -2568,5 +2568,829 @@
       "exact_integrated_remote_CI": "PENDING"
     },
     "completion_rule": "Correct censoring/unknowns and sparse-cell suppression are allowed. Declared-scope coverage, material remaining work and genuine stop-gate evidence must be adjudicated; zero missingness is not required."
+  },
+  "subsequent_integration_CI": {
+    "observation": {
+      "observed_at": "2026-10-10T06:27:40Z",
+      "head_sha": "ee9c79eccfc5a2c9106138f6c6988f1d18db2133",
+      "runs": [
+        {
+          "id": 38030746958,
+          "name": "Phase 1B verifier",
+          "status": "completed",
+          "conclusion": "success",
+          "event": "pull_request",
+          "html_url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030746958"
+        },
+        {
+          "id": 38030747008,
+          "name": "Phase 1D verifier",
+          "status": "completed",
+          "conclusion": "success",
+          "event": "pull_request",
+          "html_url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030747008"
+        },
+        {
+          "id": 38030746994,
+          "name": "Phase 1C verifier",
+          "status": "completed",
+          "conclusion": "success",
+          "event": "pull_request",
+          "html_url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030746994"
+        },
+        {
+          "id": 38030743225,
+          "name": "Phase 1D verifier",
+          "status": "completed",
+          "conclusion": "success",
+          "event": "push",
+          "html_url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030743225"
+        }
+      ]
+    },
+    "source_receipt_sha256": "eee5c4665f4f77b7a4e7b7ade4acb1d285e01e330c43a43309deea2626525c65",
+    "supersedes_pending_CI_for_commit": "ee9c79eccfc5a2c9106138f6c6988f1d18db2133",
+    "pull_request_context": "Runs are associated with the source head through GitHub PR workflow context; the push run checks the branch revision.",
+    "future_revisions_certified": false,
+    "scientific_promotion": false,
+    "research_rows_applied": 2,
+    "production_admissions": 0,
+    "estimation_eligible_rows": 0
+  },
+  "remaining_document_tranche_review": {
+    "status": "INDEPENDENTLY_SUPPORTED_LOCAL_DISPOSITIONS_FINAL_JEV_AND_ADAPTER_PENDING",
+    "as_of_utc": "2026-10-10T06:31:00Z",
+    "primary_ledger_sha256": "ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23",
+    "primary_report_sha256": "ec5dcd15c4e35ef454336aeb96dbb4f52018a48a6755578cca762d1d4be0462c",
+    "independent_review_bindings": {
+      "primary_ledger_sha256": "ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23",
+      "all_dispositions_supported": true,
+      "artifacts": [
+        {
+          "sha256": "63c9a17c822847ec84b85b5c34d7c2c0fef3b1f1fd722d7cc4d0fa5251af1f70",
+          "artifact_name": "independent-final-review.json"
+        },
+        {
+          "sha256": "a9fdb3d3bf1449fd2904ec357245249d991d2141c2ee6245316c20218eee8d1f",
+          "artifact_name": "INDEPENDENT_REVIEW_REPORT.md"
+        }
+      ]
+    },
+    "scope": "Fourteen remaining campaigns in the selected sixteen-document source-review set; no new ledger admission or full CP10 semantic-completion claim.",
+    "counts": {
+      "remaining_rows_reviewed": 14,
+      "ordinary_bounded_round_proposals": 9,
+      "observed_financing_with_clock_hold_proposals": 1,
+      "canonical_round_holds_with_positive_source_facts": 2,
+      "launch_year_exclusions": 2,
+      "current_tranche_admissions_applied": 0,
+      "earlier_separately_accepted_rows": 2,
+      "production_rate_changes": 0
+    },
+    "source_materialization": {
+      "existing_native_objects": 28,
+      "compressed_bytes": 652844,
+      "decompressed_bytes": 3575526,
+      "reused_documents": 14,
+      "reused_pdfs": 13,
+      "reused_docx": 1,
+      "new_original_document_fetches": 0
+    },
+    "checks": {
+      "primary_source_schema": 150,
+      "independent_original_integrity_dates": 308,
+      "independent_matrix_schema_scope": 152,
+      "independent_document_anchors": 267
+    },
+    "known_collision_frame": {
+      "total_records": 693,
+      "searchable_identity_records": 682,
+      "null_identity_records": 11,
+      "full_cross_platform_clearance": false,
+      "issuer_CIK_strong_validation": false
+    },
+    "final_JEV": {
+      "status": "UNRUN_PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+      "approval_claimed": false
+    },
+    "application": {
+      "this_tranche_admissions": 0,
+      "earlier_applied_research_rows": 2,
+      "production_admissions": 0,
+      "estimation_eligible_rows": 0,
+      "immutable_two_row_release_changed": false
+    },
+    "documented_rows": [
+      {
+        "campaign_slug": "get-on-board",
+        "campaign_url": "https://republic.com/get-on-board",
+        "native_offering_id": 5232,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2024-04-02",
+        "native_final_completion": "2024-07-02",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "64100",
+          "campaign_header_investors": 116,
+          "dated_timeline_usd": "64100",
+          "dated_footer_usd": "64100",
+          "dated_footer_investors": 116,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2024",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569.html.gz",
+            "git_blob_sha": "00f08a7228bd332c48647b104be547354201b98a",
+            "raw_sha256": "5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569",
+            "gzip_sha256": "e5ab00cf16f17ffa94c77005dc7b8be57d5d9941ef2590f8be934108dfa11c8f",
+            "compressed_bytes": 35473,
+            "raw_bytes": 156084,
+            "verified": true,
+            "url": "https://republic.com/get-on-board"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/1b7d47699b604da1a46e8e97c4f8b195565c12bd1acf932199099ba35daf4c00.bin.gz",
+            "git_blob_sha": "17beabf3c609cc04a25f0e4e4dd786ee2c9e031d",
+            "raw_sha256": "1b7d47699b604da1a46e8e97c4f8b195565c12bd1acf932199099ba35daf4c00",
+            "gzip_sha256": "6b24756b15feb26c9b1041e57cd1d807e306ae4ae82b02858313ab6f34ba8aef",
+            "compressed_bytes": 5583,
+            "raw_bytes": 48962,
+            "verified": true,
+            "url": "https://republic.com/get-on-board/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/8607?view=preview",
+          "raw_sha256": "a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "inlightened",
+        "campaign_url": "https://republic.com/inlightened",
+        "native_offering_id": 1286,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2022-08-26",
+        "native_final_completion": "2022-11-05",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "162629",
+          "campaign_header_investors": 110,
+          "dated_timeline_usd": "162629.13",
+          "dated_footer_usd": "162629",
+          "dated_footer_investors": 110,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2022",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/cedf155f7daf0beea2b1a3dd319e665cfdcc103191569f6ed971e59fc979e5c7.html.gz",
+            "git_blob_sha": "38475c9632032d3ebf19502e24631961f1854ad3",
+            "raw_sha256": "cedf155f7daf0beea2b1a3dd319e665cfdcc103191569f6ed971e59fc979e5c7",
+            "gzip_sha256": "a0a6812e3155d2248c94f39e223c0cb6ccd802f8b0ff31aba31807a156269738",
+            "compressed_bytes": 32977,
+            "raw_bytes": 152545,
+            "verified": true,
+            "url": "https://republic.com/inlightened"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/c5772425c42fc4fa6a0b9a9529eb161c471608609c0b8f5e7dfaa7cce705b6ce.bin.gz",
+            "git_blob_sha": "f27f07fd8afa83679a80a603a301d78fd1cbc7de",
+            "raw_sha256": "c5772425c42fc4fa6a0b9a9529eb161c471608609c0b8f5e7dfaa7cce705b6ce",
+            "gzip_sha256": "62b5cdc49ca62b683cc98cafd2af4721b49356c044d788411fdeb941e5105e36",
+            "compressed_bytes": 3697,
+            "raw_bytes": 28168,
+            "verified": true,
+            "url": "https://republic.com/inlightened/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/1595?view=preview",
+          "raw_sha256": "dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "chilling",
+        "campaign_url": "https://republic.com/chilling",
+        "native_offering_id": 1611,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2022-08-19",
+        "native_final_completion": "2023-03-01",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "289450",
+          "campaign_header_investors": 512,
+          "dated_timeline_usd": "289450.61",
+          "dated_footer_usd": "289451",
+          "dated_footer_investors": 512,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2022",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/3a8d208661c2f2d5990791ec700d8af718044b24198487359213f5abd0b21cc7.html.gz",
+            "git_blob_sha": "fddae2b0ffb50c726d913b73216a7d0613cb6067",
+            "raw_sha256": "3a8d208661c2f2d5990791ec700d8af718044b24198487359213f5abd0b21cc7",
+            "gzip_sha256": "9efcfd93752906c23bc56675ed08f5dd2fe4d4cad3b2d9c7b1082fa07135dc6c",
+            "compressed_bytes": 38866,
+            "raw_bytes": 181424,
+            "verified": true,
+            "url": "https://republic.com/chilling"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/8d67063a444c5e4e2f211abada42d475a5d522dfce06e4b88a1a727cebd9bdc3.bin.gz",
+            "git_blob_sha": "3de01fd6c0e5a711ea18ecd6760a46caa887e0d5",
+            "raw_sha256": "8d67063a444c5e4e2f211abada42d475a5d522dfce06e4b88a1a727cebd9bdc3",
+            "gzip_sha256": "14029a353d2b5836498074bb49e9f54ec14279e1901b99bf4c0a2b7848ddf60a",
+            "compressed_bytes": 20294,
+            "raw_bytes": 261824,
+            "verified": true,
+            "url": "https://republic.com/chilling/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/1555?view=preview",
+          "raw_sha256": "08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "revero",
+        "campaign_url": "https://republic.com/revero",
+        "native_offering_id": 15907,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2025-09-23",
+        "native_final_completion": "2025-12-23",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "1262624",
+          "campaign_header_investors": 844,
+          "dated_timeline_usd": "1262624.85",
+          "dated_footer_usd": "1262625",
+          "dated_footer_investors": 844,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "SAFE Series 2025",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0.html.gz",
+            "git_blob_sha": "a8048ca22e2834072735def4032ab1845616b107",
+            "raw_sha256": "976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+            "gzip_sha256": "2663c1b0b16607a76421aa874efc9916252e1b19141ee3faa9e6507113ef0e87",
+            "compressed_bytes": 38038,
+            "raw_bytes": 192547,
+            "verified": true,
+            "url": "https://republic.com/revero"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/acb182a43820f3804235daf759b7f9b95c97da14ee86a14ed9d37fb02f32bbbc.bin.gz",
+            "git_blob_sha": "cd87d3fa947bc9f667355c54d17ce7fb39922bf8",
+            "raw_sha256": "acb182a43820f3804235daf759b7f9b95c97da14ee86a14ed9d37fb02f32bbbc",
+            "gzip_sha256": "54cde671984e3db8b6562a668db804fff3d020f9d8a43c50e889c3bed73a1977",
+            "compressed_bytes": 400,
+            "raw_bytes": 1857,
+            "verified": true,
+            "url": "https://republic.com/revero/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/19104?view=preview",
+          "raw_sha256": "99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "nobodystudios",
+        "campaign_url": "https://republic.com/nobodystudios",
+        "native_offering_id": 1994,
+        "independently_supported_local_disposition": "PROPOSE_OBSERVED_FINANCING_ADMISSION_WITH_ESTIMATOR_CLOCK_HOLD",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2022-12-26",
+        "native_final_completion": "2023-04-08",
+        "first_security_closing": {
+          "date": "2023-01-31",
+          "issued_amount_usd": "137536",
+          "number_of_securities_or_holders": 187,
+          "source": "PDF physical p38, first closing of this Offering"
+        },
+        "source_amounts": {
+          "campaign_header_usd": "771105",
+          "campaign_header_investors": 904,
+          "dated_timeline_usd": "771105",
+          "dated_footer_usd": "771105",
+          "dated_footer_investors": 904,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2022",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62.html.gz",
+            "git_blob_sha": "8141e4695935166886b131ce6726ebf6cd576de8",
+            "raw_sha256": "53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62",
+            "gzip_sha256": "7147f615293b801a3feb608757e8f9df80d675fd1bf028c8aeb2ae0c5caf2793",
+            "compressed_bytes": 51096,
+            "raw_bytes": 258860,
+            "verified": true,
+            "url": "https://republic.com/nobodystudios"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/fe1b43f4130aae52292f600872723970a88def359edfd58e93290f0c7b38ba9a.bin.gz",
+            "git_blob_sha": "8483550e7cf1a341fa208f31ac922d711054b2e3",
+            "raw_sha256": "fe1b43f4130aae52292f600872723970a88def359edfd58e93290f0c7b38ba9a",
+            "gzip_sha256": "5369cebb1017708361399df033835b30ef9e3af9c9e7f1b902fb99f2e0fde34c",
+            "compressed_bytes": 20492,
+            "raw_bytes": 142066,
+            "verified": true,
+            "url": "https://republic.com/nobodystudios/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/2066?view=preview",
+          "raw_sha256": "c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "startglobal",
+        "campaign_url": "https://republic.com/startglobal",
+        "native_offering_id": 8680,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2024-08-13",
+        "native_final_completion": "2024-11-12",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "115776",
+          "campaign_header_investors": 167,
+          "dated_timeline_usd": "115776",
+          "dated_footer_usd": "115776",
+          "dated_footer_investors": 167,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "SAFE",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2.html.gz",
+            "git_blob_sha": "434f590a02836af41113138ae1ec1bc46aa150ed",
+            "raw_sha256": "0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+            "gzip_sha256": "fecbe23ab9c676abcb7f0d7c5effcd577f758e771ebef4c589b2d5d2ef7517f0",
+            "compressed_bytes": 35213,
+            "raw_bytes": 172738,
+            "verified": true,
+            "url": "https://republic.com/startglobal"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/d2606b9589f47fbbba593804a7b5bddf86e709b1f11631cfe6fd3893b8be4198.bin.gz",
+            "git_blob_sha": "4eadefb4ed2925f57404d212923dee114475c30e",
+            "raw_sha256": "d2606b9589f47fbbba593804a7b5bddf86e709b1f11631cfe6fd3893b8be4198",
+            "gzip_sha256": "045bed51b4c928bd8813ed863883948cf03bfa6cec44889a0164b271a0f1dbab",
+            "compressed_bytes": 3206,
+            "raw_bytes": 19502,
+            "verified": true,
+            "url": "https://republic.com/startglobal/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/11091?view=preview",
+          "raw_sha256": "e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "buy-alerts",
+        "campaign_url": "https://republic.com/buy-alerts",
+        "native_offering_id": 2065,
+        "independently_supported_local_disposition": "HOLD_CANONICAL_ROUND_RETAIN_POSITIVE_SOURCE_STAGES",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2023-03-13",
+        "native_final_completion": "2023-07-12",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "1470818",
+          "campaign_header_investors": 1367,
+          "dated_timeline_usd": "1470818.40",
+          "dated_footer_usd": "1470818",
+          "dated_footer_investors": 1367,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2023",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a.html.gz",
+            "git_blob_sha": "8e5b4980c88116ce6183a570769c25a51a7fb435",
+            "raw_sha256": "be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a",
+            "gzip_sha256": "a51b222e6a29caa7acd40f5face3eac6de527e1d5d1818fd8b707bb2cec86819",
+            "compressed_bytes": 39712,
+            "raw_bytes": 187731,
+            "verified": true,
+            "url": "https://republic.com/buy-alerts"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/d655a4ea7fb0948e1fc19ed7ec491e158aafacf2f073e6cf23dfc778336f9133.bin.gz",
+            "git_blob_sha": "99071b4b12b86613ff372a97a280c6110e213db9",
+            "raw_sha256": "d655a4ea7fb0948e1fc19ed7ec491e158aafacf2f073e6cf23dfc778336f9133",
+            "gzip_sha256": "837877d32b71e915344de48d35352a200c283d8ffdc33554687bdc7c3ded4c9c",
+            "compressed_bytes": 3809,
+            "raw_bytes": 21797,
+            "verified": true,
+            "url": "https://republic.com/buy-alerts/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/2160?view=preview",
+          "raw_sha256": "8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "currently-wine",
+        "campaign_url": "https://republic.com/currently-wine",
+        "native_offering_id": 11538,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2025-01-21",
+        "native_final_completion": "2025-04-22",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "1408706",
+          "campaign_header_investors": 95,
+          "dated_timeline_usd": "478706",
+          "dated_footer_usd": "478706",
+          "dated_footer_investors": 95,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized.",
+          "header_scope": "Explicit public+private total at the same terms over the source-stated last 12 months; lookback anchor not independently verified. Different scope from the dated campaign footer/milestone.",
+          "prior_safe_usd": "930000",
+          "arithmetic_reconciliation": true,
+          "private_issue_date": "2024-02-16"
+        },
+        "instrument_offered": "SAFE Series 2025",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581.html.gz",
+            "git_blob_sha": "4ed2fafc4db99009e519b82cce2683e7896f62ca",
+            "raw_sha256": "d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581",
+            "gzip_sha256": "de6a9665b5cab828a1a6614d550baf137462ef29e53ec30c2c1ba81dfd243f5b",
+            "compressed_bytes": 34615,
+            "raw_bytes": 167754,
+            "verified": true,
+            "url": "https://republic.com/currently-wine"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/e752bd425ea677f8ed48a5c2bf85430a7086a8962bf1fa15dfda46e59a1964c1.bin.gz",
+            "git_blob_sha": "418fd651f75f8bc9ce1795f478adc0ab3a09f991",
+            "raw_sha256": "e752bd425ea677f8ed48a5c2bf85430a7086a8962bf1fa15dfda46e59a1964c1",
+            "gzip_sha256": "7e0aff0a70a3ffa87347db459465a299b21262ba8b983d0980eaa96596b2b087",
+            "compressed_bytes": 9915,
+            "raw_bytes": 89986,
+            "verified": true,
+            "url": "https://republic.com/currently-wine/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/14127?view=preview",
+          "raw_sha256": "55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "ecotone-renewables",
+        "campaign_url": "https://republic.com/ecotone-renewables",
+        "native_offering_id": 12933,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2024-12-17",
+        "native_final_completion": "2025-02-16",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "208391",
+          "campaign_header_investors": 122,
+          "dated_timeline_usd": "208391",
+          "dated_footer_usd": "208391",
+          "dated_footer_investors": 122,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Series Seed-4 Preferred Stock",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06.html.gz",
+            "git_blob_sha": "0fbafa08e8b780aeb5b045f9b1ed6fffcde0ec68",
+            "raw_sha256": "aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+            "gzip_sha256": "d7dd5f72915cefd811c265674b7c744bf28e75b151950ea5531e0974e40f0555",
+            "compressed_bytes": 37848,
+            "raw_bytes": 186231,
+            "verified": true,
+            "url": "https://republic.com/ecotone-renewables"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/f25af4c8ba12cd93a9dd667243546ab03f66f7ef937562ede63ee223dc295d02.bin.gz",
+            "git_blob_sha": "193ed53dcbe6f0c369f694e0ca32b13263f0bb51",
+            "raw_sha256": "f25af4c8ba12cd93a9dd667243546ab03f66f7ef937562ede63ee223dc295d02",
+            "gzip_sha256": "0d4e6fbddaa8551acb4b32202dbc7f60e36ecc54feb581f548da1ca72f342c7f",
+            "compressed_bytes": 5329,
+            "raw_bytes": 47853,
+            "verified": true,
+            "url": "https://republic.com/ecotone-renewables/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/13499?view=preview",
+          "raw_sha256": "145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "moriondo-coffee",
+        "campaign_url": "https://republic.com/moriondo-coffee",
+        "native_offering_id": 1277,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2022-12-21",
+        "native_final_completion": "2023-02-20",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "58700",
+          "campaign_header_investors": 69,
+          "dated_timeline_usd": "58700",
+          "dated_footer_usd": "58700",
+          "dated_footer_investors": 69,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2022",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737.html.gz",
+            "git_blob_sha": "2c4b2b7b56f8c64e9684fa0d91c2d840d07a1cda",
+            "raw_sha256": "16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+            "gzip_sha256": "e2a6dd81f17d188eefb745076428424a5f2a1e8f208d84eb27dcc706944b4d51",
+            "compressed_bytes": 35175,
+            "raw_bytes": 173917,
+            "verified": true,
+            "url": "https://republic.com/moriondo-coffee"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/9d66cdcfce03dedaf816a67523b8580b40debe9ffdbde59b3256d3b0751506b9.bin.gz",
+            "git_blob_sha": "25814a000e5b05917401e3a4cb1bd9b27336e6b6",
+            "raw_sha256": "9d66cdcfce03dedaf816a67523b8580b40debe9ffdbde59b3256d3b0751506b9",
+            "gzip_sha256": "835055b0c13832090e4c2b7862b3088de4cdd1b4c3192b6f7665b549b6b964fb",
+            "compressed_bytes": 3602,
+            "raw_bytes": 27040,
+            "verified": true,
+            "url": "https://republic.com/moriondo-coffee/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/1870?view=preview",
+          "raw_sha256": "8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "upside-app",
+        "campaign_url": "https://republic.com/upside-app",
+        "native_offering_id": 10738,
+        "independently_supported_local_disposition": "HOLD_CANONICAL_ROUND_RETAIN_POSITIVE_SOURCE_STAGES",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2024-08-20",
+        "native_final_completion": "2025-03-02",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "742815",
+          "campaign_header_investors": 123,
+          "dated_timeline_usd": "122815.83",
+          "dated_footer_usd": "122816",
+          "dated_footer_investors": 121,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized.",
+          "header_scope": "Explicit public+private total at the same terms over the source-stated last 12 months; lookback anchor not independently verified. Different scope from the dated campaign footer/milestone."
+        },
+        "instrument_offered": "SAFE Series 2024 CF",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c.html.gz",
+            "git_blob_sha": "5da07b6e5cf9c0e734d4488da3664c5abfde6767",
+            "raw_sha256": "e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c",
+            "gzip_sha256": "547ad69a93b2d66f2b0240a85d1768b956329a1f92c8111cfb5ef203218af67b",
+            "compressed_bytes": 44594,
+            "raw_bytes": 205452,
+            "verified": true,
+            "url": "https://republic.com/upside-app"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/826e19445ac01d7649b195cd57354ed59f62e745fd0981d73fc62c2a37a3bd8b.bin.gz",
+            "git_blob_sha": "8a86500cca08769921faf0f1637305ca035c8dcb",
+            "raw_sha256": "826e19445ac01d7649b195cd57354ed59f62e745fd0981d73fc62c2a37a3bd8b",
+            "gzip_sha256": "cc54ea59296a578fa6cdf80ed62fb9c38330f5269a42646dbb3551de0519a206",
+            "compressed_bytes": 6656,
+            "raw_bytes": 65757,
+            "verified": true,
+            "url": "https://republic.com/upside-app/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/11124?view=preview",
+          "raw_sha256": "d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "reental",
+        "campaign_url": "https://republic.com/reental",
+        "native_offering_id": 3131,
+        "independently_supported_local_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2024-03-22",
+        "native_final_completion": "2024-09-18",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "202725",
+          "campaign_header_investors": 208,
+          "dated_timeline_usd": "202725",
+          "dated_footer_usd": "202725",
+          "dated_footer_investors": 208,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE Series 2024",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b.html.gz",
+            "git_blob_sha": "096c35b0748ca62ab69a32ca7897ace91ca560e8",
+            "raw_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+            "gzip_sha256": "d47535f770c3e71564f05e065416e9a8b381476ea1eb9efbf76b41d61ab9288b",
+            "compressed_bytes": 39438,
+            "raw_bytes": 186189,
+            "verified": true,
+            "url": "https://republic.com/reental"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/2c66f8bf9d3d8033fb6e50bc34c0ccaa12a22dc6a7a40f042d13447a0cf1c2ea.bin.gz",
+            "git_blob_sha": "c24d356f7533822bd364030b52aee58b7e5efd38",
+            "raw_sha256": "2c66f8bf9d3d8033fb6e50bc34c0ccaa12a22dc6a7a40f042d13447a0cf1c2ea",
+            "gzip_sha256": "4a0d1093620b1dd3de2f6e61226188ca75b821d7c22409b0f4cea394e513fe77",
+            "compressed_bytes": 3286,
+            "raw_bytes": 12753,
+            "verified": true,
+            "url": "https://republic.com/reental/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/8407?view=preview",
+          "raw_sha256": "52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "layali",
+        "campaign_url": "https://republic.com/layali",
+        "native_offering_id": 352,
+        "independently_supported_local_disposition": "EXCLUDE_OUTSIDE_2020_2025_LAUNCH_COHORT",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2019-09-28",
+        "native_final_completion": "2020-04-21",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "77172",
+          "campaign_header_investors": 239,
+          "dated_timeline_usd": "77172",
+          "dated_footer_usd": "77172",
+          "dated_footer_investors": 239,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5.html.gz",
+            "git_blob_sha": "e5f4b990f9acd2db45b65c59ab98ba202b7ca86b",
+            "raw_sha256": "ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+            "gzip_sha256": "62d52613db8721eeef76d6ae09f0301ddf5a02c352e104b74a3789ac19c175c7",
+            "compressed_bytes": 34772,
+            "raw_bytes": 154712,
+            "verified": true,
+            "url": "https://republic.com/layali"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/338f6102fc80d45005400f1045b925b04b3b157b1bd6fe2c21e0a96154df6959.bin.gz",
+            "git_blob_sha": "2b4f5013898c9da6536ab131103584100ebef539",
+            "raw_sha256": "338f6102fc80d45005400f1045b925b04b3b157b1bd6fe2c21e0a96154df6959",
+            "gzip_sha256": "acc037c0be2f01b1790a78b818920cd95c577d1674d756237692bba9e5f8c5ec",
+            "compressed_bytes": 9373,
+            "raw_bytes": 74564,
+            "verified": true,
+            "url": "https://republic.com/layali/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/113?view=preview",
+          "raw_sha256": "fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782.bin.gz"
+        }
+      },
+      {
+        "campaign_slug": "soar-robotics",
+        "campaign_url": "https://republic.com/soar-robotics",
+        "native_offering_id": 347,
+        "independently_supported_local_disposition": "EXCLUDE_OUTSIDE_2020_2025_LAUNCH_COHORT",
+        "applied_admission": false,
+        "final_JEV_status": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+        "native_launch": "2019-09-05",
+        "native_final_completion": "2020-03-11",
+        "first_security_closing": null,
+        "source_amounts": {
+          "campaign_header_usd": "1070000",
+          "campaign_header_investors": 4305,
+          "dated_timeline_usd": "1070000",
+          "dated_footer_usd": "1070000",
+          "dated_footer_investors": 4305,
+          "meaning": "Separate original display values; timeline is dated observed campaign aggregate, not audited net cash. Different precision is not silently normalized."
+        },
+        "instrument_offered": "Crowd SAFE",
+        "native_sources": [
+          {
+            "role": "native_parent",
+            "repository_path": "data/phase1d/cp7/cycle-1/captures/55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b.html.gz",
+            "git_blob_sha": "09ca9a038f79f723fe6b0eef3954d5d88eabd6cc",
+            "raw_sha256": "55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+            "gzip_sha256": "031b33e5f8923bbf6e161635e77ce632bc4436e09ea46a69e00f5fdb72d7fb0c",
+            "compressed_bytes": 39907,
+            "raw_bytes": 192127,
+            "verified": true,
+            "url": "https://republic.com/soar-robotics"
+          },
+          {
+            "role": "native_timeline",
+            "repository_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/b6fc542f8a1712a6d67d3706753d0d7ff1ec8508e6c4654f157dd9c782495035.bin.gz",
+            "git_blob_sha": "64016600c71398573c771eb49718ac5474051c17",
+            "raw_sha256": "b6fc542f8a1712a6d67d3706753d0d7ff1ec8508e6c4654f157dd9c782495035",
+            "gzip_sha256": "7a336cb8265b809635a322e413e74d05301ff73dc3aa7312a79eaab49d07816c",
+            "compressed_bytes": 19478,
+            "raw_bytes": 165086,
+            "verified": true,
+            "url": "https://republic.com/soar-robotics/show_updates"
+          }
+        ],
+        "reviewed_document": {
+          "url": "https://republic.com/documents/111?view=preview",
+          "raw_sha256": "2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855.bin.gz"
+        }
+      }
+    ],
+    "projection_scope": "Selected public source facts and reviewed local dispositions; unchanged primary ledger/review hashes remain lineage. This summary is not their original byte stream.",
+    "phase_complete": false,
+    "global_plateau": false,
+    "numerical_prior_promotion": false,
+    "durable_checkpoint": {
+      "path": "data/phase1d/cp10/tranche14-source-review",
+      "manifest_path": "data/phase1d/cp10/tranche14-source-review/checkpoint-manifest.json",
+      "manifest_sha256": "a639419efeda3af5290f31c7823d31b8388ab6b34827ec2257f7bdb996f74a31",
+      "normalization_attestation_sha256": "f543402d9cfc9bf6af7f225309db4255f75c0748f82bc70930e1418cf1c60544",
+      "portable_matrix_sha256": "53e2d98e240551782132eb62c707a6c1f0fbeb49ad2857fd1b6a5b602f9fe958",
+      "portable_independent_review_sha256": "950b421dc3796ecc891dc23468333669ce63ad25cc24efbab44b7a68c2e81c2c",
+      "original_hashes_retained": true,
+      "final_JEV_or_admission_inferred": false
+    }
   }
 }

@@ -1,0 +1,129 @@
+{
+  "as_of_utc": "2026-10-10T06:33:00Z",
+  "external_reads": 0,
+  "manifest_path": "data/phase1d/cp10/collection-1/manifest.json",
+  "manifest_sha256": "ab5d6ff4c7d1e2bc8afa2b0c61bfc425736767adf4530d11091021823a086801",
+  "manifest_count": 110,
+  "repository_tree_ref": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+  "repository_tree_truncated": false,
+  "rows": [
+    {
+      "document_id": "3878",
+      "manifest_matches": [],
+      "tree_entries": [],
+      "status": "NO_MATCH_IN_COMPLETE_PRESERVED_CP10_COLLECTION1_MANIFEST",
+      "scope": "Manifest110entries plus preserved tree at7291d33ff32cdd6b07ae9cfe1f342849a447f536; absence in this manifest is not proof absent in every possible capture.",
+      "combined_candidate_matches": []
+    },
+    {
+      "document_id": "3879",
+      "manifest_matches": [],
+      "tree_entries": [],
+      "status": "NO_MATCH_IN_COMPLETE_PRESERVED_CP10_COLLECTION1_MANIFEST",
+      "scope": "Manifest110entries plus preserved tree at7291d33ff32cdd6b07ae9cfe1f342849a447f536; absence in this manifest is not proof absent in every possible capture.",
+      "combined_candidate_matches": []
+    },
+    {
+      "document_id": "10583",
+      "manifest_matches": [
+        {
+          "bytes": 1423136,
+          "campaign_url": "https://republic.com/reental",
+          "content_type": "application/pdf",
+          "final_url": "https://republic.com/documents/10583?view=preview",
+          "gzip_sha256": "aa5f5960bd7c444e07843ced5dc33d20c53a8f877647d8a004ac15c153b01827",
+          "http_status": 200,
+          "label": "Reental Form C Amendment 7.19.2024.pdf",
+          "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+          "raw_sha256": "e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526",
+          "received_at": "2026-10-10T02:09:03.953073+00:00",
+          "redirects": [],
+          "retrieval_started_at": "2026-10-10T02:09:03.244968+00:00",
+          "source_group": "remaining-native-documents",
+          "source_path": "data/phase1d/cp10/collection-1/captures/e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526.bin.gz",
+          "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+          "url": "https://republic.com/documents/10583?view=preview"
+        }
+      ],
+      "tree_entries": [
+        {
+          "path": "data/phase1d/cp10/collection-1/captures/e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526.bin.gz",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e65bc7bd7302418cc7f1876210a252acff978d44",
+          "size": 1329006,
+          "url": "https://api.github.com/repos/arults/Vera---Startup-Analyst-/git/blobs/e65bc7bd7302418cc7f1876210a252acff978d44"
+        }
+      ],
+      "status": "ALREADY_CAPTURED_REMOTE_BYTES_NOT_LOCALLY_MATERIALIZED",
+      "scope": "Manifest110entries plus preserved tree at7291d33ff32cdd6b07ae9cfe1f342849a447f536; absence in this manifest is not proof absent in every possible capture.",
+      "combined_candidate_matches": [
+        {
+          "bytes": 1423136,
+          "campaign_url": "https://republic.com/reental",
+          "estimation_eligible": false,
+          "full_semantic_review_complete": false,
+          "label": "Reental Form C Amendment 7.19.2024.pdf",
+          "page_count": 202,
+          "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+          "pdf_magic_verified": true,
+          "preview_checks": [
+            {
+              "both_have_text": true,
+              "page": 1,
+              "pymupdf_chars": 1246,
+              "pymupdf_sha256": "149ecbdfd39cda2c446d455be3a0b13ed2e0dbabddfac3d97de62697ecce105f",
+              "pypdf_chars": 1247,
+              "pypdf_sha256": "9481576600aebae103b1b01dafb91ec4b45bb1fed2622c8cc1eedecbdf65b73c"
+            },
+            {
+              "both_have_text": true,
+              "page": 2,
+              "pymupdf_chars": 1773,
+              "pymupdf_sha256": "ca924df71f4da0532a0489e377af42ef701c40f6f659e4bbf568e69c9a45bd69",
+              "pypdf_chars": 1775,
+              "pypdf_sha256": "83bf6a88cb103932b46214f9e9dcb48d76a4558332ade6fd50a6e883a5fdc618"
+            },
+            {
+              "both_have_text": true,
+              "page": 3,
+              "pymupdf_chars": 673,
+              "pymupdf_sha256": "ce21bfa131421df8e0789438dfdc45b8c983d9dddc842f32b1321bdd53d4b298",
+              "pypdf_chars": 682,
+              "pypdf_sha256": "cb440fb82f90b8449759a901fbce3bc869b98f4b34452a197d4cfb619025f749"
+            },
+            {
+              "both_have_text": true,
+              "page": 4,
+              "pymupdf_chars": 761,
+              "pymupdf_sha256": "c07e9126e1dbfebc97d553f931a35b1f2d8433e093a6bf2d34b83060cb6b9b87",
+              "pypdf_chars": 763,
+              "pypdf_sha256": "a4503fa957acf79c27b2f29fd102513763641e4fc698c11f2b485756e4c4a01a"
+            }
+          ],
+          "preview_path": "data/phase1d/cp10/collection-1/document_previews/e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526.json",
+          "source_path": "data/phase1d/cp10/collection-1/captures/e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526.bin.gz",
+          "source_sha256": "e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526",
+          "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+          "url": "https://republic.com/documents/10583?view=preview"
+        }
+      ],
+      "raw_bytes": 1423136,
+      "compressed_bytes": 1329006
+    },
+    {
+      "document_id": "13466",
+      "manifest_matches": [],
+      "tree_entries": [],
+      "status": "NO_MATCH_IN_COMPLETE_PRESERVED_CP10_COLLECTION1_MANIFEST",
+      "scope": "Manifest110entries plus preserved tree at7291d33ff32cdd6b07ae9cfe1f342849a447f536; absence in this manifest is not proof absent in every possible capture.",
+      "combined_candidate_matches": []
+    }
+  ],
+  "combined_document_candidate_ledger": {
+    "path": "republic/evidence/cp10-document-candidates.json",
+    "count": 101,
+    "sha256": "5649f3c4a76dd94b07422e7bd78ce5ef762bf57ed9762eb43c3ff39da4d63c64"
+  },
+  "uncaptured_manifest_limitation": "Collection2 full native/large-document manifests are listed in the original tree but not locally materialized. No read was made. Combined local document-candidate ledger inspected; no document ID mapping can be inferred from content-addressed filenames alone."
+}

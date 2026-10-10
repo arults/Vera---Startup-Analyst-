@@ -1,0 +1,232 @@
+{
+  "schema": "vera.phase1d.tranche14.independent-final-source-review.v1",
+  "as_of_utc": "2026-10-10T06:35:00Z",
+  "status": "SOURCE_REVIEW_COMPLETE_FINAL_JEV_AND_ADMISSION_GATE_PENDING",
+  "primary_matrix": {
+    "path": "upstream-artifact:fourteen-dispositions.json",
+    "sha256": "ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23"
+  },
+  "primary_report": {
+    "path": "upstream-artifact:PRIMARY_REVIEW_REPORT.md",
+    "sha256": "ec5dcd15c4e35ef454336aeb96dbb4f52018a48a6755578cca762d1d4be0462c"
+  },
+  "frozen_rules": {
+    "path": "docs/PHASE_1C_SPEC.md",
+    "sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e"
+  },
+  "independent_source_review_pass": true,
+  "material_corrections_remaining": [],
+  "final_admission_approved": false,
+  "ledger_changes_applied": 0,
+  "external_reads": 0,
+  "jev_calls": 0,
+  "checks": {
+    "original_integrity_identity_date_and_source_characterization": {
+      "passed": 308,
+      "total": 308,
+      "artifact": "independent-original-checks.json",
+      "sha256": "3ead87893e16f145fc1319e4947811e0ea474b7332a62d8218216516290a020f"
+    },
+    "frozen_matrix_conformance": {
+      "passed": 152,
+      "total": 152,
+      "artifact": "matrix-conformance-checks.json",
+      "sha256": "935329e5c9b955f5ecf1fa3ba22d0f9a99b2cee1a36b35e547f7c7252ecdeca3"
+    },
+    "original_document_anchor_replay": {
+      "passed": 267,
+      "total": 267,
+      "skipped_non_single_page_or_non_anchor_fields": 27,
+      "scope": "Checks matching text on explicitly identified PDF pages, or complete DOCX text. This does not independently validate every legal interpretation or an exact DOCX paragraph number."
+    },
+    "visible_close_attestations": {
+      "campaigns": 14,
+      "artifact": "visible-funding-node-checks.json",
+      "scope": "Direct native funded/closed element in each original; no hidden attribute, inline display:none or u-hidden ancestor found. No live browser/CSS replay claimed."
+    },
+    "manual_original_close_to_security_clauses": {
+      "count": 14,
+      "location": "Each original linked legal document; PDF physical pages8/9/22/26 or StartGlobal DOCX closing paragraph."
+    },
+    "visual_original_pages_actually_viewed": {
+      "nobodystudios": [
+        38
+      ],
+      "currently-wine": [
+        31
+      ],
+      "ecotone-renewables": [
+        2
+      ],
+      "moriondo-coffee": [
+        2
+      ],
+      "upside-app": [
+        79
+      ]
+    }
+  },
+  "rows": [
+    {
+      "campaign_slug": "get-on-board",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2024-04-02",
+      "source_final_campaign_close": "2024-07-02",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "inlightened",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2022-08-26",
+      "source_final_campaign_close": "2022-11-05",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "chilling",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2022-08-19",
+      "source_final_campaign_close": "2023-03-01",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "revero",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2025-09-23",
+      "source_final_campaign_close": "2025-12-23",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "nobodystudios",
+      "reviewed_primary_disposition": "PROPOSE_OBSERVED_FINANCING_ADMISSION_WITH_ESTIMATOR_CLOCK_HOLD",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2022-12-26",
+      "source_final_campaign_close": "2023-04-08",
+      "estimator_time_zero_status": "HELD_FIRST_VS_FINAL_CLOSE",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "startglobal",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2024-08-13",
+      "source_final_campaign_close": "2024-11-12",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "buy-alerts",
+      "reviewed_primary_disposition": "HOLD_CANONICAL_ROUND_RETAIN_POSITIVE_SOURCE_STAGES",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2023-03-13",
+      "source_final_campaign_close": "2023-07-12",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "currently-wine",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2025-01-21",
+      "source_final_campaign_close": "2025-04-22",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "ecotone-renewables",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2024-12-17",
+      "source_final_campaign_close": "2025-02-16",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "moriondo-coffee",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2022-12-21",
+      "source_final_campaign_close": "2023-02-20",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "upside-app",
+      "reviewed_primary_disposition": "HOLD_CANONICAL_ROUND_RETAIN_POSITIVE_SOURCE_STAGES",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2024-08-20",
+      "source_final_campaign_close": "2025-03-02",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "reental",
+      "reviewed_primary_disposition": "PROPOSE_BOUNDED_OBSERVED_LAYER_B_ADMISSION",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2024-03-22",
+      "source_final_campaign_close": "2024-09-18",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "layali",
+      "reviewed_primary_disposition": "EXCLUDE_OUTSIDE_2020_2025_LAUNCH_COHORT",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2019-09-28",
+      "source_final_campaign_close": "2020-04-21",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    },
+    {
+      "campaign_slug": "soar-robotics",
+      "reviewed_primary_disposition": "EXCLUDE_OUTSIDE_2020_2025_LAUNCH_COHORT",
+      "independent_assessment": "AGREE_WITH_FROZEN_STAGEWISE_DISPOSITION",
+      "identity_second_review": "PASS_LEGAL_NAME_AND_DOMAIN_MEDIUM_BUNDLE_WITH_NATIVE_DOCUMENT_BINDING",
+      "source_first_live_date": "2019-09-05",
+      "source_final_campaign_close": "2020-03-11",
+      "estimator_time_zero_status": "NO_ESTIMATOR_ACTIVATED",
+      "admission_gate": "PENDING_SPECIFIC_JEV_PERMISSION_AND_FINAL_EVALUATION"
+    }
+  ],
+  "scientific_interpretation": {
+    "cohort_year": "First-live year controls; both 2019 launches remain excluded despite 2020 completion.",
+    "nobody_clock": "January31,2023 first security closing and April8,2023 final campaign closing are one offering with distinct dated events. Estimator time zero remains null until rolling-close clock is adjudicated under frozen rules.",
+    "amount_scope": "Keep precise native dated campaign amounts distinct from integer header/footer precision and public/private combined totals. Wine historical arithmetic reconciliation is an inference, not audited cash lineage. No exact Upside private amount is inferred by subtraction.",
+    "identity": "Two-medium legal-name/domain bundles are independently reviewed. Four HQ discrepancies and two current-campaign PDF URL-alias discrepancies remain explicit. No linked CIK is promoted to validated strong issuer ID.",
+    "security_position": "Original offering close mechanism combined with dated native successful-funding attestation supports bounded aggregate financing evidence. A blank individual instrument template is not a universal exclusion; neither is finalized DOM status invented as a universal rule.",
+    "case_specific_holds": "BuyAlerts public completion text coexists with workflow-state metadata of unverified semantics and unreviewed amendments; retain positive source facts while reconciling finalization. Upside actual outside same-term financing requires economic-window/grouping review. Reental amendment holds final terms, not already supported native financing.",
+    "offered_terms": "Canonical proposals contain original offered valuation metadata only. Future admission adapter must retain the existing reviewed pattern: operative valuation_cap and comparable_valuation null unless separately justified; offered terms in explicitly scoped source metadata. Moriondo cap tiers do not become separate rounds.",
+    "known_frame": "693 observed Republic records; 682 parsed identity-field records searched, 11 null-field records unassessable. No exhaustive historical or cross-platform clearance."
+  },
+  "pending_gate": {
+    "action": "External JEV evaluation of this fourteen-company source-review methodology and findings",
+    "status": "Specific disclosure authorization and final JEV evaluation remain pending; no final JEV assessment exists for this tranche.",
+    "scope_separation": "Earlier two-row/graph/adapter JEV receipts are not reused to approve this tranche."
+  },
+  "publication_scope": "This source-review result and its held/proposed dispositions may support the requested documentation checkpoint. It does not authorize a canonical-ledger extension, numeric rates, full Phase1D completion, or plateau declaration.",
+  "next_steps": [
+    "Resolve the specific external-evaluation permission and final evaluation gate.",
+    "Only then build and independently verify a separate versioned adapter release for the eligible subset; preserve earlier two-row release.",
+    "Keep Nobody clock null and BuyAlerts/Upside holds; preserve all offered-term, amount, alias, missingness and cofinancing scopes."
+  ]
+}

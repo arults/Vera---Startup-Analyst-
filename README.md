@@ -16,4 +16,10 @@ The latest frozen-rule audit restores stagewise admission: independently second-
 
 The research branch also includes a source-scoped, tri-state round-graph repair and aligned Phase 1B test dependencies. Focused verification is recorded in checkpoint section 16; full exact-revision CI and downstream unresolved-diagnostic reporting are separate gates.
 
-[The portable research-admission package](data/phase1d/cp10/canonical-admission-v1/README.md) reproducibly applies those two rows to a versioned research ledger while keeping offered SAFE terms separate from canonical priced/cap values. Production and estimator admission remain zero. Component verification and successor-review receipts are included; exact integrated remote CI is pending.
+[The portable research-admission package](data/phase1d/cp10/canonical-admission-v1/README.md) reproducibly applies those two rows to a versioned research ledger while keeping offered SAFE terms separate from canonical priced/cap values. Production and estimator admission remain zero. Component verification and successor-review receipts are included; the four recorded integration CI runs for `ee9c79e` passed on 2026-10-10 (checkpoint section 18).
+
+The integration commit's [Phase 1B](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030746958), [Phase 1C](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030746994), and Phase 1D [push](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030743225)/[PR](https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38030747008) checks are successful. This engineering result leaves the scientific coverage, outcome and promotion limits in place.
+
+A separate fourteen-campaign review now has independently supported local proposals, holds and first-live exclusions (checkpoint section 19). Its final JEV review awaits specific disclosure authorization; none is added to the two-row research ledger. The scientific study remains incomplete.
+
+[The fourteen-campaign source-review checkpoint](data/phase1d/cp10/tranche14-source-review/README.md) preserves the reviewed proposals, holds, original source references and portable hash lineage for resuming the work.
