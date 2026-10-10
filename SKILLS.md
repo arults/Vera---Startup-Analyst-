@@ -456,3 +456,11 @@ Basis: one public/hypothetical evaluation completed on October 10 at 22:47:36.38
 ### Dated status correction
 
 Historical statements above that AlphaFlow’s archived body remained unread describe their earlier checkpoints. Recovery at 22:45:45.833–22:45:46.216 UTC and subsequent independent review established the stored body and five bounded attributed page observations. They did not establish original capture time, present operation, security continuity, economic-round identity or analytical admission. The previous resumed draft’s pending-review label is superseded by the now-inspected verdict, recorded at 22:48:57.219884 UTC. This proposal remains local and unpublished.
+
+
+## 2026-10-10: Additive implementation safeguards, not scientific adoption
+
+- Compare every supplied availability-witness clock independently with its report cutoff, even when a historical comparison is not requested or supplied claim linkage fails. A later witness is unknown about prior availability; opaque payload hashes and review-reference matches establish structural linkage, not entity/publisher/source-version truth.
+- Preserve source-local calendar dates and explicit unknowns. Handle UTC conversions outside the representable calendar range as explicit diagnostic holds; do not manufacture midnight, a timezone, a date or within-day order from insufficient evidence.
+- Before publishing a branch update, inspect existing pull-request associations and synchronize/base-branch filters as well as direct-push paths. Reconcile actual event sets and checkout commits; a PR merge checkout is distinct from a separately pinned validation source. Keep local tests and historical CI skips in separate result inventories.
+- In hypothetical neutral preparation, require typed TRUE/FALSE/UNKNOWN assertions, unique assertion IDs and structural provenance. Keep ambiguous date ordering, multiple completions, completeness uncertainty and conflicting entry assertions visible. Preserve both candidate concepts without selecting a primary origin. These controls do not validate supplied facts, adopt an origin or supply estimator, endpoint, risk-set or uncertainty authority.

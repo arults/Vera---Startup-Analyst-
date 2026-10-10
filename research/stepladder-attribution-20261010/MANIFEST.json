@@ -1,0 +1,22 @@
+{
+  "schema": "vera-public-catalogue-manifest-v1",
+  "scope": "Five bounded observations and one source-declared association; no source bodies or canonical admissions.",
+  "files": [
+    {
+      "path": "research/stepladder-attribution-20261010/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 1145,
+      "sha256": "af270d79867c551ee55eb97b3c20926864d9febe3a7216b32e54332ea9d0611b",
+      "git_blob_sha": "5296fd98895369fc47aa40c5052f5e19490138ed"
+    },
+    {
+      "path": "research/stepladder-attribution-20261010/claims.json",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 9478,
+      "sha256": "c918a359f7688759c0b9a5b7036e21fe59307b4ae9c6924f76d797fe05509599",
+      "git_blob_sha": "ca9b8210118ae5948810c5cf739d86c90b14b527"
+    }
+  ]
+}

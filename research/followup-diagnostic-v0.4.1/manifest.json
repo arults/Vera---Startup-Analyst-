@@ -1,0 +1,53 @@
+{
+  "schema": "vera-standalone-diagnostic-package-v1",
+  "implementation": "0.4.1-candidate",
+  "scope": "Local supplied-clock and conditional availability diagnostics; no source truth, entity/source-version verification, evidence admission, censor or estimator authority.",
+  "synthetic_tests": {
+    "run": 78,
+    "passed": 78,
+    "skipped": 0,
+    "execution": "Standalone temporary copy; Python isolated mode and bytecode disabled."
+  },
+  "files": [
+    {
+      "path": "research/followup-diagnostic-v0.4.1/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 4087,
+      "sha256": "9c7f50520d618e3c5f9744899dc46e5cd9f3f428d48f433fa56524865ace2f1e",
+      "git_blob_sha": "6779fdeb11958f72a6bfe9afb9623319a180b990"
+    },
+    {
+      "path": "research/followup-diagnostic-v0.4.1/diagnostic.py",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 20956,
+      "sha256": "313c98b9d6240eabf49ca18f04d7fa09c3b869b2bae854427fa4f6f1774b3d46",
+      "git_blob_sha": "90fc80987a8301ff97fa47b54827271aacf57e03"
+    },
+    {
+      "path": "research/followup-diagnostic-v0.4.1/test_predecessor.py",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 23408,
+      "sha256": "0012b0653eb1aa63c4eaf336917256cdba097bb9580a63e0b112e63373d89236",
+      "git_blob_sha": "98630ab88566141496f2b31db0bbb51506385ba8"
+    },
+    {
+      "path": "research/followup-diagnostic-v0.4.1/test_temporal.py",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 6917,
+      "sha256": "e041bb2495cde4d8d4b0ecd50ed75c300636decf8b30fea0c19792372c186e62",
+      "git_blob_sha": "cae0001cbe1ac7006e79e07231d3894c42e824cf"
+    },
+    {
+      "path": "research/followup-diagnostic-v0.4.1/test_review_regressions.py",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 3542,
+      "sha256": "92ec357cf1beefc408e7ce6e9e450a4454e47dd74e992865eb6092749a00923c",
+      "git_blob_sha": "2f8a4bbdba9e4287ad3f4e66ba916a4f4af4a99d"
+    }
+  ]
+}
