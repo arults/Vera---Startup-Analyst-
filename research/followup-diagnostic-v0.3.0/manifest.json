@@ -1,0 +1,28 @@
+{
+  "schema": "vera.readonly-diagnostic.public-package.v1",
+  "implementation_version": "0.3.0",
+  "input_output_schema_version": "v0.2",
+  "status": "LOCAL_PACKAGING_PROPOSAL_NOT_RELEASED",
+  "files": {
+    "README.md": {
+      "sha256": "0ebb1103603461110524f0166e002840af61d1287cb31e493679269dc808108d",
+      "bytes": 3064
+    },
+    "diagnostic.py": {
+      "sha256": "4404b78f948772c6cb9717a265509a921e45a71599dd25d888df0ab75794ac6e",
+      "bytes": 13997
+    },
+    "test_diagnostic.py": {
+      "sha256": "7fe6c684603ec0b945e4fef39b14ba92136bbe88038b19a2f016af1e5d3db76b",
+      "bytes": 23405
+    }
+  },
+  "included_data": "Synthetic test fixtures only",
+  "limits": [
+    "Supplied judgments are not authenticated.",
+    "File hashes do not prove claim truth or complete semantic review.",
+    "Source-date/report-cutoff consistency, historical availability and dependency-coverage completeness remain unevaluated.",
+    "No native censor, last-positive or estimator integration.",
+    "Run outputs can contain local paths and require separate review before sharing."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "catalogue_version": "public-research-attribution-catalogue.v1",
+  "claim_count": 8,
+  "claim_ids": [
+    "AF974-I1",
+    "AF974-F1",
+    "AF974-A1",
+    "AF974-P1",
+    "AF974-P2",
+    "HG-REGISTRY-IDENTITY-01",
+    "HG-REGISTRY-WINDUP-INDEX-01",
+    "HG-REGISTRY-DISSOLUTION-INDEX-01"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 1257,
+      "sha256": "5d26248bb689ae1d4f52135db2c013bc0f02322c873a771662e90dea4c8a68be"
+    },
+    "claims.json": {
+      "bytes": 15992,
+      "sha256": "06c6fbd3569f077371121729b152a5f2cfc058aa6d236d8196c0711005f04b17"
+    }
+  }
+}

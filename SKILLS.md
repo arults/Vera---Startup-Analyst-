@@ -391,3 +391,68 @@ These amendments supplement, and do not renumber or weaken, the thirteen standin
 
 - Bind every quantity to its exact subject/product, metric, period, unit and qualifier, preserving the source’s relationship through structured values and paraphrases. Separately correct values can form an incorrect combined statement; never join adjacent fields by proximity. Test product/quantity swaps and retain explicit association metadata when several products or actions coexist.
 - Scope statement identifiers to their campaign before using them as keys. Detect repeated local labels before constructing maps, retain both records and assert scoped uniqueness. Distinguish prevented collisions from actual overwrites. A reviewed attribution catalog reorganizes existing evidence; it does not create canonical entities, economic rounds, realized outcomes or model admission.
+
+
+## Proposed safeguards and dated diagnostic status — prepared 2026-10-10T20:02:53.189478+00:00
+
+This full local successor preserves all preceding guidance verbatim, including the 13 standing numbered rules. The additions below are proposed evolving skill content for independent review. They have not been deployed to the published skill and do not constitute a new policy approval. Earlier status paragraphs retain their historical preparation dates. These safeguards concern truthful evidence handling and bounded execution; pending scientific decisions remain pending.
+
+### Preserve request evidence and retrieval capabilities
+
+- Invoke and record the same request-arguments object. Save exact submitted arguments, tool identity, the complete unmodified result, locally observed start/end times and any provider request identifier. Check substantive payload errors even when an outer success flag is set. A failed request creates no source finding. If arguments were omitted, retain the original receipt and label later creator transcription as retrospective; it cannot restore independent contemporaneous proof.
+- Before binary retrieval, compare current tool contracts with earlier successful receipts for that representation. The failed AlphaFlow blob request used a text-decoding route; a file request with explicit base64 encoding had already succeeded for StockCard. This was avoidable route selection, not connector-wide binary unavailability or evidence of archive corruption. No AlphaFlow retry occurred, and its body remains unread. A demonstrated route for another file does not guarantee future recovery or authorize another call. Keep locator metadata, delivered-byte/hash/decompression checks and source-body interpretation separate.
+
+### Review the full workflow consequences
+
+- Enumerate all workflows selected by changed paths, including workflow-file self-triggers. Compare dependencies, interpreter and checkout semantics even where test commands match. Report exact job outcomes rather than generalizing a passing job into full CI success.
+- Inspect downstream generation and persistence before publishing even a dependency-only repair. The reviewed identity workflow can activate a 16-file writer and checks out a moving branch. Its observed failed run skipped that writer. The minimal dependency repair has reviewed consequences but remains held: diagnosis and a safer isolated validation plan are accepted; push approval, runtime recovery and full-suite recovery are not established. A pinned, non-persisting validation environment requires its own permitted scope. Passing tests alone does not authorize scientific data changes.
+- Check exact status evidence before calling a review pending. An absent receipt in the current input set is not proof that no review exists. Preserve dated corrections separately from frozen earlier statements.
+
+### Keep provenance, authority and diagnostic checks distinct
+
+- Reconciled Eligible/status tags describe inherited provenance. The 291 later-than-completion rows with only Eligible/status non-index tags are not 291 newly verified operating companies. State the counting unit, overlap and source version. Missing operating-activity tokens do not establish absence in unread bodies.
+- Separate supplied dispositions, reference structure, exact artifact bytes, full claim linkage, authentic reviewer authority, semantic adequacy and temporal consistency. A verified artifact-byte flag can be true while full claim references remain incomplete and authority authentication remains false. Do not invent a claim digest for an old review to satisfy a structural requirement.
+- Require nonblank strings for textual time bases and mapping rationales, rather than accepting truthy containers. Flag empty review references and missing dependency bindings explicitly. Distinguish in-memory projection from filesystem verification. Preserve invalid or missing fields transparently without manufacturing scientific interpretation.
+- Mark source-date/report-cutoff consistency and historical availability as not evaluated wherever those checks have not been implemented or validated. Parsed dates, supplied labels and a computed analytical window do not establish those separate properties. An unevaluated check is neither approval nor contradiction.
+- For a real-record diagnostic trial, pin code, mapped input and output; preserve original claims, periods, missing clocks and prior holds; independently replay output and verify bound-file invariance. Scope side-effect assurance to inspected code and bound files, rather than making a global forensic claim. Source-attribution acceptance does not erase operating, native-platform, round-entry, state or executable holds.
+
+### Verified local status at this preparation time
+
+The published checkpoint's main verifier job passed; a separate identity-review run reported 318 tests, two missing bs4 import errors and one skip. Its downstream writer was skipped. These outcomes do not show that newly published code caused the dependency omission or that the held repair has recovered remote CI.
+
+The read-only diagnostic correction was independently reviewed with 49 test methods after an additional byte-versus-claim-binding conflation was found following 43 passing methods. The corrected code preceded the real-record trial. The StockCard trial has 78 independent checks and byte-identical replay, preserving its January 1–February 13, 2023 product-activity period and existing holds. The complementary Ecotone/Zeigo trial executed at 19:59:52 UTC on October 10; pending at 20:00, it received narrow independent acceptance at 20:01:03 with 123 checks and byte-identical replay. Its twenty dependency files are provenance bindings, not twenty independent sources. Original time objects, null unknowns, genuine prior acceptance and unresolved mappings remain intact.
+
+The public-safe diagnostic package has independent acceptance for future handoff only: 103 checks, 49 passing standalone tests, four allowlisted files and no real-pilot/private artifacts. The diagnostic and this skill successor remain local and unpublished. No new remote preflight, publication or CI result is claimed for them. Neither the tests nor the trials measure model improvement, create source outcomes, change canonical dates or admit estimator inputs. Scientific gates and the ongoing work remain open.
+
+
+## Preserved proposal-review lessons incorporated October 10, 2026 at 22:57:50 UTC
+
+The following independently accepted prose is reproduced verbatim from its dated October 10, 20:16 addendum. Its local/proposed status statements describe that preparation time. These are lessons from correcting an unadopted recommendation, not adopted statistical formulas, executed empirical tests or a change to the scientific target. Earlier guidance remains verbatim.
+
+# Local proposal-review learning addendum
+
+Prepared 2026-10-10T20:16:14.784803+00:00. Proposed L91–L92 supplement the unchanged published 81 lessons and local L82–L90. They describe defects in an unadopted recommendation, not newly observed empirical bugs. The revised recommendation received 57 independent checks and acceptance only as an unadopted limited proposal at 20:15:31 UTC on October 10. No method adoption, simulation, fresh JEV endorsement, code change or publication follows.
+
+## L91. A verified final-close date does not choose the analytical origin
+
+The first recommendation overpreferred final successful close without sufficiently justifying what happens between interim and final closes or how that choice conditions entry into the risk set. The concrete logical counterexample is a security position created at an interim close followed by acquisition or closure before final close. Starting the clock only at final close can omit that period and its terminal history. This example is a design challenge, not an observed event or executed simulation.
+
+The revision makes final close an explicitly conditional candidate convention. Neither final close nor first interim close is adopted universally; an exact source-backed date alone cannot activate either convention. Prevention: separately specify the target population, origin convention, entry/selection rationale, treatment of interim-to-final events and unresolved entry applicability. Preserve valid date facts and prior terminal history while withholding an unsupported analytical mapping. Do not add a universal perfect-history requirement or replace one unjustified default with another.
+
+## L92. Event-derived endpoints must be specific to their outcome and state
+
+The first recommendation's generic event-endpoint language could allow a qualifying financing-success date to extend operating observation. Keeping last affirmative operation in a separate field was insufficient if the event endpoint could still lengthen every risk history. This was ambiguity in a proposed design, not evidence that a newly observed company or running estimator was misclassified.
+
+The revision separates financing-success, independence-terminal and closure mappings. Prevention: state which estimand and state history each event supports, and review its entity, entry and window applicability. A valid financing attribution may remain accepted while its independent-state mapping is unresolved; financing alone does not prove operation through that date, post-success operating occupancy or a later operating censor. Conversely, directly qualified independence-terminal evidence can support its own endpoint without being affirmative operation, and should not be categorically rejected merely because the last operating observation was earlier. Preserve later legal closure as history without automatically replacing earlier independence loss. Avoid a shared maximum of last-positive and arbitrary event dates. These safeguards do not settle the remaining observation assumptions, multistate support, interval formulas or uncertainty coverage.
+
+
+## Additive methodological-evaluation safeguard — October 10, 2026 at 22:57:50 UTC
+
+- Before interpreting a model evaluator’s high selected probability, inspect whether competing choices are viable methods or explicitly unsafe/self-contradictory alternatives. A choice among the latter is a limited consistency check, not evidence of comparative method quality or empirical calibration. Preserve the exact question, choices, returned fields and evaluated scope; do not invent missing explanations.
+- Preserve the distinction between a returned proposition probability, a returned confidence field and an arithmetic complement calculated afterward. If a YES proposition returns 0.06 without confidence, its complement 0.94 is neither separately returned confidence nor achieved interval coverage. Repeating the evaluation cannot turn a methodological judgment into proof or empirical validation.
+
+Basis: one public/hypothetical evaluation completed on October 10 at 22:47:36.389 UTC. This is an evaluation of the supplied framing, not evidence that an actual estimator contains a new defect. Existing origin, state-entry, observation, support and uncertainty decisions remain unresolved.
+
+### Dated status correction
+
+Historical statements above that AlphaFlow’s archived body remained unread describe their earlier checkpoints. Recovery at 22:45:45.833–22:45:46.216 UTC and subsequent independent review established the stored body and five bounded attributed page observations. They did not establish original capture time, present operation, security continuity, economic-round identity or analytical admission. The previous resumed draft’s pending-review label is superseded by the now-inspected verdict, recorded at 22:48:57.219884 UTC. This proposal remains local and unpublished.

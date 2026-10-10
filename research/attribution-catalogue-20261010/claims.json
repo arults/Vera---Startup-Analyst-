@@ -1,0 +1,280 @@
+{
+  "catalogue_version": "public-research-attribution-catalogue.v1",
+  "status": "RESEARCH_ATTRIBUTION_CANDIDATE",
+  "scope": "Eight source-attributed assertions only; independent review of exact source wording supports these bounded attributions. This catalogue does not assert admission through any separate formal release engine.",
+  "sources": [
+    {
+      "id": "AF974-ARCHIVED-PAGE",
+      "original_url": "https://republic.com/alphaflow",
+      "publisher": "Republic",
+      "source_type": "Archived platform offering page with issuer-authored pitch",
+      "factual_origin_family": "REPUBLIC_ALPHAFLOW974_PAGE_AND_ISSUER_PITCH",
+      "origin_limits": "Platform display assertions and issuer pitch share this captured page. Repository storage and repeated page sections supply no additional independent origin.",
+      "artifact": {
+        "scope": "Recovered complete raw HTML",
+        "sha256": "2e4987c0a45a34e4f96f261adfdf8c055d6d04b55ced7b38f49805b9822c0890",
+        "bytes": 190283
+      },
+      "retrieval_window_utc": [
+        "2026-10-10T22:45:45.833Z",
+        "2026-10-10T22:45:46.216Z"
+      ],
+      "retrieval_meaning": "Recovery of archived bytes from repository storage, not a live Republic retrieval.",
+      "original_capture_time": null,
+      "publication_date": null,
+      "source_as_of_date": null,
+      "historical_availability": "Original capture and earliest public availability unverified.",
+      "inspection": "Original HTML source-owning nodes and full extracted page text; linked filing and security documents not inspected."
+    },
+    {
+      "id": "HG-OFFICIAL-INDEX",
+      "original_url": "https://find-and-update.company-information.service.gov.uk/company/10027821/filing-history",
+      "publisher": "Companies House",
+      "source_type": "Official registry filing-history index, page 1",
+      "factual_origin_family": "COMPANIES_HOUSE_INDEX_10027821",
+      "origin_limits": "Official index is competent for its own listings; regulatory hosting does not audit underlying filed assertions. No second origin is claimed.",
+      "artifact": {
+        "scope": "Complete preserved web-tool extraction result for index page 1, including source metadata and line labels; not raw HTML or PDF",
+        "sha256": "1d22e69a37c19cb453d4f2746fc393769fb3d9ca7c8226fd6a444f5e69c64786",
+        "bytes": 9515
+      },
+      "retrieval_window_utc": [
+        "2026-10-10T22:47:12.489Z",
+        "2026-10-10T22:47:13.060Z"
+      ],
+      "retrieval_meaning": "Acquisition of tool-extracted index text; not original document filing, publication or event time.",
+      "original_capture_time": null,
+      "publication_date": null,
+      "source_as_of_date": null,
+      "historical_availability": "Tool reported crawl age of two months without an exact crawl timestamp. Earliest availability of this text is unverified.",
+      "inspection": "All 93 returned index lines, including accuracy disclaimer and filing-date header. Page 2 and underlying filings not inspected."
+    }
+  ],
+  "claims": [
+    {
+      "id": "AF974-I1",
+      "assertion": "The recovered archived Republic source directly identifies native offering 974, slug alphaflow and URL https://republic.com/alphaflow, with root state finalized. About section names AlphaFlow Inc.; security display is Crowd SAFE.",
+      "source_id": "AF974-ARCHIVED-PAGE",
+      "subject": {
+        "display_name": "AlphaFlow: Pre-Series B",
+        "displayed_legal_name": "AlphaFlow Inc.",
+        "native_offering_id": 974,
+        "native_slug": "alphaflow",
+        "economic_round_identity": null
+      },
+      "scope": "Native offering974 archived platform display",
+      "source_locator": "Original HTML line594 campaign-root attributes; line22 og:url; line1672 legal name; line1598 security display",
+      "date_semantics": {
+        "kind": "unknown",
+        "meaning": "Identity and displayed state in undated archived snapshot; no current-state date."
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected source.",
+      "limits": [
+        "Linked CIK 0001650200 is platform linkage, not an independently inspected SEC issuer/security chain. Canonical /alpha-flow is not a merger instruction."
+      ]
+    },
+    {
+      "id": "AF974-F1",
+      "assertion": "The archived offering974 footer states that AlphaFlow: Pre-Series B successfully raised $1,797,756 from 2308 investors on June 26, 2021; its campaign header states successfully funded and closed on that date.",
+      "source_id": "AF974-ARCHIVED-PAGE",
+      "subject": {
+        "display_name": "AlphaFlow: Pre-Series B",
+        "displayed_legal_name": "AlphaFlow Inc.",
+        "native_offering_id": 974,
+        "native_slug": "alphaflow",
+        "economic_round_identity": null
+      },
+      "scope": "Native offering974 archived platform display",
+      "source_locator": "Original HTML line1992 campaign footer; line761 funded/closed banner",
+      "date_semantics": {
+        "kind": "displayed_campaign_close_date",
+        "date": "2021-06-26",
+        "meaning": "Date attributed to campaign funding/close display; not independently verified settlement or cash receipt."
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected source.",
+      "limits": [
+        "Literal attributed platform report, not independently audited settlement, payout, net proceeds, unique beneficial owners, returns or current outcome. June26 is displayed close date; no launch date newly recovered."
+      ]
+    },
+    {
+      "id": "AF974-A1",
+      "assertion": "The page header displays $2,865,736 as Total raised in 3 campaigns and 5,186 as Investors in 3 campaigns.",
+      "source_id": "AF974-ARCHIVED-PAGE",
+      "subject": {
+        "display_name": "AlphaFlow: Pre-Series B",
+        "displayed_legal_name": "AlphaFlow Inc.",
+        "native_offering_id": 974,
+        "native_slug": "alphaflow",
+        "economic_round_identity": null
+      },
+      "scope": "Cross-campaign platform aggregate",
+      "source_locator": "Original HTML lines738 and750 aggregate header",
+      "date_semantics": {
+        "kind": "unknown",
+        "meaning": "Snapshot aggregate across three campaigns; no aggregate measurement date established."
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected source.",
+      "limits": [
+        "Cross-campaign platform display only; not offering974 funding or investor count, unique investors, complete census or independently established economic-round total."
+      ]
+    },
+    {
+      "id": "AF974-P1",
+      "assertion": "The retained funding pitch reports previous financing over $16M, lists Q3 2015 $520k, Q3 2016 $1.6M, Q3 2017 $2.5M and Q4 2020 Series A $10M including SAFEs secured over the previous 24 months.",
+      "source_id": "AF974-ARCHIVED-PAGE",
+      "subject": {
+        "display_name": "AlphaFlow: Pre-Series B",
+        "displayed_legal_name": "AlphaFlow Inc.",
+        "native_offering_id": 974,
+        "native_slug": "alphaflow",
+        "economic_round_identity": null
+      },
+      "scope": "Historical issuer-authored pitch",
+      "source_locator": "Original HTML line1475 Funding pitch section",
+      "date_semantics": {
+        "kind": "source_attributed_historical_periods",
+        "periods": [
+          "2015-Q3",
+          "2016-Q3",
+          "2017-Q3",
+          "2020-Q4"
+        ],
+        "meaning": "Pitch financing periods; Series A description includes SAFEs from preceding 24 months. No economic-round disjointness established."
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected source.",
+      "limits": [
+        "Issuer-authored historical pitch attribution only. Not independent funding confirmation, mutually exclusive round accounting or economic-round identity bridge. Pitch funding and loan securitization must not be summed with platform campaign totals."
+      ]
+    },
+    {
+      "id": "AF974-P2",
+      "assertion": "The retained traction pitch says AlphaFlow closed a $100M securitization in January 2021 and describes working with lenders across 41 states while deploying $1B+ into real estate bridge loans; the next paragraph forecasts products by Q2 2021 and volume by Q3 2021.",
+      "source_id": "AF974-ARCHIVED-PAGE",
+      "subject": {
+        "display_name": "AlphaFlow: Pre-Series B",
+        "displayed_legal_name": "AlphaFlow Inc.",
+        "native_offering_id": 974,
+        "native_slug": "alphaflow",
+        "economic_round_identity": null
+      },
+      "scope": "Historical issuer-authored pitch",
+      "source_locator": "Original HTML line1415 Traction pitch section",
+      "date_semantics": {
+        "kind": "mixed_historical_and_undated_pitch",
+        "securitization_claim_month": "2021-01",
+        "undated_activity": [
+          "lenders across 41 states",
+          "deployment of $1B+ bridge loans"
+        ],
+        "forecast_periods": [
+          "2021-Q2",
+          "2021-Q3"
+        ],
+        "meaning": "January securitization assertion is separate from undated present-tense activity and future forecasts."
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected source.",
+      "limits": [
+        "Historical issuer promotional statements and forecasts; not verified actual deployment, achieved forecasts, revenue, current operation or later survival/censor evidence. The explicit January 2021 claim is separate from undated present-tense pitch assertions."
+      ]
+    },
+    {
+      "id": "HG-REGISTRY-IDENTITY-01",
+      "assertion": "The inspected Companies House filing-history index identifies company 10027821 as SMOOTH ORGANICS LTD.",
+      "source_id": "HG-OFFICIAL-INDEX",
+      "subject": {
+        "legal_name": "SMOOTH ORGANICS LTD",
+        "jurisdiction": "United Kingdom Companies House",
+        "company_number": "10027821",
+        "research_context_brand": "Honestly Good Smoothie Company",
+        "brand_to_legal_entity_bridge": "Not independently established from inspected originals",
+        "security_identity": null,
+        "economic_round_identity": null
+      },
+      "scope": "Official registry index content for legal company number 10027821 only",
+      "source_locator": "L13-L15",
+      "date_semantics": {
+        "type": "unknown",
+        "event_date": null
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected index.",
+      "limits": [
+        "Exact company-number match identifies index subject; does not independently establish brand or security continuity.",
+        "No commercial cessation, current operation or investment-outcome inference."
+      ]
+    },
+    {
+      "id": "HG-REGISTRY-WINDUP-INDEX-01",
+      "assertion": "The official index lists a RESOLUTIONS filing on 8 June 2023 described as an extraordinary resolution to wind up on 2023-05-25.",
+      "source_id": "HG-OFFICIAL-INDEX",
+      "subject": {
+        "legal_name": "SMOOTH ORGANICS LTD",
+        "jurisdiction": "United Kingdom Companies House",
+        "company_number": "10027821",
+        "research_context_brand": "Honestly Good Smoothie Company",
+        "brand_to_legal_entity_bridge": "Not independently established from inspected originals",
+        "security_identity": null,
+        "economic_round_identity": null
+      },
+      "scope": "Official registry index content for legal company number 10027821 only",
+      "source_locator": "L42-L44",
+      "date_semantics": {
+        "type": "point",
+        "asserted_resolution_date": "2023-05-25",
+        "filing_date": "2023-06-08",
+        "source_of_dates": "Explicit index description versus separate filing date column"
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected index.",
+      "limits": [
+        "Underlying resolution PDF uninspected; no operating cessation or terminal independent-operation claim.",
+        "No commercial cessation, current operation or investment-outcome inference."
+      ]
+    },
+    {
+      "id": "HG-REGISTRY-DISSOLUTION-INDEX-01",
+      "assertion": "The official index lists a GAZ2 filing dated 24 October 2024 described as Final Gazette dissolved following liquidation.",
+      "source_id": "HG-OFFICIAL-INDEX",
+      "subject": {
+        "legal_name": "SMOOTH ORGANICS LTD",
+        "jurisdiction": "United Kingdom Companies House",
+        "company_number": "10027821",
+        "research_context_brand": "Honestly Good Smoothie Company",
+        "brand_to_legal_entity_bridge": "Not independently established from inspected originals",
+        "security_identity": null,
+        "economic_round_identity": null
+      },
+      "scope": "Official registry index content for legal company number 10027821 only",
+      "source_locator": "L36-L39",
+      "date_semantics": {
+        "type": "point",
+        "filing_date": "2024-10-24",
+        "effective_dissolution_date": null
+      },
+      "source_adequacy": "Sufficient only for literal attribution to this inspected index.",
+      "limits": [
+        "Date column expressly says document filed at Companies House. Failed PDF read prevents asserting an independently inspected effective dissolution date. Dissolution is not commercial cessation.",
+        "No commercial cessation, current operation or investment-outcome inference."
+      ]
+    }
+  ],
+  "interpretation_limits": [
+    "One competent original can support a literal attributed assertion; no universal two-source threshold is implied. Source adequacy here is only for attribution, not general business-outcome research.",
+    "No canonical outcome, survival/failure classification, censor clock, estimator, probability, settlement, investor recovery or current-operation claim is provided.",
+    "Source hashes identify preserved bytes or extracted text, not factual truth or publisher authenticity. Hash scopes differ and are explicitly identified.",
+    "AlphaFlow campaign974, its three-campaign aggregate, historical issuer financing and loan securitization remain distinct. Canonical URL /alpha-flow is not authority to merge offerings or transfer status.",
+    "Reviewer arithmetic adds the four displayed financing amounts ($520k, $1.6M, $2.5M and $10M) to $14.62M. This computed sum is not a ninth source assertion, evidence of disjoint economic rounds, or a reconciliation of the issuer pitch’s over-$16M claim."
+  ],
+  "honestlygood_research_limits": {
+    "selection": "Previously selected company retained; no replacement based on findings.",
+    "collection_chronology": "Initial renewed discovery occurred before the continuation plan and differed from the older exact search request. The continuation-plan timestamp equals the start of a failed overview read, so strict ordering of those two events is unverified. The official-index read and relevant subsequent adverse searches occurred after the continuation plan. Complete prospective search chronology is not certified.",
+    "effect": "These collection limitations do not invalidate the observed index text; they remain visible constraints on wider research conclusions.",
+    "missing_routes": [
+      "Original legal/trading-name bridge",
+      "Underlying wind-up and dissolution documents, including effective dissolution date",
+      "Explicitly dated post-completion operating evidence",
+      "Business transfer, relaunch, continuing products and holder recovery"
+    ],
+    "access_limits": "Overview and original Gazette notice were unavailable through the tool; linked dissolution PDF returned a cache miss. No underlying PDF body was obtained.",
+    "context": "A separately inspected founder interview remains held for activity timing and legal-entity linkage; it is not one of these eight assertions. Earlier activity context and later legal filings are not inherently contradictory.",
+    "overall_research_status": "Incomplete beyond the three literal registry-index assertions."
+  }
+}

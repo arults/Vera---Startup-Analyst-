@@ -1,0 +1,29 @@
+# Vera resumed progress checkpoint
+
+Recorded October 10, 2026 at 22:57:50 UTC. Local candidate for independent review; not published and not a completion claim. This separate continuation follows the user's 22:44 request. The prior eight-hour window ended at 22:03:38 UTC; its closeout and earlier records remain unchanged.
+
+## Source results
+
+AlphaFlow: the exact archived offering 974 body was recovered in one read at 22:45:45.833–22:45:46.216 UTC. Independent review recorded at 22:48:57.219884 UTC accepted five bounded attributed archive observations, verifying the base64/gzip/Git-blob/raw-byte chain and original source nodes. The previous resumed draft's pending label was stale and is superseded here. The verdict SHA-256 is 376b6d5aa0a744011737a0773a4141bc6a8c77c673c670a22b0fc7af05e77c1b.
+
+The page reports offering 974's June 26, 2021 campaign close, $1,797,756 and 2,308 investors. Header figures of $2,865,736 and 5,186 investors belong to three campaigns. Historical financing/traction pitch and forecasts remain attributed issuer statements. The canonical link does not transfer offering 1798's status. These are one factual origin, not multiple confirmations; original capture time remains unknown. No settlement, return, present operation, economic-round merge or outcome admission follows.
+
+Honestly Good research: independent review recorded at 22:49:40 UTC accepted three literal Companies House index assertions for Smooth Organics Ltd, company 10027821. This review timestamp is recorded reminder-vicinity time, not certified execution time. The verdict SHA-256 is 608fff80e1c6cacba61c36e990a97e7de5940365f112399546014cc032cada33. The index identifies the company; lists a June 8, 2023 filing describing a May 25, 2023 winding-up resolution; and lists an October 24, 2024 GAZ2 filing described as dissolved following liquidation. Filing date is not a newly verified effective dissolution date. The underlying documents and independent brand/security bridge remain unverified. Founder-interview material remains held context, not a newly admitted operating observation.
+
+The continuation plan preceded the accepted index read at 22:47:12.489–22:47:13.060 UTC. However, first discovery preceded that plan, and its timestamp equals the failed overview request's start. Those gaps do not negate the later literal index semantics; they do prevent complete exact-plan-before-all-search certification and remain relevant to formal release review.
+
+Four later Gazette searches ran at 22:55:03.906–22:55:25.790 UTC after a recorded 22:54:58.650 plan. Three returned empty results; one returned an already known bulk-index discovery lead. No eligible original notice body or new assertion was obtained. The now-frozen independent gap review accepts only this bounded no-new-assertions disposition. Exact third/fourth queries were not individually predeclared, so this is not exact four-query preregistration. Missing legal/brand linkage, operative notice text and effective event dates remain unresolved. Neither search failure nor the bounded stopping point proves absence, adequacy or a scientific plateau.
+
+## Method and learning
+
+One public/hypothetical JEV evaluation ran at 22:47:25.458–22:47:36.389 UTC. Selected probabilities/confidences were 1/1 for preserving target, 0.99/0.99 for retaining interim events while resolving origin, 1/1 for separating financing from operation and 1/1 for withholding an undefined interval without altering draws. A separate coverage proposition returned 0.06 and no separate confidence. The second allocated call remained unused in that task's frozen result. These are methodological judgments, not calibrated accuracy or empirical validation. Most rejected alternatives were expressly unsafe or contradictory, limiting comparative value. The calculated complement 0.94 is not returned confidence or achieved coverage.
+
+The full SKILLS proposal preserves the exact accepted 77,410-byte predecessor and all 13 numbered rules. It incorporates the independently accepted, dated L91–L92 prose verbatim: final-close origin needs justified entry/event treatment; financing success cannot automatically lengthen operating observation. These concern corrected unadopted proposals, not adopted formulas or newly demonstrated estimator defects. The narrow JEV interpretation safeguard is retained.
+
+The genuine earlier retrieval mistake remains recorded: a text-decoding route was used for gzip despite a known explicit-base64 route. Later recovery validates the correction for this archive, not universal tool reliability. Earlier failed receipts remain failures. Prevention is representation-aware retrieval followed by exact-byte, decompression and identity checks before semantic interpretation.
+
+## CI and remaining holds
+
+The validation-only CI design is still held for exact-patch review, full workflow-trigger side-effect checks and scoped execution approval. Its v3 record reports 52 local static/shell checks and 17 synthetic materialization-gate tests. No actual repository materialization gate, package installation, container execution or full regression ran. Docker and required modules were unavailable locally, and the full repository was not retrieved. Synthetic/static success is not runtime recovery or an all-CI-pass result. The original scientific writer remains unchanged.
+
+Phase 1D is incomplete. Source-to-state, denominator, origin, observation and uncertainty decisions remain open. No operating/censor/current-outcome admission, canonical mutation or model-performance improvement is claimed. Private JEV disclosure remains unapproved. The previous published checkpoint and mixed terminal CI outcomes remain historical. This log and skill candidate have not been pushed; publication requires independent checks and current remote/trigger preflight.
