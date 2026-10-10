@@ -1,0 +1,18 @@
+{
+  "bytes": 7003109,
+  "campaign_url": "https://republic.com/dispatch-goods",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/132?view=preview",
+  "gzip_sha256": "64096ab81d86085b20dca4097e82e67169f325c0c0dbd1f51a5bf76c44ee25d7",
+  "http_status": 200,
+  "label": "Dispatch Goods Form C.pdf",
+  "parent_sha256": "6fef4dfb697f9152058156afc8bdf128969102a8c9d000a294843dd79b9339a2",
+  "raw_sha256": "01d13f95e5bab129355361969ecb73da450897c473985f31cb8c9b110737c73b",
+  "received_at": "2026-10-10T02:07:45.188949+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:44.104149+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/01d13f95e5bab129355361969ecb73da450897c473985f31cb8c9b110737c73b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/132?view=preview"
+}

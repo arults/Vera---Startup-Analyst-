@@ -1,0 +1,49 @@
+{
+  "bytes": 1554966,
+  "campaign_url": "https://republic.com/welivv",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "WeLivv Form C.pdf",
+  "page_count": 65,
+  "parent_sha256": "140fc55cd1a88db074727f90ae585d02316b68a049f558ebd8563ba75e422858",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1013,
+      "pymupdf_sha256": "392c28e990827d593c4f164ae85022a36f0f9e552208334249fb58b3ae19857f",
+      "pypdf_chars": 1013,
+      "pypdf_sha256": "392c28e990827d593c4f164ae85022a36f0f9e552208334249fb58b3ae19857f"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1448,
+      "pymupdf_sha256": "12447b3d9b2955ac0198af28da014232e9c194721d50334cf7068c5601e926fe",
+      "pypdf_chars": 1448,
+      "pypdf_sha256": "12447b3d9b2955ac0198af28da014232e9c194721d50334cf7068c5601e926fe"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1084,
+      "pymupdf_sha256": "fcb70c56b28ebb6cbe06d5b8fd9f2a55091e510241b848480881e9972205c442",
+      "pypdf_chars": 1085,
+      "pypdf_sha256": "9396805a7a30d538aaeab4ac977059e4718e8de72d5f0f59456437f5e15a8347"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1348,
+      "pymupdf_sha256": "83987e8784afc43658d50cf54e948305f3636b08ba5991ba79069eb056157387",
+      "pypdf_chars": 1348,
+      "pypdf_sha256": "83987e8784afc43658d50cf54e948305f3636b08ba5991ba79069eb056157387"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/1e31e9e4aa25406b7deb44224c815480c7f0ba7cdcc247af9ec812b26f10ac00.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1e31e9e4aa25406b7deb44224c815480c7f0ba7cdcc247af9ec812b26f10ac00.bin.gz",
+  "source_sha256": "1e31e9e4aa25406b7deb44224c815480c7f0ba7cdcc247af9ec812b26f10ac00",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/72?view=preview"
+}

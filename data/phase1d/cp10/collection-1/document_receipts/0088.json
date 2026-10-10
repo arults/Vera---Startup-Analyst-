@@ -1,0 +1,49 @@
+{
+  "bytes": 14692840,
+  "campaign_url": "https://republic.com/the-lieu",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "The Lieu Form C:A 02.25.2020.pdf",
+  "page_count": 81,
+  "parent_sha256": "d41c90aafdb883298f7091c6834edcc9b5d3867ddb79c97d778805c6c0fb5b6c",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": false,
+      "page": 1,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1756,
+      "pymupdf_sha256": "5f391d50a0a0e8ae556abde452bbd1b46e4be5370bfbb98f3b2af19c11250dae",
+      "pypdf_chars": 2194,
+      "pypdf_sha256": "2623f23143cfb6870deadb3f5fe9a8e3567eae349023cc46196e5ef971326bc9"
+    },
+    {
+      "both_have_text": false,
+      "page": 3,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 4,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/104a9233a60b056c12db6ecaf4ecdc6ae0d3465672c605fa701ed375f30f6976.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/104a9233a60b056c12db6ecaf4ecdc6ae0d3465672c605fa701ed375f30f6976.bin.gz",
+  "source_sha256": "104a9233a60b056c12db6ecaf4ecdc6ae0d3465672c605fa701ed375f30f6976",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/146?view=preview"
+}

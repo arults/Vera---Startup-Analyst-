@@ -1,0 +1,49 @@
+{
+  "bytes": 16153844,
+  "campaign_url": "https://republic.com/wayzn",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Wayzn Form C.pdf",
+  "page_count": 92,
+  "parent_sha256": "effe114f84fde56406b862b0a4cc93dfb839a3e28d95e1ee62fabd7c24763a00",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 916,
+      "pymupdf_sha256": "c7c56280eef9432501e27dc4980af89493860be3722d87f3bf5cd50a336f331e",
+      "pypdf_chars": 916,
+      "pypdf_sha256": "c7c56280eef9432501e27dc4980af89493860be3722d87f3bf5cd50a336f331e"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1672,
+      "pymupdf_sha256": "e5ce21440441df9655ff85c63169021ef35ee31d1fc63f37c74fd38c2275b02a",
+      "pypdf_chars": 1673,
+      "pypdf_sha256": "54b0a852fb36224f64bda27234a9915d0ef3dc30efeb5fc6b81a9a5e3287c422"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1104,
+      "pymupdf_sha256": "949daa88b5cb793ef4710efc40f84751b5682e5d307dd55e297a38f3973ba537",
+      "pypdf_chars": 1104,
+      "pypdf_sha256": "ee3679cbdfa23a8c93b16db34b85ba4f42cdd41b17ee5311b77ea9332997b8dc"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2919,
+      "pymupdf_sha256": "27bcde22c93a8989189b8aba97bce154224cb786560e93af6761b194449be72b",
+      "pypdf_chars": 2928,
+      "pypdf_sha256": "35d12f56ff93d015c11fca12b70d3f89adacb189d9e6ea8b013ebc7d200ac217"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/18b78fc70a1fdb596ee17ee257b9babc41ecbbf9735659779ca9dfffd411bdcc.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/18b78fc70a1fdb596ee17ee257b9babc41ecbbf9735659779ca9dfffd411bdcc.bin.gz",
+  "source_sha256": "18b78fc70a1fdb596ee17ee257b9babc41ecbbf9735659779ca9dfffd411bdcc",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/288?view=preview"
+}

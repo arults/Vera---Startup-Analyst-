@@ -1,0 +1,49 @@
+{
+  "bytes": 12415224,
+  "campaign_url": "https://republic.com/wandering-barman",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Wandering Barman Form C:A 02.28.2020.pdf",
+  "page_count": 83,
+  "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1054,
+      "pymupdf_sha256": "db4369057444768a8e547cfaa64afad62c67e9b925f384fbd3a04488c54fc276",
+      "pypdf_chars": 1054,
+      "pypdf_sha256": "db4369057444768a8e547cfaa64afad62c67e9b925f384fbd3a04488c54fc276"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1598,
+      "pymupdf_sha256": "2d769b81ccb5f4c928983f0b1af6dfcceac62439e16964529c49e5f62b82e12d",
+      "pypdf_chars": 1600,
+      "pypdf_sha256": "9465407e9c0df3d0a9ceea779433a806a1ad889d1e08b30ee57786b1ea2677ed"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1053,
+      "pymupdf_sha256": "3f20d90c4b2d2d176516ac98abda530beb5c8e8447b55fa03338b09c72b9cb87",
+      "pypdf_chars": 1054,
+      "pypdf_sha256": "85bb9b9328b46d04bc2ab293f29e62b7d86a6de130f3c1035759efb07d9a438a"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 440,
+      "pymupdf_sha256": "c82aca87fb3e013860e363a262fc33175d1fd800cbd57bd380d1a0fd91c03990",
+      "pypdf_chars": 440,
+      "pypdf_sha256": "c82aca87fb3e013860e363a262fc33175d1fd800cbd57bd380d1a0fd91c03990"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/c38b41c57a5a4626a2f905c0bc97dce993be63161149a84be44862e4f9721920.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c38b41c57a5a4626a2f905c0bc97dce993be63161149a84be44862e4f9721920.bin.gz",
+  "source_sha256": "c38b41c57a5a4626a2f905c0bc97dce993be63161149a84be44862e4f9721920",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/149?view=preview"
+}

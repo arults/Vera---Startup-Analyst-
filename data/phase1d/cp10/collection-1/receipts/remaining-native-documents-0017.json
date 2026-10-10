@@ -1,0 +1,18 @@
+{
+  "bytes": 12860157,
+  "campaign_url": "https://republic.com/digital-dream-labs-2020",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/80?view=preview",
+  "gzip_sha256": "7562155809dce7cd751d9c562a4f45f5889bd9604fd117966347f4f7b4d454e0",
+  "http_status": 200,
+  "label": "Digital Dream Labs Form C:A.pdf",
+  "parent_sha256": "b65cb30dce8eda38b9a329192cfe8da8824c0ccc9a74163655c92e72db6e15c0",
+  "raw_sha256": "9fb4f5cdc56ae02b41bd1e16d997bf4cc23c0c569d4a5f5ee30ed21e9cae6652",
+  "received_at": "2026-10-10T02:07:43.848344+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:42.267398+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9fb4f5cdc56ae02b41bd1e16d997bf4cc23c0c569d4a5f5ee30ed21e9cae6652.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/80?view=preview"
+}

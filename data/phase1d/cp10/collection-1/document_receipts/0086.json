@@ -1,0 +1,49 @@
+{
+  "bytes": 7821415,
+  "campaign_url": "https://republic.com/ternio",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Ternio Form C-A 4.27.20.pdf",
+  "page_count": 86,
+  "parent_sha256": "7841f09b4a009939b1b77e9d9f51ea7e7191cb4d3a2dcf9f92f14835ee7e096d",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1064,
+      "pymupdf_sha256": "2f8e1d506de420449c88a14630a7567c0d8caedc7f2cff2a3555d187965a6e7d",
+      "pypdf_chars": 1064,
+      "pypdf_sha256": "2f8e1d506de420449c88a14630a7567c0d8caedc7f2cff2a3555d187965a6e7d"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1509,
+      "pymupdf_sha256": "27642ec6e71ab6740eeb39df7a5439da29dec2e6804b6523a85b4b5eaf5f1bd2",
+      "pypdf_chars": 1511,
+      "pypdf_sha256": "f32b6384a5c05e37c044123202a0c57a157a1a5a05ec90057772f94a4bfeb341"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1050,
+      "pymupdf_sha256": "d1733c14ec8f0f3bc62f9982780fef47ea4b48f5f0d35b614c3b79a696a94423",
+      "pypdf_chars": 1050,
+      "pypdf_sha256": "d1733c14ec8f0f3bc62f9982780fef47ea4b48f5f0d35b614c3b79a696a94423"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1116,
+      "pymupdf_sha256": "b95b6a567dbda0ea08444992a097252a95151c934d89d0c132ee541ae2bd15c7",
+      "pypdf_chars": 1117,
+      "pypdf_sha256": "251cf215e287147273b7b3dfc00803d92f0c395ee01fbdc5f73dc7a48c98bb16"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/64e987aeec28a9c4566bdeacca40c03fe66cfd33586e2133f40ced58255a08c4.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/64e987aeec28a9c4566bdeacca40c03fe66cfd33586e2133f40ced58255a08c4.bin.gz",
+  "source_sha256": "64e987aeec28a9c4566bdeacca40c03fe66cfd33586e2133f40ced58255a08c4",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/172?view=preview"
+}

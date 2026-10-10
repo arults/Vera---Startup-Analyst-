@@ -1,0 +1,18 @@
+{
+  "bytes": 39778879,
+  "campaign_url": "https://republic.com/quickloadz-2022",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/977?view=preview",
+  "gzip_sha256": "3b8f7841e3840dc2a2428aaa436698f692dfba830e8692723ceb54c2eb9ae085",
+  "http_status": 200,
+  "label": "Quick Loadz Form C.pdf",
+  "parent_sha256": "a4cc0392cb452a408b74ecad95e044967a2a52a75d547e55f59b511104a486fd",
+  "raw_sha256": "68e2a052fee8b2a744f8c35770203309fbee87bd6851e7b3388a152f232fe400",
+  "received_at": "2026-10-10T02:08:59.211710+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:56.870502+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/68e2a052fee8b2a744f8c35770203309fbee87bd6851e7b3388a152f232fe400.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/977?view=preview"
+}

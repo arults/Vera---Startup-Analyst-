@@ -1,0 +1,16 @@
+{
+  "bytes": 668,
+  "content_type": "application/xml; charset=utf-8",
+  "discovery": "CP1 successful native sitemap-index URL; exact index children may have been excluded by an over-narrow host filter.",
+  "final_url": "https://republic.com/sitemaps/sitemap.xml",
+  "gzip_sha256": "4b98c73a52392c2266dd21ebdc5e70142e1a52bad27e4e4a95f1bb1d351727bb",
+  "http_status": 200,
+  "raw_sha256": "13f00f03604cee1f73a1d3bf5f51ee9d1b355de8a52e4881b163ad956ff3fdbf",
+  "received_at": "2026-10-10T02:07:17.335204+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:16.585955+00:00",
+  "source_group": "public-sitemaps",
+  "source_path": "data/phase1d/cp10/collection-1/captures/13f00f03604cee1f73a1d3bf5f51ee9d1b355de8a52e4881b163ad956ff3fdbf.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sitemaps/sitemap.xml"
+}

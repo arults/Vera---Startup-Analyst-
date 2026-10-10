@@ -1,0 +1,49 @@
+{
+  "bytes": 8663227,
+  "campaign_url": "https://republic.com/delee-2019",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Delee Form C.pdf",
+  "page_count": 108,
+  "parent_sha256": "b8059678f823e98bf527c3b07844ba99113cac57d31842eb28920e2321df4b4d",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1104,
+      "pymupdf_sha256": "850fd4d8f8831c26d9d856b744c30115e0d2fc72c039cbcee7d1e941ceba5527",
+      "pypdf_chars": 1460,
+      "pypdf_sha256": "03a8e20cf12e3c4fdd206a41c906bf2f8ae8f13d76806eafa71c13f6046867fd"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 2145,
+      "pymupdf_sha256": "28836013117f4fbc655d665a80ff8a23ae2af4b950940127f4e9e63c273b9b54",
+      "pypdf_chars": 2853,
+      "pypdf_sha256": "74c992b8da59a8b6fa85bac3ca0720e91a27360d5a719dbb6846b58bb2346712"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 65,
+      "pymupdf_sha256": "fa4e79ad9144148f8ae55ad70cf805bcdeb8bd1c1ef90645525646a91a228f6f",
+      "pypdf_chars": 79,
+      "pypdf_sha256": "b5f7ebe2d95581bd88d41017a94dd8b09e811c82195b49749f8aa5532b6450d7"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1353,
+      "pymupdf_sha256": "3ff74324bbbc690720fc0993742145a5c4ff1c66c6baaa124c1d50bb0494165c",
+      "pypdf_chars": 1838,
+      "pypdf_sha256": "9c2b74ea6080292d0891fe4865dcc1d77f08a50dc547b8c343249bfdeab9b5ca"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/deff1def94c36132ed4ced4c55ca4ec3c65bd6790fefb8e429bbc38d59113cc2.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/deff1def94c36132ed4ced4c55ca4ec3c65bd6790fefb8e429bbc38d59113cc2.bin.gz",
+  "source_sha256": "deff1def94c36132ed4ced4c55ca4ec3c65bd6790fefb8e429bbc38d59113cc2",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/109?view=preview"
+}

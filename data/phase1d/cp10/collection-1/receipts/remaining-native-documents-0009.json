@@ -1,0 +1,18 @@
+{
+  "bytes": 35175030,
+  "campaign_url": "https://republic.com/capsule-social",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1211?view=preview",
+  "gzip_sha256": "5e9f165a669ea5ea3535f8cc6618fecb6e6b89cf654c1c6ab2e674d4838f0461",
+  "http_status": 200,
+  "label": "Capsule Social Form C.pdf",
+  "parent_sha256": "c02a1ac507dbd80d0c3f3d3ce66a1f1e0bcaa128821749869fe52167d90a115a",
+  "raw_sha256": "e8372694d42ed36b18202673ac6f4baaec471ec92bdb5d88108c691872d89779",
+  "received_at": "2026-10-10T02:07:30.797145+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:28.328576+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e8372694d42ed36b18202673ac6f4baaec471ec92bdb5d88108c691872d89779.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1211?view=preview"
+}

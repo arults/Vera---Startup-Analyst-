@@ -1,0 +1,49 @@
+{
+  "bytes": 29634531,
+  "campaign_url": "https://republic.com/hellowoofy-december-2019",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Woofy Form C:A 01.14.2020.pdf",
+  "page_count": 102,
+  "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1027,
+      "pymupdf_sha256": "d9354587bc63c629b9590693262a70f00bb18282b9d2f45f36deb67a4c257b42",
+      "pypdf_chars": 1027,
+      "pypdf_sha256": "d9354587bc63c629b9590693262a70f00bb18282b9d2f45f36deb67a4c257b42"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1459,
+      "pymupdf_sha256": "e59b655a110b34a628e790b73531d2e61b018f4ac4506a5cea5caa6b5acf3014",
+      "pypdf_chars": 1461,
+      "pypdf_sha256": "0e7da402dc4f28132c2c2fd6298ad4dfb43c7ac406bcfcdc62cd83bad3fe25c4"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1046,
+      "pymupdf_sha256": "65887baa881fc136f03913228eac3902dd7a78eaf3ff933d1c0cfba74a257b68",
+      "pypdf_chars": 1047,
+      "pypdf_sha256": "bf266c34d98219c81a31812780df1b3d0eb997c39a20f89544a9abb81e708c55"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1233,
+      "pymupdf_sha256": "403a3c360c571aaaef61c7f6d1e24927f819561d757bed40d155d49f8ed675d7",
+      "pypdf_chars": 1234,
+      "pypdf_sha256": "5c03d607e10f56d6cb9205c08574364506628c9c5e12e6de46aa0953bd4e45dc"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/fb83af77b13ea57f4389ee6e670e080bb81e6c0f3ba0982fa243204de3526a5c.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/fb83af77b13ea57f4389ee6e670e080bb81e6c0f3ba0982fa243204de3526a5c.bin.gz",
+  "source_sha256": "fb83af77b13ea57f4389ee6e670e080bb81e6c0f3ba0982fa243204de3526a5c",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/126?view=preview"
+}

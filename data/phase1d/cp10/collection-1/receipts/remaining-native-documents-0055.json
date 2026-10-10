@@ -1,0 +1,18 @@
+{
+  "bytes": 7169470,
+  "campaign_url": "https://republic.com/nanno-2019",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/97?view=preview",
+  "gzip_sha256": "9a3dd6c70bcc7e8c1d87f61dda82aaafcd13a309f5c3e5e88e01eecc57d55eb9",
+  "http_status": 200,
+  "label": "Nanno Form C-A 11.06.19.pdf",
+  "parent_sha256": "43279a9b80fffe9df7dc693d1183e650013981b2564114b101ac2d36ef5f19fd",
+  "raw_sha256": "ffede7542be5194eea78f82dd50f32bc80e1985c6874c7bc51e2834599dc361f",
+  "received_at": "2026-10-10T02:08:38.646680+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:37.496414+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/ffede7542be5194eea78f82dd50f32bc80e1985c6874c7bc51e2834599dc361f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/97?view=preview"
+}

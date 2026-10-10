@@ -1,0 +1,49 @@
+{
+  "bytes": 12590924,
+  "campaign_url": "https://republic.com/bucket-list",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "The Bucket List Studios Form C:A.pdf",
+  "page_count": 201,
+  "parent_sha256": "79050f084b45a23b8ebff2f005eb21ef9d2f520f51bda2a55a98257d4451e483",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1054,
+      "pymupdf_sha256": "102f78a908e7d5a8d3595dcca6c47718fb771c48e0aaba984d4b1c943de2b94b",
+      "pypdf_chars": 1054,
+      "pypdf_sha256": "102f78a908e7d5a8d3595dcca6c47718fb771c48e0aaba984d4b1c943de2b94b"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 2030,
+      "pymupdf_sha256": "2b5a2edca7c446b94f4a4d4730c6e8941a32d9b693cf599bcc0fe07fff7729f4",
+      "pypdf_chars": 2030,
+      "pypdf_sha256": "2b5a2edca7c446b94f4a4d4730c6e8941a32d9b693cf599bcc0fe07fff7729f4"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1071,
+      "pymupdf_sha256": "deedcdd9e9eb267b726cd5695b7314d17bc26991711cd7c9128995064af15ffc",
+      "pypdf_chars": 1071,
+      "pypdf_sha256": "deedcdd9e9eb267b726cd5695b7314d17bc26991711cd7c9128995064af15ffc"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2879,
+      "pymupdf_sha256": "5c8f4ddca849cf1c23977cf4d255ef8f7b0e8f88f3ee3e242f99709ccae79a0a",
+      "pypdf_chars": 2886,
+      "pypdf_sha256": "6dcbe13a21bfd88f1623f138c6b0d1b406e392a8a96463528818eeb406e23db6"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/e2bdacb130cee6d1de137eb7a97bf2c613014a3aae984feae638d7e368a3ba65.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e2bdacb130cee6d1de137eb7a97bf2c613014a3aae984feae638d7e368a3ba65.bin.gz",
+  "source_sha256": "e2bdacb130cee6d1de137eb7a97bf2c613014a3aae984feae638d7e368a3ba65",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/686?view=preview"
+}

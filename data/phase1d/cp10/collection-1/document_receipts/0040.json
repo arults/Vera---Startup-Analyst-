@@ -1,0 +1,49 @@
+{
+  "bytes": 3456196,
+  "campaign_url": "https://republic.com/inahsi",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Inahsi Form C:A.pdf",
+  "page_count": 137,
+  "parent_sha256": "c597131dc5ed153a811d510a7d81515295ab05aed770301779a06b2ed99ba655",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1063,
+      "pymupdf_sha256": "cd4d5d9b1ecdd94faea8ea124736092da8a3796ea41fdb1cf0da10bd5bb11535",
+      "pypdf_chars": 1063,
+      "pypdf_sha256": "cd4d5d9b1ecdd94faea8ea124736092da8a3796ea41fdb1cf0da10bd5bb11535"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1452,
+      "pymupdf_sha256": "303505384d475327973839a9a16874153837617a6f6c5847e888f6b5bb990ade",
+      "pypdf_chars": 1452,
+      "pypdf_sha256": "303505384d475327973839a9a16874153837617a6f6c5847e888f6b5bb990ade"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1332,
+      "pymupdf_sha256": "2c78cf1f67883a81fe178425f5036e8c28ecb8dc0759a05ba62a4007034ea010",
+      "pypdf_chars": 1333,
+      "pypdf_sha256": "4ab297fb0a6ebf49243e6af3194c4631cbaa4f2fe7617d1ed1fa43641a1d2d1f"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2928,
+      "pymupdf_sha256": "fe32279b1aa634503c275c032361bf480147ca6d04546ed4a2df7c0295ec9d95",
+      "pypdf_chars": 2940,
+      "pypdf_sha256": "22f4e581c9065eb3d59cd9b8c34c59cdb5e182045ba967abad4099cd8358413a"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/bd060f140232c0480b3624b6ef7ca8f07ef867c561a3fb432274923358b8fa7d.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/bd060f140232c0480b3624b6ef7ca8f07ef867c561a3fb432274923358b8fa7d.bin.gz",
+  "source_sha256": "bd060f140232c0480b3624b6ef7ca8f07ef867c561a3fb432274923358b8fa7d",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/806?view=preview"
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 9235202,
+  "campaign_url": "https://republic.com/plant-an-app",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Plant an App Form C:A.pdf",
+  "page_count": 96,
+  "parent_sha256": "b5739d62d2c88b89432855834bb870cbbd3464782871b2d7346fb4dd8bdb984c",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1380,
+      "pymupdf_sha256": "d151d37e8d466db24cccafe6820c836e32be9a365885fbf5bde7e2f880a2af8d",
+      "pypdf_chars": 1380,
+      "pypdf_sha256": "d151d37e8d466db24cccafe6820c836e32be9a365885fbf5bde7e2f880a2af8d"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1311,
+      "pymupdf_sha256": "b2b7898c563257b7208972c4691266196a8902d32d367fe766e84b1a2f66e724",
+      "pypdf_chars": 1311,
+      "pypdf_sha256": "b2b7898c563257b7208972c4691266196a8902d32d367fe766e84b1a2f66e724"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1742,
+      "pymupdf_sha256": "5c3053b610556aef811182f6b59ae361797ffc7f073c12b24b80d412ef953293",
+      "pypdf_chars": 1742,
+      "pypdf_sha256": "5c3053b610556aef811182f6b59ae361797ffc7f073c12b24b80d412ef953293"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1229,
+      "pymupdf_sha256": "0ca075cc971baa5d3c4ee348100e5983d435d45f17b05f52a9c3b878ca6354a6",
+      "pypdf_chars": 1229,
+      "pypdf_sha256": "0ca075cc971baa5d3c4ee348100e5983d435d45f17b05f52a9c3b878ca6354a6"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/3e60333c2a2ef01919f5687a25e3a7f16c8c9e036d3be76bf10ec45c20e8ae2a.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/3e60333c2a2ef01919f5687a25e3a7f16c8c9e036d3be76bf10ec45c20e8ae2a.bin.gz",
+  "source_sha256": "3e60333c2a2ef01919f5687a25e3a7f16c8c9e036d3be76bf10ec45c20e8ae2a",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/443?view=preview"
+}

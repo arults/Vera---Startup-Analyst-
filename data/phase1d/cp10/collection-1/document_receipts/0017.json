@@ -1,0 +1,49 @@
+{
+  "bytes": 9829585,
+  "campaign_url": "https://republic.com/dorahacks",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Dora Form C-A 12.19.19.pdf",
+  "page_count": 131,
+  "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1312,
+      "pymupdf_sha256": "23b381e064927ee574eed80b6a8c564f6e48739f4c267acd53fa39143594034a",
+      "pypdf_chars": 1738,
+      "pypdf_sha256": "e1e7e17c31ffdc98f016537687670e786776122885c5bcd59304cea11795e6a7"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 941,
+      "pymupdf_sha256": "4208a52f410fc1c54ef4e3bfb5908f43ce8fd346af68b50268ec0bcf6b7e539d",
+      "pypdf_chars": 1276,
+      "pypdf_sha256": "f58ca0d2196404ea3f3ab47b63137c82cf4a485a2e88426e084d9e0f69c82c15"
+    },
+    {
+      "both_have_text": false,
+      "page": 4,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/b6ddaa03f896c5fb5d4a56b829d3917541ee07c05172b52676edd27e4bd75172.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/b6ddaa03f896c5fb5d4a56b829d3917541ee07c05172b52676edd27e4bd75172.bin.gz",
+  "source_sha256": "b6ddaa03f896c5fb5d4a56b829d3917541ee07c05172b52676edd27e4bd75172",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/112?view=preview"
+}

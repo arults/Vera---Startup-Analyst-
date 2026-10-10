@@ -1,0 +1,49 @@
+{
+  "bytes": 22970449,
+  "campaign_url": "https://republic.com/realtyfeed",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Realtyna Form C.pdf",
+  "page_count": 104,
+  "parent_sha256": "f67fc4abcd6a0c4028b248b0863d524f47f84d8bab1036be77cb09a1e59bd8ad",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 859,
+      "pymupdf_sha256": "c3742d8bfa93a6814930192101975a23a76c96d136b6694ea0ed30c7450476fb",
+      "pypdf_chars": 859,
+      "pypdf_sha256": "c3742d8bfa93a6814930192101975a23a76c96d136b6694ea0ed30c7450476fb"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1274,
+      "pymupdf_sha256": "c274e4f47ba0489545c76b14ca2e19cbae88260d65eb936ce80be23d6bf5b8f1",
+      "pypdf_chars": 1274,
+      "pypdf_sha256": "c274e4f47ba0489545c76b14ca2e19cbae88260d65eb936ce80be23d6bf5b8f1"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 625,
+      "pymupdf_sha256": "bbd2541104fdeb1e752a0c7f96288c25170433e0d9e6eebb6020877e10581206",
+      "pypdf_chars": 625,
+      "pypdf_sha256": "bbd2541104fdeb1e752a0c7f96288c25170433e0d9e6eebb6020877e10581206"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 856,
+      "pymupdf_sha256": "6622fc3d40148717013e626db63286304245e8262ea84efc544c3c03085312e0",
+      "pypdf_chars": 856,
+      "pypdf_sha256": "6622fc3d40148717013e626db63286304245e8262ea84efc544c3c03085312e0"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/4a727136ee3c23c35e84620cf55a40635d2044b3b6018c817a600332b938182a.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/4a727136ee3c23c35e84620cf55a40635d2044b3b6018c817a600332b938182a.bin.gz",
+  "source_sha256": "4a727136ee3c23c35e84620cf55a40635d2044b3b6018c817a600332b938182a",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/390?view=preview"
+}

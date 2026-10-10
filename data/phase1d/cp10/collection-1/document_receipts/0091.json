@@ -1,0 +1,49 @@
+{
+  "bytes": 2256415,
+  "campaign_url": "https://republic.com/trust-exchange",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Trust Exchange Form C.pdf",
+  "page_count": 67,
+  "parent_sha256": "3ca4b77967966bb8d61a55b48d8939099efee72a6dae0d08f567c38980f21c52",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 968,
+      "pymupdf_sha256": "82446d84b0019bd22fab04360026cca150f16cbd450bb5de79bc7d0a13e571b0",
+      "pypdf_chars": 968,
+      "pypdf_sha256": "82446d84b0019bd22fab04360026cca150f16cbd450bb5de79bc7d0a13e571b0"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1695,
+      "pymupdf_sha256": "4801c7ea484e731d719f6349f7833fc7350f9ae9d23d4b9fcdc6acbd2f5c4d00",
+      "pypdf_chars": 1695,
+      "pypdf_sha256": "4801c7ea484e731d719f6349f7833fc7350f9ae9d23d4b9fcdc6acbd2f5c4d00"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1088,
+      "pymupdf_sha256": "787639c3cd9bae52c8b25b70a3c0eebfd387ff53e19f1aff32dd98e53596ce76",
+      "pypdf_chars": 1089,
+      "pypdf_sha256": "470d9540ec2f0b63356de70d97afb69a58af8ac8940771f7579c2357e67823ff"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3177,
+      "pymupdf_sha256": "acaed5ba47d3d5b4b3b347fdea96779bdb350806b684ad4ac315147040de04ab",
+      "pypdf_chars": 3178,
+      "pypdf_sha256": "68913d3bef370c32037ea8bffec0ecec0803f2abce8bd8334f46a6892c58dcb5"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/7baaa0ae7ccd11a3521f953cdec04cc599f777883769111f71f31899ef204fde.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/7baaa0ae7ccd11a3521f953cdec04cc599f777883769111f71f31899ef204fde.bin.gz",
+  "source_sha256": "7baaa0ae7ccd11a3521f953cdec04cc599f777883769111f71f31899ef204fde",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/7592?view=preview"
+}

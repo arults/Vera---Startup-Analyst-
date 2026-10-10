@@ -1,0 +1,49 @@
+{
+  "bytes": 995369,
+  "campaign_url": "https://republic.com/nobodystudios",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Nobody Studios Form C:A.pdf",
+  "page_count": 72,
+  "parent_sha256": "53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1272,
+      "pymupdf_sha256": "63165e80535c4906eb81d0646575d2ee7ca6255c2ca1bd00beb0227fbc4767fd",
+      "pypdf_chars": 1274,
+      "pypdf_sha256": "f1aa192f88afd46625bd49a0512bc0ede8287a51e288ae2029d141b0b74cdf88"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1623,
+      "pymupdf_sha256": "6d229cea57789e4730cfa03ecbb86b4c8ea736a5da946d935b1f8362a610c082",
+      "pypdf_chars": 1623,
+      "pypdf_sha256": "6d229cea57789e4730cfa03ecbb86b4c8ea736a5da946d935b1f8362a610c082"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1038,
+      "pymupdf_sha256": "78f73aa64f052256dc40b16dbe49681accd6444b9e77d2ceb18979fb14b0e59c",
+      "pypdf_chars": 1040,
+      "pypdf_sha256": "783f6a459fe3a7913acf87014eec43cf444e42d436403f848684dbd771b68277"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3192,
+      "pymupdf_sha256": "d9702d9bbce74f70c3f78fb62cafc1bade96732c76feda504e9db7e9c4b43c33",
+      "pypdf_chars": 3202,
+      "pypdf_sha256": "5e60ea1c3f23ba555e039b429862e6a0d6623e1bc157fc9745f3eeb330e99792"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc.bin.gz",
+  "source_sha256": "c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/2066?view=preview"
+}

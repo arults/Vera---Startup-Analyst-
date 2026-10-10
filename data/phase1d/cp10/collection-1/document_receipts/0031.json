@@ -1,0 +1,49 @@
+{
+  "bytes": 18742582,
+  "campaign_url": "https://republic.com/growing-talent",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Growing Talent Form C:A 2.5.2020.pdf",
+  "page_count": 90,
+  "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": false,
+      "page": 1,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1164,
+      "pymupdf_sha256": "fbfdfa1ccb995c8a4b7c21146e6bc169d8929f7d97ed38a16113a7113c66d99f",
+      "pypdf_chars": 1352,
+      "pypdf_sha256": "1ecd8eefcc64e065ac8bd1f1753961a4fbda32b327be0d342438da0a8154f35b"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1523,
+      "pymupdf_sha256": "f39873ac7c424822cd3974c0d2ae1d4cc84d71a39d8b333f0360b7633afb845b",
+      "pypdf_chars": 1816,
+      "pypdf_sha256": "0d19da555e30b37057c51bb9110fa2ad8c25020283511ee14deae0bd3d00a241"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/5ee71c41a09c1b3f950bc14633b9e3418831852489b9a46a0bd8a709c88157af.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/5ee71c41a09c1b3f950bc14633b9e3418831852489b9a46a0bd8a709c88157af.bin.gz",
+  "source_sha256": "5ee71c41a09c1b3f950bc14633b9e3418831852489b9a46a0bd8a709c88157af",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/138?view=preview"
+}

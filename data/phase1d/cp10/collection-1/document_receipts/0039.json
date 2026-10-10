@@ -1,0 +1,49 @@
+{
+  "bytes": 4675958,
+  "campaign_url": "https://republic.com/holmehadfield",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Holme & Hadfield LLC Form C.pdf",
+  "page_count": 105,
+  "parent_sha256": "c24761b56fc86695c3efab42df3887b42b2d4881d821d0c5ebe87b9ffc71e32f",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 995,
+      "pymupdf_sha256": "4e612c45abf1600e46d55e39b1c2fa1489d1b44789770f4cdadd41c637d81aaf",
+      "pypdf_chars": 1002,
+      "pypdf_sha256": "5dae3ff87e3fb5833c3bbabcb212cb2cff348d074be97689deaef4b6fafb226e"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1732,
+      "pymupdf_sha256": "3e8793d189aa9423f41a42df57028627ef81c4f8f5d75cf14785c27693d3d8f9",
+      "pypdf_chars": 1736,
+      "pypdf_sha256": "630ad1f8690fc3872b14f0eb99a8cb3b7628e0484600d29fae8f146714d474bb"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1211,
+      "pymupdf_sha256": "80f141583d980c98a6e68c4508fe7946bc5e01f33014314c786707e304a17401",
+      "pypdf_chars": 1211,
+      "pypdf_sha256": "80f141583d980c98a6e68c4508fe7946bc5e01f33014314c786707e304a17401"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3403,
+      "pymupdf_sha256": "afc475af521154a616e4303272cc13d83d0d4555f4161bd21e53c4fa7a171509",
+      "pypdf_chars": 3403,
+      "pypdf_sha256": "afc475af521154a616e4303272cc13d83d0d4555f4161bd21e53c4fa7a171509"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/3eb91fa6f7adacbe4e8a9e963377ca6b0aa85cc4506088ab66fce371a517e8a4.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/3eb91fa6f7adacbe4e8a9e963377ca6b0aa85cc4506088ab66fce371a517e8a4.bin.gz",
+  "source_sha256": "3eb91fa6f7adacbe4e8a9e963377ca6b0aa85cc4506088ab66fce371a517e8a4",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/9361?view=preview"
+}

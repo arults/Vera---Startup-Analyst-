@@ -1,0 +1,18 @@
+{
+  "bytes": 3247526,
+  "campaign_url": "https://republic.com/gopillar",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1628?view=preview",
+  "gzip_sha256": "9a2c3f6970b13d7e631b30cc8c4f2e2e3f349dd9cafdf99c1c2016a3f6124cd8",
+  "http_status": 200,
+  "label": "GoPillar Form C.pdf",
+  "parent_sha256": "21bd74c4ae2a1bb4016781880b6dc80e228ffa5ba09dd22e1364f34f5f7b23b8",
+  "raw_sha256": "9a789e7509c348636d771b7ed4594584147a7c2b41472aa99caf7f4ff1124ae4",
+  "received_at": "2026-10-10T02:08:04.741287+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:03.815784+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9a789e7509c348636d771b7ed4594584147a7c2b41472aa99caf7f4ff1124ae4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1628?view=preview"
+}

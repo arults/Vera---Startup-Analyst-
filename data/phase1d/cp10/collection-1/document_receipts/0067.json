@@ -1,0 +1,49 @@
+{
+  "bytes": 3166352,
+  "campaign_url": "https://republic.com/reflex-protect",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Reflex Protect Form C.pdf",
+  "page_count": 112,
+  "parent_sha256": "276876cb03f9a31a11360005431401db6e77392f24dfa4505981cf0a9b88594f",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1017,
+      "pymupdf_sha256": "e5ffa50cd7d88b1a5d7ba743c6130950f4adcb9509f42c7e0b4a83f372b05cb3",
+      "pypdf_chars": 1017,
+      "pypdf_sha256": "e5ffa50cd7d88b1a5d7ba743c6130950f4adcb9509f42c7e0b4a83f372b05cb3"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1578,
+      "pymupdf_sha256": "dcbfa96a16eeef4e8d17735d1d63b83e7c467757309f2f9fa9f1341a0a0abb56",
+      "pypdf_chars": 1578,
+      "pypdf_sha256": "dcbfa96a16eeef4e8d17735d1d63b83e7c467757309f2f9fa9f1341a0a0abb56"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1865,
+      "pymupdf_sha256": "ace75c9b6e8f9c360197ce976a4e512d5845a37e75e43247cc9bb27d9bb9f5be",
+      "pypdf_chars": 1865,
+      "pypdf_sha256": "ace75c9b6e8f9c360197ce976a4e512d5845a37e75e43247cc9bb27d9bb9f5be"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1268,
+      "pymupdf_sha256": "97751682a667ae35b642486cf6dfe1b4ce418eedb228985c903f6c29ab510328",
+      "pypdf_chars": 1268,
+      "pypdf_sha256": "97751682a667ae35b642486cf6dfe1b4ce418eedb228985c903f6c29ab510328"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/d93596cf79becaa5e7743dd3d40115ff9da0b66e73e4a36adb99b1bd6e439949.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d93596cf79becaa5e7743dd3d40115ff9da0b66e73e4a36adb99b1bd6e439949.bin.gz",
+  "source_sha256": "d93596cf79becaa5e7743dd3d40115ff9da0b66e73e4a36adb99b1bd6e439949",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/162?view=preview"
+}

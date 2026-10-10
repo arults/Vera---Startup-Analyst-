@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "sitemapindex",
+    "loc_count": 3,
+    "source_path": "data/phase1d/cp10/collection-1/captures/13f00f03604cee1f73a1d3bf5f51ee9d1b355de8a52e4881b163ad956ff3fdbf.bin.gz",
+    "source_sha256": "13f00f03604cee1f73a1d3bf5f51ee9d1b355de8a52e4881b163ad956ff3fdbf",
+    "url": "https://republic.com/sitemaps/sitemap.xml"
+  },
+  {
+    "kind": "urlset",
+    "loc_count": 25000,
+    "source_path": "data/phase1d/cp10/collection-1/captures/acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6.bin.gz",
+    "source_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+    "url": "https://uploads.republic.com/sitemaps/sitemap1.xml"
+  },
+  {
+    "kind": "urlset",
+    "loc_count": 25000,
+    "source_path": "data/phase1d/cp10/collection-1/captures/9d4ee69f5ccd4d07c1fcdf02adbf927c8510bf1ca218d146f6567819c129abe1.bin.gz",
+    "source_sha256": "9d4ee69f5ccd4d07c1fcdf02adbf927c8510bf1ca218d146f6567819c129abe1",
+    "url": "https://uploads.republic.com/sitemaps/sitemap2.xml"
+  },
+  {
+    "kind": "urlset",
+    "loc_count": 3858,
+    "source_path": "data/phase1d/cp10/collection-1/captures/ffc921a348768768aa7f34e2bf944556d6db06d01d0a93261f37c4443d4354bc.bin.gz",
+    "source_sha256": "ffc921a348768768aa7f34e2bf944556d6db06d01d0a93261f37c4443d4354bc",
+    "url": "https://uploads.republic.com/sitemaps/sitemap3.xml"
+  }
+]

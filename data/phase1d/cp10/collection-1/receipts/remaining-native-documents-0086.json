@@ -1,0 +1,18 @@
+{
+  "bytes": 3266230,
+  "campaign_url": "https://republic.com/sunu",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/182?view=preview",
+  "gzip_sha256": "3774b288ee5afcfd4cd959a79bdbda27eaa57a4010999a06aedf62c05f60fa43",
+  "http_status": 200,
+  "label": "Sunu Form C-A 4.29.20.pdf",
+  "parent_sha256": "f93d05d880802cf3e73009ef289680c74c46536dded7d19b0011793f7bf37525",
+  "raw_sha256": "1b81b5a980b2c1ee5696062e60f92d2d86b3f0acb537d1dd47796339459e3d52",
+  "received_at": "2026-10-10T02:09:26.154532+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:25.331616+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1b81b5a980b2c1ee5696062e60f92d2d86b3f0acb537d1dd47796339459e3d52.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/182?view=preview"
+}

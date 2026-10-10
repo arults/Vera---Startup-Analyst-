@@ -1,0 +1,18 @@
+{
+  "bytes": 11729747,
+  "campaign_url": "https://republic.com/skyhi",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/119?view=preview",
+  "gzip_sha256": "9b635f0e4e28682c8aee8559039fc6d7ccb4f9f438c54ebd533bec0e20dfbac1",
+  "http_status": 200,
+  "label": "Form C-A SkyHi 1.7.20.pdf",
+  "parent_sha256": "9907b59f3610850aa18a102bef96d4a51d41c97e3b631973da7b70aa9cb909bf",
+  "raw_sha256": "8f6e1b395de8ab336b22ebf6d2619eb45ab20e19b48474c1409577a790ed2bea",
+  "received_at": "2026-10-10T02:09:19.206086+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:17.683047+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8f6e1b395de8ab336b22ebf6d2619eb45ab20e19b48474c1409577a790ed2bea.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/119?view=preview"
+}

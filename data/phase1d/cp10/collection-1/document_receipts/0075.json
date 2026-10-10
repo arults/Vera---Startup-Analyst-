@@ -1,0 +1,49 @@
+{
+  "bytes": 433957,
+  "campaign_url": "https://republic.com/soar-robotics",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Soar Robotics Form C-A 12.19.19.pdf",
+  "page_count": 33,
+  "parent_sha256": "55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1041,
+      "pymupdf_sha256": "cde2b672e55f48de847cee542647923125ca43ba609d58ed060bd544fd0ca5b0",
+      "pypdf_chars": 1041,
+      "pypdf_sha256": "cde2b672e55f48de847cee542647923125ca43ba609d58ed060bd544fd0ca5b0"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1448,
+      "pymupdf_sha256": "405cfae2fee75437606769874a1eb3419db946f29248fe76df82644f427bafbb",
+      "pypdf_chars": 1449,
+      "pypdf_sha256": "5ec21cbefc4ef1ce184c54a00815a367005d6885b449e8fd07a1e0d153527b83"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 950,
+      "pymupdf_sha256": "329b0ce1a6ee7b37fd6f8686d949a474b59723fd146451a06c9470d435594f40",
+      "pypdf_chars": 950,
+      "pypdf_sha256": "329b0ce1a6ee7b37fd6f8686d949a474b59723fd146451a06c9470d435594f40"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 877,
+      "pymupdf_sha256": "e3b16da1bde7a287a9e7c6833db1528bec477dd6e2db7e800f3436f95ca23cab",
+      "pypdf_chars": 877,
+      "pypdf_sha256": "e3b16da1bde7a287a9e7c6833db1528bec477dd6e2db7e800f3436f95ca23cab"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855.bin.gz",
+  "source_sha256": "2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/111?view=preview"
+}

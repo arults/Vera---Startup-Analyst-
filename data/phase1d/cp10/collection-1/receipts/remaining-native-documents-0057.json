@@ -1,0 +1,18 @@
+{
+  "bytes": 995369,
+  "campaign_url": "https://republic.com/nobodystudios",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/2066?view=preview",
+  "gzip_sha256": "b379a25e313726a8dcbc0569c72e011b9975e7256b5c8590c4fb1e471568619f",
+  "http_status": 200,
+  "label": "Nobody Studios Form C:A.pdf",
+  "parent_sha256": "53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62",
+  "raw_sha256": "c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc",
+  "received_at": "2026-10-10T02:08:41.810834+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:41.074916+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/2066?view=preview"
+}

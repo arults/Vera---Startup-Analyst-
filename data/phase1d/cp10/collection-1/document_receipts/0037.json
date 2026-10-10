@@ -1,0 +1,49 @@
+{
+  "bytes": 7093508,
+  "campaign_url": "https://republic.com/hold-the-magic",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Hold the Magic Form C.pdf",
+  "page_count": 121,
+  "parent_sha256": "6e5054aff15aac2aab0353b670b51878514d00d912c2656e55daeaf27b10f024",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 937,
+      "pymupdf_sha256": "5517d13b491b9d98c507d4c7bb04143179fc83dbf10b09c4f4a52c562e628b58",
+      "pypdf_chars": 937,
+      "pypdf_sha256": "5517d13b491b9d98c507d4c7bb04143179fc83dbf10b09c4f4a52c562e628b58"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1676,
+      "pymupdf_sha256": "28d848bb5092e399342ed0f8cd8aa55e4904d19cad865c46aa3e0b7622a7cd4a",
+      "pypdf_chars": 1676,
+      "pypdf_sha256": "28d848bb5092e399342ed0f8cd8aa55e4904d19cad865c46aa3e0b7622a7cd4a"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1126,
+      "pymupdf_sha256": "151b8d6a8d7670b9517687f04496ab9a7e3b666bed6f15450345f3230884faed",
+      "pypdf_chars": 1127,
+      "pypdf_sha256": "c65c07dc40ece5ea84a8e797f14c45c876ff931332df00a14a25f458f7c616a6"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2825,
+      "pymupdf_sha256": "2a8c0e2b4f72b3d2d3d22f5632791f316af4bcc5ee2eaf921643ba5604c5f3ca",
+      "pypdf_chars": 2835,
+      "pypdf_sha256": "8bcbb348f0aaec25aec427fc7e24ef8e7a567ca5c8ab2e7b2d08baf6a5fb8a2a"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/beb65e54cd71c5b7a120c19de3feaaf9baa2293f4f07471fe624159dbb76995c.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/beb65e54cd71c5b7a120c19de3feaaf9baa2293f4f07471fe624159dbb76995c.bin.gz",
+  "source_sha256": "beb65e54cd71c5b7a120c19de3feaaf9baa2293f4f07471fe624159dbb76995c",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1190?view=preview"
+}

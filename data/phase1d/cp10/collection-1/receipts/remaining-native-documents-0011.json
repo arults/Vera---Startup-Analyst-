@@ -1,0 +1,18 @@
+{
+  "bytes": 17647372,
+  "campaign_url": "https://republic.com/choix",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1696?view=preview",
+  "gzip_sha256": "5174b40c03072e4e8bf84d92f19e38782ae97a6dd102cc220058cd4c3d145b04",
+  "http_status": 200,
+  "label": "Choix Form C.pdf",
+  "parent_sha256": "5a2a7b0e509e1f1226e2a20b4dee8fb076987abd73d4cc75eb9ff9390a5e5973",
+  "raw_sha256": "e546fc5f507bc89b0880f711c422a6a1e34668a6f6c2a8adc9698efbdeca723d",
+  "received_at": "2026-10-10T02:07:33.438409+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:31.958017+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e546fc5f507bc89b0880f711c422a6a1e34668a6f6c2a8adc9698efbdeca723d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1696?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 16450819,
+  "campaign_url": "https://republic.com/maven",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/467?view=preview",
+  "gzip_sha256": "1eb2c5cf98e8e709969992c9974753c39ed78b51d7f7df66f49c0e45cfefbaab",
+  "http_status": 200,
+  "label": "Didactic Form C-A.pdf",
+  "parent_sha256": "320d5b71e4fec16ecfbc5e799b4871b2e148f7748af67c75a97f77049d7cc2da",
+  "raw_sha256": "5ee9d6f918cb045a5d44ea66c7023c7db4f07a851206e8b66e928e0ed0246f0a",
+  "received_at": "2026-10-10T02:08:36.274594+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:34.432477+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/5ee9d6f918cb045a5d44ea66c7023c7db4f07a851206e8b66e928e0ed0246f0a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/467?view=preview"
+}

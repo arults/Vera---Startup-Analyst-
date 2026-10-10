@@ -1,0 +1,49 @@
+{
+  "bytes": 5749382,
+  "campaign_url": "https://republic.com/fund-the-first",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Fund the First Form C:A.pdf",
+  "page_count": 88,
+  "parent_sha256": "034751d89623cdfb04b4af0955762c7d2501ec29bf7a7e331ce2a65a42c1347f",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1229,
+      "pymupdf_sha256": "0bad06a96a31f7a3d999a46dd6cdbb5eea79fc34f04622ffdbe3f2e69e8d492b",
+      "pypdf_chars": 1230,
+      "pypdf_sha256": "bb9b569068cf3deed4ae5e57076f154cd97bd57f0022931dee2855e06c216819"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1679,
+      "pymupdf_sha256": "501ea4bb3a17de9c49978b95cc7e303f6bc3d470974246b013bcd17d4c8906f9",
+      "pypdf_chars": 1680,
+      "pypdf_sha256": "38f467b00744e2185b06d4f66a0474c82b355d3dbd13366d1a68e06cc3bbdbdd"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1035,
+      "pymupdf_sha256": "abcfb489aaf550332a797e603ce2a89e677cbbfd1b51cfe7cc0eba158583dd3c",
+      "pypdf_chars": 1036,
+      "pypdf_sha256": "a1b0f1dc2babbf8d14e66ff0d43446d67a2c9faa9ac7593ea7f9832efa87c5af"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3056,
+      "pymupdf_sha256": "5ad6de4baac5ee0582eb724c2aa3ead6f36b66fb8d3c72a444d14d36dd84f38d",
+      "pypdf_chars": 3067,
+      "pypdf_sha256": "b16fb27c73a22fe43ec6d4275d2265011709ee619749fff370953a0ac2828982"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/f74ab2548e4dca1354eda2e0d5cc57d8f120cfb1941afae2b3fecd0c330ab490.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/f74ab2548e4dca1354eda2e0d5cc57d8f120cfb1941afae2b3fecd0c330ab490.bin.gz",
+  "source_sha256": "f74ab2548e4dca1354eda2e0d5cc57d8f120cfb1941afae2b3fecd0c330ab490",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/781?view=preview"
+}

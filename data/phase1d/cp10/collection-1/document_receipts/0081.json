@@ -1,0 +1,49 @@
+{
+  "bytes": 3266230,
+  "campaign_url": "https://republic.com/sunu",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Sunu Form C-A 4.29.20.pdf",
+  "page_count": 85,
+  "parent_sha256": "f93d05d880802cf3e73009ef289680c74c46536dded7d19b0011793f7bf37525",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1125,
+      "pymupdf_sha256": "2c5627782d34878d3744d818ba33eb9a27beb599c050e0ec0e7e0cc6c79a87e6",
+      "pypdf_chars": 1125,
+      "pypdf_sha256": "2c5627782d34878d3744d818ba33eb9a27beb599c050e0ec0e7e0cc6c79a87e6"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1432,
+      "pymupdf_sha256": "25030d0c0911235ae93ab156c075b1757c2577d76cef6f001ad760ad7eecbe4f",
+      "pypdf_chars": 1433,
+      "pypdf_sha256": "5839af38af1aec30aa06f34dbffb4fc3bc3866657828817ddf85ea884378219c"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1069,
+      "pymupdf_sha256": "12386b2478822c39fac69125f229870f43f8ee44189a163fabdd1ad1eddeeb1f",
+      "pypdf_chars": 1070,
+      "pypdf_sha256": "bb58cc3fefb6607ec6bbee588ddfa160f9611fb662b797b8059f9b7cc898c643"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 914,
+      "pymupdf_sha256": "08c4710b4548d0a50fd399fb18ce1c1b3ee37b3d9fb9ec507ee1423b88bd62e3",
+      "pypdf_chars": 915,
+      "pypdf_sha256": "c44df5609bc476b558f5b717452b8601cea89b424a128d95888c73507a99b9d7"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/1b81b5a980b2c1ee5696062e60f92d2d86b3f0acb537d1dd47796339459e3d52.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1b81b5a980b2c1ee5696062e60f92d2d86b3f0acb537d1dd47796339459e3d52.bin.gz",
+  "source_sha256": "1b81b5a980b2c1ee5696062e60f92d2d86b3f0acb537d1dd47796339459e3d52",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/182?view=preview"
+}

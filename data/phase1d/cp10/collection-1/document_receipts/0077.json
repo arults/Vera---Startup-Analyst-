@@ -1,0 +1,49 @@
+{
+  "bytes": 4202494,
+  "campaign_url": "https://republic.com/stareable",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Stareable Form C.pdf",
+  "page_count": 83,
+  "parent_sha256": "075b7b6d99f1f540b2a3e2e868bdc3807ebf9ec7d30782362862299f13a94980",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1211,
+      "pymupdf_sha256": "9646aa35d1519eff48f8358ed0d52221fec1c15f7750df96c1148a54a9b9a66e",
+      "pypdf_chars": 1572,
+      "pypdf_sha256": "88432c0785895cc8bc95dca2bb07752c37a8c83850efa4482b3aa66ce67c02f1"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 2054,
+      "pymupdf_sha256": "ad37f01498804f4fb4f87b295bc61e3da3cba2d2e9a9be88a30826e0557b2290",
+      "pypdf_chars": 2547,
+      "pypdf_sha256": "eba8da5ee116c7482fe871c28e7a3a61600198e1513336b08a89664fb1862da7"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1387,
+      "pymupdf_sha256": "526cffffe83935dac7f325bd35cb9a47461e66bce790e04566c13c73642983ce",
+      "pypdf_chars": 1792,
+      "pypdf_sha256": "7c00624587e773b20f41486b308efc1b2d055104209fedd6ebe07ab447a64783"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1114,
+      "pymupdf_sha256": "422e1023f3b1b335eb515e8904ad520b12ecb172ed61a967898db095f5d0a362",
+      "pypdf_chars": 1408,
+      "pypdf_sha256": "5fec5e6c6e840616df4678af1ecdc8f1eae4b39317a5cfe7a87cb47d4459112c"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/40cfb68b842c19652a748bdbe067b3c75c135ed2e703e16a08e05e7ad383b7df.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/40cfb68b842c19652a748bdbe067b3c75c135ed2e703e16a08e05e7ad383b7df.bin.gz",
+  "source_sha256": "40cfb68b842c19652a748bdbe067b3c75c135ed2e703e16a08e05e7ad383b7df",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/114?view=preview"
+}

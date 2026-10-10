@@ -1,0 +1,49 @@
+{
+  "bytes": 442152,
+  "campaign_url": "https://republic.com/layali",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Layali Form C:A.pdf",
+  "page_count": 37,
+  "parent_sha256": "ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 987,
+      "pymupdf_sha256": "ab6a9fd8a9b97166de30e2bd0d63dff03655fddcbf8da4100a3abc0935b84aa1",
+      "pypdf_chars": 987,
+      "pypdf_sha256": "ab6a9fd8a9b97166de30e2bd0d63dff03655fddcbf8da4100a3abc0935b84aa1"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1463,
+      "pymupdf_sha256": "a6f72dba223e4e6b48e968452b3843906791cec91f63235004b24706efd7d38d",
+      "pypdf_chars": 1463,
+      "pypdf_sha256": "a6f72dba223e4e6b48e968452b3843906791cec91f63235004b24706efd7d38d"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1045,
+      "pymupdf_sha256": "3c8fbacc364c804dc423b6f4c73bee413242ee02d70687bd4039ab81ab00ffab",
+      "pypdf_chars": 1046,
+      "pypdf_sha256": "fee73e99b29cf49723e3ba7cabe3ff871c2c513d3948197e45aba45b0b790c6e"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1214,
+      "pymupdf_sha256": "bb8284ba33b9b94803ae0b83101e4b9d82d116bcd8025d3e8377d4e9e921571e",
+      "pypdf_chars": 1214,
+      "pypdf_sha256": "bb8284ba33b9b94803ae0b83101e4b9d82d116bcd8025d3e8377d4e9e921571e"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782.bin.gz",
+  "source_sha256": "fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/113?view=preview"
+}

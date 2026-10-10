@@ -1,0 +1,18 @@
+{
+  "bytes": 44509225,
+  "campaign_url": "https://republic.com/ring4",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/32?view=preview",
+  "gzip_sha256": "e744d7d467867dc6bf2aa029d85220169ee93bfc3d9aabdbc5def3a912a930be",
+  "http_status": 200,
+  "label": "Ring4 Form C.pdf",
+  "parent_sha256": "d30a96b61153b88ea9f27ca90052213b835c124f312a82f9ff14b4ab05d6ea55",
+  "raw_sha256": "7fda65a175aecb5c652c5cfdd4331de27faaa914ce03331d3bab4498aed40c42",
+  "received_at": "2026-10-10T02:09:14.437448+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:11.467015+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/7fda65a175aecb5c652c5cfdd4331de27faaa914ce03331d3bab4498aed40c42.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/32?view=preview"
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 20553146,
+  "campaign_url": "https://republic.com/wandering-barman",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Wandering Barman Form C.pdf",
+  "page_count": 83,
+  "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1052,
+      "pymupdf_sha256": "ed1ad120dd7a5f86abe459aee8f335f45816c56ff82671acb223d5317940f259",
+      "pypdf_chars": 1052,
+      "pypdf_sha256": "ed1ad120dd7a5f86abe459aee8f335f45816c56ff82671acb223d5317940f259"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1597,
+      "pymupdf_sha256": "a9d4dc4d3c2f40cc0ed23c9b8225478d090f9b207cdaa2de241876ecf092a07c",
+      "pypdf_chars": 1597,
+      "pypdf_sha256": "a9d4dc4d3c2f40cc0ed23c9b8225478d090f9b207cdaa2de241876ecf092a07c"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1053,
+      "pymupdf_sha256": "3f20d90c4b2d2d176516ac98abda530beb5c8e8447b55fa03338b09c72b9cb87",
+      "pypdf_chars": 1053,
+      "pypdf_sha256": "3f20d90c4b2d2d176516ac98abda530beb5c8e8447b55fa03338b09c72b9cb87"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 442,
+      "pymupdf_sha256": "e2bc872b66a4b9369cfa0ba0e138724b351e153bc1ed425861535fbd557444a5",
+      "pypdf_chars": 442,
+      "pypdf_sha256": "e2bc872b66a4b9369cfa0ba0e138724b351e153bc1ed425861535fbd557444a5"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/829234d17dd498c0d815f63a03aa0e53e756ebbdc2dfb47c36c35df959afd830.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/829234d17dd498c0d815f63a03aa0e53e756ebbdc2dfb47c36c35df959afd830.bin.gz",
+  "source_sha256": "829234d17dd498c0d815f63a03aa0e53e756ebbdc2dfb47c36c35df959afd830",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/94?view=preview"
+}

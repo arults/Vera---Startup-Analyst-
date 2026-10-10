@@ -1,0 +1,18 @@
+{
+  "bytes": 5791153,
+  "campaign_url": "https://republic.com/share-scoops-inc",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/2071?view=preview",
+  "gzip_sha256": "21fc7dcd913566ea9cac2a67ff61d5f1e261797c5e708c35cef0a5a2552d886f",
+  "http_status": 200,
+  "label": "Share Scoops Form C.pdf",
+  "parent_sha256": "795a51335275e97a770fa8a226b30cfac715e9d1efecd07906400114fa5025a9",
+  "raw_sha256": "13876c38ed5b715052026a21f765eed6b6692c56ee4cc8cd1529841fda9159fe",
+  "received_at": "2026-10-10T02:09:16.616460+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:15.475119+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/13876c38ed5b715052026a21f765eed6b6692c56ee4cc8cd1529841fda9159fe.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/2071?view=preview"
+}

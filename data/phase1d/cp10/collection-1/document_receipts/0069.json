@@ -1,0 +1,49 @@
+{
+  "bytes": 1324677,
+  "campaign_url": "https://republic.com/revero",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Revero Form C.pdf",
+  "page_count": 118,
+  "parent_sha256": "976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 914,
+      "pymupdf_sha256": "4676d3b16fc24aed8a9316feceaa73760b62df024f3ad30f610555f98463877e",
+      "pypdf_chars": 914,
+      "pypdf_sha256": "4676d3b16fc24aed8a9316feceaa73760b62df024f3ad30f610555f98463877e"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1759,
+      "pymupdf_sha256": "a561e0c416ad0de53d7a95707fb44afaf47d6da9db3e1f859bc1c09d0837b3cd",
+      "pypdf_chars": 1760,
+      "pypdf_sha256": "3b42f553bd7ba2e0102fd5cc64aa05b802fdbeb842eaad5d7fd9d2edac8798a4"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1601,
+      "pymupdf_sha256": "1ac6c60406106ba559f3f9afe0a061535aada8170a25ae7bef9965d6d4a6d7fc",
+      "pypdf_chars": 1603,
+      "pypdf_sha256": "0da71668d3a970324ee9a1c624177db4b8aa6e5e0879dc5e09d10e8e4072ef0b"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3368,
+      "pymupdf_sha256": "c7aeacf17383b7d394546be0687017e7d5e37b97297bc8f110c7e279f57d7bdb",
+      "pypdf_chars": 3368,
+      "pypdf_sha256": "c7aeacf17383b7d394546be0687017e7d5e37b97297bc8f110c7e279f57d7bdb"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c.bin.gz",
+  "source_sha256": "99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/19104?view=preview"
+}

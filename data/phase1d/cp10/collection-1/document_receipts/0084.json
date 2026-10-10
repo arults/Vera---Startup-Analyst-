@@ -1,0 +1,49 @@
+{
+  "bytes": 14204527,
+  "campaign_url": "https://republic.com/tallyfy",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Tallyfy Form C:A 10.17.19.pdf",
+  "page_count": 106,
+  "parent_sha256": "47a890283f26cefb32a64d49a08fad8e12206413614ce4934084936f92e1a5aa",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 982,
+      "pymupdf_sha256": "35da5032e3961d0461a9c5d2a58aed4fab0da94d356383a61483971251c937ba",
+      "pypdf_chars": 1420,
+      "pypdf_sha256": "e23e7f875bf1f02d417aee0ba8451ad512719128678ea056e2b2230388d45ec9"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 2017,
+      "pymupdf_sha256": "e61f9e655b37c9b81f4c7d12092e1c43b41b49f0b5249916e7b28ec9c99b3c6c",
+      "pypdf_chars": 2897,
+      "pypdf_sha256": "fb6c3f7341290352e24094fe817ccaf0ca870e7de9200ac907231e601dae5675"
+    },
+    {
+      "both_have_text": false,
+      "page": 3,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 4,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/804beea7d2f774c82f007d061ee960f3e08dbd4dbe770eac17737aabc46a5414.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/804beea7d2f774c82f007d061ee960f3e08dbd4dbe770eac17737aabc46a5414.bin.gz",
+  "source_sha256": "804beea7d2f774c82f007d061ee960f3e08dbd4dbe770eac17737aabc46a5414",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/90?view=preview"
+}

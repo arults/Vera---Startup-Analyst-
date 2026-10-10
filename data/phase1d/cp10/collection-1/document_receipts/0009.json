@@ -1,0 +1,49 @@
+{
+  "bytes": 35175030,
+  "campaign_url": "https://republic.com/capsule-social",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Capsule Social Form C.pdf",
+  "page_count": 108,
+  "parent_sha256": "c02a1ac507dbd80d0c3f3d3ce66a1f1e0bcaa128821749869fe52167d90a115a",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 948,
+      "pymupdf_sha256": "e30eeeb18abe1ca69d7e0308b75ba4fd36268d64b81e1ba4ed8feb1d0d3410c7",
+      "pypdf_chars": 948,
+      "pypdf_sha256": "e30eeeb18abe1ca69d7e0308b75ba4fd36268d64b81e1ba4ed8feb1d0d3410c7"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1649,
+      "pymupdf_sha256": "991966533d19e8d1f63b99d2c9384e02638b97228dc389cbde065ece7f3cbeef",
+      "pypdf_chars": 1649,
+      "pypdf_sha256": "991966533d19e8d1f63b99d2c9384e02638b97228dc389cbde065ece7f3cbeef"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1124,
+      "pymupdf_sha256": "0ea2bdda6686f79e36367c5509d128b63e3d24dc52b3acd990a2af20b2ccea75",
+      "pypdf_chars": 1124,
+      "pypdf_sha256": "0ea2bdda6686f79e36367c5509d128b63e3d24dc52b3acd990a2af20b2ccea75"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2668,
+      "pymupdf_sha256": "d5cd43693f515ae13ca49e6c58a985fdaef6f92b26daf2019b6d611a2f454834",
+      "pypdf_chars": 2668,
+      "pypdf_sha256": "d5cd43693f515ae13ca49e6c58a985fdaef6f92b26daf2019b6d611a2f454834"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/e8372694d42ed36b18202673ac6f4baaec471ec92bdb5d88108c691872d89779.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e8372694d42ed36b18202673ac6f4baaec471ec92bdb5d88108c691872d89779.bin.gz",
+  "source_sha256": "e8372694d42ed36b18202673ac6f4baaec471ec92bdb5d88108c691872d89779",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1211?view=preview"
+}

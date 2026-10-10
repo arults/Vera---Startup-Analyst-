@@ -1,0 +1,49 @@
+{
+  "bytes": 12860157,
+  "campaign_url": "https://republic.com/digital-dream-labs-2020",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Digital Dream Labs Form C:A.pdf",
+  "page_count": 95,
+  "parent_sha256": "b65cb30dce8eda38b9a329192cfe8da8824c0ccc9a74163655c92e72db6e15c0",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1021,
+      "pymupdf_sha256": "72b0213aead4b8712db5c37846662e2b95b542a09681a8fded80f7580801b9a1",
+      "pypdf_chars": 1535,
+      "pypdf_sha256": "2075181dde5bb32d284e2bc590b3c792d0bc2764ac13195683e707de4faec3fd"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1131,
+      "pymupdf_sha256": "e801e3556776bae01a4ea1a33649d2c944f6ae6eca32b4fbc18001af6a15b980",
+      "pypdf_chars": 1683,
+      "pypdf_sha256": "ba1ff2f70af55c82cbb2b6b474cd9589d7fc3dd6638079ca1629cc47ef94bf93"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1411,
+      "pymupdf_sha256": "b5c9d61d0313e889e01b867497951393d04a4d44ed73cf78284ed54b287dd297",
+      "pypdf_chars": 2005,
+      "pypdf_sha256": "0bfed736fe106b95d8197d660d68b1544c21596a5ad19b548a21eb9afc0e8937"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/9fb4f5cdc56ae02b41bd1e16d997bf4cc23c0c569d4a5f5ee30ed21e9cae6652.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9fb4f5cdc56ae02b41bd1e16d997bf4cc23c0c569d4a5f5ee30ed21e9cae6652.bin.gz",
+  "source_sha256": "9fb4f5cdc56ae02b41bd1e16d997bf4cc23c0c569d4a5f5ee30ed21e9cae6652",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/80?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 30907295,
+  "campaign_url": "https://republic.com/natural-selection",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/122?view=preview",
+  "gzip_sha256": "05b50cc7fbd30ef729d7e66200d26e392b2b47524ec6cd22edb08bf64b37bf1a",
+  "http_status": 200,
+  "label": "Natural Selection Form C.pdf",
+  "parent_sha256": "5e54e1466501c78c84586de44e44d511fe97baa86151d5f9317bc4b470408450",
+  "raw_sha256": "d8a1fe00a174f13b6db1d29c921814077e033c1cb45a53d42f584aaf37346dc3",
+  "received_at": "2026-10-10T02:08:40.808464+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:38.789751+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d8a1fe00a174f13b6db1d29c921814077e033c1cb45a53d42f584aaf37346dc3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/122?view=preview"
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 1988964,
+  "campaign_url": "https://republic.com/buff-bake",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Buff Bake Form C.pdf",
+  "page_count": 90,
+  "parent_sha256": "af61da34e0f4b4c94b62bd83bdcd7717fdaa86789e9b1ea369e59f9cee4172e3",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1151,
+      "pymupdf_sha256": "6e6e9da2deff81ae58e3a3de541d4e2749693ada6748c88b9ba093dc9d1b004e",
+      "pypdf_chars": 1151,
+      "pypdf_sha256": "6e6e9da2deff81ae58e3a3de541d4e2749693ada6748c88b9ba093dc9d1b004e"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1607,
+      "pymupdf_sha256": "0de3e3b313fe32e56d7fce96ee86f88b068ffc7c9bb89bfa660f39cd14d8ca93",
+      "pypdf_chars": 1607,
+      "pypdf_sha256": "0de3e3b313fe32e56d7fce96ee86f88b068ffc7c9bb89bfa660f39cd14d8ca93"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1081,
+      "pymupdf_sha256": "5be53c072ccddc7038f73a4970e7dda5c4daf6a340701075e6a03af0c96f410f",
+      "pypdf_chars": 1082,
+      "pypdf_sha256": "c6656d78501217186eaa3bf6fae784861de5bd1b3ada429d092be785f215bb93"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 620,
+      "pymupdf_sha256": "489d4bdf0478cf6685db1a13adb12fd517a9d0612bac700a411eaabfafd09f1d",
+      "pypdf_chars": 621,
+      "pypdf_sha256": "b8160f4db482224a769ed413357fec29809d248d3af7a42557f7f683f4a6afa3"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/b77493ebdd22afb9f1ba4e6b5c30da0f5b0e9762761de52556944be035bd68ad.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/b77493ebdd22afb9f1ba4e6b5c30da0f5b0e9762761de52556944be035bd68ad.bin.gz",
+  "source_sha256": "b77493ebdd22afb9f1ba4e6b5c30da0f5b0e9762761de52556944be035bd68ad",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/104?view=preview"
+}

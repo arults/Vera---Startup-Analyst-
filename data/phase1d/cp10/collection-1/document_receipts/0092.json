@@ -1,0 +1,49 @@
+{
+  "bytes": 2101723,
+  "campaign_url": "https://republic.com/upside-app",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Vision Sports Ventures, PBC (Upside) Form C .pdf",
+  "page_count": 131,
+  "parent_sha256": "e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 928,
+      "pymupdf_sha256": "819831906ac7e13311fc0efb910da22304dc1164ddd1fa1c54b11ce51e15d55c",
+      "pypdf_chars": 928,
+      "pypdf_sha256": "819831906ac7e13311fc0efb910da22304dc1164ddd1fa1c54b11ce51e15d55c"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1753,
+      "pymupdf_sha256": "44efffd5d777cdd3295ff868ed920fa94dd9072ed3ac96578b7f9de209cb6c76",
+      "pypdf_chars": 1753,
+      "pypdf_sha256": "44efffd5d777cdd3295ff868ed920fa94dd9072ed3ac96578b7f9de209cb6c76"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1071,
+      "pymupdf_sha256": "fdd15b36bc0b7c4b43562f987de9d3e61c59e7f596386d5bbacd2f3ccd8339bd",
+      "pypdf_chars": 1071,
+      "pypdf_sha256": "fdd15b36bc0b7c4b43562f987de9d3e61c59e7f596386d5bbacd2f3ccd8339bd"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3042,
+      "pymupdf_sha256": "056db9a7270df88634b445a1a085453ee7cf84177660b26c0535261e0af2e54b",
+      "pypdf_chars": 3042,
+      "pypdf_sha256": "056db9a7270df88634b445a1a085453ee7cf84177660b26c0535261e0af2e54b"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0.bin.gz",
+  "source_sha256": "d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/11124?view=preview"
+}

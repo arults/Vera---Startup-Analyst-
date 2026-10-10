@@ -1,0 +1,14 @@
+{
+  "campaign_url": "https://republic.com/compound-reach",
+  "content_type": "application/pdf",
+  "downloaded_bytes": 48037888,
+  "final_url": "https://republic.com/documents/140?view=preview",
+  "http_status": 200,
+  "label": "Compound Projects Form C:A 02.11.2020.pdf",
+  "parent_sha256": "545d0b9a7352a0aaea7df5a6bf917fb2e3e3b7fd93fad6120a8fb84e80b60558",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:35.721254+00:00",
+  "source_group": "remaining-native-documents",
+  "status": "DOCUMENT_LOCAL_BYTE_LIMIT_HOLD",
+  "url": "https://republic.com/documents/140?view=preview"
+}

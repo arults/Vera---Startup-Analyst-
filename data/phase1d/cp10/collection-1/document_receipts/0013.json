@@ -1,0 +1,49 @@
+{
+  "bytes": 1450288,
+  "campaign_url": "https://republic.com/currently-wine",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Proud Pour (Currently Wine) Form C.pdf",
+  "page_count": 101,
+  "parent_sha256": "d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 931,
+      "pymupdf_sha256": "b502a9ff4e30ebf75d335e4038200a1bdc9f1ff335a6a85379a21d974901bd46",
+      "pypdf_chars": 931,
+      "pypdf_sha256": "b502a9ff4e30ebf75d335e4038200a1bdc9f1ff335a6a85379a21d974901bd46"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1757,
+      "pymupdf_sha256": "3a6b517f14c975045aea55a8cc86481a3cf280f714af47cca62d4f1989939f9b",
+      "pypdf_chars": 1757,
+      "pypdf_sha256": "3a6b517f14c975045aea55a8cc86481a3cf280f714af47cca62d4f1989939f9b"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1106,
+      "pymupdf_sha256": "35390e1bebbf2f219c5979d3c8d680c4e262478da6678d85f9bb891cb96fca71",
+      "pypdf_chars": 1108,
+      "pypdf_sha256": "453fc6aee65324b62b30288ea308be5ea43c245460951d32534ec8cba2582d47"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2867,
+      "pymupdf_sha256": "6e06d7aa9f2105ed22a486e00f4f98f7ec59089a98195829cfe68b88505d1065",
+      "pypdf_chars": 2868,
+      "pypdf_sha256": "d7c0fdb0f22166a42eed981b54e51d19f005530630077e82ebe485faee3d125f"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff.bin.gz",
+  "source_sha256": "55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/14127?view=preview"
+}

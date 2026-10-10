@@ -1,0 +1,18 @@
+{
+  "bytes": 6153596,
+  "campaign_url": "https://republic.com/holmehadfield",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/11190?view=preview",
+  "gzip_sha256": "d2683dd52a35d53f12e8227a3a2672a57a88c373e6a45c14379272b9b89fd77e",
+  "http_status": 200,
+  "label": "Holme and Hadfield Form C:A.pdf",
+  "parent_sha256": "c24761b56fc86695c3efab42df3887b42b2d4881d821d0c5ebe87b9ffc71e32f",
+  "raw_sha256": "9e4b48370304af5e5beff334c01d591377d0c4a536d9223b974682839fa9f5a4",
+  "received_at": "2026-10-10T02:08:22.382105+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:21.323688+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9e4b48370304af5e5beff334c01d591377d0c4a536d9223b974682839fa9f5a4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/11190?view=preview"
+}

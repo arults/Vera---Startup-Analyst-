@@ -1,0 +1,49 @@
+{
+  "bytes": 1018449,
+  "campaign_url": "https://republic.com/get-on-board",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Get On Board - Form C.pdf",
+  "page_count": 84,
+  "parent_sha256": "5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 939,
+      "pymupdf_sha256": "cf3d27bd6137a6165bb4726e6b9ead77d000e64db77f66e85e5859645517869f",
+      "pypdf_chars": 939,
+      "pypdf_sha256": "cf3d27bd6137a6165bb4726e6b9ead77d000e64db77f66e85e5859645517869f"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1695,
+      "pymupdf_sha256": "6b9f65c924fc375e514cfd01269c566788c1315a22802f7db9fa45c9fce4250d",
+      "pypdf_chars": 1695,
+      "pypdf_sha256": "6b9f65c924fc375e514cfd01269c566788c1315a22802f7db9fa45c9fce4250d"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1069,
+      "pymupdf_sha256": "a0811e93b1ab03868bacbb8645b3a320165174636538d271060c64e25cb767aa",
+      "pypdf_chars": 1070,
+      "pypdf_sha256": "029ea7ad697894ef2b73ce90bba920d6bfcc654513b8f5b565fb586424af1397"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3666,
+      "pymupdf_sha256": "031b2ee47d9943857366f1e493be7b8110ebb4b9cc4cf8c374adbec1f0b3aef1",
+      "pypdf_chars": 3677,
+      "pypdf_sha256": "01b2495ae0047f2d31fa8db12ed2e3f38d1f6a2376e4da4ee1c26d78c29cd486"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7.bin.gz",
+  "source_sha256": "a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/8607?view=preview"
+}

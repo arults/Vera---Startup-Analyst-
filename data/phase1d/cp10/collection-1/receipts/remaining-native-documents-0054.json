@@ -1,0 +1,18 @@
+{
+  "bytes": 1824217,
+  "campaign_url": "https://republic.com/moriondo-coffee",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1870?view=preview",
+  "gzip_sha256": "c2de61bf72bc7adb968a072a5b546b6ded93a0d1e434016f67459b3970211ca8",
+  "http_status": 200,
+  "label": "Moriondo Coffee Form C.pdf",
+  "parent_sha256": "16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+  "raw_sha256": "8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7",
+  "received_at": "2026-10-10T02:08:37.362910+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:36.634263+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1870?view=preview"
+}

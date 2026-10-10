@@ -1,0 +1,18 @@
+{
+  "bytes": 16153844,
+  "campaign_url": "https://republic.com/wayzn",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/288?view=preview",
+  "gzip_sha256": "e222ee3e11e85a5a88f9edcfc4c8d06737991262d77aa5c3de826b2c7238822e",
+  "http_status": 200,
+  "label": "Wayzn Form C.pdf",
+  "parent_sha256": "effe114f84fde56406b862b0a4cc93dfb839a3e28d95e1ee62fabd7c24763a00",
+  "raw_sha256": "18b78fc70a1fdb596ee17ee257b9babc41ecbbf9735659779ca9dfffd411bdcc",
+  "received_at": "2026-10-10T02:09:49.796657+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:48.367298+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/18b78fc70a1fdb596ee17ee257b9babc41ecbbf9735659779ca9dfffd411bdcc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/288?view=preview"
+}

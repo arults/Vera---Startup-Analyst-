@@ -1,0 +1,18 @@
+{
+  "bytes": 433957,
+  "campaign_url": "https://republic.com/soar-robotics",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/111?view=preview",
+  "gzip_sha256": "3420924b088d88fbbef2badf6dfb62cabfcddf31c37c52638bf5d17109f48918",
+  "http_status": 200,
+  "label": "Soar Robotics Form C-A 12.19.19.pdf",
+  "parent_sha256": "55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+  "raw_sha256": "2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855",
+  "received_at": "2026-10-10T02:09:20.267587+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:19.540471+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/111?view=preview"
+}

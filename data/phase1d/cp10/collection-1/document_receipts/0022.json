@@ -1,0 +1,49 @@
+{
+  "bytes": 1781880,
+  "campaign_url": "https://republic.com/fashwire",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Fashwire Form C-A 4.29.20.pdf",
+  "page_count": 77,
+  "parent_sha256": "424eb6c91bb65186673a7e3e74b22ca5e5a4d4be6672e56e8d45822efcbefcaa",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1077,
+      "pymupdf_sha256": "519a766c43515496c732b44351b762a573dea9857521c3c3751c6410043dd0c5",
+      "pypdf_chars": 1095,
+      "pypdf_sha256": "9d4a3e3c4001fcec4913b448844a9ad6c47db4b2a03370173bda881d8bbc822b"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1432,
+      "pymupdf_sha256": "ddc5defc291340312dab7777547cfa4468b2d44018b98c572417ac5d4df52c79",
+      "pypdf_chars": 1433,
+      "pypdf_sha256": "5a5645f7364c8c0066e9ffa04416db98a26e44a785bfd3b639a339c2d179a764"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1836,
+      "pymupdf_sha256": "f3adfccf77f541332db74186409d7fb609c8da6efc8f3c96df5f87abc0fb4c37",
+      "pypdf_chars": 1842,
+      "pypdf_sha256": "f2b7b8476aa91837a6bfd30f0c5b2d7e107797f79066482556fa9fa9810181e9"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1230,
+      "pymupdf_sha256": "6fba70706473d7d25d8bb50f49bb2e3a4224ecf04ed326231f97459f61851495",
+      "pypdf_chars": 1230,
+      "pypdf_sha256": "6fba70706473d7d25d8bb50f49bb2e3a4224ecf04ed326231f97459f61851495"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/e39ea586c2911f2d9a1186c9c5bbc073464838afd3e77d5e456f9badbd05e2d0.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e39ea586c2911f2d9a1186c9c5bbc073464838afd3e77d5e456f9badbd05e2d0.bin.gz",
+  "source_sha256": "e39ea586c2911f2d9a1186c9c5bbc073464838afd3e77d5e456f9badbd05e2d0",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/180?view=preview"
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 3029324,
+  "campaign_url": "https://republic.com/janover-ventures",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Janover Ventures Form C:A 11.2020.pdf",
+  "page_count": 84,
+  "parent_sha256": "b4efa55b4b54d1b8a84cb4f23f019b490d3869bad9a622a1d519da70bcfa1961",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1051,
+      "pymupdf_sha256": "6c3b8dd8adea7fcfd235002b69c4252f88c53d8a636aefd2fab8e9b68bfb7034",
+      "pypdf_chars": 1054,
+      "pypdf_sha256": "311f0f5d2e1f610b13285e2cb0d787ec8f50a8210ec9fe0c0faebfb64359f5e4"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1447,
+      "pymupdf_sha256": "779fc62f9bc98aa6ad4f027090f6ea9ea74889169230dfe0d79021f13edfbd98",
+      "pypdf_chars": 1447,
+      "pypdf_sha256": "779fc62f9bc98aa6ad4f027090f6ea9ea74889169230dfe0d79021f13edfbd98"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1795,
+      "pymupdf_sha256": "405665affa800eb192eb34caaf0c22183bdd95fd318a462314a385d503a63c52",
+      "pypdf_chars": 1795,
+      "pypdf_sha256": "405665affa800eb192eb34caaf0c22183bdd95fd318a462314a385d503a63c52"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1324,
+      "pymupdf_sha256": "650793a37d30758bf0a6452f8b4284075a75d560b829ab2940a5734f04b99c6f",
+      "pypdf_chars": 1324,
+      "pypdf_sha256": "650793a37d30758bf0a6452f8b4284075a75d560b829ab2940a5734f04b99c6f"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/1fa02ff33609e13b83b90cf28ddbc368288c5ca88a0f390baea27c27875ac08a.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1fa02ff33609e13b83b90cf28ddbc368288c5ca88a0f390baea27c27875ac08a.bin.gz",
+  "source_sha256": "1fa02ff33609e13b83b90cf28ddbc368288c5ca88a0f390baea27c27875ac08a",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/335?view=preview"
+}

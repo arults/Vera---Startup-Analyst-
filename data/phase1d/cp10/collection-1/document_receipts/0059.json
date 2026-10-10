@@ -1,0 +1,49 @@
+{
+  "bytes": 2786865,
+  "campaign_url": "https://republic.com/plei-jan-2020",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Plei Form C.pdf",
+  "page_count": 106,
+  "parent_sha256": "d757196a9052b4318ac39a9af2c6b1d274bf5f8c8ff6de4362bf75e1ecd8d28e",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1023,
+      "pymupdf_sha256": "20fffc0f0178a6cb74769a60823f6432b0f4a7f9da504e057069788f37327cf9",
+      "pypdf_chars": 1023,
+      "pypdf_sha256": "20fffc0f0178a6cb74769a60823f6432b0f4a7f9da504e057069788f37327cf9"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1396,
+      "pymupdf_sha256": "ebf19009484cf4c9227dd978b9c7065d4997579d1ba52217514c65ada3e89bee",
+      "pypdf_chars": 1396,
+      "pypdf_sha256": "ebf19009484cf4c9227dd978b9c7065d4997579d1ba52217514c65ada3e89bee"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1041,
+      "pymupdf_sha256": "447653f25556cf6495d89bff11ae619790baae936d6178bdd8f6443e035f0150",
+      "pypdf_chars": 1041,
+      "pypdf_sha256": "447653f25556cf6495d89bff11ae619790baae936d6178bdd8f6443e035f0150"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 884,
+      "pymupdf_sha256": "3a8b0a89749e050b4e29dc884b475a24abe98656c7753e51983ec09a3072c3c7",
+      "pypdf_chars": 884,
+      "pypdf_sha256": "3a8b0a89749e050b4e29dc884b475a24abe98656c7753e51983ec09a3072c3c7"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/c17a704f5c7fd6fb5ee597814f9a400fe1b844dba969c8b63757cf55d27785c4.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c17a704f5c7fd6fb5ee597814f9a400fe1b844dba969c8b63757cf55d27785c4.bin.gz",
+  "source_sha256": "c17a704f5c7fd6fb5ee597814f9a400fe1b844dba969c8b63757cf55d27785c4",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/128?view=preview"
+}

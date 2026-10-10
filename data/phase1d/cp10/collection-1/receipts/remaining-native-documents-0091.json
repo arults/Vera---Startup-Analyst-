@@ -1,0 +1,18 @@
+{
+  "bytes": 7821415,
+  "campaign_url": "https://republic.com/ternio",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/172?view=preview",
+  "gzip_sha256": "8be27c4a38b5111723103e384844bf6bb145b496ee7c6eb2e6119f101f73ccb3",
+  "http_status": 200,
+  "label": "Ternio Form C-A 4.27.20.pdf",
+  "parent_sha256": "7841f09b4a009939b1b77e9d9f51ea7e7191cb4d3a2dcf9f92f14835ee7e096d",
+  "raw_sha256": "64e987aeec28a9c4566bdeacca40c03fe66cfd33586e2133f40ced58255a08c4",
+  "received_at": "2026-10-10T02:09:33.178454+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:32.228993+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/64e987aeec28a9c4566bdeacca40c03fe66cfd33586e2133f40ced58255a08c4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/172?view=preview"
+}

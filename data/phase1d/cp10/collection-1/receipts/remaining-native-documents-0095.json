@@ -1,0 +1,18 @@
+{
+  "bytes": 4921310,
+  "campaign_url": "https://republic.com/tracflo",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/669?view=preview",
+  "gzip_sha256": "2ddaf76976e52635d246a52c4efcaeb81287700c7f48bb8098bfb436bca36449",
+  "http_status": 200,
+  "label": "TracFlo Form C.pdf",
+  "parent_sha256": "ce3b98807791eb12ae5c6fa9b747c1fdd6f3ffd22190e5da233264b140f753b8",
+  "raw_sha256": "f18b11eb562d083238c5ef06ca46c1477786ae72be1336c34a35003971851ad4",
+  "received_at": "2026-10-10T02:09:38.812329+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:37.814710+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/f18b11eb562d083238c5ef06ca46c1477786ae72be1336c34a35003971851ad4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/669?view=preview"
+}

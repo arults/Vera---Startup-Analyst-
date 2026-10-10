@@ -1,0 +1,18 @@
+{
+  "bytes": 2256415,
+  "campaign_url": "https://republic.com/trust-exchange",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/7592?view=preview",
+  "gzip_sha256": "70434329a525a00b45f1ff39a779562bd9016d07e1ed17b20692e822e5c7f4fd",
+  "http_status": 200,
+  "label": "Trust Exchange Form C.pdf",
+  "parent_sha256": "3ca4b77967966bb8d61a55b48d8939099efee72a6dae0d08f567c38980f21c52",
+  "raw_sha256": "7baaa0ae7ccd11a3521f953cdec04cc599f777883769111f71f31899ef204fde",
+  "received_at": "2026-10-10T02:09:39.894684+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:38.993117+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/7baaa0ae7ccd11a3521f953cdec04cc599f777883769111f71f31899ef204fde.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/7592?view=preview"
+}

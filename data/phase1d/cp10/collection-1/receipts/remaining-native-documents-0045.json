@@ -1,0 +1,18 @@
+{
+  "bytes": 3322204,
+  "campaign_url": "https://republic.com/inahsi",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/741?view=preview",
+  "gzip_sha256": "6d44d548abcfe9534179b6e013dda13e34a35ff08e35901810d044d3608ce890",
+  "http_status": 200,
+  "label": "Inahsi Form C.pdf",
+  "parent_sha256": "c597131dc5ed153a811d510a7d81515295ab05aed770301779a06b2ed99ba655",
+  "raw_sha256": "c62ec8d59fe870463179dba0b71c212796db617f17ff841f91d591bb4b199841",
+  "received_at": "2026-10-10T02:08:26.425329+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:25.426597+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c62ec8d59fe870463179dba0b71c212796db617f17ff841f91d591bb4b199841.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/741?view=preview"
+}

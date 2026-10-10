@@ -1,0 +1,18 @@
+{
+  "bytes": 3708804,
+  "campaign_url": "https://republic.com/ip3",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/11256?view=preview",
+  "gzip_sha256": "fe7859f85dcc5bb8924417aef394bd716b76f3d701f4352ae479b08aec95fd7b",
+  "http_status": 200,
+  "label": "IP3 Labs Inc Form C.pdf",
+  "parent_sha256": "c47190bf61700556d40f351b0551722a51d5c6d9d490dc96007c11b2bf7742c7",
+  "raw_sha256": "9ff1a582dcebc828d5e16d185367963ee310852e6c26d5250f9bd3b0fce065d9",
+  "received_at": "2026-10-10T02:08:28.234220+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:27.394766+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9ff1a582dcebc828d5e16d185367963ee310852e6c26d5250f9bd3b0fce065d9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/11256?view=preview"
+}

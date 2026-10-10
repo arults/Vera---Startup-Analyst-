@@ -1,0 +1,49 @@
+{
+  "bytes": 18374610,
+  "campaign_url": "https://republic.com/wellwell",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "WellWell Form C.pdf",
+  "page_count": 108,
+  "parent_sha256": "76fe770947652a0a98e2defe404aab64262a6f7ec1a6d0312fd39f149070646d",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1056,
+      "pymupdf_sha256": "32acbd4349661ad2a6cf6fe31dfceaa65c04162a0ca6e5819b1c9dc3d1841b28",
+      "pypdf_chars": 1056,
+      "pypdf_sha256": "32acbd4349661ad2a6cf6fe31dfceaa65c04162a0ca6e5819b1c9dc3d1841b28"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1575,
+      "pymupdf_sha256": "f2467e5d893148af74fbcecb7bba8920af2257790fd8b08cdda94a20d4cc407d",
+      "pypdf_chars": 1576,
+      "pypdf_sha256": "e250025a1b8130283bd78bfce79b4a97a494ef4894d58e19d18db98918bc1076"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1896,
+      "pymupdf_sha256": "bbbdaace86c2dd17b202848287b8e4fb6002446d35cff4510b4f55806f6d12ee",
+      "pypdf_chars": 1900,
+      "pypdf_sha256": "b891d6715f0077bec65840e257fdeee97ef6f66ba7f42c8ec3113af02c8162fb"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 901,
+      "pymupdf_sha256": "aec7bed8b82e360b539e60cbf8fb043451231ed6cfa36fab8c97f54bb119006a",
+      "pypdf_chars": 902,
+      "pypdf_sha256": "09646ee10bc62e6466eaa52c89994e43d65489a9419dab97551d9d253e6b7dd7"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/71a792160903227c5d933c9b95f90171a22b06c4b04da36336902d7625a13845.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/71a792160903227c5d933c9b95f90171a22b06c4b04da36336902d7625a13845.bin.gz",
+  "source_sha256": "71a792160903227c5d933c9b95f90171a22b06c4b04da36336902d7625a13845",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/345?view=preview"
+}

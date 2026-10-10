@@ -1,0 +1,49 @@
+{
+  "bytes": 23032316,
+  "campaign_url": "https://republic.com/hellowoofy-december-2019",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "HelloWoofy Form C.pdf",
+  "page_count": 113,
+  "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1027,
+      "pymupdf_sha256": "20e871097d00a79793c1cba2e5393d940e3dab1294553c18b3d26670adbf0e5c",
+      "pypdf_chars": 1027,
+      "pypdf_sha256": "20e871097d00a79793c1cba2e5393d940e3dab1294553c18b3d26670adbf0e5c"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1462,
+      "pymupdf_sha256": "3304482ddb289f4402307ca501c6c9457cd79a2e2afa7a4d7b66de4811d52944",
+      "pypdf_chars": 1462,
+      "pypdf_sha256": "3304482ddb289f4402307ca501c6c9457cd79a2e2afa7a4d7b66de4811d52944"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1046,
+      "pymupdf_sha256": "65887baa881fc136f03913228eac3902dd7a78eaf3ff933d1c0cfba74a257b68",
+      "pypdf_chars": 1046,
+      "pypdf_sha256": "65887baa881fc136f03913228eac3902dd7a78eaf3ff933d1c0cfba74a257b68"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1234,
+      "pymupdf_sha256": "c90e29541c9b95b088d78d829b45ca2da6c87ed17d3c76d8ea516c0eaed30cee",
+      "pypdf_chars": 1234,
+      "pypdf_sha256": "c90e29541c9b95b088d78d829b45ca2da6c87ed17d3c76d8ea516c0eaed30cee"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/5a5aca22508185d3d12c36f5939b25f92027a5a4c9097796f1e9936cb8451538.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/5a5aca22508185d3d12c36f5939b25f92027a5a4c9097796f1e9936cb8451538.bin.gz",
+  "source_sha256": "5a5aca22508185d3d12c36f5939b25f92027a5a4c9097796f1e9936cb8451538",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/115?view=preview"
+}

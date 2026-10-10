@@ -1,0 +1,49 @@
+{
+  "bytes": 44509225,
+  "campaign_url": "https://republic.com/ring4",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Ring4 Form C.pdf",
+  "page_count": 69,
+  "parent_sha256": "d30a96b61153b88ea9f27ca90052213b835c124f312a82f9ff14b4ab05d6ea55",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": false,
+      "page": 1,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1313,
+      "pymupdf_sha256": "0f0dadd2e9ba19971a6f3acdf342573e6f096351c293705af353805a2f845091",
+      "pypdf_chars": 1637,
+      "pypdf_sha256": "9e7888d8972b1f3cff324fd76892f14ba4b0c5ad090fe7b8ad1912602d4f2e06"
+    },
+    {
+      "both_have_text": false,
+      "page": 4,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/7fda65a175aecb5c652c5cfdd4331de27faaa914ce03331d3bab4498aed40c42.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/7fda65a175aecb5c652c5cfdd4331de27faaa914ce03331d3bab4498aed40c42.bin.gz",
+  "source_sha256": "7fda65a175aecb5c652c5cfdd4331de27faaa914ce03331d3bab4498aed40c42",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/32?view=preview"
+}

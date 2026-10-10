@@ -1,0 +1,49 @@
+{
+  "bytes": 16450819,
+  "campaign_url": "https://republic.com/maven",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Didactic Form C-A.pdf",
+  "page_count": 81,
+  "parent_sha256": "320d5b71e4fec16ecfbc5e799b4871b2e148f7748af67c75a97f77049d7cc2da",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1481,
+      "pymupdf_sha256": "52bad975f39b793d909235348ba8c20478cf4da0fc15c4c08c95c829149ea885",
+      "pypdf_chars": 2047,
+      "pypdf_sha256": "b41a911ee4b2a161f09e97c9601b9e5016e1d001c7b62496ee60f9bc434d3f30"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1884,
+      "pymupdf_sha256": "d97661b69b5d50ae73dec16700d88199542bd696a3b357ca1b2c37fdda40186a",
+      "pypdf_chars": 2632,
+      "pypdf_sha256": "9d3493d962a0b579a8941a9e6e53da9fd83a1cb4e3f9a20b8270b2e53d30cb15"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1958,
+      "pymupdf_sha256": "c9ae5eef613eb2e1d546393e46462530466c1bf8f56de5477282e46e55baa3c4",
+      "pypdf_chars": 2705,
+      "pypdf_sha256": "3f0511ea58f85cc955d8a5779707fb62ec9fce44af1d0faa4dce70aeb84db078"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 245,
+      "pymupdf_sha256": "d61725b86f1aa7401d8ee29e2608d2472e013950d3280a187c7a6bc4346cfdfd",
+      "pypdf_chars": 323,
+      "pypdf_sha256": "87665defc2fdf808b867d3a28497e84e73dbb65cbd660055f4603d0bc1a0d4b2"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/5ee9d6f918cb045a5d44ea66c7023c7db4f07a851206e8b66e928e0ed0246f0a.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/5ee9d6f918cb045a5d44ea66c7023c7db4f07a851206e8b66e928e0ed0246f0a.bin.gz",
+  "source_sha256": "5ee9d6f918cb045a5d44ea66c7023c7db4f07a851206e8b66e928e0ed0246f0a",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/467?view=preview"
+}

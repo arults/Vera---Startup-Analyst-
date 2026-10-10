@@ -1,0 +1,18 @@
+{
+  "bytes": 1781880,
+  "campaign_url": "https://republic.com/fashwire",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/180?view=preview",
+  "gzip_sha256": "c1aa37353de573a7d236566f6f1b844c9e66e1da2fe652742a31b6f34c1943b0",
+  "http_status": 200,
+  "label": "Fashwire Form C-A 4.29.20.pdf",
+  "parent_sha256": "424eb6c91bb65186673a7e3e74b22ca5e5a4d4be6672e56e8d45822efcbefcaa",
+  "raw_sha256": "e39ea586c2911f2d9a1186c9c5bbc073464838afd3e77d5e456f9badbd05e2d0",
+  "received_at": "2026-10-10T02:07:55.938917+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:55.155045+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e39ea586c2911f2d9a1186c9c5bbc073464838afd3e77d5e456f9badbd05e2d0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/180?view=preview"
+}

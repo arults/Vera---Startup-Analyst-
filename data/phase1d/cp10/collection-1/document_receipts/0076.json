@@ -1,0 +1,49 @@
+{
+  "bytes": 2618240,
+  "campaign_url": "https://republic.com/soon",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Soon Form C.pdf",
+  "page_count": 106,
+  "parent_sha256": "39161b48e118580ae9dd2472f91267d413d83719e7d4056604ec7c9d57a473a6",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 937,
+      "pymupdf_sha256": "550bae1a2f5b994e226a1702dca86279d5e7cf77503e05a40b813b3519689a27",
+      "pypdf_chars": 937,
+      "pypdf_sha256": "550bae1a2f5b994e226a1702dca86279d5e7cf77503e05a40b813b3519689a27"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1618,
+      "pymupdf_sha256": "8ce3cb1f39d4bca618440941c12db77c5e572a40cfd3dd56270595f1f2a40897",
+      "pypdf_chars": 1618,
+      "pypdf_sha256": "8ce3cb1f39d4bca618440941c12db77c5e572a40cfd3dd56270595f1f2a40897"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1037,
+      "pymupdf_sha256": "c9926ae876d6b7dc52da62c49f5246b95203001597663a5de22404db27991c5f",
+      "pypdf_chars": 1038,
+      "pypdf_sha256": "95d76307eb01b9e75c1449f69b2e9d5ed72c5ce621055089066efae55b5d56a1"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2078,
+      "pymupdf_sha256": "f322d931bad7a2f89bc980a82f8ded6eebdd705c8920ea7ea390bdcd3f90e5f6",
+      "pypdf_chars": 2081,
+      "pypdf_sha256": "276191fecf3ddb821d9fb0ab10b0c3a09ba75858558a8cda1c54325f9441d037"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/1ad92e825fef66835009cd4330497e89364902b3b5471d9b4e14cfba15c82dfc.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1ad92e825fef66835009cd4330497e89364902b3b5471d9b4e14cfba15c82dfc.bin.gz",
+  "source_sha256": "1ad92e825fef66835009cd4330497e89364902b3b5471d9b4e14cfba15c82dfc",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/3085?view=preview"
+}

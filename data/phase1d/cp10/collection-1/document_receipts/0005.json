@@ -1,0 +1,49 @@
+{
+  "bytes": 3679125,
+  "campaign_url": "https://republic.com/buff-bake",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Form C:A - Buff Bake Inc. 01.12.2020.pdf",
+  "page_count": 92,
+  "parent_sha256": "af61da34e0f4b4c94b62bd83bdcd7717fdaa86789e9b1ea369e59f9cee4172e3",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1153,
+      "pymupdf_sha256": "7f96f804dc90101b8613407a3b10ce669685d81a35b1f2135651eed1762372dd",
+      "pypdf_chars": 1166,
+      "pypdf_sha256": "e6b7c2df3b1cd421b72e849392ea08ba0d9e1385faf5640735e440d75cd4c9c0"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1607,
+      "pymupdf_sha256": "0de3e3b313fe32e56d7fce96ee86f88b068ffc7c9bb89bfa660f39cd14d8ca93",
+      "pypdf_chars": 1619,
+      "pypdf_sha256": "ed9b5e8151760404b1802ed613d8d245a2cee01c95cbe55784c243f6103fff44"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1081,
+      "pymupdf_sha256": "5be53c072ccddc7038f73a4970e7dda5c4daf6a340701075e6a03af0c96f410f",
+      "pypdf_chars": 1083,
+      "pypdf_sha256": "4ec61c066bc38907eab68f90524777cc5f9bfbf216368f56c97c6a5c70584337"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 577,
+      "pymupdf_sha256": "61495d186a72930ea59288272cb5b7164903b1445e7e68b3c3a84e328a062686",
+      "pypdf_chars": 581,
+      "pypdf_sha256": "b7033e2eb5481facdd26b1ce1efc95723b609ca08625d3c7e51b558604d94230"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/9506a56805b563cd58582f581e0951271d2f377a46a63cc1f05dc11c94db99a2.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9506a56805b563cd58582f581e0951271d2f377a46a63cc1f05dc11c94db99a2.bin.gz",
+  "source_sha256": "9506a56805b563cd58582f581e0951271d2f377a46a63cc1f05dc11c94db99a2",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/125?view=preview"
+}

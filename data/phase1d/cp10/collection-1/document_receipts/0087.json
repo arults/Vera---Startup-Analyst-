@@ -1,0 +1,49 @@
+{
+  "bytes": 5319686,
+  "campaign_url": "https://republic.com/the-cru",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "The Cru Form C.pdf",
+  "page_count": 80,
+  "parent_sha256": "eb6b0ff519f5eff50d0dc0f142af971f18a1fa64f420b3fe0d1988e15b2c400d",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 939,
+      "pymupdf_sha256": "e097ead258403ea490b5fe451e1212bd8be6ebd6af2f0b9cf79a06403bb51396",
+      "pypdf_chars": 939,
+      "pypdf_sha256": "e097ead258403ea490b5fe451e1212bd8be6ebd6af2f0b9cf79a06403bb51396"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1612,
+      "pymupdf_sha256": "1273a1c8d3cb0a20783be80049bca0f4de41050a16d44ed53fcef22c5ac91a34",
+      "pypdf_chars": 1614,
+      "pypdf_sha256": "d6aa1cd6b21a5a88979aadf08010baada4565b171a4e03b4b3aee7c92a0ee3b6"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1103,
+      "pymupdf_sha256": "aaa64d808cf86f8ef689f8c28c89a50d2c317503bfeb0004f5a703f0b54b0f12",
+      "pypdf_chars": 1103,
+      "pypdf_sha256": "aaa64d808cf86f8ef689f8c28c89a50d2c317503bfeb0004f5a703f0b54b0f12"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3183,
+      "pymupdf_sha256": "9e1469a029812d93ff79879d2e782858f06d91d7478d4252804f91883303121b",
+      "pypdf_chars": 3189,
+      "pypdf_sha256": "60f42019d476de272ae7f54497619fc2f0ddf8ef5be8be7db0f057b7d90f9d3e"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/9fd44250dbb282e197506521823bc27c37ef282112d39c1df3469d19dc35eb6a.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9fd44250dbb282e197506521823bc27c37ef282112d39c1df3469d19dc35eb6a.bin.gz",
+  "source_sha256": "9fd44250dbb282e197506521823bc27c37ef282112d39c1df3469d19dc35eb6a",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/2076?view=preview"
+}

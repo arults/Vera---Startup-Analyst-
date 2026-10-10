@@ -1,0 +1,49 @@
+{
+  "bytes": 5791153,
+  "campaign_url": "https://republic.com/share-scoops-inc",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Share Scoops Form C.pdf",
+  "page_count": 75,
+  "parent_sha256": "795a51335275e97a770fa8a226b30cfac715e9d1efecd07906400114fa5025a9",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 947,
+      "pymupdf_sha256": "9dbff7638e09230cc622b4223f996299354d03a997369adf20012f61429b1ca7",
+      "pypdf_chars": 947,
+      "pypdf_sha256": "9dbff7638e09230cc622b4223f996299354d03a997369adf20012f61429b1ca7"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1614,
+      "pymupdf_sha256": "54b88d18be3f41139c864e5c4b671df2ab04dc39c670087d17bd4cc87700a828",
+      "pypdf_chars": 1617,
+      "pypdf_sha256": "d6937cc4551462e6e2ef67666534a754cff4657123e1e9db16f90be57034a058"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1131,
+      "pymupdf_sha256": "df85e89ee802fe7d83ba0b4b43116768bdc14dd397ba07e0784cd1cd969ffe4d",
+      "pypdf_chars": 1131,
+      "pypdf_sha256": "df85e89ee802fe7d83ba0b4b43116768bdc14dd397ba07e0784cd1cd969ffe4d"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3186,
+      "pymupdf_sha256": "ec6c38b646420642b520fbc905ebeb492c2822ee743eded3f04544a597a3557b",
+      "pypdf_chars": 3191,
+      "pypdf_sha256": "1a16a4bacd79ff45d4f9b990efbd712c83deb3870e1f05043d25267401a064b6"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/13876c38ed5b715052026a21f765eed6b6692c56ee4cc8cd1529841fda9159fe.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/13876c38ed5b715052026a21f765eed6b6692c56ee4cc8cd1529841fda9159fe.bin.gz",
+  "source_sha256": "13876c38ed5b715052026a21f765eed6b6692c56ee4cc8cd1529841fda9159fe",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/2071?view=preview"
+}

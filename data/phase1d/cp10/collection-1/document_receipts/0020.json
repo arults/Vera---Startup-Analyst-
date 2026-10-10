@@ -1,0 +1,49 @@
+{
+  "bytes": 8027027,
+  "campaign_url": "https://republic.com/ember-fund-2019",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Ember Fund Form C-A 01.21.2020.pdf",
+  "page_count": 91,
+  "parent_sha256": "09a8535f48fb1d252fcf7bcfaa24db65b47d7095b4ba1cf99d972611764feb60",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 906,
+      "pymupdf_sha256": "cb5c9d5cbd780aaf720ce63f51d0d01d2f6b4fb2c6d4d4c0c943f1fa007067d2",
+      "pypdf_chars": 906,
+      "pypdf_sha256": "cb5c9d5cbd780aaf720ce63f51d0d01d2f6b4fb2c6d4d4c0c943f1fa007067d2"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1600,
+      "pymupdf_sha256": "7eefd21a94ffe7efe23fb2b442bf32ce2c5c0f3b4607f2931e91b01eb45ff4c3",
+      "pypdf_chars": 1600,
+      "pypdf_sha256": "7eefd21a94ffe7efe23fb2b442bf32ce2c5c0f3b4607f2931e91b01eb45ff4c3"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1128,
+      "pymupdf_sha256": "ad95e3ba27825226dc1bd9901e430d6409ada20575d4fb9ca123e1b2ed3c12d4",
+      "pypdf_chars": 1129,
+      "pypdf_sha256": "dfa85afacfa3135767c44d999e30adfc6f456f6b89ceacadab59dbb311cb8292"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 877,
+      "pymupdf_sha256": "b64f52637b3220f2d87a5d58b799aafff95f27d99e5fdcac6f6899c8baec7f80",
+      "pypdf_chars": 877,
+      "pypdf_sha256": "b64f52637b3220f2d87a5d58b799aafff95f27d99e5fdcac6f6899c8baec7f80"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/05041fb0b5f940c927e9aeb75df0d435ca88bcaa6330a27f9201b5131d8221df.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/05041fb0b5f940c927e9aeb75df0d435ca88bcaa6330a27f9201b5131d8221df.bin.gz",
+  "source_sha256": "05041fb0b5f940c927e9aeb75df0d435ca88bcaa6330a27f9201b5131d8221df",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/127?view=preview"
+}

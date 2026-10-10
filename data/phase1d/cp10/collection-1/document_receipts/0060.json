@@ -1,0 +1,49 @@
+{
+  "bytes": 19323072,
+  "campaign_url": "https://republic.com/popularium",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Popularium Form C.pdf",
+  "page_count": 135,
+  "parent_sha256": "3a61fce37095663e12b29ba818db94262d2fa695a268df0bc5c65c18d506620c",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 855,
+      "pymupdf_sha256": "fecfff2cd9737873863a0b756d8484a9b0a090c0d849ad696b4f70ac067582bf",
+      "pypdf_chars": 857,
+      "pypdf_sha256": "e2544f8b80e29e7595480e4a8aa9a956c5501276d2e2fb48410fee810c13c7f5"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1377,
+      "pymupdf_sha256": "b41a71b303aa322e4d1387a7204cf305060e5f0dcc1174d08bcfcb05620c0391",
+      "pypdf_chars": 1377,
+      "pypdf_sha256": "b41a71b303aa322e4d1387a7204cf305060e5f0dcc1174d08bcfcb05620c0391"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 858,
+      "pymupdf_sha256": "b2f8fd15bc46216b629b6518ed7419cd910a86775335c96f3cf117d9bf09e8e6",
+      "pypdf_chars": 858,
+      "pypdf_sha256": "b2f8fd15bc46216b629b6518ed7419cd910a86775335c96f3cf117d9bf09e8e6"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 803,
+      "pymupdf_sha256": "e61605292f5ec473d94ee9ad82dae71a51034ac00d5ca31198e4a775716a47eb",
+      "pypdf_chars": 803,
+      "pypdf_sha256": "e61605292f5ec473d94ee9ad82dae71a51034ac00d5ca31198e4a775716a47eb"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/b27f02bb721ea79f34394292df2ab208af6cb3ad84350bbd2201886cb84f1499.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/b27f02bb721ea79f34394292df2ab208af6cb3ad84350bbd2201886cb84f1499.bin.gz",
+  "source_sha256": "b27f02bb721ea79f34394292df2ab208af6cb3ad84350bbd2201886cb84f1499",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/13532?view=preview"
+}

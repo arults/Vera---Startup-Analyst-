@@ -1,0 +1,49 @@
+{
+  "bytes": 37831420,
+  "campaign_url": "https://republic.com/rehabpath",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "RehabPath Form C.pdf",
+  "page_count": 79,
+  "parent_sha256": "360bf912dd3fcce9aa0d41ff32159e359a3397cbc351760d77ae0d5541a2b60e",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": false,
+      "page": 1,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 3,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": false,
+      "page": 4,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/12f8b75138e25eae3ec428fc2c8f9fa6a81bfc8c185d19af03d32d0557e810c1.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/12f8b75138e25eae3ec428fc2c8f9fa6a81bfc8c185d19af03d32d0557e810c1.bin.gz",
+  "source_sha256": "12f8b75138e25eae3ec428fc2c8f9fa6a81bfc8c185d19af03d32d0557e810c1",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/107?view=preview"
+}

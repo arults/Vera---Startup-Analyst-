@@ -1,0 +1,18 @@
+{
+  "bytes": 29902941,
+  "campaign_url": "https://republic.com/dryvebox",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/851?view=preview",
+  "gzip_sha256": "07c610441ded9727d9f3bc0ef4cb054711cd0b1a48dd7ca2bebbb425985ff0a5",
+  "http_status": 200,
+  "label": "Dryvebox Form C.pdf",
+  "parent_sha256": "d7a93f047c9680832619137013b1ef16ae855a35890546a9b79b37a9de12adf9",
+  "raw_sha256": "d898b0c5e92b17e468b60c5805f802ee08821cbc5ffcf91dd481d1307eb84f73",
+  "received_at": "2026-10-10T02:07:50.728443+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:48.466532+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d898b0c5e92b17e468b60c5805f802ee08821cbc5ffcf91dd481d1307eb84f73.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/851?view=preview"
+}

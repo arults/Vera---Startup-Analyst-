@@ -1,0 +1,18 @@
+{
+  "bytes": 12415224,
+  "campaign_url": "https://republic.com/wandering-barman",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/149?view=preview",
+  "gzip_sha256": "dbe33156bc1a9c3ec6b63dbc858ec7d4d77d366b6bc88879026ba23102eb5959",
+  "http_status": 200,
+  "label": "Wandering Barman Form C:A 02.28.2020.pdf",
+  "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+  "raw_sha256": "c38b41c57a5a4626a2f905c0bc97dce993be63161149a84be44862e4f9721920",
+  "received_at": "2026-10-10T02:09:45.529777+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:44.275721+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c38b41c57a5a4626a2f905c0bc97dce993be63161149a84be44862e4f9721920.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/149?view=preview"
+}

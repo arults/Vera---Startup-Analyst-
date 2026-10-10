@@ -1,0 +1,18 @@
+{
+  "bytes": 23032316,
+  "campaign_url": "https://republic.com/hellowoofy-december-2019",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/115?view=preview",
+  "gzip_sha256": "db0ee09ca2287afe42708e2d93260f432d38f7a00a236f5d70892e4ab1d26963",
+  "http_status": 200,
+  "label": "HelloWoofy Form C.pdf",
+  "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+  "raw_sha256": "5a5aca22508185d3d12c36f5939b25f92027a5a4c9097796f1e9936cb8451538",
+  "received_at": "2026-10-10T02:08:19.866166+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:18.163201+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/5a5aca22508185d3d12c36f5939b25f92027a5a4c9097796f1e9936cb8451538.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/115?view=preview"
+}

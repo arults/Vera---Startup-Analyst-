@@ -1,0 +1,49 @@
+{
+  "bytes": 12771132,
+  "campaign_url": "https://republic.com/bucket-list",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "The Bucket List Studios Form C.pdf",
+  "page_count": 193,
+  "parent_sha256": "79050f084b45a23b8ebff2f005eb21ef9d2f520f51bda2a55a98257d4451e483",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 980,
+      "pymupdf_sha256": "bfa32a546dfb127c204cd98aeda10ea80f3645006725db9eb41c37f1bdaf2700",
+      "pypdf_chars": 980,
+      "pypdf_sha256": "bfa32a546dfb127c204cd98aeda10ea80f3645006725db9eb41c37f1bdaf2700"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 2027,
+      "pymupdf_sha256": "9f54b7f4617c0f46dadd665578e8a09fa3b88543ccf10eb44c8fb17e637513f4",
+      "pypdf_chars": 2028,
+      "pypdf_sha256": "74e46160a7a11dc142012ab4a1fcad87ca7c9c11373c3a4d34c42235f6d3ead2"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1071,
+      "pymupdf_sha256": "deedcdd9e9eb267b726cd5695b7314d17bc26991711cd7c9128995064af15ffc",
+      "pypdf_chars": 1071,
+      "pypdf_sha256": "deedcdd9e9eb267b726cd5695b7314d17bc26991711cd7c9128995064af15ffc"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2877,
+      "pymupdf_sha256": "233d7a4a18110ffc5addc7cbb9888da255b815a3e87ab7b4b940708c33e2df75",
+      "pypdf_chars": 2878,
+      "pypdf_sha256": "792ddd25a12dd1ec1c566f39c2dde5606892e3a88a375ee003416eff9f046990"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/881b5cd514844f38d41e6ffd1db4d897605e5855b9a4f8801ddb2dda951ec6bf.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/881b5cd514844f38d41e6ffd1db4d897605e5855b9a4f8801ddb2dda951ec6bf.bin.gz",
+  "source_sha256": "881b5cd514844f38d41e6ffd1db4d897605e5855b9a4f8801ddb2dda951ec6bf",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/659?view=preview"
+}

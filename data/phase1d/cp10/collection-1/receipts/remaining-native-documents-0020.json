@@ -1,0 +1,14 @@
+{
+  "campaign_url": "https://republic.com/dorahacks",
+  "content_type": "application/pdf",
+  "downloaded_bytes": 48037888,
+  "final_url": "https://republic.com/documents/108?view=preview",
+  "http_status": 200,
+  "label": "Form C:A 12.5.19.pdf",
+  "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:46.958133+00:00",
+  "source_group": "remaining-native-documents",
+  "status": "DOCUMENT_LOCAL_BYTE_LIMIT_HOLD",
+  "url": "https://republic.com/documents/108?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 1554966,
+  "campaign_url": "https://republic.com/welivv",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/72?view=preview",
+  "gzip_sha256": "3173aa0308707589e8868da9ace18c9d33018d17620a06cfebd2786292fdf044",
+  "http_status": 200,
+  "label": "WeLivv Form C.pdf",
+  "parent_sha256": "140fc55cd1a88db074727f90ae585d02316b68a049f558ebd8563ba75e422858",
+  "raw_sha256": "1e31e9e4aa25406b7deb44224c815480c7f0ba7cdcc247af9ec812b26f10ac00",
+  "received_at": "2026-10-10T02:09:51.502788+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:50.825457+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1e31e9e4aa25406b7deb44224c815480c7f0ba7cdcc247af9ec812b26f10ac00.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/72?view=preview"
+}
