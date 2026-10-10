@@ -1,0 +1,19 @@
+{
+  "bytes": 187591,
+  "campaign_url": "https://republic.com/zoop",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/zoop/show_updates",
+  "gzip_sha256": "b4d51dc1322c43bf47ab93695cef57ffb30e2fd2c8c8f967900a77a4e92333cc",
+  "http_status": 200,
+  "legal_name": "Zoop Collective Inc.",
+  "native_offering_id": 7585,
+  "parent_sha256": "ac9f46eccac12ca8ac56b8ba0918fc2dff0bf49d3e565eb729612c2c420b9036",
+  "raw_sha256": "faedc013bdd1ee7bfa7a4ce07f7e198e7cc151f4241892c3dd23f11d206da594",
+  "received_at": "2026-10-10T00:52:51.708448+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:51.088867+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/faedc013bdd1ee7bfa7a4ce07f7e198e7cc151f4241892c3dd23f11d206da594.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/zoop/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 150661,
+  "campaign_url": "https://republic.com/avenify-2020",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/avenify-2020/show_updates",
+  "gzip_sha256": "d4796bd54b30729802ace8dab5770ceab8343d2978902cc132c93facf02128bc",
+  "http_status": 200,
+  "legal_name": "Avenify Corporation",
+  "native_offering_id": 350,
+  "parent_sha256": "557f9fdf6c028aba5cccd6c722c4bcc13403011f191e52f37ccec815e582ad9c",
+  "raw_sha256": "d341a79c3b6e07a6ab71202b2616ac50cd394ea5677e4e751d32fc7adc1d858b",
+  "received_at": "2026-10-10T00:51:45.024565+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:44.390789+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/d341a79c3b6e07a6ab71202b2616ac50cd394ea5677e4e751d32fc7adc1d858b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/avenify-2020/show_updates"
+}

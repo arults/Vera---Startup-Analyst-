@@ -1,0 +1,19 @@
+{
+  "bytes": 158122,
+  "campaign_url": "https://republic.com/whereby-us",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/whereby-us/show_updates",
+  "gzip_sha256": "586527d6d8b64b4f72a9919e06f9e9baa85792706acb6ffbd41ab6f93077c85e",
+  "http_status": 200,
+  "legal_name": "WhereBy.Us Enterprises, Inc",
+  "native_offering_id": 363,
+  "parent_sha256": "b110d698dff6c3cae873a4b331eab3c5ade21cf3d35183c4e723a4c5c3441a66",
+  "raw_sha256": "ca47844d622605f35ccb9c8495493c1857175534596721451668fd7e9d460c1e",
+  "received_at": "2026-10-10T00:52:51.085296+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:50.473056+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/ca47844d622605f35ccb9c8495493c1857175534596721451668fd7e9d460c1e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/whereby-us/show_updates"
+}

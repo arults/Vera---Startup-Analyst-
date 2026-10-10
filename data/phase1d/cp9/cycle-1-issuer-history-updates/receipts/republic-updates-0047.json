@@ -1,0 +1,19 @@
+{
+  "bytes": 147846,
+  "campaign_url": "https://republic.com/hawaiian-bros",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/hawaiian-bros/show_updates",
+  "gzip_sha256": "8b59896e744e321743e29f637651a543118a2ea1b591aa0cace06f556f455875",
+  "http_status": 200,
+  "legal_name": "Hawaiian Bros Inc.",
+  "native_offering_id": 1323,
+  "parent_sha256": "f8407c06b94c8ff0659f82ba26c607e33f1216508e51ddd0f733e3af9952817f",
+  "raw_sha256": "77cb21925ecea509737002453db9fc99a621c16b7db1f141945206b0c27e4434",
+  "received_at": "2026-10-10T00:52:05.194381+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:04.620006+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/77cb21925ecea509737002453db9fc99a621c16b7db1f141945206b0c27e4434.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hawaiian-bros/show_updates"
+}

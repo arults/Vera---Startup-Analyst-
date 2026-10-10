@@ -1,0 +1,19 @@
+{
+  "bytes": 30005,
+  "campaign_url": "https://republic.com/growing-talent",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/growing-talent/show_updates",
+  "gzip_sha256": "b7f3aceeed738a3f6c9ae4e324adec3240e81282158a72aab01903ced900b3f4",
+  "http_status": 200,
+  "legal_name": "Growing Talent LLC",
+  "native_offering_id": 341,
+  "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+  "raw_sha256": "46e13f6c248b2f0918cab322431163c21410925b6cb1f367b71dcceb9c4fbcd9",
+  "received_at": "2026-10-10T00:52:04.618091+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:04.135197+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/46e13f6c248b2f0918cab322431163c21410925b6cb1f367b71dcceb9c4fbcd9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/growing-talent/show_updates"
+}

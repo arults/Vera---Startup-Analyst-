@@ -1,0 +1,19 @@
+{
+  "bytes": 10938,
+  "campaign_url": "https://republic.com/myslabs",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/myslabs/show_updates",
+  "gzip_sha256": "73cfd6b039b64b05d6e76f2583b4ecc8d168daf4a22e2eaa40cdeb6cbfedb6fa",
+  "http_status": 200,
+  "legal_name": "MySlabs, Inc.",
+  "native_offering_id": 3563,
+  "parent_sha256": "10a911aef2a054103c3fa6d1d2db521b224c391f1eb169af1024a2000899792e",
+  "raw_sha256": "b0152ba5f0016953becfcbbcfea6289592aa2644686d357e9800c0c94e198ff2",
+  "received_at": "2026-10-10T00:52:17.471911+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:16.999852+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/b0152ba5f0016953becfcbbcfea6289592aa2644686d357e9800c0c94e198ff2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/myslabs/show_updates"
+}

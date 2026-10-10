@@ -1,0 +1,19 @@
+{
+  "bytes": 165086,
+  "campaign_url": "https://republic.com/soar-robotics",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/soar-robotics/show_updates",
+  "gzip_sha256": "7a336cb8265b809635a322e413e74d05301ff73dc3aa7312a79eaab49d07816c",
+  "http_status": 200,
+  "legal_name": "Soar Robotics Inc.",
+  "native_offering_id": 347,
+  "parent_sha256": "55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+  "raw_sha256": "b6fc542f8a1712a6d67d3706753d0d7ff1ec8508e6c4654f157dd9c782495035",
+  "received_at": "2026-10-10T00:52:34.958278+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:34.300086+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/b6fc542f8a1712a6d67d3706753d0d7ff1ec8508e6c4654f157dd9c782495035.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/soar-robotics/show_updates"
+}

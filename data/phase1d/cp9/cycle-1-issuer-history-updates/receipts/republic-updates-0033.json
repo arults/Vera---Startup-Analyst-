@@ -1,0 +1,19 @@
+{
+  "bytes": 82796,
+  "campaign_url": "https://republic.com/dispatch-goods",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/dispatch-goods/show_updates",
+  "gzip_sha256": "940b1e7f36b6cef2e51649e02b41f0697bd4b8ee84f4aaa5dfcbcab745bce5e7",
+  "http_status": 200,
+  "legal_name": "Dispatch Goods, Inc.",
+  "native_offering_id": 419,
+  "parent_sha256": "6fef4dfb697f9152058156afc8bdf128969102a8c9d000a294843dd79b9339a2",
+  "raw_sha256": "0026ce34bd2db0ce80c2cea254187f2eb6b19fd901236d1707272ed4f4d8fd3d",
+  "received_at": "2026-10-10T00:51:57.470758+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:56.955792+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/0026ce34bd2db0ce80c2cea254187f2eb6b19fd901236d1707272ed4f4d8fd3d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dispatch-goods/show_updates"
+}

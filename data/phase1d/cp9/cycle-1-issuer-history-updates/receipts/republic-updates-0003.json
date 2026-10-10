@@ -1,0 +1,19 @@
+{
+  "bytes": 38332,
+  "campaign_url": "https://republic.com/acciyo",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/acciyo/show_updates",
+  "gzip_sha256": "ffe6f6d3eb9b496254e6781c0a108e3e375ce87b055ee55e5cb46b6ee2a7ce42",
+  "http_status": 200,
+  "legal_name": "acciyo, Inc.",
+  "native_offering_id": 450,
+  "parent_sha256": "b2e6138eb9a260628ad5722d15b83d5fa852dde8c7130434f3edc1f7c108f7ee",
+  "raw_sha256": "72a512fd98e16e19f8cb88501e7afc494613e3a353f1eeb921ab1976b5fa2a13",
+  "received_at": "2026-10-10T00:51:38.749381+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:38.259464+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/72a512fd98e16e19f8cb88501e7afc494613e3a353f1eeb921ab1976b5fa2a13.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/acciyo/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 52908,
+  "campaign_url": "https://republic.com/ample-foods",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/ample-foods/show_updates",
+  "gzip_sha256": "d21f1fa843acf390b114c9e9a9c955b4270c520bd53a519e41c49bdcf7ee8e84",
+  "http_status": 200,
+  "legal_name": "Ample Foods, Inc.",
+  "native_offering_id": 473,
+  "parent_sha256": "6b51446f02e1d505e79a8347595861abbf25d3d014b9856ec3dd0021b2c29b12",
+  "raw_sha256": "80d1416aae7135622d070eaf12a72cc014112f250127e29fcc4e03a9c9a4e303",
+  "received_at": "2026-10-10T00:51:43.253893+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:42.720351+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/80d1416aae7135622d070eaf12a72cc014112f250127e29fcc4e03a9c9a4e303.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ample-foods/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 141623,
+  "campaign_url": "https://republic.com/the-lieu",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/the-lieu/show_updates",
+  "gzip_sha256": "47b6d5987fe68ce83fff63dc36f47fedc3e89300910cdd374a4818bd49552db9",
+  "http_status": 200,
+  "legal_name": "Lieu Ltd.",
+  "native_offering_id": 373,
+  "parent_sha256": "d41c90aafdb883298f7091c6834edcc9b5d3867ddb79c97d778805c6c0fb5b6c",
+  "raw_sha256": "c7d9d1934dc71ae4e8d7972a8e71e04965e9eb205f2fbe9dfe1233ac32e7b02e",
+  "received_at": "2026-10-10T00:52:43.795932+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:43.182417+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/c7d9d1934dc71ae4e8d7972a8e71e04965e9eb205f2fbe9dfe1233ac32e7b02e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/the-lieu/show_updates"
+}

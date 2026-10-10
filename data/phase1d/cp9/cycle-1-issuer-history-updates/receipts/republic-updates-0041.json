@@ -1,0 +1,19 @@
+{
+  "bytes": 60922,
+  "campaign_url": "https://republic.com/fig-portfolio",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/fig-portfolio/show_updates",
+  "gzip_sha256": "b1120e1d62c758392040730fac93a36accab579e99a920b3269297ce66bd0db8",
+  "http_status": 200,
+  "legal_name": "Fig Publishing, Inc.",
+  "native_offering_id": 1008,
+  "parent_sha256": "d114c4c454d304661f6245cc2e1e23034810eff992131eb2f88cf64f32caeddd",
+  "raw_sha256": "851d72e1a1cd2b4f80bfcf362478ca1857db649f2df2aab6144cc80bbf0b3048",
+  "received_at": "2026-10-10T00:52:02.113604+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:01.595980+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/851d72e1a1cd2b4f80bfcf362478ca1857db649f2df2aab6144cc80bbf0b3048.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fig-portfolio/show_updates"
+}

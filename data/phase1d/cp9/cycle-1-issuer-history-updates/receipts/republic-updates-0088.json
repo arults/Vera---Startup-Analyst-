@@ -1,0 +1,19 @@
+{
+  "bytes": 84202,
+  "campaign_url": "https://republic.com/rodriguez",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/rodriguez/show_updates",
+  "gzip_sha256": "3be5f3a4018732f0266ce67745aa232d2711d0d05f11f9d43301bc181b48fa55",
+  "http_status": 200,
+  "legal_name": "RR Action LLC",
+  "native_offering_id": 11703,
+  "parent_sha256": "1c216486f50b75622c1f5a133806ed4dd3635cb5ddc9b8d71bfae06ba17cd445",
+  "raw_sha256": "0d09f81369f0d0759adae7a5dc03501591052515f26a964fcd2b2a1b2489ae83",
+  "received_at": "2026-10-10T00:52:30.339335+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:29.743950+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/0d09f81369f0d0759adae7a5dc03501591052515f26a964fcd2b2a1b2489ae83.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/rodriguez/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 103942,
+  "campaign_url": "https://republic.com/ip3",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/ip3/show_updates",
+  "gzip_sha256": "365265decbb29020c6caefa12f5bc956feb979c06b99a9555f202063fdd8f89f",
+  "http_status": 200,
+  "legal_name": "IP3 Labs Inc.",
+  "native_offering_id": 4767,
+  "parent_sha256": "c47190bf61700556d40f351b0551722a51d5c6d9d490dc96007c11b2bf7742c7",
+  "raw_sha256": "c6adbe0241aa720ead6924223c535ec36642138dd4fb15a6e9b3beb054782ed8",
+  "received_at": "2026-10-10T00:52:11.532259+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:10.971514+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/c6adbe0241aa720ead6924223c535ec36642138dd4fb15a6e9b3beb054782ed8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ip3/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 84479,
+  "campaign_url": "https://republic.com/dallas-cityfund-a",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/dallas-cityfund-a/show_updates",
+  "gzip_sha256": "06a023f8d95895450c89dc3c056d512f6cf24183aa4074a7aee4be72243ae861",
+  "http_status": 200,
+  "legal_name": "Cityfunds I, LLC",
+  "native_offering_id": 1905,
+  "parent_sha256": "41a29f020595b78e004e20c94c169299087949723be517fa6fc9b685e76204b1",
+  "raw_sha256": "0f789215ac5fafdb80be3ec80f7e9319d3d07da36883cc6554524e632663ed29",
+  "received_at": "2026-10-10T00:51:55.622809+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:55.084916+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/0f789215ac5fafdb80be3ec80f7e9319d3d07da36883cc6554524e632663ed29.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dallas-cityfund-a/show_updates"
+}

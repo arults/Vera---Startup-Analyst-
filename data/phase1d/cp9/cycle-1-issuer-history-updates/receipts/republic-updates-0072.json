@@ -1,0 +1,19 @@
+{
+  "bytes": 83242,
+  "campaign_url": "https://republic.com/phantom-phood",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/phantom-phood/show_updates",
+  "gzip_sha256": "22ba21b504374eb3d36f8b27402105248e4f4c12969d1bd8dd9e55ca63dccccd",
+  "http_status": 200,
+  "legal_name": "Phantom Phood Inc",
+  "native_offering_id": 2045,
+  "parent_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+  "raw_sha256": "358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f",
+  "received_at": "2026-10-10T00:52:20.721465+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:20.195114+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/phantom-phood/show_updates"
+}

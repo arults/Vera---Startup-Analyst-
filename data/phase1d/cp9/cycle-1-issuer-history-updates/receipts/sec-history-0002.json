@@ -1,0 +1,23 @@
+{
+  "associations": [
+    {
+      "name": "ACFN Franchised Inc.",
+      "platform": "republic_us",
+      "source_url": "https://republic.com/acfn"
+    }
+  ],
+  "bytes": 4819,
+  "cik": "1944335",
+  "content_type": "text/html",
+  "final_url": "https://data.sec.gov/submissions/CIK0001944335.json",
+  "gzip_sha256": "1850169ba9b7956d9c0cfe7d51add0ba4bb05e0086ec77281c41d82e04de86dd",
+  "http_status": 403,
+  "raw_sha256": "f4764d7449b3ab16f6e3792912aa8ffb280f4daa366437d1cf6c91d4b73330bc",
+  "received_at": "2026-10-10T00:51:37.872163+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:37.456069+00:00",
+  "source_group": "sec-history",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/f4764d7449b3ab16f6e3792912aa8ffb280f4daa366437d1cf6c91d4b73330bc.bin.gz",
+  "status": "HTTP_ERROR_OR_UNFOLLOWED_REDIRECT",
+  "url": "https://data.sec.gov/submissions/CIK0001944335.json"
+}

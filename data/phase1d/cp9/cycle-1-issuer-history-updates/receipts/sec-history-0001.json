@@ -1,0 +1,23 @@
+{
+  "associations": [
+    {
+      "name": "Trusst Health Inc.",
+      "platform": "republic_us",
+      "source_url": "https://republic.com/trusst"
+    }
+  ],
+  "bytes": 4819,
+  "cik": "1827297",
+  "content_type": "text/html",
+  "final_url": "https://data.sec.gov/submissions/CIK0001827297.json",
+  "gzip_sha256": "46147c62e65fb9e0ee968ec611215c15cd01b17aad7ff5cad2c48e5847cfa296",
+  "http_status": 403,
+  "raw_sha256": "7f3c1d3fab72b86ef399a85ba3eefed2bf76304438127e31cee6ec6590d76104",
+  "received_at": "2026-10-10T00:51:37.455755+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:36.941449+00:00",
+  "source_group": "sec-history",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/7f3c1d3fab72b86ef399a85ba3eefed2bf76304438127e31cee6ec6590d76104.bin.gz",
+  "status": "HTTP_ERROR_OR_UNFOLLOWED_REDIRECT",
+  "url": "https://data.sec.gov/submissions/CIK0001827297.json"
+}

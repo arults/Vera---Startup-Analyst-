@@ -1,0 +1,19 @@
+{
+  "bytes": 110813,
+  "campaign_url": "https://republic.com/stareable",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/stareable/show_updates",
+  "gzip_sha256": "070484f34664fc533522e768cd33d69082ddde6ca3c8e24adf4e4e67d073730c",
+  "http_status": 200,
+  "legal_name": "Stareable, Inc.",
+  "native_offering_id": 430,
+  "parent_sha256": "075b7b6d99f1f540b2a3e2e868bdc3807ebf9ec7d30782362862299f13a94980",
+  "raw_sha256": "5f37bbe13e6d6fea485c14d77e9962204725b6defd28357249e112d289a817b6",
+  "received_at": "2026-10-10T00:52:36.738022+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:36.158835+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/5f37bbe13e6d6fea485c14d77e9962204725b6defd28357249e112d289a817b6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/stareable/show_updates"
+}

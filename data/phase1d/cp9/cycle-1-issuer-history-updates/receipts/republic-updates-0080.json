@@ -1,0 +1,19 @@
+{
+  "bytes": 59320,
+  "campaign_url": "https://republic.com/realtyfeed",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/realtyfeed/show_updates",
+  "gzip_sha256": "5c1a74cf8830f8d1c7d8328f2ed0b8d9ced73ab796d0676c35d232cf5f65d562",
+  "http_status": 200,
+  "legal_name": "Realtyna Inc.",
+  "native_offering_id": 616,
+  "parent_sha256": "f67fc4abcd6a0c4028b248b0863d524f47f84d8bab1036be77cb09a1e59bd8ad",
+  "raw_sha256": "8da15293ff8de22f463049de2895e47945b7d0a5de5c39df1cb42eb00276976e",
+  "received_at": "2026-10-10T00:52:25.463151+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:24.928333+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/8da15293ff8de22f463049de2895e47945b7d0a5de5c39df1cb42eb00276976e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/realtyfeed/show_updates"
+}

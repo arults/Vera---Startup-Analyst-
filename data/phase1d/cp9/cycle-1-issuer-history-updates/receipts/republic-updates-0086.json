@@ -1,0 +1,19 @@
+{
+  "bytes": 107156,
+  "campaign_url": "https://republic.com/ring4",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/ring4/show_updates",
+  "gzip_sha256": "a21293e8bfafa19ccfe77e81ecd728ca02dc10f43b3c02610814453d06e06be9",
+  "http_status": 200,
+  "legal_name": "YOURVIRTUALSIM INC",
+  "native_offering_id": 150,
+  "parent_sha256": "d30a96b61153b88ea9f27ca90052213b835c124f312a82f9ff14b4ab05d6ea55",
+  "raw_sha256": "fa821d8cc70cdc4e779363e6d2e997259bc7af7cbebafd0d410b796ed8f25e31",
+  "received_at": "2026-10-10T00:52:29.095473+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:28.531589+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/fa821d8cc70cdc4e779363e6d2e997259bc7af7cbebafd0d410b796ed8f25e31.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ring4/show_updates"
+}

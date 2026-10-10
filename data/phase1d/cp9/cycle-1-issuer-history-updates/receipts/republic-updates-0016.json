@@ -1,0 +1,19 @@
+{
+  "bytes": 42812,
+  "campaign_url": "https://republic.com/beacons-ai",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/beacons-ai/show_updates",
+  "gzip_sha256": "4ab28606a8b36626384f026f5bd08bdbc36dc4dc503fd1317fe58467ed0e229d",
+  "http_status": 200,
+  "legal_name": "Beacons AI, Inc.",
+  "native_offering_id": 854,
+  "parent_sha256": "bcc0d53dc9649b4b1057e155dea4e98911ae18b0dc15cb925bbb10c268aa3ef7",
+  "raw_sha256": "6c97bad947531c6848ea33ae69122a559a34822a386e13e94d136c73fcfd77e1",
+  "received_at": "2026-10-10T00:51:46.781445+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:46.276420+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/6c97bad947531c6848ea33ae69122a559a34822a386e13e94d136c73fcfd77e1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/beacons-ai/show_updates"
+}

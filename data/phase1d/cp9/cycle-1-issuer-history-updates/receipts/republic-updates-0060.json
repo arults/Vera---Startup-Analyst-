@@ -1,0 +1,19 @@
+{
+  "bytes": 1851,
+  "campaign_url": "https://republic.com/knightscope",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/knightscope/show_updates",
+  "gzip_sha256": "5d6498dad05d62571313427b6b6b65729c40e55af1b3ebd05562a9dc822b7692",
+  "http_status": 200,
+  "legal_name": "Knightscope, Inc.",
+  "native_offering_id": 7684,
+  "parent_sha256": "fc9c5736a16099dc133d7282ad31fbd9f58ae62c11c4374ff98e7e954a65c3b7",
+  "raw_sha256": "2f7350c054d2a24b4f93eee3317b93cd3074d97f7845f43fb75b08d2f069763c",
+  "received_at": "2026-10-10T00:52:14.381685+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:13.931629+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/2f7350c054d2a24b4f93eee3317b93cd3074d97f7845f43fb75b08d2f069763c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/knightscope/show_updates"
+}

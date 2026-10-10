@@ -1,0 +1,19 @@
+{
+  "bytes": 80309,
+  "campaign_url": "https://republic.com/soon",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/soon/show_updates",
+  "gzip_sha256": "d53abfd519d6df2a90e261f89df61fa03d8722ede881b164a5218cc0174546fe",
+  "http_status": 200,
+  "legal_name": "Safehaven Labs, Inc.",
+  "native_offering_id": 2063,
+  "parent_sha256": "39161b48e118580ae9dd2472f91267d413d83719e7d4056604ec7c9d57a473a6",
+  "raw_sha256": "5d88d0e70d2a7927dcdde7909094fc2f70befb5bf70da60876bd5b3cf6a70c0a",
+  "received_at": "2026-10-10T00:52:35.496626+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:34.962024+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/5d88d0e70d2a7927dcdde7909094fc2f70befb5bf70da60876bd5b3cf6a70c0a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/soon/show_updates"
+}

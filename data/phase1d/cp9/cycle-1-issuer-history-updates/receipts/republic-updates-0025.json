@@ -1,0 +1,19 @@
+{
+  "bytes": 13303,
+  "campaign_url": "https://republic.com/choix",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/choix/show_updates",
+  "gzip_sha256": "52ea6048dda7553a0cc2d7ce205cb9fc5a860b8615cc36483b791f8b767fb658",
+  "http_status": 200,
+  "legal_name": "Choix, Inc.",
+  "native_offering_id": 1835,
+  "parent_sha256": "5a2a7b0e509e1f1226e2a20b4dee8fb076987abd73d4cc75eb9ff9390a5e5973",
+  "raw_sha256": "4ba9077d9e79c58aa2a470ad0f60984c1ee9cda4a22d22fae26920b6bda11325",
+  "received_at": "2026-10-10T00:51:52.439779+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:51.946748+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/4ba9077d9e79c58aa2a470ad0f60984c1ee9cda4a22d22fae26920b6bda11325.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/choix/show_updates"
+}

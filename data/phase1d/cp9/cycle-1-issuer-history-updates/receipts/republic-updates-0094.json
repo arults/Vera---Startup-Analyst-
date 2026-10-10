@@ -1,0 +1,19 @@
+{
+  "bytes": 250823,
+  "campaign_url": "https://republic.com/skyhi",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/skyhi/show_updates",
+  "gzip_sha256": "21e08ff8b046e58b4bda8077656fc6a35eacd2c9aa2e4deae39f4cb80b54c008",
+  "http_status": 200,
+  "legal_name": "SkyHi Travel, Inc.",
+  "native_offering_id": 322,
+  "parent_sha256": "9907b59f3610850aa18a102bef96d4a51d41c97e3b631973da7b70aa9cb909bf",
+  "raw_sha256": "1589f77f592d592c5acdb21dca1dc52b3f60ececd39a0471b46cbb3363b0b883",
+  "received_at": "2026-10-10T00:52:34.295173+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:33.541764+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/1589f77f592d592c5acdb21dca1dc52b3f60ececd39a0471b46cbb3363b0b883.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/skyhi/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 120355,
+  "campaign_url": "https://republic.com/hold-the-magic",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/hold-the-magic/show_updates",
+  "gzip_sha256": "afa40da54db1d6b137593ffebcd7622c2d5cf6bb56d81a8d61e15248355e157e",
+  "http_status": 200,
+  "legal_name": "HOLD THE MAGIC, INC.",
+  "native_offering_id": 1192,
+  "parent_sha256": "6e5054aff15aac2aab0353b670b51878514d00d912c2656e55daeaf27b10f024",
+  "raw_sha256": "6c6be3e41cd02e7ee6318804682bede86146b3396b00ceb5a7b6aac94ece9be2",
+  "received_at": "2026-10-10T00:52:08.626850+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:08.040678+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/6c6be3e41cd02e7ee6318804682bede86146b3396b00ceb5a7b6aac94ece9be2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hold-the-magic/show_updates"
+}

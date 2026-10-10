@@ -1,0 +1,19 @@
+{
+  "bytes": 1857,
+  "campaign_url": "https://republic.com/revero",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/revero/show_updates",
+  "gzip_sha256": "54cde671984e3db8b6562a668db804fff3d020f9d8a43c50e889c3bed73a1977",
+  "http_status": 200,
+  "legal_name": "Revero Inc",
+  "native_offering_id": 15907,
+  "parent_sha256": "976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+  "raw_sha256": "acb182a43820f3804235daf759b7f9b95c97da14ee86a14ed9d37fb02f32bbbc",
+  "received_at": "2026-10-10T00:52:27.789102+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:27.329892+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/acb182a43820f3804235daf759b7f9b95c97da14ee86a14ed9d37fb02f32bbbc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/revero/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 140090,
+  "campaign_url": "https://republic.com/base8",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/base8/show_updates",
+  "gzip_sha256": "c3b43a6e533e9be4567e585fe0ef35a6c648afacc21997855ddc9cc4c988f0d2",
+  "http_status": 200,
+  "legal_name": "Base8 Inc.",
+  "native_offering_id": 10172,
+  "parent_sha256": "c71ec5fdc1ac7b4140a8a4c74abedeb24db615e53559ffd596c222b09a1c2765",
+  "raw_sha256": "69270054ee28d3adcb448dc255e3fba825eba92d79bf68090bf2a94189a06fca",
+  "received_at": "2026-10-10T00:51:46.272952+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:45.694134+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/69270054ee28d3adcb448dc255e3fba825eba92d79bf68090bf2a94189a06fca.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/base8/show_updates"
+}

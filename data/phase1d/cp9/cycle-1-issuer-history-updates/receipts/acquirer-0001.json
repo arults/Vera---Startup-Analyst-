@@ -1,0 +1,20 @@
+{
+  "bytes": 13045,
+  "company": "Trusst",
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Official acquirer result discovered by web search on 2026-10-10",
+  "final_url": "https://www.khealth.com/blog/about-k/k-health-acquires-trusst",
+  "gzip_sha256": "5b86dee5dbc3962ad096055eb320009607f77ee42a94249cf88264f4157139f0",
+  "http_status": 404,
+  "purpose": "Acquisition announcement; NOT exact closing date or investor cashflow date",
+  "raw_sha256": "e6c3ce8d04977feef0f175d393fa1497eeb08f33eb674eb5f2f596eafc52ffc9",
+  "received_at": "2026-10-10T00:51:37.604280+00:00",
+  "redirects": [
+    "https://www.khealth.com/blog/about-k/k-health-acquires-trusst"
+  ],
+  "retrieval_started_at": "2026-10-10T00:51:36.941980+00:00",
+  "source_group": "acquirer",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/e6c3ce8d04977feef0f175d393fa1497eeb08f33eb674eb5f2f596eafc52ffc9.bin.gz",
+  "status": "HTTP_ERROR_OR_UNFOLLOWED_REDIRECT",
+  "url": "https://www.khealth.com/blog/about-k/k-health-acquires-trusst/"
+}

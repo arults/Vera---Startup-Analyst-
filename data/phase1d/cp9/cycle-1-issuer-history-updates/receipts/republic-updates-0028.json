@@ -1,0 +1,19 @@
+{
+  "bytes": 79139,
+  "campaign_url": "https://republic.com/cricclubs",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/cricclubs/show_updates",
+  "gzip_sha256": "355ac6af61b0b12a09f60aafbea1509b0a4aa9f37764004a2d88daf10fcddd4e",
+  "http_status": 200,
+  "legal_name": "CricClubs Inc",
+  "native_offering_id": 468,
+  "parent_sha256": "83136c730d12a4a0afcee2b5b5e1e4228e4fbf876b73e11a425875f8967cbf70",
+  "raw_sha256": "6fa0913779d52093bb23231554cde722f448a8fd398c7ebda6ae6aa5f84188ab",
+  "received_at": "2026-10-10T00:51:54.166478+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:53.640794+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/6fa0913779d52093bb23231554cde722f448a8fd398c7ebda6ae6aa5f84188ab.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cricclubs/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 137880,
+  "campaign_url": "https://republic.com/sparkle",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/sparkle/show_updates",
+  "gzip_sha256": "ed2e58f6fe9d3db5c5484f3bc108538a5c77a3d1a7619692e62bc6fac76445fb",
+  "http_status": 200,
+  "legal_name": "SPARKLE INNOVATIONS INC",
+  "native_offering_id": 403,
+  "parent_sha256": "1fb9373f7e33c643371cea7fe41c8f7931f25281121964f0c42db41a53fd2358",
+  "raw_sha256": "1eadf9408c1f334bf3d41d743f88ba55d1dfef412507faf5ef9a02a2c051a0a6",
+  "received_at": "2026-10-10T00:52:36.155342+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:35.499268+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/1eadf9408c1f334bf3d41d743f88ba55d1dfef412507faf5ef9a02a2c051a0a6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sparkle/show_updates"
+}

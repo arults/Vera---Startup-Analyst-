@@ -1,0 +1,19 @@
+{
+  "bytes": 185325,
+  "campaign_url": "https://republic.com/a-boring-life",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/a-boring-life/show_updates",
+  "gzip_sha256": "91da7e390fb015601e12a735057dd6689702612fbe148a9e4c9085be85a4ec48",
+  "http_status": 200,
+  "legal_name": "A Boring Life, Inc",
+  "native_offering_id": 449,
+  "parent_sha256": "e932f49dda4ad9a245ce7718b5d6ff9398ac55f73720c312e3b5fbab79969333",
+  "raw_sha256": "8a3297030e5f8adec823f01414ed56f8c1b181c5153d6ebe0faf92832b0c44b7",
+  "received_at": "2026-10-10T00:51:38.254836+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:37.572661+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/8a3297030e5f8adec823f01414ed56f8c1b181c5153d6ebe0faf92832b0c44b7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/a-boring-life/show_updates"
+}

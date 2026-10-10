@@ -1,0 +1,19 @@
+{
+  "bytes": 171528,
+  "campaign_url": "https://republic.com/hive",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/hive/show_updates",
+  "gzip_sha256": "064f2936c4bc69ea90257fa61152997bf38e4a426abfdd1061c0b9d59a942f4a",
+  "http_status": 200,
+  "legal_name": "Hive Companies, Inc.",
+  "native_offering_id": 415,
+  "parent_sha256": "fbbaae9e21253a9096a2299f831f6655df6a30509056b16828231dc6a2c66351",
+  "raw_sha256": "87a99a55bccf304413e73dc8a3fc5c01fe5eabf2bdb26ca4f5a5cc3969f82450",
+  "received_at": "2026-10-10T00:52:08.036864+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:07.405618+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/87a99a55bccf304413e73dc8a3fc5c01fe5eabf2bdb26ca4f5a5cc3969f82450.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hive/show_updates"
+}

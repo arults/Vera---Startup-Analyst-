@@ -1,0 +1,19 @@
+{
+  "bytes": 107941,
+  "campaign_url": "https://republic.com/trusst",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/trusst/show_updates",
+  "gzip_sha256": "3bc3b6a1f1bd5800c8546d48862c98bec868a92546c7888aac261ec15bd1d1c1",
+  "http_status": 200,
+  "legal_name": "Trusst Health Inc.",
+  "native_offering_id": 674,
+  "parent_sha256": "75e4ff315ef654667ac34c1391150853f7d9a41a8b79c922ec72cfd5852530b3",
+  "raw_sha256": "6e7d670e70b9ace7b45ce93451cf3f6aebb8782f21ad8bdb37d41f5abc627adc",
+  "received_at": "2026-10-10T00:51:37.569303+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:36.941753+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/6e7d670e70b9ace7b45ce93451cf3f6aebb8782f21ad8bdb37d41f5abc627adc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/trusst/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 338100,
+  "campaign_url": "https://republic.com/altwork",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/altwork/show_updates",
+  "gzip_sha256": "b4a02a353bf567bb01e152deb43dae881c546e06a1bd86e971396bb3382ba529",
+  "http_status": 200,
+  "legal_name": "SV Tool Corp",
+  "native_offering_id": 1213,
+  "parent_sha256": "4b094d376db802b961975d6c6af093658c7bfcaafad4becda1edede2248ef1ba",
+  "raw_sha256": "549e67cb08eb20497a8dedbc7d04ed819dd692b683b1ee9295de57b581efd657",
+  "received_at": "2026-10-10T00:51:42.713953+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:41.948483+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/549e67cb08eb20497a8dedbc7d04ed819dd692b683b1ee9295de57b581efd657.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/altwork/show_updates"
+}

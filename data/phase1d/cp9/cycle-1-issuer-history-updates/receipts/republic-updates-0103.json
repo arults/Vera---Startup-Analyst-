@@ -1,0 +1,19 @@
+{
+  "bytes": 273535,
+  "campaign_url": "https://republic.com/sunu",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/sunu/show_updates",
+  "gzip_sha256": "fceb09657c78811ba4f06a588dddf65ab888627c5239c6bd0468d94b322614eb",
+  "http_status": 200,
+  "legal_name": "Sunu, Inc.",
+  "native_offering_id": 365,
+  "parent_sha256": "f93d05d880802cf3e73009ef289680c74c46536dded7d19b0011793f7bf37525",
+  "raw_sha256": "f0243a5658d09347f44b5f677b7a89e70858fb783be0a19312c62acd62ed1ffe",
+  "received_at": "2026-10-10T00:52:39.825561+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:39.122803+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/f0243a5658d09347f44b5f677b7a89e70858fb783be0a19312c62acd62ed1ffe.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sunu/show_updates"
+}

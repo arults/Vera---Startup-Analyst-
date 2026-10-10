@@ -1,0 +1,19 @@
+{
+  "bytes": 1851,
+  "campaign_url": "https://republic.com/gopillar",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/gopillar/show_updates",
+  "gzip_sha256": "00b56f2776235725ca56ebf82fe510775d5fc4522b654f970d25078f112f531c",
+  "http_status": 200,
+  "legal_name": "Cocontest Inc.",
+  "native_offering_id": 1325,
+  "parent_sha256": "21bd74c4ae2a1bb4016781880b6dc80e228ffa5ba09dd22e1364f34f5f7b23b8",
+  "raw_sha256": "0366bf4b9878883a57e3c6589cf0f914d1df784ecf1a9491e65baa4b75c993c1",
+  "received_at": "2026-10-10T00:52:03.622800+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:03.167465+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/0366bf4b9878883a57e3c6589cf0f914d1df784ecf1a9491e65baa4b75c993c1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/gopillar/show_updates"
+}

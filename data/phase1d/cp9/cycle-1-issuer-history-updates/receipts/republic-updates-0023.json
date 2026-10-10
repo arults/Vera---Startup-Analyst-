@@ -1,0 +1,19 @@
+{
+  "bytes": 37473,
+  "campaign_url": "https://republic.com/capsule-social",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/capsule-social/show_updates",
+  "gzip_sha256": "4ef78fd3aa5782f86eb7f03af2ce19ca80c3e6b38d38254e4c25fb74628cd0b3",
+  "http_status": 200,
+  "legal_name": "Capsule Social, Inc.",
+  "native_offering_id": 1318,
+  "parent_sha256": "c02a1ac507dbd80d0c3f3d3ce66a1f1e0bcaa128821749869fe52167d90a115a",
+  "raw_sha256": "62090aa3c2ff4552030d3972d44889452d690b5216b7ba1611a65f067371c774",
+  "received_at": "2026-10-10T00:51:51.210237+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:50.725386+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/62090aa3c2ff4552030d3972d44889452d690b5216b7ba1611a65f067371c774.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/capsule-social/show_updates"
+}

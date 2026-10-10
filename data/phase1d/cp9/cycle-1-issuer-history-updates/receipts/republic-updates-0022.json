@@ -1,0 +1,19 @@
+{
+  "bytes": 392852,
+  "campaign_url": "https://republic.com/callingdr",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/callingdr/show_updates",
+  "gzip_sha256": "f7855d33e3edd9bd2efa244b585ae9314bae3713ba229d4956c0dd820f6af42e",
+  "http_status": 200,
+  "legal_name": "MYAPPS CORP.",
+  "native_offering_id": 476,
+  "parent_sha256": "0a0c0839b978bd5d69d067a6e732892185b49d271f8cdffe890328872c9456ff",
+  "raw_sha256": "253ba0a45cebb2e09287d7aa081a4f041b675e3533a70184d5943f0c3a586af8",
+  "received_at": "2026-10-10T00:51:50.717980+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:49.898453+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/253ba0a45cebb2e09287d7aa081a4f041b675e3533a70184d5943f0c3a586af8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/callingdr/show_updates"
+}

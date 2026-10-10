@@ -1,0 +1,19 @@
+{
+  "bytes": 102208,
+  "campaign_url": "https://republic.com/horrorsection",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/horrorsection/show_updates",
+  "gzip_sha256": "cd38cb5cd75354a4a74e4ad6e74ffd87b8286225f9ec9908a31682f7e6577eed",
+  "http_status": 200,
+  "legal_name": "The Horror Section Inc",
+  "native_offering_id": 13662,
+  "parent_sha256": "97ccf48df2244d598c4d99192e38232d0e688fb9614d45898ec620c909d9bba2",
+  "raw_sha256": "710395c4e07a6c8e60d29d1546934475977910cf1e0817104d4aaa8dcf8c2ef8",
+  "received_at": "2026-10-10T00:52:09.874380+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:09.276257+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/710395c4e07a6c8e60d29d1546934475977910cf1e0817104d4aaa8dcf8c2ef8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/horrorsection/show_updates"
+}

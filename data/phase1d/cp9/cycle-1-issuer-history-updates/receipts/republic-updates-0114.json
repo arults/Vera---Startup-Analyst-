@@ -1,0 +1,19 @@
+{
+  "bytes": 65757,
+  "campaign_url": "https://republic.com/upside-app",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/upside-app/show_updates",
+  "gzip_sha256": "cc54ea59296a578fa6cdf80ed62fb9c38330f5269a42646dbb3551de0519a206",
+  "http_status": 200,
+  "legal_name": "Vision Sports Ventures, PBC",
+  "native_offering_id": 10738,
+  "parent_sha256": "e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c",
+  "raw_sha256": "826e19445ac01d7649b195cd57354ed59f62e745fd0981d73fc62c2a37a3bd8b",
+  "received_at": "2026-10-10T00:52:46.562548+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:46.038246+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/826e19445ac01d7649b195cd57354ed59f62e745fd0981d73fc62c2a37a3bd8b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/upside-app/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 367231,
+  "campaign_url": "https://republic.com/alpha-a",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/alpha-a/show_updates",
+  "gzip_sha256": "b97f2bcf28ca4f1c4a54fee381d42bc359948dc016bc287e00c657822a4336b5",
+  "http_status": 200,
+  "legal_name": "Alpha'a inc",
+  "native_offering_id": 360,
+  "parent_sha256": "70dcbbe0f33214c33d3b57564c8f879fb575782f721df874f68e498dc691ed01",
+  "raw_sha256": "f5f2348ebed38fb347889e6545df861bd4fbc45303a9cecaf1a3a1c8c34f904e",
+  "received_at": "2026-10-10T00:51:40.793029+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:40.013396+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/f5f2348ebed38fb347889e6545df861bd4fbc45303a9cecaf1a3a1c8c34f904e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/alpha-a/show_updates"
+}

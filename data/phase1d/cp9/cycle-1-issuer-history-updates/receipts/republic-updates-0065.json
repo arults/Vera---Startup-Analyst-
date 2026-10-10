@@ -1,0 +1,19 @@
+{
+  "bytes": 27040,
+  "campaign_url": "https://republic.com/moriondo-coffee",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/moriondo-coffee/show_updates",
+  "gzip_sha256": "835055b0c13832090e4c2b7862b3088de4cdd1b4c3192b6f7665b549b6b964fb",
+  "http_status": 200,
+  "legal_name": "Luxbeverage LLC",
+  "native_offering_id": 1277,
+  "parent_sha256": "16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+  "raw_sha256": "9d66cdcfce03dedaf816a67523b8580b40debe9ffdbde59b3256d3b0751506b9",
+  "received_at": "2026-10-10T00:52:16.997880+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:16.498121+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/9d66cdcfce03dedaf816a67523b8580b40debe9ffdbde59b3256d3b0751506b9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/moriondo-coffee/show_updates"
+}
