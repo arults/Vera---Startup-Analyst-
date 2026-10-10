@@ -1,5 +1,51 @@
 # SKILLS.md — Vera operational research memory
 
+## Latest authority — CP10 continuation, 2026-10-10
+
+Read `checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md` and `evidence/phase1d_cp10/continuation_2026_10_10_manifest.json` first. This entry supersedes older restart pointers and stale queue/count/completion wording below, while preserving earlier evidence and safeguards. Source snapshot: `7291d33ff32cdd6b07ae9cfe1f342849a447f536`. CP10 collection versions are `0.6.5-dev.research.1` and `.2`; promoted VERSION remains `0.5.0`.
+
+Status: VERIFIED SOURCE-FIELD PROGRESS; PHASE 1D INCOMPLETE; GLOBAL RESEARCH PLATEAU NOT DEMONSTRATED. No new canonical economic round, numerical prior, main merge or deployment is admitted by this documentation checkpoint.
+
+### Source units and current checkpoints
+
+- Republic US CP10: 568 distinct native campaign IDs/URLs, 449 launch-verified rows, and 363 launch-year candidates in 2020–2025. All 363 have timeline completion; 335 also match parent close, then 305 have one unvalidated linked CIK, then 233 market a SAFE-family security. This is a nested research-priority funnel, not a funded cohort. All new canonical IDs and estimation eligibility remain unadmitted.
+- The old 106-document download backlog is stale: all 106 requests were attempted; 105 PDFs were captured across both collections. The remaining format hold was subsequently identified and parsed as StartGlobal DOCX. Eight bounded document-field reviews are independently accepted; this does not mean all 106 documents have complete semantic review.
+- Current sitemap coverage is not historical population coverage. The 53,854 URLs are not campaign counts; 1,242 classified single-path URLs include 323 unavailable entries, of which 318 were not attempted after an access circuit opened. Fourteen known legacy campaigns are missing from the current sitemap. Wefunder, StartEngine, Crowdcube and Republic US historical censuses remain incomplete.
+
+### Reusable corrections and admission rules
+
+1. Keep URL, campaign, issuer, economic round, completed fundraising and population counts separate. Do not pool Republic US with Republic Europe or add unrelated Wefunder frames.
+2. Validate identifiers by their labeled role. Republic cover CIK `0001751525` is the intermediary OpenDeal Portal, not proof of an issuer CIK. Accepting a document-level legal name does not accept canonical cross-round identity.
+3. Keep Form C signing, first-live/launch, target deadline, amendment and actual financing completion as distinct events. Stock Card signing on 2022-08-29 and inherited launch on 2022-09-06 are compatible. A 2023 amendment to a Series 2022 SAFE is not a new 2023 economic round. A 2020 deadline cannot move an inherited 2019 launch into the study.
+4. Preserve literal contractual formulas and their scope. Layali's source summary multiplies financing price by 20%; do not rewrite that as a 20% discount. Get On Board explicitly states a 20% discount, corresponding to an 80% price fraction. A cap or conversion numerator is not a priced-equity valuation.
+5. Distinguish actual SAFE signature blocks from nominee/proxy blocks. Both sets remain blank in the reviewed templates; an original Form C is not proof of investor execution, receipt of funds or security issuance. Preserve exact series and reconcile amendments before claiming latest operative terms.
+6. Successful parsing resolves a format issue only. For StartGlobal, custody/nominee summary text exists, but full agreement bodies are absent. Do not infer operative clauses from headings or substitute derived-render page numbers for DOCX paragraph anchors.
+7. Bind source URL, immutable commit, raw/decompressed SHA-256, compressed SHA-256, Git blob hash, and physical page or OOXML paragraph anchors. Distinguish parser whitespace normalization from byte identity. A corrected ledger needs its own independent review binding; older JEV receipts remain tied to their original inputs.
+8. Close only the reviewed scope. Document-field acceptance is separate from canonical identity, funded Layer B, outcomes, historical population, estimation eligibility and scientific completion. Preserve unknowns, exclusion controls and missing-source states; no imputed closure, survival, returns or censor dates.
+9. Date every progress snapshot and use its source-bound counts. Preserve historical checkpoints without treating their old queue sizes, restart pointers or replay/CI successes as current status or research plateau.
+
+Next scientific gates: validate issuer and canonical economic-round identity; reconcile original/amended instrument chains and actual issuance; establish funded close/time zero; collect admissible dated outcomes; complete historical populations; then rerun estimator and independent scientific gates. Numerical promotion remains blocked.
+
+
+### Further verified continuation: StartEngine
+
+Recovered and independently reviewed Voltaic Marine's native-linked 45-page offering memorandum. The frozen 1,545-URL directory is unchanged; no new funded round is admitted. Preserve parent/issuer separation, advertised versus executed terms, undated fundraising displays and two scheduled deadlines without inventing a round split or actual close. Original-image inspection corrected OCR Suite 550 to Suite 350. Material OCR fields need visual confirmation; file metadata and countdown labels are not event dates. Normalize timezone-equivalent timestamps before declaring conflicts. See the dated checkpoint and manifest for source hashes and independent review scope.
+
+### Further verified continuation: Wefunder
+
+Three existing candidates (Unitonomy, PDX FC, RIZOME) gained source fields/partial links; the baseline stays 65 events/57 profiles, with zero new event or profile IDs. Exact overlap with the earlier twelve-event review is unresolved. Funded-month badges, SAFE link labels, a round URL token and an unvisited SEC path are not exact close dates, executed contracts or verified canonical identities. Preserve displayed USD 94,271 separately from inherited USD 94,271.76 without assuming a rounding rule or contradiction. Separate historical raises and related-company cap tables; inconsistent financial periods cannot establish current survival. Rendered text bytes are not raw HTML or network-transfer bytes.
+
+### Closed factual reviews and separate implementation
+
+The formerly pending CabinetM and five-Republic-PDF JEV reviews are source/context-accepted with all scientific holds retained. A relative certificate-receipt interval is not an effective legal dissolution or operating-cessation date. Three Arka filings form one amendment chain, not three rounds. Exact reviewed-input scope matters: historical queue counts and verifier-only addenda cannot be treated as newly JEV-adjudicated fields.
+
+The supervised budgeted-agent implementation with mandatory JEV/shared phase budgets was delivered as a separate tested package. It is not integrated into this repository or an unattended runtime. Package-specific implementation checks do not certify repository integration or close scientific research gates. See the dated checkpoint for the package hash and bounded verification counts.
+
+---
+## Preserved historical entries — restart authority superseded by CP10 continuation
+
+# SKILLS.md — Vera operational research memory
+
 ## Latest authority — CP9, execution 0.6.4-dev.research.3
 
 Read checkpoints/PHASE_1D_CP9_EMPIRICAL_EVIDENCE_VERIFIED.md, data/phase1d/cp9/adjudication/summary.json and evidence/jev/PHASE_1D_CP9_DECISION_LOG.json first. This CP9 section supersedes every older restart pointer and count below. Previous SKILLS bytes are also preserved at evidence/phase1d_cp9/SKILLS_pre_CP9.md. Promoted VERSION remains0.5.0.

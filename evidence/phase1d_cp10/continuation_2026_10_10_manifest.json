@@ -1,0 +1,1039 @@
+{
+  "schema": "vera.phase1d.documentation_checkpoint.v1",
+  "checkpoint_date_utc": "2026-10-10",
+  "source_snapshot_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+  "scope": "Documentation and selected source-field provenance only; no production data admission.",
+  "source_unit_counts": {
+    "new_native_campaign_identifiers": 568,
+    "launch_verified_rows": 449,
+    "launch_year_2020_2025_rows": 363,
+    "eligible_rows_with_matching_parent_close": 335,
+    "previous_subset_with_single_unvalidated_linked_CIK": 305,
+    "previous_subset_marketed_SAFE_family": 233,
+    "canonical_economic_rounds_admitted": 0
+  },
+  "collection_capture_status_as_of_snapshot": {
+    "original_queue_requests_attempted": 106,
+    "PDFs_captured_across_both_collections": 105,
+    "non_PDF_or_parse_hold_at_capture": 1,
+    "large_file_holds_remaining_at_snapshot": 0
+  },
+  "continuation_format_resolution": "The one former non-PDF/parse hold is readable StartGlobal DOCX. Historical collection summaries are retained unchanged. This does not complete instrument semantics.",
+  "source_field_review": {
+    "documents": 8,
+    "PDFs": 7,
+    "DOCX": 1,
+    "wave1_anchors": 70,
+    "wave2_anchors": 49,
+    "independent_PDF_pages_visually_reviewed_wave1": 20,
+    "independent_PDF_pages_visually_reviewed_wave2": 17,
+    "independent_DOCX_method": "Static ZIP/OOXML plus python-docx; no source page numbers inferred from a derived render."
+  },
+  "reproducibility": {
+    "source_bytes": "At source_snapshot_commit, read each repository_path. Verify SHA256 of the gzip bytes, decompress and verify raw_sha256, and verify Git blob SHA1 over b\"blob \" + decimal gzip byte length + NUL + gzip bytes. Never compare the compressed digest to the decompressed digest.",
+    "field_locations": "PDF pages are one-based physical pages. DOCX locations are paragraph indexes in word/document.xml from the accepted review, not physical source pages.",
+    "review_artifacts": "Original accepted-ledger and review-receipt hashes fingerprint the bounded reviews. This compact manifest preserves selected fields and source-byte bindings; it is not a copy of the full ledgers or a rerun of source adjudication."
+  },
+  "review_artifact_sha256": {
+    "wave1_accepted_corrected_ledger": "4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+    "wave2_accepted_ledger": "afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+    "independent_campaign_row_audit": "12d6d383ed2df4e73212e51f184a2d63765caf865cd909a476d0a91901c073cd",
+    "wave1_final_JEV_receipt": "af88d1ab2b2b0eaa03019b76dd99ff413fa989240856f47c0ab832973fd7a8e5",
+    "wave2_final_JEV_receipt": "bc910ccd96f057f39835a69b250aa795f9773d98d9f0ab79778d48e5a367af9a",
+    "documentation_workflow_JEV_request": "5eacfd555b9771a456a2a17ca847176d4a5b129dc4bcd84415d4c76c7323a559",
+    "documentation_workflow_JEV_receipt": "def56489173cd541c93a128dc26f11fed6e8494a1a8e47239db938983c8a673e"
+  },
+  "documentation_workflow_JEV": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "workflow_sufficiency": {
+        "type": "choice",
+        "choice": "suitable_for_scoped_documentation",
+        "confidence": 0.98,
+        "probabilities": {
+          "suitable_for_scoped_documentation": 0.99,
+          "requires_material_revision": 0.01,
+          "insufficient_information": 0
+        }
+      },
+      "completion_scope": {
+        "type": "choice",
+        "choice": "bounded_documentation_checkpoint_only",
+        "confidence": 1,
+        "probabilities": {
+          "bounded_documentation_checkpoint_only": 1,
+          "complete_scientific_phase": 0,
+          "global_research_plateau": 0
+        }
+      },
+      "source_fact_authority": {
+        "type": "choice",
+        "choice": "no_direct_source_review",
+        "confidence": 1,
+        "probabilities": {
+          "no_direct_source_review": 1,
+          "certify_all_values": 0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 948,
+      "output_tokens": 161
+    },
+    "scope": "Nonsecret workflow review only; no private code or raw source bodies sent. Model judgments do not certify source facts or replace independent diff review."
+  },
+  "sources": [
+    {
+      "campaign_url": "https://republic.com/buy-alerts",
+      "document_url": "https://republic.com/documents/2160?view=preview",
+      "document_label": "BuyAlerts Form C.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a",
+      "gzip_sha256": "7d08a320ec0dba89af0ab403919e7d077622668e9619f2e1ccb928c9c624598a",
+      "git_blob_sha1": "e0bd3352fd16db3fb01cae2cc5a189a9fd57662f",
+      "raw_bytes": 1025965,
+      "review_wave": 1,
+      "accepted_ledger_sha256": "4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "selected_source_fields": [
+        {
+          "field": "issuer_name",
+          "value": "Live Stream Technology Services Inc.",
+          "physical_pdf_page": 1,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_type",
+          "value": "Crowd SAFE",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "form_c_signature_date",
+          "value": "2023-03-13",
+          "physical_pdf_page": 32,
+          "classification": "source_fact"
+        },
+        {
+          "field": "target_offering_deadline",
+          "value": "2023-05-12",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_series",
+          "value": "Series 2023",
+          "physical_pdf_page": 47,
+          "classification": "source_fact"
+        },
+        {
+          "field": "valuation_cap_usd",
+          "value": 28000000,
+          "physical_pdf_page": 47,
+          "classification": "source_fact"
+        },
+        {
+          "field": "nominee_proxy_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 59,
+          "classification": "source_fact"
+        },
+        {
+          "field": "crowd_safe_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 57,
+          "classification": "source_fact"
+        },
+        {
+          "field": "discount_percent",
+          "value": null,
+          "classification": "unknown_not_inferred_as_zero"
+        }
+      ],
+      "inherited_native_launch_date": "2023-03-13",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/get-on-board",
+      "document_url": "https://republic.com/documents/8607?view=preview",
+      "document_label": "Get On Board - Form C.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7",
+      "gzip_sha256": "d25dcfcb5b6ae4d541ec5000ee80176bdf9773d345ede563c1aca08cf9539399",
+      "git_blob_sha1": "10fe7151aacda9a1078c36b6c337faf78321a856",
+      "raw_bytes": 1018449,
+      "review_wave": 1,
+      "accepted_ledger_sha256": "4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "selected_source_fields": [
+        {
+          "field": "issuer_name",
+          "value": "Get on Board Holding Corp.",
+          "physical_pdf_page": 1,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_type",
+          "value": "Crowd SAFE",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "form_c_signature_date",
+          "value": "2024-04-02",
+          "physical_pdf_page": 49,
+          "classification": "source_fact"
+        },
+        {
+          "field": "target_offering_deadline",
+          "value": "2024-07-01",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_series",
+          "value": "Series 2024",
+          "physical_pdf_page": 68,
+          "classification": "source_fact"
+        },
+        {
+          "field": "valuation_cap_usd",
+          "value": 6000000,
+          "physical_pdf_page": 68,
+          "classification": "source_fact"
+        },
+        {
+          "field": "nominee_proxy_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 81,
+          "classification": "source_fact"
+        },
+        {
+          "field": "crowd_safe_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 78,
+          "classification": "source_fact"
+        },
+        {
+          "field": "discount_percent",
+          "value": 20,
+          "physical_pdf_page": 68,
+          "classification": "source_fact"
+        },
+        {
+          "field": "discount_price_fraction",
+          "value": 0.8,
+          "physical_pdf_page": 70,
+          "classification": "derived_arithmetic"
+        }
+      ],
+      "inherited_native_launch_date": "2024-04-02",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/phantom-phood",
+      "document_url": "https://republic.com/documents/2055?view=preview",
+      "document_label": "Phantom Phood Form C.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087",
+      "gzip_sha256": "862b7335b2d047a0a74476fb8348539f9b70ae5820a0c9d2f1da26088e6bd4fd",
+      "git_blob_sha1": "d51fb1d8d6b808f5a862e4609cdea3baa7bdfd0c",
+      "raw_bytes": 588517,
+      "review_wave": 1,
+      "accepted_ledger_sha256": "4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "selected_source_fields": [
+        {
+          "field": "issuer_name",
+          "value": "Phantom Phood Inc.",
+          "physical_pdf_page": 1,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_type",
+          "value": "Crowd SAFE",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "form_c_signature_date",
+          "value": "2023-02-14",
+          "physical_pdf_page": 33,
+          "classification": "source_fact"
+        },
+        {
+          "field": "target_offering_deadline",
+          "value": "2023-04-15",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_series",
+          "value": "Series 2023",
+          "physical_pdf_page": 46,
+          "classification": "source_fact"
+        },
+        {
+          "field": "valuation_cap_usd",
+          "value": 12000000,
+          "physical_pdf_page": 46,
+          "classification": "source_fact"
+        },
+        {
+          "field": "nominee_proxy_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 58,
+          "classification": "source_fact"
+        },
+        {
+          "field": "crowd_safe_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 56,
+          "classification": "source_fact"
+        },
+        {
+          "field": "discount_percent",
+          "value": null,
+          "classification": "unknown_not_inferred_as_zero"
+        }
+      ],
+      "inherited_native_launch_date": "2023-02-14",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/stockcard",
+      "document_url": "https://republic.com/documents/1625?view=preview",
+      "document_label": "Stock Card Form C.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3",
+      "gzip_sha256": "fd7340d3338d05e154827fe4a61422b53c00ddd3a5521a1b251f5bd39ddb90e3",
+      "git_blob_sha1": "96d98729cf24c9f8f32b7162bccce68e42502d5a",
+      "raw_bytes": 1085387,
+      "review_wave": 1,
+      "accepted_ledger_sha256": "4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "selected_source_fields": [
+        {
+          "field": "issuer_name",
+          "value": "Stock Card, Inc.",
+          "physical_pdf_page": 1,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_type",
+          "value": "Crowd SAFE",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "form_c_signature_date",
+          "value": "2022-08-29",
+          "physical_pdf_page": 41,
+          "classification": "source_fact"
+        },
+        {
+          "field": "target_offering_deadline",
+          "value": "2023-02-24",
+          "physical_pdf_page": 2,
+          "classification": "source_fact"
+        },
+        {
+          "field": "security_series",
+          "value": "Series 2022",
+          "physical_pdf_page": 59,
+          "classification": "source_fact"
+        },
+        {
+          "field": "valuation_cap_usd",
+          "value": 10000000,
+          "physical_pdf_page": 59,
+          "classification": "source_fact"
+        },
+        {
+          "field": "nominee_proxy_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 72,
+          "classification": "source_fact"
+        },
+        {
+          "field": "crowd_safe_signature_page_present",
+          "value": true,
+          "physical_pdf_page": 70,
+          "classification": "source_fact"
+        },
+        {
+          "field": "discount_percent",
+          "value": null,
+          "classification": "unknown_not_inferred_as_zero"
+        }
+      ],
+      "inherited_native_launch_date": "2022-09-06",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/layali",
+      "document_url": "https://republic.com/documents/113?view=preview",
+      "document_label": "Layali Form C:A.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "fa095fd1867cf3260991d597020c88060080226e0576a58e1e76b405311cb782",
+      "gzip_sha256": "c5ee7b98cd1ebbc98970d16d26f7199cf771923b3389c1f102688c3baabdac24",
+      "git_blob_sha1": "1e3dd35751eece72e851c0c0624ca9a5472fbcf8",
+      "raw_bytes": 442152,
+      "review_wave": 2,
+      "accepted_ledger_sha256": "afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "selected_source_fields": [
+        {
+          "field": "issuer",
+          "value": "Layali LLC",
+          "physical_pdf_page": 1
+        },
+        {
+          "field": "security_type",
+          "value": "Crowd SAFE",
+          "physical_pdf_page": 2
+        },
+        {
+          "field": "target_deadline",
+          "value": "2020-04-20",
+          "physical_pdf_page": 2
+        },
+        {
+          "field": "summary_conversion_cap_usd",
+          "value": 2500000,
+          "physical_pdf_page": 27
+        },
+        {
+          "field": "literal_financing_price_multiplier",
+          "value": 0.2,
+          "physical_pdf_page": 27
+        },
+        {
+          "field": "form_of_security_heading",
+          "value": true,
+          "physical_pdf_page": 36
+        }
+      ],
+      "inherited_native_launch_date": "2019-09-28",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/nobodystudios",
+      "document_url": "https://republic.com/documents/2066?view=preview",
+      "document_label": "Nobody Studios Form C:A.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "c3198e03a7edd10bb0361d702c79c012643f146959ad849f5eca4c9df61075fc",
+      "gzip_sha256": "b379a25e313726a8dcbc0569c72e011b9975e7256b5c8590c4fb1e471568619f",
+      "git_blob_sha1": "513eaa223838f2ea467803173384eece1d0f0f07",
+      "raw_bytes": 995369,
+      "review_wave": 2,
+      "accepted_ledger_sha256": "afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "selected_source_fields": [
+        {
+          "field": "issuer",
+          "value": "Nobody Studios, Inc.",
+          "physical_pdf_page": 1
+        },
+        {
+          "field": "form_signature_date",
+          "value": "2023-02-21",
+          "physical_pdf_page": 42
+        },
+        {
+          "field": "target_deadline",
+          "value": "2023-04-07",
+          "physical_pdf_page": 2
+        },
+        {
+          "field": "security_series",
+          "value": "Series 2022",
+          "physical_pdf_page": 58
+        },
+        {
+          "field": "template_valuation_cap_usd",
+          "value": 30000000,
+          "physical_pdf_page": 58
+        },
+        {
+          "field": "actual_safe_signature_page",
+          "value": 68,
+          "physical_pdf_page": 68
+        }
+      ],
+      "inherited_native_launch_date": "2022-12-26",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/soar-robotics",
+      "document_url": "https://republic.com/documents/111?view=preview",
+      "document_label": "Soar Robotics Form C-A 12.19.19.pdf",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "2cce5c8698b44aa8095c45901ed5077a1f12f557e1a5abb44b3a75ba56c57855",
+      "gzip_sha256": "3420924b088d88fbbef2badf6dfb62cabfcddf31c37c52638bf5d17109f48918",
+      "git_blob_sha1": "c666ed2bf28aceb7995b1a9d5d6b30590127d3dc",
+      "raw_bytes": 433957,
+      "review_wave": 2,
+      "accepted_ledger_sha256": "afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "selected_source_fields": [
+        {
+          "field": "issuer",
+          "value": "Soar Robotics Inc.",
+          "physical_pdf_page": 1
+        },
+        {
+          "field": "security_type",
+          "value": "Crowd SAFE",
+          "physical_pdf_page": 2
+        },
+        {
+          "field": "form_signature_date",
+          "value": "2019-12-19",
+          "physical_pdf_page": 4
+        },
+        {
+          "field": "target_deadline",
+          "value": "2020-03-10",
+          "physical_pdf_page": 2
+        },
+        {
+          "field": "summary_conversion_cap_usd",
+          "value": 7000000,
+          "physical_pdf_page": 23
+        },
+        {
+          "field": "literal_financing_price_multiplier",
+          "value": 0.8,
+          "physical_pdf_page": 24
+        },
+        {
+          "field": "form_of_security_heading",
+          "value": true,
+          "physical_pdf_page": 32
+        }
+      ],
+      "inherited_native_launch_date": "2019-09-05",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    },
+    {
+      "campaign_url": "https://republic.com/startglobal",
+      "document_url": "https://republic.com/documents/11091?view=preview",
+      "document_label": "StartGlobal Form C.docx",
+      "repository_path": "data/phase1d/cp10/collection-1/captures/e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4.bin.gz",
+      "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+      "raw_sha256": "e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4",
+      "gzip_sha256": "2bc48621601e247c2125871bf91de81f305ba2d7a3ef72125384b06d5398be68",
+      "git_blob_sha1": "9a70af92c9f9aa71feb6a1a463794d0b62eb2699",
+      "raw_bytes": 137155,
+      "review_wave": 2,
+      "accepted_ledger_sha256": "afa993df3fe89a63126babc5655988a9bf77807b8c546a71601d122ef5320887",
+      "selected_source_fields": [
+        {
+          "field": "issuer",
+          "value": "StartGlobal, Inc.",
+          "word_document_xml_paragraph": 21
+        },
+        {
+          "field": "security_type",
+          "value": "SAFE",
+          "word_document_xml_paragraph": 73
+        },
+        {
+          "field": "target_deadline",
+          "value": "2024-11-11",
+          "word_document_xml_paragraph": 102
+        },
+        {
+          "field": "form_signature_date",
+          "value": "2024-08-13",
+          "word_document_xml_paragraph": 1187
+        },
+        {
+          "field": "pre_money_cap_usd",
+          "value": 12500000,
+          "word_document_xml_paragraph": 327
+        },
+        {
+          "field": "custodian_nominee",
+          "value": "Brassica Trust Company LLC",
+          "word_document_xml_paragraph": 281
+        },
+        {
+          "field": "security_exhibit_heading",
+          "value": true,
+          "word_document_xml_paragraph": 1205
+        }
+      ],
+      "inherited_native_launch_date": "2024-08-13",
+      "parent_campaign_binding_revalidated_in_this_review": false,
+      "full_document_semantic_review_complete": false,
+      "estimation_eligible": false,
+      "new_economic_rounds_admitted": 0
+    }
+  ],
+  "admission_holds": [
+    "Canonical legal issuer, company and economic-round identity",
+    "Parent campaign, amendment-chain and operative-series binding",
+    "Actual investor execution, issuance, receipts and funded Layer B status",
+    "Dated operating and terminal outcomes",
+    "Complete historical platform populations",
+    "Estimator eligibility, ascertainment and numerical-prior promotion"
+  ],
+  "phase_complete": false,
+  "global_plateau": false,
+  "rates_promoted": false,
+  "continuation_platform_tranches": {
+    "startengine": {
+      "status": "INDEPENDENTLY_ACCEPTED_SCOPED_SOURCE_FIELDS_ONLY",
+      "claims_artifact_sha256": "c1e8af9f0e05073c700a0bd016d2f026b81878c61fd19b1fca2b04ec6f7dd505",
+      "source": {
+        "url": "https://startenginebetadev.s3.amazonaws.com/production/startups/63a20b577eb65b40b2135307/documents/offering_details/OfferingMemoVoltaicNew.pdf",
+        "sha256": "1fc30125ed6333437efe67f239ce7ab8924addcef40569b14130bfa781b429e8",
+        "bytes": 41636538,
+        "pages": 45,
+        "direct_native_anchor": "Offering Memorandum",
+        "parent_native_url": "https://www.startengine.com/offering/voltaicmarine",
+        "parent_capture_sha256": "03425db648e8be7a4ea121c66082775b40d4c0df70a633af28fb72d4e6ebf614",
+        "http_status": 200,
+        "source_class": "NATIVE_PLATFORM_LINKED_ISSUER_MEMORANDUM_WITH_PROFILE_SCREENSHOTS",
+        "last_modified_header": "Wed, 26 Apr 2023 12:07:35 GMT",
+        "last_modified_meaning": "File metadata only, not native launch date, screenshot date or completion"
+      },
+      "selected_claims": [
+        {
+          "id": "SE-VM-ISSUER",
+          "field": "legal_issuer_and_parent",
+          "value": {
+            "issuer": "Voltaic Marine, Inc.",
+            "issuer_jurisdiction": "Delaware",
+            "parent": "Voltaic, LLC",
+            "parent_jurisdiction": "Oregon",
+            "parent_organized_date": "2019-09-18",
+            "issuer_formed_date": "2022-12-16",
+            "issuer_effective_date": "2023-01-01",
+            "document_incorporation_label": "January 01, 2023",
+            "economic_relationship": "Parent retains company IP and grants exclusive licensing rights to issuer; document says majority assets transferred to issuer."
+          },
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "meaning": "Issuer and parent must not be collapsed; formation, effective date and native first-live are different clocks."
+        },
+        {
+          "id": "SE-VM-TERMS",
+          "field": "advertised_security_terms",
+          "value": {
+            "security": "Common Stock",
+            "price_per_share_usd": 1.0,
+            "minimum_target_usd": 15000.0,
+            "maximum_offering_usd": 1235000.0,
+            "minimum_investment_usd": 200.0,
+            "bonus_shares_possible": true
+          },
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "meaning": "Advertised base terms only; no realized share-count or effective execution-price inference, because bonus provisions apply."
+        },
+        {
+          "id": "SE-VM-SNAPSHOT",
+          "field": "historical_platform_display",
+          "value": {
+            "raised_display_usd": 18847.38,
+            "investor_count_display": 34,
+            "button": "Invest Now",
+            "countdown_label": "8 DAYS LEFT",
+            "screenshot_capture_date": null
+          },
+          "pdf_pages": [
+            36,
+            42
+          ],
+          "meaning": "Embedded campaign screenshot, not verified receipts or final security-producing close. Countdown is not converted into an exact date."
+        },
+        {
+          "id": "SE-VM-DEADLINES",
+          "field": "scheduled_deadline_observations",
+          "value": [
+            {
+              "date_label": "May 2, 2023",
+              "date": "2023-05-02",
+              "source": "PDF profile screenshot",
+              "pdf_page": 42
+            },
+            {
+              "date_label": "Jun. 21, 2023 at 11:59 PM PDT",
+              "date": "2023-06-21",
+              "source": "Previously acquired native campaign body",
+              "source_capture_sha256": "03425db648e8be7a4ea121c66082775b40d4c0df70a633af28fb72d4e6ebf614"
+            }
+          ],
+          "meaning": "Two displayed deadlines, not actual closes and not evidence of two economic rounds. Amendment or extension chronology remains unestablished."
+        },
+        {
+          "id": "SE-VM-UPDATE-DATES",
+          "field": "embedded_native_update_date_labels",
+          "value": [
+            {
+              "display_date": "04.12.23",
+              "title": "Voltaic Marine Internals of Hull Design"
+            },
+            {
+              "display_date": "04.03.23",
+              "title": "Boat Dealer, NW Inboards has partnered with Voltaic Marine"
+            }
+          ],
+          "pdf_pages": [
+            45
+          ],
+          "meaning": "Dated campaign-update labels only; not exact first-live."
+        },
+        {
+          "id": "SE-VM-CLOSURE-CONDITION",
+          "field": "funding_mechanics",
+          "value": "Memorandum permits rolling closings; if target commitments are not met by deadline, no securities are sold and commitments are cancelled/refunded.",
+          "pdf_pages": [
+            9,
+            31,
+            32
+          ],
+          "meaning": "Conditional mechanisms do not prove that any close or refund actually occurred."
+        }
+      ],
+      "scope": {
+        "frozen_directory_urls": 1545,
+        "new_url_admissions": 0,
+        "new_funded_round_admissions": 0,
+        "new_priors_promoted": 0,
+        "no_global_plateau_claim": true
+      },
+      "unresolved": {
+        "native_exact_first_live_date": null,
+        "actual_successful_completed_close_date": null,
+        "confirmed_final_proceeds_usd": null,
+        "canonical_company_id": null,
+        "economic_round_id": null,
+        "funding_status": "NOT_ESTABLISHED",
+        "eligible_for_estimation": false,
+        "target_historical_population_exhaustive": false,
+        "h2o_target_scope": "HELD_SEPARATELY_REG_D_SPV"
+      },
+      "independent_final_JEV_receipt_sha256": "1f9d786abc8e5b6890cef27c6efcae67b54d3be690fe6d92042c63788d29fa1c",
+      "independent_observations_sha256": "8c2a21b6debba0d9d85d7ff8a97b2983b45092cac429c32780c2477f8f6fdda0",
+      "independent_method": "Original PDF hash recomputed; physical pages 1, 2, 3, 9, 31, 32, 36, 42 and 45 independently rendered and visually inspected; prior native campaign capture and saved indexed-source records checked directly.",
+      "independent_final_JEV": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "source_fields": {
+            "type": "choice",
+            "choice": "accept_scoped_source_fields",
+            "confidence": 1,
+            "probabilities": {
+              "accept_scoped_source_fields": 1,
+              "revise_fields": 0,
+              "reject_entire_tranche": 0
+            }
+          },
+          "round_and_completion": {
+            "type": "choice",
+            "choice": "hold_round_and_completion",
+            "confidence": 1,
+            "probabilities": {
+              "hold_round_and_completion": 1,
+              "admit_successful_round": 0,
+              "split_two_rounds": 0
+            }
+          },
+          "study_gate": {
+            "type": "choice",
+            "choice": "context_progress_retain_gates",
+            "confidence": 1,
+            "probabilities": {
+              "context_progress_retain_gates": 1,
+              "promote_rates_and_complete": 0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1827,
+          "output_tokens": 150
+        }
+      },
+      "source_capture_publication_status": "Original PDF and captured parent are not added to GitHub by this documentation-only change. Native URL and byte fingerprints are supplied; original review artifacts are separately preserved."
+    },
+    "wefunder": {
+      "status": "INDEPENDENTLY_REVIEWED_SOURCE_FIELDS_AND_PARTIAL_LINKS_ONLY",
+      "claims_artifact_sha256": "b30ce1538d9101d31badd22eda954d40bc1421af2226aa69b5860fce643acebb",
+      "baseline_counts": {
+        "event_rows": 65,
+        "native_profile_ids": 57
+      },
+      "new_event_rows": 0,
+      "new_profile_ids": 0,
+      "prior_twelve_event_selection_membership": "Unavailable; novelty versus prior reviews remains provisional.",
+      "selected_profile_ids": [
+        "62840",
+        "61198",
+        "57310"
+      ],
+      "source_provenance": [
+        {
+          "urls": [
+            "https://github.com/arults/Vera---Startup-Analyst-/blob/7291d33ff32cdd6b07ae9cfe1f342849a447f536/data/phase1d/cp7/analysis-cp8-verified/wefunder_public_profile_event_candidates.csv"
+          ],
+          "representation": "inherited baseline retrieved now; exact connector-returned file text; not a fresh Wefunder capture",
+          "sha256": "20c466c83e96d361c3a2ef17640433b479cdcf551773a0970a2de7d7bd8ad5ef",
+          "bytes": 36735
+        },
+        {
+          "urls": [
+            "https://wefunder.com/unitonomy",
+            "https://wefunder.com/pdxfc",
+            "https://wefunder.com/rizome"
+          ],
+          "representation": "newly obtained web-tool rendered text; crawler freshness varies; not raw HTTP HTML",
+          "sha256": "16efdc97ee5c4fb83951bf3fedc586a71bc262835e7dd6c9dda5f77b48e5d80d",
+          "bytes": 31750
+        },
+        {
+          "urls": [
+            "https://wefunder.com/unitonomy/details"
+          ],
+          "representation": "new live cloud-browser accessibility rendering; not raw HTTP HTML",
+          "sha256": "5f868b888a828c30e61a6cbc37ddc8ab255c8c91b051a5cd087ecce54f9ed3ae",
+          "bytes": 26873
+        }
+      ],
+      "source_text_bytes_including_baseline": 95358,
+      "external_network_transfer_bytes": null,
+      "independent_final_JEV_receipt_sha256": "f99be28ce7e6a7fbb22c893f9ee84b385c9b47b57558f6e6145aaa1314d3273c",
+      "independent_observations_sha256": "5a8c9467cc956adc4b3b0ce35b4810f75246e595ca835682b9687270815a3778",
+      "independent_method": "Recomputed three preserved source-text hashes, independently counted the exact inherited CSV as 65 events/57 profiles and checked source anchors/links against original rendered text and browser accessibility text.",
+      "independent_final_JEV": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "source_fields": {
+            "type": "choice",
+            "choice": "accept_attributed_fields",
+            "confidence": 0.97,
+            "probabilities": {
+              "accept_attributed_fields": 0.98,
+              "revise_before_acceptance": 0.02,
+              "reject_all_fields": 0
+            }
+          },
+          "identity_and_rounds": {
+            "type": "choice",
+            "choice": "keep_separate_unresolved",
+            "confidence": 1,
+            "probabilities": {
+              "keep_separate_unresolved": 1,
+              "merge_and_admit": 0
+            }
+          },
+          "scope_and_dates": {
+            "type": "choice",
+            "choice": "source_context_only_no_incremental_count",
+            "confidence": 1,
+            "probabilities": {
+              "source_context_only_no_incremental_count": 1,
+              "funded_round_numeric_promotion": 0,
+              "whole_study_complete": 0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2028,
+          "output_tokens": 165
+        }
+      },
+      "canonical_rounds_admitted": 0,
+      "outcomes_admitted": 0,
+      "estimation_eligible": false,
+      "capture_publication_status": "The inherited baseline is already source-bound in GitHub; newly rendered web text and accessibility capture bodies are not added by this documentation-only change. Their fingerprints describe exact review inputs, not raw HTTP HTML or network traffic."
+    }
+  },
+  "continuation_independent_final_acceptance_sha256": "f1c9ae42a86b4e9cb3f1671a707c14b819486c30c0e04b7de7b2c94eb25acfe5",
+  "continuation_review_receipt_note": "Earlier independent observations are preserved pre-JEV inputs. The final acceptance and actual later JEV receipts resolve their pending labels for the exact frozen-claims hashes; no underlying source gates are broadened.",
+  "previously_pending_source_reviews_closed": {
+    "recorded_at_utc": "2026-10-10T03:20:20.301980+00:00",
+    "scope": "Two actual reviews closed their pending factual-review labels only; all scientific and investor-outcome admission holds remain.",
+    "cabinetm": {
+      "status": "JEV_ATTRIBUTED_DISSOLUTION_CONTEXT_ACCEPTED_RETAIN_HOLDS",
+      "source_url": "https://wefunder.com/feed/235158",
+      "scope": "Issuer-attributed report of dissolution board vote and certificate receipt, plus public profile and Details observations; independent legal-record adjudication not established.",
+      "answers": {
+        "attribution": {
+          "type": "choice",
+          "choice": "accept_attributed_context",
+          "confidence": 1,
+          "probabilities": {
+            "accept_attributed_context": 1,
+            "promote_independent_legal_outcome": 0,
+            "reject_all_context": 0
+          }
+        },
+        "receipt_clock": {
+          "type": "choice",
+          "choice": "relative_receipt_month_only",
+          "confidence": 1,
+          "probabilities": {
+            "relative_receipt_month_only": 1,
+            "exact_effective_dissolution_date": 0,
+            "discard_timing_context": 0
+          }
+        },
+        "scope_gate": {
+          "type": "choice",
+          "choice": "context_only_retain_all_holds",
+          "confidence": 1,
+          "probabilities": {
+            "context_only_retain_all_holds": 1,
+            "admit_estimator_outcome": 0,
+            "phase_complete_and_rates": 0
+          }
+        }
+      },
+      "receipt_clock": "November 2025 is a relative-year inference from the December 23, 2025 post. November 1–30 is a conservative certificate-receipt interval only.",
+      "held": [
+        "Effective legal dissolution date",
+        "Completed operating cessation and date",
+        "Investor loss fraction, extinguishment, realized payout, MOIC, completed asset sale",
+        "First-live date, offering year, canonical operating-issuer/SPV/economic-round legal bridge",
+        "Cohort event propagation and numeric admission"
+      ],
+      "first_live_date": null,
+      "offering_year": null,
+      "economic_round_id": null,
+      "closure_estimator_timepoint": null,
+      "outcome_admitted": false,
+      "estimation_eligible": false
+    },
+    "five_republic_filings": {
+      "status": "JEV_SOURCE_FIELDS_ONLY_ACCEPTED_RETAIN_HOLDS",
+      "scope": "Five preserved Republic PDFs: three Arka documents forming one offering amendment chain, one Base8 Form C, and one A Boring Life Form C/A. Conditional source fields only.",
+      "answers": {
+        "admission": {
+          "type": "choice",
+          "choice": "source_fields_only",
+          "confidence": 1,
+          "probabilities": {
+            "source_fields_only": 1,
+            "full_rates": 0,
+            "all_reject": 0
+          }
+        },
+        "count_arka": {
+          "type": "choice",
+          "choice": "one_chain",
+          "confidence": 0.96,
+          "probabilities": {
+            "one_chain": 0.98,
+            "three_rounds": 0.02
+          }
+        },
+        "completion": {
+          "type": "choice",
+          "choice": "verified_scoped_progress_incomplete",
+          "confidence": 1,
+          "probabilities": {
+            "verified_scoped_progress_incomplete": 1,
+            "phase1d_complete": 0,
+            "global_plateau": 0
+          }
+        }
+      },
+      "held": [
+        "Applicable final/executed securities",
+        "Early-investor preferential terms",
+        "Canonical issuer/economic-round and scientific cohort entry",
+        "Outcomes, investor returns and numerical priors"
+      ],
+      "documents": [
+        {
+          "label": "Arka Form C Amendment 12.29.2022.pdf",
+          "sha256": "24e527ff1ae94b7fc0ac00c1dcd309132c7e97af06b34d3a5edcd6e2280d35d2",
+          "url": "https://republic.com/documents/1907?view=preview"
+        },
+        {
+          "label": "Arka Form C Amendment 11.21.2022.pdf",
+          "sha256": "4ea3c936d8447f170c810f154dd451c7ed1a1713b6f284d3f4f84d88cbad5df7",
+          "url": "https://republic.com/documents/1906?view=preview"
+        },
+        {
+          "label": "Arka Form C.pdf",
+          "sha256": "f5d5494e86f9575e2d50f6f3fbd46c3e5392e34d7c165267354af492becd3548",
+          "url": "https://republic.com/documents/1560?view=preview"
+        },
+        {
+          "label": "Base8 Form C.pdf",
+          "sha256": "3fddfa10baf56a364bc582f3f9b37b54145ed316895c3f5682ebb4f77fa9b038",
+          "url": "https://republic.com/documents/11828?view=preview"
+        },
+        {
+          "label": "A Boring Life Form C-A 4.23.2020.pdf",
+          "sha256": "9ec4529f0a9a59d06d2da12b7fa5ba250bdba3a1f710a25215e4aeda23d22de1",
+          "url": "https://republic.com/documents/167?view=preview"
+        }
+      ],
+      "stale_payload_boundary": "The exact retry contains historical CP10 queue/download/access counts. They are preserved solely for exact request lineage. They were not refreshed or newly adjudicated and must not override successor capture inventory, missingness counts or access facts.",
+      "verification_addendum": "Independent audit separately identifies Base8 signed Form C date 2024-09-25 and distinguishes signature/link-label/deadline clocks. That signed date was absent from the exact retried payload, so it is verifier-backed, not independently JEV-field-adjudicated."
+    },
+    "cabinetm_actual_receipt_sha256": "c0a1ece30f4a104b3d6dce3e3713a57d2af509227e03e57228184b6a2c2b6bd4",
+    "republic_actual_receipt_sha256": "09b13d53179d053f5254ecb7bba73d1883ce84b41d7f4f943fb7bc58aa8e6ab1",
+    "source_input_fingerprint_manifest_sha256": "0f3ff8c3bd710c65613958f2cea84df7e0a639c2589b23de8e06c82ead49796b",
+    "usage": {
+      "republic": {
+        "input_tokens": 1032,
+        "output_tokens": 135
+      },
+      "cabinetm": {
+        "input_tokens": 1522,
+        "output_tokens": 172
+      },
+      "total": {
+        "input_tokens": 2554,
+        "output_tokens": 307
+      }
+    },
+    "review_artifact_publication_status": "This documentation change preserves source URLs, reviewed-scope judgments and receipt fingerprints. It does not publish full original review packets or re-adjudicate historical capture inventory."
+  },
+  "separately_delivered_implementation_package": {
+    "description": "Supervised budgeted-agent implementation with mandatory JEV gates and shared phase budgets.",
+    "recorded_final_zip_sha256": "d0804a5377b9df68746087eeb51ffeb05d346c0dd5441a7610cab0f4e2893475",
+    "verification_scope": {
+      "local_package_checks": 83,
+      "independent_package_checks": 53,
+      "concurrency_checks": 75
+    },
+    "verification_provenance": "Previously verified package handoff; these package counts were not rerun by this documentation update and are not full-repository or scientific-study checks.",
+    "integrated_into_this_repository": false,
+    "integrated_into_unattended_runtime": false,
+    "code_or_binary_added_by_this_change": false
+  }
+}
