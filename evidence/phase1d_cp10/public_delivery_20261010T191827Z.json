@@ -1,0 +1,295 @@
+{
+  "schema": "vera.public-delivery-manifest.v1",
+  "preparation_status": "PREPARED_CHECKPOINT_NOT_PHASE_1D_COMPLETION",
+  "preparation_cutoff": "2026-10-10T19:18:27Z",
+  "implementation_version": "1.0.4.3-customer-local",
+  "files_excluding_this_manifest": [
+    {
+      "path": "SKILLS.md",
+      "sha256": "35f596eb113fcd7a813e01defa0094fd6a6125eb8b36631c861aec66f566a83d",
+      "bytes": 71019
+    },
+    {
+      "path": "checkpoints/PHASE_1D_LEARNINGS_2026_10_10_191027_UTC.md",
+      "sha256": "ce9cb1834db338ba8d2fe1cdfdc250f46377037c4c68cb65268cbdf91cfc7ad7",
+      "bytes": 127363
+    },
+    {
+      "path": "checkpoints/PHASE_1D_PROGRESS_2026_10_10_191027_UTC.txt",
+      "sha256": "8fcc67db7efed5f56229d622eedcb4eaca5a572c5df925f7f041e953686dc057",
+      "bytes": 4788
+    },
+    {
+      "path": "research/campaign-attribution-catalog-v2-20261010/README.md",
+      "sha256": "c791d3c9a28680b347150e8966667b959a14ba52bdc379dfc0e5dcf93223822c",
+      "bytes": 5645
+    },
+    {
+      "path": "research/campaign-attribution-catalog-v2-20261010/catalog.json",
+      "sha256": "04f6985d8cd09985e2d07ff6abe999ec3a977d2986370623b389876495b746fb",
+      "bytes": 119502
+    },
+    {
+      "path": "research/campaign-attribution-catalog-v2-20261010/sources.json",
+      "sha256": "9a77729a513f87b53fcf7f860d5ec767d349645fdd4583b1b5c63d3dc9171ed6",
+      "bytes": 9595
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/COLLECTOR_TIMING.md",
+      "sha256": "c5fe852bd30a213733752f0a3113664cc984f11fe1294ddbde4d26da047f9eb9",
+      "bytes": 1689
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/CUSTOMER_OBSERVATIONS.md",
+      "sha256": "3b80ec7f369fe83d6ea38df848cb0b60dbb6a5135c77540a6eea774b17245658",
+      "bytes": 4296
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/IDENTITY_CUTOFF_CHANGE.md",
+      "sha256": "e37794be39a4b593e773631f7a9462aca58e657c470acfbfb3fea51d221e82d2",
+      "bytes": 2498
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/POLICY.md",
+      "sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+      "bytes": 12175
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/PRECISION_WITHDRAWAL.md",
+      "sha256": "00ca62c5d25a12f2da6ac648f371f98cd09ebf96aa005d94d058b51e33f351de",
+      "bytes": 3097
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/PUBLIC_ALLOWLIST.json",
+      "sha256": "cf05202c9212f935b2291e605b7ced88dd0cd1e11e04d9e749ad48347f63ef5f",
+      "bytes": 1434
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/README.md",
+      "sha256": "4ddc81340ce6dbf1fc60f95f7a83ce9c3284cfed66de99927da1439e47624b70",
+      "bytes": 2508
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/RESEARCHER.md",
+      "sha256": "4f0bc74f84b37d7bbf9b3a1090a6bde6fc26f1d21566a16e3ed6df76d56d788b",
+      "bytes": 1975
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/SCOPED_SCHEMA.md",
+      "sha256": "91769135511527083d3bae8aed7d8e4a6ec7eb8daea0eddac65202340d062e57",
+      "bytes": 3569
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/SOURCE_VERIFIER.md",
+      "sha256": "b537f2db748e02e1f00763af967a7b9bddcd5fafefb5c67c6a064442b4d55066",
+      "bytes": 1739
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/UTC_CUTOFF_CHANGE.md",
+      "sha256": "ecc2353f239f761e9c7a4590ccd9f8835ffe0a151be22f868d918e3c8b6e46ab",
+      "bytes": 958
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/VERIFIER.md",
+      "sha256": "88eb762f0f592e05c958adbb5bfabae79726cc367c2971f02555158d026e4999",
+      "bytes": 1624
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/customer_observations.py",
+      "sha256": "25cb3ae109d78d7696925e3f9fcff60bc5c1a2b9ab933031203cb1fdddb0596a",
+      "bytes": 7205
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/demo.json",
+      "sha256": "16031999d1e8d46d10c97d6458635d5153d112b000586287f7c08b113f59d0f5",
+      "bytes": 13187
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/evidence.py",
+      "sha256": "3379d349ab3af52b827fae692539cdff05a573370192d4d3893a989f3cc500b1",
+      "bytes": 17384
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/evidence.schema.json",
+      "sha256": "1cae6201b32314f0a14059cf8f8c96132fb695bb2f85cdea843343c12c592f86",
+      "bytes": 13099
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/lineage.json",
+      "sha256": "ae3880e087749b085924a63412e7b1ab1ccd991ff7a5bfdbfa2916aaf966ed7f",
+      "bytes": 2927
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/manifest.json",
+      "sha256": "9a96fa79fd6b773f23e0bb4b0b6def40fe0177870d28cf980b8d229a7582adda",
+      "bytes": 4021
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/native-pins.json",
+      "sha256": "551b6f2c8b0b02bacd8bb72259de87fc9c7d864606e7dc0cdaef430bfaa89a9e",
+      "bytes": 354
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/precision_withdrawal.py",
+      "sha256": "0b4dfef7eae67135c9a6a0937373fc7a8a11c3dacfbe371b7c4b6ab1968cd187",
+      "bytes": 7213
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/publication-check.json",
+      "sha256": "9311c9fb04acaa6e16629c440bf9ad7ea82d11a62c8f262266625b6d509f531c",
+      "bytes": 777
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/scoped_review.py",
+      "sha256": "118e53b2978d22585a801cb66b3ca4781f4dca58457d119bcaff5b91b634457b",
+      "bytes": 19454
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/source_verifier.py",
+      "sha256": "12e3d0c7d33efef1a428ee014af0e50b7ec746c6e88aa34c61b84f055619e3a8",
+      "bytes": 9657
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/sources/currently-wine.txt",
+      "sha256": "44ba8169573fc92e1f30db3910ef2add03e6af2be16b730c43098e8796ae74e7",
+      "bytes": 21
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/sources/inlightened-buyer.txt",
+      "sha256": "1ce05d33626ae329aec6ec94bc6a1ae8f6ba58e889a06fec6ccbf17287e67749",
+      "bytes": 96
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/sources/reental.txt",
+      "sha256": "0b9048567265b57c113f9cde930be35c4ab3a6104f47eb325af5d83f54c34ff0",
+      "bytes": 47
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_customer_observations.py",
+      "sha256": "42b5c845ec34a119640b7582da3ef8e31e2019f0f6ce201f2f6edc11a6590e91",
+      "bytes": 10712
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_evidence.py",
+      "sha256": "f070b2b3c995bca7604ffef1af720d7da1594b1df7fb80a81b673381c0bb3702",
+      "bytes": 10935
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_historical_plan.py",
+      "sha256": "70ac6f3bd3b8ca645f88ad6252aae1cb2350b41c0f130deb09a995431bec0c9b",
+      "bytes": 4632
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_identity_source_cutoff.py",
+      "sha256": "a240a262d3cb9050fc18cef999c2b05c4460b7375211e86de4fdcad9d7a39836",
+      "bytes": 7542
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_missing_search_times.py",
+      "sha256": "cae3ead46616da8e8214da977aad6a1d7ce7ff3888b41698c4f17f67d21d2e43",
+      "bytes": 2507
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_precision_withdrawal.py",
+      "sha256": "afe971994bfcb5f66e16138411a75a90a9bcc11d6fd694260de2d8dd5f1027e0",
+      "bytes": 6983
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_release.py",
+      "sha256": "e52e4ce1616f1f2a65d6ef15d2ab389eb5bc62b171c55b1959c24b1a522f4d3b",
+      "bytes": 2393
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_report_version.py",
+      "sha256": "17523d0eb3e496558b4041ec712cd051cc67d16813cd5aaf53113e0e7483901d",
+      "bytes": 973
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_scoped_review.py",
+      "sha256": "5a09aea190a1e512ea2b092156df20d626d464e133fffbd155736bc21e6a127e",
+      "bytes": 7269
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_source_verifier.py",
+      "sha256": "056e073a5a80d4414343b180a158a4e4df475995d799fcbc40074e832c50a5af",
+      "bytes": 7820
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_time_windows.py",
+      "sha256": "41b1de5d3335c05da88b778e2e95b683608f8f91c09d9b786efbc46fd47021a7",
+      "bytes": 5386
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/tests/test_utc_cutoff.py",
+      "sha256": "5401536a79d3ce906fba38f86f4bc349f983485ef3731928df64ee1fb19e3331",
+      "bytes": 6100
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/timing.py",
+      "sha256": "1b05bd9a2511612f106344d9cd3b94f1d343c5e2fe5bde597d1d3ac6a31bd626",
+      "bytes": 2826
+    },
+    {
+      "path": "research/multisource-v1.0.4.3/verify_package.py",
+      "sha256": "4f293a4a78827b0abd5b147024367869aa2ddd14b9660f6def9de527250f5e99",
+      "bytes": 980
+    },
+    {
+      "path": "src/phase1c/reporting.py",
+      "sha256": "16fe6656398ebae673da6d77881f0d3512b83478b78e33f2254270c89631b2f2",
+      "bytes": 4752
+    },
+    {
+      "path": "src/phase1d/estimate_republic_europe_candidate_v3.py",
+      "sha256": "62bdd5d4fa11a0c3ba32c08d1f04e7f078f83532d9fbb724ad1029e69b848612",
+      "bytes": 20350
+    },
+    {
+      "path": "tests/test_phase1d_customer_multisource_package.py",
+      "sha256": "e1ac9bc49cf94ddb072351e9d4414be2a89e43fe94e8351c89a6c56468d7c201",
+      "bytes": 1390
+    },
+    {
+      "path": "tests/test_reporting_horizon_support.py",
+      "sha256": "ddf0cbb598d25e8f51bec735317696217823419f291bb7dd33a0a2aa04414cf2",
+      "bytes": 6108
+    },
+    {
+      "path": "tests/test_reporting_input_validation.py",
+      "sha256": "158c02f69c607d1afbef1ba54b8d5bc70731a6087a710fc9a31cb301fb646631",
+      "bytes": 9854
+    },
+    {
+      "path": "tests/test_reporting_scenario_support.py",
+      "sha256": "5d67b1c08fd58e158f315a375c607bf90bb406c9d88f0f0d5a4ef7a6cae8e321",
+      "bytes": 4996
+    }
+  ],
+  "local_verification": {
+    "customer_suite": {
+      "methods": 191,
+      "passed": 190,
+      "skipped_native_archive_unavailable": 1
+    },
+    "selected_combined_root_suite": {
+      "methods": 46,
+      "passed": 45,
+      "skipped_optional_private_replay": 1
+    },
+    "isolation_and_tamper_checks": "passed",
+    "remote_ci": "not_observed_by_preparation"
+  },
+  "limitations": [
+    "Local tests do not certify omitted native archives, source truth or scientific completion.",
+    "No empirical rates, priors or production model promotion.",
+    "RQ1 adds two scenario-status columns; exact-column consumers require deliberate schema updates.",
+    "Customer known_by_retrieval and freshness describe predicate evidence, not all-dependency historical knowability."
+  ],
+  "separate_attribution_catalog": {
+    "statement_count": 105,
+    "source_page_count": 10,
+    "directory": "research/campaign-attribution-catalog-v2-20261010",
+    "scope": "Public source-attributed statements only; not independently corroborated facts, canonical inputs, economic rounds, outcomes, rates or priors.",
+    "ingestion": "Not an executable-package or canonical input; no ingestion wiring is added."
+  }
+}

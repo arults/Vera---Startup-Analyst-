@@ -63,12 +63,34 @@ def terminal_date(row: dict, mode: str = "mid") -> str:
     return row.get("terminal_event_midpoint_for_primary", "") or row.get("terminal_event_interval_end", "") or row.get("terminal_event_interval_start", "")
 
 
-def followup_time(row: dict) -> float:
+def validate_followup_input(row: dict) -> float | None:
+    """Reject malformed supplied values; None retains absent numeric follow-up."""
+    start = row.get("completion_date")
+    end = row.get("censor_date")
+    for field, value in (("completion_date", start), ("censor_date", end)):
+        if value is not None and not isinstance(value, str):
+            raise ValueError(f"invalid date type:{field}")
+    start_date = date.fromisoformat(start) if start else None
+    end_date = date.fromisoformat(end) if end else None
+    if start_date is not None and end_date is not None and end_date < start_date:
+        raise ValueError("censor_date precedes completion_date")
     raw = row.get("followup_months", "")
-    if raw not in (None, ""):
+    if raw in (None, ""):
+        return None
+    if isinstance(raw, bool):
+        raise ValueError("invalid follow-up")
+    try:
         value = float(raw)
-        if value < 0:
-            raise ValueError("negative follow-up")
+    except (TypeError, ValueError, OverflowError) as exc:
+        raise ValueError("invalid follow-up") from exc
+    if not math.isfinite(value) or value < 0:
+        raise ValueError("follow-up must be finite and nonnegative")
+    return value
+
+
+def followup_time(row: dict) -> float:
+    value = validate_followup_input(row)
+    if value is not None:
         return value
     value = months(row.get("completion_date", ""), row.get("censor_date", ""))
     return value if value is not None else 0.0
@@ -102,6 +124,7 @@ def first_event_observation(row: dict, estimand: str) -> CompetingRiskObservatio
 def km_survival(rows: list[dict], horizon: float, mode: str = "mid") -> float:
     pairs = []
     for row in rows:
+        validate_followup_input(row)
         tdate = terminal_date(row, mode)
         if tdate:
             time = months(row.get("completion_date", ""), tdate)
@@ -159,6 +182,43 @@ def supported(observation: CompetingRiskObservation, horizon: float) -> bool:
     return observation.time >= horizon or (observation.cause is not None and observation.time <= horizon)
 
 
+def landmark_supported(observations: list[CompetingRiskObservation], horizon: float) -> bool:
+    """Held proposal: require risk support or complete modeled first-event absorption.
+
+    An early event supports that individual's status, but does not by itself
+    support the unresolved remainder at an arbitrarily later landmark.
+    """
+    if not observations:
+        return False
+    if any(o.time >= horizon for o in observations):
+        return True
+    points = [p for p in competing_risk_cif(observations, "__support_only__") if p.time <= horizon]
+    return bool(points and points[-1].event_free_survival == 0.0)
+
+
+def supported_survival_scenario(rows: list[dict], horizon: float, mode: str) -> tuple[float | None, str]:
+    """Gate an endpoint sensitivity on its own declared risk history.
+
+    The primary midpoint endpoint is not an administrative cap on the start/end
+    scenario. Complete modeled absorption remains supported at later horizons.
+    """
+    if mode not in ("start", "end"):
+        raise ValueError("unsupported survival scenario mode")
+    observations = []
+    for row in rows:
+        validate_followup_input(row)
+        endpoint = terminal_date(row, mode)
+        duration = months(row.get("completion_date", ""), endpoint) if endpoint else followup_time(row)
+        observations.append(CompetingRiskObservation(
+            row["round_id"], row["canonical_company_id"],
+            duration if duration is not None else 0.0,
+            "terminal" if endpoint else None,
+        ))
+    if not landmark_supported(observations, horizon):
+        return None, "UNSUPPORTED_HORIZON"
+    return km_survival(rows, horizon, mode), "SUPPORTED"
+
+
 def event_count(observations: list[CompetingRiskObservation], cause: str, horizon: float) -> int:
     return sum(1 for o in observations if o.cause == cause and o.time <= horizon)
 
@@ -172,8 +232,9 @@ def zero_event_survival_lower(n: int) -> float | None:
 
 
 def is_ascertained(row: dict) -> bool:
+    value = validate_followup_input(row)
     return bool(
-        float(row.get("followup_months") or 0) > 0
+        (value is not None and value > 0)
         or row.get("success_date")
         or row.get("closure_date")
         or terminal_date(row)
@@ -199,7 +260,19 @@ def rq1_rows(ledger: list[dict]) -> list[dict]:
             closure_supported = sum(supported(o, horizon) for o in closure_obs)
             survival_supported = sum(bool(followup_time(r) >= horizon or (terminal_date(r) and (months(r["completion_date"], terminal_date(r)) or 0) <= horizon)) for r in cell)
             n_supported = min(success_supported, closure_supported, survival_supported)
-            estimable = n > 0 and n_supported > 0
+            survival_obs = [
+                CompetingRiskObservation(
+                    r["round_id"], r["canonical_company_id"],
+                    (months(r["completion_date"], terminal_date(r)) or 0.0)
+                    if terminal_date(r) else followup_time(r),
+                    "terminal" if terminal_date(r) else None,
+                )
+                for r in cell
+            ]
+            estimable = n > 0 and all(
+                landmark_supported(observations, horizon)
+                for observations in (success_obs, closure_obs, survival_obs)
+            )
             success_events = event_count(success_obs, "success", horizon)
             closure_events = event_count(closure_obs, "closure", horizon)
             terminal_other = event_count(closure_obs, "terminal_other", horizon)
@@ -219,12 +292,13 @@ def rq1_rows(ledger: list[dict]) -> list[dict]:
                     _, survival_lo, survival_hi = bootstrap_survival(cell, horizon, year * 1000 + int(horizon) + 37)
                 else:
                     survival_lo = survival_hi = None
-                terminal_start = km_survival(cell, horizon, "start")
-                terminal_end = km_survival(cell, horizon, "end")
+                terminal_start, terminal_start_status = supported_survival_scenario(cell, horizon, "start")
+                terminal_end, terminal_end_status = supported_survival_scenario(cell, horizon, "end")
             else:
                 success_point = closure_point = survival_point = None
                 success_lo = success_hi = closure_lo = closure_hi = survival_lo = survival_hi = None
                 terminal_start = terminal_end = None
+                terminal_start_status = terminal_end_status = "NOT_EVALUATED_PRIMARY_UNESTIMABLE"
             low_information = (
                 n < 30
                 or success_events < 5
@@ -258,6 +332,8 @@ def rq1_rows(ledger: list[dict]) -> list[dict]:
                 "survival_support_lower_95": fmt(zero_event_survival_lower(n_supported) if closure_events + terminal_other == 0 else None),
                 "operating_survival_terminal_start": fmt(terminal_start),
                 "operating_survival_terminal_end": fmt(terminal_end),
+                "operating_survival_terminal_start_status": terminal_start_status,
+                "operating_survival_terminal_end_status": terminal_end_status,
                 "low_information": str(low_information).lower(),
                 "estimable": str(estimable).lower(),
                 "estimand_label": "platform_observed",
