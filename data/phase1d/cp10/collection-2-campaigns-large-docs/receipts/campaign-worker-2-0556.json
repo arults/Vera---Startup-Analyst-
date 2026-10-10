@@ -1,0 +1,18 @@
+{
+  "bytes": 55506,
+  "campaign_url": "https://republic.com/slate-click",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/slate-click/show_updates",
+  "gzip_sha256": "9707d21198fed5bbf19fb005c18bea22d6a627eba80a9e30ec03af043ce3f3a4",
+  "http_status": 200,
+  "parent_sha256": "b970a0b6cc7bf34dd56462ec0c20b654277693bd286ac7984742d4bf5989a46b",
+  "raw_sha256": "9cf96830b72fb685d98b9774bb80c25a0fb3d375d4ee0241fc9d3e926610e0f4",
+  "received_at": "2026-10-10T02:37:18.217924+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:17.628477+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9cf96830b72fb685d98b9774bb80c25a0fb3d375d4ee0241fc9d3e926610e0f4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/slate-click/show_updates"
+}

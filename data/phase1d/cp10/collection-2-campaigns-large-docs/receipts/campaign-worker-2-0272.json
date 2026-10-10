@@ -1,0 +1,18 @@
+{
+  "bytes": 222369,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/i2chain",
+  "gzip_sha256": "26f5d6d128b4b6d8dfe5d973796d9e7100a315103cb41316b3f387496c591c69",
+  "http_status": 200,
+  "raw_sha256": "71026e5d92514845475566f72bcefc7d1aa52e157f6c0df358e78d0259496b5e",
+  "received_at": "2026-10-10T02:30:34.656265+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:33.847788+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/71026e5d92514845475566f72bcefc7d1aa52e157f6c0df358e78d0259496b5e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/i2chain"
+}

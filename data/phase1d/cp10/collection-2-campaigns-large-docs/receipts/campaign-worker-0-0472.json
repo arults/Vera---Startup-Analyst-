@@ -1,0 +1,18 @@
+{
+  "bytes": 1866,
+  "campaign_url": "https://republic.com/r-epicgames",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/r-epicgames/show_updates",
+  "gzip_sha256": "4b103ceb4a4973da43828901b780b79e71fc7011c957963420a71adec36465d9",
+  "http_status": 200,
+  "parent_sha256": "76c6c44cb6527031f82af30ae7c5ab3a2aeb699d119665334357d7d34fc4192b",
+  "raw_sha256": "aa1602e6afb0a5992c49627c35c2687ac8252c01ec7c27a3ee303d43b39442aa",
+  "received_at": "2026-10-10T02:35:41.999987+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:41.474595+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/aa1602e6afb0a5992c49627c35c2687ac8252c01ec7c27a3ee303d43b39442aa.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/r-epicgames/show_updates"
+}

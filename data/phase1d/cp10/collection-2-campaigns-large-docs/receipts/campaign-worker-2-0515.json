@@ -1,0 +1,18 @@
+{
+  "bytes": 1854,
+  "campaign_url": "https://republic.com/republic-spv-a",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/republic-spv-a/show_updates",
+  "gzip_sha256": "6b3b054670ae542b32bbda6e48c6ff62809cafbec4ed0902336635f5a3167c91",
+  "http_status": 200,
+  "parent_sha256": "38279b933291d016e2a1780898292d80cce5468a02724c98a8bfb404ea463b06",
+  "raw_sha256": "b6c34730b16c33c4810acd7aa8ac76d8fbf2b29c7a3267f246e9a6c41d639ce3",
+  "received_at": "2026-10-10T02:36:30.606423+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:29.983145+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b6c34730b16c33c4810acd7aa8ac76d8fbf2b29c7a3267f246e9a6c41d639ce3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/republic-spv-a/show_updates"
+}

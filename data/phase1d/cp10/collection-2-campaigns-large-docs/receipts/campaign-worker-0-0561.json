@@ -1,0 +1,18 @@
+{
+  "bytes": 296705,
+  "campaign_url": "https://republic.com/spinster-sisters",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/spinster-sisters/show_updates",
+  "gzip_sha256": "9afb104fac2120f0c827048c3b548dddc188c7e4f2b12c17efb2af640cff1499",
+  "http_status": 200,
+  "parent_sha256": "6a9fda63f71e796a4b291c85c3d48806b07baf826b1d39368b66c53a772a3dc0",
+  "raw_sha256": "1be6c4e863ffff1a396d2dc6b89662bc65893c0bada7f7b5922b7385fb773d71",
+  "received_at": "2026-10-10T02:37:21.302674+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:20.420763+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1be6c4e863ffff1a396d2dc6b89662bc65893c0bada7f7b5922b7385fb773d71.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/spinster-sisters/show_updates"
+}

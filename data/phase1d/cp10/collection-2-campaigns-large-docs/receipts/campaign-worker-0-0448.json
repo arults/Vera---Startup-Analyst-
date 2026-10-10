@@ -1,0 +1,18 @@
+{
+  "bytes": 104975,
+  "campaign_url": "https://republic.com/popshop",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/popshop/show_updates",
+  "gzip_sha256": "445bad9e5920e546bca48bcf840d59fbc9adebce610a7481c5c2a1245c856ef7",
+  "http_status": 200,
+  "parent_sha256": "3c4b23059a1be0e7c404982d534d56365362be081ea86fb7d06367067f56660d",
+  "raw_sha256": "30415465250de66d13bd6b6d9716d8cffaec5b1d34e31e2dffa85a2fbad6391c",
+  "received_at": "2026-10-10T02:35:15.250718+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:14.591474+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/30415465250de66d13bd6b6d9716d8cffaec5b1d34e31e2dffa85a2fbad6391c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/popshop/show_updates"
+}

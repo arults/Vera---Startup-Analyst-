@@ -1,0 +1,18 @@
+{
+  "bytes": 66839,
+  "campaign_url": "https://republic.com/coign",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/coign/show_updates",
+  "gzip_sha256": "7df259de8669064d392914eae342ec1902e909be1fc5ab161022781d4bf29e9f",
+  "http_status": 200,
+  "parent_sha256": "249ba9287f21f26a54c7b6eff0cb501ed2fa2342f411d127bd5347d02ad0081b",
+  "raw_sha256": "c8878c038f065d4b8e4e60d26428b4dc0273fcf693dd47814696a69d35ff9b99",
+  "received_at": "2026-10-10T02:26:14.675683+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:14.055990+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c8878c038f065d4b8e4e60d26428b4dc0273fcf693dd47814696a69d35ff9b99.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/coign/show_updates"
+}

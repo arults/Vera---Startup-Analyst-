@@ -1,0 +1,18 @@
+{
+  "bytes": 1854,
+  "campaign_url": "https://republic.com/stylerow",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/stylerow/show_updates",
+  "gzip_sha256": "a9e45bc5bf81f6b0c879885b97d2b1fe6d77d32277632171efc6817fde341608",
+  "http_status": 200,
+  "parent_sha256": "de1e3826fb6990e4ed8ff2dd926fba2c1ff0db5e9f04730e95a97e323de6a980",
+  "raw_sha256": "3ad3c780c3586d6487d3e8630bf994dcf3260753d08600f5eaecacdca7e3048c",
+  "received_at": "2026-10-10T02:37:30.031165+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:29.442658+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3ad3c780c3586d6487d3e8630bf994dcf3260753d08600f5eaecacdca7e3048c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/stylerow/show_updates"
+}

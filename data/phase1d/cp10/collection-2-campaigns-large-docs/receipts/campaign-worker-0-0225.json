@@ -1,0 +1,18 @@
+{
+  "bytes": 50192,
+  "campaign_url": "https://republic.com/grit",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/grit/show_updates",
+  "gzip_sha256": "df45b145b79d3688c0fa0707d4d0c222955a737ae3e81d17f4fc6e0384dd95b5",
+  "http_status": 200,
+  "parent_sha256": "5c4f783d1b9a5239effd2d4c9065af8aaf1df96b124405be5511860d18437669",
+  "raw_sha256": "ef4c8ad3df05cf81bdc78b7daa34f461be83642008787a47539016bbb68b1104",
+  "received_at": "2026-10-10T02:28:53.152496+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:52.570470+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ef4c8ad3df05cf81bdc78b7daa34f461be83642008787a47539016bbb68b1104.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/grit/show_updates"
+}

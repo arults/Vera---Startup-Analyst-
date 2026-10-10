@@ -1,0 +1,18 @@
+{
+  "bytes": 317400,
+  "campaign_url": "https://republic.com/circuit-city",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/circuit-city/show_updates",
+  "gzip_sha256": "8c4c172f39c0c9215590963113599c42d2630cd44284910192057ca5e1e0a481",
+  "http_status": 200,
+  "parent_sha256": "5210118b6043c740acf0c27a4fe1c86cd1b40ef4e7116c4b38f9ad8647291a83",
+  "raw_sha256": "2d292397079636920c6a79c5db68ddefa01fcba937e3e5350f9db73d85a63b74",
+  "received_at": "2026-10-10T02:25:21.403189+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:20.537733+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2d292397079636920c6a79c5db68ddefa01fcba937e3e5350f9db73d85a63b74.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/circuit-city/show_updates"
+}

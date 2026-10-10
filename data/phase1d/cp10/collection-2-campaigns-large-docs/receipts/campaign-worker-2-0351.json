@@ -1,0 +1,18 @@
+{
+  "bytes": 21885,
+  "campaign_url": "https://republic.com/maine-craft-distilling",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/maine-craft-distilling/show_updates",
+  "gzip_sha256": "4f67c85afe69addd5fdecf480d48dc8f79a409c9307f9b193f0ea5286607022e",
+  "http_status": 200,
+  "parent_sha256": "53e6c645871d6b3db749cf2f942f1111c65168b4f222448100cd1f228973491d",
+  "raw_sha256": "71b9f9c54a11bc7c62400847c2aeaf15ad70fcbe1467e997046e7083418d41a2",
+  "received_at": "2026-10-10T02:33:23.053089+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:22.491426+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/71b9f9c54a11bc7c62400847c2aeaf15ad70fcbe1467e997046e7083418d41a2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/maine-craft-distilling/show_updates"
+}

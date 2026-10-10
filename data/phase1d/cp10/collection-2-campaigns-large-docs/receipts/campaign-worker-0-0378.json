@@ -1,0 +1,18 @@
+{
+  "bytes": 1855,
+  "campaign_url": "https://republic.com/monogram-orthopaedics",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/monogram-orthopaedics/show_updates",
+  "gzip_sha256": "e9a19e6fdfb45db3a66fd93b3ca91eb201e33f90141c767346ebef73b57b759e",
+  "http_status": 200,
+  "parent_sha256": "15dca3bd4a5364fc7ff7672f846f058e535d2e868d9d444e659f5b288fc8a04c",
+  "raw_sha256": "78d87f53b32064f66d913e17c8319f70be523e44143fe65c80f7ebd9072619b8",
+  "received_at": "2026-10-10T02:33:55.385774+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:54.857628+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/78d87f53b32064f66d913e17c8319f70be523e44143fe65c80f7ebd9072619b8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/monogram-orthopaedics/show_updates"
+}

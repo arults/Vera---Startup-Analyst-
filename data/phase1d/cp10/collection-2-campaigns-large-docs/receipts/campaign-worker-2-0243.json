@@ -1,0 +1,18 @@
+{
+  "bytes": 167028,
+  "campaign_url": "https://republic.com/helios",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/helios/show_updates",
+  "gzip_sha256": "2b154841cdf33ac97604ff0ec04838b776d0cb8213fa2c39cab5e9b279314a2b",
+  "http_status": 200,
+  "parent_sha256": "83bb49fe8ac185f68d6732323f6ae483f68ff3014849afa92b0453d3d37d751e",
+  "raw_sha256": "33014d90ada85b7248d0e68413922981aa39436b281a08c990883fc7ce91a56d",
+  "received_at": "2026-10-10T02:29:31.738180+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:31.088068+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/33014d90ada85b7248d0e68413922981aa39436b281a08c990883fc7ce91a56d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/helios/show_updates"
+}

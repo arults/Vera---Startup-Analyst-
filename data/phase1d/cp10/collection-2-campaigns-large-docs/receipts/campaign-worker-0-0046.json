@@ -1,0 +1,18 @@
+{
+  "bytes": 222384,
+  "campaign_url": "https://republic.com/atsign",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/atsign/show_updates",
+  "gzip_sha256": "e795ba26d97215a9722a7b75eb5e188f6d155d727b09ad4d15b72fc96e99dd7d",
+  "http_status": 200,
+  "parent_sha256": "4d70f801e017078a0679ac011910b7a10866c707ddeb966def56a881211aeb86",
+  "raw_sha256": "8f9507dbd006676b91d3df152570e06d7b4078f494d342ceffb09836b8ceed39",
+  "received_at": "2026-10-10T02:23:52.060011+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:51.229954+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8f9507dbd006676b91d3df152570e06d7b4078f494d342ceffb09836b8ceed39.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/atsign/show_updates"
+}

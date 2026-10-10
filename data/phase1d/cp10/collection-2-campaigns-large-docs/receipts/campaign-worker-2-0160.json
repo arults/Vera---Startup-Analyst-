@@ -1,0 +1,18 @@
+{
+  "bytes": 78651,
+  "campaign_url": "https://republic.com/dorian",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/dorian/show_updates",
+  "gzip_sha256": "4d961e36d56ab20350d79d97cd939c010e5a545b815d76104098be2d9f8b5209",
+  "http_status": 200,
+  "parent_sha256": "e9991741f3192e834b2515296b09b89db5dc357d324d66ab973ef5fc66cbcc9d",
+  "raw_sha256": "9cec259dbb493b729081e07b95ddd41ea72cfb59834e9132f8c60b04cb4486dc",
+  "received_at": "2026-10-10T02:26:48.942610+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:48.317416+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9cec259dbb493b729081e07b95ddd41ea72cfb59834e9132f8c60b04cb4486dc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dorian/show_updates"
+}

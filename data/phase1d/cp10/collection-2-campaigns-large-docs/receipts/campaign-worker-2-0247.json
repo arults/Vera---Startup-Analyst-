@@ -1,0 +1,18 @@
+{
+  "bytes": 416379,
+  "campaign_url": "https://republic.com/hevo",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hevo/show_updates",
+  "gzip_sha256": "3f14a1789621e54f25c945f9a5392e420e89ffe3a7831157f79251b4e39194da",
+  "http_status": 200,
+  "parent_sha256": "158186a155b13cf1d403854b1b15b3c01ed0dffd8aad2e1f0b35cf31fa2e0774",
+  "raw_sha256": "2fe757d2aef6f32277a23ebf96f2cbb042aadf040e0561028acd3d1bcbbb8e57",
+  "received_at": "2026-10-10T02:29:40.864768+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:39.907462+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2fe757d2aef6f32277a23ebf96f2cbb042aadf040e0561028acd3d1bcbbb8e57.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hevo/show_updates"
+}

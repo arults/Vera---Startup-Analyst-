@@ -1,0 +1,18 @@
+{
+  "bytes": 27416,
+  "campaign_url": "https://republic.com/fishbrain",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fishbrain/show_updates",
+  "gzip_sha256": "cff8a302b02eab00da359e6a89f087ca244af039711f03f98feabe5607612a2c",
+  "http_status": 200,
+  "parent_sha256": "9459b39a03cbddb6396e5414672265bf695a0a761832fce0c404bc85cf790407",
+  "raw_sha256": "5d93932a4174272e18227d07121f708c0e3b598128b664c0385ae00e88ae2f20",
+  "received_at": "2026-10-10T02:27:52.999581+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:52.442942+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5d93932a4174272e18227d07121f708c0e3b598128b664c0385ae00e88ae2f20.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fishbrain/show_updates"
+}

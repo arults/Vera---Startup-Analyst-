@@ -1,0 +1,18 @@
+{
+  "bytes": 11069,
+  "campaign_url": "https://republic.com/thomas-wynter",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/thomas-wynter/show_updates",
+  "gzip_sha256": "cbdf08b07a1e07e8a3f878dbb4a02c191f1885e25e2333db696ed9bedafd01a7",
+  "http_status": 200,
+  "parent_sha256": "35398148e4a92dd3677d7d6f9b7aa58718a1da481397324cbd522b63f2f75250",
+  "raw_sha256": "ff32c3eddd5527f1f06fabd5d0cf86ddbeaf6ce06164e64b33a93b4d840113be",
+  "received_at": "2026-10-10T02:38:15.689971+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:15.142033+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ff32c3eddd5527f1f06fabd5d0cf86ddbeaf6ce06164e64b33a93b4d840113be.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/thomas-wynter/show_updates"
+}

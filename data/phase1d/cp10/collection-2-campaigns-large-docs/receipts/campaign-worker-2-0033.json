@@ -1,0 +1,18 @@
+{
+  "bytes": 407989,
+  "campaign_url": "https://republic.com/applaudable",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/applaudable/show_updates",
+  "gzip_sha256": "80b57b9adce29614c1e1923ed38ac6198019d833b92dda4ec97c06a2c885f95c",
+  "http_status": 200,
+  "parent_sha256": "3640070d0fac0cbae36f31f58ca7543b1ef9af4ba28e3de04ea779b0be9c40d9",
+  "raw_sha256": "251931f62f9d324845f700666a188edc28f3e46317df8cf1bbc810f8d314b27a",
+  "received_at": "2026-10-10T02:23:31.186887+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:30.276820+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/251931f62f9d324845f700666a188edc28f3e46317df8cf1bbc810f8d314b27a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/applaudable/show_updates"
+}

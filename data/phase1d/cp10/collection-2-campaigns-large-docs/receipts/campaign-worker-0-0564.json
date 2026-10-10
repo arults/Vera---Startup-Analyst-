@@ -1,0 +1,18 @@
+{
+  "bytes": 43443,
+  "campaign_url": "https://republic.com/steeped",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/steeped/show_updates",
+  "gzip_sha256": "d6a78a20b8189a2a6b8c8fd7d0d689f2aa25700924a933c14f863ec3d5876546",
+  "http_status": 200,
+  "parent_sha256": "7e32c138b95e41aa0dc519454c997abd2cf3fc76ca5a214fa75a8279cbf82ba9",
+  "raw_sha256": "9574131e3e87f99b38a41d16d1fdd95292d55ba03029a8dd5dc78e097a2de867",
+  "received_at": "2026-10-10T02:37:24.325528+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:23.721353+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9574131e3e87f99b38a41d16d1fdd95292d55ba03029a8dd5dc78e097a2de867.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/steeped/show_updates"
+}

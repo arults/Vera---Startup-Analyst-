@@ -1,0 +1,18 @@
+{
+  "bytes": 208717,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/politech",
+  "gzip_sha256": "4ba0f1d758eb92bba1fc71693e0104bf7eacf73aeb968c85e88cb77d0e732055",
+  "http_status": 200,
+  "raw_sha256": "6e85d7b67bfdbf4e87d24f120307d6de822c22a85c46390568aa7613588901f6",
+  "received_at": "2026-10-10T02:35:20.226578+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:19.248886+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6e85d7b67bfdbf4e87d24f120307d6de822c22a85c46390568aa7613588901f6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/politech"
+}

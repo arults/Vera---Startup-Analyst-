@@ -1,0 +1,18 @@
+{
+  "bytes": 97725,
+  "campaign_url": "https://republic.com/70-million-jobs",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/70-million-jobs/show_updates",
+  "gzip_sha256": "cc86714b8afaff1115d8721ce6a7748cf477965bd9bf3a14415aec66ff0f8c5f",
+  "http_status": 200,
+  "parent_sha256": "3a581d083659545c392109aaf693b01ed309733cc1af2a9c3a5c76fe5b0b0dd1",
+  "raw_sha256": "1191d042c78842c60e5f6b7179381dcbc632784228acb2280f9004629e66a024",
+  "received_at": "2026-10-10T02:22:47.791128+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:47.165582+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1191d042c78842c60e5f6b7179381dcbc632784228acb2280f9004629e66a024.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/70-million-jobs/show_updates"
+}

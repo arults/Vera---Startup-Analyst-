@@ -1,0 +1,18 @@
+{
+  "bytes": 19355,
+  "campaign_url": "https://republic.com/hightag",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hightag/show_updates",
+  "gzip_sha256": "505df46b7ed499493e2ce09b0ad84d619afb0e461c20b2738a51b6899493866f",
+  "http_status": 200,
+  "parent_sha256": "3d8e09d3d5afb36358ccb71084d635f8aff65d9e143e233b57ad7d8ee6418b3d",
+  "raw_sha256": "38c2e33ecb3cf5d3da6181817ea6eb31d98b8462e5f488aebafec38b1c2ba5d1",
+  "received_at": "2026-10-10T02:29:34.942267+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:34.393762+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/38c2e33ecb3cf5d3da6181817ea6eb31d98b8462e5f488aebafec38b1c2ba5d1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hightag/show_updates"
+}

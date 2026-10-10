@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Edify.ai",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/edify",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/02765b9a41ed4888393638e9bdb46e0e233665398f2b77623f2bf484f448ce1c.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "",
+    "final_url": "https://republic.com/edify",
+    "first_live_date": "",
+    "investors": "211",
+    "legal_name_from_platform": "Edify.ai, Inc",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "MISSING",
+    "offering_year": "",
+    "raised_amount_usd": "89372",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "02765b9a41ed4888393638e9bdb46e0e233665398f2b77623f2bf484f448ce1c",
+    "source_url": "https://republic.com/edify",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2021-11-01",
+    "successful_close_year_NOT_offering_year": "2021"
+  },
+  "final_url": "https://republic.com/edify",
+  "first_live_date": "2021-05-27",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2021-11-01",
+      "Successfully raised $89,372 🍾"
+    ],
+    [
+      "2021-05-27",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 975,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/02765b9a41ed4888393638e9bdb46e0e233665398f2b77623f2bf484f448ce1c.bin.gz",
+  "source_sha256": "02765b9a41ed4888393638e9bdb46e0e233665398f2b77623f2bf484f448ce1c",
+  "successful_completion_date": "2021-11-01",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6d1816bac44238ba6a454d8d8db514ca99ded587e716445b4d615f9dcecd2591.bin.gz",
+  "timeline_source_sha256": "6d1816bac44238ba6a454d8d8db514ca99ded587e716445b4d615f9dcecd2591",
+  "url": "https://republic.com/edify",
+  "year_in_study": true
+}

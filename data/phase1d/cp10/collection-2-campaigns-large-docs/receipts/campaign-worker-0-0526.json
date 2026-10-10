@@ -1,0 +1,18 @@
+{
+  "bytes": 330649,
+  "campaign_url": "https://republic.com/saya",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/saya/show_updates",
+  "gzip_sha256": "2b67d19f4722d7ac14c6223fc10407047077db450edd4ed117b43c9b428ce6d8",
+  "http_status": 200,
+  "parent_sha256": "de2369a4e8858e7420891a0126ca318251fe3c0630cdb5307d70d5d0fd6ed5ca",
+  "raw_sha256": "3847fa7195cac349de076ccda3bb1716579b8a682b06a4fc824ceb29dcba7983",
+  "received_at": "2026-10-10T02:36:42.531300+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:41.664130+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3847fa7195cac349de076ccda3bb1716579b8a682b06a4fc824ceb29dcba7983.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/saya/show_updates"
+}

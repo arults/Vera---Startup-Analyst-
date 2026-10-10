@@ -1,0 +1,18 @@
+{
+  "bytes": 132521,
+  "campaign_url": "https://republic.com/responsum-health",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/responsum-health/show_updates",
+  "gzip_sha256": "66232bf0e571893db3ac98ae3d33fd6636352cf7ffcffe1598f802040764cb64",
+  "http_status": 200,
+  "parent_sha256": "fb69c4a1b8b7d77582c62bf8276dfa34d4fea9cf49d5d7f7955b169ae32e20ee",
+  "raw_sha256": "272bd17d0b1b092933a74dfd7718c25d226591b39f671bcd6c1555b1809057cd",
+  "received_at": "2026-10-10T02:36:22.417704+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:21.731509+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/272bd17d0b1b092933a74dfd7718c25d226591b39f671bcd6c1555b1809057cd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/responsum-health/show_updates"
+}

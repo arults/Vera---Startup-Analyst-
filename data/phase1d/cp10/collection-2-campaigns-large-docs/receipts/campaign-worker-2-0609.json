@@ -1,0 +1,18 @@
+{
+  "bytes": 55962,
+  "campaign_url": "https://republic.com/tiny-organics",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/tiny-organics/show_updates",
+  "gzip_sha256": "a4e257d704e4ac18c86943a62d23472e72781e954b7a9e8cf4f7e18e3b1e8b79",
+  "http_status": 200,
+  "parent_sha256": "46c228cda44c574b82add3da57d56e3f481dfb1e56ccc3a1b57c98075d2be88c",
+  "raw_sha256": "0463156fbdacaef6415e265b04b3e30737bd304bbd6ae0c2528ceacee863bd63",
+  "received_at": "2026-10-10T02:38:20.096128+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:19.506103+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0463156fbdacaef6415e265b04b3e30737bd304bbd6ae0c2528ceacee863bd63.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/tiny-organics/show_updates"
+}

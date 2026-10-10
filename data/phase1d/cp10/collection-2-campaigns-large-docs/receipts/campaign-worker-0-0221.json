@@ -1,0 +1,18 @@
+{
+  "bytes": 90105,
+  "campaign_url": "https://republic.com/golightly",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/golightly/show_updates",
+  "gzip_sha256": "8f8cf1db91643e480f5a6c3b02ad596cd12ec0c82463a008614e0767af019e04",
+  "http_status": 200,
+  "parent_sha256": "99a98f5e739ee7814f1a6e68ac4e737a2c45d2425b65128a36fc4e3e0599a56d",
+  "raw_sha256": "523dcf2790164e43dee4c97d1fbc510d072e9a6e1576f60d33c619ada76193dd",
+  "received_at": "2026-10-10T02:28:44.381706+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:43.768766+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/523dcf2790164e43dee4c97d1fbc510d072e9a6e1576f60d33c619ada76193dd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/golightly/show_updates"
+}

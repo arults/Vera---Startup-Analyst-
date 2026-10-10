@@ -1,0 +1,18 @@
+{
+  "bytes": 9130,
+  "campaign_url": "https://republic.com/lucky-carrot",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lucky-carrot/show_updates",
+  "gzip_sha256": "a10855b59eccbf6baf8ce7542f689eaca888bfbfe92a6b839b304b58db647e65",
+  "http_status": 200,
+  "parent_sha256": "56192490feb8e95ee3842788443a18f0a9e7ac255b41d2b03f171abe36434c81",
+  "raw_sha256": "8cf87e47e0138480bbbe4628e72f461e2b672f1af773d74f68ca0238b20cbaa3",
+  "received_at": "2026-10-10T02:33:05.968146+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:05.432457+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8cf87e47e0138480bbbe4628e72f461e2b672f1af773d74f68ca0238b20cbaa3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lucky-carrot/show_updates"
+}

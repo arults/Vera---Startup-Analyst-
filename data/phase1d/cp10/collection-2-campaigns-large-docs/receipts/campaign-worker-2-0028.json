@@ -1,0 +1,18 @@
+{
+  "bytes": 1854,
+  "campaign_url": "https://republic.com/amplifi",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/amplifi/show_updates",
+  "gzip_sha256": "c77b057d0ee00682c012783a7fc4cbd2fd092ad29d8475237a3fe12033f03653",
+  "http_status": 200,
+  "parent_sha256": "6b8b5493674ecfa04fa94dd28d53d9b964a0e50cc9fb8fb9d40364c3184624bf",
+  "raw_sha256": "c72d0601e56c895007814337866794232499dd71549a698d0dcd3c50835a3556",
+  "received_at": "2026-10-10T02:23:22.531270+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:22.004887+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c72d0601e56c895007814337866794232499dd71549a698d0dcd3c50835a3556.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/amplifi/show_updates"
+}

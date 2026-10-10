@@ -1,0 +1,18 @@
+{
+  "bytes": 534917,
+  "campaign_url": "https://republic.com/avawatz",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/avawatz/show_updates",
+  "gzip_sha256": "808baa8e9bd80b4b03ed0f3f7d264b5f6f182834c16b29f7fea89695a12b7915",
+  "http_status": 200,
+  "parent_sha256": "b71d9828c02ebdf7504635fae5af544217f492c576d2a76ea4003bbf3fbc1989",
+  "raw_sha256": "312b24e5a4c9c148a90f687e814c231580998d4fa9a68a817f97e76bcd3ac507",
+  "received_at": "2026-10-10T02:23:59.968298+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:58.948015+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/312b24e5a4c9c148a90f687e814c231580998d4fa9a68a817f97e76bcd3ac507.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/avawatz/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 71080,
+  "campaign_url": "https://republic.com/osprey",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/osprey/show_updates",
+  "gzip_sha256": "a57ce493df5f0bc852d0160b77169424a184a5e6eda1f203988e9bb23080d94c",
+  "http_status": 200,
+  "parent_sha256": "1f4234f68398eff3146d4004c93004023e8a105b8b22162d31466fdcf00eba0d",
+  "raw_sha256": "32cb37ebd7cbe389919876cac3782193e77df3a4870e4cee76f9df6f654e3317",
+  "received_at": "2026-10-10T02:34:46.644521+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:46.056718+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/32cb37ebd7cbe389919876cac3782193e77df3a4870e4cee76f9df6f654e3317.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/osprey/show_updates"
+}

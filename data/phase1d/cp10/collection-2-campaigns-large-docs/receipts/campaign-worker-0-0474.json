@@ -1,0 +1,18 @@
+{
+  "bytes": 1866,
+  "campaign_url": "https://republic.com/r-ramp",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/r-ramp/show_updates",
+  "gzip_sha256": "266a2e8af041b61151226b280b7e9b03dc8ded8a59ad70650c29681f3a5b8c2f",
+  "http_status": 200,
+  "parent_sha256": "324cab6a159f4c50b25bde4e7e566267b477565eead5a70b6dc69964006ba439",
+  "raw_sha256": "f262054aa5500c062ec1e1297c279013368108c35ae3f5f62dc419e81c8dd2a6",
+  "received_at": "2026-10-10T02:35:44.195285+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:43.675005+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f262054aa5500c062ec1e1297c279013368108c35ae3f5f62dc419e81c8dd2a6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/r-ramp/show_updates"
+}

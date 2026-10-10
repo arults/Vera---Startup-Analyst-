@@ -1,0 +1,18 @@
+{
+  "bytes": 170559,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/applaudable",
+  "gzip_sha256": "2e229f02e3551f892fce030ff211ae133d84ac468064ed39bbba973c72f854be",
+  "http_status": 200,
+  "raw_sha256": "3640070d0fac0cbae36f31f58ca7543b1ef9af4ba28e3de04ea779b0be9c40d9",
+  "received_at": "2026-10-10T02:23:29.589007+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:28.616374+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3640070d0fac0cbae36f31f58ca7543b1ef9af4ba28e3de04ea779b0be9c40d9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/applaudable"
+}

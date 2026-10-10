@@ -1,0 +1,18 @@
+{
+  "bytes": 109820,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/fig",
+  "gzip_sha256": "f45da28b2d243309ab328c2b7bdddc6c71ed1a20f867fff3a2ce00c390e0d5a4",
+  "http_status": 200,
+  "raw_sha256": "bfd29cb37b92ef78b419481cdb94361507d18137a5072730ce95756b7f8cc136",
+  "received_at": "2026-10-10T02:27:48.647846+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:48.042060+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bfd29cb37b92ef78b419481cdb94361507d18137a5072730ce95756b7f8cc136.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fig"
+}

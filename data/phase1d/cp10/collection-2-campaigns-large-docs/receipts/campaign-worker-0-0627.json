@@ -1,0 +1,18 @@
+{
+  "bytes": 164421,
+  "campaign_url": "https://republic.com/utobo",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/utobo/show_updates",
+  "gzip_sha256": "02ff7121b51350fa18c93731a9122e18ad0b0b063301bcac9172b10127a6fc39",
+  "http_status": 200,
+  "parent_sha256": "787431a261eac38dff0bbd73fad619bd6eb623f12c6bf4ecdb78148fb97afa66",
+  "raw_sha256": "63ba907214f2946e08023105acd7a9986d9568582e1d6d0baeca3acff667c97e",
+  "received_at": "2026-10-10T02:38:37.888964+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:37.187666+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/63ba907214f2946e08023105acd7a9986d9568582e1d6d0baeca3acff667c97e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/utobo/show_updates"
+}

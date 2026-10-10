@@ -1,0 +1,18 @@
+{
+  "bytes": 27688,
+  "campaign_url": "https://republic.com/cannabox",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cannabox/show_updates",
+  "gzip_sha256": "49f610a169a20c333ae03d5e1c02f92493ddbf8e763042ada421e27149253428",
+  "http_status": 200,
+  "parent_sha256": "335ee50728bdd96ca471c9e90e6d1768347f23d6a34ca2c78a8384177e050bdc",
+  "raw_sha256": "7e302842bdf46653abdb5de10396be12c4a4fde5908428dbc4b5946f3925a8f3",
+  "received_at": "2026-10-10T02:25:33.259325+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:32.668927+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7e302842bdf46653abdb5de10396be12c4a4fde5908428dbc4b5946f3925a8f3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cannabox/show_updates"
+}

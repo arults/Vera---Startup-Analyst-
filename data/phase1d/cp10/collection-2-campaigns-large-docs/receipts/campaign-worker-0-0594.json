@@ -1,0 +1,18 @@
+{
+  "bytes": 19726,
+  "campaign_url": "https://republic.com/the-hub",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/the-hub/show_updates",
+  "gzip_sha256": "beb5c2c1a3a1e733e013679159167b07e0de9f051ef93aa0ed5f68114f838e48",
+  "http_status": 200,
+  "parent_sha256": "38c8f7869ad30301cde9efbd409b9934625322b5f2e4fc412e8c3a5abb78ad71",
+  "raw_sha256": "09e91b374f36ef76b1b291d23cf8db9a15a8701805e08237e1b5a3703a133c5e",
+  "received_at": "2026-10-10T02:37:59.997318+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:59.445739+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/09e91b374f36ef76b1b291d23cf8db9a15a8701805e08237e1b5a3703a133c5e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/the-hub/show_updates"
+}

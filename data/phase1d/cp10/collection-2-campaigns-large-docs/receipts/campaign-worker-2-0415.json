@@ -1,0 +1,18 @@
+{
+  "bytes": 166120,
+  "campaign_url": "https://republic.com/npcx",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/npcx/show_updates",
+  "gzip_sha256": "7668a3cf12c078fdbadd37da8928e006fcc8ccd30fb718c1c317ca31df742e7a",
+  "http_status": 200,
+  "parent_sha256": "cb415b6fbdee36b602a200accecc012507825eef72fc62d13801f2bf426ad288",
+  "raw_sha256": "0c9ef4c187f6fbd43647b70d90a4398cb92a5b79e961c9b40f2838fbba6bcd18",
+  "received_at": "2026-10-10T02:34:37.246914+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:36.529528+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0c9ef4c187f6fbd43647b70d90a4398cb92a5b79e961c9b40f2838fbba6bcd18.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/npcx/show_updates"
+}

@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "FetchFind",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/fetchfind",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1eb484089f0cfda0c956f0f52ce5ce4c8ecb7b982ea345fad6e677550b968b5d.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1705130",
+    "final_url": "https://republic.com/fetchfind",
+    "first_live_date": "",
+    "investors": "216",
+    "legal_name_from_platform": "FetchFind, LLC",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "110911",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "1eb484089f0cfda0c956f0f52ce5ce4c8ecb7b982ea345fad6e677550b968b5d",
+    "source_url": "https://republic.com/fetchfind",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2017-07-15",
+    "successful_close_year_NOT_offering_year": "2017"
+  },
+  "final_url": "https://republic.com/fetchfind",
+  "first_live_date": "2017-05-16",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2017-07-15",
+      "Successfully raised $110,911 🍾"
+    ],
+    [
+      "2017-05-16",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 18,
+  "native_state": "finalized",
+  "offering_year": 2017,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1eb484089f0cfda0c956f0f52ce5ce4c8ecb7b982ea345fad6e677550b968b5d.bin.gz",
+  "source_sha256": "1eb484089f0cfda0c956f0f52ce5ce4c8ecb7b982ea345fad6e677550b968b5d",
+  "successful_completion_date": "2017-07-15",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0c2c5bec26aa6d4c9dba08333eda39df4f759d9a1bed8032820c35aa1e4bd04d.bin.gz",
+  "timeline_source_sha256": "0c2c5bec26aa6d4c9dba08333eda39df4f759d9a1bed8032820c35aa1e4bd04d",
+  "url": "https://republic.com/fetchfind",
+  "year_in_study": false
+}

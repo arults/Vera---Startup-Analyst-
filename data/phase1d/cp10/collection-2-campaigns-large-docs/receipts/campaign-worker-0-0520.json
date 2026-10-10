@@ -1,0 +1,18 @@
+{
+  "bytes": 286237,
+  "campaign_url": "https://republic.com/rule-breaker",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/rule-breaker/show_updates",
+  "gzip_sha256": "9bdef580a084df774cee40f80c0258f752e6057c84611b27e24c6064cf4ab3f2",
+  "http_status": 200,
+  "parent_sha256": "016d62cba002944cc799f81dec2a5e9285078867830021810aaae941e8e4b5a5",
+  "raw_sha256": "819ec93289f098df41bf0fcaca35746e5477f8a40c648c7efe0c60bdb597af47",
+  "received_at": "2026-10-10T02:36:35.798369+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:35.020532+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/819ec93289f098df41bf0fcaca35746e5477f8a40c648c7efe0c60bdb597af47.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/rule-breaker/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 183724,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/bookandmain",
+  "gzip_sha256": "f1812374c291214920e32e08e06ee1bd6f9f785faa4d44a4d4bc213902560835",
+  "http_status": 200,
+  "raw_sha256": "2f1e2e0c00cf07a57ef131301ad9d6a954b8835189682b8223523c02fb5608de",
+  "received_at": "2026-10-10T02:24:37.943742+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:36.993319+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2f1e2e0c00cf07a57ef131301ad9d6a954b8835189682b8223523c02fb5608de.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bookandmain"
+}

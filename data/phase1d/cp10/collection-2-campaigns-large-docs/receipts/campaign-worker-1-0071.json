@@ -1,0 +1,18 @@
+{
+  "bytes": 192475,
+  "campaign_url": "https://republic.com/blue-world-voyages-august-2019",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/blue-world-voyages-august-2019/show_updates",
+  "gzip_sha256": "b1fc1681edaa6347d4998d76aebfb9dceaa4001ca714b81a51be7a00f9969977",
+  "http_status": 200,
+  "parent_sha256": "42ea900bae8f8bddcef424474fd022c51d8cdcd7e632573f2c81eb5892de7226",
+  "raw_sha256": "8d8f6ba783f6cc016863cd0b0c70163b6754103ca1ce30357a24f86530288128",
+  "received_at": "2026-10-10T02:24:33.880997+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:33.137560+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8d8f6ba783f6cc016863cd0b0c70163b6754103ca1ce30357a24f86530288128.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/blue-world-voyages-august-2019/show_updates"
+}

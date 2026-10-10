@@ -1,0 +1,18 @@
+{
+  "bytes": 281237,
+  "campaign_url": "https://republic.com/personal-ai",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/personal-ai/show_updates",
+  "gzip_sha256": "4f166143d9c89becb08c8d945092eec296b7d56affd2a80fdf9dcfbe276630e1",
+  "http_status": 200,
+  "parent_sha256": "e7bc0a871820df2ebd6dfaedc53e459fc7fdfd0d7e9286f31ee77a30d085aa7d",
+  "raw_sha256": "866d0c7339c108eb89b19b631677bb715e83a9d9f274d043a4263b81da810764",
+  "received_at": "2026-10-10T02:35:08.052390+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:07.116725+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/866d0c7339c108eb89b19b631677bb715e83a9d9f274d043a4263b81da810764.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/personal-ai/show_updates"
+}

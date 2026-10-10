@@ -1,0 +1,18 @@
+{
+  "bytes": 323557,
+  "campaign_url": "https://republic.com/flexable",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/flexable/show_updates",
+  "gzip_sha256": "a74c238ee85c42d478ec0b8db3b367c3536e528cee75173ac62a54b32ff86824",
+  "http_status": 200,
+  "parent_sha256": "98e8cfd1da79ad6b2cfdb20f3beb48aa8d1b8a39914a04f0bc34e5df79ea630e",
+  "raw_sha256": "cb5c08f91ec6e88157b9ad308137c7ef3b68e16e083aa244730c2aeadcb683bd",
+  "received_at": "2026-10-10T02:27:59.515937+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:58.499209+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/cb5c08f91ec6e88157b9ad308137c7ef3b68e16e083aa244730c2aeadcb683bd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/flexable/show_updates"
+}

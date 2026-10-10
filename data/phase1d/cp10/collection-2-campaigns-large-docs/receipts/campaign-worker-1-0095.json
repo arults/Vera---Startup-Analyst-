@@ -1,0 +1,18 @@
+{
+  "bytes": 11614,
+  "campaign_url": "https://republic.com/cardboard-live",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cardboard-live/show_updates",
+  "gzip_sha256": "6f107f6f3ec5a01f94e59ce16154e9624334fe414562d30b0bf6270f443cb8b1",
+  "http_status": 200,
+  "parent_sha256": "c19006293d39e404fa7e2a494ff8845693b2a6478d038e5cbd861ce5c8477da7",
+  "raw_sha256": "d5d12970537ee6f5ec7ada47ad055cc4af6522952529e0f4e42300e2d32acf2a",
+  "received_at": "2026-10-10T02:25:38.174122+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:37.630027+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d5d12970537ee6f5ec7ada47ad055cc4af6522952529e0f4e42300e2d32acf2a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cardboard-live/show_updates"
+}

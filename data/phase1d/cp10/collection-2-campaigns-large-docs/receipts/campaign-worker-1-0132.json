@@ -1,0 +1,18 @@
+{
+  "bytes": 34301,
+  "campaign_url": "https://republic.com/curios",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/curios/show_updates",
+  "gzip_sha256": "5c3d0b8c5ca940f2dd5ea448b1aedfeb5a215fe658c46df96d887771f77548ca",
+  "http_status": 200,
+  "parent_sha256": "4fbdf306d2d0e6e10fd111eb6f76a4fa903c390faf864809389f653a149ba6cb",
+  "raw_sha256": "848a32853ba358d7a5926b7c0177fa2f3b1a29c48666368654b14ad87eb42694",
+  "received_at": "2026-10-10T02:26:39.459711+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:38.886551+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/848a32853ba358d7a5926b7c0177fa2f3b1a29c48666368654b14ad87eb42694.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/curios/show_updates"
+}

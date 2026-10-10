@@ -1,0 +1,18 @@
+{
+  "bytes": 40762,
+  "campaign_url": "https://republic.com/yekim",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/yekim/show_updates",
+  "gzip_sha256": "7116ca43341dd5ac8ed4308f60942daada385d5a6136e07899f6d44f0a97e61b",
+  "http_status": 200,
+  "parent_sha256": "8a5da945bc41427fc476fa291b0b9097268da6ef8976b02a9b87f600edae3d25",
+  "raw_sha256": "4dc5a5abddd20d3216788e4d27f8df118c6ebf9e602f9921ef092ff1b1fed45b",
+  "received_at": "2026-10-10T02:39:25.041970+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:24.416755+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4dc5a5abddd20d3216788e4d27f8df118c6ebf9e602f9921ef092ff1b1fed45b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/yekim/show_updates"
+}

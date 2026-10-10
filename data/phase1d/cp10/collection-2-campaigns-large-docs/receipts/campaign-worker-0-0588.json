@@ -1,0 +1,18 @@
+{
+  "bytes": 26966,
+  "campaign_url": "https://republic.com/techtracker",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/techtracker/show_updates",
+  "gzip_sha256": "b088a9b1adacb08f4d96dacd0341b59d0ecaae588739962701b38f9bd55e0efa",
+  "http_status": 200,
+  "parent_sha256": "baa63e8bed8a1fe1da7c9d2dfe1af48732f88e80b60031f283ad0e45fef4b254",
+  "raw_sha256": "c9b055630b0a577cfbde6f6fca7c6476a65af3fa9cdebb3ccc591b98a9d46fe1",
+  "received_at": "2026-10-10T02:37:53.417856+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:52.844135+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c9b055630b0a577cfbde6f6fca7c6476a65af3fa9cdebb3ccc591b98a9d46fe1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/techtracker/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 1852,
+  "campaign_url": "https://republic.com/dex",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/dex/show_updates",
+  "gzip_sha256": "e2738c2b3ba80c53744efe147dc2e2e6002c87ad1ac40f23cf2347c1bbec0712",
+  "http_status": 200,
+  "parent_sha256": "60f7c26ace9ded108587aee4e72a3305a644b4a55e5ffec2a3faac88b9e3150e",
+  "raw_sha256": "108ad5a00c2ab3ef4d9cf5ff124a4efade3d460f646ac6f53239d25dc422a05e",
+  "received_at": "2026-10-10T02:26:59.303467+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:58.769244+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/108ad5a00c2ab3ef4d9cf5ff124a4efade3d460f646ac6f53239d25dc422a05e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dex/show_updates"
+}

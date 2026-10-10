@@ -1,0 +1,18 @@
+{
+  "bytes": 58424,
+  "campaign_url": "https://republic.com/commissary-club",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/commissary-club/show_updates",
+  "gzip_sha256": "d172a5182232a684bd9f2377281559ee1ad095d0cac5825c35c231b402878862",
+  "http_status": 200,
+  "parent_sha256": "69eff7a176d07ca517cf9232a4f6e3d53cbdbea43033af4a159eb1045330a30c",
+  "raw_sha256": "4ca0cd68c24f7d913f6e6b97b4250ddab796f1330bb9b8e2939342638322974c",
+  "received_at": "2026-10-10T02:26:17.935669+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:17.356616+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4ca0cd68c24f7d913f6e6b97b4250ddab796f1330bb9b8e2939342638322974c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/commissary-club/show_updates"
+}

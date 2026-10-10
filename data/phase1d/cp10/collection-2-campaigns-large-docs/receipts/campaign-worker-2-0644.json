@@ -1,0 +1,18 @@
+{
+  "bytes": 128602,
+  "campaign_url": "https://republic.com/waku",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/waku/show_updates",
+  "gzip_sha256": "68e7c78ff60283e83d05ac3c539fe306f13f3655581f31234255eabed79e81fe",
+  "http_status": 200,
+  "parent_sha256": "690e251f6f6966fa85aa5915c9cf95fe816635d6f9a5b21b5533fd4aaecc1dfd",
+  "raw_sha256": "b953f133d586de26aaae9b641b62ad97389d3cc609f003e92e3a3829bca0fd80",
+  "received_at": "2026-10-10T02:39:00.918709+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:00.238527+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b953f133d586de26aaae9b641b62ad97389d3cc609f003e92e3a3829bca0fd80.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/waku/show_updates"
+}

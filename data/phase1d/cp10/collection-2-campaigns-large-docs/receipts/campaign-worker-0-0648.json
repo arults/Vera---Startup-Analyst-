@@ -1,0 +1,18 @@
+{
+  "bytes": 163582,
+  "campaign_url": "https://republic.com/whoelse-ai",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/whoelse-ai/show_updates",
+  "gzip_sha256": "add342eeeaa37f7124176d606626b35d158e88866386c7e8659593e8774521ae",
+  "http_status": 200,
+  "parent_sha256": "fed78f0822f67030af9a3ca6135ce52d2a1211477c365aeb493835efbb78539c",
+  "raw_sha256": "297b7e0c3ae2981bd05ef39dcd5e57ee117945a0d004c6708028e513d70f2abf",
+  "received_at": "2026-10-10T02:39:01.476775+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:00.788601+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/297b7e0c3ae2981bd05ef39dcd5e57ee117945a0d004c6708028e513d70f2abf.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/whoelse-ai/show_updates"
+}

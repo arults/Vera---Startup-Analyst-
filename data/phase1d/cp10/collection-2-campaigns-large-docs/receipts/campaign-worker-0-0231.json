@@ -1,0 +1,18 @@
+{
+  "bytes": 150708,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/halo",
+  "gzip_sha256": "e06fa9829d99c58a3b84fc2beb47d9e13acc33fed28bf66d9b9e71e84c3bf4a9",
+  "http_status": 200,
+  "raw_sha256": "ab98d54c4f283e4fde7d8dd54390334e361935eef38b5b91b4c9c275178829c4",
+  "received_at": "2026-10-10T02:29:06.015830+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:05.227891+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ab98d54c4f283e4fde7d8dd54390334e361935eef38b5b91b4c9c275178829c4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/halo"
+}

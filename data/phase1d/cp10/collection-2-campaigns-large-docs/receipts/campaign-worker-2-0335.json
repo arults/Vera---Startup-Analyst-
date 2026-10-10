@@ -1,0 +1,18 @@
+{
+  "bytes": 527163,
+  "campaign_url": "https://republic.com/lexi-devices",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lexi-devices/show_updates",
+  "gzip_sha256": "6139298db79856ad37febade5a893b1880b9f5a34e3fc4594f6cabfd942d660d",
+  "http_status": 200,
+  "parent_sha256": "ea0aae8d5e7ef6c3eb7a5188b6a70d34665c2e38b33fefe2aa78e71ace614523",
+  "raw_sha256": "833117831ee13ba64885675fc2b788c54421a3984dc3cfbaceed877de9f85bee",
+  "received_at": "2026-10-10T02:32:51.006813+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:49.988015+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/833117831ee13ba64885675fc2b788c54421a3984dc3cfbaceed877de9f85bee.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lexi-devices/show_updates"
+}

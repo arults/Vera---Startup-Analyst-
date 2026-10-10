@@ -1,0 +1,18 @@
+{
+  "bytes": 9419,
+  "campaign_url": "https://republic.com/blanc-noir",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/blanc-noir/show_updates",
+  "gzip_sha256": "0cc52b68c0a6a68cf764ade4029f1814e3570798a73c5b857765b7e1c4483a50",
+  "http_status": 200,
+  "parent_sha256": "44ac1c6f4283a0dd5ff0b746278944dcd2a2f176e0f67f82eb3c7258a0662cec",
+  "raw_sha256": "0ce5effa36fc9a3aafa92c4ebdb5b6a092fcb50fdb7e32f1f8694b785b38b45b",
+  "received_at": "2026-10-10T02:24:29.238261+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:28.705225+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0ce5effa36fc9a3aafa92c4ebdb5b6a092fcb50fdb7e32f1f8694b785b38b45b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/blanc-noir/show_updates"
+}

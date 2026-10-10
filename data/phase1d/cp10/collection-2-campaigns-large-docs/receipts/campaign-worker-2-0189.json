@@ -1,0 +1,18 @@
+{
+  "bytes": 255830,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/fcf-knights-of-degen",
+  "gzip_sha256": "886561563a91a379c40f6d628fe1e7e00d55b50b22e0e817fa415c9184bd3e12",
+  "http_status": 200,
+  "raw_sha256": "26d879f5f23fa3386cb4175fb99ce7e300dbb786bc564032abb8feedd227d847",
+  "received_at": "2026-10-10T02:27:38.445092+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:37.585024+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/26d879f5f23fa3386cb4175fb99ce7e300dbb786bc564032abb8feedd227d847.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fcf-knights-of-degen"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 100137,
+  "campaign_url": "https://republic.com/edify",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/edify/show_updates",
+  "gzip_sha256": "60a389e53a19f7d575c4dadd151d98d8520cca8de0fa44effa001f510f88126c",
+  "http_status": 200,
+  "parent_sha256": "02765b9a41ed4888393638e9bdb46e0e233665398f2b77623f2bf484f448ce1c",
+  "raw_sha256": "6d1816bac44238ba6a454d8d8db514ca99ded587e716445b4d615f9dcecd2591",
+  "received_at": "2026-10-10T02:27:00.559884+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:59.869446+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6d1816bac44238ba6a454d8d8db514ca99ded587e716445b4d615f9dcecd2591.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/edify/show_updates"
+}

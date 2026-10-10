@@ -1,0 +1,18 @@
+{
+  "bytes": 8958,
+  "campaign_url": "https://republic.com/ascent-aerosystems",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ascent-aerosystems/show_updates",
+  "gzip_sha256": "b70181fa94170f65a9208fbd021ada5d1632a4318ce1afdbb451690889c3f245",
+  "http_status": 200,
+  "parent_sha256": "ce0671cfdfcf0a2ac2053cd9d366b76f797eec094fb114b537662121e31ad514",
+  "raw_sha256": "e287fba577d234e628b7cd346ab6fb6da7c7a8d35625586a2c27115347d55031",
+  "received_at": "2026-10-10T02:23:45.723887+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:45.168409+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e287fba577d234e628b7cd346ab6fb6da7c7a8d35625586a2c27115347d55031.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ascent-aerosystems/show_updates"
+}

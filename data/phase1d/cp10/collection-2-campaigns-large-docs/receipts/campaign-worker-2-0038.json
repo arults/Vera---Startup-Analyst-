@@ -1,0 +1,18 @@
+{
+  "bytes": 264091,
+  "campaign_url": "https://republic.com/arkhaus",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/arkhaus/show_updates",
+  "gzip_sha256": "f517ed73dbd63c847bf1a8f0f1330b0fc0f4284cf52be4af3377bdc031986cee",
+  "http_status": 200,
+  "parent_sha256": "66057726f46f30b1dbef986f5a7539144d05c1397d7d47d3f812378a5e9c8e4e",
+  "raw_sha256": "a04fd69b45353152d7b6988bb71905dd195376e98eb9e3052ccb433109b1bc8f",
+  "received_at": "2026-10-10T02:23:39.460294+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:38.552031+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a04fd69b45353152d7b6988bb71905dd195376e98eb9e3052ccb433109b1bc8f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/arkhaus/show_updates"
+}

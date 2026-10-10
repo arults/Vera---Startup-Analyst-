@@ -1,0 +1,18 @@
+{
+  "bytes": 68741,
+  "campaign_url": "https://republic.com/yumwoof",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/yumwoof/show_updates",
+  "gzip_sha256": "8803cf8b8ecf79a45fbadeae5d0ea434f43098c263a072db352ca67513db178e",
+  "http_status": 200,
+  "parent_sha256": "4efcc55d1e398629663f5845abb3defa1293c5c9de93820318cced3abcd6c6d3",
+  "raw_sha256": "29dba1ba7550a2ee233b16c8a7a8bfad9ce14f6ba58353a5c49a09b02fa4bc89",
+  "received_at": "2026-10-10T02:39:21.056384+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:20.447642+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/29dba1ba7550a2ee233b16c8a7a8bfad9ce14f6ba58353a5c49a09b02fa4bc89.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/yumwoof/show_updates"
+}

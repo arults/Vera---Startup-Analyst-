@@ -1,0 +1,33 @@
+{
+  "campaign_url": "https://republic.com/compound-reach",
+  "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+  "chunks": [
+    {
+      "gzip_sha256": "51613df464f4b0f9623362ffadf2763a2639f03c52b55b350fb6bd9dcae10b38",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/9038182308b67b4fd656215e6748949419684e2b3eefcc01408fd554d1d1ea1b.bin.gz",
+      "raw_bytes": 32000000,
+      "raw_sha256": "9038182308b67b4fd656215e6748949419684e2b3eefcc01408fd554d1d1ea1b"
+    },
+    {
+      "gzip_sha256": "b2cd00e46e3f6fe3298e3260d3b7bf5a081bb3418f3aaf55d3484a5abf9b17b2",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/5c596662038083bed5cc7bf2424f0b43f7ea7e2c5b3600274f70ee53322755ec.bin.gz",
+      "raw_bytes": 30041865,
+      "raw_sha256": "5c596662038083bed5cc7bf2424f0b43f7ea7e2c5b3600274f70ee53322755ec"
+    }
+  ],
+  "content_type": "application/pdf",
+  "estimation_eligible": false,
+  "final_url": "https://republic.com/documents/140?view=preview",
+  "full_semantic_review_complete": false,
+  "http_status": 200,
+  "label": "Compound Projects Form C:A 02.11.2020.pdf",
+  "parent_sha256": "545d0b9a7352a0aaea7df5a6bf917fb2e3e3b7fd93fad6120a8fb84e80b60558",
+  "pdf_magic_verified": true,
+  "raw_bytes": 62041865,
+  "raw_sha256": "3deea0ad2dcebc89e6a7097120b74fc90bb5eee4e86767b7db130797eb9aa477",
+  "received_at": "2026-10-10T02:22:42.234881+00:00",
+  "source_group": "large-documents",
+  "started_at": "2026-10-10T02:22:39.272460+00:00",
+  "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+  "url": "https://republic.com/documents/140?view=preview"
+}

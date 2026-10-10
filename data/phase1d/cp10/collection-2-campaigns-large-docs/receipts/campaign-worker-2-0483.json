@@ -1,0 +1,18 @@
+{
+  "bytes": 1866,
+  "campaign_url": "https://republic.com/r-perplexity",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/r-perplexity/show_updates",
+  "gzip_sha256": "16c2250342f8c721542b170cd806460e1320a3f18c9bc4ef31e2650c1c46baaf",
+  "http_status": 200,
+  "parent_sha256": "49a3ac6751ce90f2b24388be371f0c618739f53e73f395ad9c065675251b9f0e",
+  "raw_sha256": "024c055afb91f2854fa084f2bc1efafd5ba55dfd9d6430147ef77181a1a295ae",
+  "received_at": "2026-10-10T02:35:54.938762+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:54.409138+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/024c055afb91f2854fa084f2bc1efafd5ba55dfd9d6430147ef77181a1a295ae.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/r-perplexity/show_updates"
+}

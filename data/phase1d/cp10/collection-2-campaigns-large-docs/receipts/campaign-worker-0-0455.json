@@ -1,0 +1,18 @@
+{
+  "bytes": 2988,
+  "campaign_url": "https://republic.com/pressman-reg-d",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pressman-reg-d/show_updates",
+  "gzip_sha256": "061f816ecb6133e1c4229f8033fac112f7e193e043263d9fc2aaadacaadc830f",
+  "http_status": 200,
+  "parent_sha256": "ba49395c40945f14cb71b0044beec8fdc690d124823fbcc26bcc646294f79c6a",
+  "raw_sha256": "0395f0df961d2aa2ec1fab606da12024871289138a9dadbd52ba515582cd2dcd",
+  "received_at": "2026-10-10T02:35:22.673835+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:22.078935+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0395f0df961d2aa2ec1fab606da12024871289138a9dadbd52ba515582cd2dcd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pressman-reg-d/show_updates"
+}

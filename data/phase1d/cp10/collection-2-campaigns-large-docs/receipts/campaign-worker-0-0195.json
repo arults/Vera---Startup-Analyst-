@@ -1,0 +1,18 @@
+{
+  "bytes": 71960,
+  "campaign_url": "https://republic.com/flipword",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/flipword/show_updates",
+  "gzip_sha256": "f9c6d0ff700f7a53964e5062a6449ec6f6df5a2d9b2a6f3f9142f0682fca2649",
+  "http_status": 200,
+  "parent_sha256": "a4cc6bc930686e542b9314878b701ed4f9aea8235b954f9888316e7900fe9e33",
+  "raw_sha256": "845e71802a9d7b8abdf62e03de7d7a5c46175fa48b81f30b98a5f17abbd2b6f3",
+  "received_at": "2026-10-10T02:27:49.748768+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:49.142251+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/845e71802a9d7b8abdf62e03de7d7a5c46175fa48b81f30b98a5f17abbd2b6f3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/flipword/show_updates"
+}

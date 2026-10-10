@@ -1,0 +1,18 @@
+{
+  "bytes": 220430,
+  "campaign_url": "https://republic.com/quantmre-2022",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/quantmre-2022/show_updates",
+  "gzip_sha256": "28fb1bb890ed8fe647f11bbb6fa8ec1ccce02b4a2fb233d459a547ed17e5e8d8",
+  "http_status": 200,
+  "parent_sha256": "c7427f0471bad12cdeedc6ceb9dd10b524781959273d35b88922d8a8d76c53d9",
+  "raw_sha256": "32a602708deaa7c36d012509e67f8888c06c0ed1131c48a4d4287e83d80e3ada",
+  "received_at": "2026-10-10T02:35:48.469152+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:47.685552+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/32a602708deaa7c36d012509e67f8888c06c0ed1131c48a4d4287e83d80e3ada.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/quantmre-2022/show_updates"
+}

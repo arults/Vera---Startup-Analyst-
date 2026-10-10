@@ -1,0 +1,18 @@
+{
+  "bytes": 33357,
+  "campaign_url": "https://republic.com/althea",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/althea/show_updates",
+  "gzip_sha256": "b1cda591d51022b190d759d2fd6cdf839795e5dd762746408fca1f0cfda2d9a5",
+  "http_status": 200,
+  "parent_sha256": "87a514b6fa6d5357f0a64b4a83d2ab10d03d680cead8c0c41aeacee845750363",
+  "raw_sha256": "65ebbbe9ae907d98ab7eeb2a4ed55b1a8508594ae898ff78e61ca2808cc0fb2e",
+  "received_at": "2026-10-10T02:23:15.400796+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:14.848349+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/65ebbbe9ae907d98ab7eeb2a4ed55b1a8508594ae898ff78e61ca2808cc0fb2e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/althea/show_updates"
+}

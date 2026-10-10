@@ -1,0 +1,18 @@
+{
+  "bytes": 28506,
+  "campaign_url": "https://republic.com/hello-baby",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hello-baby/show_updates",
+  "gzip_sha256": "c6dfc90630f276b063b55fdede76409ec1c92d8f74779d37f7614976467f28d3",
+  "http_status": 200,
+  "parent_sha256": "22ea1aea367b822cf994331c8959ef11e475e73cb67328d68356b15e6411d764",
+  "raw_sha256": "93a4a09a1b7bb75d77d9d29d16610552f65659c09f5c51f5dfe7f31069cfc5bc",
+  "received_at": "2026-10-10T02:29:22.291791+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:21.736245+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/93a4a09a1b7bb75d77d9d29d16610552f65659c09f5c51f5dfe7f31069cfc5bc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hello-baby/show_updates"
+}

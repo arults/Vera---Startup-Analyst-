@@ -1,0 +1,18 @@
+{
+  "bytes": 137704,
+  "campaign_url": "https://republic.com/otis",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/otis/show_updates",
+  "gzip_sha256": "f52e7a3f50e371f54516c1306d0325633521fa5851f9bc16f97a2c571ad75c1d",
+  "http_status": 200,
+  "parent_sha256": "b67d242377482682a4d32c1fc451bd3902cf7d09c9fd8f1b22ac12a7064b7569",
+  "raw_sha256": "c8db5644f36231acd5af8c41692adec27f74e258fab4abdb7f09130ac60ec08e",
+  "received_at": "2026-10-10T02:34:56.459385+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:55.769494+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c8db5644f36231acd5af8c41692adec27f74e258fab4abdb7f09130ac60ec08e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/otis/show_updates"
+}

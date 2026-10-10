@@ -1,0 +1,18 @@
+{
+  "bytes": 174580,
+  "campaign_url": "https://republic.com/airspace-experience-technologies",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/airspace-experience-technologies/show_updates",
+  "gzip_sha256": "ee01c6b922f9789c2317bfcfe611bafc4fa07c467494a96d6e732d4d8fccd230",
+  "http_status": 200,
+  "parent_sha256": "8c61824271681384694849c7a9a514e559d641301b9a3a8612dfc58cb5dc8697",
+  "raw_sha256": "bedd1f918a7a3b103533f42ba6c088f7fa2cefd29d0085b428b641c0562c0d8e",
+  "received_at": "2026-10-10T02:23:05.573353+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:04.848029+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bedd1f918a7a3b103533f42ba6c088f7fa2cefd29d0085b428b641c0562c0d8e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/airspace-experience-technologies/show_updates"
+}

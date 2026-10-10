@@ -1,0 +1,18 @@
+{
+  "bytes": 143234,
+  "campaign_url": "https://republic.com/datg",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/datg/show_updates",
+  "gzip_sha256": "befc240f9709ca42a1656e200e3477fde70349da3f0705d3f217343f639c826f",
+  "http_status": 200,
+  "parent_sha256": "ce22ad617a03a5aaf58c6ff0d496d2c056539bd046a39d4f334ccdb20084e973",
+  "raw_sha256": "61ec43e43867c9a980d8d39d369144ba358e0463bd800f52277dbb715b853d07",
+  "received_at": "2026-10-10T02:26:15.291658+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:14.606069+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/61ec43e43867c9a980d8d39d369144ba358e0463bd800f52277dbb715b853d07.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/datg/show_updates"
+}

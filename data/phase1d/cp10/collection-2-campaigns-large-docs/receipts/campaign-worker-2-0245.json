@@ -1,0 +1,18 @@
+{
+  "bytes": 688729,
+  "campaign_url": "https://republic.com/hellowoofy",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hellowoofy/show_updates",
+  "gzip_sha256": "1d755153d0257a7534c3b84e2f848b04738997a5cd1e90d426acf88a3186b9da",
+  "http_status": 200,
+  "parent_sha256": "4645a2d05376306b234e3202b199c517869496dc266393098377701e38ef596a",
+  "raw_sha256": "bac7f4d81a7e8cf39b5fd69764ab58c426e470616e28e8bfc5ee93a54619ba0c",
+  "received_at": "2026-10-10T02:29:36.723255+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:35.499046+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bac7f4d81a7e8cf39b5fd69764ab58c426e470616e28e8bfc5ee93a54619ba0c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hellowoofy/show_updates"
+}

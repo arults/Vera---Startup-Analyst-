@@ -1,0 +1,18 @@
+{
+  "bytes": 246508,
+  "campaign_url": "https://republic.com/wearwell",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/wearwell/show_updates",
+  "gzip_sha256": "43984b2a36a1e518f3df962250b8be315090e049c5a508fafb3cc9ecba08a07f",
+  "http_status": 200,
+  "parent_sha256": "9e247ae8e4ec00d55f58a71e7f7f4eb53e8fcd296f62df5f64dff4cfbf347665",
+  "raw_sha256": "240f0be6dcb79a8d981a78e7ced7cc738635ca5fa67145bdb040a7baf8025924",
+  "received_at": "2026-10-10T02:39:08.072965+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:07.320748+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/240f0be6dcb79a8d981a78e7ced7cc738635ca5fa67145bdb040a7baf8025924.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/wearwell/show_updates"
+}

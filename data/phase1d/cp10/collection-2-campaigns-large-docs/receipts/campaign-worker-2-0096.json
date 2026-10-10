@@ -1,0 +1,18 @@
+{
+  "bytes": 22626,
+  "campaign_url": "https://republic.com/canvino",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/canvino/show_updates",
+  "gzip_sha256": "c306f2deb35c3d650e11a13d05c5225aafec6289962ab5a14fb41253c792b69d",
+  "http_status": 200,
+  "parent_sha256": "2b1feb43c5e89a445f2e5d7b68f918bc490f5ab045582680327c3a65f3f8eeeb",
+  "raw_sha256": "dde5638f1bd646e6ed10df6cb7701bbdbf8b2ab619e9175af261756b2ca9aeb5",
+  "received_at": "2026-10-10T02:25:06.183385+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:05.632432+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/dde5638f1bd646e6ed10df6cb7701bbdbf8b2ab619e9175af261756b2ca9aeb5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/canvino/show_updates"
+}

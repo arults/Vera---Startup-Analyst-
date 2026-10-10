@@ -1,0 +1,18 @@
+{
+  "bytes": 298206,
+  "campaign_url": "https://republic.com/modern-picnic",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/modern-picnic/show_updates",
+  "gzip_sha256": "cf95a031dbf2ceddddb40b9baa14cdca3cceaa649861c344989abf93dca2ad82",
+  "http_status": 200,
+  "parent_sha256": "3aad305650c332e706cd46d5faa1a8dce688987729cbc56bcefa6563ffb5fade",
+  "raw_sha256": "ebbf833dff67341c104ab4aed4c024a468eccc3c2e2273f4a9f09dfda02b938c",
+  "received_at": "2026-10-10T02:33:59.981003+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:58.708388+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ebbf833dff67341c104ab4aed4c024a468eccc3c2e2273f4a9f09dfda02b938c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/modern-picnic/show_updates"
+}

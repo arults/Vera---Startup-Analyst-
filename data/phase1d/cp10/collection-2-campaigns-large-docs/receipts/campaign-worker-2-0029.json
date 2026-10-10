@@ -1,0 +1,18 @@
+{
+  "bytes": 88246,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/animoca-brands",
+  "gzip_sha256": "5dd0e3b5bfb1bb9f5a11efe02b2d75767b0fd2e7e7aa5dc691325f01165e0f0d",
+  "http_status": 200,
+  "raw_sha256": "d5e6d0151bde706d76564ae9c3e0ed14de8d05dac2c6e5932bb059a71cdc0f90",
+  "received_at": "2026-10-10T02:23:24.227476+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:23.655197+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d5e6d0151bde706d76564ae9c3e0ed14de8d05dac2c6e5932bb059a71cdc0f90.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/animoca-brands"
+}

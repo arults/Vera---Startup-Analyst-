@@ -1,0 +1,18 @@
+{
+  "bytes": 75172,
+  "campaign_url": "https://republic.com/ryse-2",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ryse-2/show_updates",
+  "gzip_sha256": "07c3238d9dc7a136621361f55148aa291c2bde6c94fb3a041a79f97d806cfbb8",
+  "http_status": 200,
+  "parent_sha256": "a29c35f4f71e6ce8cce6ff9cca8e5666cdf389f8d08244a35e805e2da622718c",
+  "raw_sha256": "44d1320204b3a3042b5b535d75459ce5f6fdb6bf0143d97be60afee11ab6d22c",
+  "received_at": "2026-10-10T02:36:50.594787+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:49.916377+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/44d1320204b3a3042b5b535d75459ce5f6fdb6bf0143d97be60afee11ab6d22c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ryse-2/show_updates"
+}

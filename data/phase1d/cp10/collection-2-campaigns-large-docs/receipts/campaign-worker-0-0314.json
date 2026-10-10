@@ -1,0 +1,18 @@
+{
+  "bytes": 75777,
+  "campaign_url": "https://republic.com/karbonpay",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/karbonpay/show_updates",
+  "gzip_sha256": "1371fe69b46da4ae92f032e13289973cb675e3c50d33c5b9ed30a03cd206a8a7",
+  "http_status": 200,
+  "parent_sha256": "1b01b348041cea048566e3108d4dc0c7ce988cfcfaf7a84603c5b1166fdb9b95",
+  "raw_sha256": "72aaf8716650098d7a337372bc4832f212d0c25eb6996fc31464d66f198fe60d",
+  "received_at": "2026-10-10T02:32:04.805390+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:04.182573+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/72aaf8716650098d7a337372bc4832f212d0c25eb6996fc31464d66f198fe60d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/karbonpay/show_updates"
+}

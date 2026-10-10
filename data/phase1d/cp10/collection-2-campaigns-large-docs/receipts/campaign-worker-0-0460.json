@@ -1,0 +1,18 @@
+{
+  "bytes": 26993,
+  "campaign_url": "https://republic.com/proteau",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/proteau/show_updates",
+  "gzip_sha256": "efbde703154a9175eb8435e94a1ce293636d0b90bdf3607def2230cf323c3f1e",
+  "http_status": 200,
+  "parent_sha256": "988a30376aaf3002169bd41529416548828c707b967faa67307c197b85ba595b",
+  "raw_sha256": "972bf73cc320bc7be803da342ec2f231ff9800ddd5cba4014f8f78495de3ffa1",
+  "received_at": "2026-10-10T02:35:28.256265+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:27.697111+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/972bf73cc320bc7be803da342ec2f231ff9800ddd5cba4014f8f78495de3ffa1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/proteau/show_updates"
+}

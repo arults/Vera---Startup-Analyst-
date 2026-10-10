@@ -1,0 +1,18 @@
+{
+  "bytes": 134389,
+  "campaign_url": "https://republic.com/comrad",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/comrad/show_updates",
+  "gzip_sha256": "333035fe96afe5d40a44eeac6757634956867cbfc68a41edc528b951e9744cca",
+  "http_status": 200,
+  "parent_sha256": "ff8d8eab5aaf823e1aef5c5b827fd69a5b42024485f2dc2df113b8846840539b",
+  "raw_sha256": "4b8ba735cf82b5cac0c98504184c66153a762b971f8f4b40e3712cc0cf737418",
+  "received_at": "2026-10-10T02:26:21.304230+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:20.657177+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4b8ba735cf82b5cac0c98504184c66153a762b971f8f4b40e3712cc0cf737418.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/comrad/show_updates"
+}

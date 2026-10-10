@@ -1,0 +1,18 @@
+{
+  "bytes": 18149,
+  "campaign_url": "https://republic.com/supercharge-lab",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/supercharge-lab/show_updates",
+  "gzip_sha256": "a1aee4919cbfea168f968bd931e83c0c83484ab1d358d5307e03e1da77b23314",
+  "http_status": 200,
+  "parent_sha256": "21839396ddf3d01adebe6e7afb39b96c0da289fcb272d8eec0207fd0705875a1",
+  "raw_sha256": "63b14976c372a9a67569db22a2e9170f25a2326b514f1aab37e9bc635ea0c3c0",
+  "received_at": "2026-10-10T02:37:51.736057+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:51.191142+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/63b14976c372a9a67569db22a2e9170f25a2326b514f1aab37e9bc635ea0c3c0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/supercharge-lab/show_updates"
+}

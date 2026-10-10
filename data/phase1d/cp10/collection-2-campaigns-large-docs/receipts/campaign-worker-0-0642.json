@@ -1,0 +1,18 @@
+{
+  "bytes": 166171,
+  "campaign_url": "https://republic.com/we-are-the-new-farmers",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/we-are-the-new-farmers/show_updates",
+  "gzip_sha256": "acfb6fe35d5b886528a1fa97d3685c1849a437dd7d15fe81ef8a08f13b193eb0",
+  "http_status": 200,
+  "parent_sha256": "d0f41662d0b7bbd5d6af5967044ed152905104ee248f966db0092f2c1d318a04",
+  "raw_sha256": "63d414ed7d9ffb7592b56b1ffd933ded8fc95a7bfb4900c19e702ed3b91a94e2",
+  "received_at": "2026-10-10T02:38:54.995826+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:54.180712+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/63d414ed7d9ffb7592b56b1ffd933ded8fc95a7bfb4900c19e702ed3b91a94e2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/we-are-the-new-farmers/show_updates"
+}

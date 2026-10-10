@@ -1,0 +1,18 @@
+{
+  "bytes": 167257,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/buki",
+  "gzip_sha256": "88583ed5ea6320de58b4cff59486f3d9d782c55a459cb8ca16725068c1b555c1",
+  "http_status": 200,
+  "raw_sha256": "75dacb49f43498d5fe68439fdf3f40c97868fa37d831e747d26c07b330b9c46e",
+  "received_at": "2026-10-10T02:25:21.941964+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:21.087810+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/75dacb49f43498d5fe68439fdf3f40c97868fa37d831e747d26c07b330b9c46e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/buki"
+}

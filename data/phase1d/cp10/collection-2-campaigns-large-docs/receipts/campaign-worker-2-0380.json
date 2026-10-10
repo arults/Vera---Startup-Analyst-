@@ -1,0 +1,18 @@
+{
+  "bytes": 11117,
+  "campaign_url": "https://republic.com/mitte",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mitte/show_updates",
+  "gzip_sha256": "a132bb7285591a9d81b7df85351fb1171c845c6cf0e66f77118e3c09927ea142",
+  "http_status": 200,
+  "parent_sha256": "bc3f702f57595016e1899123eca5f864dc29ec0974eea8f5a0a7c68ae6a7e8ac",
+  "raw_sha256": "916e488bdee26792e3ef7c51aad9907e07ef7bb46b8f58ecae28bb76cef1dad0",
+  "received_at": "2026-10-10T02:33:57.044198+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:56.507960+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/916e488bdee26792e3ef7c51aad9907e07ef7bb46b8f58ecae28bb76cef1dad0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mitte/show_updates"
+}

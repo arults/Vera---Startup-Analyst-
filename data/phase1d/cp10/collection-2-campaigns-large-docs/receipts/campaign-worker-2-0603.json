@@ -1,0 +1,18 @@
+{
+  "bytes": 183061,
+  "campaign_url": "https://republic.com/thecut",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/thecut/show_updates",
+  "gzip_sha256": "f5ad28c8b353b196121b463c9c858795eb4d82999a90b61df3129be874c90428",
+  "http_status": 200,
+  "parent_sha256": "d5e93beea560afa3a555df25f54fb793a380b2d952b762c79f8375f9da417bb1",
+  "raw_sha256": "04d65effdce0b2b160706783c821b638997050bad083a981d58dfe38d3da2784",
+  "received_at": "2026-10-10T02:38:13.605213+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:12.899256+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/04d65effdce0b2b160706783c821b638997050bad083a981d58dfe38d3da2784.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/thecut/show_updates"
+}

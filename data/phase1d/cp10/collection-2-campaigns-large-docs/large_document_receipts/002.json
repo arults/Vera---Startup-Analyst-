@@ -1,0 +1,33 @@
+{
+  "campaign_url": "https://republic.com/cricclubs",
+  "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+  "chunks": [
+    {
+      "gzip_sha256": "169e78efd259f49508e7e72e2e8c8dc587dced186231ff67f7ba86ec4ab2c029",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/9371a0eedeabeac380a02d542c5282bd7d2e239c18cf298f33ff4539b6d6c855.bin.gz",
+      "raw_bytes": 32000000,
+      "raw_sha256": "9371a0eedeabeac380a02d542c5282bd7d2e239c18cf298f33ff4539b6d6c855"
+    },
+    {
+      "gzip_sha256": "6d728cfd360961590ac99008a6814b126c535f2a6a3c2cf216c977c03098a3de",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/4ee95266cda24f82aa4cb52fbc02a2f5f2712e19c61a1d8ef41298368d81f442.bin.gz",
+      "raw_bytes": 20135219,
+      "raw_sha256": "4ee95266cda24f82aa4cb52fbc02a2f5f2712e19c61a1d8ef41298368d81f442"
+    }
+  ],
+  "content_type": "application/pdf",
+  "estimation_eligible": false,
+  "final_url": "https://republic.com/documents/159?view=preview",
+  "full_semantic_review_complete": false,
+  "http_status": 200,
+  "label": "CricClubs Form C.pdf",
+  "parent_sha256": "83136c730d12a4a0afcee2b5b5e1e4228e4fbf876b73e11a425875f8967cbf70",
+  "pdf_magic_verified": true,
+  "raw_bytes": 52135219,
+  "raw_sha256": "b4aa64af04f7a2c5fb769b1bc2e995bf1c87c06300fbf1c7107255f7b76c283c",
+  "received_at": "2026-10-10T02:22:46.348593+00:00",
+  "source_group": "large-documents",
+  "started_at": "2026-10-10T02:22:43.865731+00:00",
+  "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+  "url": "https://republic.com/documents/159?view=preview"
+}

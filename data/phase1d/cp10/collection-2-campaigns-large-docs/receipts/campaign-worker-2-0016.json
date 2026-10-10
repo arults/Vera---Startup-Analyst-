@@ -1,0 +1,18 @@
+{
+  "bytes": 203422,
+  "campaign_url": "https://republic.com/aether-beauty",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/aether-beauty/show_updates",
+  "gzip_sha256": "c836e133a6476cc66b04f297dbb0cc7016941a70681d4988c656a47e1fec4487",
+  "http_status": 200,
+  "parent_sha256": "00a34962641933096edb5d7e24fd4728e72b7151602f9d568fea14af0fa06d07",
+  "raw_sha256": "8e34a5fc2972d4c5e63a7a6eaff516fb2ab13165dd6a849419be9d882051651e",
+  "received_at": "2026-10-10T02:23:02.838094+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:02.097484+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8e34a5fc2972d4c5e63a7a6eaff516fb2ab13165dd6a849419be9d882051651e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/aether-beauty/show_updates"
+}

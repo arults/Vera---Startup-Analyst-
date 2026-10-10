@@ -1,0 +1,18 @@
+{
+  "bytes": 45280,
+  "campaign_url": "https://republic.com/avec",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/avec/show_updates",
+  "gzip_sha256": "e615497480fa72d933abf197e4d078b36e4d5aab6d8b035aaaa4d82a8122fc75",
+  "http_status": 200,
+  "parent_sha256": "645015819cd05d5a626177af92bb5eec6a50351c004b1ae8a428056cda70db5e",
+  "raw_sha256": "9b21e82a162fc4675d4224e4f43765be5290dc60cdb3d97c66cfa9d5a4afddf1",
+  "received_at": "2026-10-10T02:24:03.006078+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:02.259667+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9b21e82a162fc4675d4224e4f43765be5290dc60cdb3d97c66cfa9d5a4afddf1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/avec/show_updates"
+}

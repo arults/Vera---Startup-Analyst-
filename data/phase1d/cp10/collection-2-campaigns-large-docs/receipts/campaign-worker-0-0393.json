@@ -1,0 +1,18 @@
+{
+  "bytes": 521913,
+  "campaign_url": "https://republic.com/nada",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/nada/show_updates",
+  "gzip_sha256": "6c5528175261bdfc6d20b19d58f721285f71558d9cdeb2b340e3af23fbf58d63",
+  "http_status": 200,
+  "parent_sha256": "1ebb13dd194cd5aad16aa657fdad2c00d741982ee74c3e2a8069cc8f1d8ed9cd",
+  "raw_sha256": "4759628ffd15f0fdf0a1554461415c0664d702dd3087eeaceeac842e7835510f",
+  "received_at": "2026-10-10T02:34:13.321831+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:12.099608+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4759628ffd15f0fdf0a1554461415c0664d702dd3087eeaceeac842e7835510f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/nada/show_updates"
+}

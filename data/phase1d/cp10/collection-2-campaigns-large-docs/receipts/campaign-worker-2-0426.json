@@ -1,0 +1,18 @@
+{
+  "bytes": 54191,
+  "campaign_url": "https://republic.com/oonee",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/oonee/show_updates",
+  "gzip_sha256": "e6d8d0426f1c21355790b3e3f5802cc08e7ba57b9a45b5f31331f74915c27d06",
+  "http_status": 200,
+  "parent_sha256": "df6cad6dbbd9cf8362e0addabd61ee42ac13085d58b49c34d7b17840a0fe96aa",
+  "raw_sha256": "b64bf19e71892a046ebea8ad8c2277eca0ae8c315e8fc45cfc187f53f0b95eed",
+  "received_at": "2026-10-10T02:34:49.436085+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:48.852062+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b64bf19e71892a046ebea8ad8c2277eca0ae8c315e8fc45cfc187f53f0b95eed.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/oonee/show_updates"
+}

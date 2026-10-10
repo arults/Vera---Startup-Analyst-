@@ -1,0 +1,18 @@
+{
+  "bytes": 101495,
+  "campaign_url": "https://republic.com/choose-health",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/choose-health/show_updates",
+  "gzip_sha256": "2d08fc15033c46ba70856d7b161a0e2d7c018b00622b633816aa07ff5aa855e3",
+  "http_status": 200,
+  "parent_sha256": "754a82c3d91724d91d550940df8fd581aa247d64ef9c87d08a10e27607e1e2e1",
+  "raw_sha256": "c4906302eddcaaa04095ca51d67703e8616dafd59b07a0b8b1cda4e376f873ee",
+  "received_at": "2026-10-10T02:25:17.871301+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:17.237133+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c4906302eddcaaa04095ca51d67703e8616dafd59b07a0b8b1cda4e376f873ee.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/choose-health/show_updates"
+}

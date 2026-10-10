@@ -1,0 +1,18 @@
+{
+  "bytes": 81768,
+  "campaign_url": "https://republic.com/actipulse",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/actipulse/show_updates",
+  "gzip_sha256": "7fd9e0951f2d3e8c91e01dc6ec62c1d948315868ae0cf36082459a9df6459735",
+  "http_status": 200,
+  "parent_sha256": "8eb13ef3285d6153678c70b0022fb95fc51a9ac45f585ca7fd449a0ea4e2ec24",
+  "raw_sha256": "5f10eb5bf65dbe2659f8bfa0108e72fb1adf9cc7c446d7d037b4c629c0c131e8",
+  "received_at": "2026-10-10T02:22:57.282789+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:56.575983+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5f10eb5bf65dbe2659f8bfa0108e72fb1adf9cc7c446d7d037b4c629c0c131e8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/actipulse/show_updates"
+}

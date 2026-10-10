@@ -1,0 +1,18 @@
+{
+  "bytes": 384,
+  "campaign_url": "https://republic.com/fcf-glacier-boyz",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fcf-glacier-boyz/show_updates",
+  "gzip_sha256": "98c21b46db799d5a0e24f9a19407cbe921f72a8cd63ce25592519ee9699a10f0",
+  "http_status": 200,
+  "parent_sha256": "e387c46d8b16e2ff6c9efeeb84223579492e52bbb679f6450e346fbad58a3b89",
+  "raw_sha256": "f68532fa233ea3a2ba08a09b3e851b2b57360f6d20b66dc2f031c1687efc918d",
+  "received_at": "2026-10-10T02:27:27.608048+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:27.070959+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f68532fa233ea3a2ba08a09b3e851b2b57360f6d20b66dc2f031c1687efc918d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fcf-glacier-boyz/show_updates"
+}

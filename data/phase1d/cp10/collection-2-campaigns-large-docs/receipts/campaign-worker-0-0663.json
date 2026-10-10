@@ -1,0 +1,18 @@
+{
+  "bytes": 168803,
+  "campaign_url": "https://republic.com/zerogravity",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/zerogravity/show_updates",
+  "gzip_sha256": "9ae712726ec783d428084d7829e2c2d170f459b29a7abe5028557a6cdf220f44",
+  "http_status": 200,
+  "parent_sha256": "01e7d6e0131da92abb4f369fe61f33639ca8b51e1223bd18f7b9d41109bb0e25",
+  "raw_sha256": "25e607a6762c66a30cf2e9f0a08c87211e5de16e4b3bc34b640090ed4ae6b454",
+  "received_at": "2026-10-10T02:39:25.735794+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:25.032154+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/25e607a6762c66a30cf2e9f0a08c87211e5de16e4b3bc34b640090ed4ae6b454.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/zerogravity/show_updates"
+}

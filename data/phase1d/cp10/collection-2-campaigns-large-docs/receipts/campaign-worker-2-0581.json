@@ -1,0 +1,18 @@
+{
+  "bytes": 173900,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/suntrain",
+  "gzip_sha256": "aa7b14db5cfbb0df8b1053be5658eff094c2dfa7d6be3bbad7381b8a22627b12",
+  "http_status": 200,
+  "raw_sha256": "ede04be9d07d9a74504e6326079f1773a3ac93fcfd57ae295b509292eeb2380f",
+  "received_at": "2026-10-10T02:37:48.722314+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:47.890449+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ede04be9d07d9a74504e6326079f1773a3ac93fcfd57ae295b509292eeb2380f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/suntrain"
+}

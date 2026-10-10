@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Arcana Network",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/arcana",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/85584db5f8c969510bcf5088f31e19f1e461ec89c3f662e26ad6916bf64523c7.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "",
+    "final_url": "https://republic.com/arcana",
+    "first_live_date": "",
+    "investors": "",
+    "legal_name_from_platform": "Arcana Technologies Ltd",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "MISSING",
+    "offering_year": "",
+    "raised_amount_usd": "",
+    "security_type": "Simple Agreement For Future Token",
+    "source_content_sha256": "85584db5f8c969510bcf5088f31e19f1e461ec89c3f662e26ad6916bf64523c7",
+    "source_url": "https://republic.com/arcana",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2023-12-23",
+    "successful_close_year_NOT_offering_year": "2023"
+  },
+  "final_url": "https://republic.com/arcana",
+  "first_live_date": "2023-11-29",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2023-12-23",
+      "Successfully raised $786,446.04 🍾"
+    ],
+    [
+      "2023-11-29",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 4030,
+  "native_state": "preparing_to_finalize",
+  "offering_year": 2023,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/85584db5f8c969510bcf5088f31e19f1e461ec89c3f662e26ad6916bf64523c7.bin.gz",
+  "source_sha256": "85584db5f8c969510bcf5088f31e19f1e461ec89c3f662e26ad6916bf64523c7",
+  "successful_completion_date": "2023-12-23",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7305ff87e4554110118f7c54c21422dc7d76995862b7db3e31545b821f3e47d2.bin.gz",
+  "timeline_source_sha256": "7305ff87e4554110118f7c54c21422dc7d76995862b7db3e31545b821f3e47d2",
+  "url": "https://republic.com/arcana",
+  "year_in_study": true
+}

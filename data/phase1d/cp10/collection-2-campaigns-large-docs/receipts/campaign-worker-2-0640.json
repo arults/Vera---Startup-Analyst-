@@ -1,0 +1,18 @@
+{
+  "bytes": 1855,
+  "campaign_url": "https://republic.com/vivoo",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/vivoo/show_updates",
+  "gzip_sha256": "3c80939770eba2e0fe445ebbead8a79d5597e339774981690b9a0e5f73fe7611",
+  "http_status": 200,
+  "parent_sha256": "e9ffe8d48da9631666d900f67f7852107700a844e72f071fdaba580120b90154",
+  "raw_sha256": "8f87dc02b264f5bb7eb7360edf485ad4e3eeba46579a26bae3f827762338a5f4",
+  "received_at": "2026-10-10T02:38:56.378770+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:55.837706+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8f87dc02b264f5bb7eb7360edf485ad4e3eeba46579a26bae3f827762338a5f4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/vivoo/show_updates"
+}

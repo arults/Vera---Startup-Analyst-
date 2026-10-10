@@ -1,0 +1,20 @@
+{
+  "bytes": 156379,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/tools-for-the-creator-economy",
+  "gzip_sha256": "607406d2a6bff99f11a1660748b207a1bd2f20972b72f0ae1536f1a78c55ba0b",
+  "http_status": 200,
+  "raw_sha256": "f21a706775224f448822a63c1e7c6473f17bc915710cdd6265e79d8205e3aa92",
+  "received_at": "2026-10-10T02:38:23.629432+00:00",
+  "redirects": [
+    "https://republic.com/events/tools-for-the-creator-economy"
+  ],
+  "retrieval_started_at": "2026-10-10T02:38:22.807138+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f21a706775224f448822a63c1e7c6473f17bc915710cdd6265e79d8205e3aa92.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/tools-for-the-creator-economy"
+}

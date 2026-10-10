@@ -1,0 +1,18 @@
+{
+  "bytes": 41985,
+  "campaign_url": "https://republic.com/loopgolf",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/loopgolf/show_updates",
+  "gzip_sha256": "aa620dc0b903d3a8413e3a8c096422eb0519d580620053bb81e583bedc7aebd8",
+  "http_status": 200,
+  "parent_sha256": "14c162b81d874f0c589a61c351296ed88a7f4f4ccccd551bdfd8a068a5764170",
+  "raw_sha256": "f0c887b5a77b34361e8534f2924485114f00e21d1016cb47677809649b9c4ca1",
+  "received_at": "2026-10-10T02:33:07.094655+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:06.532675+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f0c887b5a77b34361e8534f2924485114f00e21d1016cb47677809649b9c4ca1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/loopgolf/show_updates"
+}

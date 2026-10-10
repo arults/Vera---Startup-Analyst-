@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "SeeMe",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/see-me",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/793b0a4d3a880040bdaca9b1a8f70bf467163f0debd1ccff452e93edef2d9636.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1746271",
+    "final_url": "https://republic.com/see-me",
+    "first_live_date": "",
+    "investors": "78",
+    "legal_name_from_platform": "Stepstone Art Resources, LLC",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "39854",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "793b0a4d3a880040bdaca9b1a8f70bf467163f0debd1ccff452e93edef2d9636",
+    "source_url": "https://republic.com/see-me",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2023-03-19",
+    "successful_close_year_NOT_offering_year": "2023"
+  },
+  "final_url": "https://republic.com/see-me",
+  "first_live_date": "2023-01-17",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2023-03-19",
+      "Successfully raised $39,854 🍾"
+    ],
+    [
+      "2023-01-17",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 1211,
+  "native_state": "finalized",
+  "offering_year": 2023,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/793b0a4d3a880040bdaca9b1a8f70bf467163f0debd1ccff452e93edef2d9636.bin.gz",
+  "source_sha256": "793b0a4d3a880040bdaca9b1a8f70bf467163f0debd1ccff452e93edef2d9636",
+  "successful_completion_date": "2023-03-19",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/76fc8e2751d14e4da5d1a0d53e0b115a358f0e7640b632fb61c2d92d66009f40.bin.gz",
+  "timeline_source_sha256": "76fc8e2751d14e4da5d1a0d53e0b115a358f0e7640b632fb61c2d92d66009f40",
+  "url": "https://republic.com/see-me",
+  "year_in_study": true
+}

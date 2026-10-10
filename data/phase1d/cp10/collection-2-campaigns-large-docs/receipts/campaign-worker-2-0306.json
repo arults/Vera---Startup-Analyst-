@@ -1,0 +1,18 @@
+{
+  "bytes": 252144,
+  "campaign_url": "https://republic.com/ivee",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ivee/show_updates",
+  "gzip_sha256": "1cc466f7b1387be09ae038afad0d0a24c10cda8b2a15f13f4f86ffe97baad0b2",
+  "http_status": 200,
+  "parent_sha256": "64a574691bd7fb9d7f53d94226b5b4c6aa1778b34f2806b027482b1c7336abe0",
+  "raw_sha256": "c59dff42620bd8968c3ab15b66db11a3cf20ae4720bb19e5187ad0e6645065db",
+  "received_at": "2026-10-10T02:31:49.001165+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:48.209325+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c59dff42620bd8968c3ab15b66db11a3cf20ae4720bb19e5187ad0e6645065db.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ivee/show_updates"
+}

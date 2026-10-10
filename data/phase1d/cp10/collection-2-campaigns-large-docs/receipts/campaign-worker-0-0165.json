@@ -1,0 +1,18 @@
+{
+  "bytes": 66816,
+  "campaign_url": "https://republic.com/ellison",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ellison/show_updates",
+  "gzip_sha256": "c06922d71819f69f2f56725e35b8ec04922cc4b42b124c9ab0e0ae92852dc741",
+  "http_status": 200,
+  "parent_sha256": "d74435964f6e531c0378bd21e08324a381b320243eb926c34f496144d7af3add",
+  "raw_sha256": "0eca9beb0daf62360cf0f284591806ca650291a3498b3b3e07ae8771e32f7175",
+  "received_at": "2026-10-10T02:26:56.603172+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:56.018735+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0eca9beb0daf62360cf0f284591806ca650291a3498b3b3e07ae8771e32f7175.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ellison/show_updates"
+}

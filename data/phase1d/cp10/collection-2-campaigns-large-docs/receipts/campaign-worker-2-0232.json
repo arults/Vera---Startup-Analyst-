@@ -1,0 +1,18 @@
+{
+  "bytes": 113936,
+  "campaign_url": "https://republic.com/grown-as-foods",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/grown-as-foods/show_updates",
+  "gzip_sha256": "5981bab97c20c4d6c90f8a45b6e1762d418ac5dc4a4897abc26bbbe021fcbd22",
+  "http_status": 200,
+  "parent_sha256": "39a618fcff1d9b15a52c513596eee81c9a2212f2d94f864604d24ecb3c84375a",
+  "raw_sha256": "f6a5dd61d7874a55b419adcde65299f432cc15c55741e502823024f551666799",
+  "received_at": "2026-10-10T02:29:09.161224+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:08.528485+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f6a5dd61d7874a55b419adcde65299f432cc15c55741e502823024f551666799.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/grown-as-foods/show_updates"
+}

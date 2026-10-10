@@ -1,0 +1,18 @@
+{
+  "bytes": 88856,
+  "campaign_url": "https://republic.com/lavabit",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lavabit/show_updates",
+  "gzip_sha256": "59af98e8f132da9ebb2cddfcb84e0fa8f929c1287cf5cb4df83e6b2a58ef92e4",
+  "http_status": 200,
+  "parent_sha256": "7ecd807572cb7c0335529d4cb73ab61aaa7d9ef2b2bdd815ee191e93a916fb03",
+  "raw_sha256": "e5a3d6919de650cd97754215c4bdde42eff461b663b0738487c94fabb0be943c",
+  "received_at": "2026-10-10T02:32:26.377995+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:25.760665+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e5a3d6919de650cd97754215c4bdde42eff461b663b0738487c94fabb0be943c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lavabit/show_updates"
+}

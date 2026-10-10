@@ -1,0 +1,18 @@
+{
+  "bytes": 157863,
+  "campaign_url": "https://republic.com/wolfpack",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/wolfpack/show_updates",
+  "gzip_sha256": "f10b47c65d3a9ff2063c9417d8d41a774a8856a9d6671aef2901f2814942bbe9",
+  "http_status": 200,
+  "parent_sha256": "dcf1314f65ee55032a54c62290f5657d8e456a5eafe7d23c4ee6269e3f230fb3",
+  "raw_sha256": "3b0feee9ff80775e8634344218cfbb291d50bbe9015513825a81f58e107394a1",
+  "received_at": "2026-10-10T02:39:18.358546+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:17.697072+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3b0feee9ff80775e8634344218cfbb291d50bbe9015513825a81f58e107394a1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/wolfpack/show_updates"
+}

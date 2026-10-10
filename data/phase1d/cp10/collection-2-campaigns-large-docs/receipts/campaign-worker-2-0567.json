@@ -1,0 +1,18 @@
+{
+  "bytes": 353250,
+  "campaign_url": "https://republic.com/sorbiforce2024",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/sorbiforce2024/show_updates",
+  "gzip_sha256": "a6fc1dbec31f4ae522e9b0d4674f11f1f7421f0ebc3322db523debfa63aeed6b",
+  "http_status": 200,
+  "parent_sha256": "8eee11ebc075ba07a528184a5b5fdcd07160d66fbb537007612089986a97fba3",
+  "raw_sha256": "e754dafc1c4001422e1b1d98bec4484508dee21e278188c24ce652502cfc9e28",
+  "received_at": "2026-10-10T02:37:33.362402+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:32.447240+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e754dafc1c4001422e1b1d98bec4484508dee21e278188c24ce652502cfc9e28.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sorbiforce2024/show_updates"
+}

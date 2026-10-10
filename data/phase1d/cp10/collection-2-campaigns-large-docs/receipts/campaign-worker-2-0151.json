@@ -1,0 +1,20 @@
+{
+  "bytes": 148073,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/digital-demo-hour-1",
+  "gzip_sha256": "c15693880106135c9c4bbc19e9127c2f562e8450d1941ebe5f7fd4c5aaa485e3",
+  "http_status": 200,
+  "raw_sha256": "70fb6da01521fdd87cfeea8cb580a1963e2ea5d910f3fb83df14dc9228e9699f",
+  "received_at": "2026-10-10T02:26:34.151082+00:00",
+  "redirects": [
+    "https://republic.com/events/digital-demo-hour-1"
+  ],
+  "retrieval_started_at": "2026-10-10T02:26:33.380173+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/70fb6da01521fdd87cfeea8cb580a1963e2ea5d910f3fb83df14dc9228e9699f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/digital-demo-hour-1"
+}

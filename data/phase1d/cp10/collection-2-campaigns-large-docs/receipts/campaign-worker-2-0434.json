@@ -1,0 +1,18 @@
+{
+  "bytes": 28561,
+  "campaign_url": "https://republic.com/paint-nite",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/paint-nite/show_updates",
+  "gzip_sha256": "9ae88d01c1bfa1fb6f3851a7c399a8e7810a3aed24c8c4cc540897ca0377f59d",
+  "http_status": 200,
+  "parent_sha256": "181c9c63e61afe853b06b1fb63f0a5edfb155997222254bcb8cb5fb2db24fd9e",
+  "raw_sha256": "3dd7a9d84f81a4b9dfd0a1060c0b321f7c2c6580a22f20a6b12f4dc51cbd6dc9",
+  "received_at": "2026-10-10T02:34:58.538195+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:57.969895+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3dd7a9d84f81a4b9dfd0a1060c0b321f7c2c6580a22f20a6b12f4dc51cbd6dc9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/paint-nite/show_updates"
+}

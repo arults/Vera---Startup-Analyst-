@@ -1,0 +1,18 @@
+{
+  "bytes": 18446,
+  "campaign_url": "https://republic.com/bspoketv",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bspoketv/show_updates",
+  "gzip_sha256": "1a0b07690882daf84a113307714f240d3aada4bf013a703bf8fd3ae47c53dd8d",
+  "http_status": 200,
+  "parent_sha256": "ebcc2b2c6561f2df0bfb68298f85b6383863221be2b271172d5c7159e1804471",
+  "raw_sha256": "e592061cf7470c51b8629187a93f2cc697fd6e85f6c8d06438904a81ab16f67e",
+  "received_at": "2026-10-10T02:25:18.410874+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:17.787208+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e592061cf7470c51b8629187a93f2cc697fd6e85f6c8d06438904a81ab16f67e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bspoketv/show_updates"
+}

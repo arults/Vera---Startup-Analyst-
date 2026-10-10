@@ -1,0 +1,18 @@
+{
+  "bytes": 1851,
+  "campaign_url": "https://republic.com/lemonrocks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lemonrocks/show_updates",
+  "gzip_sha256": "640d0f4a2b154ccd4bdb66d745e73b63d1fdf71f1c4c0cdfd7eab5735a419644",
+  "http_status": 200,
+  "parent_sha256": "72f09fa291fbceaa24f893ade336bd3fe14764e531f9d8d3393fc38d310b5a39",
+  "raw_sha256": "29ba4ff981085909d13d028db8934732581dc3e2d90c1b5cfb3c08a59b49c1a7",
+  "received_at": "2026-10-10T02:32:44.466006+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:43.931708+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/29ba4ff981085909d13d028db8934732581dc3e2d90c1b5cfb3c08a59b49c1a7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lemonrocks/show_updates"
+}

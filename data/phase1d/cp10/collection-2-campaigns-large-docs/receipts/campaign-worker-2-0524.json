@@ -1,0 +1,18 @@
+{
+  "bytes": 62712,
+  "campaign_url": "https://republic.com/riders-share",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/riders-share/show_updates",
+  "gzip_sha256": "a918d0a8866406130771a41ad5fa538b1cf22de84bbbe3e734a3987697c97e2e",
+  "http_status": 200,
+  "parent_sha256": "17b54f6cad876fb42b71c8b5b764e95e9636492f465c507f8d597f3725194ef8",
+  "raw_sha256": "3a2473f07ecc501f7f1bb4585a32be76be508fa56c6df22f072c14ab8a5a2275",
+  "received_at": "2026-10-10T02:36:40.606794+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:39.990595+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3a2473f07ecc501f7f1bb4585a32be76be508fa56c6df22f072c14ab8a5a2275.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/riders-share/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 99792,
+  "campaign_url": "https://republic.com/silkroll",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/silkroll/show_updates",
+  "gzip_sha256": "7a7b8c5e0aa24802c08a1d7e900b2fa36cbf62a10ed08b5bb50e1838a2f8c490",
+  "http_status": 200,
+  "parent_sha256": "4e1bf6e23f95d1b66fdc061c3d17dfe810b59d82d5c11f2e8aac4af900d6f34e",
+  "raw_sha256": "c144c5bbfe20ac7e4178cb69716d811ab0b8d36dbacbdfea2d1d8bec39188d4e",
+  "received_at": "2026-10-10T02:37:00.135427+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:59.499486+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c144c5bbfe20ac7e4178cb69716d811ab0b8d36dbacbdfea2d1d8bec39188d4e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/silkroll/show_updates"
+}

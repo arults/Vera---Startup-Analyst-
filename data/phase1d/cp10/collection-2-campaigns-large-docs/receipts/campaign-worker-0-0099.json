@@ -1,0 +1,18 @@
+{
+  "bytes": 111169,
+  "campaign_url": "https://republic.com/cerveza-tulum",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cerveza-tulum/show_updates",
+  "gzip_sha256": "356cca50c445015d653534798d6742e3754a9e714a20952798dd162498a09077",
+  "http_status": 200,
+  "parent_sha256": "925b63cf86b2d3b9175cfc14d63b9de54cd2669a98c85c686510c71975c8073e",
+  "raw_sha256": "18c0fa7e3784bf89405a024f61dc582eba6525c85ccd2d2aab78a1701c1c1af3",
+  "received_at": "2026-10-10T02:25:08.998664+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:08.382988+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/18c0fa7e3784bf89405a024f61dc582eba6525c85ccd2d2aab78a1701c1c1af3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cerveza-tulum/show_updates"
+}

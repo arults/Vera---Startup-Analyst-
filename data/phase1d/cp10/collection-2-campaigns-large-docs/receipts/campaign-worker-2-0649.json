@@ -1,0 +1,18 @@
+{
+  "bytes": 72810,
+  "campaign_url": "https://republic.com/wayhome",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/wayhome/show_updates",
+  "gzip_sha256": "656b2c4a24fc0d01bf0023d38df9546e081e6d222871cdf433528add54af5390",
+  "http_status": 200,
+  "parent_sha256": "6f9a78fb90d200a171705737e18643c2101d429a9c11da447381d592a0561f25",
+  "raw_sha256": "50af51f20f2ed5bb2e7da9c0bcce7abd317a7280fa27258133f2162ec66eec75",
+  "received_at": "2026-10-10T02:39:06.205171+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:05.616450+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/50af51f20f2ed5bb2e7da9c0bcce7abd317a7280fa27258133f2162ec66eec75.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/wayhome/show_updates"
+}

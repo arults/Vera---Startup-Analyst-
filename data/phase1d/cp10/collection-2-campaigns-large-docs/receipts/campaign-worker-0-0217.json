@@ -1,0 +1,18 @@
+{
+  "bytes": 28987,
+  "campaign_url": "https://republic.com/glint",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/glint/show_updates",
+  "gzip_sha256": "35d38e950520b7ecd693b0faab14979f24b6912d43ffb0d5249a4c4a61a8c052",
+  "http_status": 200,
+  "parent_sha256": "b64646e4e6a642a23efb0f7543040c8b21cae833602eb0d989aa09190b733b68",
+  "raw_sha256": "13d3dd1d749aa11de8d7a2f97f39edf0e3d8559c0671ae34b3c03ddc3e1639d0",
+  "received_at": "2026-10-10T02:28:36.064517+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:35.512086+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/13d3dd1d749aa11de8d7a2f97f39edf0e3d8559c0671ae34b3c03ddc3e1639d0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/glint/show_updates"
+}

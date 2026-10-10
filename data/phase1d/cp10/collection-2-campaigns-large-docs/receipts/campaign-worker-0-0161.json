@@ -1,0 +1,18 @@
+{
+  "bytes": 99250,
+  "campaign_url": "https://republic.com/edge-tech-labs",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/edge-tech-labs/show_updates",
+  "gzip_sha256": "3a3610ff9f3e793a2ece1c7b1e5e92b367aedc34ad24521bc7f014277918730f",
+  "http_status": 200,
+  "parent_sha256": "682f7ee4eca598fec4277f041decb1e3ca7a85a1e58a22ad3391244a53fafd95",
+  "raw_sha256": "8614dde59e258c2aca79eeb0fd7a6c59e925ca0bab9c66e5f09d61b1594a97f1",
+  "received_at": "2026-10-10T02:26:50.040840+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:49.417653+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8614dde59e258c2aca79eeb0fd7a6c59e925ca0bab9c66e5f09d61b1594a97f1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/edge-tech-labs/show_updates"
+}

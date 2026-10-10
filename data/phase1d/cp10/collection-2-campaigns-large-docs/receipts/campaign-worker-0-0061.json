@@ -1,0 +1,18 @@
+{
+  "bytes": 112589,
+  "campaign_url": "https://republic.com/balloonr",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/balloonr/show_updates",
+  "gzip_sha256": "e794534902341b26735041a299aa7975325bbe7bbe3f41af8ffb0e5de551d13e",
+  "http_status": 200,
+  "parent_sha256": "9e454caeb7748b1d6daf03609d618df2deba32106a269bdafd3d10f80f07f9f7",
+  "raw_sha256": "be3a0e3d0a451748c8c1badddec96996c5209d5b7d7d200e7dd39a0fe74d9f1c",
+  "received_at": "2026-10-10T02:24:16.149875+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:15.477370+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/be3a0e3d0a451748c8c1badddec96996c5209d5b7d7d200e7dd39a0fe74d9f1c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/balloonr/show_updates"
+}

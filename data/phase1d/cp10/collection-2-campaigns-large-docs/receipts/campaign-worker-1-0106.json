@@ -1,0 +1,18 @@
+{
+  "bytes": 19907,
+  "campaign_url": "https://republic.com/christina-real-estate-investors",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/christina-real-estate-investors/show_updates",
+  "gzip_sha256": "d324d6f39f0f5ef345dc349075bd5427e25aba01ccf4f14648f50c90b233e83c",
+  "http_status": 200,
+  "parent_sha256": "c181e51febfac37a662caace4021c24adb88acf3ac602572e093e69909e465fb",
+  "raw_sha256": "04f0d7095d43f73e8ca4ff38272d5f506c47b2a509839ad857178bf5a01b4220",
+  "received_at": "2026-10-10T02:25:56.360085+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:55.806424+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/04f0d7095d43f73e8ca4ff38272d5f506c47b2a509839ad857178bf5a01b4220.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/christina-real-estate-investors/show_updates"
+}

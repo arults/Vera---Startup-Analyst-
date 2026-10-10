@@ -1,0 +1,18 @@
+{
+  "bytes": 59472,
+  "campaign_url": "https://republic.com/kaiyo",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/kaiyo/show_updates",
+  "gzip_sha256": "e0a03902b58a59f47d892fb94f7fa3662c0c917041f22c43666d06b84a7456c5",
+  "http_status": 200,
+  "parent_sha256": "c37babe0ec954d60419b270a97d0e64836a4e516801f8c6787c3b273630a5ca0",
+  "raw_sha256": "fc162eee2f2a223cb0bdd1cd322dc436dbdb53bcb8ad29023048c75ac72157d6",
+  "received_at": "2026-10-10T02:32:14.771291+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:14.164036+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fc162eee2f2a223cb0bdd1cd322dc436dbdb53bcb8ad29023048c75ac72157d6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/kaiyo/show_updates"
+}

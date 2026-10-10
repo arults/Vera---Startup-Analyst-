@@ -1,0 +1,18 @@
+{
+  "bytes": 36726,
+  "campaign_url": "https://republic.com/phuncoin",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/phuncoin/show_updates",
+  "gzip_sha256": "75fb1b149f1096ee90f1c53b4a68cbf870a2fb4a83c17b6b68e63156560f0571",
+  "http_status": 200,
+  "parent_sha256": "5e5e8a76d4be2aa01eda819819788c332b489825ac298dabf1d12fe4952c089d",
+  "raw_sha256": "f09b64eb8ab85db1bc7a8e84b9c0fd50982e384158034a0ef71cb7f44ba51453",
+  "received_at": "2026-10-10T02:35:03.669072+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:03.111966+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f09b64eb8ab85db1bc7a8e84b9c0fd50982e384158034a0ef71cb7f44ba51453.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/phuncoin/show_updates"
+}

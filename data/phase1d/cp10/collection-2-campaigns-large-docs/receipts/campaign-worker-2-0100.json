@@ -1,0 +1,18 @@
+{
+  "bytes": 167878,
+  "campaign_url": "https://republic.com/champion-lender",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/champion-lender/show_updates",
+  "gzip_sha256": "06252f73b651c3174fd8d4b786276c86430044ae1843e7811d4d3b07432d16e7",
+  "http_status": 200,
+  "parent_sha256": "6684df4746b46751c305d6f116c0cdbe6b77a5ccc3e0acc027b1f92825671d98",
+  "raw_sha256": "e0daae46d9a4c387e706b2b746d97e48f6dde1a458340165d79f2eb635fabe78",
+  "received_at": "2026-10-10T02:25:10.710095+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:10.033272+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e0daae46d9a4c387e706b2b746d97e48f6dde1a458340165d79f2eb635fabe78.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/champion-lender/show_updates"
+}

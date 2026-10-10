@@ -1,0 +1,18 @@
+{
+  "bytes": 70893,
+  "campaign_url": "https://republic.com/mainvest",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mainvest/show_updates",
+  "gzip_sha256": "5b7135634aeb0f4ec4fbe9b37eab4b43539c61f1fe32752435fd4b88553c89c1",
+  "http_status": 200,
+  "parent_sha256": "13467a0e411742845349a3bb5b9f9caf168b8ed96830bed0427631f925e0b1c2",
+  "raw_sha256": "e51c2eec32effe8171393f69a66cd076448969d5f13b13325f619a10705045e6",
+  "received_at": "2026-10-10T02:33:15.929288+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:15.334448+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e51c2eec32effe8171393f69a66cd076448969d5f13b13325f619a10705045e6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mainvest/show_updates"
+}

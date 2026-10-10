@@ -1,0 +1,18 @@
+{
+  "bytes": 149672,
+  "campaign_url": "https://republic.com/parlay",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/parlay/show_updates",
+  "gzip_sha256": "ec152b13bc6d3194847c4225ccf69c6d195646e269cd659c08a0deb5f01a70b9",
+  "http_status": 200,
+  "parent_sha256": "579d4ba2d1ff4a74da2d76fc9d9d6fd75ec77be9a31b18e2f4455a86a508a4f1",
+  "raw_sha256": "e64968b126337cb63058918784e60a727cc5215b67127149603e70a63c59b465",
+  "received_at": "2026-10-10T02:35:00.813855+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:00.170240+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e64968b126337cb63058918784e60a727cc5215b67127149603e70a63c59b465.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/parlay/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 260633,
+  "campaign_url": "https://republic.com/digibuild",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/digibuild/show_updates",
+  "gzip_sha256": "3fa9f41bc0304eb53a05a44700a3c7103069bc18953ab1897a90f8b38fdae49b",
+  "http_status": 200,
+  "parent_sha256": "c5f76fdca3fb32615fc4c2ece6edc598c7f74d83e423dba64ea008a21a4603ff",
+  "raw_sha256": "00bde8428453a04ef0095311308dfea1820c5f0b19c4e6a992b583f9a5155106",
+  "received_at": "2026-10-10T02:27:02.872111+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:02.074966+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/00bde8428453a04ef0095311308dfea1820c5f0b19c4e6a992b583f9a5155106.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/digibuild/show_updates"
+}

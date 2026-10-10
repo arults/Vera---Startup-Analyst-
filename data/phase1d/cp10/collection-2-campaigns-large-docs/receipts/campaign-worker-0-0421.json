@@ -1,0 +1,18 @@
+{
+  "bytes": 189841,
+  "campaign_url": "https://republic.com/orange-county-sc",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/orange-county-sc/show_updates",
+  "gzip_sha256": "b53739d11f1b196c30197c410ddbab77b35dc9e76880617e652daf686d9c51c1",
+  "http_status": 200,
+  "parent_sha256": "75a622b0f6857917c3742f2c9f9bcf7953cdd9a9b82e88337addd5153f70687d",
+  "raw_sha256": "bd163c336407bdc912033afdd3912742caf368c77462deb85d0cea780ec1e062",
+  "received_at": "2026-10-10T02:34:44.577144+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:43.831129+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bd163c336407bdc912033afdd3912742caf368c77462deb85d0cea780ec1e062.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/orange-county-sc/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 95991,
+  "campaign_url": "https://republic.com/fretch",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fretch/show_updates",
+  "gzip_sha256": "cb15aba2d2ac61cfc8f0ec7dabfabdcb976a82397402faaf71293e46ac23036c",
+  "http_status": 200,
+  "parent_sha256": "24818a8fde829df9cec8922e78a1287b00ef2e8a1f59acb4ac17c0db7cce9a58",
+  "raw_sha256": "bbed2aa77f1f0625f2a71c046956bc4dd45959932ca1eb3f51e8f0ea3d310f8b",
+  "received_at": "2026-10-10T02:28:11.257229+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:10.647425+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bbed2aa77f1f0625f2a71c046956bc4dd45959932ca1eb3f51e8f0ea3d310f8b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fretch/show_updates"
+}

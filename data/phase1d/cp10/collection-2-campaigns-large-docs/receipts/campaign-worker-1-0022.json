@@ -1,0 +1,20 @@
+{
+  "bytes": 136631,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/ama-with-cere-network-and-republic",
+  "gzip_sha256": "3c7715c18955af9e480b08842b712e112bfb7d618fa4fe39f930ccb4395ec1f4",
+  "http_status": 200,
+  "raw_sha256": "e9c46376287fbd3db045fcb268b160651dc94529a68f0b2382c7e1c4360fd8cc",
+  "received_at": "2026-10-10T02:23:11.634453+00:00",
+  "redirects": [
+    "https://republic.com/events/ama-with-cere-network-and-republic"
+  ],
+  "retrieval_started_at": "2026-10-10T02:23:10.941600+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e9c46376287fbd3db045fcb268b160651dc94529a68f0b2382c7e1c4360fd8cc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ama-with-cere-network-and-republic"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 174073,
+  "campaign_url": "https://republic.com/jumpstart-june-2019",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/jumpstart-june-2019/show_updates",
+  "gzip_sha256": "caf9b7bafcdd527279129245070f7f771f77782043e7e9330a2aaea84bc857ed",
+  "http_status": 200,
+  "parent_sha256": "cb37477ecb7d9e8b09ea135ac603e2b8f0b56275d236d52adc711d20de935140",
+  "raw_sha256": "e2cb0fec0ad87d98e8da8af3399cde05637c5e3145c1102984b3255c2f145fdc",
+  "received_at": "2026-10-10T02:31:52.448393+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:51.510074+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e2cb0fec0ad87d98e8da8af3399cde05637c5e3145c1102984b3255c2f145fdc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/jumpstart-june-2019/show_updates"
+}

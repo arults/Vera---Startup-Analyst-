@@ -1,0 +1,18 @@
+{
+  "bytes": 168429,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/cns-pharmaceuticals",
+  "gzip_sha256": "276620f5f8018c91d8c92c8515f6a498451d401019d716c98fa1b99fc4acacc0",
+  "http_status": 200,
+  "raw_sha256": "693fa933f687150baa2af7ecd19df01265f6c93312658dab1361d5d9d75be090",
+  "received_at": "2026-10-10T02:25:33.050841+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:32.113727+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/693fa933f687150baa2af7ecd19df01265f6c93312658dab1361d5d9d75be090.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cns-pharmaceuticals"
+}

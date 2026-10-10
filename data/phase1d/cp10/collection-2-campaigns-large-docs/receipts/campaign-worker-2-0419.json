@@ -1,0 +1,18 @@
+{
+  "bytes": 1854,
+  "campaign_url": "https://republic.com/oasys",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/oasys/show_updates",
+  "gzip_sha256": "2fbdb17334c6665281d39b857c0804a56b7598a28490286920b5861430df9bc8",
+  "http_status": 200,
+  "parent_sha256": "5af3d2df5a5e6a231f6cfbd8d9ff82c75e7a26e550423d596e53722b9266ec65",
+  "raw_sha256": "c43514d300ab8fcdb7951a2b450ff5c92634e82c6f3b2adad8110c0ebc73b138",
+  "received_at": "2026-10-10T02:34:41.536406+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:40.957550+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c43514d300ab8fcdb7951a2b450ff5c92634e82c6f3b2adad8110c0ebc73b138.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/oasys/show_updates"
+}

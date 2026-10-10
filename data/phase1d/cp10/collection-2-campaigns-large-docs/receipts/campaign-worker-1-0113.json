@@ -1,0 +1,18 @@
+{
+  "bytes": 251957,
+  "campaign_url": "https://republic.com/cloudastructure",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cloudastructure/show_updates",
+  "gzip_sha256": "913d2dab62ce88a0989e9ebe1fb6db1e6fb3d0c187745fd8b6628adf70239f23",
+  "http_status": 200,
+  "parent_sha256": "ee351eabc3d06f665542410b66508746790da429444d70344d6f38ddcd2e07ab",
+  "raw_sha256": "7d6077f5e8a1935030a44af9ce95289cf824e84786aed63cd0967ef2d0cbd551",
+  "received_at": "2026-10-10T02:26:08.214483+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:07.437868+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7d6077f5e8a1935030a44af9ce95289cf824e84786aed63cd0967ef2d0cbd551.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cloudastructure/show_updates"
+}

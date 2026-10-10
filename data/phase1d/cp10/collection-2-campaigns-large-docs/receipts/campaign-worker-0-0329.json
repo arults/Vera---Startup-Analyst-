@@ -1,0 +1,18 @@
+{
+  "bytes": 254949,
+  "campaign_url": "https://republic.com/lexitech2024",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lexitech2024/show_updates",
+  "gzip_sha256": "54effbc5cf2d42a23b272d30becc107e07e70391e869b83a067edf42013f98b4",
+  "http_status": 200,
+  "parent_sha256": "033c959a01bfb9e852c38e26b2f346869beb813975977651ad188c72653429d6",
+  "raw_sha256": "fedd4ac52cf489871d57b230c0f04b2191981d613fe96c1f53526c1144e86195",
+  "received_at": "2026-10-10T02:32:36.997025+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:36.225091+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fedd4ac52cf489871d57b230c0f04b2191981d613fe96c1f53526c1144e86195.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lexitech2024/show_updates"
+}

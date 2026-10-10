@@ -1,0 +1,18 @@
+{
+  "bytes": 159576,
+  "campaign_url": "https://republic.com/kift",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/kift/show_updates",
+  "gzip_sha256": "88f622d5b753ab817e3b77b42e896b8c2b8729b749c26f69cf90f12811091f67",
+  "http_status": 200,
+  "parent_sha256": "f9fcb102cf4d54af4a81702cbc66c48aa372eab66862a57ee9d58cf6f3f9e41c",
+  "raw_sha256": "ec5bab1b2560ed4b15b0865f77f32c968f8b935566af106cb411f4dbf5b2f456",
+  "received_at": "2026-10-10T02:32:11.566682+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:10.858344+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ec5bab1b2560ed4b15b0865f77f32c968f8b935566af106cb411f4dbf5b2f456.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/kift/show_updates"
+}

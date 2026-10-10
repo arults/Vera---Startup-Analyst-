@@ -1,0 +1,20 @@
+{
+  "bytes": 29545,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/inx-website/inx-website-funds-availability-disclosure",
+  "gzip_sha256": "37d2ce3a758729573f1acb00bb91d91d8169b49f8d941b21fee63934c63220f6",
+  "http_status": 200,
+  "raw_sha256": "b313c277b17b0c8090c625ff5baa6ed7fb5ee900b988d83f4aee5a94a9a3c74b",
+  "received_at": "2026-10-10T02:31:26.834288+00:00",
+  "redirects": [
+    "https://republic.com/inx-website/inx-website-funds-availability-disclosure"
+  ],
+  "retrieval_started_at": "2026-10-10T02:31:26.156636+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b313c277b17b0c8090c625ff5baa6ed7fb5ee900b988d83f4aee5a94a9a3c74b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/inx-website-funds-availability-disclosure"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 119212,
+  "campaign_url": "https://republic.com/bardelia",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bardelia/show_updates",
+  "gzip_sha256": "8f9379ab71dbb4c402a50c7947791487069d37486eab43d3b44db7ff103d9128",
+  "http_status": 200,
+  "parent_sha256": "5b5b81faa3e773e9b67042e7b3f3d4917b6c0b081b2e3a978e8805b4f5cbb828",
+  "raw_sha256": "37ed28f5a224a8da82437788e2e01fdb022128268abce2673df3288adf9a02e7",
+  "received_at": "2026-10-10T02:24:15.560719+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:14.927216+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/37ed28f5a224a8da82437788e2e01fdb022128268abce2673df3288adf9a02e7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bardelia/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 96792,
+  "campaign_url": "https://republic.com/ally",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ally/show_updates",
+  "gzip_sha256": "e8eb8494bbe2606c852753050aa252d6f3a3efd7ba6ef484bc320dc2699501ef",
+  "http_status": 200,
+  "parent_sha256": "0be09858341f291b6d19376e64f8f513303c9a32f2ba97ca0fe15d2300dc2e7f",
+  "raw_sha256": "10001ebad39928c4837aebd7b8152a68446b280f9f421ebc85b3f4b003fbe981",
+  "received_at": "2026-10-10T02:23:12.115457+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:11.491690+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/10001ebad39928c4837aebd7b8152a68446b280f9f421ebc85b3f4b003fbe981.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ally/show_updates"
+}

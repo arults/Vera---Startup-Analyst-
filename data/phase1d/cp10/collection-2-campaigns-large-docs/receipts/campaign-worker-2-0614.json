@@ -1,0 +1,18 @@
+{
+  "bytes": 102737,
+  "campaign_url": "https://republic.com/totle",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/totle/show_updates",
+  "gzip_sha256": "f899b118ae2e0b41f1666d91fc04698cf2ecdc26b2a6d025fbe0e7a7d7670d28",
+  "http_status": 200,
+  "parent_sha256": "f1e645d05f30e8d1e80d16209aab4a0e6348165e82bca91fd4464261edcc9d5b",
+  "raw_sha256": "5b051a805b5a1bbb73085199b4b74e2ab2c163ef85f7d9eca0e3067a7321125f",
+  "received_at": "2026-10-10T02:38:25.901787+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:25.266538+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5b051a805b5a1bbb73085199b4b74e2ab2c163ef85f7d9eca0e3067a7321125f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/totle/show_updates"
+}

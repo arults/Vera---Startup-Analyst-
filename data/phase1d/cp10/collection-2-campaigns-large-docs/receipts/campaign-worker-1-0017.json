@@ -1,0 +1,18 @@
+{
+  "bytes": 335951,
+  "campaign_url": "https://republic.com/akua",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/akua/show_updates",
+  "gzip_sha256": "3bebfca9ead6a3c6f05e55a1c2f11772bb6eb098b7fd9e00e19f309ed06b1650",
+  "http_status": 200,
+  "parent_sha256": "771d08e74d72b9cf902fd708a3063aacedda24670c3f039cb4713d446a6d255d",
+  "raw_sha256": "5f001d8e5d6b33f5d31023e451c73a1688dfc6f648a193ad4ba277af5ee481b3",
+  "received_at": "2026-10-10T02:23:03.508970+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:02.647587+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5f001d8e5d6b33f5d31023e451c73a1688dfc6f648a193ad4ba277af5ee481b3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/akua/show_updates"
+}

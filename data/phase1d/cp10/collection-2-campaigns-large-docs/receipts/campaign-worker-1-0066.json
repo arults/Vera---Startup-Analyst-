@@ -1,0 +1,18 @@
+{
+  "bytes": 47745,
+  "campaign_url": "https://republic.com/bitgreen",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bitgreen/show_updates",
+  "gzip_sha256": "3e6a350d8e601c9f39aa9af40e207f420342a1829c6aa27d28c355531f00d9c3",
+  "http_status": 200,
+  "parent_sha256": "17a9633a4776a89be2ad77447626c2bb6cfcb7887fe82768e16b18469850676f",
+  "raw_sha256": "6ff3c337fb7ad8ef9f03285fc4573594d73ec1b1521585e51f1fae7221a08ab4",
+  "received_at": "2026-10-10T02:24:25.552201+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:24.839311+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6ff3c337fb7ad8ef9f03285fc4573594d73ec1b1521585e51f1fae7221a08ab4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bitgreen/show_updates"
+}

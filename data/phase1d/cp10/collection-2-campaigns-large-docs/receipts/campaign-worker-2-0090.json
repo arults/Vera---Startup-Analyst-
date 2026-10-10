@@ -1,0 +1,18 @@
+{
+  "bytes": 154080,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/bx-spaces",
+  "gzip_sha256": "b4a3c579ec173b4af2541e93b73cac898d7e9ec55cf1beea67de799ac1acf99f",
+  "http_status": 200,
+  "raw_sha256": "8c22405e4b266b4c29b616a14bedced6dad16827c21685d6df0b4825ed431157",
+  "received_at": "2026-10-10T02:24:59.349825+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:58.482308+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8c22405e4b266b4c29b616a14bedced6dad16827c21685d6df0b4825ed431157.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bx-spaces"
+}

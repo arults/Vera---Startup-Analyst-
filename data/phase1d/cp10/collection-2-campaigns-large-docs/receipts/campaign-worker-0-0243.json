@@ -1,0 +1,18 @@
+{
+  "bytes": 237129,
+  "campaign_url": "https://republic.com/hibertec-homes",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hibertec-homes/show_updates",
+  "gzip_sha256": "dd2b26831f2a78c403914f1b2fcbb6320b73e3747808145864d880a993bd9560",
+  "http_status": 200,
+  "parent_sha256": "2552854306d53aad06312ab4429c77b41a340fbbb041deb341b0f394891152e7",
+  "raw_sha256": "b744b537655c962e226bf787ac993be0e4f3cacfe08119797835a87dfecb6aac",
+  "received_at": "2026-10-10T02:29:30.779870+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:29.987865+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b744b537655c962e226bf787ac993be0e4f3cacfe08119797835a87dfecb6aac.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hibertec-homes/show_updates"
+}

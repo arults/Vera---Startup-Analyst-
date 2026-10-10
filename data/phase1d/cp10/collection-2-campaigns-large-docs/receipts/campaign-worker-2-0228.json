@@ -1,0 +1,18 @@
+{
+  "bytes": 407234,
+  "campaign_url": "https://republic.com/grid",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/grid/show_updates",
+  "gzip_sha256": "04f24c13669fe3516d9b6b9ed07a30db96c456507f42562d355726e99a9d7f48",
+  "http_status": 200,
+  "parent_sha256": "c1f374f32769d03a3b76088efcf99786daee847da558df6eb257406fd12a7556",
+  "raw_sha256": "58bae8c6b9b6f7d6b26f384f1824d71f8dfad7fcc0869cde5c400ea4d292ff0d",
+  "received_at": "2026-10-10T02:29:00.695031+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:59.721809+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/58bae8c6b9b6f7d6b26f384f1824d71f8dfad7fcc0869cde5c400ea4d292ff0d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/grid/show_updates"
+}

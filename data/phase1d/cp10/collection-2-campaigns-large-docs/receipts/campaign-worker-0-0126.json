@@ -1,0 +1,18 @@
+{
+  "bytes": 46597,
+  "campaign_url": "https://republic.com/crossfi",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/crossfi/show_updates",
+  "gzip_sha256": "8b1d74c00ed72e7ddba9779c811a4c0d876e88a6a8f3f5d44c91b783ba8d929c",
+  "http_status": 200,
+  "parent_sha256": "ee007b5851b31f4215da8ff076f334c8c1e3bd68d8612d2c39137b61f383a3fb",
+  "raw_sha256": "b231269e66c7e8f6af6b4b4bd2753557d6a5b9f51d8e02dc18fd73c00b3435d5",
+  "received_at": "2026-10-10T02:25:51.973432+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:51.405681+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b231269e66c7e8f6af6b4b4bd2753557d6a5b9f51d8e02dc18fd73c00b3435d5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/crossfi/show_updates"
+}

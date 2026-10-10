@@ -1,0 +1,18 @@
+{
+  "bytes": 6391,
+  "content_type": "text/html; charset=UTF-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/down-to-cook",
+  "gzip_sha256": "f8b2b5e2335a49f43bfcee07f9f2d2aa2f9126d791bc0df52906738ff1d2a896",
+  "http_status": 502,
+  "raw_sha256": "a36d6fae45b2ca41ee9b907aa723bad66c5a36ee72cb52ff7fceb8c97d57a694",
+  "received_at": "2026-10-10T02:27:20.581683+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:16.989251+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a36d6fae45b2ca41ee9b907aa723bad66c5a36ee72cb52ff7fceb8c97d57a694.bin.gz",
+  "status": "HTTP_ERROR_OR_UNFOLLOWED_REDIRECT",
+  "url": "https://republic.com/down-to-cook"
+}

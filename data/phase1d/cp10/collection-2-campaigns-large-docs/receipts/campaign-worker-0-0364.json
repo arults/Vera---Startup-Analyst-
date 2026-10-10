@@ -1,0 +1,18 @@
+{
+  "bytes": 2977,
+  "campaign_url": "https://republic.com/metaintro-2026",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/metaintro-2026/show_updates",
+  "gzip_sha256": "a6c527a1fe2944c18a9cf22d1c228b4f29e0a704ac76f3b3a4d2427d2bba80bf",
+  "http_status": 200,
+  "parent_sha256": "5c16e1163e251b76455ab1f012f48754d3424434891e46028f0f8fe11a0da065",
+  "raw_sha256": "effa3890a31d5a15a1aed363e69fa84e2d67bbc1d31f8920a1ee2962f4c6db46",
+  "received_at": "2026-10-10T02:33:39.152531+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:38.608001+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/effa3890a31d5a15a1aed363e69fa84e2d67bbc1d31f8920a1ee2962f4c6db46.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/metaintro-2026/show_updates"
+}

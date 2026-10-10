@@ -1,0 +1,18 @@
+{
+  "bytes": 172281,
+  "campaign_url": "https://republic.com/pathbooks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pathbooks/show_updates",
+  "gzip_sha256": "a758246ab19a909517d2c7135e4a59d3537da6f18eec811d3813f540c7bdb2b9",
+  "http_status": 200,
+  "parent_sha256": "2ae1ad195b209e781449bd1b28a7bd808b5be305616cfad0ceb2259191cea7c8",
+  "raw_sha256": "48614c0bc67eca23dab86787ffe53a2a7200f6fd22948531366a1852975ddbd7",
+  "received_at": "2026-10-10T02:34:55.936512+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:55.219410+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/48614c0bc67eca23dab86787ffe53a2a7200f6fd22948531366a1852975ddbd7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pathbooks/show_updates"
+}

@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "OTIS Dental",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/otis",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b67d242377482682a4d32c1fc451bd3902cf7d09c9fd8f1b22ac12a7064b7569.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1823663",
+    "final_url": "https://republic.com/otis",
+    "first_live_date": "",
+    "investors": "336",
+    "legal_name_from_platform": "OTIS Dental",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "130498",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "b67d242377482682a4d32c1fc451bd3902cf7d09c9fd8f1b22ac12a7064b7569",
+    "source_url": "https://republic.com/otis",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2021-02-16",
+    "successful_close_year_NOT_offering_year": "2021"
+  },
+  "final_url": "https://republic.com/otis",
+  "first_live_date": "2020-10-09",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2021-02-16",
+      "Successfully raised $130,498 🍾"
+    ],
+    [
+      "2020-10-09",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 654,
+  "native_state": "finalized",
+  "offering_year": 2020,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b67d242377482682a4d32c1fc451bd3902cf7d09c9fd8f1b22ac12a7064b7569.bin.gz",
+  "source_sha256": "b67d242377482682a4d32c1fc451bd3902cf7d09c9fd8f1b22ac12a7064b7569",
+  "successful_completion_date": "2021-02-16",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c8db5644f36231acd5af8c41692adec27f74e258fab4abdb7f09130ac60ec08e.bin.gz",
+  "timeline_source_sha256": "c8db5644f36231acd5af8c41692adec27f74e258fab4abdb7f09130ac60ec08e",
+  "url": "https://republic.com/otis",
+  "year_in_study": true
+}

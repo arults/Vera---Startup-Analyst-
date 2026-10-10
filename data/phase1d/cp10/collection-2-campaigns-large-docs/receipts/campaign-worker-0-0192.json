@@ -1,0 +1,20 @@
+{
+  "bytes": 141368,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/fishbrain-ceo-and-lt-and-gt-republic-deal-room-webinar",
+  "gzip_sha256": "69e3f09abc65450f2169ef4fc4be5605a9c86d2bbcb10b5721db9b8bd75f7dda",
+  "http_status": 200,
+  "raw_sha256": "38e24b2209c083930abb6dd4af4d121d26c161452c3333da650890136b5aa26e",
+  "received_at": "2026-10-10T02:27:43.239255+00:00",
+  "redirects": [
+    "https://republic.com/events/fishbrain-ceo-and-lt-and-gt-republic-deal-room-webinar"
+  ],
+  "retrieval_started_at": "2026-10-10T02:27:42.535954+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/38e24b2209c083930abb6dd4af4d121d26c161452c3333da650890136b5aa26e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fishbrain-ceo-and-lt-and-gt-republic-deal-room-webinar"
+}

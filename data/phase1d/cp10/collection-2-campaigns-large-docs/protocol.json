@@ -1,0 +1,16 @@
+{
+  "Jev_choice": "A_campaign_validation_first_B_in_parallel",
+  "confidence": 1.0,
+  "rules": [
+    "No /@individual profile fetches. Single-segment events/noncampaigns explicitly classified.",
+    "Do not replace historical missing campaigns with current-only frame.",
+    "Exact native DOM identifier/slug/url and source-linked milestones, with independent date parser.",
+    "Shared source circuit after2HTTPaccess/networkerrors; aliases and missingdates held.",
+    "Five previously size-held public PDFs stored as ordered32MBgzipchunks; max256MBand180sec perfile.",
+    "No outcome, economicround, historical census or numerical-prior promotion."
+  ],
+  "selection_probability": 1.0,
+  "source_commit": "8db00bc665a1ca1095f073e03873275f21374f43",
+  "started_at": "2026-10-10T02:22:36.037829+00:00",
+  "version": "0.6.5-dev.research.2"
+}

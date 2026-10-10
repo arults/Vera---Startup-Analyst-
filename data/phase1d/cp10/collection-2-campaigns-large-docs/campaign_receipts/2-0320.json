@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Republic",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/republic-spv-a",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/38279b933291d016e2a1780898292d80cce5468a02724c98a8bfb404ea463b06.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "",
+    "final_url": "https://republic.com/republic-spv-a",
+    "first_live_date": "",
+    "investors": "",
+    "legal_name_from_platform": "Deal Room Republic I, A Series of Republic Master Fund, LP",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "MISSING",
+    "offering_year": "",
+    "raised_amount_usd": "",
+    "security_type": "",
+    "source_content_sha256": "38279b933291d016e2a1780898292d80cce5468a02724c98a8bfb404ea463b06",
+    "source_url": "https://republic.com/republic-spv-a",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "",
+    "successful_close_year_NOT_offering_year": ""
+  },
+  "final_url": "https://republic.com/republic-spv-a",
+  "first_live_date": "2021-07-22",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2021-08-31",
+      "Successfully raised $1,000,000 🍾"
+    ],
+    [
+      "2021-07-22",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 1039,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/38279b933291d016e2a1780898292d80cce5468a02724c98a8bfb404ea463b06.bin.gz",
+  "source_sha256": "38279b933291d016e2a1780898292d80cce5468a02724c98a8bfb404ea463b06",
+  "successful_completion_date": "2021-08-31",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b6c34730b16c33c4810acd7aa8ac76d8fbf2b29c7a3267f246e9a6c41d639ce3.bin.gz",
+  "timeline_source_sha256": "b6c34730b16c33c4810acd7aa8ac76d8fbf2b29c7a3267f246e9a6c41d639ce3",
+  "url": "https://republic.com/republic-spv-a",
+  "year_in_study": true
+}

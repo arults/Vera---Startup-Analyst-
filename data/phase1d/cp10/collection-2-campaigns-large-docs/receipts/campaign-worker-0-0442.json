@@ -1,0 +1,18 @@
+{
+  "bytes": 29474,
+  "campaign_url": "https://republic.com/playchannel",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/playchannel/show_updates",
+  "gzip_sha256": "045f4027cf83d6ed19c2da3aed5375d5a4397c6a93976fda4470307f5646bb23",
+  "http_status": 200,
+  "parent_sha256": "560ec2c4c0d963cc6f8618c67c143775959c77292fa1455513dd1c65e47636a8",
+  "raw_sha256": "037be420264c292baecaf2c7968256bb73096d9927027660b536cbd6beb4afa1",
+  "received_at": "2026-10-10T02:35:08.246074+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:07.666783+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/037be420264c292baecaf2c7968256bb73096d9927027660b536cbd6beb4afa1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/playchannel/show_updates"
+}

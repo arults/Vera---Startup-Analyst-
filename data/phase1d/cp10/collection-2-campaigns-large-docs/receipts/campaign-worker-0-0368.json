@@ -1,0 +1,18 @@
+{
+  "bytes": 82160,
+  "campaign_url": "https://republic.com/mightyfly",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mightyfly/show_updates",
+  "gzip_sha256": "874cad7288050d5dd72262f5dda90b10f6111604de11d3a8b9b2edac3abfdd2f",
+  "http_status": 200,
+  "parent_sha256": "fc27d329851d1ddab0fa79fa6f4e3270c07a6717402158e39efd275268e4d35a",
+  "raw_sha256": "e950cc55f07fd8b5bcf86d96c6e63eba382d6dc49f5848635c9586bea3bc2c2e",
+  "received_at": "2026-10-10T02:33:44.439878+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:43.780949+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e950cc55f07fd8b5bcf86d96c6e63eba382d6dc49f5848635c9586bea3bc2c2e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mightyfly/show_updates"
+}

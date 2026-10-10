@@ -1,0 +1,18 @@
+{
+  "bytes": 205925,
+  "campaign_url": "https://republic.com/procertas",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/procertas/show_updates",
+  "gzip_sha256": "7757c407cf15a8cee3ff047df95705fa504108cd11108c1af4bf68f65e5dd9bd",
+  "http_status": 200,
+  "parent_sha256": "02aeebf437d3d49a2b68ae00692a626100e8b9e35cb196b75017d0e93ba20b9c",
+  "raw_sha256": "dadfd108a7020e9c3694c306976dd2fc6a86efe70e11147457463136e135623c",
+  "received_at": "2026-10-10T02:35:36.026475+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:35.339064+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/dadfd108a7020e9c3694c306976dd2fc6a86efe70e11147457463136e135623c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/procertas/show_updates"
+}

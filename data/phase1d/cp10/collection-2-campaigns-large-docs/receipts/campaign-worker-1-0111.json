@@ -1,0 +1,18 @@
+{
+  "bytes": 18957,
+  "campaign_url": "https://republic.com/clockout",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/clockout/show_updates",
+  "gzip_sha256": "bd2c4c039bdc1e72383293b7ca277e7309dfd24c9c5124f886459f2a2802ecfd",
+  "http_status": 200,
+  "parent_sha256": "f4ef909e1a76c2a29aba820ddfff3a6b5a5146feb93c242d8c90eb187e97cbbd",
+  "raw_sha256": "884abcb00f7f924237c9a3e5ae636d989175f87f2f6ff88abc8a9297c8e50cb2",
+  "received_at": "2026-10-10T02:26:04.787080+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:04.132198+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/884abcb00f7f924237c9a3e5ae636d989175f87f2f6ff88abc8a9297c8e50cb2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/clockout/show_updates"
+}

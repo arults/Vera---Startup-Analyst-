@@ -1,0 +1,173 @@
+[
+  {
+    "campaign_url": "https://republic.com/compound-reach",
+    "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+    "chunks": [
+      {
+        "gzip_sha256": "51613df464f4b0f9623362ffadf2763a2639f03c52b55b350fb6bd9dcae10b38",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/9038182308b67b4fd656215e6748949419684e2b3eefcc01408fd554d1d1ea1b.bin.gz",
+        "raw_bytes": 32000000,
+        "raw_sha256": "9038182308b67b4fd656215e6748949419684e2b3eefcc01408fd554d1d1ea1b"
+      },
+      {
+        "gzip_sha256": "b2cd00e46e3f6fe3298e3260d3b7bf5a081bb3418f3aaf55d3484a5abf9b17b2",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/5c596662038083bed5cc7bf2424f0b43f7ea7e2c5b3600274f70ee53322755ec.bin.gz",
+        "raw_bytes": 30041865,
+        "raw_sha256": "5c596662038083bed5cc7bf2424f0b43f7ea7e2c5b3600274f70ee53322755ec"
+      }
+    ],
+    "content_type": "application/pdf",
+    "estimation_eligible": false,
+    "final_url": "https://republic.com/documents/140?view=preview",
+    "full_semantic_review_complete": false,
+    "http_status": 200,
+    "label": "Compound Projects Form C:A 02.11.2020.pdf",
+    "parent_sha256": "545d0b9a7352a0aaea7df5a6bf917fb2e3e3b7fd93fad6120a8fb84e80b60558",
+    "pdf_magic_verified": true,
+    "raw_bytes": 62041865,
+    "raw_sha256": "3deea0ad2dcebc89e6a7097120b74fc90bb5eee4e86767b7db130797eb9aa477",
+    "received_at": "2026-10-10T02:22:42.234881+00:00",
+    "source_group": "large-documents",
+    "started_at": "2026-10-10T02:22:39.272460+00:00",
+    "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+    "url": "https://republic.com/documents/140?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/cricclubs",
+    "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+    "chunks": [
+      {
+        "gzip_sha256": "169e78efd259f49508e7e72e2e8c8dc587dced186231ff67f7ba86ec4ab2c029",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/9371a0eedeabeac380a02d542c5282bd7d2e239c18cf298f33ff4539b6d6c855.bin.gz",
+        "raw_bytes": 32000000,
+        "raw_sha256": "9371a0eedeabeac380a02d542c5282bd7d2e239c18cf298f33ff4539b6d6c855"
+      },
+      {
+        "gzip_sha256": "6d728cfd360961590ac99008a6814b126c535f2a6a3c2cf216c977c03098a3de",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/4ee95266cda24f82aa4cb52fbc02a2f5f2712e19c61a1d8ef41298368d81f442.bin.gz",
+        "raw_bytes": 20135219,
+        "raw_sha256": "4ee95266cda24f82aa4cb52fbc02a2f5f2712e19c61a1d8ef41298368d81f442"
+      }
+    ],
+    "content_type": "application/pdf",
+    "estimation_eligible": false,
+    "final_url": "https://republic.com/documents/159?view=preview",
+    "full_semantic_review_complete": false,
+    "http_status": 200,
+    "label": "CricClubs Form C.pdf",
+    "parent_sha256": "83136c730d12a4a0afcee2b5b5e1e4228e4fbf876b73e11a425875f8967cbf70",
+    "pdf_magic_verified": true,
+    "raw_bytes": 52135219,
+    "raw_sha256": "b4aa64af04f7a2c5fb769b1bc2e995bf1c87c06300fbf1c7107255f7b76c283c",
+    "received_at": "2026-10-10T02:22:46.348593+00:00",
+    "source_group": "large-documents",
+    "started_at": "2026-10-10T02:22:43.865731+00:00",
+    "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+    "url": "https://republic.com/documents/159?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/dorahacks",
+    "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+    "chunks": [
+      {
+        "gzip_sha256": "8ea4e9deffd73d141292af9575a9fc830b2cc89730cd29e96f7318f1cd86fbc1",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/c32724fac588897b50368cab57e5157aa1adce7ed2a5347de377dfae2e716daa.bin.gz",
+        "raw_bytes": 32000000,
+        "raw_sha256": "c32724fac588897b50368cab57e5157aa1adce7ed2a5347de377dfae2e716daa"
+      },
+      {
+        "gzip_sha256": "6259bc25252ee746e54f552d4753fa7b890af0ecbdc52f8b1ec55441e6bc27b4",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/83b70b935bdc061b5e7981e9065f440cbad011d2ff8e3efd6fcb67ac2df6fbb9.bin.gz",
+        "raw_bytes": 20883625,
+        "raw_sha256": "83b70b935bdc061b5e7981e9065f440cbad011d2ff8e3efd6fcb67ac2df6fbb9"
+      }
+    ],
+    "content_type": "application/pdf",
+    "estimation_eligible": false,
+    "final_url": "https://republic.com/documents/108?view=preview",
+    "full_semantic_review_complete": false,
+    "http_status": 200,
+    "label": "Form C:A 12.5.19.pdf",
+    "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+    "pdf_magic_verified": true,
+    "raw_bytes": 52883625,
+    "raw_sha256": "36633452ff3416d928f3ae7dfe3a2e06abaf77108ff61469c4ab97e867d62faf",
+    "received_at": "2026-10-10T02:22:50.441502+00:00",
+    "source_group": "large-documents",
+    "started_at": "2026-10-10T02:22:47.915513+00:00",
+    "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+    "url": "https://republic.com/documents/108?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/hellowoofy-december-2019",
+    "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+    "chunks": [
+      {
+        "gzip_sha256": "970be8333ac18cd62097ce6e74478d73bad2145fc43c23be924b2697ab3e65ad",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/d2ad3c739739b3e9d6cdfd36a6c75da21c835f19cf6c247f1ccd784a2d593682.bin.gz",
+        "raw_bytes": 32000000,
+        "raw_sha256": "d2ad3c739739b3e9d6cdfd36a6c75da21c835f19cf6c247f1ccd784a2d593682"
+      },
+      {
+        "gzip_sha256": "2442c7c67546186b5e60f5b459ba4310a5f45586ab8b26a816907ae3d70afd82",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/6fe86e6681f140d12d14239d7684a068228723f59020e937d16ea9628892cfde.bin.gz",
+        "raw_bytes": 32000000,
+        "raw_sha256": "6fe86e6681f140d12d14239d7684a068228723f59020e937d16ea9628892cfde"
+      },
+      {
+        "gzip_sha256": "7b99f9ce998e4756380bc37f3ed0deba8bf8132c5538d172bee3dca047410cab",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/0d7ac8b8d8162f7cc606c4fedab72764be1720ecc9c028fa49b80d6c552404eb.bin.gz",
+        "raw_bytes": 12243841,
+        "raw_sha256": "0d7ac8b8d8162f7cc606c4fedab72764be1720ecc9c028fa49b80d6c552404eb"
+      }
+    ],
+    "content_type": "application/pdf",
+    "estimation_eligible": false,
+    "final_url": "https://republic.com/documents/142?view=preview",
+    "full_semantic_review_complete": false,
+    "http_status": 200,
+    "label": "Woofy Form C:A 02.12.2020.pdf",
+    "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+    "pdf_magic_verified": true,
+    "raw_bytes": 76243841,
+    "raw_sha256": "be4419e9e38d9d4181e3a55c50ee525f1f53e9fe709049a164061a2b4895ef35",
+    "received_at": "2026-10-10T02:22:56.213054+00:00",
+    "source_group": "large-documents",
+    "started_at": "2026-10-10T02:22:52.888499+00:00",
+    "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+    "url": "https://republic.com/documents/142?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/qoins",
+    "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+    "chunks": [
+      {
+        "gzip_sha256": "797d2f34ada324fd17601a31a98694dde95eec6bb11d30e864c58996a5fd5eb3",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/0bdec92ee2d27e96134e94fc5c5d95d07b4010269d7e263604e19be1288e8197.bin.gz",
+        "raw_bytes": 32000000,
+        "raw_sha256": "0bdec92ee2d27e96134e94fc5c5d95d07b4010269d7e263604e19be1288e8197"
+      },
+      {
+        "gzip_sha256": "3cad211b2a8b40e0b1faf456dd040a4b3b8f2788f40f137afbb58c706159a5f6",
+        "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/ebb2a117990cae84c12a610aa759536228f1afb571e174f351ddebdc206e1dce.bin.gz",
+        "raw_bytes": 25280997,
+        "raw_sha256": "ebb2a117990cae84c12a610aa759536228f1afb571e174f351ddebdc206e1dce"
+      }
+    ],
+    "content_type": "application/pdf",
+    "estimation_eligible": false,
+    "final_url": "https://republic.com/documents/845?view=preview",
+    "full_semantic_review_complete": false,
+    "http_status": 200,
+    "label": "Qoins Form C.pdf",
+    "parent_sha256": "8703082b50563378f1d0ebb71ea367492d8b4cee8319c880e646a06d742cc248",
+    "pdf_magic_verified": true,
+    "raw_bytes": 57280997,
+    "raw_sha256": "9c1a7534a37184b40a615d480df0884c48ace28fae878b750537cbd48288bc3c",
+    "received_at": "2026-10-10T02:23:00.382449+00:00",
+    "source_group": "large-documents",
+    "started_at": "2026-10-10T02:22:58.288420+00:00",
+    "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+    "url": "https://republic.com/documents/845?view=preview"
+  }
+]

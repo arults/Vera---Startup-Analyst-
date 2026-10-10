@@ -1,0 +1,18 @@
+{
+  "bytes": 31387,
+  "campaign_url": "https://republic.com/realm-metaverse-realestate",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/realm-metaverse-realestate/show_updates",
+  "gzip_sha256": "6b362324eb2bc1c1c20f8e60b5fd1ec54e13976ed9564c45c1dae87d0fecb719",
+  "http_status": 200,
+  "parent_sha256": "84e4bdcc4f862ded7fd3ce54b4134a42a77f3c68d52b6d6499b104ee5723680d",
+  "raw_sha256": "1af8a2f8cb24ca1d2502454d589bb5a587173a29e7cd6e21046fff5dda74f558",
+  "received_at": "2026-10-10T02:36:00.093517+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:59.457678+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1af8a2f8cb24ca1d2502454d589bb5a587173a29e7cd6e21046fff5dda74f558.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/realm-metaverse-realestate/show_updates"
+}

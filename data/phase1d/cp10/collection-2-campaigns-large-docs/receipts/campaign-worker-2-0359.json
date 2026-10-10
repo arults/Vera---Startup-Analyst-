@@ -1,0 +1,18 @@
+{
+  "bytes": 137401,
+  "campaign_url": "https://republic.com/mayweather",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mayweather/show_updates",
+  "gzip_sha256": "d1a77fb2dcc83eac600bf926e309210400588d6830bc76f2363b260ce8afd4fe",
+  "http_status": 200,
+  "parent_sha256": "d412d5d14b0d700cd2b1b69cbd063fa19a9b4fb4b404b0740de395f7640eaff9",
+  "raw_sha256": "d42c3efc025805f34ff67ba07e9823b3309c6585b8a4a1fc1f13111447e29666",
+  "received_at": "2026-10-10T02:33:33.851326+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:33.179895+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d42c3efc025805f34ff67ba07e9823b3309c6585b8a4a1fc1f13111447e29666.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mayweather/show_updates"
+}

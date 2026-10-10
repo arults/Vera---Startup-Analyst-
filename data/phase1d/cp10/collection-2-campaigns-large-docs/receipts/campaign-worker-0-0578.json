@@ -1,0 +1,18 @@
+{
+  "bytes": 11434,
+  "campaign_url": "https://republic.com/suwanneeriverfarms",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/suwanneeriverfarms/show_updates",
+  "gzip_sha256": "d5072d1b87c6e8896993f04bf4f9d17e6252fe39dcac61cd4ae939164cae68f3",
+  "http_status": 200,
+  "parent_sha256": "6c4be04bea2c07c4fe42e68ec0177ca38539d3a6afc571953d476bf7fbf819ff",
+  "raw_sha256": "18d0c793ab95ea4c6d3d2bdac6bc0e06fd47859e6356780fdfcff5e54aec231e",
+  "received_at": "2026-10-10T02:37:42.644017+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:42.071603+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/18d0c793ab95ea4c6d3d2bdac6bc0e06fd47859e6356780fdfcff5e54aec231e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/suwanneeriverfarms/show_updates"
+}

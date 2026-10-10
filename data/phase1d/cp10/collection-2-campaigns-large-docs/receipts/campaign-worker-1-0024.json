@@ -1,0 +1,18 @@
+{
+  "bytes": 89834,
+  "campaign_url": "https://republic.com/ampere",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ampere/show_updates",
+  "gzip_sha256": "fdcca1b509ae144da7bf188ea8ce560b1305ffcf97e0907f322f564601072d10",
+  "http_status": 200,
+  "parent_sha256": "0a317d72cc7bbf5469514b8a9dd77b037dad1e25f349f2f4fe6611b3d887a0b9",
+  "raw_sha256": "3cc1b840e8dad0b21e21545b2be21bcaba983b225ed6061d81531866b19f8e23",
+  "received_at": "2026-10-10T02:23:15.137089+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:14.298220+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3cc1b840e8dad0b21e21545b2be21bcaba983b225ed6061d81531866b19f8e23.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ampere/show_updates"
+}

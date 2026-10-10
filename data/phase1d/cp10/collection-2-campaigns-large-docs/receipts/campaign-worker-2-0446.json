@@ -1,0 +1,18 @@
+{
+  "bytes": 10559,
+  "campaign_url": "https://republic.com/pigeonly",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pigeonly/show_updates",
+  "gzip_sha256": "ba92e6a9133a6a25ba21339913f19901d237affeb18bf9dc3c918eac0a9c43f7",
+  "http_status": 200,
+  "parent_sha256": "762db4c56256272f8c6abb329bf52d4d3016ef307afb82b1e247ed5a6b5803c3",
+  "raw_sha256": "9a7d35aab86c399f3858e1ea1815c2629b735d2a5f3bfb8062469b4951bf6907",
+  "received_at": "2026-10-10T02:35:12.089942+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:11.551350+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9a7d35aab86c399f3858e1ea1815c2629b735d2a5f3bfb8062469b4951bf6907.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pigeonly/show_updates"
+}

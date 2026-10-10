@@ -1,0 +1,18 @@
+{
+  "bytes": 201063,
+  "campaign_url": "https://republic.com/dollaride",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/dollaride/show_updates",
+  "gzip_sha256": "1570fbe82e686abda8742a933f7fc80135635000acb0c77c17d2175d0a0d76b2",
+  "http_status": 200,
+  "parent_sha256": "639c11252035ecdd9ed20264438cc538b5c786b7be5d632b72d96aed3a88cc31",
+  "raw_sha256": "6a7a0053b0b96adbaf09bbe8ce35ee8292eb355f39ebcabe98894091822fde73",
+  "received_at": "2026-10-10T02:26:45.758863+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:45.011704+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6a7a0053b0b96adbaf09bbe8ce35ee8292eb355f39ebcabe98894091822fde73.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dollaride/show_updates"
+}

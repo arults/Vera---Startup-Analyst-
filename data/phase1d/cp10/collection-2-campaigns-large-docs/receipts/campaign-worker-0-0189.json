@@ -1,0 +1,18 @@
+{
+  "bytes": 140514,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/field-day",
+  "gzip_sha256": "815172300d6083f1ac465dca43ef1ba2e1f942578654efd8960a8ddb17d16fe7",
+  "http_status": 200,
+  "raw_sha256": "9696c57ec1bffb964bcb9f12aca3c98e8ab7320407408dbaf9ad7300053fa15a",
+  "received_at": "2026-10-10T02:27:37.837575+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:37.034930+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9696c57ec1bffb964bcb9f12aca3c98e8ab7320407408dbaf9ad7300053fa15a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/field-day"
+}

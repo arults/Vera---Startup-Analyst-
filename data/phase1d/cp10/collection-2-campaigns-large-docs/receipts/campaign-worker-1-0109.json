@@ -1,0 +1,18 @@
+{
+  "bytes": 499903,
+  "campaign_url": "https://republic.com/cityzenith",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cityzenith/show_updates",
+  "gzip_sha256": "b2034eafafa944f59fcc093cebfefd4b51575dfad7e40ebee2cd59d424465d39",
+  "http_status": 200,
+  "parent_sha256": "eaae467b9b2e735feae1cc5e0ed3ab0c52dfd7991c2f70dc7eaf2afa4a2b9909",
+  "raw_sha256": "850ad8d5175061dab665497d3a37218d691fb6867c8768c70ad1882617538e54",
+  "received_at": "2026-10-10T02:26:01.831412+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:00.826433+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/850ad8d5175061dab665497d3a37218d691fb6867c8768c70ad1882617538e54.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cityzenith/show_updates"
+}

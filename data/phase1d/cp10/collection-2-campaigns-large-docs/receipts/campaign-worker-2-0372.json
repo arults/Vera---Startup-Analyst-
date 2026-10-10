@@ -1,0 +1,18 @@
+{
+  "bytes": 140435,
+  "campaign_url": "https://republic.com/mighty-well",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mighty-well/show_updates",
+  "gzip_sha256": "40929ab757cc1b7bd17c624ceb1b856930bc690692c6d88ba3ff6b1ae9c5b97e",
+  "http_status": 200,
+  "parent_sha256": "1f1700fb84d6c0f2e6a44541db6297c79f99996c09fd54da618ffeef48469a7a",
+  "raw_sha256": "bf01a5792a9f0d1f6c4eb466cc9e12a3cb55d124d25e06569cc2c209e9a2ba38",
+  "received_at": "2026-10-10T02:33:48.348258+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:47.706241+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bf01a5792a9f0d1f6c4eb466cc9e12a3cb55d124d25e06569cc2c209e9a2ba38.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mighty-well/show_updates"
+}

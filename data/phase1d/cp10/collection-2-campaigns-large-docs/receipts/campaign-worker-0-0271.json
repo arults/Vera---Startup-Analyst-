@@ -1,0 +1,18 @@
+{
+  "bytes": 19250,
+  "campaign_url": "https://republic.com/in-the-market",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/in-the-market/show_updates",
+  "gzip_sha256": "f77ca168ec71313ad669dce89516680a45498810ae9ad2fc36b435b2fa542190",
+  "http_status": 200,
+  "parent_sha256": "099c5a0513ff201cc9d1c785fcd2a10ec1803dfcec148d9f363c4ba1190df181",
+  "raw_sha256": "bd340693a485543df2d449ac55780af76632fc29f064a764df7a510ef6dc26a8",
+  "received_at": "2026-10-10T02:30:31.104191+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:30.547124+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bd340693a485543df2d449ac55780af76632fc29f064a764df7a510ef6dc26a8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/in-the-market/show_updates"
+}

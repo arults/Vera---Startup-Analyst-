@@ -1,0 +1,18 @@
+{
+  "bytes": 165552,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/skillmil",
+  "gzip_sha256": "e81410259d0394f5a10d281e69270e79e26e89e40a8826715d6e020927fbac50",
+  "http_status": 200,
+  "raw_sha256": "c824c65ca4a7e7fbe0005ae8a67fa5256aaa05bab8681201bc0368332eb718aa",
+  "received_at": "2026-10-10T02:37:01.446702+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:00.599709+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c824c65ca4a7e7fbe0005ae8a67fa5256aaa05bab8681201bc0368332eb718aa.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/skillmil"
+}

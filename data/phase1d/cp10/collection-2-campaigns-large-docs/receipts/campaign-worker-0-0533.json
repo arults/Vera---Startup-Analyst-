@@ -1,0 +1,18 @@
+{
+  "bytes": 10677,
+  "campaign_url": "https://republic.com/seqonce",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/seqonce/show_updates",
+  "gzip_sha256": "6db26499e8ed07a406c94489b42c71faa273e760f07b631fc02153eeede056a9",
+  "http_status": 200,
+  "parent_sha256": "3f112a267c790a61ee325644c95adf38db23df79815fdc5a91801df87582b127",
+  "raw_sha256": "77cd1c4db601dd783240a7174a8b1409397538b208377762afe1785cb8bf947c",
+  "received_at": "2026-10-10T02:36:49.911311+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:49.365441+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/77cd1c4db601dd783240a7174a8b1409397538b208377762afe1785cb8bf947c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/seqonce/show_updates"
+}

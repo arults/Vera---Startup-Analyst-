@@ -1,0 +1,18 @@
+{
+  "bytes": 70642,
+  "campaign_url": "https://republic.com/somos",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/somos/show_updates",
+  "gzip_sha256": "d29be7a53a1596e56d2ff0c33708dff0218dc06d6c2d0e791636910149884418",
+  "http_status": 200,
+  "parent_sha256": "8246f3d508c87604031235331f1cbd02953474f29d74729db9b4a248bb8db5fe",
+  "raw_sha256": "d711761ed97e2af9638c0bbe8ec7f0cf49e9b1ff836db0b3f1563fbcabffa640",
+  "received_at": "2026-10-10T02:37:16.570594+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:15.978156+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d711761ed97e2af9638c0bbe8ec7f0cf49e9b1ff836db0b3f1563fbcabffa640.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/somos/show_updates"
+}

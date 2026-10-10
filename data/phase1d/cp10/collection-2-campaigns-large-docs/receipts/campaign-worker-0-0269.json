@@ -1,0 +1,20 @@
+{
+  "bytes": 149005,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/real-estate/illume",
+  "gzip_sha256": "887721c21c4393d4163837de9ccc9e4a97aa18b842bf1a6612fa1df524cfa4b2",
+  "http_status": 200,
+  "raw_sha256": "9f8fa3538ba6924400bdedc2db9eeca8b327d19ace43c22b7e0e9b738f2c951a",
+  "received_at": "2026-10-10T02:30:27.113167+00:00",
+  "redirects": [
+    "https://republic.com/real-estate/illume"
+  ],
+  "retrieval_started_at": "2026-10-10T02:30:26.137734+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9f8fa3538ba6924400bdedc2db9eeca8b327d19ace43c22b7e0e9b738f2c951a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/illume"
+}

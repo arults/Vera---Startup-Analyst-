@@ -1,0 +1,18 @@
+{
+  "bytes": 19396,
+  "campaign_url": "https://republic.com/athyna",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/athyna/show_updates",
+  "gzip_sha256": "6b80716427537425d462e308e2e92a0dee0a2020c40a7825155f85a3e4e8cce7",
+  "http_status": 200,
+  "parent_sha256": "0485210e729e0e9e903626c9b8aef26a5f7c99471f685df05c4631e5a8593fac",
+  "raw_sha256": "a6ecfb6bfaa05cb247bc16ef26f9810eb6f51fb1ce9c06a98153dde092e791c3",
+  "received_at": "2026-10-10T02:23:53.972642+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:53.430410+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a6ecfb6bfaa05cb247bc16ef26f9810eb6f51fb1ce9c06a98153dde092e791c3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/athyna/show_updates"
+}

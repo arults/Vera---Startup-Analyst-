@@ -1,0 +1,33 @@
+{
+  "campaign_url": "https://republic.com/dorahacks",
+  "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+  "chunks": [
+    {
+      "gzip_sha256": "8ea4e9deffd73d141292af9575a9fc830b2cc89730cd29e96f7318f1cd86fbc1",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/c32724fac588897b50368cab57e5157aa1adce7ed2a5347de377dfae2e716daa.bin.gz",
+      "raw_bytes": 32000000,
+      "raw_sha256": "c32724fac588897b50368cab57e5157aa1adce7ed2a5347de377dfae2e716daa"
+    },
+    {
+      "gzip_sha256": "6259bc25252ee746e54f552d4753fa7b890af0ecbdc52f8b1ec55441e6bc27b4",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/83b70b935bdc061b5e7981e9065f440cbad011d2ff8e3efd6fcb67ac2df6fbb9.bin.gz",
+      "raw_bytes": 20883625,
+      "raw_sha256": "83b70b935bdc061b5e7981e9065f440cbad011d2ff8e3efd6fcb67ac2df6fbb9"
+    }
+  ],
+  "content_type": "application/pdf",
+  "estimation_eligible": false,
+  "final_url": "https://republic.com/documents/108?view=preview",
+  "full_semantic_review_complete": false,
+  "http_status": 200,
+  "label": "Form C:A 12.5.19.pdf",
+  "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+  "pdf_magic_verified": true,
+  "raw_bytes": 52883625,
+  "raw_sha256": "36633452ff3416d928f3ae7dfe3a2e06abaf77108ff61469c4ab97e867d62faf",
+  "received_at": "2026-10-10T02:22:50.441502+00:00",
+  "source_group": "large-documents",
+  "started_at": "2026-10-10T02:22:47.915513+00:00",
+  "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+  "url": "https://republic.com/documents/108?view=preview"
+}

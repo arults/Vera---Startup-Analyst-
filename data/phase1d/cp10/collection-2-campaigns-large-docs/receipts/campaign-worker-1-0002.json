@@ -1,0 +1,18 @@
+{
+  "bytes": 162918,
+  "campaign_url": "https://republic.com/1821-drinks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/1821-drinks/show_updates",
+  "gzip_sha256": "edac99885beb1dd1ad1eb13c166f924bcf92c62505e6abb3edf66be4b98dfe38",
+  "http_status": 200,
+  "parent_sha256": "fe73c3b7d61c8c67149b3956c57d36592a351fdb808f5ed78e12a943f3c05553",
+  "raw_sha256": "43b961dcbc1080ce2bdbe432ca4813819518d89fe42c758b2387e6f8a83b3a30",
+  "received_at": "2026-10-10T02:22:38.496118+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:37.797202+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/43b961dcbc1080ce2bdbe432ca4813819518d89fe42c758b2387e6f8a83b3a30.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/1821-drinks/show_updates"
+}

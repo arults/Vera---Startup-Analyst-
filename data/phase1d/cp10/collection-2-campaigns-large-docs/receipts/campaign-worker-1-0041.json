@@ -1,0 +1,18 @@
+{
+  "bytes": 18997,
+  "campaign_url": "https://republic.com/atari-hotels",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/atari-hotels/show_updates",
+  "gzip_sha256": "a3c27b2ca8924256810f7c9a2f5a74400bac112323a01e0e9f790cc267774170",
+  "http_status": 200,
+  "parent_sha256": "996354fdbfe73aefb64c49f43274a1c72f6e093ee0d33e445e56db4871cec27a",
+  "raw_sha256": "b6f4bda44f5ff440867f5be18c74529e3b095b3810c0899fe1e4f28be3d03a21",
+  "received_at": "2026-10-10T02:23:42.978635+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:42.417917+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b6f4bda44f5ff440867f5be18c74529e3b095b3810c0899fe1e4f28be3d03a21.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/atari-hotels/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 217410,
+  "campaign_url": "https://republic.com/awesome-sourdough",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/awesome-sourdough/show_updates",
+  "gzip_sha256": "45357d7eada1cb2ee2244c21a271253d7e1ce1223a688c52fddb05a6089777c3",
+  "http_status": 200,
+  "parent_sha256": "5c34aa5ad9604ad23ad639b94864516e364e84704c85ce09cbeb4f51094246de",
+  "raw_sha256": "91c50fb9cac4c17a84cd82855141bb36c5797c38e9d10d1e69a444e8d1802980",
+  "received_at": "2026-10-10T02:24:01.927554+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:01.159400+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/91c50fb9cac4c17a84cd82855141bb36c5797c38e9d10d1e69a444e8d1802980.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/awesome-sourdough/show_updates"
+}

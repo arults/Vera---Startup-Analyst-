@@ -1,0 +1,18 @@
+{
+  "bytes": 51488,
+  "campaign_url": "https://republic.com/biocertica",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/biocertica/show_updates",
+  "gzip_sha256": "39d1d466dedb124006cced20bf9a18f243d94ae98eff3cdd0a77dbcff7ac52f9",
+  "http_status": 200,
+  "parent_sha256": "f97999d353fcf390aa58fd10563da912cc866a19b9c1dcd2d4099efdc2d034d1",
+  "raw_sha256": "6612abfd0ec98dba79cbb0cda0f32a96603b20a06e0819c604acdefccebe05f0",
+  "received_at": "2026-10-10T02:24:24.358081+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:23.734014+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6612abfd0ec98dba79cbb0cda0f32a96603b20a06e0819c604acdefccebe05f0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/biocertica/show_updates"
+}

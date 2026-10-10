@@ -1,0 +1,18 @@
+{
+  "bytes": 309226,
+  "campaign_url": "https://republic.com/netty-worth",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/netty-worth/show_updates",
+  "gzip_sha256": "d2ae7ce6f0b9bcc3d33d8953af067109d818e0db7e4739c476f73ce58fab2013",
+  "http_status": 200,
+  "parent_sha256": "8bda5dbdcb476cd5a5fb3ecb2af99e35137726b6bbbed0edee2b99f7bd801041",
+  "raw_sha256": "46263cc91312531dab5c714c59cea61f034009f3521b7d525acf8a73cea5a0b6",
+  "received_at": "2026-10-10T02:34:18.721328+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:17.943738+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/46263cc91312531dab5c714c59cea61f034009f3521b7d525acf8a73cea5a0b6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/netty-worth/show_updates"
+}

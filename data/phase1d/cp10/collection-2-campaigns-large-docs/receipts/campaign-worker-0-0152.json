@@ -1,0 +1,18 @@
+{
+  "bytes": 82769,
+  "campaign_url": "https://republic.com/digital-eclipse-fgs-de",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/digital-eclipse-fgs-de/show_updates",
+  "gzip_sha256": "e3fc8ad162fdfc67df8fdea6dfa230d9de8dccf57af64ddf9247a12dfce1cc7b",
+  "http_status": 200,
+  "parent_sha256": "a6885d7da424843749c1fabee7574a4b621f11239163c2159c7d7c8c7091b54b",
+  "raw_sha256": "f6d4c39b945970e1980b707c77372b6fe42d64f5dea5ffc888ec41ab1b4f4e96",
+  "received_at": "2026-10-10T02:26:35.124892+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:34.485474+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f6d4c39b945970e1980b707c77372b6fe42d64f5dea5ffc888ec41ab1b4f4e96.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/digital-eclipse-fgs-de/show_updates"
+}

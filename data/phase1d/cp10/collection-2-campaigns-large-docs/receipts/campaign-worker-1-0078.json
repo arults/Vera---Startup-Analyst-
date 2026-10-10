@@ -1,0 +1,18 @@
+{
+  "bytes": 249558,
+  "campaign_url": "https://republic.com/boxabl",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/boxabl/show_updates",
+  "gzip_sha256": "97e3086dcf548add166408df93f56f0716c37d4360b8bfd427d943003f5796cc",
+  "http_status": 200,
+  "parent_sha256": "991a73a69fc54b270ee05900bb53ffeab0c26db63fdfce2bef070f60574f3808",
+  "raw_sha256": "5c315f11512577c4704bc6e108703ff4032992263c8d04b1b716b460256010d3",
+  "received_at": "2026-10-10T02:24:45.486209+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:44.704795+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5c315f11512577c4704bc6e108703ff4032992263c8d04b1b716b460256010d3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/boxabl/show_updates"
+}

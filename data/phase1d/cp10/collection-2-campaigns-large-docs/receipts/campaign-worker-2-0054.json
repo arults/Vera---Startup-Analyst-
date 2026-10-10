@@ -1,0 +1,18 @@
+{
+  "bytes": 292957,
+  "campaign_url": "https://republic.com/avivid-water",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/avivid-water/show_updates",
+  "gzip_sha256": "1bb6dde94b3a32f9dfdb25adface81c7cb0b956bb4893c85e68ce30449d5ea67",
+  "http_status": 200,
+  "parent_sha256": "b4a0d7e695dc646e363382e025856e764baafdb1d122d84007643431d75f6203",
+  "raw_sha256": "b0879ccad4755d7fb14cf2efe90b170a6fdec8f22045254c0f9a0eb674d4f107",
+  "received_at": "2026-10-10T02:24:05.809715+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:05.010137+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b0879ccad4755d7fb14cf2efe90b170a6fdec8f22045254c0f9a0eb674d4f107.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/avivid-water/show_updates"
+}

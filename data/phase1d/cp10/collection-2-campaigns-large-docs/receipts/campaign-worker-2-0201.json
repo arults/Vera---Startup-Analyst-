@@ -1,0 +1,18 @@
+{
+  "bytes": 53321,
+  "campaign_url": "https://republic.com/fluent-forever",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fluent-forever/show_updates",
+  "gzip_sha256": "6b61e6b4cb6653dddc8aa963c666ce65b4163830f3bf892805d8749140e69733",
+  "http_status": 200,
+  "parent_sha256": "1acfa45ebc7cb9cf115b05fcbd7d20c0d1a9bc0e903f9ea48d17861b05d14a34",
+  "raw_sha256": "2abd160ab4e40514e9c046ea2d336081bc1bbe3b325e7d856f74147ef0238174",
+  "received_at": "2026-10-10T02:28:03.541202+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:02.938129+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2abd160ab4e40514e9c046ea2d336081bc1bbe3b325e7d856f74147ef0238174.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fluent-forever/show_updates"
+}

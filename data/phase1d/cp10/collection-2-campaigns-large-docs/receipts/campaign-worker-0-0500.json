@@ -1,0 +1,20 @@
+{
+  "bytes": 162103,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/republic-deal-room-and-lt-and-gt-seedrs",
+  "gzip_sha256": "0f7e510a675b777d127264f3b648122449d3dc093b8b79a966daf8de46dfe68a",
+  "http_status": 200,
+  "raw_sha256": "95b37cbe454269d678357d856969c5e7648adc2b72bdbb9af0342998cc339586",
+  "received_at": "2026-10-10T02:36:13.572628+00:00",
+  "redirects": [
+    "https://republic.com/events/republic-deal-room-and-lt-and-gt-seedrs"
+  ],
+  "retrieval_started_at": "2026-10-10T02:36:12.838127+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/95b37cbe454269d678357d856969c5e7648adc2b72bdbb9af0342998cc339586.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/republic-deal-room-and-lt-and-gt-seedrs"
+}

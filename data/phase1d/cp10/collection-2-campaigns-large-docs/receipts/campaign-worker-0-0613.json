@@ -1,0 +1,18 @@
+{
+  "bytes": 20900,
+  "campaign_url": "https://republic.com/trip360",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/trip360/show_updates",
+  "gzip_sha256": "b692a3cb6bd1e0ff40e42878930deb40852925c20cb8894548f824853ba99ff8",
+  "http_status": 200,
+  "parent_sha256": "a5abc4a5161efd93ecaa64badde2a7aed7cf2ded11ea056bfcaef2948ca11075",
+  "raw_sha256": "9bb34adde1f0aaeb10dad83ebfeb399f356525390e76f99b95a272a0a9bfb790",
+  "received_at": "2026-10-10T02:38:21.707781+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:21.156414+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9bb34adde1f0aaeb10dad83ebfeb399f356525390e76f99b95a272a0a9bfb790.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/trip360/show_updates"
+}

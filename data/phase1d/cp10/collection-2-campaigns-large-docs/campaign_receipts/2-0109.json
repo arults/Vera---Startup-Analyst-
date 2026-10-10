@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Fanalyze",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/fanalyze",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f4989fe51615a008ac4da4f9de1781cde60808fd959ceeef792128788c553531.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1839580",
+    "final_url": "https://republic.com/fanalyze",
+    "first_live_date": "",
+    "investors": "237",
+    "legal_name_from_platform": "Fanalyze, Inc",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "74143",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "f4989fe51615a008ac4da4f9de1781cde60808fd959ceeef792128788c553531",
+    "source_url": "https://republic.com/fanalyze",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2021-05-01",
+    "successful_close_year_NOT_offering_year": "2021"
+  },
+  "final_url": "https://republic.com/fanalyze",
+  "first_live_date": "2021-03-04",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2021-05-01",
+      "Successfully raised $74,143 🍾"
+    ],
+    [
+      "2021-03-04",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 729,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f4989fe51615a008ac4da4f9de1781cde60808fd959ceeef792128788c553531.bin.gz",
+  "source_sha256": "f4989fe51615a008ac4da4f9de1781cde60808fd959ceeef792128788c553531",
+  "successful_completion_date": "2021-05-01",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fdcce2e748ca9810d1c0ca2a570eb8f71276450d1a05e461b9439296ea5f5b2a.bin.gz",
+  "timeline_source_sha256": "fdcce2e748ca9810d1c0ca2a570eb8f71276450d1a05e461b9439296ea5f5b2a",
+  "url": "https://republic.com/fanalyze",
+  "year_in_study": true
+}

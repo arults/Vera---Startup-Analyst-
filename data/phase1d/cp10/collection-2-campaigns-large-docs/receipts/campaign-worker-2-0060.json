@@ -1,0 +1,18 @@
+{
+  "bytes": 171651,
+  "campaign_url": "https://republic.com/backyard-soda-co",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/backyard-soda-co/show_updates",
+  "gzip_sha256": "3c4840c2e63fa611c75c9dbd6dc66527b95af7e3350231cb0491aec9492472d8",
+  "http_status": 200,
+  "parent_sha256": "97454cd366544fdcf5e15b2247d3daedd71744ec4266a6912a602cffc25e8a58",
+  "raw_sha256": "c1cb443ecdfa198bece26f7fe20d908beeb721fa5362cba68085fa040c71aeee",
+  "received_at": "2026-10-10T02:24:15.086708+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:14.377071+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c1cb443ecdfa198bece26f7fe20d908beeb721fa5362cba68085fa040c71aeee.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/backyard-soda-co/show_updates"
+}

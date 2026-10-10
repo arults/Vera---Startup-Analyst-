@@ -1,0 +1,20 @@
+{
+  "bytes": 267535,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/watfordfc",
+  "gzip_sha256": "837c13b78485547f0db5425ce84795bee944e146ed5bf7184d57cf8af5f0068e",
+  "http_status": 200,
+  "raw_sha256": "d2c81d44f8d24f04e362700d501325974f0ca0d5c360bd03dca8f4ed0506edc4",
+  "received_at": "2026-10-10T02:38:51.610636+00:00",
+  "redirects": [
+    "https://republic.com/watfordfc"
+  ],
+  "retrieval_started_at": "2026-10-10T02:38:50.569396+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d2c81d44f8d24f04e362700d501325974f0ca0d5c360bd03dca8f4ed0506edc4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/watford-reg-d"
+}

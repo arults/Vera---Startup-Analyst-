@@ -1,0 +1,18 @@
+{
+  "bytes": 20924,
+  "campaign_url": "https://republic.com/ember-fund",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ember-fund/show_updates",
+  "gzip_sha256": "d39627ab59994c1ec27d2d177c76fd718f89d109c60a5d74d36969cfcfea423f",
+  "http_status": 200,
+  "parent_sha256": "656374bcb516be07e95c1d29427aba8d8c0b4928cef32c7f577ca635665aaa88",
+  "raw_sha256": "0ae9182519ff96218814633fca2bbe1fa7be4e5cfc986bb6d2aa2bdf2841c636",
+  "received_at": "2026-10-10T02:27:07.027296+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:06.484114+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0ae9182519ff96218814633fca2bbe1fa7be4e5cfc986bb6d2aa2bdf2841c636.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ember-fund/show_updates"
+}

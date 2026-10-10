@@ -1,0 +1,18 @@
+{
+  "bytes": 93967,
+  "campaign_url": "https://republic.com/moksha",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/moksha/show_updates",
+  "gzip_sha256": "8ccdaa5022ea4093c7b65319fa909e7b6f7e15140feb521d87cd0d517f46f6c5",
+  "http_status": 200,
+  "parent_sha256": "e4fd1df38d6b939ec447475bc8d251388a5419012a41d2f6117fa8378a541fce",
+  "raw_sha256": "91c755be34824e0583c5ca7777f5dd74f89c8ba43a36bfc62a58b428ad973d53",
+  "received_at": "2026-10-10T02:33:53.342135+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:52.657223+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/91c755be34824e0583c5ca7777f5dd74f89c8ba43a36bfc62a58b428ad973d53.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/moksha/show_updates"
+}

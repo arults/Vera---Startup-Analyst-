@@ -1,0 +1,18 @@
+{
+  "bytes": 27553,
+  "campaign_url": "https://republic.com/kul-mocks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/kul-mocks/show_updates",
+  "gzip_sha256": "7701ebb8b6b02a4ba1a7ca3d5a9defb83faffd9b775c2c2e998e9f3acfeb81b2",
+  "http_status": 200,
+  "parent_sha256": "5469c6b260b75458e0c9a56e8e257be47620fb8d01e3eb636925976c98470a9d",
+  "raw_sha256": "ca3bc939b7ef543afb823b2c8fd5d2d73c38f5651bb89c74e2a14ae6a41db95f",
+  "received_at": "2026-10-10T02:32:15.819500+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:15.264249+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ca3bc939b7ef543afb823b2c8fd5d2d73c38f5651bb89c74e2a14ae6a41db95f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/kul-mocks/show_updates"
+}

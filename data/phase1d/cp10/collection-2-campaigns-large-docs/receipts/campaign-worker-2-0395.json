@@ -1,0 +1,18 @@
+{
+  "bytes": 47757,
+  "campaign_url": "https://republic.com/myro",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/myro/show_updates",
+  "gzip_sha256": "2f3f9a2e0eba35e6f01df481169ffab57c24d87ac255dd5284cf4da2d4fa1a77",
+  "http_status": 200,
+  "parent_sha256": "52ed7dd47d33f747bd4c450a1b03bba4ca932c87a28e533a61e085cee6e1289c",
+  "raw_sha256": "df9805b40cea71caf360e24c2322f8a9aee8bd0f21ffafc887db6dac6f2ea16b",
+  "received_at": "2026-10-10T02:34:14.613796+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:13.994209+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/df9805b40cea71caf360e24c2322f8a9aee8bd0f21ffafc887db6dac6f2ea16b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/myro/show_updates"
+}

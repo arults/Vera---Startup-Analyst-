@@ -1,0 +1,18 @@
+{
+  "bytes": 1852,
+  "campaign_url": "https://republic.com/equilibrium",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/equilibrium/show_updates",
+  "gzip_sha256": "aee4c4a48ee5d0f388250ade8b6e88c8200ec6553ab5aa9527689d6f53a31205",
+  "http_status": 200,
+  "parent_sha256": "d4137548c01dc7253612ca1e841ddaf90d693b6b44fc548db8cc68e1aa94e52e",
+  "raw_sha256": "d9b05556483ad24ef814b17f5e16edb444a658b61cc145a1fe3287772242b389",
+  "received_at": "2026-10-10T02:27:06.470505+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:05.934000+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d9b05556483ad24ef814b17f5e16edb444a658b61cc145a1fe3287772242b389.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/equilibrium/show_updates"
+}

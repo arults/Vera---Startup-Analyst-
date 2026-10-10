@@ -1,0 +1,18 @@
+{
+  "bytes": 62012,
+  "campaign_url": "https://republic.com/poppilu",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/poppilu/show_updates",
+  "gzip_sha256": "2d7f23a92459784858479ff05266d3779477050e88cda58aeb648ff4053a1ebb",
+  "http_status": 200,
+  "parent_sha256": "e8f4d57194425013390d54615e1e8d06263eb6a9c3142cef466a0a2e8bcc8cbc",
+  "raw_sha256": "f2e3670069aecd782dcc78aafa56aead4b4fedd1a606869a9e90b5d2eaed765a",
+  "received_at": "2026-10-10T02:35:23.238990+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:22.641280+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f2e3670069aecd782dcc78aafa56aead4b4fedd1a606869a9e90b5d2eaed765a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/poppilu/show_updates"
+}

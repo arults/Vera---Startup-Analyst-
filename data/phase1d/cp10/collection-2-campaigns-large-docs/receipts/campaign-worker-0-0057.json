@@ -1,0 +1,18 @@
+{
+  "bytes": 135735,
+  "campaign_url": "https://republic.com/ayoba",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ayoba/show_updates",
+  "gzip_sha256": "5d1ecd705cfc15a27172f3d894a1aa47c472673fb278a4c0ed19c563d5cea551",
+  "http_status": 200,
+  "parent_sha256": "10f3b0b2c5021cefcb94205859b95aabfe7c340262e3a77c06622d8f655651fd",
+  "raw_sha256": "cd85907299a68acfbe3ccb37ce9198abfda49f11b43c3026e364cf129f848885",
+  "received_at": "2026-10-10T02:24:09.519130+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:08.865871+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/cd85907299a68acfbe3ccb37ce9198abfda49f11b43c3026e364cf129f848885.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ayoba/show_updates"
+}

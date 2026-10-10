@@ -1,0 +1,18 @@
+{
+  "bytes": 302452,
+  "campaign_url": "https://republic.com/digishares",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/digishares/show_updates",
+  "gzip_sha256": "246d8e20d58acec3a3160a446263dff1e5d47ea48043a7d0478f74cb87b1489f",
+  "http_status": 200,
+  "parent_sha256": "272a974a5e715dc436c24309e310caf968bae38d37a6dd1839bc1071e740b814",
+  "raw_sha256": "1068a71a105c0a962234bc04ae3c26a0b1f79e15b41797ccf0e07fa3c20ddd2c",
+  "received_at": "2026-10-10T02:26:32.494664+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:31.729695+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1068a71a105c0a962234bc04ae3c26a0b1f79e15b41797ccf0e07fa3c20ddd2c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/digishares/show_updates"
+}

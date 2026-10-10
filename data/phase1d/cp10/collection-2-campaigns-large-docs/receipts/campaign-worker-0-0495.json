@@ -1,0 +1,18 @@
+{
+  "bytes": 57265,
+  "campaign_url": "https://republic.com/relay",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/relay/show_updates",
+  "gzip_sha256": "639d4b4839de8d5915d2fd3627731be6bb9557f15e3a3f70d200c75a1d520ed1",
+  "http_status": 200,
+  "parent_sha256": "c7dc2eeb21182abf09987a94a33f89c587bf1035f0de108cf36cd9c26ab13c0b",
+  "raw_sha256": "387fd72ad7edb807f49fe4e87865e1b8b525399ab9077c85922ef164af6623b5",
+  "received_at": "2026-10-10T02:36:07.824824+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:07.218248+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/387fd72ad7edb807f49fe4e87865e1b8b525399ab9077c85922ef164af6623b5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/relay/show_updates"
+}

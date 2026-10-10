@@ -1,0 +1,18 @@
+{
+  "bytes": 30772,
+  "campaign_url": "https://republic.com/arena",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/arena/show_updates",
+  "gzip_sha256": "27015edcb107b313e99572e63dc2dfdc791301c69ada1d9a7298ac3f39196784",
+  "http_status": 200,
+  "parent_sha256": "33ce6649399c9b67c052a6b53c33be38feb5e34802c6d59069e9901824979a75",
+  "raw_sha256": "d95ca870b9fa9e6ab178becd96067b825beab6ba03c6b2430dbcfe8221655f69",
+  "received_at": "2026-10-10T02:23:28.085970+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:27.516185+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d95ca870b9fa9e6ab178becd96067b825beab6ba03c6b2430dbcfe8221655f69.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/arena/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 88340,
+  "campaign_url": "https://republic.com/viritech",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/viritech/show_updates",
+  "gzip_sha256": "0f612a2d2c654043faa96eb23214161975c47ee9d29301af862597a99869c1a6",
+  "http_status": 200,
+  "parent_sha256": "b6ad590c4f842fff896e304356bc801e0aac23a3813386322d51c6d87459ecc0",
+  "raw_sha256": "d1129cc91464a0b84e6be0614c322bbaef28fceb1aa35b488b5fa7b5e6490ae4",
+  "received_at": "2026-10-10T02:38:44.113264+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:43.489230+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d1129cc91464a0b84e6be0614c322bbaef28fceb1aa35b488b5fa7b5e6490ae4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/viritech/show_updates"
+}

@@ -1,0 +1,33 @@
+{
+  "campaign_url": "https://republic.com/qoins",
+  "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+  "chunks": [
+    {
+      "gzip_sha256": "797d2f34ada324fd17601a31a98694dde95eec6bb11d30e864c58996a5fd5eb3",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/0bdec92ee2d27e96134e94fc5c5d95d07b4010269d7e263604e19be1288e8197.bin.gz",
+      "raw_bytes": 32000000,
+      "raw_sha256": "0bdec92ee2d27e96134e94fc5c5d95d07b4010269d7e263604e19be1288e8197"
+    },
+    {
+      "gzip_sha256": "3cad211b2a8b40e0b1faf456dd040a4b3b8f2788f40f137afbb58c706159a5f6",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/ebb2a117990cae84c12a610aa759536228f1afb571e174f351ddebdc206e1dce.bin.gz",
+      "raw_bytes": 25280997,
+      "raw_sha256": "ebb2a117990cae84c12a610aa759536228f1afb571e174f351ddebdc206e1dce"
+    }
+  ],
+  "content_type": "application/pdf",
+  "estimation_eligible": false,
+  "final_url": "https://republic.com/documents/845?view=preview",
+  "full_semantic_review_complete": false,
+  "http_status": 200,
+  "label": "Qoins Form C.pdf",
+  "parent_sha256": "8703082b50563378f1d0ebb71ea367492d8b4cee8319c880e646a06d742cc248",
+  "pdf_magic_verified": true,
+  "raw_bytes": 57280997,
+  "raw_sha256": "9c1a7534a37184b40a615d480df0884c48ace28fae878b750537cbd48288bc3c",
+  "received_at": "2026-10-10T02:23:00.382449+00:00",
+  "source_group": "large-documents",
+  "started_at": "2026-10-10T02:22:58.288420+00:00",
+  "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+  "url": "https://republic.com/documents/845?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 220066,
+  "campaign_url": "https://republic.com/delee",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/delee/show_updates",
+  "gzip_sha256": "d1ac21fa3a332ba0c61bd5ef48246a7dbf483e99225ead5a76ac8ca1c1b48f3f",
+  "http_status": 200,
+  "parent_sha256": "9425ccc5d56de38878ca583cc43ad14f631eb63b4a1f6e5dc37709e37fee5263",
+  "raw_sha256": "3c0d9e635913fcbc019989840c28e0f5890e3a1b1a10b958959826df59b5c3e0",
+  "received_at": "2026-10-10T02:26:20.313356+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:19.557006+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3c0d9e635913fcbc019989840c28e0f5890e3a1b1a10b958959826df59b5c3e0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/delee/show_updates"
+}

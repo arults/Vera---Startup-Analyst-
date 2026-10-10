@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Coign",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/coign",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/249ba9287f21f26a54c7b6eff0cb501ed2fa2342f411d127bd5347d02ad0081b.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1884054",
+    "final_url": "https://republic.com/coign",
+    "first_live_date": "",
+    "investors": "",
+    "legal_name_from_platform": "Zing America, Inc.",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "",
+    "security_type": "",
+    "source_content_sha256": "249ba9287f21f26a54c7b6eff0cb501ed2fa2342f411d127bd5347d02ad0081b",
+    "source_url": "https://republic.com/coign",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2024-11-16",
+    "successful_close_year_NOT_offering_year": "2024"
+  },
+  "final_url": "https://republic.com/coign",
+  "first_live_date": "2024-09-18",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2024-11-16",
+      "Successfully raised $2,236,567.52 🍾"
+    ],
+    [
+      "2024-09-18",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 9442,
+  "native_state": "preparing_to_finalize",
+  "offering_year": 2024,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/249ba9287f21f26a54c7b6eff0cb501ed2fa2342f411d127bd5347d02ad0081b.bin.gz",
+  "source_sha256": "249ba9287f21f26a54c7b6eff0cb501ed2fa2342f411d127bd5347d02ad0081b",
+  "successful_completion_date": "2024-11-16",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c8878c038f065d4b8e4e60d26428b4dc0273fcf693dd47814696a69d35ff9b99.bin.gz",
+  "timeline_source_sha256": "c8878c038f065d4b8e4e60d26428b4dc0273fcf693dd47814696a69d35ff9b99",
+  "url": "https://republic.com/coign",
+  "year_in_study": true
+}

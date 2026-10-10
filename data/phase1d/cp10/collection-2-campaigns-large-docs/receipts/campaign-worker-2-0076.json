@@ -1,0 +1,18 @@
+{
+  "bytes": 36640,
+  "campaign_url": "https://republic.com/bokksu",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bokksu/show_updates",
+  "gzip_sha256": "d91561f1e31443b35970d1cfc1252537969be23cd3ea4746e975d87b60fcfea4",
+  "http_status": 200,
+  "parent_sha256": "5f21590e795164855725b7d4d3cb26f49a5d414dce148aa0cfb48245ccefec9b",
+  "raw_sha256": "3c27d2f7f975657e94a3cfe88087bea08884ecd2accc6aac56d47a181add54de",
+  "received_at": "2026-10-10T02:24:41.438741+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:40.849081+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3c27d2f7f975657e94a3cfe88087bea08884ecd2accc6aac56d47a181add54de.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bokksu/show_updates"
+}
