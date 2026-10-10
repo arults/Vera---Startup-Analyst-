@@ -1,3 +1,18 @@
+LATEST ADDENDUM - 2026-10-10 12:07 UTC
+
+Phase 1D remains incomplete. The latest local canonical research ledger, v0.5.0, is applied and independently verified: 12 company/round rows, 12 stage records and 104 explicit holds. Nine previously observation-only proposals now have bounded canonical research admission. Their 82 source qualifications are preserved, their analytical clocks remain null, and outcomes remain UNKNOWN. There is no production, estimator, graph or follow-on promotion.
+
+The immutable ten-observation ledger is unchanged. Nine of its observations overlap the twelve canonical rows, so the combined total remains 13 unique financing observations, not 22. Nobody Studios remains observation-only, with no certified canonical economic unit, unresolved prior-financing relation, no merge and a null clock. The original two-row and three-row releases and the fourteen-campaign source matrix are also unchanged. Identical replay passed, and independent review confirmed the exact applied output and preserved restrictions.
+
+The newer local release artifacts remain unpublished. Full artifact publication is still blocked and specific artifact-publication approval is pending. This GitHub text is a status update only. Historical coverage, outcome ascertainment, remaining case-specific holds and the earlier unpassed overall source gate remain open; no base rates or priors are enabled.
+
+SHA-256 anchors:
+Canonical v0.5.0: fc8bf913e84db576b3d78b716b7e425a6eef2c5a3224bc15c84b633e0c1c20fb
+Independent post-application review: cbef5ebef3afbb709bb847b47bb9ad293ae8eea2cb1b464879d839f2098206c6
+
+HISTORICAL CHECKPOINT BELOW - preserved verbatim.
+Its 11:41 counts describe that earlier checkpoint and are superseded by this addendum.
+
 VERA PHASE 1D PROGRESS - 2026-10-10 11:41 UTC
 
 Status: Phase 1D remains incomplete. This is a progress checkpoint, not a production release or a claim that the historical cohort is complete.
