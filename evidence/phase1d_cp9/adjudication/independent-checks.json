@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "all_prior_data_unchanged": true,
+    "reviewed47": true,
+    "admitted31_reports_only": true,
+    "point25": true,
+    "period6": true,
+    "held16": true,
+    "no_period_point_imputation": true,
+    "no_real_world_certification": true,
+    "no_estimation_admissions": true,
+    "point_chronology": true,
+    "hawaiian_explicit_year_end": true,
+    "stockcard_content_date": true,
+    "unbanked_continuity": true,
+    "winddown_not_completed_closure": true,
+    "no_invented_investor_loss": true,
+    "new2022_not_old2019_round": true,
+    "intermediary_CIK_not_issuer": true,
+    "safe_not_priced_equity": true,
+    "125_distinct_campaign_candidates": true,
+    "122_fully_bound_date_pairs": true,
+    "29_captured_PDFs_not29_adjudicated": true,
+    "four_censuses_still_held": true,
+    "no_promotion_or_false_plateau": true,
+    "historical43_pass": true
+  },
+  "passed": 24,
+  "total": 24,
+  "prior_data_files_checked": 2947,
+  "scope": "Independent invariants and field-source checks. Not a complete census or independently audited investor outcomes."
+}
