@@ -1,0 +1,59 @@
+name: CP10 read-only visual source verifier
+on:
+  push:
+    branches: [phase1d-cp10-visual-verifier]
+    paths: [.github/workflows/cp10-visual-verifier.yml]
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pymupdf pypdf python-docx lxml
+      - name: Verify source hashes and render first two pages only where text cannot establish issuer name
+        run: |
+          python - <<'PY'
+          import json,csv,gzip,hashlib,re,io,zipfile
+          from pathlib import Path
+          import fitz
+          from docx import Document
+          from lxml import etree
+          out=Path('/tmp/cp10-visual-verifier');out.mkdir();b=Path('data/phase1d/cp10/collection-1');sha=lambda x:hashlib.sha256(x).hexdigest();norm=lambda s:re.sub('[^a-z0-9]','',s.lower())
+          names={r['source_url']:r['legal_name_from_platform'] for r in csv.DictReader(Path('data/phase1d/cp9/adjudication/republic_us_candidate_union.csv').open())}
+          records=json.loads((b/'document_candidates.json').read_text());index=[];text_verified=[];docx=[]
+          for r in records:
+              raw=gzip.decompress(Path(r['source_path']).read_bytes());assert sha(raw)==r['source_sha256']
+              name=names.get(r['campaign_url'],'')
+              if r.get('preview_path'):
+                  pages=json.loads(Path(r['preview_path']).read_text())
+                  matches=[p['page'] for p in pages if norm(name) and norm(name) in norm(p['pymupdf_text']) and norm(name) in norm(p['pypdf_text'])]
+                  if matches:
+                      text_verified.append({'campaign_url':r['campaign_url'],'source_sha256':r['source_sha256'],'native_legal_name':name,'matched_pages':matches,'verification':'Exact normalized name present in both independent text parsers; not full identity/economic-round admission'})
+                      continue
+                  doc=fitz.open(stream=raw,filetype='pdf');number=len(index)+1;images=[]
+                  for i in range(min(2,len(doc))):
+                      path=out/f'{number:02d}-page-{i+1}.png';doc[i].get_pixmap(matrix=fitz.Matrix(1.45,1.45),alpha=False).save(path);images.append({'page':i+1,'image':path.name,'image_sha256':sha(path.read_bytes())})
+                  index.append({'number':number,'campaign_url':r['campaign_url'],'native_legal_name':name,'label':r['label'],'source_url':r['url'],'source_sha256':r['source_sha256'],'source_path':r['source_path'],'images':images,'status':'VISUAL_REVIEW_REQUIRED_NOT_AUTOMATICALLY_ADMITTED'})
+              elif raw.startswith(b'PK'):
+                  d=Document(io.BytesIO(raw));a='\n'.join([p.text for p in d.paragraphs]+[c.text for t in d.tables for row in t.rows for c in row.cells])
+                  with zipfile.ZipFile(io.BytesIO(raw)) as z:tree=etree.fromstring(z.read('word/document.xml'))
+                  btext=' '.join(tree.xpath('//w:t/text()',namespaces={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}))
+                  docx.append({'campaign_url':r['campaign_url'],'source_sha256':r['source_sha256'],'native_legal_name':name,'label':r['label'],'name_matches_two_extractors':bool(norm(name) and norm(name) in norm(a) and norm(name) in norm(btext)),'python_docx_sha256':sha(a.encode()),'direct_xml_sha256':sha(btext.encode()),'first_8000_characters_for_review':a[:8000],'status':'STRUCTURAL_SOURCE_REVIEW_NOT_FINAL_TERMS_OR_PAYOUT_PROOF'})
+          assert len(text_verified)==80 and len(index)==20 and len(docx)==1
+          result={'frozen_data_commit':'cdde5e78270ae42933ff9bd541a63f58bd5ee2d6','text_name_field_matches':text_verified,'visual_review_queue':index,'docx_review':docx,'no_source_data_modified':True,'no_estimation_admission':True}
+          (out/'index.json').write_text(json.dumps(result,indent=2))
+          print({'text_matches':len(text_verified),'visual_documents':len(index),'docx':len(docx),'source_data_write_permissions':'none'})
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cp10-visual-verifier-${{ github.run_id }}
+          path: /tmp/cp10-visual-verifier/
+          retention-days: 30
+          if-no-files-found: error
