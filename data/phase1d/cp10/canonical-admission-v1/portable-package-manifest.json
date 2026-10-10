@@ -1,0 +1,171 @@
+{
+  "scope": "Portable v0.3.0 research-admission package; excludes prior local drafts, source maps and duplicate primary-source bodies.",
+  "files": [
+    {
+      "local_relative_path": "README.md",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/README.md",
+      "sha256": "7e9b3de8025526a7fa2cbcf40b17e536cfbdc9a0e7ba3f5762da0fb6b796dd36",
+      "bytes": 6441
+    },
+    {
+      "local_relative_path": "final-acceptance.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/final-acceptance.json",
+      "sha256": "852104c2ed278e50f8eede7dbca014d9d97a44cd50691ca444e8c11492278fae",
+      "bytes": 2093
+    },
+    {
+      "local_relative_path": "inputs/decisions.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/decisions.json",
+      "sha256": "feda2353de104c425439d6cfccd8e1e8aa2702157ce1f367d4216dd3647e4a91",
+      "bytes": 13639
+    },
+    {
+      "local_relative_path": "inputs/frozen-input-manifest.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/frozen-input-manifest.json",
+      "sha256": "8d1153317a3defdcf1157adbd032282f1ff7ef86bff3a3a20c7b31decb47825d",
+      "bytes": 5144
+    },
+    {
+      "local_relative_path": "inputs/independent_source_checks.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/independent_source_checks.json",
+      "sha256": "8cb6b2dff0383b078158634a73e496ebfe0184df017051f2f26ff86f6be560a4",
+      "bytes": 10510
+    },
+    {
+      "local_relative_path": "inputs/jev_final_request.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_final_request.json",
+      "sha256": "4e1364702ebb2788aa4cd3ad234c1d6447649e5cd5f46703c026b4fb744258c9",
+      "bytes": 6056
+    },
+    {
+      "local_relative_path": "inputs/jev_final_response.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_final_response.json",
+      "sha256": "d4bc9fde12929180153e7bb593ad6f386fd2720f6b3cf806935ed14b612ec173",
+      "bytes": 1296
+    },
+    {
+      "local_relative_path": "inputs/jev_upstream_plan_response.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_upstream_plan_response.json",
+      "sha256": "e323ea5433662e091b01c813e11005289af0fdc5bceabef34748cca0a97e07bb",
+      "bytes": 939
+    },
+    {
+      "local_relative_path": "inputs/matrix.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/matrix.json",
+      "sha256": "fe776120902f1dda0122ce538fdabc3c46547e932401f7cad6d62743c87a638b",
+      "bytes": 19311
+    },
+    {
+      "local_relative_path": "inputs/portable-normalization-report.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/portable-normalization-report.json",
+      "sha256": "667685880668c3a5ab23784d242d2a8e50fddaea98ef7205ce330606702ee32c",
+      "bytes": 9791
+    },
+    {
+      "local_relative_path": "inputs/portable_normalization_review.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/portable_normalization_review.json",
+      "sha256": "5623be8ee95813ea7757624f9d8dbff0f3e7a142cb52aadb67c9352708a71197",
+      "bytes": 1261
+    },
+    {
+      "local_relative_path": "inputs/review.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/review.json",
+      "sha256": "e18a7d073491f3d7031e64cab04ff38a90fecacb7408671fb993f035889d5d81",
+      "bytes": 2320
+    },
+    {
+      "local_relative_path": "inputs/source_fields.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+      "sha256": "4beb86494a718e083e2e6a2e463c29f6b5512e570489173f9228484c1f56be1c",
+      "bytes": 29425
+    },
+    {
+      "local_relative_path": "integer-parity-correction.diff",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/integer-parity-correction.diff",
+      "sha256": "05d42f8d1df1392ec3eb41b7c6a5c8f24e3eff361ff377a9e391f1c83515622b",
+      "bytes": 926
+    },
+    {
+      "local_relative_path": "receipts/independent-adapter-review.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/receipts/independent-adapter-review.json",
+      "sha256": "d0f5ec382a6af6829e7e71aea721138f106799c2a05e4b03130ea643b67700a7",
+      "bytes": 7470
+    },
+    {
+      "local_relative_path": "receipts/independent-successor-addendum.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/receipts/independent-successor-addendum.json",
+      "sha256": "a8ccb96ec789fefc106984b79af284eb08745f421ea01cd41bc4ed1c893e2d82",
+      "bytes": 1570
+    },
+    {
+      "local_relative_path": "receipts/jev-final-request.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/receipts/jev-final-request.json",
+      "sha256": "da54d9845b00f1b944c1d4cd91d49aa4c88a3458fc087a84a5c2697ac676063a",
+      "bytes": 5028
+    },
+    {
+      "local_relative_path": "receipts/jev-final-response.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/receipts/jev-final-response.json",
+      "sha256": "023323d2cb9ff885d967a915e812a0c8434dd0fd6767e2ed5fa28598b04ac62b",
+      "bytes": 1190
+    },
+    {
+      "local_relative_path": "receipts/jev-plan-request.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/receipts/jev-plan-request.json",
+      "sha256": "a48d3330450513ef976050d948974da456f082eabc847e9f7deed08bd5afc9d8",
+      "bytes": 3061
+    },
+    {
+      "local_relative_path": "receipts/jev-plan-response.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/receipts/jev-plan-response.json",
+      "sha256": "b6c58aaefbe390e95032e43160eb24549d24ac262d4107436a9dfc4b5996343e",
+      "bytes": 963
+    },
+    {
+      "local_relative_path": "releases/v0.3.0/canonical-research-ledger.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/releases/v0.3.0/canonical-research-ledger.json",
+      "sha256": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28",
+      "bytes": 36793
+    },
+    {
+      "local_relative_path": "repository-mode-replay.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/repository-mode-replay.json",
+      "sha256": "17b3d697247909bc7f5b2a99ade8d6bd65109e800a3eeda91870573e4418649a",
+      "bytes": 606
+    },
+    {
+      "local_relative_path": "schema-parity-report.json",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/schema-parity-report.json",
+      "sha256": "1eadc4ff76c606a3131e1d2012e1284e87759b729e4e01788e388dde07397e9a",
+      "bytes": 41211
+    },
+    {
+      "local_relative_path": "scripts/admission_adapter.py",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/scripts/admission_adapter.py",
+      "sha256": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+      "bytes": 18914
+    },
+    {
+      "local_relative_path": "tests/check_frozen_schema_parity.py",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/tests/check_frozen_schema_parity.py",
+      "sha256": "adefbb6d3e2904e5ab4062e11c937b5af3a806a095ac3cb940790a2d70b7b31c",
+      "bytes": 1941
+    },
+    {
+      "local_relative_path": "tests/test_admission_adapter.py",
+      "repository_path": "data/phase1d/cp10/canonical-admission-v1/tests/test_admission_adapter.py",
+      "sha256": "e0950aa4c49bcb2a07385f47d498b6caf38feb5c3b10889e22d8625445fc4cc8",
+      "bytes": 8419
+    },
+    {
+      "local_relative_path": "integration/tests/test_phase1d_canonical_admission.py",
+      "repository_path": "tests/test_phase1d_canonical_admission.py",
+      "sha256": "06ebcc7d4aa8950d4c2bec34bf36d60d0332519a5fdb1c882d9fe2b662f49e48",
+      "bytes": 527
+    }
+  ],
+  "manifest_repository_path": "data/phase1d/cp10/canonical-admission-v1/portable-package-manifest.json",
+  "final_version": "0.3.0",
+  "source_code_sha256": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+  "ledger_sha256": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28"
+}

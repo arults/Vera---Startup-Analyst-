@@ -1,0 +1,66 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scope": "Final independent-method/disposition review of two selected public Republic US crowdfunding rounds. Public source facts and nonsecret research criteria only; no private code. Not a historical census or numerical outcome-rate request.",
+    "frozen_rules": {
+      "identity": "Exact strong identifier or >=2 independent medium identifiers; medium/manual matches require independent second review. Names alone insufficient.",
+      "unit": "Economic company-round; same issuer/comparable instrument-terms/overlapping window. Cohosts one round with bridge; amendments not new rounds.",
+      "layer_B": "Successfully completed rounds producing investment/security positions. Native campaigns, platform-hosted documents/issuer updates are authoritative source hierarchy. Individual private executed investor contracts are not an explicit universal requirement.",
+      "dates": "First public launch determines 2020–2025 cohort; successful completion determines outcome timezero. SAFE caps never priced valuations."
+    },
+    "evidence": [
+      {
+        "campaign": "https://republic.com/phantom-phood",
+        "native_id": 2045,
+        "legal_issuer": "Phantom Phood Inc.",
+        "medium_identity": "Name + phantomphood.com domain +149NewMontgomeryStreet headquarters match native campaign and FormC p1; exact deal-page reciprocal linkage FormC p8.",
+        "offered_security": "Crowd SAFE Series2023, offered capUSD12m; original signed2023-02-14; template signatures blank.",
+        "launch": "2023-02-14",
+        "completion": "2023-04-16",
+        "aggregate_completion": "Exact native DOM finalized; explicit Successfully funded and closed;45investors; timeline Successfully raised $39,645.69. Hero displays39645/footer39646 preserved separately; no audited exact netcash claim. FormC minimumUSD25000; p8 describes funded closes releasing funds and securities.",
+        "round_scope": "Exact public RepublicRegCF instrument/window. Prior197kSAFEs at5m cap issuedJan–Aug2022 preserved separately. FormC says MAY concurrently raise up to1m outside this Offering in unspecified securities; actual occurrence/terms unknown, not proof of another overlapping round. No hypothetical row or automatic merge."
+      },
+      {
+        "campaign": "https://republic.com/stockcard",
+        "native_id": 1759,
+        "legal_issuer": "Stock Card, Inc.",
+        "medium_identity": "Name + stockcard.io domain +2372MorseAve headquarters match native campaign and FormC p1; exact deal-page reciprocal linkage FormC p8.",
+        "offered_security": "Crowd SAFE Series2022, original offered capUSD10m; signed2022-08-29; template signatures blank.",
+        "launch": "2022-09-06",
+        "completion": "2022-12-16",
+        "aggregate_completion": "Exact native DOM finalized; explicit Successfully funded and closed;93investors; dated timeline Successfully raised $41,580. FormC minimumUSD25000; p8 funded-close/securities mechanics.",
+        "round_scope": "Prior25kSAFEissued2021-11-02 and37kSAFEissued2022-03-28 predate launch; prior postmoney10m/automatic conversion distinct from offered discretionary CrowdSAFE. Do not merge on nominal cap."
+      }
+    ],
+    "verification": "Original preserved source hashes checked; independent lxml/stdlib milestone parsers; legal PDF fields dual-extracted and material pages visually reviewed. Local79checks plus8schema/threshold checks passed. Separate independent reviewer accepted both proposed bounded observed rows after24own source checks and10PDFpage visual review; exact matrixSHA2560bbadd0f5d85d039eb6a7b2288ef9a1681d118428ec843ec0fed6a793311eebc. KnownRepublic frame125legacy+568new campaigns searched for exact or suffix-normalized legal/linkedCIK aliases; only ownURL each. LinkedCIKs not treated as verifiedissuer strongIDs.",
+    "proposed": "Accept two bounded observed source-bound company/round admission recommendations with statusfunded_completed; not publication/production change. Preserve original-offered-cap provenance, unknownindividual execution, possiblePhantomconcurrent financing, and no-positive-cohost-found coverage qualifier. Emptycohost does not certify absence. Keep estimation_eligiblefalse and no numericrates/phasecomplete/globalplateau. Broad historical completeness and outcome work remain open."
+  },
+  "questions": {
+    "record_disposition": {
+      "type": "choice",
+      "instructions": "Choose justified record-level disposition under frozen rules and exact-bound evidence; do not turn global completeness into universal record exclusion.",
+      "criteria": {
+        "accept_two_bounded_observed_rounds": "Accept both local admission recommendations as observed source-bound funded/completed company-rounds after independent review, preserving stated unknowns and restrictions.",
+        "stockcard_only": "Accept StockCard only; Phantom has a specific unmet frozen criterion.",
+        "source_fields_only": "Reject round recommendations and retain all as sourcefields only.",
+        "require_private_executed_contracts": "Require individual signed contracts universally before any aggregate funded classification."
+      }
+    },
+    "can_promote_numeric_rates_or_phase_completion": {
+      "type": "noul",
+      "instructions": "Do these two selected rows justify a complete historical cohort, promoted numeric outcomes or Phase1D completion?",
+      "criteria": {
+        "true": "Complete denominator, outcome and approval gates demonstrably met.",
+        "false": "Two bounded accepted rows only; global census/outcomes gates remain open."
+      }
+    },
+    "provenance_safe_caps": {
+      "type": "noul",
+      "instructions": "Should both stated caps remain original offered instrument terms, with comparable priced valuation null and no asserted final individualized execution?",
+      "criteria": {
+        "true": "Preserve offered-term qualification and no pricedvaluation inference.",
+        "false": "Infer final executed or pricedvaluation from offered SAFE cap."
+      }
+    }
+  }
+}

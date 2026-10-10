@@ -1,0 +1,1821 @@
+{
+  "scope": "Finite diagnostic coverage of all pinned schema properties and every required-field omission; not proof of a generic JSON Schema implementation.",
+  "reference": "jsonschema Draft202012Validator with FormatChecker",
+  "cases": 302,
+  "agreements": 302,
+  "mismatches": [],
+  "results": [
+    {
+      "case": "round_id:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-9",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-10",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-12",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "round_id:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-9",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-10",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-12",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "canonical_company_id:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "platform:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-7",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "offering_year:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "first_live_date:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-0",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "completion_date:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "status:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "primary_field:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-9",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-10",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-12",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "instrument_type:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-9",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-10",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-12",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "legal_name:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-9",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-10",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-11",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-12",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_url:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "source_availability:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-0",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-4",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-6",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-7",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "comparable_valuation:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-0",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-4",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-6",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-7",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "valuation_cap:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-0",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-3",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-4",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-6",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-7",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-13",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-15",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "amount_raised:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-0",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-1",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-2",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-3",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-4",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-5",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-6",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-7",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-8",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-9",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-10",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-11",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-12",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-13",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-14",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-15",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-16",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "cohost_platforms:value-17",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:round_id",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:canonical_company_id",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:platform",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:offering_year",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:first_live_date",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:status",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:primary_field",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:instrument_type",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:legal_name",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:source_url",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "missing:source_availability",
+      "jsonschema_valid": false,
+      "adapter_valid": false,
+      "agree": true
+    },
+    {
+      "case": "accepted:0",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "accepted:1",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    },
+    {
+      "case": "additional_properties_permitted",
+      "jsonschema_valid": true,
+      "adapter_valid": true,
+      "agree": true
+    }
+  ]
+}

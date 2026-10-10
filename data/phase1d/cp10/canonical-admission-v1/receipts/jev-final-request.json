@@ -1,0 +1,46 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scope": "Final method/disposition review of a deterministic two-row local canonical research-ledger adapter. Only public facts, nonsecret method description and artifact hashes transmitted; no source code or private documents.",
+    "exact_artifacts": {
+      "successor_adapter_sha256": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+      "frozen_input_manifest_sha256": "8d1153317a3defdcf1157adbd032282f1ff7ef86bff3a3a20c7b31decb47825d",
+      "canonical_research_ledger_sha256": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28",
+      "original_semantically_reviewed_matrix_sha256": "0bbadd0f5d85d039eb6a7b2288ef9a1681d118428ec843ec0fed6a793311eebc",
+      "portable_matrix_sha256": "fe776120902f1dda0122ce538fdabc3c46547e932401f7cad6d62743c87a638b"
+    },
+    "lineage": "Original source/matrix review accepted exactly Phantom Phood and Stock Card. An independent normalization review confirmed 28 path-string-only replacements, no semantic/source/hash/scope changes. A separate combined final JEV earlier accepted predecessor adapter hash e7e25830bdb810d360cb18c091074967385386c4e66d1054ae9fc45063451528. That historical receipt is not rebound. The sole successor change recognizes integral floating-point numbers such as 2023.0 as JSON Schema integers, while rejecting booleans. The current evaluation explicitly concerns the successor hash above.",
+    "independent_successor_review": "ACCEPT_NARROW_POST_JEV_IMPLEMENTATION_SUCCESSOR. Independent reviewer verified the exact predecessor hash and one-line delta; reran 34 independent adapter checks, 45 worker tests, and 302 schema-reference diagnostics with zero disagreement. Canonical ledger and source inputs unchanged. Earlier and successor receipts are preserved separately.",
+    "behavior": "Strict exact-two-row allowlist; all native source bytes, approved matrix, independent review and decisions hash-bound. Missing/changed artifacts, stale approval, extra rows and altered fields fail closed. Stagewise ledger preserves verified company identity, observed round, launch/completion, aggregate funding and field classification despite later unresolved outcomes/census. Atomic nonoverwrite versioned outputs and byte-identical replay.",
+    "canonical_data": "Exactly two observed Republic funded/completed research rows. Canonical valuation_cap and comparable_valuation null; original offered caps separately named with PDF/source anchors and nonoperative scope. Phantom's hero 39645, footer 39646 and dated milestone39645.69 retained separately. Possible concurrent outside financing stays uncertain, not an invented row. No positive cohost/amendment relation fabricated; bounded known-frame review does not certify global absence.",
+    "verification": "Portable runtime and default test discovery passed in a fresh temporary repository layout using original raw source bytes through declared gzip paths, without external reads. No remote CI or repository integration claimed. Stdlib schema subset covers every keyword in the pinned schema and fails closed on unknown supported-property keywords; finite 302-case equivalence diagnostic, not a generic schema-engine proof.",
+    "boundary": "Local canonical research admission only. Production admissions=0, estimation-eligible rows=0, historical census incomplete, outcomes unknown, rates/prior promotion=false, phase_complete=false, global_plateau=false. No remote writes. Future candidates require new independent source decisions and a versioned extension."
+  },
+  "questions": {
+    "successor_disposition": {
+      "type": "choice",
+      "instructions": "Choose whether this exact successor method/output is acceptable for the stated bounded research scope after independent delta review.",
+      "criteria": {
+        "accept_exact_successor_research_ledger": "Accept this exact successor and unchanged two-row research ledger with all scope limits and explicit historical receipt lineage.",
+        "reject_successor": "Reject the current successor despite the presented independent tests/review.",
+        "promote_full_study": "Treat two research admissions as sufficient to promote priors or complete Phase1D."
+      }
+    },
+    "lineage_boundary": {
+      "type": "noul",
+      "instructions": "Should the predecessor JEV remain historically bound to its prior hash, with this receipt serving as the successor gate rather than silently rebinding it?",
+      "criteria": {
+        "true": "Preserve explicit predecessor/successor receipt boundaries.",
+        "false": "Treat prior JEV as having directly reviewed changed bytes."
+      }
+    },
+    "downstream_promotion": {
+      "type": "noul",
+      "instructions": "Do these two canonical research admissions justify numerical priors, a complete historical denominator or Phase1D completion?",
+      "criteria": {
+        "true": "All broader gates are met.",
+        "false": "Those gates remain open and no such promotion is justified."
+      }
+    }
+  }
+}

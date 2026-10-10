@@ -1,0 +1,246 @@
+{
+  "final_jev_path": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_final_response.json",
+  "final_jev_sha256": "d4bc9fde12929180153e7bb593ad6f386fd2720f6b3cf806935ed14b612ec173",
+  "global_plateau": false,
+  "independent_source_checks_passed": 24,
+  "interpretation": "Actual JEV probabilities/confidence are model judgments; no study-completion percentage is inferred.",
+  "jev_receipts": [
+    {
+      "answers": {
+        "method": {
+          "choice": "bounded_matrix",
+          "confidence": 1,
+          "probabilities": {
+            "blanket_promote": 0,
+            "bounded_matrix": 1,
+            "require_individual_contract": 0,
+            "stop": 0
+          },
+          "type": "choice"
+        },
+        "template_gate": {
+          "noul": 0.11,
+          "type": "noul"
+        }
+      },
+      "model": "jev-1.13.0",
+      "path": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_upstream_plan_response.json",
+      "sha256": "e323ea5433662e091b01c813e11005289af0fdc5bceabef34748cca0a97e07bb",
+      "stage": "plan",
+      "usage": {
+        "input_tokens": 845,
+        "output_tokens": 73
+      }
+    },
+    {
+      "answers": {
+        "can_promote_numeric_rates_or_phase_completion": {
+          "noul": 0.02,
+          "type": "noul"
+        },
+        "provenance_safe_caps": {
+          "noul": 0.96,
+          "type": "noul"
+        },
+        "record_disposition": {
+          "choice": "accept_two_bounded_observed_rounds",
+          "confidence": 1,
+          "probabilities": {
+            "accept_two_bounded_observed_rounds": 1,
+            "require_private_executed_contracts": 0,
+            "source_fields_only": 0,
+            "stockcard_only": 0
+          },
+          "type": "choice"
+        }
+      },
+      "model": "jev-1.13.0",
+      "path": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_final_response.json",
+      "sha256": "d4bc9fde12929180153e7bb593ad6f386fd2720f6b3cf806935ed14b612ec173",
+      "stage": "final",
+      "usage": {
+        "input_tokens": 1715,
+        "output_tokens": 125
+      }
+    }
+  ],
+  "local_checks_passed": 87,
+  "matrix_sha256": "0bbadd0f5d85d039eb6a7b2288ef9a1681d118428ec843ec0fed6a793311eebc",
+  "new_production_rounds_admitted": 0,
+  "numeric_rates_promoted": 0,
+  "phase_complete": false,
+  "recommendations": [
+    {
+      "aggregate_funding_evidence": "ACCEPTED_PLATFORM_OBSERVED_COMPLETED_FUNDING",
+      "campaign_url": "https://republic.com/phantom-phood",
+      "decision": "ACCEPTED_BOUNDED_OBSERVED_LAYER_B_ADMISSION_RECOMMENDATION_NOT_APPLIED",
+      "economic_round_scope": "OBSERVED_SOURCE_BOUND_REPUBLIC_REG_CF_ROUND",
+      "estimation_eligible": false,
+      "production_admitted": false,
+      "proposal": {
+        "amount_raised": 39645.69,
+        "amount_raised_scope": "Native dated successful-raise milestone, not an audited net-cash receipt.",
+        "canonical_company_id": "phantom-phood-inc__phantomphood-com",
+        "canonical_id_scope": "Analyst-proposed stable identifiers for the observed source-bound round; not source-native identifiers.",
+        "cohost_platforms": [],
+        "cohost_platforms_scope": "None positively identified in this bounded review; not proof of global absence.",
+        "comparable_valuation": null,
+        "completion_date": "2023-04-16",
+        "estimation_eligible": false,
+        "first_live_date": "2023-02-14",
+        "instrument_type": "Crowd SAFE Series 2023",
+        "legal_name": "Phantom Phood Inc.",
+        "offering_year": 2023,
+        "platform": "republic_us",
+        "primary_field": "marketplaces_platforms",
+        "round_id": "phantom-phood-inc__republic-crowd-safe-series-2023__2023-02-14",
+        "source_availability": "PUBLIC_VISIBLE",
+        "source_url": "https://republic.com/phantom-phood",
+        "status": "funded_completed",
+        "valuation_cap": 12000000,
+        "valuation_cap_scope": "Original offered instrument only; not final executed individual terms or priced-equity valuation."
+      },
+      "record_level_identity_review": "MANUAL_MULTI_ATTRIBUTE_MATCH_SECOND_REVIEW_PASSED",
+      "round_scope_note": "The possible concurrent outside offering on PDF p8 is conditional (may), with unspecified securities. Occurrence, timing and terms are unknown. Do not manufacture a second round or merge hypothetical securities; retain a bounded observed Republic Reg CF series row and explicit graph/round-scope sensitivity. Prior $197,000 SAFEs at a $5m cap were issued January–August 2022 (p28/p30), distinct from this offered $12m Series 2023 instrument.",
+      "satisfied_criteria": [
+        "native_campaign",
+        "company_identity",
+        "instrument_series",
+        "economic_round",
+        "launch_cohort",
+        "funded_completion",
+        "amendments_aliases",
+        "primary_field"
+      ],
+      "source_evidence": {
+        "form_c": {
+          "git_blob_sha1": "d51fb1d8d6b808f5a862e4609cdea3baa7bdfd0c",
+          "immutable_repository_url": "https://github.com/arults/Vera---Startup-Analyst-/blob/7291d33ff32cdd6b07ae9cfe1f342849a447f536/data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+          "local_path": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+          "original_field_ledger": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+          "raw_sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087",
+          "url": "https://republic.com/documents/2055?view=preview"
+        },
+        "frozen_rules": {
+          "schema": "schema/phase1c_round.schema.json",
+          "spec": "docs/PHASE_1C_SPEC.md",
+          "spec_sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e"
+        },
+        "native_parent": {
+          "git_blob_sha1": "dba374ef60baf7a6be1b3bd42d40c85e84f6a6c6",
+          "gzip_sha256": "82d211f0724e5f0630be68b7eda67e9d8f37d57029499bbd39d1856e4577087a",
+          "immutable_repository_url": "https://github.com/arults/Vera---Startup-Analyst-/blob/994175e232687dcb0d1ddcd11a6917e72b02ff74/data/phase1d/cp7/cycle-1/captures/d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475.html.gz",
+          "local_path": "data/phase1d/cp7/cycle-1/captures/d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475.html.gz",
+          "raw_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+          "url": "https://republic.com/phantom-phood"
+        },
+        "native_timeline": {
+          "immutable_repository_url": "https://github.com/arults/Vera---Startup-Analyst-/blob/994175e232687dcb0d1ddcd11a6917e72b02ff74/data/phase1d/cp9/cycle-1-issuer-history-updates/captures/358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f.bin.gz",
+          "local_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f.bin.gz",
+          "raw_sha256": "358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f",
+          "url": "https://republic.com/phantom-phood/show_updates"
+        }
+      },
+      "unknowns": [
+        "Individual executed investor contracts and final individualized terms.",
+        "Issuer CIK independently validated as issuer rather than linked identifier.",
+        "Complete historical five-platform denominator and cross-platform graph coverage.",
+        "Unobserved amendments, cohosts and later instrument modifications not asserted absent.",
+        "No operating-state, terminal outcome, payout or comparable priced-equity valuation adjudicated.",
+        "Whether the conditional outside concurrent financing occurred, its terms, and whether it would be comparable to this observed round."
+      ]
+    },
+    {
+      "aggregate_funding_evidence": "ACCEPTED_PLATFORM_OBSERVED_COMPLETED_FUNDING",
+      "campaign_url": "https://republic.com/stockcard",
+      "decision": "ACCEPTED_BOUNDED_OBSERVED_LAYER_B_ADMISSION_RECOMMENDATION_NOT_APPLIED",
+      "economic_round_scope": "OBSERVED_SOURCE_BOUND_REPUBLIC_REG_CF_ROUND",
+      "estimation_eligible": false,
+      "production_admitted": false,
+      "proposal": {
+        "amount_raised": 41580.0,
+        "amount_raised_scope": "Native dated successful-raise milestone, not an audited net-cash receipt.",
+        "canonical_company_id": "stock-card-inc__stockcard-io",
+        "canonical_id_scope": "Analyst-proposed stable identifiers for the observed source-bound round; not source-native identifiers.",
+        "cohost_platforms": [],
+        "cohost_platforms_scope": "None positively identified in this bounded review; not proof of global absence.",
+        "comparable_valuation": null,
+        "completion_date": "2022-12-16",
+        "estimation_eligible": false,
+        "first_live_date": "2022-09-06",
+        "instrument_type": "Crowd SAFE Series 2022",
+        "legal_name": "Stock Card, Inc.",
+        "offering_year": 2022,
+        "platform": "republic_us",
+        "primary_field": "fintech_insurtech",
+        "round_id": "stock-card-inc__republic-crowd-safe-series-2022__2022-09-06",
+        "source_availability": "PUBLIC_VISIBLE",
+        "source_url": "https://republic.com/stockcard",
+        "status": "funded_completed",
+        "valuation_cap": 10000000,
+        "valuation_cap_scope": "Original offered instrument only; not final executed individual terms or priced-equity valuation."
+      },
+      "record_level_identity_review": "MANUAL_MULTI_ATTRIBUTE_MATCH_SECOND_REVIEW_PASSED",
+      "round_scope_note": "Prior $25,000/$37,000 SAFEs were issued 2021-11-02 and 2022-03-28 (p37), before 2022-09-06 launch. Their p33 post-money $10m cap and automatic conversion must not be equated with the offered Series 2022 Crowd SAFE discretionary conversion on p59 merely because the nominal cap matches. No concrete competing contemporary native campaign found in the inspected Republic frame.",
+      "satisfied_criteria": [
+        "native_campaign",
+        "company_identity",
+        "instrument_series",
+        "economic_round",
+        "launch_cohort",
+        "funded_completion",
+        "amendments_aliases",
+        "primary_field"
+      ],
+      "source_evidence": {
+        "form_c": {
+          "git_blob_sha1": "96d98729cf24c9f8f32b7162bccce68e42502d5a",
+          "immutable_repository_url": "https://github.com/arults/Vera---Startup-Analyst-/blob/7291d33ff32cdd6b07ae9cfe1f342849a447f536/data/phase1d/cp10/collection-1/captures/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.bin.gz",
+          "local_path": "data/phase1d/cp10/collection-1/captures/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.bin.gz",
+          "original_field_ledger": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+          "raw_sha256": "ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3",
+          "url": "https://republic.com/documents/1625?view=preview"
+        },
+        "frozen_rules": {
+          "schema": "schema/phase1c_round.schema.json",
+          "spec": "docs/PHASE_1C_SPEC.md",
+          "spec_sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e"
+        },
+        "native_parent": {
+          "git_blob_sha1": "31d556c496e4e8a79b70f2b0ac9c9099dd01b59f",
+          "gzip_sha256": "71e44bf08f85576f4f7992d1ed99039c527ecc5c64a8ca66d76f84b32434d96a",
+          "immutable_repository_url": "https://github.com/arults/Vera---Startup-Analyst-/blob/994175e232687dcb0d1ddcd11a6917e72b02ff74/data/phase1d/cp7/cycle-1/captures/6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042.html.gz",
+          "local_path": "data/phase1d/cp7/cycle-1/captures/6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042.html.gz",
+          "raw_sha256": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042",
+          "url": "https://republic.com/stockcard"
+        },
+        "native_timeline": {
+          "immutable_repository_url": "https://github.com/arults/Vera---Startup-Analyst-/blob/994175e232687dcb0d1ddcd11a6917e72b02ff74/data/phase1d/cp9/cycle-1-issuer-history-updates/captures/233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13.bin.gz",
+          "local_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13.bin.gz",
+          "raw_sha256": "233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13",
+          "url": "https://republic.com/stockcard/show_updates"
+        }
+      },
+      "unknowns": [
+        "Individual executed investor contracts and final individualized terms.",
+        "Issuer CIK independently validated as issuer rather than linked identifier.",
+        "Complete historical five-platform denominator and cross-platform graph coverage.",
+        "Unobserved amendments, cohosts and later instrument modifications not asserted absent.",
+        "No operating-state, terminal outcome, payout or comparable priced-equity valuation adjudicated."
+      ]
+    }
+  ],
+  "review_path": "data/phase1d/cp10/canonical-admission-v1/inputs/review.json",
+  "review_sha256": "e18a7d073491f3d7031e64cab04ff38a90fecacb7408671fb993f035889d5d81",
+  "status": "TWO_INDEPENDENTLY_REVIEWED_JEV_ACCEPTED_BOUNDED_RECOMMENDATIONS",
+  "usage": {
+    "actual_jev_calls": 2,
+    "builder_live_platform_requests": 0,
+    "builder_repository_reads": 4,
+    "input_tokens": 2560,
+    "native_reasoning_tokens": null,
+    "output_tokens": 198,
+    "remote_writes": 0,
+    "verifier_extra_repository_reads": 1
+  }
+}

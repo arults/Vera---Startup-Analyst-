@@ -1,0 +1,341 @@
+{
+  "origin": "original_public_source_captures",
+  "purpose": "Independent integrity, source-bound campaign identity and aggregate funding checks; source observations do not alone constitute full estimator admission.",
+  "checks": [
+    {
+      "id": "phantom-phood:parent_raw_hash",
+      "passed": true,
+      "detail": {
+        "observed": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+        "expected": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475"
+      }
+    },
+    {
+      "id": "phantom-phood:timeline_raw_hash",
+      "passed": true,
+      "detail": {
+        "observed": "358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f",
+        "expected": "358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f"
+      }
+    },
+    {
+      "id": "phantom-phood:pdf_raw_hash",
+      "passed": true,
+      "detail": {
+        "sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087"
+      }
+    },
+    {
+      "id": "phantom-phood:native_parent_binding",
+      "passed": true,
+      "detail": {
+        "segment": {
+          "closing_soon": false,
+          "company_name": "Phantom Phood",
+          "days_remaining": null,
+          "id": 2045,
+          "image_url": "https://uploads.republic.com/p/offerings/card_images/default/000/002/045/2045-1676416368-5bea60688909e90be9c671a4157ad2939e939e78.jpg",
+          "min_investment_amount": 100,
+          "slug": "phantom-phood",
+          "tags": "marketplace,immigrant-founders,crowd-safe,v-companies,local-services,software-saas,apps",
+          "trending": false,
+          "url": "https://republic.com/phantom-phood",
+          "vertical": "companies",
+          "spotlight": false,
+          "type": "offering"
+        },
+        "native_state": "finalized"
+      }
+    },
+    {
+      "id": "phantom-phood:exact_linked_timeline",
+      "passed": true,
+      "detail": {
+        "expected": "https://republic.com/phantom-phood/show_updates",
+        "matching_links": [
+          "/phantom-phood/show_updates"
+        ]
+      }
+    },
+    {
+      "id": "phantom-phood:exact_linked_pdf",
+      "passed": true,
+      "detail": {
+        "document_url": "https://republic.com/documents/2055?view=preview"
+      }
+    },
+    {
+      "id": "phantom-phood:definitive_close_attestation",
+      "passed": true,
+      "detail": {
+        "close_date": "2023-04-16",
+        "description": "Campaign-level platform attestation, not inference from a deadline, template signature or merely finalized state."
+      }
+    },
+    {
+      "id": "phantom-phood:issuer_regime_source_binding",
+      "passed": true,
+      "detail": {
+        "legal_name": "Phantom Phood Inc",
+        "domain": "phantomphood.com",
+        "regime": "Reg CF"
+      }
+    },
+    {
+      "id": "phantom-phood:independent_milestone_parser_agreement",
+      "passed": true,
+      "detail": {
+        "lxml": [
+          "Apr 16 2023 Successfully raised $39,645.69 \ud83c\udf7e",
+          "Feb 14 2023 Launched \ud83d\ude80"
+        ],
+        "stdlib_htmlparser": [
+          "Apr 16 2023 Successfully raised $39,645.69 \ud83c\udf7e",
+          "Feb 14 2023 Launched \ud83d\ude80"
+        ]
+      }
+    },
+    {
+      "id": "phantom-phood:one_launch_one_success",
+      "passed": true,
+      "detail": {
+        "milestones": [
+          "Apr 16 2023 Successfully raised $39,645.69 \ud83c\udf7e",
+          "Feb 14 2023 Launched \ud83d\ude80"
+        ]
+      }
+    },
+    {
+      "id": "phantom-phood:exact_success_amount",
+      "passed": true,
+      "detail": {
+        "public_timeline_amount_usd": "39,645.69"
+      }
+    },
+    {
+      "id": "phantom-phood:date_roles",
+      "passed": true,
+      "detail": {
+        "launch": "2023-02-14",
+        "successful_completion": "2023-04-16",
+        "offering_year": 2023
+      }
+    },
+    {
+      "id": "stockcard:parent_raw_hash",
+      "passed": true,
+      "detail": {
+        "observed": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042",
+        "expected": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042"
+      }
+    },
+    {
+      "id": "stockcard:timeline_raw_hash",
+      "passed": true,
+      "detail": {
+        "observed": "233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13",
+        "expected": "233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13"
+      }
+    },
+    {
+      "id": "stockcard:pdf_raw_hash",
+      "passed": true,
+      "detail": {
+        "sha256": "ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3"
+      }
+    },
+    {
+      "id": "stockcard:native_parent_binding",
+      "passed": true,
+      "detail": {
+        "segment": {
+          "closing_soon": false,
+          "company_name": "Stock Card",
+          "days_remaining": null,
+          "id": 1759,
+          "image_url": "https://uploads.republic.com/p/offerings/card_images/default/000/001/759/1759-1661465575-1415cd87afcbe839e0b3b694f3890f3708ee8395.png",
+          "min_investment_amount": 150,
+          "slug": "stockcard",
+          "tags": "women-founders,b2c,b2b,fintech,software-saas,v-companies,venture-backed",
+          "trending": false,
+          "url": "https://republic.com/stockcard",
+          "vertical": "companies",
+          "spotlight": false,
+          "type": "offering"
+        },
+        "native_state": "finalized"
+      }
+    },
+    {
+      "id": "stockcard:exact_linked_timeline",
+      "passed": true,
+      "detail": {
+        "expected": "https://republic.com/stockcard/show_updates",
+        "matching_links": [
+          "/stockcard/show_updates"
+        ]
+      }
+    },
+    {
+      "id": "stockcard:exact_linked_pdf",
+      "passed": true,
+      "detail": {
+        "document_url": "https://republic.com/documents/1625?view=preview"
+      }
+    },
+    {
+      "id": "stockcard:definitive_close_attestation",
+      "passed": true,
+      "detail": {
+        "close_date": "2022-12-16",
+        "description": "Campaign-level platform attestation, not inference from a deadline, template signature or merely finalized state."
+      }
+    },
+    {
+      "id": "stockcard:issuer_regime_source_binding",
+      "passed": true,
+      "detail": {
+        "legal_name": "Stock Card, Inc.",
+        "domain": "stockcard.io",
+        "regime": "Reg CF"
+      }
+    },
+    {
+      "id": "stockcard:independent_milestone_parser_agreement",
+      "passed": true,
+      "detail": {
+        "lxml": [
+          "Dec 16 2022 Successfully raised $41,580 \ud83c\udf7e",
+          "Sep 6 2022 Launched \ud83d\ude80"
+        ],
+        "stdlib_htmlparser": [
+          "Dec 16 2022 Successfully raised $41,580 \ud83c\udf7e",
+          "Sep 6 2022 Launched \ud83d\ude80"
+        ]
+      }
+    },
+    {
+      "id": "stockcard:one_launch_one_success",
+      "passed": true,
+      "detail": {
+        "milestones": [
+          "Dec 16 2022 Successfully raised $41,580 \ud83c\udf7e",
+          "Sep 6 2022 Launched \ud83d\ude80"
+        ]
+      }
+    },
+    {
+      "id": "stockcard:exact_success_amount",
+      "passed": true,
+      "detail": {
+        "public_timeline_amount_usd": "41,580"
+      }
+    },
+    {
+      "id": "stockcard:date_roles",
+      "passed": true,
+      "detail": {
+        "launch": "2022-09-06",
+        "successful_completion": "2022-12-16",
+        "offering_year": 2022
+      }
+    }
+  ],
+  "count": 24,
+  "passed": 24,
+  "observations": [
+    {
+      "campaign": "phantom-phood",
+      "native_id": 2045,
+      "legal_identity_medium_bundle": [
+        "legal_name",
+        "domain",
+        "headquarters"
+      ],
+      "identity_scope": "parent campaign \u2194 reciprocally linked Form C; no validated issuer CIK claim",
+      "first_live_date": "2023-02-14",
+      "successful_completion_date": "2023-04-16",
+      "platform_attested_successful_funding": true,
+      "amount_display_scope": {
+        "timeline_usd": "39,645.69",
+        "parent_hero_usd": "39,645",
+        "parent_footer_usd": "39,646"
+      },
+      "individual_contract_execution_verified": false,
+      "priors_promoted": false
+    },
+    {
+      "campaign": "stockcard",
+      "native_id": 1759,
+      "legal_identity_medium_bundle": [
+        "legal_name",
+        "domain",
+        "headquarters"
+      ],
+      "identity_scope": "parent campaign \u2194 reciprocally linked Form C; no validated issuer CIK claim",
+      "first_live_date": "2022-09-06",
+      "successful_completion_date": "2022-12-16",
+      "platform_attested_successful_funding": true,
+      "amount_display_scope": {
+        "timeline_usd": "41,580",
+        "parent_hero_usd": "41,580",
+        "parent_footer_usd": "41,580"
+      },
+      "individual_contract_execution_verified": false,
+      "priors_promoted": false
+    }
+  ],
+  "inputs": [
+    {
+      "path": "admission-matrix/evidence/phantom-phood-parent.html",
+      "bytes": 151703,
+      "sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475"
+    },
+    {
+      "path": "admission-matrix/evidence/phantom-phood-timeline.json",
+      "bytes": 83242,
+      "sha256": "358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f"
+    },
+    {
+      "path": "republic/evidence/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.pdf",
+      "bytes": 588517,
+      "sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087"
+    },
+    {
+      "path": "admission-matrix/evidence/stockcard-parent.html",
+      "bytes": 203562,
+      "sha256": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042"
+    },
+    {
+      "path": "admission-verification/stockcard-timeline.json",
+      "bytes": 304708,
+      "sha256": "233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13"
+    },
+    {
+      "path": "republic/evidence/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.pdf",
+      "bytes": 1085387,
+      "sha256": "ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3"
+    }
+  ],
+  "visual_original_pages_inspected": {
+    "phantom-phood": [
+      1,
+      8,
+      28,
+      30,
+      46
+    ],
+    "stockcard": [
+      1,
+      8,
+      33,
+      37,
+      59
+    ]
+  },
+  "scope_limits": [
+    "No new live platform capture. One exact GitHub original timeline recovery.",
+    "No personal investor execution, return, precise final operative cap, outcome adjudication, denominator completion or cross-platform graph completion.",
+    "Final bounded row admission separately binds the frozen matrix and JEV adjudication."
+  ]
+}

@@ -1,0 +1,11 @@
+--- adapter-before-integer-parity.py
++++ adapter-after-integer-parity.py
+@@ -33,7 +33,7 @@
+     errors=[]
+     for name in schema['required']:
+         if name not in record:errors.append(name+':missing')
+-    type_check={'null':lambda v:v is None,'string':lambda v:isinstance(v,str),'integer':lambda v:isinstance(v,int) and not isinstance(v,bool),'number':lambda v:isinstance(v,(int,float)) and not isinstance(v,bool),'array':lambda v:isinstance(v,list)}
++    type_check={'null':lambda v:v is None,'string':lambda v:isinstance(v,str),'integer':lambda v:(isinstance(v,int) and not isinstance(v,bool)) or (isinstance(v,float) and v.is_integer()),'number':lambda v:isinstance(v,(int,float)) and not isinstance(v,bool),'array':lambda v:isinstance(v,list)}
+     for name,rules in schema['properties'].items():
+         require(set(rules)<=allowed,'unsupported_frozen_schema_keyword:'+name)
+         if name not in record:continue

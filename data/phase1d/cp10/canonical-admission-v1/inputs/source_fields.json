@@ -1,0 +1,812 @@
+[
+  {
+    "campaign_url": "https://republic.com/buy-alerts",
+    "document_url": "https://republic.com/documents/2160?view=preview",
+    "document_label": "BuyAlerts Form C.pdf",
+    "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+    "repository_source_path": "data/phase1d/cp10/collection-1/captures/8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a.bin.gz",
+    "raw_sha256": "8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a",
+    "gzip_sha256": "7d08a320ec0dba89af0ab403919e7d077622668e9619f2e1ccb928c9c624598a",
+    "git_blob_sha": "e0bd3352fd16db3fb01cae2cc5a189a9fd57662f",
+    "raw_bytes": 1025965,
+    "physical_pages": 63,
+    "captured_at": "2026-10-10T02:07:27.182745+00:00",
+    "parent_campaign_sha256": "be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a",
+    "parent_link_binding": "Inherited unchanged from immutable CP10 manifest; parent HTML not separately reread in this bounded tranche.",
+    "native_offering_id_inherited": "2065",
+    "native_launch_date_inherited": "2023-03-13",
+    "launch_date_status": "Prior native campaign field, not independently revalidated by this PDF-only review.",
+    "form_type": "Original Form C offering statement; checked visually on page 1",
+    "fields": [
+      {
+        "field": "issuer_name",
+        "value": "Live Stream Technology Services Inc.",
+        "physical_pdf_page": 1,
+        "anchor": "Live Stream Technology Services Inc.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "jurisdiction",
+        "value": "Delaware, United States",
+        "physical_pdf_page": 1,
+        "anchor": "Delaware",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "organization_date",
+        "value": "2022-04-06",
+        "physical_pdf_page": 1,
+        "anchor": "April 6, 2022",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "intermediary",
+        "value": "OpenDeal Portal LLC dba Republic",
+        "physical_pdf_page": 1,
+        "anchor": "OpenDeal Portal LLC dba Republic",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_type",
+        "value": "Crowd SAFE",
+        "physical_pdf_page": 2,
+        "anchor": "Crowd SAFE (Simple Agreement for Future Equity)",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "form_c_signature_date",
+        "value": "2023-03-13",
+        "physical_pdf_page": 32,
+        "anchor": "March 13, 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_deadline",
+        "value": "2023-05-12",
+        "physical_pdf_page": 2,
+        "anchor": "May 12, 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_amount_usd",
+        "value": 25000,
+        "physical_pdf_page": 2,
+        "anchor": "$25,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "maximum_offering_amount_usd",
+        "value": 1235000,
+        "physical_pdf_page": 2,
+        "anchor": "$1,235,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_series",
+        "value": "Series 2023",
+        "physical_pdf_page": 47,
+        "anchor": "Series 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "valuation_cap_usd",
+        "value": 28000000,
+        "physical_pdf_page": 47,
+        "anchor": "The \u201cValuation Cap\u201d is $28,000,000.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "equity_financing_cash_threshold_usd",
+        "value": 1000000,
+        "physical_pdf_page": 49,
+        "anchor": "not less than $1,000,000 cash or cash equivalent",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "conversion_is_company_discretionary",
+        "value": true,
+        "physical_pdf_page": 47,
+        "anchor": "discretionary decision to either",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_investor_placeholder",
+        "value": true,
+        "physical_pdf_page": 47,
+        "anchor": "[Investor Name]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_date_placeholder",
+        "value": true,
+        "physical_pdf_page": 47,
+        "anchor": "[Date of Crowd SAFE]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "nominee_proxy_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 59,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "crowd_safe_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 57,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "discount_percent",
+        "value": null,
+        "classification": "unknown_not_inferred_as_zero",
+        "reason": "No separate discount term assigned from the cover page."
+      }
+    ],
+    "review_status": "CANDIDATE_EXACT_DATE_AND_SECURITY_FIELD_REVIEW",
+    "reviewed_pages": [
+      1,
+      2,
+      32,
+      47,
+      49,
+      59,
+      57
+    ],
+    "verification": {
+      "native_bytes_hashes_match": true,
+      "git_blob_hash_matches": true,
+      "two_parser_page_counts_match": true,
+      "material_pages_rendered_and_visually_inspected": true,
+      "source_text_not_byte_identical_across_parsers": true
+    },
+    "full_document_semantic_review_complete": false,
+    "review_scope_complete": true,
+    "unknowns": {
+      "actual_security_execution_date": null,
+      "actual_offering_close_date": null,
+      "actual_funds_received": null,
+      "actual_investor_security_issued": null,
+      "priced_equity_valuation": null,
+      "canonical_economic_round_id": null
+    },
+    "holds": [
+      "Security exhibit retains investor, amount and date placeholders and blank signature/date fields; not an executed individual SAFE.",
+      "Form C signing date and target deadline do not establish launch or completed financing.",
+      "SAFE valuation cap is not a priced equity valuation or verified follow-on financing.",
+      "One original filing reviewed per campaign. Amendments and other tranches must be reconciled before latest-term or canonical-round admission.",
+      "No production cohort or numeric-rate admission. US-only evidence; no Europe pooling."
+    ],
+    "estimation_eligible": false,
+    "canonical_identity_admitted": false,
+    "new_economic_rounds_admitted": 0
+  },
+  {
+    "campaign_url": "https://republic.com/get-on-board",
+    "document_url": "https://republic.com/documents/8607?view=preview",
+    "document_label": "Get On Board - Form C.pdf",
+    "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+    "repository_source_path": "data/phase1d/cp10/collection-1/captures/a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7.bin.gz",
+    "raw_sha256": "a6cd83f2bf5812874cff0ecd9ddf3e819bb6eddb3288012b893283b33c4881f7",
+    "gzip_sha256": "d25dcfcb5b6ae4d541ec5000ee80176bdf9773d345ede563c1aca08cf9539399",
+    "git_blob_sha": "10fe7151aacda9a1078c36b6c337faf78321a856",
+    "raw_bytes": 1018449,
+    "physical_pages": 84,
+    "captured_at": "2026-10-10T02:08:03.687286+00:00",
+    "parent_campaign_sha256": "5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569",
+    "parent_link_binding": "Inherited unchanged from immutable CP10 manifest; parent HTML not separately reread in this bounded tranche.",
+    "native_offering_id_inherited": "5232",
+    "native_launch_date_inherited": "2024-04-02",
+    "launch_date_status": "Prior native campaign field, not independently revalidated by this PDF-only review.",
+    "form_type": "Original Form C offering statement; checked visually on page 1",
+    "fields": [
+      {
+        "field": "issuer_name",
+        "value": "Get on Board Holding Corp.",
+        "physical_pdf_page": 1,
+        "anchor": "Get on Board Holding Corp.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "jurisdiction",
+        "value": "Delaware, United States",
+        "physical_pdf_page": 1,
+        "anchor": "Delaware",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "organization_date",
+        "value": "2019-10-30",
+        "physical_pdf_page": 1,
+        "anchor": "October 30, 2019",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "intermediary",
+        "value": "OpenDeal Portal LLC dba Republic",
+        "physical_pdf_page": 1,
+        "anchor": "OpenDeal Portal LLC dba Republic",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_type",
+        "value": "Crowd SAFE",
+        "physical_pdf_page": 2,
+        "anchor": "Crowd SAFE (Simple Agreement for Future Equity)",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "form_c_signature_date",
+        "value": "2024-04-02",
+        "physical_pdf_page": 49,
+        "anchor": "April 2, 2024",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_deadline",
+        "value": "2024-07-01",
+        "physical_pdf_page": 2,
+        "anchor": "July 1, 2024",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_amount_usd",
+        "value": 50000,
+        "physical_pdf_page": 2,
+        "anchor": "$50,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "maximum_offering_amount_usd",
+        "value": 500000,
+        "physical_pdf_page": 2,
+        "anchor": "$500,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_series",
+        "value": "Series 2024",
+        "physical_pdf_page": 68,
+        "anchor": "Series 2024",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "valuation_cap_usd",
+        "value": 6000000,
+        "physical_pdf_page": 68,
+        "anchor": "The \u201cValuation Cap\u201d is $6,000,000.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "equity_financing_cash_threshold_usd",
+        "value": 3000000,
+        "physical_pdf_page": 70,
+        "anchor": "not less than $3,000,000 cash or cash equivalent",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "conversion_is_company_discretionary",
+        "value": true,
+        "physical_pdf_page": 68,
+        "anchor": "discretionary decision to either",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_investor_placeholder",
+        "value": true,
+        "physical_pdf_page": 68,
+        "anchor": "[Investor Name]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_date_placeholder",
+        "value": true,
+        "physical_pdf_page": 68,
+        "anchor": "[Date of Crowd SAFE]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "nominee_proxy_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 81,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "crowd_safe_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 78,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "discount_percent",
+        "value": 20,
+        "physical_pdf_page": 68,
+        "anchor": "The \u201cDiscount\u201d is 20%.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "discount_price_fraction",
+        "value": 0.8,
+        "physical_pdf_page": 70,
+        "anchor": "100% less the Discount",
+        "classification": "derived_arithmetic",
+        "dual_parser_anchor_match": true
+      }
+    ],
+    "review_status": "CANDIDATE_EXACT_DATE_AND_SECURITY_FIELD_REVIEW",
+    "reviewed_pages": [
+      1,
+      2,
+      49,
+      68,
+      70,
+      81,
+      78
+    ],
+    "verification": {
+      "native_bytes_hashes_match": true,
+      "git_blob_hash_matches": true,
+      "two_parser_page_counts_match": true,
+      "material_pages_rendered_and_visually_inspected": true,
+      "source_text_not_byte_identical_across_parsers": true
+    },
+    "full_document_semantic_review_complete": false,
+    "review_scope_complete": true,
+    "unknowns": {
+      "actual_security_execution_date": null,
+      "actual_offering_close_date": null,
+      "actual_funds_received": null,
+      "actual_investor_security_issued": null,
+      "priced_equity_valuation": null,
+      "canonical_economic_round_id": null
+    },
+    "holds": [
+      "Security exhibit retains investor, amount and date placeholders and blank signature/date fields; not an executed individual SAFE.",
+      "Form C signing date and target deadline do not establish launch or completed financing.",
+      "SAFE valuation cap is not a priced equity valuation or verified follow-on financing.",
+      "One original filing reviewed per campaign. Amendments and other tranches must be reconciled before latest-term or canonical-round admission.",
+      "No production cohort or numeric-rate admission. US-only evidence; no Europe pooling."
+    ],
+    "estimation_eligible": false,
+    "canonical_identity_admitted": false,
+    "new_economic_rounds_admitted": 0
+  },
+  {
+    "campaign_url": "https://republic.com/phantom-phood",
+    "document_url": "https://republic.com/documents/2055?view=preview",
+    "document_label": "Phantom Phood Form C.pdf",
+    "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+    "repository_source_path": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+    "raw_sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087",
+    "gzip_sha256": "862b7335b2d047a0a74476fb8348539f9b70ae5820a0c9d2f1da26088e6bd4fd",
+    "git_blob_sha": "d51fb1d8d6b808f5a862e4609cdea3baa7bdfd0c",
+    "raw_bytes": 588517,
+    "physical_pages": 61,
+    "captured_at": "2026-10-10T02:08:44.062889+00:00",
+    "parent_campaign_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+    "parent_link_binding": "Inherited unchanged from immutable CP10 manifest; parent HTML not separately reread in this bounded tranche.",
+    "native_offering_id_inherited": "2045",
+    "native_launch_date_inherited": "2023-02-14",
+    "launch_date_status": "Prior native campaign field, not independently revalidated by this PDF-only review.",
+    "form_type": "Original Form C offering statement; checked visually on page 1",
+    "fields": [
+      {
+        "field": "issuer_name",
+        "value": "Phantom Phood Inc.",
+        "physical_pdf_page": 1,
+        "anchor": "Phantom Phood Inc.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "jurisdiction",
+        "value": "Delaware, United States",
+        "physical_pdf_page": 1,
+        "anchor": "Delaware",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "organization_date",
+        "value": "2020-11-30",
+        "physical_pdf_page": 1,
+        "anchor": "November 30, 2020",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "intermediary",
+        "value": "OpenDeal Portal LLC dba Republic",
+        "physical_pdf_page": 1,
+        "anchor": "OpenDeal Portal LLC dba Republic",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_type",
+        "value": "Crowd SAFE",
+        "physical_pdf_page": 2,
+        "anchor": "Crowd SAFE (Simple Agreement for Future Equity)",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "form_c_signature_date",
+        "value": "2023-02-14",
+        "physical_pdf_page": 33,
+        "anchor": "February 14, 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_deadline",
+        "value": "2023-04-15",
+        "physical_pdf_page": 2,
+        "anchor": "April 15, 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_amount_usd",
+        "value": 25000,
+        "physical_pdf_page": 2,
+        "anchor": "$25,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "maximum_offering_amount_usd",
+        "value": 1235000,
+        "physical_pdf_page": 2,
+        "anchor": "$1,235,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_series",
+        "value": "Series 2023",
+        "physical_pdf_page": 46,
+        "anchor": "Series 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "valuation_cap_usd",
+        "value": 12000000,
+        "physical_pdf_page": 46,
+        "anchor": "The \u201cValuation Cap\u201d is $12,000,000.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "equity_financing_cash_threshold_usd",
+        "value": 1000000,
+        "physical_pdf_page": 48,
+        "anchor": "not less than $1,000,000 cash or cash equivalent",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "conversion_is_company_discretionary",
+        "value": true,
+        "physical_pdf_page": 46,
+        "anchor": "discretionary decision to either",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_investor_placeholder",
+        "value": true,
+        "physical_pdf_page": 46,
+        "anchor": "[Investor Name]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_date_placeholder",
+        "value": true,
+        "physical_pdf_page": 46,
+        "anchor": "[Date of Crowd SAFE]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "nominee_proxy_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 58,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "crowd_safe_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 56,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "discount_percent",
+        "value": null,
+        "classification": "unknown_not_inferred_as_zero",
+        "reason": "No separate discount term assigned from the cover page."
+      }
+    ],
+    "review_status": "CANDIDATE_EXACT_DATE_AND_SECURITY_FIELD_REVIEW",
+    "reviewed_pages": [
+      1,
+      2,
+      33,
+      46,
+      48,
+      58,
+      56
+    ],
+    "verification": {
+      "native_bytes_hashes_match": true,
+      "git_blob_hash_matches": true,
+      "two_parser_page_counts_match": true,
+      "material_pages_rendered_and_visually_inspected": true,
+      "source_text_not_byte_identical_across_parsers": true
+    },
+    "full_document_semantic_review_complete": false,
+    "review_scope_complete": true,
+    "unknowns": {
+      "actual_security_execution_date": null,
+      "actual_offering_close_date": null,
+      "actual_funds_received": null,
+      "actual_investor_security_issued": null,
+      "priced_equity_valuation": null,
+      "canonical_economic_round_id": null
+    },
+    "holds": [
+      "Security exhibit retains investor, amount and date placeholders and blank signature/date fields; not an executed individual SAFE.",
+      "Form C signing date and target deadline do not establish launch or completed financing.",
+      "SAFE valuation cap is not a priced equity valuation or verified follow-on financing.",
+      "One original filing reviewed per campaign. Amendments and other tranches must be reconciled before latest-term or canonical-round admission.",
+      "No production cohort or numeric-rate admission. US-only evidence; no Europe pooling."
+    ],
+    "estimation_eligible": false,
+    "canonical_identity_admitted": false,
+    "new_economic_rounds_admitted": 0
+  },
+  {
+    "campaign_url": "https://republic.com/stockcard",
+    "document_url": "https://republic.com/documents/1625?view=preview",
+    "document_label": "Stock Card Form C.pdf",
+    "repository_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+    "repository_source_path": "data/phase1d/cp10/collection-1/captures/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.bin.gz",
+    "raw_sha256": "ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3",
+    "gzip_sha256": "fd7340d3338d05e154827fe4a61422b53c00ddd3a5521a1b251f5bd39ddb90e3",
+    "git_blob_sha": "96d98729cf24c9f8f32b7162bccce68e42502d5a",
+    "raw_bytes": 1085387,
+    "physical_pages": 78,
+    "captured_at": "2026-10-10T02:09:25.202298+00:00",
+    "parent_campaign_sha256": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042",
+    "parent_link_binding": "Inherited unchanged from immutable CP10 manifest; parent HTML not separately reread in this bounded tranche.",
+    "native_offering_id_inherited": "1759",
+    "native_launch_date_inherited": "2022-09-06",
+    "launch_date_status": "Prior native campaign field, not independently revalidated by this PDF-only review.",
+    "form_type": "Original Form C offering statement; checked visually on page 1",
+    "fields": [
+      {
+        "field": "issuer_name",
+        "value": "Stock Card, Inc.",
+        "physical_pdf_page": 1,
+        "anchor": "Stock Card, Inc.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "jurisdiction",
+        "value": "Delaware, United States",
+        "physical_pdf_page": 1,
+        "anchor": "Delaware",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "organization_date",
+        "value": "2018-02-27",
+        "physical_pdf_page": 1,
+        "anchor": "February 27, 2018",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "intermediary",
+        "value": "OpenDeal Portal LLC dba Republic",
+        "physical_pdf_page": 1,
+        "anchor": "OpenDeal Portal LLC dba Republic",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_type",
+        "value": "Crowd SAFE",
+        "physical_pdf_page": 2,
+        "anchor": "Crowd SAFE (Simple Agreement for Future Equity)",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "form_c_signature_date",
+        "value": "2022-08-29",
+        "physical_pdf_page": 41,
+        "anchor": "August 29, 2022",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_deadline",
+        "value": "2023-02-24",
+        "physical_pdf_page": 2,
+        "anchor": "February 24, 2023",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "target_offering_amount_usd",
+        "value": 25000,
+        "physical_pdf_page": 2,
+        "anchor": "$25,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "maximum_offering_amount_usd",
+        "value": 1070000,
+        "physical_pdf_page": 2,
+        "anchor": "$1,070,000",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_series",
+        "value": "Series 2022",
+        "physical_pdf_page": 59,
+        "anchor": "Series 2022",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "valuation_cap_usd",
+        "value": 10000000,
+        "physical_pdf_page": 59,
+        "anchor": "The \u201cValuation Cap\u201d is $10,000,000.",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "equity_financing_cash_threshold_usd",
+        "value": 1000000,
+        "physical_pdf_page": 61,
+        "anchor": "not less than $1,000,000 cash or cash equivalent",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "conversion_is_company_discretionary",
+        "value": true,
+        "physical_pdf_page": 59,
+        "anchor": "discretionary decision to either",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_investor_placeholder",
+        "value": true,
+        "physical_pdf_page": 59,
+        "anchor": "[Investor Name]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "security_exhibit_date_placeholder",
+        "value": true,
+        "physical_pdf_page": 59,
+        "anchor": "[Date of Crowd SAFE]",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "nominee_proxy_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 72,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "crowd_safe_signature_page_present",
+        "value": true,
+        "physical_pdf_page": 70,
+        "anchor": "IN WITNESS WHEREOF",
+        "classification": "source_fact",
+        "dual_parser_anchor_match": true
+      },
+      {
+        "field": "discount_percent",
+        "value": null,
+        "classification": "unknown_not_inferred_as_zero",
+        "reason": "No separate discount term assigned from the cover page."
+      }
+    ],
+    "review_status": "CANDIDATE_EXACT_DATE_AND_SECURITY_FIELD_REVIEW",
+    "reviewed_pages": [
+      1,
+      2,
+      41,
+      59,
+      61,
+      72,
+      70
+    ],
+    "verification": {
+      "native_bytes_hashes_match": true,
+      "git_blob_hash_matches": true,
+      "two_parser_page_counts_match": true,
+      "material_pages_rendered_and_visually_inspected": true,
+      "source_text_not_byte_identical_across_parsers": true
+    },
+    "full_document_semantic_review_complete": false,
+    "review_scope_complete": true,
+    "unknowns": {
+      "actual_security_execution_date": null,
+      "actual_offering_close_date": null,
+      "actual_funds_received": null,
+      "actual_investor_security_issued": null,
+      "priced_equity_valuation": null,
+      "canonical_economic_round_id": null
+    },
+    "holds": [
+      "Security exhibit retains investor, amount and date placeholders and blank signature/date fields; not an executed individual SAFE.",
+      "Form C signing date and target deadline do not establish launch or completed financing.",
+      "SAFE valuation cap is not a priced equity valuation or verified follow-on financing.",
+      "One original filing reviewed per campaign. Amendments and other tranches must be reconciled before latest-term or canonical-round admission.",
+      "No production cohort or numeric-rate admission. US-only evidence; no Europe pooling."
+    ],
+    "estimation_eligible": false,
+    "canonical_identity_admitted": false,
+    "new_economic_rounds_admitted": 0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"model\":\"jev-1.13.0\",\"answers\":{\"method\":{\"type\":\"choice\",\"choice\":\"bounded_matrix\",\"confidence\":1,\"probabilities\":{\"bounded_matrix\":1,\"require_individual_contract\":0,\"blanket_promote\":0,\"stop\":0}},\"template_gate\":{\"type\":\"noul\",\"noul\":0.11}},\"usage\":{\"input_tokens\":845,\"output_tokens\":73}}"
+    }
+  ],
+  "structuredContent": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "method": {
+        "type": "choice",
+        "choice": "bounded_matrix",
+        "confidence": 1,
+        "probabilities": {
+          "bounded_matrix": 1,
+          "require_individual_contract": 0,
+          "blanket_promote": 0,
+          "stop": 0
+        }
+      },
+      "template_gate": {
+        "type": "noul",
+        "noul": 0.11
+      }
+    },
+    "usage": {
+      "input_tokens": 845,
+      "output_tokens": 73
+    }
+  },
+  "isError": false
+}

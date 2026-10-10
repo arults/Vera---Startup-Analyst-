@@ -1,0 +1,15 @@
+{
+  "status": "ACCEPT_NARROW_POST_JEV_IMPLEMENTATION_SUCCESSOR",
+  "original_jev_request_sha256": "32e9faacf9ed5b5e8b2b04ee9db7ad1d5c28c5fa35202ff3716b99e8aeaa2d40",
+  "original_jev_response_sha256": "ccf5332d6161ef8b1aa3b32937cf49d9c451b60fc75076ca90f5b97f33f717e0",
+  "adapter_at_jev_sha256": "e7e25830bdb810d360cb18c091074967385386c4e66d1054ae9fc45063451528",
+  "successor_adapter_sha256": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+  "delta_sha256": "7c447c9ce9730c62462c3388e1d00d622168d19018aed094804e71f8b7d97caa",
+  "exact_change": "One integer type predicate now accepts finite integral floating-point values such as2023.0, aligning it with the pinned JSON Schema definition. Boolean integers remain rejected.",
+  "independent_delta_review": "Verified reconstructed predecessor bytes exactly match the hash bound in the original JEV request, compared one-line diff, reran all34independent adapter checks and45worker tests, and independently reran302reference-schema diagnostic cases with zero disagreement.",
+  "reviewed_source_inputs_changed": false,
+  "canonical_ledger_changed": false,
+  "canonical_ledger_sha256": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28",
+  "successor_native_review_sha256": "d0f5ec382a6af6829e7e71aea721138f106799c2a05e4b03130ea643b67700a7",
+  "jev_boundary": "Historical JEV certifies its exact original method summary/artifact hashes. This is an independent deterministic successor review; no claim that JEV directly saw the changed code hash, and no historical receipt was rebound."
+}

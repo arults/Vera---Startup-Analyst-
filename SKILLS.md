@@ -1,5 +1,33 @@
 # SKILLS.md — Vera operational research memory
 
+## Latest correction: restore the frozen stagewise admission rules
+
+2026-10-10; protocol audit at `994175e232687dcb0d1ddcd11a6917e72b02ff74`. Read sections 13 onward of `checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md`. This corrects overbroad general gate wording; it does not erase earlier PDF-only unknowns or lower source-proof, identity, outcome or population standards.
+
+- Identity permits exact strong identifiers OR two independent medium identifiers, with 100% second review of medium/manual matches. Legal-name/domain agreement can support this route; name alone cannot, and conflicting strong IDs remain a veto. Issuer CIK/registry retrieval is not the sole universal route.
+- Layer B requires source-bound completed financing producing a security position plus close date. Coherent native aggregate completion evidence can suffice. Do not universally demand each private investor contract/receipt or a complete legal audit; unsigned templates/commitments alone still do not prove completion. Exact final terms remain necessary where the particular claim depends on them.
+- Preserve separate stages: source facts, company identity, economic round, launch/close, funding, outcomes, historical coverage, estimator eligibility and prior promotion. A later unknown must not erase a verified earlier stage. Model/schema validity is not source proof.
+- CP10 false collector flags are unadjudicated defaults, not 568 scientific rejections; never mass-flip them. The newly audited 305 finalized/parent-matched/positive-amount records differ in definition from the older 305 single-unvalidated-CIK subset.
+- Phantom Phood and Stock Card have accepted bounded aggregate-funding recommendations from the legacy frame, not the 568-new-candidate frame. Keep recommendation, applied versioned ledger and estimator admission separate. Preserve original-offered cap scope and all unobserved outcome/cohost/amendment uncertainty.
+- Null priced valuations do not prove term comparability. Different SAFE caps also need not prove separate rounds. Require a reviewed same/distinct/unresolved relation; do not manufacture a priced follow-on from a cap or a false NEXT edge across a held relation.
+- Historical green gates do not certify new datasets or code. Keep source review, synthetic behavior tests, local regression, remote CI and full-study scientific verification distinct. Later implementation/application status must cite its own verified artifacts.
+
+### Verified implementation lessons
+
+- Use `build_round_graph` when unresolved relationships must be visible. `next_round_edges` is a compatibility edges-only wrapper; Boolean `same_economic_round` false is not proof of distinctness. Keep unresolved diagnostics in downstream reporting before treating a graph as fully adjudicated.
+- A source-attestation object is a trust boundary, not a source verifier. Validate source bytes, quoted native relationship, issuer/window/instrument scope and independent review before construction. Never synthesize amendment bridges from campaign-ID equality or cap similarity.
+- Qualifying follow-on success requires both endpoints to be funded-completed Layer B with valid positive finite priced valuations. Offered SAFE caps remain separate. Block false NEXT edges across unresolved components without converting every cap difference into a separate round.
+- Match shared test dependencies across workflows without removing failing tests. Focused regression, static workflow checks and exact-head remote CI are separate receipts; an earlier passing workflow does not certify changed code.
+
+- Missing outcomes and sparse cells can remain explicitly censored, unknown or suppressed under the frozen reporting rules. Completion does not require zero missingness; it does require defensible declared-scope coverage, correctly applied gates and genuine stopping evidence. An unprocessed feasible queue or an access failure alone is not a plateau.
+
+### Applied-ledger reproducibility
+
+- The exact two-row adapter at `data/phase1d/cp10/canonical-admission-v1/` applies approved observations only to a versioned research ledger. Its `v0.3.0` is a component version, not promoted Vera VERSION. Keep recommendation acceptance, ledger application, estimator eligibility and production promotion distinct.
+- Keep canonical cap and comparable priced value null when only original offered SAFE terms are supported. Store offered terms in explicitly scoped, source-anchored metadata so legacy consumers cannot mistake them for operative or priced values.
+- Portable normalization needs new byte hashes and an independent semantic-equivalence attestation. Preserve original input/review hashes as lineage; an old exact-hash receipt cannot automatically certify edited inputs or code. Bind successor changes explicitly.
+- Authenticate exact inputs and source hashes before deterministic replay. Reject extra unreviewed rows and conflicting immutable outputs. These checks protect already reviewed cases; they do not establish general source-semantic competence for future campaigns.
+
 ## Latest continuation: materialization recovery and instrument-specific review
 
 2026-10-10, after documentation commit `1c2d33e15ecce0dccbce25089f88c8ce150acfd0`. Consult successor sections 10 onward in `checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md` and the separately enumerated later review tranches in the companion manifest. Earlier checkpoint text remains historical; all scientific admission holds persist.
