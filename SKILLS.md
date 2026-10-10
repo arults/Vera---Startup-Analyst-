@@ -1,5 +1,25 @@
 # SKILLS.md — Vera operational research memory
 
+## Latest continuation: materialization recovery and instrument-specific review
+
+2026-10-10, after documentation commit `1c2d33e15ecce0dccbce25089f88c8ce150acfd0`. Consult successor sections 10 onward in `checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md` and the separately enumerated later review tranches in the companion manifest. Earlier checkpoint text remains historical; all scientific admission holds persist.
+
+- The four Chilling, Currently Wine, Ecotone and Moriondo materialization holds are resolved by exact-URL, raw-hash-identical recovery. Do not count those recoveries as new CP10 captures or scientific entries; do not leave their earlier local-access holds labeled current.
+- Identify the actual instrument before applying a SAFE parser. Ecotone offers Series Seed-4 Preferred Stock at USD 0.6073/share. Par value, offered price, issuer-stated implied valuation and verified completed-round valuation are distinct fields; generic valuation-cap boilerplate does not make an equity subscription a SAFE.
+- Preserve money decimals and share arithmetic exactly. Do not round away the source's USD 49,999.6163 target or USD 528,863.5612 maximum before documenting the offer calculation.
+- Keep pre/post-money basis literal. Currently Wine/Proud Pour has an explicit USD 8m pre-money SAFE cap and 20% discount. Chilling's stated cap lacks independently normalized basis. Brand/legal-name linkage is source-level evidence, not canonical historical identity.
+- Tiered caps can coexist in one campaign and one investor subscription. Moriondo's USD 6.4m/8m pre-money tranches are not two new rounds. LLC equity units and corporation shares require their own instrument scope.
+- Label visual-only facts separately from parser-backed facts. Chilling's signing date was visually resolved to 2022-08-19 despite garbled date extraction. Independently counted visual pages, field counts, text-anchor counts and total parsed pages are different review units.
+- Keep raw PDF identity checks separate from inherited gzip/Git metadata. A newly verified raw hash does not mean compressed source bytes or parent campaign bindings were reverified.
+
+### Final tranche lessons and bounded stopping scope
+
+- Preserve SAFE cap basis as explicit pre-money, explicit post-money or unassigned. Inlightened USD 7m and Reental USD 42m are unassigned beyond their source labels; Revero USD 50m is post-money; Upside USD 45m is pre-money. Do not make them a homogeneous priced-round valuation series.
+- Keep relative-deadline wording literal when the start event is not verified. Reental's 120-days-after-launch cover wording and fourth-month body wording are both retained; a known later amendment prevents claiming latest operative terms from the original alone.
+- Verify conversion triggers per instrument. Upside states no dollar minimum in its Equity Financing definition; do not import another SAFE's USD 1m trigger. Revero's language must not inherit older forms' explicit conversion-exclusion wording.
+- Conditional liquidity multiples are contract formulas, not realized investor returns. Upside's 3x cash-out provision retains priority/qualification limits. Named collateral grantors, custodians and source-stated entity conversion are not automatically co-issuers or independently proven canonical continuity.
+- The final two four-document field-review tranches are closed within their current source scope. New source acquisition requires a scope/budget decision. A resource-bounded checkpoint is not a scientific completion or global research-plateau conclusion; no capture or economic-round count is increased by re-materializing prior bytes.
+
 ## Latest authority — CP10 continuation, 2026-10-10
 
 Read `checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md` and `evidence/phase1d_cp10/continuation_2026_10_10_manifest.json` first. This entry supersedes older restart pointers and stale queue/count/completion wording below, while preserving earlier evidence and safeguards. Source snapshot: `7291d33ff32cdd6b07ae9cfe1f342849a447f536`. CP10 collection versions are `0.6.5-dev.research.1` and `.2`; promoted VERSION remains `0.5.0`.

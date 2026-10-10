@@ -1035,5 +1035,995 @@
     "integrated_into_this_repository": false,
     "integrated_into_unattended_runtime": false,
     "code_or_binary_added_by_this_change": false
+  },
+  "subsequent_republic_field_reviews": [
+    {
+      "wave": 3,
+      "accepted_ledger_sha256": "36449f5a5099e88604f4eb1884066684983db8ff549158c2edd43ce32dc85d0f",
+      "independent_final_review_sha256": "1b60c0ca21c5473c26c780cfd58747d5c570dbda7a8020f242329b0890b61d89",
+      "actual_final_JEV_receipt_sha256": "2bc49ebe65f4f8239bd701c030a6152663e26aff8ae1461e7fa9de0d519855ce",
+      "as_of_utc": "2026-10-10T05:26:30Z",
+      "access_result": {
+        "external_source_requests": 4,
+        "redirects_followed": 0,
+        "retries": 0,
+        "bytes_downloaded": 7186139,
+        "pdf_captures": 4,
+        "cp10_hash_matches": 4,
+        "host_access_stop": false
+      },
+      "independent_review_counts": {
+        "documents": 4,
+        "fields": 80,
+        "anchors_passed": 87,
+        "anchors_total": 87,
+        "pages_dual_extracted": 372,
+        "material_pages_visually_inspected": 30
+      },
+      "actual_final_JEV": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "exact_field_gate": {
+            "type": "choice",
+            "choice": "accept_source_fields_only",
+            "confidence": 1,
+            "probabilities": {
+              "accept_source_fields_only": 1,
+              "hold_source_fields": 0,
+              "promote_rounds_or_rates": 0
+            }
+          },
+          "recovery_accounting": {
+            "type": "choice",
+            "choice": "resolve_materialization_only",
+            "confidence": 1,
+            "probabilities": {
+              "resolve_materialization_only": 1,
+              "new_scientific_entries": 0,
+              "global_exhaustion": 0
+            }
+          },
+          "security_interpretation": {
+            "type": "choice",
+            "choice": "preserve_distinctions",
+            "confidence": 1,
+            "probabilities": {
+              "preserve_distinctions": 1,
+              "collapse_terms": 0
+            }
+          },
+          "completion_gate": {
+            "type": "choice",
+            "choice": "research_incomplete",
+            "confidence": 1,
+            "probabilities": {
+              "research_incomplete": 1,
+              "phase_complete": 0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 7485,
+          "output_tokens": 191
+        }
+      },
+      "documents": [
+        {
+          "campaign_url": "https://republic.com/chilling",
+          "source_url": "https://republic.com/documents/1555?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9.bin.gz",
+          "raw_sha256": "08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9",
+          "raw_bytes": 1927320,
+          "pdf_pages": 75,
+          "inherited_gzip_sha256": "e754439456e190e8d68380ae24c146ceb117a21c6f09c369b6df88eb35b4ead0",
+          "inherited_git_blob_sha1": "7613050b8adb926f7c53c9e3221ac999d73bba28",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Chilling, Inc",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "The cover explicitly checks No. No SPV identity is inferred from a custodian or nominee."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "This is the intermediary CIK, not the issuer CIK."
+            },
+            "security_type": {
+              "value": "Crowd SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline": {
+              "value": "2023-02-28",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Contractual target deadline in this original document; not actual completion or final amended deadline."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C is checked; Form C/A and Form C-U are not checked."
+            },
+            "form_signature_date": {
+              "value": "2022-08-19",
+              "pdf_page": 31,
+              "verification": "rendered_page_visual_confirmation",
+              "render_sha256": "44e0f2d39ad56c0c49aa8cd9a1d77933bb671a0409cd500375ee1a69774adc41",
+              "scope_note": "Both displayed form signature dates read 8/19/2022. PDF date text extraction is garbled; no dual-parser date verification is claimed. Independently visually confirmed by verifier."
+            },
+            "security_series": {
+              "value": "2022",
+              "pdf_page": 61,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 71,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "Company and investor instrument signatures are blank; this is the actual SAFE/subscription signature page, not the separate nominee/custody agreement."
+            },
+            "equity_financing_threshold_usd": {
+              "value": "1000000",
+              "pdf_page": 63,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Definition requires cash or cash equivalent, excluding conversion of instruments; no financing occurrence is asserted."
+            },
+            "safe_valuation_cap": {
+              "value": {
+                "usd": "10000000",
+                "basis": "not independently normalized beyond instrument wording"
+              },
+              "pdf_page": 61,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "SAFE conversion cap, not priced equity valuation."
+            },
+            "conversion_terms": {
+              "value": "issuer discretion to continue or convert at first qualifying financing",
+              "pdf_page": 61,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        },
+        {
+          "campaign_url": "https://republic.com/currently-wine",
+          "source_url": "https://republic.com/documents/14127?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff.bin.gz",
+          "raw_sha256": "55b6520885a3bbe58be5d3c41920f205898d3b8ba72280a73d46397d920aa9ff",
+          "raw_bytes": 1450288,
+          "pdf_pages": 101,
+          "inherited_gzip_sha256": "39ea16af676ea69d70a342d3fe497fd9f71a3d5edb7a02768449387e443ed52a",
+          "inherited_git_blob_sha1": "031ac993f006be2b40bf4251c43916133643a337",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Proud Pour Inc.",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "The cover explicitly checks No. No SPV identity is inferred from a custodian or nominee."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "This is the intermediary CIK, not the issuer CIK."
+            },
+            "security_type": {
+              "value": "SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline": {
+              "value": "2025-04-21",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Contractual target deadline in this original document; not actual completion or final amended deadline."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C is checked; Form C/A and Form C-U are not checked."
+            },
+            "form_signature_date": {
+              "value": "2025-01-21",
+              "pdf_page": 34,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only; SEC acceptance date, campaign launch, funding completion and executed subscription date are distinct."
+            },
+            "security_series": {
+              "value": "2025",
+              "pdf_page": 45,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 56,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "Company and investor instrument signatures are blank; this is the actual SAFE/subscription signature page, not the separate nominee/custody agreement."
+            },
+            "equity_financing_threshold_usd": {
+              "value": "1000000",
+              "pdf_page": 47,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Definition requires cash or cash equivalent, excluding conversion of instruments; no financing occurrence is asserted."
+            },
+            "safe_valuation_cap": {
+              "value": {
+                "usd": "8000000",
+                "basis": "pre-money"
+              },
+              "pdf_page": 45,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "SAFE conversion cap, not priced equity valuation."
+            },
+            "safe_discount_percent": {
+              "value": "20",
+              "pdf_page": 45,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "conversion_terms": {
+              "value": "mandatory issuance upon qualifying Equity Financing",
+              "pdf_page": 45,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Conditional instrument term only, not evidence a qualifying financing occurred."
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        },
+        {
+          "campaign_url": "https://republic.com/ecotone-renewables",
+          "source_url": "https://republic.com/documents/13499?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104.bin.gz",
+          "raw_sha256": "145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104",
+          "raw_bytes": 1984314,
+          "pdf_pages": 133,
+          "inherited_gzip_sha256": "17aa11a52cc0c69670bf4cc6cc22e3c60b86ebd742d886d742a3f7a6f16dc806",
+          "inherited_git_blob_sha1": "af5b3626b40c1f50067bda35f192973306c041cd",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Ecotone Renewables PBC",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "The cover explicitly checks No. No SPV identity is inferred from a custodian or nominee."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "This is the intermediary CIK, not the issuer CIK."
+            },
+            "security_type": {
+              "value": "Series Seed-4 Preferred Stock",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline": {
+              "value": "2025-03-17",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Contractual target deadline in this original document; not actual completion or final amended deadline."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C is checked; Form C/A and Form C-U are not checked."
+            },
+            "form_signature_date": {
+              "value": "2024-12-17",
+              "pdf_page": 47,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only; SEC acceptance date, campaign launch, funding completion and executed subscription date are distinct."
+            },
+            "security_series": {
+              "value": "Seed-4",
+              "pdf_page": 67,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 79,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "Company and investor instrument signatures are blank; this is the actual SAFE/subscription signature page, not the separate nominee/custody agreement."
+            },
+            "offered_price_per_share_usd": {
+              "value": "0.6073",
+              "pdf_page": 67,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Stated offered price, not a completed transaction or follow-on financing outcome."
+            },
+            "target_share_count": {
+              "value": 82331,
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "maximum_share_count": {
+              "value": 870844,
+              "pdf_page": 67,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        },
+        {
+          "campaign_url": "https://republic.com/moriondo-coffee",
+          "source_url": "https://republic.com/documents/1870?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7.bin.gz",
+          "raw_sha256": "8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7",
+          "raw_bytes": 1824217,
+          "pdf_pages": 63,
+          "inherited_gzip_sha256": "c2de61bf72bc7adb968a072a5b546b6ded93a0d1e434016f67459b3970211ca8",
+          "inherited_git_blob_sha1": "37cb9a6c85e1cc6c2e8bfc45fded3f6fc059ae52",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Luxbeverage LLC d/b/a Moriondo Coffee",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "The cover explicitly checks No. No SPV identity is inferred from a custodian or nominee."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "This is the intermediary CIK, not the issuer CIK."
+            },
+            "security_type": {
+              "value": "Crowd SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline": {
+              "value": "2023-02-19",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Contractual target deadline in this original document; not actual completion or final amended deadline."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C is checked; Form C/A and Form C-U are not checked."
+            },
+            "form_signature_date": {
+              "value": "2022-12-21",
+              "pdf_page": 34,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only; SEC acceptance date, campaign launch, funding completion and executed subscription date are distinct."
+            },
+            "security_series": {
+              "value": "2022",
+              "pdf_page": 48,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 59,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "Company and investor instrument signatures are blank; this is the actual SAFE/subscription signature page, not the separate nominee/custody agreement."
+            },
+            "equity_financing_threshold_usd": {
+              "value": "1000000",
+              "pdf_page": 50,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Definition requires cash or cash equivalent, excluding conversion of instruments; no financing occurrence is asserted."
+            },
+            "safe_valuation_cap_tranches": {
+              "value": [
+                {
+                  "usd": "6400000",
+                  "basis": "pre-money",
+                  "campaign_subscription_range_usd": [
+                    "0",
+                    "500000.00"
+                  ],
+                  "range_note": "initial subscriptions up to and including $500,000.00"
+                },
+                {
+                  "usd": "8000000",
+                  "basis": "pre-money",
+                  "campaign_subscription_range_usd": [
+                    "500000.01",
+                    "1235000.00"
+                  ]
+                }
+              ],
+              "pdf_page": 48,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Two cap tranches in one offering; not two new economic rounds."
+            },
+            "conversion_terms": {
+              "value": "issuer discretion to continue or convert into LLC equity units",
+              "pdf_page": 48,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        }
+      ],
+      "scope": "Enumerated document-level source fields only. Original capture totals unchanged; no canonical company/round, completion, outcome, denominator or numerical-prior admission."
+    },
+    {
+      "wave": 4,
+      "accepted_ledger_sha256": "aa4175e1d4e1ebe2f432ca7b0559f928dd89e90e7ca03580564b9f3adcb101f4",
+      "independent_final_review_sha256": "7de607b2a1cab81bbf634ac103b85921324c7de598161fa15e10ae7a1dee0670",
+      "actual_final_JEV_receipt_sha256": "aa85ead2527272153b768087e12b503229641c5591cbfd38991bff8eb35ed245",
+      "as_of_utc": "2026-10-10T05:36:30Z",
+      "access_result": {
+        "external_source_requests": 4,
+        "redirects_followed": 0,
+        "retries": 0,
+        "bytes_downloaded_including_partial_bodies": 7331578,
+        "pdf_captures": 4,
+        "cp10_hash_and_length_matches": 4,
+        "host_access_stop": false,
+        "resource_limit_bytes": 8000000,
+        "total_limit_bytes": 20000000
+      },
+      "independent_review_counts": {
+        "documents": 4,
+        "fields": 91,
+        "anchors_passed": 95,
+        "anchors_total": 95,
+        "pdf_pages_dual_extracted": 520,
+        "material_pages_visually_inspected": 28
+      },
+      "actual_final_JEV": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "final_exact_ledger_gate": {
+            "type": "choice",
+            "choice": "accept_enumerated_source_fields",
+            "confidence": 1,
+            "probabilities": {
+              "accept_enumerated_source_fields": 1,
+              "hold_fields": 0,
+              "promote_canonical_rounds_rates": 0
+            }
+          },
+          "interpretation_gate": {
+            "type": "choice",
+            "choice": "preserve_all_distinctions",
+            "confidence": 1,
+            "probabilities": {
+              "preserve_all_distinctions": 1,
+              "homogeneous_completed_safe_cohort": 0
+            }
+          },
+          "checkpoint_gate": {
+            "type": "choice",
+            "choice": "bounded_source_review_closed_research_incomplete",
+            "confidence": 1,
+            "probabilities": {
+              "bounded_source_review_closed_research_incomplete": 1,
+              "phase_complete_numeric_ready": 0,
+              "global_plateau": 0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 8081,
+          "output_tokens": 168
+        }
+      },
+      "documents": [
+        {
+          "campaign_url": "https://republic.com/inlightened",
+          "source_url": "https://republic.com/documents/1595?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979.bin.gz",
+          "raw_sha256": "dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979",
+          "raw_bytes": 2080722,
+          "pdf_pages": 70,
+          "inherited_gzip_sha256": "623ab2c2540a9d20c0112e3e559189f397b5fef7f46d6c6828baea54d4097dc6",
+          "inherited_git_blob_sha1": "ed3bea24ede03e0c5d62c76ba42fdaf80602c1a1",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Inlightened, Inc.",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "No co-issuer is marked on this cover. No SPV is inferred from custodian, nominee or collateral grantors."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Intermediary CIK; issuer CIK is not established here."
+            },
+            "security_type": {
+              "value": "Crowd SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline_text": {
+              "value": "November 4, 2022",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Original document wording; not actual completion or final amended deadline."
+            },
+            "target_deadline_iso": {
+              "value": "2022-11-04"
+            },
+            "form_signature_date": {
+              "value": "2022-08-25",
+              "pdf_page": 40,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only, independently visually inspected. SEC acceptance, campaign launch, actual completion and executed subscription dates are separate."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C checked; Form C/A and C-U not checked."
+            },
+            "security_series": {
+              "value": "2022",
+              "pdf_page": 58,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "safe_conversion_cap": {
+              "value": {
+                "usd": "7000000",
+                "basis": "not adjudicated beyond the source label Valuation Cap"
+              },
+              "pdf_page": 58,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Current offered instrument conversion cap; not a priced-equity valuation or completed round."
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 68,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "The actual SAFE company and investor signature lines are blank; other nominee/custody/security agreements are separate."
+            },
+            "conversion_terms": {
+              "value": "issuer discretion to continue or convert at the first qualifying equity financing",
+              "pdf_page": 58,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "equity_financing_threshold_usd": {
+              "value": "1000000",
+              "pdf_page": 60,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Excludes conversion of existing convertible instruments. No financing occurrence is established."
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        },
+        {
+          "campaign_url": "https://republic.com/reental",
+          "source_url": "https://republic.com/documents/8407?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad.bin.gz",
+          "raw_sha256": "52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad",
+          "raw_bytes": 1824456,
+          "pdf_pages": 201,
+          "inherited_gzip_sha256": "a37b051ea12fbbb0b55eddfb613a678cf7b383c55b798d99fac685381dd9763b",
+          "inherited_git_blob_sha1": "82847e764a8ad4e74b037737a173d1169a571b9a",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Reental Holding Company",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "No co-issuer is marked on this cover. No SPV is inferred from custodian, nominee or collateral grantors."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Intermediary CIK; issuer CIK is not established here."
+            },
+            "security_type": {
+              "value": "Crowd SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline_text": {
+              "value": "120 days after launch.",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Original document wording; not actual completion or final amended deadline."
+            },
+            "target_deadline_iso": {
+              "value": null,
+              "scope_note": "Do not compute a date from the form-signing date or an unverified launch. Later amendment remains unreviewed."
+            },
+            "form_signature_date": {
+              "value": "2024-03-21",
+              "pdf_page": 41,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only, independently visually inspected. SEC acceptance, campaign launch, actual completion and executed subscription dates are separate."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C checked; Form C/A and C-U not checked."
+            },
+            "security_series": {
+              "value": "2024",
+              "pdf_page": 60,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "safe_conversion_cap": {
+              "value": {
+                "usd": "42000000",
+                "basis": "not adjudicated beyond the source label Valuation Cap"
+              },
+              "pdf_page": 60,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Current offered instrument conversion cap; not a priced-equity valuation or completed round."
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 70,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "The actual SAFE company and investor signature lines are blank; other nominee/custody/security agreements are separate."
+            },
+            "conversion_terms": {
+              "value": "issuer discretion to continue or convert at the first qualifying equity financing",
+              "pdf_page": 60,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "equity_financing_threshold_usd": {
+              "value": "1000000",
+              "pdf_page": 62,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Excludes conversion of existing convertible instruments. No financing occurrence is established."
+            },
+            "safe_discount_percent": {
+              "value": "20",
+              "pdf_page": 60,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "relative_deadline_body_wording": {
+              "value": "by the end of the fourth month period following the commencement of the Offering",
+              "pdf_page": 8,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Preserve separately from cover wording of 120 days; do not silently equate months with days or calculate an absolute deadline."
+            },
+            "known_later_amendment_unreviewed": {
+              "value": true,
+              "scope_note": "Not fetched or semantically reviewed in wave 4; no amended deadline or current effective terms claimed."
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        },
+        {
+          "campaign_url": "https://republic.com/revero",
+          "source_url": "https://republic.com/documents/19104?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c.bin.gz",
+          "raw_sha256": "99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c",
+          "raw_bytes": 1324677,
+          "pdf_pages": 118,
+          "inherited_gzip_sha256": "00c78f1ab726d1f844c37ee789c2a9641ac07a44878094de555ce0bf10198abe",
+          "inherited_git_blob_sha1": "a1979efa073bdb1147d016f9e9f00443868c9068",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Revero Inc",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "No co-issuer is marked on this cover. No SPV is inferred from custodian, nominee or collateral grantors."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Intermediary CIK; issuer CIK is not established here."
+            },
+            "security_type": {
+              "value": "SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline_text": {
+              "value": "December 22, 2025",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Original document wording; not actual completion or final amended deadline."
+            },
+            "target_deadline_iso": {
+              "value": "2025-12-22"
+            },
+            "form_signature_date": {
+              "value": "2025-09-23",
+              "pdf_page": 39,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only, independently visually inspected. SEC acceptance, campaign launch, actual completion and executed subscription dates are separate."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C checked; Form C/A and C-U not checked."
+            },
+            "security_series": {
+              "value": "2025",
+              "pdf_page": 61,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "safe_conversion_cap": {
+              "value": {
+                "usd": "50000000",
+                "basis": "post-money"
+              },
+              "pdf_page": 61,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Current offered instrument conversion cap; not a priced-equity valuation or completed round."
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 72,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "The actual SAFE company and investor signature lines are blank; other nominee/custody/security agreements are separate."
+            },
+            "conversion_terms": {
+              "value": "issuance upon a qualifying equity financing under the instrument formula",
+              "pdf_page": 61,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Conditional instrument term, not a record of a completed financing."
+            },
+            "equity_financing_threshold_usd": {
+              "value": "1000000",
+              "pdf_page": 63,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "The definition specifies Preferred Stock at a fixed valuation. It does not reproduce the explicit existing-instrument exclusion used in the two older Crowd SAFEs."
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        },
+        {
+          "campaign_url": "https://republic.com/upside-app",
+          "source_url": "https://republic.com/documents/11124?view=preview",
+          "cp10_commit": "7291d33ff32cdd6b07ae9cfe1f342849a447f536",
+          "repository_path": "data/phase1d/cp10/collection-1/captures/d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0.bin.gz",
+          "raw_sha256": "d1a3999d2b33836eb748286a36e29d94532038f7400c1c84d37320f8e6b002b0",
+          "raw_bytes": 2101723,
+          "pdf_pages": 131,
+          "inherited_gzip_sha256": "1b0aed5ed793f98611baa50d19c4ff3e1c77364f70ee6acf025d0f4277c4ecde",
+          "inherited_git_blob_sha1": "2f1dd2aca107844c21df417f73e6ffeed01d095e",
+          "compressed_artifact_reverified_this_wave": false,
+          "selected_source_fields": {
+            "legal_issuer": {
+              "value": "Vision Sports Ventures, PBC",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "coissuer_present": {
+              "value": false,
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "No co-issuer is marked on this cover. No SPV is inferred from custodian, nominee or collateral grantors."
+            },
+            "intermediary_cik": {
+              "value": "0001751525",
+              "pdf_page": 1,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Intermediary CIK; issuer CIK is not established here."
+            },
+            "security_type": {
+              "value": "SAFE (Simple Agreement for Future Equity)",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "target_deadline_text": {
+              "value": "December 15, 2024",
+              "pdf_page": 2,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Original document wording; not actual completion or final amended deadline."
+            },
+            "target_deadline_iso": {
+              "value": "2024-12-15"
+            },
+            "form_signature_date": {
+              "value": "2024-08-20",
+              "pdf_page": 48,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Form signature date only, independently visually inspected. SEC acceptance, campaign launch, actual completion and executed subscription dates are separate."
+            },
+            "form_type": {
+              "value": "Form C: Offering Statement",
+              "pdf_page": 1,
+              "verification": "rendered_checkbox_inspection",
+              "scope_note": "Original Form C checked; Form C/A and C-U not checked."
+            },
+            "security_series": {
+              "value": "2024CF SAFE",
+              "pdf_page": 66,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "safe_conversion_cap": {
+              "value": {
+                "usd": "45000000",
+                "basis": "pre-money"
+              },
+              "pdf_page": 66,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Current offered instrument conversion cap; not a priced-equity valuation or completed round."
+            },
+            "instrument_signature_status": {
+              "value": "UNEXECUTED_TEMPLATE",
+              "pdf_page": 78,
+              "verification": "rendered_signature_page_inspection",
+              "scope_note": "The actual SAFE company and investor signature lines are blank; other nominee/custody/security agreements are separate."
+            },
+            "conversion_terms": {
+              "value": "issuance upon a qualifying equity financing under the instrument formula",
+              "pdf_page": 66,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Conditional instrument term, not a record of a completed financing."
+            },
+            "equity_financing_definition": {
+              "value": "bona fide capital-raising transaction or series with Capital Stock sold at a fixed valuation",
+              "pdf_page": 68,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "No minimum dollar threshold is specified in this definition; do not import the $1 million threshold from another issuer."
+            },
+            "safe_discount_percent": {
+              "value": "20",
+              "pdf_page": 66,
+              "verification": "dual_parser_with_explicit_whitespace_removal"
+            },
+            "instrument_legal_form": {
+              "value": "Delaware public benefit corporation",
+              "pdf_page": 66,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "The cover shortens the form to Corporation; instrument specifies public benefit corporation."
+            },
+            "liquidity_cash_out_term": {
+              "value": "greater of 3x purchase amount or the conversion amount, subject to source qualifications and liquidation priority",
+              "pdf_page": 67,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Conditional contractual waterfall only; not an achieved or guaranteed return."
+            },
+            "collateral_agreement_reference": {
+              "value": {
+                "stated_reference_date": "2023-03-24",
+                "parties_as_named_in_safe": [
+                  "Vision Sports Ventures, Inc.",
+                  "Hubstar, Inc.",
+                  "Daily Number, Inc."
+                ]
+              },
+              "pdf_page": 67,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "A narrow instrument statement. Do not infer that security was perfected, collateral value was verified, agreements were executed, or an economic round completed."
+            },
+            "cash_out_priority_excerpt": {
+              "value": "junior to Senior Secured Notes and outstanding indebtedness/creditor claims",
+              "pdf_page": 67,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Do not treat the collateral reference as an unconditional senior secured position."
+            },
+            "source_stated_issuer_conversion_relationship": {
+              "value": {
+                "predecessor_name": "Vision Sports Ventures, Inc.",
+                "successor_name": "Vision Sports Ventures, PBC",
+                "relationship": "source states Inc. was converted to PBC"
+              },
+              "pdf_page": 79,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "Source-stated conversion relationship only. Registry verification and canonical identity admission remain held; no automatic merger with other grantors."
+            },
+            "amended_security_agreement_grantors": {
+              "value": [
+                "Daily Number, Inc.",
+                "Hubstar, Inc.",
+                "Vision Sports Ventures, PBC"
+              ],
+              "pdf_page": 79,
+              "verification": "dual_parser_with_explicit_whitespace_removal",
+              "scope_note": "These are agreement grantors. They are not inferred co-issuers of this SAFE. Effective date is blank on the agreement face. No full security-agreement review or canonical merger is claimed."
+            }
+          },
+          "parent_campaign_fields_revalidated_this_wave": false,
+          "full_document_semantic_review_complete": false,
+          "canonical_identity_admitted": false,
+          "economic_round_admitted": false
+        }
+      ],
+      "scope": "Enumerated document-level source fields only. Original capture totals unchanged; no canonical company/round, completion, outcome, denominator or numerical-prior admission."
+    }
+  ],
+  "latest_documentation_update": {
+    "date_utc": "2026-10-10",
+    "predecessor_documentation_commit": "1c2d33e15ecce0dccbce25089f88c8ce150acfd0",
+    "accepted_waves": [
+      3,
+      4
+    ],
+    "prior_manifest_sections_retained": true,
+    "prior_count_scope": "The original source_field_review and sources entries describe the predecessor eight-document field-review checkpoint; later bounded tranches are separately enumerated here. Do not count re-retrieval as new historical capture or economic-round evidence.",
+    "phase_complete": false,
+    "global_plateau": false,
+    "rates_promoted": false
+  },
+  "observable_resource_checkpoint": {
+    "as_of_utc": "2026-10-10T05:37:53.781936Z",
+    "checkpoint_sha256": "0f2fe6005218a1f16290c46853e4a0b2c206c3c8e774c2911178358b6b3d6e13",
+    "snapshot_before_this_documentation_publication": true,
+    "approved_phase_JEV_invocation_cap": 24,
+    "observed_JEV_invocations": 23,
+    "returned_JEV_responses": 22,
+    "unique_receipts_with_exact_usage": 21,
+    "known_receipt_input_tokens": 39782,
+    "known_receipt_output_tokens": 2487,
+    "known_receipt_token_subtotal": 42269,
+    "cancelled_invocations_with_unknown_cost": 1,
+    "JEV_slots_remaining": 1,
+    "new_standard_plan_plus_independent_final_calls": 2,
+    "same_phase_budget_decision_required_for_another_standard_cycle": true,
+    "phase_automatically_reset": false,
+    "limitations": "Inspector response tokens, cancelled-call cost, native reasoning tokens, active time, historical usage and full download totals are not fully observed. Known receipt tokens are a subtotal, not complete usage. No global cost, token/time or 500 MB compliance certification."
   }
 }

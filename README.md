@@ -6,7 +6,7 @@ Vera is a probabilistic startup-investment research system. It treats startup ou
 
 Vera retains the Phase 1B Wefunder 2020 reference class and Phase 1C five-platform calibration framework. Republic Europe's candidate analysis retains 24 LOW_INFORMATION RQ1 cells and no reportable RQ2 cells. Wefunder, Republic US, StartEngine and Crowdcube remain historical-denominator-incomplete.
 
-CP10 continuation adds eight independently reviewed Republic document-field scopes and resolves a DOCX format hold. It also records a recovered StartEngine memorandum and three current Wefunder profile checks, with no additional event/profile admission. Source-field checks, native campaign counts and successful parsing do not admit completed economic rounds, outcomes or a full historical census.
+CP10 continuation records successive independently reviewed Republic document-field tranches and resolves a DOCX format hold. The latest two four-document reviews resolve four earlier materialization holds and verify additional offering terms without increasing original capture or economic-round counts. It also records a recovered StartEngine memorandum and three current Wefunder profile checks, with no additional event/profile admission. Source-field checks, native campaign counts and successful parsing do not admit completed economic rounds, outcomes or a full historical census.
 
 Start with [the CP10 continuation checkpoint](checkpoints/PHASE_1D_CP10_CONTINUATION_2026_10_10.md), [the source/hash manifest](evidence/phase1d_cp10/continuation_2026_10_10_manifest.json), [VERSION_PROGRESS.txt](VERSION_PROGRESS.txt) and [SKILLS.md](SKILLS.md).
 
