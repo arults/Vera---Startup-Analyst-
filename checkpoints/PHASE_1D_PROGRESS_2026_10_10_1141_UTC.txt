@@ -1,0 +1,25 @@
+VERA PHASE 1D PROGRESS - 2026-10-10 11:41 UTC
+
+Status: Phase 1D remains incomplete. This is a progress checkpoint, not a production release or a claim that the historical cohort is complete.
+
+VERIFIED LOCAL RELEASES
+- Canonical research ledger v0.4.0: 3 companies and 3 bounded research rounds, including the newly reviewed 18.21 Drinks offering. Independent post-application review passed. The original two-row ledger is preserved unchanged.
+- Separate research-observation ledger v0.3.1: 10 admitted observations, comprising 9 bounded current-round proposals and 1 Nobody Studios current-offering observation. Independent post-application checks passed; this ledger is unchanged by the canonical append.
+- Together these represent 13 research observations. They do not represent 13 resolved economic rounds. There are zero production or estimator admissions.
+
+RESTRICTIONS STILL IN FORCE
+- Nobody Studios retains both closing events, an unresolved prior-financing relation, no merge, null canonical round ID and null estimator clock.
+- 18.21 Drinks has supported completion date 2020-12-15, but its estimator clock is null and outcome is UNKNOWN.
+- Two case-specific canonical holds and two first-launch-2019 exclusions from the fourteen-campaign review remain. Offered caps remain source-scoped metadata; operative/comparable valuation is not inferred from them.
+- The corrected source review supported the narrow ten-observation release. It did not convert the earlier unpassed overall source gate into a pass.
+- No numeric base rates, priors, graph promotion or outcome assumptions were introduced. Historical platform coverage and outcome ascertainment remain incomplete.
+
+GITHUB PUBLICATION BLOCKER
+The new three-row canonical release and ten-observation release artifacts are local only. The larger 38-path observation checkpoint upload stalled twice without a returned GitHub result. Neither attempt was followed by a commit or branch update. The expected tree could not be retrieved; phase-1d was last verified at 42f282b8d32c883df6d4f78b773566a2bec8b29c at 11:37 UTC. Existing earlier checkpoints remain intact. The prepared package is frozen, and no remote CI result is claimed for these unpublished artifacts. This text does not publish or activate those packages.
+
+NEXT COMPLETION GATES
+Safely publish and verify the reviewed artifacts, then continue bounded evidence work on historical cohort coverage, unresolved round/clock cases and outcome linkage. Production estimation remains held until the frozen cohort and outcome gates pass.
+
+REPRODUCIBILITY ANCHORS (SHA-256)
+Canonical v0.4.0: 0605489ed460ea779464a55c805c09e91fb21d4cbd6ece6804d3435d47176c6b
+Observations v0.3.1: 250a95904b82d812e5f61a039f7b3e6cb72f994948b835c65628bcf722393819
