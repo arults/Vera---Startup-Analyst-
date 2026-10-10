@@ -1,0 +1,18 @@
+{
+  "bytes": 12824389,
+  "campaign_url": "https://republic.com/avenify-2020",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/88?view=preview",
+  "gzip_sha256": "4e68f0e54216a7170b430ac936666f29e333f0c87e7dc5ec16069db0c094636e",
+  "http_status": 200,
+  "label": "Avenify Form C.pdf",
+  "parent_sha256": "557f9fdf6c028aba5cccd6c722c4bcc13403011f191e52f37ccec815e582ad9c",
+  "raw_sha256": "3aa58bc6d034051edd489505ee93c89abcaa9425998d2a024ba4c62bbb9260d2",
+  "received_at": "2026-10-10T01:21:26.015069+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:24.317835+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/3aa58bc6d034051edd489505ee93c89abcaa9425998d2a024ba4c62bbb9260d2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/88?view=preview"
+}

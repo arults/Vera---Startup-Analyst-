@@ -1,0 +1,18 @@
+{
+  "bytes": 12369517,
+  "campaign_url": "https://republic.com/ample-foods",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/161?view=preview",
+  "gzip_sha256": "d57dcf0434e354852dd128161075ad9152d6d6a0f9b80fa9eda7813d585488ae",
+  "http_status": 200,
+  "label": "Ample Foods Form C-A 04.08.2020.pdf",
+  "parent_sha256": "6b51446f02e1d505e79a8347595861abbf25d3d014b9856ec3dd0021b2c29b12",
+  "raw_sha256": "26691bb64e010f1c8c3e4b73c8db4967bad5597b4b264edaa567958e611d4509",
+  "received_at": "2026-10-10T01:21:15.238343+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:13.625655+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/26691bb64e010f1c8c3e4b73c8db4967bad5597b4b264edaa567958e611d4509.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/161?view=preview"
+}

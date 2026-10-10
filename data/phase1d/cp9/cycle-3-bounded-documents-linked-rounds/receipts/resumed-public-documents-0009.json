@@ -1,0 +1,18 @@
+{
+  "bytes": 11064471,
+  "campaign_url": "https://republic.com/altwork",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1022?view=preview",
+  "gzip_sha256": "7a0b87a2f5d2ba1821361eb960d229d052c651149d7ecdfc314b2ecc82450882",
+  "http_status": 200,
+  "label": "Altwork Form C.pdf",
+  "parent_sha256": "4b094d376db802b961975d6c6af093658c7bfcaafad4becda1edede2248ef1ba",
+  "raw_sha256": "88a80017c5a375dbaf7dd4edb6104564392de04a27d71c7bc800e2a1d3c94762",
+  "received_at": "2026-10-10T01:21:13.624539+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:12.085417+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/88a80017c5a375dbaf7dd4edb6104564392de04a27d71c7bc800e2a1d3c94762.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1022?view=preview"
+}

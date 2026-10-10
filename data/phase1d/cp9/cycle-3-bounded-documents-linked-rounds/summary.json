@@ -1,0 +1,21 @@
+{
+  "all_prior_data_unchanged": true,
+  "census_complete": false,
+  "completed_at": "2026-10-10T01:21:33.719004+00:00",
+  "document_downloaded_bytes_including_partial_holds": 300037238,
+  "new_campaign_pages_parsed": 3,
+  "new_pdf_magic_verified": 22,
+  "new_public_document_captures": 22,
+  "new_timeline_pairs_verified": 2,
+  "new_timelines_parsed": 3,
+  "prior_data_files_preserved": 2777,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "source_status_counts": {
+    "linked-campaigns:PUBLIC_CAPTURED_UNADJUDICATED": 6,
+    "resumed-public-documents:DOCUMENT_LOCAL_BYTE_LIMIT_HOLD": 1,
+    "resumed-public-documents:NOT_ATTEMPTED_BYTE_BUDGET": 105,
+    "resumed-public-documents:PUBLIC_CAPTURED_UNADJUDICATED": 22
+  },
+  "version": "0.6.4-dev.research.3"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "campaign_url": "https://republic.com/unbanked",
+    "census_complete": false,
+    "date_fields_verified": true,
+    "estimation_eligible": false,
+    "first_live_date": "2022-01-24",
+    "milestones": [
+      [
+        "2022-09-04",
+        "Successfully raised $1,877,287.81 🍾"
+      ],
+      [
+        "2022-01-24",
+        "Launched 🚀"
+      ]
+    ],
+    "native_completion_date": "2022-09-04",
+    "native_offering_id": 984,
+    "offering_year": 2022,
+    "parent_sha256": "a7ca769d4b545772809a3d9a8719929868fa59b308db0b666677ea957d9cfcd7",
+    "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/b32072d44756a40d6170b1c6f7b49903bae6886454798ecae23af9a360f0ee9b.bin.gz",
+    "source_sha256": "b32072d44756a40d6170b1c6f7b49903bae6886454798ecae23af9a360f0ee9b",
+    "year_in_study": true
+  },
+  {
+    "campaign_url": "https://republic.com/quickloadz",
+    "census_complete": false,
+    "date_fields_verified": true,
+    "estimation_eligible": false,
+    "first_live_date": "2024-01-26",
+    "milestones": [
+      [
+        "2024-04-26",
+        "Successfully raised $147,982.01 🍾"
+      ],
+      [
+        "2024-01-26",
+        "Launched 🚀"
+      ]
+    ],
+    "native_completion_date": "2024-04-26",
+    "native_offering_id": 5529,
+    "offering_year": 2024,
+    "parent_sha256": "54a8cfe905775529dd6949084c4cb04fe50317f34f69dbddebdfdad18e3f98d2",
+    "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/19f1579a309cc6162f65e2e65c420ca8a2787f7be053d71f4846d8f278ec86f9.bin.gz",
+    "source_sha256": "19f1579a309cc6162f65e2e65c420ca8a2787f7be053d71f4846d8f278ec86f9",
+    "year_in_study": true
+  },
+  {
+    "campaign_url": "https://republic.com/alpha-flow",
+    "error": "ambiguous campaign milestones",
+    "source_sha256": "d1834f4f6353b0639a6386dc1d63aeb1edb6f2c4957a4a65e639759f20a0f4f2",
+    "status": "TIMELINE_SCHEMA_HOLD"
+  }
+]

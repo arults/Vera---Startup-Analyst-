@@ -1,0 +1,14 @@
+{
+  "campaign_url": "https://republic.com/blue",
+  "content_type": "application/pdf",
+  "downloaded_bytes": 28639232,
+  "final_url": "https://republic.com/documents/175?view=preview",
+  "http_status": 200,
+  "label": "Blue Form C-A 04.28.2020.pdf",
+  "parent_sha256": "bc84431b48721097a139bf14acc1cd0bac6521c846305d3d0e3d24c57af08870",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:32.160146+00:00",
+  "source_group": "resumed-public-documents",
+  "status": "DOCUMENT_LOCAL_BYTE_LIMIT_HOLD",
+  "url": "https://republic.com/documents/175?view=preview"
+}

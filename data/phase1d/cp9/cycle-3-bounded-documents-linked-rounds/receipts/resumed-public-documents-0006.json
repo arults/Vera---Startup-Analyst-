@@ -1,0 +1,18 @@
+{
+  "bytes": 13551535,
+  "campaign_url": "https://republic.com/a-boring-life",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/129?view=preview",
+  "gzip_sha256": "aecadae79565235357cc301143095cea95e42d148b734c2f8f419047917a962e",
+  "http_status": 200,
+  "label": "A Boring Life Form C.pdf",
+  "parent_sha256": "e932f49dda4ad9a245ce7718b5d6ff9398ac55f73720c312e3b5fbab79969333",
+  "raw_sha256": "93cc464f9ad0dfc18d9fede7cf345816fcb9ff5e3d2cfd481d9ff3bae94858bd",
+  "received_at": "2026-10-10T01:21:08.176893+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:06.704948+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/93cc464f9ad0dfc18d9fede7cf345816fcb9ff5e3d2cfd481d9ff3bae94858bd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/129?view=preview"
+}

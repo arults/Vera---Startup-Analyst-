@@ -1,0 +1,775 @@
+[
+  {
+    "campaign_url": "https://republic.com/unbanked",
+    "discovery": "Exactnewcampaignpublicdocumentlink",
+    "label": "Unbanked Form C:A #2.pdf",
+    "parent_sha256": "a7ca769d4b545772809a3d9a8719929868fa59b308db0b666677ea957d9cfcd7",
+    "url": "https://republic.com/documents/1183?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/unbanked",
+    "discovery": "Exactnewcampaignpublicdocumentlink",
+    "label": "Unbanked Form C:A.pdf",
+    "parent_sha256": "a7ca769d4b545772809a3d9a8719929868fa59b308db0b666677ea957d9cfcd7",
+    "url": "https://republic.com/documents/1133?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/unbanked",
+    "discovery": "Exactnewcampaignpublicdocumentlink",
+    "label": "Unbanked Form C.pdf",
+    "parent_sha256": "a7ca769d4b545772809a3d9a8719929868fa59b308db0b666677ea957d9cfcd7",
+    "url": "https://republic.com/documents/990?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/quickloadz",
+    "discovery": "Exactnewcampaignpublicdocumentlink",
+    "label": "Quick Loadz Form C .pdf",
+    "parent_sha256": "54a8cfe905775529dd6949084c4cb04fe50317f34f69dbddebdfdad18e3f98d2",
+    "url": "https://republic.com/documents/7220?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/alpha-flow",
+    "discovery": "Exactnewcampaignpublicdocumentlink",
+    "label": "Alphaflow Form C.pdf",
+    "parent_sha256": "57a62fb97c07c2b7fa907b35fcaeb0599c80a91d6a5abc978a36e166498e5b1e",
+    "url": "https://republic.com/documents/1627?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/a-boring-life",
+    "label": "A Boring Life Form C.pdf",
+    "parent_sha256": "e932f49dda4ad9a245ce7718b5d6ff9398ac55f73720c312e3b5fbab79969333",
+    "url": "https://republic.com/documents/129?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/alphaflow",
+    "label": "AlphaFlow Form C.pdf",
+    "parent_sha256": "2e4987c0a45a34e4f96f261adfdf8c055d6d04b55ced7b38f49805b9822c0890",
+    "url": "https://republic.com/documents/595?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/altwork",
+    "label": "Altwork Form C:A.pdf",
+    "parent_sha256": "4b094d376db802b961975d6c6af093658c7bfcaafad4becda1edede2248ef1ba",
+    "url": "https://republic.com/documents/1075?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/altwork",
+    "label": "Altwork Form C.pdf",
+    "parent_sha256": "4b094d376db802b961975d6c6af093658c7bfcaafad4becda1edede2248ef1ba",
+    "url": "https://republic.com/documents/1022?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ample-foods",
+    "label": "Ample Foods Form C-A 04.08.2020.pdf",
+    "parent_sha256": "6b51446f02e1d505e79a8347595861abbf25d3d014b9856ec3dd0021b2c29b12",
+    "url": "https://republic.com/documents/161?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ample-foods",
+    "label": "Ample Foods Form C.pdf",
+    "parent_sha256": "6b51446f02e1d505e79a8347595861abbf25d3d014b9856ec3dd0021b2c29b12",
+    "url": "https://republic.com/documents/150?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/arka",
+    "label": "Arka Form C Amendment 12.29.2022.pdf",
+    "parent_sha256": "787a142c22fb92c0b9ee2ead04bee7067391cf977086b7bd49f3372f45d02933",
+    "url": "https://republic.com/documents/1907?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/arka",
+    "label": "Arka Form C Amendment 11.21.2022.pdf",
+    "parent_sha256": "787a142c22fb92c0b9ee2ead04bee7067391cf977086b7bd49f3372f45d02933",
+    "url": "https://republic.com/documents/1906?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/arka",
+    "label": "Arka Form C.pdf",
+    "parent_sha256": "787a142c22fb92c0b9ee2ead04bee7067391cf977086b7bd49f3372f45d02933",
+    "url": "https://republic.com/documents/1560?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/arlene",
+    "label": "Arlene Form C.pdf",
+    "parent_sha256": "cd075b62b99bfd7d2316f788833e813388897495f8ae13165a52a6d5574903dc",
+    "url": "https://republic.com/documents/562?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/avenify-2020",
+    "label": "Avenify Form C-A 03.26.2020.pdf",
+    "parent_sha256": "557f9fdf6c028aba5cccd6c722c4bcc13403011f191e52f37ccec815e582ad9c",
+    "url": "https://republic.com/documents/157?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/avenify-2020",
+    "label": "Avenify Form C-A 11.06.19.pdf",
+    "parent_sha256": "557f9fdf6c028aba5cccd6c722c4bcc13403011f191e52f37ccec815e582ad9c",
+    "url": "https://republic.com/documents/96?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/avenify-2020",
+    "label": "Avenify Form C.pdf",
+    "parent_sha256": "557f9fdf6c028aba5cccd6c722c4bcc13403011f191e52f37ccec815e582ad9c",
+    "url": "https://republic.com/documents/88?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/axle-ai-2020",
+    "label": "Axle.ai Form C.pdf",
+    "parent_sha256": "41a3527e8d5b631dcd0af4ce39c840588c15778f0e73ca6080c575636dca99f6",
+    "url": "https://republic.com/documents/153?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/base8",
+    "label": "Base8 Form C.pdf",
+    "parent_sha256": "c71ec5fdc1ac7b4140a8a4c74abedeb24db615e53559ffd596c222b09a1c2765",
+    "url": "https://republic.com/documents/11828?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/beacons-ai",
+    "label": "Beacons AI Form C.pdf",
+    "parent_sha256": "bcc0d53dc9649b4b1057e155dea4e98911ae18b0dc15cb925bbb10c268aa3ef7",
+    "url": "https://republic.com/documents/454?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/blue",
+    "label": "Blue Form C-A 05.29.2020.pdf",
+    "parent_sha256": "bc84431b48721097a139bf14acc1cd0bac6521c846305d3d0e3d24c57af08870",
+    "url": "https://republic.com/documents/207?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/blue",
+    "label": "Blue Form C-A 04.28.2020.pdf",
+    "parent_sha256": "bc84431b48721097a139bf14acc1cd0bac6521c846305d3d0e3d24c57af08870",
+    "url": "https://republic.com/documents/175?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/bounty0x",
+    "label": "Bounty0x Form C",
+    "parent_sha256": "516eb14681abd84cd5f442b154ff58597cbffab39fb6b21fd42a8a36f4f43928",
+    "url": "https://republic.com/documents/63?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/bucket-list",
+    "label": "The Bucket List Studios Form C:A.pdf",
+    "parent_sha256": "79050f084b45a23b8ebff2f005eb21ef9d2f520f51bda2a55a98257d4451e483",
+    "url": "https://republic.com/documents/686?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/bucket-list",
+    "label": "The Bucket List Studios Form C.pdf",
+    "parent_sha256": "79050f084b45a23b8ebff2f005eb21ef9d2f520f51bda2a55a98257d4451e483",
+    "url": "https://republic.com/documents/659?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/buff-bake",
+    "label": "Form C:A - Buff Bake Inc. 01.12.2020.pdf",
+    "parent_sha256": "af61da34e0f4b4c94b62bd83bdcd7717fdaa86789e9b1ea369e59f9cee4172e3",
+    "url": "https://republic.com/documents/125?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/buff-bake",
+    "label": "Buff Bake Form C.pdf",
+    "parent_sha256": "af61da34e0f4b4c94b62bd83bdcd7717fdaa86789e9b1ea369e59f9cee4172e3",
+    "url": "https://republic.com/documents/104?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/buy-alerts",
+    "label": "BuyAlerts Form C.pdf",
+    "parent_sha256": "be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a",
+    "url": "https://republic.com/documents/2160?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/callingdr",
+    "label": "CallingDr Form C-A.pdf",
+    "parent_sha256": "0a0c0839b978bd5d69d067a6e732892185b49d271f8cdffe890328872c9456ff",
+    "url": "https://republic.com/documents/217?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/capsule-social",
+    "label": "Capsule Social Form C.pdf",
+    "parent_sha256": "c02a1ac507dbd80d0c3f3d3ce66a1f1e0bcaa128821749869fe52167d90a115a",
+    "url": "https://republic.com/documents/1211?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/chilling",
+    "label": "Chilling Form C.pdf",
+    "parent_sha256": "3a8d208661c2f2d5990791ec700d8af718044b24198487359213f5abd0b21cc7",
+    "url": "https://republic.com/documents/1555?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/choix",
+    "label": "Choix Form C.pdf",
+    "parent_sha256": "5a2a7b0e509e1f1226e2a20b4dee8fb076987abd73d4cc75eb9ff9390a5e5973",
+    "url": "https://republic.com/documents/1696?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/citiesense",
+    "label": "Citiesense Form C.pdf",
+    "parent_sha256": "916c2daaa062fdd875fd263c8d4f110cc79d4909b40f5a49e1e38ba373bd7694",
+    "url": "https://republic.com/documents/71?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/compound-reach",
+    "label": "Compound Projects Form C:A 02.11.2020.pdf",
+    "parent_sha256": "545d0b9a7352a0aaea7df5a6bf917fb2e3e3b7fd93fad6120a8fb84e80b60558",
+    "url": "https://republic.com/documents/140?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/cricclubs",
+    "label": "CricClubs Form C.pdf",
+    "parent_sha256": "83136c730d12a4a0afcee2b5b5e1e4228e4fbf876b73e11a425875f8967cbf70",
+    "url": "https://republic.com/documents/159?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/currently-wine",
+    "label": "Proud Pour (Currently Wine) Form C.pdf",
+    "parent_sha256": "d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581",
+    "url": "https://republic.com/documents/14127?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/delee-2019",
+    "label": "Delee Form C.pdf",
+    "parent_sha256": "b8059678f823e98bf527c3b07844ba99113cac57d31842eb28920e2321df4b4d",
+    "url": "https://republic.com/documents/109?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/digital-dream-labs-2020",
+    "label": "Digital Dream Labs Form C:A.pdf",
+    "parent_sha256": "b65cb30dce8eda38b9a329192cfe8da8824c0ccc9a74163655c92e72db6e15c0",
+    "url": "https://republic.com/documents/80?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/dispatch-goods",
+    "label": "Dispatch Goods Form C.pdf",
+    "parent_sha256": "6fef4dfb697f9152058156afc8bdf128969102a8c9d000a294843dd79b9339a2",
+    "url": "https://republic.com/documents/132?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/dorahacks",
+    "label": "Dora Form C-A 12.19.19.pdf",
+    "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+    "url": "https://republic.com/documents/112?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/dorahacks",
+    "label": "Form C:A 12.5.19.pdf",
+    "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+    "url": "https://republic.com/documents/108?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/dryvebox",
+    "label": "Dryvebox Form C.pdf",
+    "parent_sha256": "d7a93f047c9680832619137013b1ef16ae855a35890546a9b79b37a9de12adf9",
+    "url": "https://republic.com/documents/851?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ecotone-renewables",
+    "label": "Ecotone - Form C.pdf",
+    "parent_sha256": "aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+    "url": "https://republic.com/documents/13499?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ember-fund-2019",
+    "label": "Ember Fund Form C-A 01.21.2020.pdf",
+    "parent_sha256": "09a8535f48fb1d252fcf7bcfaa24db65b47d7095b4ba1cf99d972611764feb60",
+    "url": "https://republic.com/documents/127?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/event-hollow",
+    "label": "Event Hollow Form C-A 4.28.20.pdf",
+    "parent_sha256": "dd95c4710cb9ddafbc82ac49a65b6afb70f93d8d2ed97e74970194c211e99038",
+    "url": "https://republic.com/documents/178?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/fashwire",
+    "label": "Fashwire Form C-A 4.29.20.pdf",
+    "parent_sha256": "424eb6c91bb65186673a7e3e74b22ca5e5a4d4be6672e56e8d45822efcbefcaa",
+    "url": "https://republic.com/documents/180?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/fashwire",
+    "label": "Fashwire Form C.pdf",
+    "parent_sha256": "424eb6c91bb65186673a7e3e74b22ca5e5a4d4be6672e56e8d45822efcbefcaa",
+    "url": "https://republic.com/documents/133?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/fcf-glacier-boyz-2021",
+    "label": "FCF Team 1 - Glacier Boys Form C:A.pdf",
+    "parent_sha256": "f0f02890dd8932da558572b1781be62e7b4730388aada08993ae9cc306203f38",
+    "url": "https://republic.com/documents/533?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/fcf-glacier-boyz-2021",
+    "label": "FCF Team 1 – Glacier Boyz Form C.pdf",
+    "parent_sha256": "f0f02890dd8932da558572b1781be62e7b4730388aada08993ae9cc306203f38",
+    "url": "https://republic.com/documents/430?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/fund-the-first",
+    "label": "Fund the First Form C:A.pdf",
+    "parent_sha256": "034751d89623cdfb04b4af0955762c7d2501ec29bf7a7e331ce2a65a42c1347f",
+    "url": "https://republic.com/documents/781?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/fund-the-first",
+    "label": "Fund the First Form C.pdf",
+    "parent_sha256": "034751d89623cdfb04b4af0955762c7d2501ec29bf7a7e331ce2a65a42c1347f",
+    "url": "https://republic.com/documents/585?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/get-on-board",
+    "label": "Get On Board - Form C.pdf",
+    "parent_sha256": "5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569",
+    "url": "https://republic.com/documents/8607?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/gopillar",
+    "label": "GoPillar Form C.pdf",
+    "parent_sha256": "21bd74c4ae2a1bb4016781880b6dc80e228ffa5ba09dd22e1364f34f5f7b23b8",
+    "url": "https://republic.com/documents/1628?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/groundfloor",
+    "label": "Groundfloor Finance Form C.pdf",
+    "parent_sha256": "6d854cd3fbcbbb5d28e5e07896cbfaef26cc0fc687481b3a5cdd0445815aa029",
+    "url": "https://republic.com/documents/11389?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/growing-talent",
+    "label": "Growing Talent Form C:A 2.5.2020.pdf",
+    "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+    "url": "https://republic.com/documents/138?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/growing-talent",
+    "label": "Growing Talent Form C:A 11.8.19.pdf",
+    "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+    "url": "https://republic.com/documents/100?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/hawaiian-bros",
+    "label": "Hawaiian Bros Form C.pdf",
+    "parent_sha256": "f8407c06b94c8ff0659f82ba26c607e33f1216508e51ddd0f733e3af9952817f",
+    "url": "https://republic.com/documents/1069?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/helloava",
+    "label": "HelloAva Form C-A.pdf",
+    "parent_sha256": "6c15b1f0f3dd99cc44ba6536159d5bce2f38983d192ef47878d20b8521528116",
+    "url": "https://republic.com/documents/93?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/hellowoofy-december-2019",
+    "label": "Woofy Form C:A 02.12.2020.pdf",
+    "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+    "url": "https://republic.com/documents/142?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/hellowoofy-december-2019",
+    "label": "Woofy Form C:A 01.14.2020.pdf",
+    "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+    "url": "https://republic.com/documents/126?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/hellowoofy-december-2019",
+    "label": "HelloWoofy Form C.pdf",
+    "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+    "url": "https://republic.com/documents/115?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/hold-the-magic",
+    "label": "Hold the Magic Form C.pdf",
+    "parent_sha256": "6e5054aff15aac2aab0353b670b51878514d00d912c2656e55daeaf27b10f024",
+    "url": "https://republic.com/documents/1190?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/holmehadfield",
+    "label": "Holme and Hadfield Form C:A.pdf",
+    "parent_sha256": "c24761b56fc86695c3efab42df3887b42b2d4881d821d0c5ebe87b9ffc71e32f",
+    "url": "https://republic.com/documents/11190?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/holmehadfield",
+    "label": "Holme & Hadfield LLC Form C.pdf",
+    "parent_sha256": "c24761b56fc86695c3efab42df3887b42b2d4881d821d0c5ebe87b9ffc71e32f",
+    "url": "https://republic.com/documents/9361?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/inahsi",
+    "label": "Inahsi Form C:A.pdf",
+    "parent_sha256": "c597131dc5ed153a811d510a7d81515295ab05aed770301779a06b2ed99ba655",
+    "url": "https://republic.com/documents/806?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/inahsi",
+    "label": "Inahsi Form C.pdf",
+    "parent_sha256": "c597131dc5ed153a811d510a7d81515295ab05aed770301779a06b2ed99ba655",
+    "url": "https://republic.com/documents/741?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/inlightened",
+    "label": "Inlightened Form C.pdf",
+    "parent_sha256": "cedf155f7daf0beea2b1a3dd319e665cfdcc103191569f6ed971e59fc979e5c7",
+    "url": "https://republic.com/documents/1595?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ip3",
+    "label": "IP3 Labs Inc Form C.pdf",
+    "parent_sha256": "c47190bf61700556d40f351b0551722a51d5c6d9d490dc96007c11b2bf7742c7",
+    "url": "https://republic.com/documents/11256?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/janover-ventures",
+    "label": "Janover Ventures Form C:A 11.2020.pdf",
+    "parent_sha256": "b4efa55b4b54d1b8a84cb4f23f019b490d3869bad9a622a1d519da70bcfa1961",
+    "url": "https://republic.com/documents/335?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/jar-goods",
+    "label": "Jar Goods Form C.pdf",
+    "parent_sha256": "12c1d1ba91248aecab423c6b7bbf9b14be436865bfc64a29c36b54ae62e71817",
+    "url": "https://republic.com/documents/189?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/layali",
+    "label": "Layali Form C:A.pdf",
+    "parent_sha256": "ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+    "url": "https://republic.com/documents/113?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/layali",
+    "label": "Layali Form C.pdf",
+    "parent_sha256": "ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+    "url": "https://republic.com/documents/82?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/lynx-city",
+    "label": "Lynx City Form C.pdf",
+    "parent_sha256": "e8fd45246649df387ebfd6a8060af46cf30dd9c4c86fb0c62c36845866f28f61",
+    "url": "https://republic.com/documents/471?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/maven",
+    "label": "Didactic Form C-A.pdf",
+    "parent_sha256": "320d5b71e4fec16ecfbc5e799b4871b2e148f7748af67c75a97f77049d7cc2da",
+    "url": "https://republic.com/documents/467?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/moriondo-coffee",
+    "label": "Moriondo Coffee Form C.pdf",
+    "parent_sha256": "16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+    "url": "https://republic.com/documents/1870?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/nanno-2019",
+    "label": "Nanno Form C-A 11.06.19.pdf",
+    "parent_sha256": "43279a9b80fffe9df7dc693d1183e650013981b2564114b101ac2d36ef5f19fd",
+    "url": "https://republic.com/documents/97?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/natural-selection",
+    "label": "Natural Selection Form C.pdf",
+    "parent_sha256": "5e54e1466501c78c84586de44e44d511fe97baa86151d5f9317bc4b470408450",
+    "url": "https://republic.com/documents/122?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/nobodystudios",
+    "label": "Nobody Studios Form C:A.pdf",
+    "parent_sha256": "53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62",
+    "url": "https://republic.com/documents/2066?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/people-first-rh",
+    "label": "PeopleFirstRH Form C.pdf",
+    "parent_sha256": "a5a03b66d30403fc8d19430dce997029af84b8493ce2612efd3c4f8f88eb7e94",
+    "url": "https://republic.com/documents/208?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/phantom-phood",
+    "label": "Phantom Phood Form C.pdf",
+    "parent_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+    "url": "https://republic.com/documents/2055?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/plain-sight",
+    "label": "Plain Sight Form C:A.pdf",
+    "parent_sha256": "b1448f08e95c7573f10faa445c7ada0c8fd27e195229f6bbb368f888eccaa196",
+    "url": "https://republic.com/documents/565?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/plain-sight",
+    "label": "Plain Sight Form C.pdf",
+    "parent_sha256": "b1448f08e95c7573f10faa445c7ada0c8fd27e195229f6bbb368f888eccaa196",
+    "url": "https://republic.com/documents/496?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/plant-an-app",
+    "label": "Plant an App Form C:A.pdf",
+    "parent_sha256": "b5739d62d2c88b89432855834bb870cbbd3464782871b2d7346fb4dd8bdb984c",
+    "url": "https://republic.com/documents/443?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/plei-jan-2020",
+    "label": "Plei Form C.pdf",
+    "parent_sha256": "d757196a9052b4318ac39a9af2c6b1d274bf5f8c8ff6de4362bf75e1ecd8d28e",
+    "url": "https://republic.com/documents/128?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/popularium",
+    "label": "Popularium Form C.pdf",
+    "parent_sha256": "3a61fce37095663e12b29ba818db94262d2fa695a268df0bc5c65c18d506620c",
+    "url": "https://republic.com/documents/13532?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/qoins",
+    "label": "Qoins Form C.pdf",
+    "parent_sha256": "8703082b50563378f1d0ebb71ea367492d8b4cee8319c880e646a06d742cc248",
+    "url": "https://republic.com/documents/845?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/quickloadz-2022",
+    "label": "Quick Loadz Form C:A.pdf",
+    "parent_sha256": "a4cc0392cb452a408b74ecad95e044967a2a52a75d547e55f59b511104a486fd",
+    "url": "https://republic.com/documents/1063?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/quickloadz-2022",
+    "label": "Quick Loadz Form C.pdf",
+    "parent_sha256": "a4cc0392cb452a408b74ecad95e044967a2a52a75d547e55f59b511104a486fd",
+    "url": "https://republic.com/documents/977?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ready-set-jet",
+    "label": "Ready Set Jet Form C.pdf",
+    "parent_sha256": "eaa38f9a74b6e3b78c8008e6f7b31568b9393e032b655209ddbc6ec6cd44be50",
+    "url": "https://republic.com/documents/468?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/realtyfeed",
+    "label": "Realtyna Form C.pdf",
+    "parent_sha256": "f67fc4abcd6a0c4028b248b0863d524f47f84d8bab1036be77cb09a1e59bd8ad",
+    "url": "https://republic.com/documents/390?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/reental",
+    "label": "Reental Form C Amendment 7.19.2024.pdf",
+    "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+    "url": "https://republic.com/documents/10583?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/reental",
+    "label": "Reental Form C.pdf",
+    "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+    "url": "https://republic.com/documents/8407?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/reflex-protect",
+    "label": "Reflex Protect Form C.pdf",
+    "parent_sha256": "276876cb03f9a31a11360005431401db6e77392f24dfa4505981cf0a9b88594f",
+    "url": "https://republic.com/documents/162?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/rehabpath",
+    "label": "RehabPath Form C.pdf",
+    "parent_sha256": "360bf912dd3fcce9aa0d41ff32159e359a3397cbc351760d77ae0d5541a2b60e",
+    "url": "https://republic.com/documents/107?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/revero",
+    "label": "Revero Form C.pdf",
+    "parent_sha256": "976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+    "url": "https://republic.com/documents/19104?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ring4",
+    "label": "Ring4 Form C.pdf",
+    "parent_sha256": "d30a96b61153b88ea9f27ca90052213b835c124f312a82f9ff14b4ab05d6ea55",
+    "url": "https://republic.com/documents/32?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/rocket-dollar",
+    "label": "RocketDollar Form C and Exhibits (12.27.19).pdf",
+    "parent_sha256": "233bd937e7d1478182e5b732ce7b57284880a6f7bb12d5bfbf6e418c126f0b4e",
+    "url": "https://republic.com/documents/117?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/share-scoops-inc",
+    "label": "Share Scoops Form C.pdf",
+    "parent_sha256": "795a51335275e97a770fa8a226b30cfac715e9d1efecd07906400114fa5025a9",
+    "url": "https://republic.com/documents/2071?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/sienna-sauce-2020",
+    "label": "Sienna Sauce Form C.pdf",
+    "parent_sha256": "f3498218092a95f9a2207ebe158c0fc717660762e7cc98a5eb75019071f22585",
+    "url": "https://republic.com/documents/147?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/skyhi",
+    "label": "Form C-A SkyHi 1.7.20.pdf",
+    "parent_sha256": "9907b59f3610850aa18a102bef96d4a51d41c97e3b631973da7b70aa9cb909bf",
+    "url": "https://republic.com/documents/119?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/soar-robotics",
+    "label": "Soar Robotics Form C-A 12.19.19.pdf",
+    "parent_sha256": "55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+    "url": "https://republic.com/documents/111?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/soon",
+    "label": "Soon Form C.pdf",
+    "parent_sha256": "39161b48e118580ae9dd2472f91267d413d83719e7d4056604ec7c9d57a473a6",
+    "url": "https://republic.com/documents/3085?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/stareable",
+    "label": "Stareable Form C.pdf",
+    "parent_sha256": "075b7b6d99f1f540b2a3e2e868bdc3807ebf9ec7d30782362862299f13a94980",
+    "url": "https://republic.com/documents/114?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/startglobal",
+    "label": "StartGlobal Form C.docx",
+    "parent_sha256": "0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+    "url": "https://republic.com/documents/11091?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/status-money",
+    "label": "Status Money Form C .pdf",
+    "parent_sha256": "7f25848bc1a5a45ce264b62cdb3e9d3ddfe27c1ced79284ce5bebbdc0dc68633",
+    "url": "https://republic.com/documents/85?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/stockcard",
+    "label": "Stock Card Form C.pdf",
+    "parent_sha256": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042",
+    "url": "https://republic.com/documents/1625?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/sunu",
+    "label": "Sunu Form C-A 4.29.20.pdf",
+    "parent_sha256": "f93d05d880802cf3e73009ef289680c74c46536dded7d19b0011793f7bf37525",
+    "url": "https://republic.com/documents/182?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/sweetberry",
+    "label": "SweetBerry Form C:A 4.23.2020.pdf",
+    "parent_sha256": "4192e0f0cb6844429776712abe38b0a5dc14e6ddbf9ae50c42a1ae7a85230e8b",
+    "url": "https://republic.com/documents/169?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/sweetberry",
+    "label": "Sweetberry Form C.pdf",
+    "parent_sha256": "4192e0f0cb6844429776712abe38b0a5dc14e6ddbf9ae50c42a1ae7a85230e8b",
+    "url": "https://republic.com/documents/99?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/tallyfy",
+    "label": "Tallyfy Form C:A 10.17.19.pdf",
+    "parent_sha256": "47a890283f26cefb32a64d49a08fad8e12206413614ce4934084936f92e1a5aa",
+    "url": "https://republic.com/documents/90?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/teooh",
+    "label": "Teooh Form C-A 6.1.20.pdf",
+    "parent_sha256": "fc819eeea756571473f1dec1681d0c829aec3a3dbb6588048617314d21d84333",
+    "url": "https://republic.com/documents/209?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/ternio",
+    "label": "Ternio Form C-A 4.27.20.pdf",
+    "parent_sha256": "7841f09b4a009939b1b77e9d9f51ea7e7191cb4d3a2dcf9f92f14835ee7e096d",
+    "url": "https://republic.com/documents/172?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/the-cru",
+    "label": "The Cru Form C.pdf",
+    "parent_sha256": "eb6b0ff519f5eff50d0dc0f142af971f18a1fa64f420b3fe0d1988e15b2c400d",
+    "url": "https://republic.com/documents/2076?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/the-lieu",
+    "label": "The Lieu Form C:A 02.25.2020.pdf",
+    "parent_sha256": "d41c90aafdb883298f7091c6834edcc9b5d3867ddb79c97d778805c6c0fb5b6c",
+    "url": "https://republic.com/documents/146?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/the-sports-bra",
+    "label": "The Sports Bra Form C.pdf",
+    "parent_sha256": "d93a168c9838371354a96e92e70e07ea72377e8f96c3337f14728b5329385e14",
+    "url": "https://republic.com/documents/23364?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/tracflo",
+    "label": "TracFlo Form C.pdf",
+    "parent_sha256": "ce3b98807791eb12ae5c6fa9b747c1fdd6f3ffd22190e5da233264b140f753b8",
+    "url": "https://republic.com/documents/669?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/trust-exchange",
+    "label": "Trust Exchange Form C.pdf",
+    "parent_sha256": "3ca4b77967966bb8d61a55b48d8939099efee72a6dae0d08f567c38980f21c52",
+    "url": "https://republic.com/documents/7592?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/upside-app",
+    "label": "Vision Sports Ventures, PBC (Upside) Form C .pdf",
+    "parent_sha256": "e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c",
+    "url": "https://republic.com/documents/11124?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/vonmercier",
+    "label": "VonMercier Form C.pdf",
+    "parent_sha256": "5eac4834130268793dad125a55fc15f34bdd12f85c28620b1612c1087065d078",
+    "url": "https://republic.com/documents/1513?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/wandering-barman",
+    "label": "Wandering Barman Form C:A 02.28.2020.pdf",
+    "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+    "url": "https://republic.com/documents/149?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/wandering-barman",
+    "label": "Wandering Barman Form C.pdf",
+    "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+    "url": "https://republic.com/documents/94?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/watrfall",
+    "label": "Watrfall - Form C-A.pdf",
+    "parent_sha256": "aa2cc40f3ee3422be74d432ce8e23d4025bb8d7aa225d6e66f77bee4a47e8a66",
+    "url": "https://republic.com/documents/18265?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/wayzn",
+    "label": "Wayzn Form C.pdf",
+    "parent_sha256": "effe114f84fde56406b862b0a4cc93dfb839a3e28d95e1ee62fabd7c24763a00",
+    "url": "https://republic.com/documents/288?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/welivv",
+    "label": "WeLivv Form C:A.pdf",
+    "parent_sha256": "140fc55cd1a88db074727f90ae585d02316b68a049f558ebd8563ba75e422858",
+    "url": "https://republic.com/documents/73?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/welivv",
+    "label": "WeLivv Form C.pdf",
+    "parent_sha256": "140fc55cd1a88db074727f90ae585d02316b68a049f558ebd8563ba75e422858",
+    "url": "https://republic.com/documents/72?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/wellwell",
+    "label": "WellWell Form C.pdf",
+    "parent_sha256": "76fe770947652a0a98e2defe404aab64262a6f7ec1a6d0312fd39f149070646d",
+    "url": "https://republic.com/documents/345?view=preview"
+  },
+  {
+    "campaign_url": "https://republic.com/zoop",
+    "label": "Zoop Form C.pdf",
+    "parent_sha256": "ac9f46eccac12ca8ac56b8ba0918fc2dff0bf49d3e565eb729612c2c420b9036",
+    "url": "https://republic.com/documents/8202?view=preview"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "bytes": 505836,
+  "campaign_url": "https://republic.com/base8",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/11828?view=preview",
+  "gzip_sha256": "daf36bb08947d8a9e8502650f3f6e4e40636f347ed3ee92adea9c34d6ce6d99f",
+  "http_status": 200,
+  "label": "Base8 Form C.pdf",
+  "parent_sha256": "c71ec5fdc1ac7b4140a8a4c74abedeb24db615e53559ffd596c222b09a1c2765",
+  "raw_sha256": "3fddfa10baf56a364bc582f3f9b37b54145ed316895c3f5682ebb4f77fa9b038",
+  "received_at": "2026-10-10T01:21:28.532192+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:27.726125+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/3fddfa10baf56a364bc582f3f9b37b54145ed316895c3f5682ebb4f77fa9b038.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/11828?view=preview"
+}

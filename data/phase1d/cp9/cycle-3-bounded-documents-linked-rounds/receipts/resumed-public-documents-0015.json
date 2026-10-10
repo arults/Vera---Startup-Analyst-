@@ -1,0 +1,18 @@
+{
+  "bytes": 25779531,
+  "campaign_url": "https://republic.com/arlene",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/562?view=preview",
+  "gzip_sha256": "2ade8f016f8db0d93c48fd0860e1b4f7fffee1b1762430618447e6631458a325",
+  "http_status": 200,
+  "label": "Arlene Form C.pdf",
+  "parent_sha256": "cd075b62b99bfd7d2316f788833e813388897495f8ae13165a52a6d5574903dc",
+  "raw_sha256": "44ab5b15608fe0ab24fd84dd2d499aa7af2ce53f0019c6f2cd4ea1f40834bfe2",
+  "received_at": "2026-10-10T01:21:20.872452+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:18.876043+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/44ab5b15608fe0ab24fd84dd2d499aa7af2ce53f0019c6f2cd4ea1f40834bfe2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/562?view=preview"
+}

@@ -1,0 +1,17 @@
+{
+  "bytes": 127735,
+  "campaign_url": "https://republic.com/unbanked",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/unbanked/show_updates",
+  "gzip_sha256": "e44a35a8f1a550d3d8b1bc42a50c2ac683c2aec3b5aea713573ce299c92bf833",
+  "http_status": 200,
+  "parent_sha256": "a7ca769d4b545772809a3d9a8719929868fa59b308db0b666677ea957d9cfcd7",
+  "raw_sha256": "b32072d44756a40d6170b1c6f7b49903bae6886454798ecae23af9a360f0ee9b",
+  "received_at": "2026-10-10T01:20:55.683649+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:20:54.768601+00:00",
+  "source_group": "linked-campaigns",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/b32072d44756a40d6170b1c6f7b49903bae6886454798ecae23af9a360f0ee9b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/unbanked/show_updates"
+}
