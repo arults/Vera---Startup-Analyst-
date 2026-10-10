@@ -1,0 +1,72 @@
+name: Phase 1D CP9 third empirical cycle
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp9-cycle3.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp9-empirical
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests beautifulsoup4
+      - name: Execute bounded size-held document recovery and new source-linked rounds
+        run: python -m src.phase1d.capture_cp9_cycle3
+      - name: Complete regression suite
+        if: always()
+        run: |
+          mkdir -p evidence/phase1d_cp9/cycle-3
+          python -m unittest discover -s tests -v > evidence/phase1d_cp9/cycle-3/full-tests.txt 2>&1
+          tail -8 evidence/phase1d_cp9/cycle-3/full-tests.txt
+      - name: Verify hashes, earlier-data immutability and no promotion
+        run: |
+          python - <<'PY'
+          import json,gzip,hashlib
+          from pathlib import Path
+          p=Path('data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds');sha=lambda b:hashlib.sha256(b).hexdigest()
+          old=json.loads((p/'preserved_before.json').read_text())
+          assert all(Path(k).is_file() and sha(Path(k).read_bytes())==v for k,v in old.items())
+          n=0
+          for r in json.loads((p/'manifest.json').read_text()):
+              if r.get('source_path'):
+                  b=Path(r['source_path']).read_bytes();assert sha(b)==r['gzip_sha256'];assert sha(gzip.decompress(b))==r['raw_sha256'];n+=1
+          s=json.loads((p/'summary.json').read_text());assert not s['rates_promoted'] and not s['census_complete'] and not s['research_plateau']
+          result={'prior_files_unchanged':len(old),'new_source_hashes_verified':n,'numeric_promotions':0,'scope':'Byte/source integrity, not semantic outcome approval'}
+          with open('evidence/phase1d_cp9/cycle-3/integrity.json','x') as f:json.dump(result,f,indent=2)
+          print(result)
+          PY
+      - name: Preserve additive actual outputs
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/phase1d/cp9 evidence/phase1d_cp9
+          if git diff --cached --name-status | grep -v '^A[[:space:]]'; then exit 1; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'CP9 cycle3: checkpoint actual bounded documents and linked campaigns; no rates promoted'
+            git push origin HEAD:phase-1d
+          fi
+      - name: Export tracked evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp9-cycle3
+          git archive --format=tar.gz --output=/tmp/vera-cp9-cycle3/branch-source.tar.gz HEAD
+          git rev-parse HEAD > /tmp/vera-cp9-cycle3/source-commit.txt
+          sha256sum /tmp/vera-cp9-cycle3/branch-source.tar.gz > /tmp/vera-cp9-cycle3/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp9-cycle3-${{ github.run_id }}
+          path: /tmp/vera-cp9-cycle3/
+          retention-days: 30
+          if-no-files-found: error
