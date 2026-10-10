@@ -1,0 +1,20 @@
+{
+  "parent_manifest_sha256": "fe3c7ce858c533f70cff5fea7c4a1e334f9d1c5e21adee25668cc2fdc61f2bcd",
+  "parent_demo_sha256": "9ebe46e03232eb224cc531c68b5668fa0fd6ec8a9b197d924f5776fa5d7f242c",
+  "policy_unchanged": true,
+  "implementation_unchanged": false,
+  "public_derivative_demo_sha256": "16031999d1e8d46d10c97d6458635d5153d112b000586287f7c08b113f59d0f5",
+  "normalization_version": "tool-citation-visible-label.v1",
+  "source_original_sha256_unchanged": "01ca4d37619f0d03664da38faefef97576558cffcfb272976d5ab4d34d0d3014",
+  "parent_capture_sha256": "1abe0add81ea61e584db1ccad422caa0432df11018e654f52b621e41bc4c729d",
+  "normalized_capture_sha256": "1ce05d33626ae329aec6ec94bc6a1ae8f6ba58e889a06fec6ccbf17287e67749",
+  "full_bodies_included": false,
+  "private_receipts_included": false,
+  "reviews_transferred": false,
+  "implementation_version": "1.0.3.1",
+  "parent_implementation_sha256": "d3e610a75c752ba890e99b19ef18e74273f426030538cb1ee0818f71f4156fbf",
+  "implementation_sha256": "babc6167804daf2e73c1400288281333d690e7d7c11c3fccb6e635518c4a5da7",
+  "successor_review_status": "exact minimal runtime diff independently verified; full actual-report equality except implementation_version; private external review pending",
+  "policy": "vera.multisource.claim-policy.v1.1.0",
+  "policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d"
+}

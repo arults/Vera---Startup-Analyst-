@@ -1,0 +1,236 @@
+{
+  "accepted_attributed_observations": 0,
+  "as_of": "2026-10-10",
+  "augmented_observations": [
+    {
+      "claim_type": "operating_activity",
+      "company_id": "proud-pour-inc__currentlywine-com",
+      "declared_origin_family_count": 1,
+      "estimation_eligible": false,
+      "evidence_tier": "PRIMARY_ATTRIBUTED",
+      "freshness": [
+        {
+          "publication_age_days": 185,
+          "retrieval_age_days": null,
+          "retrieval_missingness": "not_reported",
+          "source_as_of_age_days": null,
+          "source_id": "currently-wine"
+        }
+      ],
+      "id": "currently-wine-activity",
+      "known_by_retrieval": null,
+      "native_source_scope_only": true,
+      "numeric_prior_eligible": false,
+      "original_source_urls": [
+        "https://republic.com/currently-wine-co-daniel-rodriguez-q1-26-currently-wine-co-investor-update-2026"
+      ],
+      "point_censor_date": null,
+      "publisher_count": 1,
+      "reasons": [
+        "PREDICATE_NOT_REVIEWED",
+        "IDENTITY_REVIEW_PENDING",
+        "INDEPENDENT_REVIEW_PENDING"
+      ],
+      "release_status": "UNRELEASED_RESEARCH_OBSERVATION",
+      "reviewer_authority_checked": {
+        "claim": false,
+        "source": false
+      },
+      "round_id": "proud-pour-inc__republic-safe-series-2025__2025-01-21",
+      "source_families": [
+        "currently-wine-issuer-report"
+      ],
+      "state_transition": null,
+      "status": "HELD",
+      "time": {
+        "basis": "Explicit reporting period; no point-date imputation",
+        "end": "2026-03-31",
+        "kind": "activity_period",
+        "start": "2026-01-01"
+      },
+      "unknowns": {
+        "current_operation": "not_reported",
+        "exact_event_date": "not_reported"
+      }
+    },
+    {
+      "claim_type": "operating_activity",
+      "company_id": "reental-holding-company__reental-co",
+      "declared_origin_family_count": 1,
+      "estimation_eligible": false,
+      "evidence_tier": "PRIMARY_ATTRIBUTED",
+      "freshness": [
+        {
+          "publication_age_days": 281,
+          "retrieval_age_days": null,
+          "retrieval_missingness": "not_reported",
+          "source_as_of_age_days": null,
+          "source_id": "reental"
+        }
+      ],
+      "id": "reental-activity",
+      "known_by_retrieval": null,
+      "native_source_scope_only": true,
+      "numeric_prior_eligible": false,
+      "original_source_urls": [
+        "https://republic.com/reental-carla-castello-richart-republic-investor-update-november-2025-hello"
+      ],
+      "point_censor_date": null,
+      "publisher_count": 1,
+      "reasons": [
+        "PREDICATE_NOT_REVIEWED",
+        "IDENTITY_REVIEW_PENDING",
+        "INDEPENDENT_REVIEW_PENDING"
+      ],
+      "release_status": "UNRELEASED_RESEARCH_OBSERVATION",
+      "reviewer_authority_checked": {
+        "claim": false,
+        "source": false
+      },
+      "round_id": "reental-holding-company__republic-crowd-safe-series-2024__2024-03-22",
+      "source_families": [
+        "reental-issuer-report"
+      ],
+      "state_transition": null,
+      "status": "HELD",
+      "time": {
+        "basis": "Explicit reporting period; no point-date imputation",
+        "end": "2025-11-30",
+        "kind": "activity_period",
+        "start": "2025-11-01"
+      },
+      "unknowns": {
+        "current_operation": "not_reported",
+        "exact_event_date": "not_reported"
+      }
+    },
+    {
+      "claim_type": "acquisition_completed",
+      "company_id": "inlightened-inc__getinlightened-com",
+      "declared_origin_family_count": 1,
+      "estimation_eligible": false,
+      "evidence_tier": "PRIMARY_ATTRIBUTED",
+      "freshness": [
+        {
+          "publication_age_days": 1153,
+          "retrieval_age_days": null,
+          "retrieval_missingness": "not_reported",
+          "source_as_of_age_days": null,
+          "source_id": "inlightened-buyer"
+        }
+      ],
+      "id": "inlightened-completion",
+      "known_by_retrieval": null,
+      "native_source_scope_only": false,
+      "numeric_prior_eligible": false,
+      "original_source_urls": [
+        "https://www.locumtenens.com/news-and-insights/press-releases/locumtenenscom-completes-acquisition-of-inlightened/"
+      ],
+      "point_censor_date": null,
+      "publisher_count": 1,
+      "reasons": [
+        "PREDICATE_NOT_REVIEWED",
+        "IDENTITY_REVIEW_PENDING",
+        "INDEPENDENT_REVIEW_PENDING"
+      ],
+      "release_status": "UNRELEASED_RESEARCH_OBSERVATION",
+      "reviewer_authority_checked": {
+        "claim": false,
+        "source": false
+      },
+      "round_id": "inlightened-inc__republic-crowd-safe-series-2022__2022-08-26",
+      "source_families": [
+        "inlightened-acquisition-party-origin"
+      ],
+      "state_transition": null,
+      "status": "HELD",
+      "time": {
+        "basis": "Completed by announcement, not exact closing date",
+        "end": "2023-08-14",
+        "kind": "upper_bound"
+      },
+      "unknowns": {
+        "control_transfer": "not_reported",
+        "current_operation": "not_reported",
+        "exact_event_date": "not_reported",
+        "investor_return": "not_reported",
+        "security_issuer_chain": "not_reported",
+        "shareholder_consideration": "not_reported"
+      }
+    }
+  ],
+  "dataset": "augmented_research_only",
+  "held_observations": 3,
+  "implementation_version": "1.0.3.1",
+  "input_sha256": "947c82c2c7bb3a20d1d10afff0f57a7041bd42103b029961cffed3600398674c",
+  "native_baseline": {
+    "outcomes": "UNCHANGED",
+    "release": "canonical-research-v0.5.0",
+    "release_sha256": "fc8bf913e84db576b3d78b716b7e425a6eef2c5a3224bc15c84b633e0c1c20fb",
+    "spec_sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e"
+  },
+  "native_changes": 0,
+  "policy": "vera.multisource.claim-policy.v1.1.0",
+  "prior_promotions": 0,
+  "rates": null,
+  "source_coverage_audit": {
+    "access_warnings": [],
+    "blockers": [
+      "INDEPENDENT_SOURCE_REVIEW_PENDING",
+      "POLICY_ACKNOWLEDGEMENTS_MISSING",
+      "PROSPECTIVE_PLAN_NOT_ESTABLISHED",
+      "SEARCH_CUTOFF_MISSING",
+      "STOP_KIND_MISSING",
+      "currently-wine-activity:ENTITY_ALIASES_UNDECLARED",
+      "currently-wine-activity:MISSING_ALTERNATIVE_ROUTE",
+      "currently-wine-activity:MISSING_CONTRADICTION_ROUTE",
+      "currently-wine-activity:MISSING_FAMILY_direct_party",
+      "currently-wine-activity:MISSING_FAMILY_independent_reporting",
+      "currently-wine-activity:MISSING_FAMILY_legal_regulatory",
+      "currently-wine-activity:MISSING_FAMILY_native_platform",
+      "currently-wine-activity:MISSING_PRIMARY_ROUTE",
+      "currently-wine-activity:NO_COMPLETED_CONTRADICTION_ROUTE",
+      "currently-wine-activity:NO_COMPLETED_PRIMARY_ROUTE",
+      "currently-wine-activity:NO_ENTITY_SPECIFIC_ROUTES",
+      "currently-wine-activity:OUTSIDE_SOURCES_NOT_SEARCHED",
+      "inlightened-completion:ENTITY_ALIASES_UNDECLARED",
+      "inlightened-completion:MISSING_ALTERNATIVE_ROUTE",
+      "inlightened-completion:MISSING_CONTRADICTION_ROUTE",
+      "inlightened-completion:MISSING_FAMILY_direct_party",
+      "inlightened-completion:MISSING_FAMILY_independent_reporting",
+      "inlightened-completion:MISSING_FAMILY_legal_regulatory",
+      "inlightened-completion:MISSING_FAMILY_native_platform",
+      "inlightened-completion:MISSING_PRIMARY_ROUTE",
+      "inlightened-completion:NO_COMPLETED_CONTRADICTION_ROUTE",
+      "inlightened-completion:NO_COMPLETED_PRIMARY_ROUTE",
+      "inlightened-completion:NO_ENTITY_SPECIFIC_ROUTES",
+      "inlightened-completion:OUTSIDE_SOURCES_NOT_SEARCHED",
+      "reental-activity:ENTITY_ALIASES_UNDECLARED",
+      "reental-activity:MISSING_ALTERNATIVE_ROUTE",
+      "reental-activity:MISSING_CONTRADICTION_ROUTE",
+      "reental-activity:MISSING_FAMILY_direct_party",
+      "reental-activity:MISSING_FAMILY_independent_reporting",
+      "reental-activity:MISSING_FAMILY_legal_regulatory",
+      "reental-activity:MISSING_FAMILY_native_platform",
+      "reental-activity:MISSING_PRIMARY_ROUTE",
+      "reental-activity:NO_COMPLETED_CONTRADICTION_ROUTE",
+      "reental-activity:NO_COMPLETED_PRIMARY_ROUTE",
+      "reental-activity:NO_ENTITY_SPECIFIC_ROUTES",
+      "reental-activity:OUTSIDE_SOURCES_NOT_SEARCHED"
+    ],
+    "calibrated_probability": null,
+    "claim_truth_certified": false,
+    "missing_policy_acknowledgements": [
+      "demo_importer"
+    ],
+    "operational_stop": null,
+    "origin_family_count": 3,
+    "policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+    "receipt_content_authenticated": false,
+    "research_conclusion_authorized": false,
+    "reviewer_identity_authenticated": false,
+    "route_count": 0,
+    "status": "INCOMPLETE_MATERIAL_ROUTE"
+  },
+  "warning": "Research observations only. Native state and denominator unchanged. No estimator implemented; source counts are not outcome counts."
+}

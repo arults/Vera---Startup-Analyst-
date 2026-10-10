@@ -1,0 +1,18 @@
+{
+  "schema": "vera.publication-hygiene.v1",
+  "source_quote_counts_capture_plus_record": {
+    "currently-wine": 6,
+    "reental": 16,
+    "inlightened-buyer": 17
+  },
+  "full_source_bodies_shipped": false,
+  "private_receipts_shipped": false,
+  "code_unchanged_from_parent": false,
+  "claim_adjudications": "all pending new-policy review",
+  "schema_and_demo_valid": true,
+  "final_external_review": "pending authorization; not performed",
+  "presentation_normalization": "tool-citation-visible-label.v1",
+  "new_source_retrieval": false,
+  "original_publisher_html_certified": false,
+  "implementation_version": "1.0.3.1"
+}

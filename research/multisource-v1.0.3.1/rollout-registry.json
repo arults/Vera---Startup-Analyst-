@@ -1,0 +1,39 @@
+{
+  "policy": "vera.multisource.claim-policy.v1.1.0",
+  "policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+  "roles": [
+    {
+      "role": "researcher",
+      "required_policy": "vera.multisource.claim-policy.v1.1.0",
+      "required_policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+      "actor": null,
+      "acknowledged_at": null,
+      "status": "pending"
+    },
+    {
+      "role": "independent_claim_verifier",
+      "required_policy": "vera.multisource.claim-policy.v1.1.0",
+      "required_policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+      "actor": null,
+      "acknowledged_at": null,
+      "status": "pending"
+    },
+    {
+      "role": "dedicated_source_verifier",
+      "required_policy": "vera.multisource.claim-policy.v1.1.0",
+      "required_policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+      "actor": null,
+      "acknowledged_at": null,
+      "status": "pending"
+    },
+    {
+      "role": "final_integrator",
+      "required_policy": "vera.multisource.claim-policy.v1.1.0",
+      "required_policy_sha256": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+      "actor": null,
+      "acknowledged_at": null,
+      "status": "pending"
+    }
+  ],
+  "note": "No approvals or acknowledgements fabricated. Operator assigns actual actors and verifies their responses."
+}
