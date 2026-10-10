@@ -1,5 +1,34 @@
 # SKILLS.md — Vera operational research memory
 
+## Latest authority — CP9, execution 0.6.4-dev.research.3
+
+Read checkpoints/PHASE_1D_CP9_EMPIRICAL_EVIDENCE_VERIFIED.md, data/phase1d/cp9/adjudication/summary.json and evidence/jev/PHASE_1D_CP9_DECISION_LOG.json first. This CP9 section supersedes every older restart pointer and count below. Previous SKILLS bytes are also preserved at evidence/phase1d_cp9/SKILLS_pre_CP9.md. Promoted VERSION remains0.5.0.
+
+Status: VERIFIED EMPIRICAL PROGRESS; PHASE1D INCOMPLETE; GLOBAL RESEARCH PLATEAU NOT DEMONSTRATED. No Phase1D numerical-prior promotion and no main merge.
+
+Three actual data-collection runs38010817458,38011958781,38012816062 plus separate adjudication38014029889. Final data commit32ae3846195d21938c8d7f3ea281339a8e76917f. Source/evidence are committed, not only stored in expiring artifacts.
+
+RepublicUS:125distinct selected campaign candidates including controls;124launch/completion pairs extracted and122fullysource-bound.55old records would be misclassified by close year instead of launch year. Trusst launched2020-12-21, not2021. Two older parent-binding holds remain; AlphaFlow's third campaign has no native launch/completion milestones and is not presumed funded. The125records are NOT a complete or estimation-ready census.
+
+Captured125native timeline payloads,362fullpublicposts and29PDFs. All362full-post title/date fields were independently checked. Among47latest year-eligible campaign reports,31nativeoperatingreports admitted as SOURCE EVIDENCE:25pointdated and6period-only;16latestreportholds remain. Source reports are not independently certified real-world survival. Do not impute exact point-censor dates from period reports or publication dates; earlier reports can require further review.
+
+Four native filings reviewed for issuer/SAFEfamily, not all29complete document adjudications. TernioLLC-to-UnbankedInc legalconversion effective2022-01-01 is verified in nativeFormC/A. The2022Unbankedround is linked to a2023-06-01 WIND_DOWN_ANNOUNCED event, not confirmed complete closure or investor loss. Old2019Ternioround stays outsidecohort. IntermediaryCIK is not issuerCIK; shared issuerCIK is not automatically one economicround. SAFEcaps, customer/buyeracquisitions, partnerships, tokenlistings and fundraising-end language do not establish pricedfollowons or investor exits.
+
+Wefunder:360preserved2020initialFormCrecords bridged separately,42priorfunded318unconfirmed/excluded. Notnewliveobservations or anativecensus; keepseparatefromCP8's65eventcandidates. OfficialSECissuer-historyroute added0filings after2HTTPerrors; no unchanged retry.
+
+Cycle3 reached a bounded300MBdocumentbudget, leaving105notattempted and1partialdocument. This isunfinishedwork, notaccessdenial orresearchplateau. Cycle2's12MBlocal-sizecircuiterror was corrected; successfulcaptures were notredownloaded. JSON-envelope replay correction was not counted as a new empirical cycle.
+
+Verification:234regressions,43historicalscientificchecks and24specificadjudicationinvariantsPASS. All2947datafilespresentbeforefinaladjudication remainedhashunchanged; earliercyclespreservedtheirpredecessors too. Thesepassesare notcomplete-studyapproval.
+
+FinalJev selected verified_empirical_progress_research_incomplete, blocked_keep_existing_priors and plateau_not_demonstrated, each selectedprobability1.00/confidence1.00. Model judgments, notstatisticalcertainty orwork-completionpercentages.
+
+Nextcriticalwork: four complete nativehistoricalcensuses(Wefunder,StartEngine,Crowdcube,RepublicUS); remainingdocument/postreview; strongissuer/economicround/serieslinks; terminaloutcomeascertainment; Trusstexactpayoutdate/realizedMOIC/finalamendedterms. RepublicEurope remains952rounds/796year-eligible/62qualifyingeligiblefollowons,24RQ1LOW_INFORMATIONcells and0RQ2reportablecells; CP9didnotpromotenewrates. Do notweakenprotocol, repeatunchanged403routes, callgreenCIorbudgetstopsaplateau, or implyunattendedcontinuation.
+
+---
+## Preserved historical operational text — all older restart authorities superseded by CP9
+
+# SKILLS.md — Vera operational research memory
+
 ## Latest authority — CP8, execution0.6.3-dev.research.1
 
 Read checkpoints/PHASE_1D_CP8_EMPIRICAL_RESEARCH_VERIFIED.md and evidence/jev/PHASE_1D_CP8_DECISION_LOG.json before continuing. This section supersedes older restart pointers below. The complete CP6 operational text remains preserved below, and all its scientific safeguards remain in force. Promoted VERSION remains0.5.0.
