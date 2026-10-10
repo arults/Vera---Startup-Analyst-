@@ -1,3 +1,19 @@
+LATEST ADDENDUM - 2026-10-10 13:41 UTC
+
+Phase 1D remains incomplete. Global research plateau and production-estimation eligibility remain false.
+
+- SKILLS.md now contains the 13 numbered sourcing requirements, including no fabrication and explicit missing-data disclosure. Update verified at commit d7039e1406541c4a5025d3e9a418f29a5122830d.
+- Republic's 22-read tranche added 9 distinct native offering IDs and 6 launch-date mappings: 5 in the study window and 1 in 2026. Campaign-URL candidates increased from 693 to 702; distinct observed native IDs increased from 689 to 698. These are separate source-discovery units, not companies or admitted economic rounds. There are 307 unattempted discovery paths, including possible aliases/noncampaigns. Bounded source coverage passed independent review; final JEV acceptance is absent following a denied call and a cancelled retry. No canonical admission or outcome was added by this tranche.
+- Restored 360 previously archived Wefunder offering records. This is recovery of existing evidence, not 360 new offerings or new funding admissions. Identity/round linkage and historical coverage gaps remain.
+- Multisource implementation candidate 1.0.1 passes integrity checks and 79 local tests beside its archives; isolated portability testing passes 78 with 1 explicit missing-archive skip. Native pins remain unchanged. This is not an actual research-batch release.
+- Public-source JEV supports two narrow attributed reports: Inlightened's buyer-reported acquisition and Ethos's issuer-reported operating activity in November 2024. These do not establish audited outcomes or investor returns. The 2025 Ethos agreement's completion, successor mapping and investor consequences remain unresolved; the whole pilot batch remains unreleased.
+- The real pilot exposed provenance/time representation and batch-scope limitations. A minimal 1.0.2 design is under review. Final JEV evaluation of implementation details still awaits specific disclosure authorization; no completed system review is claimed.
+- The v0.5 public research-package upload remains paused after a cancelled write; source-system code has not been published. No package commit or branch update occurred. Published progress text and SKILLS.md do not imply that those artifacts or code are published.
+
+Next work remains bounded source verification, review of the proposed representation fixes, and historical cohort/outcome coverage. No estimates, rates or priors are promoted.
+
+HISTORICAL CHECKPOINTS BELOW - preserved verbatim; their dated status is not a new completion claim.
+
 LATEST ADDENDUM - 2026-10-10 12:07 UTC
 
 Phase 1D remains incomplete. The latest local canonical research ledger, v0.5.0, is applied and independently verified: 12 company/round rows, 12 stage records and 104 explicit holds. Nine previously observation-only proposals now have bounded canonical research admission. Their 82 source qualifications are preserved, their analytical clocks remain null, and outcomes remain UNKNOWN. There is no production, estimator, graph or follow-on promotion.
