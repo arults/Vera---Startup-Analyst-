@@ -1,0 +1,415 @@
+{
+  "census_complete": false,
+  "changed_year_examples": [
+    {
+      "first_live_date": "2020-12-21",
+      "offering_year": 2020,
+      "source_url": "https://republic.com/trusst",
+      "successful_close_date": "2021-04-16",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2022-10-05",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/acfn",
+      "successful_close_date": "2023-03-23",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-12-13",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/alpha-a",
+      "successful_close_date": "2020-04-30",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2022-08-24",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/arka",
+      "successful_close_date": "2023-02-01",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-10-02",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/avenify-2020",
+      "successful_close_date": "2020-04-30",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2024-09-25",
+      "offering_year": 2024,
+      "source_url": "https://republic.com/base8",
+      "successful_close_date": "2025-01-24",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-05-01",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/bounty0x",
+      "successful_close_date": "2020-04-18",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-11-25",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/buff-bake",
+      "successful_close_date": "2020-03-24",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2022-08-19",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/chilling",
+      "successful_close_date": "2023-03-01",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-06-29",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/citiesense",
+      "successful_close_date": "2020-01-01",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2022-12-09",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/dallas-cityfund-a",
+      "successful_close_date": "2023-06-16",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-12-10",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/delee-2019",
+      "successful_close_date": "2020-04-25",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-09-18",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/digital-dream-labs-2020",
+      "successful_close_date": "2020-01-16",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-08-13",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/dorahacks",
+      "successful_close_date": "2020-04-16",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2021-10-14",
+      "offering_year": 2021,
+      "source_url": "https://republic.com/dryvebox",
+      "successful_close_date": "2022-02-24",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2024-12-17",
+      "offering_year": 2024,
+      "source_url": "https://republic.com/ecotone-renewables",
+      "successful_close_date": "2025-02-16",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-11-01",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/ember-fund-2019",
+      "successful_close_date": "2020-03-31",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2021-08-27",
+      "offering_year": 2021,
+      "source_url": "https://republic.com/fig-portfolio",
+      "successful_close_date": "2022-04-16",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2022-06-27",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/gopillar",
+      "successful_close_date": "2023-01-19",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-11-09",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/growing-talent",
+      "successful_close_date": "2020-04-27",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-09-23",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/helloava",
+      "successful_close_date": "2020-03-16",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-12-30",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/hellowoofy-december-2019",
+      "successful_close_date": "2020-04-29",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-12-07",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/hive",
+      "successful_close_date": "2020-03-10",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2022-03-17",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/hold-the-magic",
+      "successful_close_date": "2023-04-16",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2021-06-18",
+      "offering_year": 2021,
+      "source_url": "https://republic.com/inahsi",
+      "successful_close_date": "2022-04-01",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2024-02-22",
+      "offering_year": 2024,
+      "source_url": "https://republic.com/ip3",
+      "successful_close_date": "2025-03-02",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-09-28",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/layali",
+      "successful_close_date": "2020-04-21",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2020-12-23",
+      "offering_year": 2020,
+      "source_url": "https://republic.com/maven",
+      "successful_close_date": "2021-01-21",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2022-12-09",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/miami-cityfund-a",
+      "successful_close_date": "2023-06-16",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2022-12-21",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/moriondo-coffee",
+      "successful_close_date": "2023-02-20",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2023-09-14",
+      "offering_year": 2023,
+      "source_url": "https://republic.com/myslabs",
+      "successful_close_date": "2024-03-29",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-08-12",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/nanno-2019",
+      "successful_close_date": "2020-01-01",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2022-12-26",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/nobodystudios",
+      "successful_close_date": "2023-04-08",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2020-10-06",
+      "offering_year": 2020,
+      "source_url": "https://republic.com/plant-an-app",
+      "successful_close_date": "2021-02-13",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2024-11-07",
+      "offering_year": 2024,
+      "source_url": "https://republic.com/popularium",
+      "successful_close_date": "2025-05-01",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2021-09-03",
+      "offering_year": 2021,
+      "source_url": "https://republic.com/qoins",
+      "successful_close_date": "2022-02-26",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2021-11-11",
+      "offering_year": 2021,
+      "source_url": "https://republic.com/quickloadz-2022",
+      "successful_close_date": "2022-04-19",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2020-12-30",
+      "offering_year": 2020,
+      "source_url": "https://republic.com/realtyfeed",
+      "successful_close_date": "2021-05-01",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-12-05",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/rehabpath",
+      "successful_close_date": "2020-04-04",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-12-28",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/rocket-dollar",
+      "successful_close_date": "2020-03-29",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-06-28",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/salsagod",
+      "successful_close_date": "2020-02-18",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-10-28",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/skyhi",
+      "successful_close_date": "2020-03-01",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-09-05",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/soar-robotics",
+      "successful_close_date": "2020-03-11",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-12-27",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/stareable",
+      "successful_close_date": "2020-04-25",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-10-01",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/status-money",
+      "successful_close_date": "2020-01-31",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-12-18",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/sunu",
+      "successful_close_date": "2020-07-01",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-11-08",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/sweetberry",
+      "successful_close_date": "2020-03-07",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-09-12",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/tallyfy",
+      "successful_close_date": "2020-01-01",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-11-08",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/ternio",
+      "successful_close_date": "2020-06-13",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2022-11-23",
+      "offering_year": 2022,
+      "source_url": "https://republic.com/the-cru",
+      "successful_close_date": "2023-04-19",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-11-01",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/the-lieu",
+      "successful_close_date": "2020-04-30",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2024-08-20",
+      "offering_year": 2024,
+      "source_url": "https://republic.com/upside-app",
+      "successful_close_date": "2025-03-02",
+      "year_in_study": true
+    },
+    {
+      "first_live_date": "2019-11-05",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/wandering-barman",
+      "successful_close_date": "2020-04-04",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2019-07-12",
+      "offering_year": 2019,
+      "source_url": "https://republic.com/welivv",
+      "successful_close_date": "2020-01-01",
+      "year_in_study": false
+    },
+    {
+      "first_live_date": "2020-12-02",
+      "offering_year": 2020,
+      "source_url": "https://republic.com/wellwell",
+      "successful_close_date": "2021-03-17",
+      "year_in_study": true
+    }
+  ],
+  "close_year_misclassification_risks": 55,
+  "date_pairs_verified_with_native_id_and_parent_close": 120,
+  "holds": 2,
+  "milestones_independently_agree": 244,
+  "native_completion_dates_extracted": 122,
+  "native_launch_dates_extracted": 122,
+  "new_live_requests_this_reconciliation": 0,
+  "new_source_linked_followup_posts_queued": 362,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "scope": "Additive correction of JSON envelope parsing, not another substantive collection iteration; original raw/escaped outputs retained. Hidden forms excluded.",
+  "source_payloads_verified": 122,
+  "visible_public_post_previews": 1672,
+  "year_counts_selected_NOT_population": {
+    "2018": 1,
+    "2019": 29,
+    "2020": 31,
+    "2021": 15,
+    "2022": 17,
+    "2023": 5,
+    "2024": 16,
+    "2025": 7,
+    "2026": 1
+  },
+  "year_eligible_selected_campaigns": 91
+}

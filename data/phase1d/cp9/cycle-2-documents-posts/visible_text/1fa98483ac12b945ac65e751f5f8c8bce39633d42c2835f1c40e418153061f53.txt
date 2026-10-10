@@ -1,0 +1,340 @@
+Log in
+Investors
+Businesses
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Investors
+Businesses
+US
+Log in
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Spotlight deal
+Miso Robotics
+engineers AI-powered kitchen robots and operating systems for restaurants and hospitality
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Stock Card
+Updates
+Jul  5
+2024
+Introducing Charlie, An AI-enabled Stock Market Research Tool!
+Hi Stock Card Investors and supporters,
+Happy 4th of July to those of you in the U.S., and greetings to all of you from the rest of the world!
+Today marks a new chapter in our product's history. In
+my April 23rd update
+, I mentioned how we are self-disrupting to succeed in the long run. I even spoke with quite a few of you who joined me in the
+10-day office hours
+I held in May 2024. Today, I'm sharing the results of those office hours and our effort to build a better product and company.
+Today, we've shared a custom GPT,
+Charlie
+, with our users, which will drastically change the experience of Stock Card. This AI-powered custom GPT, which we've been training for a while, replaces the old Stock Card visualizations. We plan to integrate Charlie into the website in the coming months while continuing to train it to perform better. In the meantime, you can start testing it by visiting OpenAI's website:
+Click
+Here
+Advantages of this decision:
+This move drastically reduces the costs of running Stock Card because we do not rely on traditional data API purchases from expensive data sources.
+If this model works, we can be profitable even with few subscribers.
+This
+could ensure the company's future success. Our user and revenue growth has been slower than what I had wanted to see, especially after Covid's stock market boom. Staying on the old model wasn't a good trajectory for the future.
+Risks of this decision:
+It takes us time to build the new product, integrate it into the website, and learn from our users what they like and don't like. For example, we heard users asking for a stock screener powered by GPT just today. We are excited to learn what else our users ask for.
+We do not own the underlying model behind GPTs. It is owned by OpenAI. Changes to the OpenAI model and features will inevitably impact us.
+Like all AI models, custom GPTs make mistakes, hallucinate, and make inaccurate assumptions. While we have spent significant time reducing these issues by setting boundings and definition rules for Charlie, our custom GPT, we cannot guarantee accuracy. It still makes mistakes. We can only inform our users of such issues but cannot fully eliminate them.
+Some VIP users may not like the new direction and tool and
+end up canceling
+their subscriptions. For example, those who used Stock Card screeners will be disappointed because we still need an AI-enabled screener.
+And at the end of our efforts, the GPT-enabled model may fail to attract new users.
+I acknowledge that this is a risky decision. But we have to be bold! As they say, growth sits at the edges of discomfort and risk-taking.
+This
+is our way of growing the company. We have to innovate to succeed; otherwise, we won't be able to stay relevant in this rapidly changing market.
+I will keep you informed on our progress, including the possible launch of a new business unit focused on creators and B2B partnerships.
+Thank you and glad to have you with us!
+Hoda Mehr - Stock Card's Founder
+P.S. Below is a letter I sent to Stock Card's VIP users, which I'd like to share with you, too!
+Special Letter to Stock Card VIPs - Sent on July 4th, 2024
+Stock Card is self-disrupting
+I'm writing this letter to our VIP Users to share a bit more about why we made this change and what it means to you. Your feedback over the years has been instrumental in this transition, and I want to ensure that you understand the reasons behind it.
+For the last twenty years, I have invested in, built, and grown companies and studied some of the best and most well-run companies in history. The most important lesson I've learned is that those who can adopt and self-disrupt have a much higher likelihood of long-term success. That's why Stock Card is making this change.
+Why we are doing this
+Seven years ago, when I started Stock Card, buying financial data from various sources, aggregating and translating it into easy-to-understand investment research made sense. But, with the rise of generative AI, data aggregation and interpretation can be done for free and are much easier to do than the old way of building a data infrastructure.
+Thanks to generative AI platforms such as OpenAI, what Stock Card used to do after spending thousands of dollars each month on data acquisition and processing is now available for free. It's important to mention that generative AI isn't perfect, and Charlie still needs a lot of training and testing. But it's time to put the old ways of delivering value aside and embrace the new ways of researching our investment ideas.
+Important to consider
+While we used Stock Card's methodology to train Charlie, the custom GPT, we do not have any control over how the underlying model operates. The underlying model belongs to and is run by OpenAI. Like all generative AI models, Charlie is prone to mistakes, hallucinations, and inaccurate information. As always, you should not make investment decisions solely based on Charlie's output.
+How to use Stock Card now
+While we work on integrating Charlie into the website, you can start testing it on OpenAI's website:
+Click Here
+On Stock Card, you can still access the "Your Portfolio" feature to track your ideas and compare your investment return with the S&P 500 by visiting this page:
+Click Here
+You can join Stock Card's stock-picking contests and not only get new investment ideas but have a chance to earn a $1,000 prize:
+Click Here
+VIP users can continue to access premium portfolios and receive notifications for new stock picks the same as before:
+Click Here
+NEW
+Stock Card VIP users will soon get an invitation to my new Investment Memo - a regular detailed analysis of stocks I buy or hold in my real-money portfolio, exclusive to VIP users:
+Click Here
+I hope you stay a VIP user and participate in creating our new generation of AI-powered platforms.
+As always, you can manage your subscription on your
+account management page
+.
+If you want to speak with me, email me at
+hoda@stockcard.io
+.
+Thank you!
+Hoda -- Stock Card Founder
+July 4th 2024
+Hoda Mehr
+Stock Card
+Like
+7
+Comments
+(2)
+Takashi Sengoku
+2 years ago
+Highly appreciate your update. Keep up with  the pace.
+1
+like
+Reply
+leroy young
+2 years ago
+Excellent update this is showing the future of stock card ,Stock Card as a fintech startup is moving towards the right direction
+2
+likes
+Reply
+Hoda Mehr
+@leroy-young Thank you for the support
+1
+like
+·
+Reply
+·
+2 years ago
+Join the discussion
+Verify your identity to join the discussion
+To keep discussions authentic and prevent spam,
+we ask users to verify their identity.
+Verify your identity
+Your information is kept secure and will only be used for identity verification.
+Open for investment
+Investors in Stock Card also invested in these companies.
+View more
+Mintworks
+$30T opportunity by 2030. We turn any asset into dig...
+Republic Funding Portal · Reg CF
+Code Blue
+AI that calls for help when you can’t
+Republic Funding Portal · Reg CF
+ShredPay
+The compliant orchestration layer connecting traditi...
+Republic Funding Portal · Reg CF
+Mightylicious
+Gluten free cookies sold in 1,775 stores nationwide
+Republic Funding Portal · Reg CF
+sGold
+is building the financial infrastructure for physica...
+Republic Funding Portal · Reg CF
+Loading...
+Back to Stock Card deal page
+Giving everyone access to early-stage startup investing
+For investors
+Why invest
+How it works
+FAQ
+Risks
+Privacy policy
+Accessibility
+Cookie Preferences
+Form CRS
+For startups
+Why raise
+Learn
+FAQ
+Tokenized assets
+Company
+About
+Insights
+Events
+Contact
+Security
+We're hiring!
+Refer a startup, get $2,500
+Invest in the app
+This site (the "Site") is owned and maintained by OpenDeal Inc., which is not a registered
+broker-dealer. OpenDeal Inc. does not give investment advice, endorsement, analysis or
+recommendations with respect to any securities. All securities listed here are being offered
+by, and all information included on this Site is the responsibility of, the applicable issuer
+of such securities. The intermediary facilitating the offering will be identified in such
+offering’s documentation.
+All related securities activity is conducted by OpenDeal Broker LLC a registered broker-dealer,
+Member of
+FINRA
+and
+SiPC
+,
+an affiliate of OpenDeal Inc. and OpenDeal Portal LLC, located at 149 5th Avenue,
+10th Floor, New York, NY 10010. Please check our background on FINRA’s
+BrokerCheck
+.
+Certain pages discussing the mechanics and providing educational materials
+regarding regulation crowdfunding offerings may refer to OpenDeal Broker LLC
+and OpenDeal Portal LLC collectively as “Republic”, solely for explanatory purposes.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC make investment
+recommendations and no communication, through this Site, or in any other medium,
+should be construed as a recommendation for any security offered on or off this
+investment platform. Investment opportunities posted on this Site are private placements
+of securities that are not publicly traded, involve a high degree of risk, may lose value
+including the total loss of invested capital, are subject to holding period requirements
+and are intended for investors who do not need a liquid investment. Past performance is
+not indicative of future results. Investors must be able to afford the loss of their
+entire investment. Only qualified investors, who understand the risks of early-stage
+investment and who meet the Republic's investment criteria may invest. Investors
+may be restricted to only Accredited Investors or non-U.S. persons, to invest in offerings
+hosted by OpenDeal Broker. Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC,
+nor any of their officers, directors, agents and employees make any warranty, express or implied,
+of any kind whatsoever related to the adequacy, accuracy or completeness of any information on
+this Site or the use of information on this site. Offers to sell securities can only be made
+through official offering documents that contain important information about the investment
+and the issuers, including risks. Investors should carefully read the offering documents.
+Investors should conduct their own due diligence and are encouraged to consult with their tax,
+legal and financial advisors.
+By accessing the Site and any pages thereof, you agree to be bound by the
+Terms of Use
+and
+Privacy Policy
+.
+Please also see OpenDeal Broker’s
+Business Continuity Plan
+and
+Additional Risk Disclosures
+.
+All issuers offering securities under regulation crowdfunding as hosted by
+OpenDeal Portal LLC are listed on the
+All Companies Page
+.
+The inclusion or exclusion of an issuer on the
+Platform Page
+and/or Republic’s
+Homepage
+,
+which includes offerings conducted under regulation crowdfunding as well as
+other exemptions from registration, is not based upon any endorsement or recommendation
+by OpenDeal Inc, OpenDeal Portal LLC, or OpenDeal Broker LLC, nor any of their affiliates,
+officers, directors, agents, and employees. Rather, issuers of securities may,
+in their sole discretion, opt-out of being listed on the
+Platform Page
+and
+Homepage
+.
+Investors should verify any issuer information they consider important before making
+an investment.
+Investments in private companies are particularly risky and may result in total loss of
+invested capital. Past performance of a security or a company does not guarantee future
+results or returns. Only investors who understand the
+risks of early stage investment
+and who meet the Republic's
+investment criteria
+may invest.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC verify
+information provided by companies on this Site and makes no assurance as to the completeness
+or accuracy of any such information. Additional information about companies fundraising on
+the Site can be found by searching the
+EDGAR database
+,
+or the offering documentation located on the Site when the offering does not require an
+EDGAR filing.
+To help the government fight the funding of terrorism and money laundering activities,
+Federal law requires all financial institutions to obtain, verify, and record information
+that identifies each person who opens an account.
+Therefore, when you use the Services we will ask for your name, address, date of birth,
+and other information that will allow us to identify you.
+We may also ask to see your driver's license, passport or other identifying documents.
+Republic and its affiliates are not and do not operate or act as a bank. Certain banking
+services are provided by BitGo Trust Company, a South Dakota-chartered trust company and
+registered money services business. BitGo Trust Company is not an FDIC member.
+Digital (crypto) assets and investment products are not insured by the FDIC, may lose value,
+and are not deposits or other obligations of BitGo Trust Company and are not guaranteed by
+BitGo Trust Company. Terms and conditions apply.
+Show disclaimers
+Invest in startups using your credit card
+Made in SF/NYC

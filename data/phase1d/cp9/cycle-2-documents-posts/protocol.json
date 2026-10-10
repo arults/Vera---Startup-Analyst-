@@ -1,0 +1,17 @@
+{
+  "Jev_choice": "decode_verify_then_new_public_documents_and_posts",
+  "Jev_confidence": 1.0,
+  "Jev_selection_probability": 1.0,
+  "route": "Exact public document links and full post links from hash-bound campaign/timeline HTML; no guessed endpoints or authentication.",
+  "rules": [
+    "Two-error source circuit. No SEC retries.",
+    "Hidden forms and textareas excluded from text extraction.",
+    "Native dates preserve first-live vs completion; 2019 campaigns remain controls.",
+    "Public previews/full text require issuer, event, chronology, security and cohort adjudication.",
+    "No C-TR closure inference, no acquisition keyword classifier promotion, no numerical priors or global plateau."
+  ],
+  "scope": "Second substantive collection; JSON replay correction is not a separate research iteration.",
+  "source_commit": "790f66240bd72b2925ee95b4c8030f57aaca9ead",
+  "started_at": "2026-10-10T01:08:14.196264+00:00",
+  "version": "0.6.4-dev.research.2"
+}

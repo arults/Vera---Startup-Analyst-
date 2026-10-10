@@ -1,0 +1,514 @@
+Log in
+Investors
+Businesses
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Investors
+Businesses
+US
+Log in
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Spotlight deal
+Miso Robotics
+engineers AI-powered kitchen robots and operating systems for restaurants and hospitality
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Delee
+Updates
+Jan 16
+2021
+Delee: Recap on 2020 and Plans for 2021 🔥
+Hello everyone!
+First and foremost, we want to wish you a happy new year for you and all your loved ones, we hope everyone is well. As you know, this past year was full of challenges of different sorts, however, we manage to push through the development of CytoCatch despite all these difficulties. In this update we want to review our accomplishments in 2020 and share our plans for 2021🙌
+This past year, right after finishing the crowdfunding campaign, we began working really hard to finish the commercial version of our technology. As you know, our technology is composed of a processing unit, which efficiently isolates CTCs from blood samples, and an imaging system that automatically counts and analyzes the tumor cells based on their morphology and the expression of specific markers.
+We knew that finishing the commercial versions of these two modules was not going to be an easy task, however, this task was further complicated by the pandemic. During these last months we had various shipments of components that were delayed due to travel restrictions, the hospitals where we collected patients’ samples were saturated with COVID patients which hampered the collection of these due to access restrictions, and we had to adapt ourselves to work in a virtual-presential fashion (which is not ideal when you are developing hardware) due to the local curfews imposed by the local authorities, only to name a few. But despite all of these  challenges,
+we are only a few months away from finishing the commercial versions of these two modules🔥
+So far, with regard the processing unit, all the electronic boards have been designed, fabricated, and tested, all the pneumatic components have been integrated and tested, most of the parts that do not form part of the final enclosure have been manufactured and tested, the different type sensors that are needed to measure the critical parameters to carry out the separation process adequately have been successfully integrated, and an early version of a software was developed to allow the user to control and configure the unit through a computer. Furthermore,
+we have run multiple tests with biological samples to corroborate that the processing unit is working properly.
+In those tests, we had recovery rates above 94% when 7.5 mL blood samples spiked with 100 tumor cells were processed by the processing unit, which is an excellent performance🌟
+With regard the imaging system, all the electronic boards have been designed, fabricated, and tested, all the optical components have been selected and integrated, most of the parts that do not form part of the final enclosure have been manufactured and tested (this includes the structure that gives mechanical support to all the electronic and optical components), the different mechanical stages that enable the movement of the sample in the x-y-z axes have been successfully integrated, a software was developed to control and configure the system through a computer. Additionally, mapping, autofocus, and counting routines have been implemented successfully in the software
+to completely automate the analysis of the CTCs captured.
+There’s still work to do, but as you can see, with regard to the development of the commercial versions of the two modules, most of the work has been done✅
+This past year, we also managed to establish
+three new collaborations
+that will allow us to collect more samples to accelerate the clinical validations and sales of CytoCatch. One was with
+the radiology and imaging department of the university hospital Dr. José Eleuterio González
+where we are collecting samples from patients with advanced prostate cancer and from patients with a variety of benign diseases to be used as controls. A second with
+the urology department of the Hospital Ángeles
+where we will be collecting samples from patients with localized prostate cancer. And finally, a collaboration with
+t
+he oncology department of the university hospital Dr. José Eleuterio González
+where we will be collecting samples from patients with breast cancer of various stages.
+Another highlight of the year was the incorporation of Chiu Chau
+, CTO of Opentrons, to our Advisory Board. He has given us important insight and helped us with strategies to reduce manufacturing costs and logistics hurdles, as well as finding specialized suppliers and funding options.
+And we also hired 7 more collaborators
+since we closed the campaign to speed-up the workflow and achieve our milestones, we are now a team of 22 (including the 3 co-founders)💥
+For this 2021, our milestones are clear. In a few months, we will finish the commercial versions of the two modules that compose our technology (the processing unit and the imaging system), trust us it will look awesome
+Furthermore
+we will clinically validate our technology using samples from patients with prostate and breast cancer. The purpose of this trial is to validate that the quantity of CTCs found in samples from patients with cancer, along with other biomarkers contained in those cells, are sufficient to be used to early diagnose prostate and breast cancer. In fact, although the commercial versions are not finished, they already are completely functional, and since the institutional review board of each of the hospitals where we have collaborations has approved the clinical protocols we have submitted in this last year, we are already collecting patients’ samples and with them we are testing the performance of the technology with real samples. Once these tests are finished, we will start collecting data for this trial💯
+Also, we want to begin raising a series A in mid this year, however, some people in our network of Y Combinator and Start X, and even our advisors, are suggesting us to consider raise money through another crowdfunding campaign, since the SEC is raising the crowdfunding limit to $ 5M. Therefore we are strongly considering to run another campaign to secure funding. We will let you know in the next update!
+Finally, we want to thank you again for all the support you have given us, during the campaign and throughout the following months. We are working really hard to achieve all the milestones that were set, trust us we will not disappoint you🙌
+Delee Team💙
+Liza Velarde
+Delee
+Like
+56
+Comments
+(68)
+Marian Fry
+5 years ago
+May God bless and guide you in this work - cancer has been devastating in our and many other families.  New tools,  new hope.
+Like
+Reply
+Kathleen Smothers
+5 years ago
+How do I access Koreconx? I did not receive a link last year.
+Like
+Reply
+Robert Peterson
+5 years ago
+I'm glad you all are handling these difficult circumstances and times effectively and continuing to make good progress.
+Like
+Reply
+Deena Wachs
+5 years ago
+Good to see you are progressing even through these hard times.
+Like
+Reply
+Rose Wycoco
+5 years ago
+Hi Liza. Is Delee still with koreconx?
+1
+like
+Reply
+Liza Velarde
+Hi @rose-wycoco yes we still 😊
+Like
+·
+Reply
+·
+5 years ago
+Francine Papner
+5 years ago
+Thanks for the update!! You have been very busy!! Good luck with continued success!!
+1
+like
+Reply
+Liza Velarde
+Thank you for your encouragement words @francine-papner 🙌
+Like
+·
+Reply
+·
+5 years ago
+Fred Trotter
+5 years ago
+Thanks for the update. Great work!!
+1
+like
+Reply
+Liza Velarde
+Thank you for supporting us @fred-trotter 😊
+Like
+·
+Reply
+·
+5 years ago
+Giovanni Fabrizi
+5 years ago
+very good
+1
+like
+Reply
+Liza Velarde
+Thank you for your support @giovanni-fabrizi 😊
+Like
+·
+Reply
+·
+5 years ago
+Vijay Serrao
+5 years ago
+Excellent.... All the best!
+1
+like
+Reply
+Liza Velarde
+Thank you @vijay-serrao 🤗
+Like
+·
+Reply
+·
+5 years ago
+George McGovern
+5 years ago
+Very happy to see this progress, keep it going
+1
+like
+Reply
+Liza Velarde
+Thank you so much @george-mcgovern 😃
+Like
+·
+Reply
+·
+5 years ago
+Robert Creek
+5 years ago
+How and when do I collect on my investment ?
+1
+like
+Reply
+Shawn Adkins
+@robert-creek about 15 years from now
+Like
+·
+Reply
+·
+5 years ago
+Robert Creek
+@shawn-adkins  I wont  live that long, I' am  70
+1
+like
+·
+Reply
+·
+5 years ago
+Liza Velarde
+@robert-creek Hello Robert! You can review Republic rules here:
+republic.co/learn/investors/crowdsafe
+We are working hard to have the trigger event in the next 5 - 7 years or less. Please stay tuned for our next achievements :)
+Like
+·
+Reply
+·
+5 years ago
+Sharon C Corder
+5 years ago
+Impressive update. Thank you for all your hard work. Please keep us updated on when the new campaign starts.
+1
+like
+Reply
+Liza Velarde
+Thank you so much @sharon-c-corder 😊
+we invite you to stay tune of our page here in Republic and our social media🙌
+Like
+·
+Reply
+·
+5 years ago
+Gerry Gvd
+5 years ago
+When is the next campaigne
+Like
+Reply
+Yolanda Merced White
+5 years ago
+OMG Miss Velarde, this is super.
+You are building.
+1
+like
+Reply
+Liza Velarde
+Thank you so much @yolanda-white 🤗
+Like
+·
+Reply
+·
+5 years ago
+James Given
+5 years ago
+Science has its own timeline.  Let's go, team, we have your back!
+4
+likes
+Reply
+Liza Velarde
+Thank you so much @james-given we are grateful for your support😃
+Like
+·
+Reply
+·
+5 years ago
+William McCarthy
+5 years ago
+Thanks for update. Wishing continued progress.
+1
+like
+Reply
+Liza Velarde
+Thanks to you @william-mccarthy-1 we appreciate your good wishes🤗
+Like
+·
+Reply
+·
+5 years ago
+Joseph Brown
+5 years ago
+How will the commercial version stack up against the DeNovo system from BioView?
+Like
+Reply
+Antonio Merola
+5 years ago
+great work Liza !!! very well done.
+1
+like
+Reply
+Liza Velarde
+Thank you so much @antonio-merola 🙌
+1
+like
+·
+Reply
+·
+5 years ago
+Cyprian OJIDE
+5 years ago
+When are we starting the next campaign?. And are we using the same platform or another.
+1
+like
+Reply
+Jack Phillion
+5 years ago
+Awesome 👏
+1
+like
+Reply
+Liza Velarde
+@jack-phillion 🙌🙌🙌
+Like
+·
+Reply
+·
+5 years ago
+See more comments
+Join the discussion
+Verify your identity to join the discussion
+To keep discussions authentic and prevent spam,
+we ask users to verify their identity.
+Verify your identity
+Your information is kept secure and will only be used for identity verification.
+Open for investment
+Investors in Delee also invested in these companies.
+View more
+Mintworks
+$30T opportunity by 2030. We turn any asset into dig...
+Republic Funding Portal · Reg CF
+Code Blue
+AI that calls for help when you can’t
+Republic Funding Portal · Reg CF
+Miso Robotics
+engineers AI-powered kitchen robots and operating sy...
+Capital R · Reg A+
+Mightylicious
+Gluten free cookies sold in 1,775 stores nationwide
+Republic Funding Portal · Reg CF
+The Gifted
+The $2.5M Future Vision XPRIZE film contest winner
+Republic Funding Portal · Reg CF
+Loading...
+Back to Delee deal page
+Giving everyone access to early-stage startup investing
+For investors
+Why invest
+How it works
+FAQ
+Risks
+Privacy policy
+Accessibility
+Cookie Preferences
+Form CRS
+For startups
+Why raise
+Learn
+FAQ
+Tokenized assets
+Company
+About
+Insights
+Events
+Contact
+Security
+We're hiring!
+Refer a startup, get $2,500
+Invest in the app
+This site (the "Site") is owned and maintained by OpenDeal Inc., which is not a registered
+broker-dealer. OpenDeal Inc. does not give investment advice, endorsement, analysis or
+recommendations with respect to any securities. All securities listed here are being offered
+by, and all information included on this Site is the responsibility of, the applicable issuer
+of such securities. The intermediary facilitating the offering will be identified in such
+offering’s documentation.
+All related securities activity is conducted by OpenDeal Broker LLC a registered broker-dealer,
+Member of
+FINRA
+and
+SiPC
+,
+an affiliate of OpenDeal Inc. and OpenDeal Portal LLC, located at 149 5th Avenue,
+10th Floor, New York, NY 10010. Please check our background on FINRA’s
+BrokerCheck
+.
+Certain pages discussing the mechanics and providing educational materials
+regarding regulation crowdfunding offerings may refer to OpenDeal Broker LLC
+and OpenDeal Portal LLC collectively as “Republic”, solely for explanatory purposes.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC make investment
+recommendations and no communication, through this Site, or in any other medium,
+should be construed as a recommendation for any security offered on or off this
+investment platform. Investment opportunities posted on this Site are private placements
+of securities that are not publicly traded, involve a high degree of risk, may lose value
+including the total loss of invested capital, are subject to holding period requirements
+and are intended for investors who do not need a liquid investment. Past performance is
+not indicative of future results. Investors must be able to afford the loss of their
+entire investment. Only qualified investors, who understand the risks of early-stage
+investment and who meet the Republic's investment criteria may invest. Investors
+may be restricted to only Accredited Investors or non-U.S. persons, to invest in offerings
+hosted by OpenDeal Broker. Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC,
+nor any of their officers, directors, agents and employees make any warranty, express or implied,
+of any kind whatsoever related to the adequacy, accuracy or completeness of any information on
+this Site or the use of information on this site. Offers to sell securities can only be made
+through official offering documents that contain important information about the investment
+and the issuers, including risks. Investors should carefully read the offering documents.
+Investors should conduct their own due diligence and are encouraged to consult with their tax,
+legal and financial advisors.
+By accessing the Site and any pages thereof, you agree to be bound by the
+Terms of Use
+and
+Privacy Policy
+.
+Please also see OpenDeal Broker’s
+Business Continuity Plan
+and
+Additional Risk Disclosures
+.
+All issuers offering securities under regulation crowdfunding as hosted by
+OpenDeal Portal LLC are listed on the
+All Companies Page
+.
+The inclusion or exclusion of an issuer on the
+Platform Page
+and/or Republic’s
+Homepage
+,
+which includes offerings conducted under regulation crowdfunding as well as
+other exemptions from registration, is not based upon any endorsement or recommendation
+by OpenDeal Inc, OpenDeal Portal LLC, or OpenDeal Broker LLC, nor any of their affiliates,
+officers, directors, agents, and employees. Rather, issuers of securities may,
+in their sole discretion, opt-out of being listed on the
+Platform Page
+and
+Homepage
+.
+Investors should verify any issuer information they consider important before making
+an investment.
+Investments in private companies are particularly risky and may result in total loss of
+invested capital. Past performance of a security or a company does not guarantee future
+results or returns. Only investors who understand the
+risks of early stage investment
+and who meet the Republic's
+investment criteria
+may invest.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC verify
+information provided by companies on this Site and makes no assurance as to the completeness
+or accuracy of any such information. Additional information about companies fundraising on
+the Site can be found by searching the
+EDGAR database
+,
+or the offering documentation located on the Site when the offering does not require an
+EDGAR filing.
+To help the government fight the funding of terrorism and money laundering activities,
+Federal law requires all financial institutions to obtain, verify, and record information
+that identifies each person who opens an account.
+Therefore, when you use the Services we will ask for your name, address, date of birth,
+and other information that will allow us to identify you.
+We may also ask to see your driver's license, passport or other identifying documents.
+Republic and its affiliates are not and do not operate or act as a bank. Certain banking
+services are provided by BitGo Trust Company, a South Dakota-chartered trust company and
+registered money services business. BitGo Trust Company is not an FDIC member.
+Digital (crypto) assets and investment products are not insured by the FDIC, may lose value,
+and are not deposits or other obligations of BitGo Trust Company and are not guaranteed by
+BitGo Trust Company. Terms and conditions apply.
+Show disclaimers
+Invest in startups using your credit card
+Made in SF/NYC

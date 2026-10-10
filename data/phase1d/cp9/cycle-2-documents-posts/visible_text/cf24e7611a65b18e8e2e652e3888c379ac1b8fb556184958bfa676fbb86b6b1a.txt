@@ -1,0 +1,499 @@
+Log in
+Investors
+Businesses
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Investors
+Businesses
+US
+Log in
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Spotlight deal
+Miso Robotics
+engineers AI-powered kitchen robots and operating systems for restaurants and hospitality
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Unbanked (formerly Ternio BlockCard)
+Updates
+Aug 21
+2020
+White-label partners announcement, Exchange Listings, Bank PR, and More!
+Hi Everyone - There is a lot to share in this update so let me get right into it!
+Ternio White-Label Partners
+As you know, a big part of our business is providing the features you see at
+GetBlockCard.com
+to other companies through Ternio's white-label platform.
+Ternio is the first to do this!
+We have a many partners that are in process, but I'm happy to report there are 3 clients that I can now share you with - all with slightly different white-label program setup.
+The Litecoin Card
+The Litecoin Card
+was announced this past week during the Lightening Series and generated a lot of excitement within the Litecoin Community!
+Litecoin Card holders can anticipate a virtual + plastic VISA debit card (seen above) as well as free FDIC insured bank accounts used for crypto friendly banking needs + buying LTC with USD!
+We are finalizing setup and testing internally and will likely be opening up the Litecoin Card for all US residents in the next month or so.
+More details on Litecoin's Twitter page:
+https://twitter.com/LTCFoundation/status/1293251219746693120?s=20
+The Veil Card
+The Veil Card
+is part of the Veil Project.  The Veil Project opted to use our existing BlockCard card art design instead of creating their own card design.   All users on the Veil Card spend the cryptocurrency "Veil"  and get much of the same functionality that one can expect on Ternio's BlockCard (with the exception they are spending VEIL).
+Global Digital Payments
+Global Digital Payments
+(or GDP as we refer to it) is our 3rd white-label partner, and like Veil opted to use the existing BlockCard design.  However, they have significantly customized the cost structure and revenue opportunity for their customers.
+They are comprised of a network of hundreds of thousands of consumers across the world that need access to various banking tools like cards, checking accounts, and more.   You can learn more about GDP here:
+https://vimeo.com/445346538
+You can also
+watch Daniel discuss GDP
+on an interview here:
+https://youtu.be/h5uYUkDvv8A
+Additional White-label Partners
+There are many more partners we have in active development that I wish I could share with you.  However, we always let our partners lead their own marketing and release dates, so I want to be respectful of that.  Stay tuned for many more partners coming out.
+New Exchange Listings
+Exchange listings of
+Ternio's cryptocurrency TERN
+has never been a huge focus, but we have been fortunate in the last month to get on some additional exchanges.  New exchange listings help generate additional liquidity for TERN, but more importantly expose BlockCard to a whole new subset of users.  Those include.
+Probit:
+https://www.probit.com/app/exchange/TERN-USDT
+Uniswap:
+https://app.uniswap.org/#/swap
+IDEX:
+https://idex.market/eth/tern
+BiBox:
+https://www.bibox.com/exchange?coinPair=TERN_BTC
+and
+https://www.bibox.com/exchange?coinPair=TERN_USDT
+Trading Competitions
+In addition to the new listings, there are two trading competitions that are currently going on with those exchanges.  These include Bitmart and BiBox.  Details below:
+Bitmart:
+https://bitmart.zendesk.com/hc/en-us/articles/360052236774
+BiBox:
+https://bibox.zendesk.com/hc/en-us/articles/900002165466
+FDIC Bank Account Press
+About a month ago we released our
+Crypto Friendly Bank Accounts
+, enabling users to get a fully FDIC insured checking account which they can use  for:
+Crypto Friendly Banking (e.q. withdrawing cash from crypto exchanges without risk of being shut down by their bank
+Funding their BlockCard VISA card with Dollars
+(Coming soon) Buying Bitcoin and other cryptocurrencies directly with USD
+We have seen a strong demand for checking accounts so far and we're not even a month in.   The checking accounts are
+free to signup and currently charge 0 fees
+for things like ACH or Wire.  We're looking to make signup a "no-brainer" for those looking to make crypto transactions.  Know someone who could benefit?  Please share it with them.
+You can read our full press release here:
+https://www.accesswire.com/599097/Ternio-Launches-Crypto-Friendly-Banking-With-FDIC-Insured-Checking-Accounts-for-BlockCard-Customers
+You can also read the Ternio blog post here:
+https://ternio.io/crypto-friendly-banking-is-live/
+BlockCard Learn Video Series
+Cryptocurrency is new territory for many people and it can be overwhelming at times to understand all the different kinds of currencies and what makes them different.  Education is very important in this space, so we started a series called BlockCard Learn.
+BlockCard Learn
+is a collection of videos, articles, and infographics that make complex topics easily understandable for the general public.  The articles or videos are typically short in nature and give a generalized overview, without going too deep in terms of detail or process.  They are designed to be a starting point for new customers not to feel overwhelmed.
+Here is the
+full playlist of BlockCard Learn Videos
+that you can watch when you have time.  You will also begin to see these videos used around the BlockCard website.
+Example: What is Bitcoin?
+Investor Dashboard
+Finally, I'm happy to share that our Republic campaign funds were finally collected as of yesterday.  It took almost 2 months after the close of the campaign to get all investor funds collected.  I was not aware it would take that long, but fortunately many people who missed the first round of investment were able to get in off the waitlist.
+In the coming days you will receive an email on your Ternio BlockCard Investor Documents (if you haven't already).  You will also be receiving an email on the process for logging into our investor dashboard.  Unfortunately, we couldn't open the dashboard until the campaign officially closed, but now that its done things should move much quicker.
+Going forward, I will likely start doing these updates from that dashboard.  We have a lot of big things coming in the next few months and I want to make sure everyone has visibility into our progress. More to come on that front!
+That's it for now.  Thanks for taking the time to read and great things on the horizon!
+Ian Kane
+Unbanked (formerly Ternio BlockCard)
+Like
+35
+Comments
+(22)
+Mario Teel Jr.
+6 years ago
+Will you do another raise?
+Like
+Reply
+Mohammad Obaid
+6 years ago
+Hi,
+Is this securitize the same as the ternio investor dashboard???
+Because I didn't receive anything from ternio so far!!!
+Like
+Reply
+Mario Teel Jr.
+6 years ago
+Congrats on your Multi-Billion dollar partnership.
+Like
+Reply
+Nathan Webber
+@mario-teel-jr what partnership is this?
+Like
+·
+Reply
+·
+6 years ago
+Mario Teel Jr.
+@nathan-webber , I don't know  I saw his interview. However he wouldn't say what company. He was happy, so I am happy too.
+Like
+·
+Reply
+·
+6 years ago
+Joseph Oseghale
+6 years ago
+Awesome! Thank you for the updates
+Like
+Reply
+Sean A McEntire Sr
+6 years ago
+Can someone explain this securitize email I received? What is this?
+1
+like
+Reply
+Altha Gay Buisa
+@sean-mcentire-sr it's a platform where you manage your investments. I was hesitant to allow them to have all my information but they said it's legit. Read below. I posted the same.
+Like
+·
+Reply
+·
+6 years ago
+Altha Gay Buisa
+6 years ago
+Did anyone else receive an invitation from
+Securitize.io
+for an offering from Ternio? This is what it says:
+Consent to data transfer
+Securitize I.D. enables Investors to direct Securitize to disclose their personal data to issuers of such Investors’
+choosing. Investors located in the European Economic Area (“EEA”) or the United Kingdom should be aware that these
+disclosures may involve transfers to countries that do not provide the same level of protection for personal data as
+their home countries.
+Please note that this Data Transfer Consent Form should be read in conjunction with our GLBA Privacy Notice and (for
+EEA and UK residents) our GDPR Privacy Notice. Any defined terms not defined herein take their meaning from those
+notices or our Securitize Platform Terms of Service.
+Thanks in advance.
+2
+likes
+Reply
+Ted Chu
+@altha-buisa Yes I did.
+1
+like
+·
+Reply
+·
+6 years ago
+Altha Gay Buisa
+@ted-chu Okay. Just making sure! Thank you!
+Like
+·
+Reply
+·
+6 years ago
+Frank Stokes
+6 years ago
+Thanks for the update, but I would like to know will we be able to have excess to all the other company cards that you guys partnered with..
+Like
+Reply
+Freida Claborn
+6 years ago
+Wow, thanks for the update.  I am glad you are providing so much information because I have a lot to learn on this subject.  But good news is always is always appreciated, keep up the great work.
+1
+like
+Reply
+Theresa Fortune
+6 years ago
+Your updates 🎯 I make sure to digest all the information you offer to learn and grow. The links, especially the videos and podcast interviews, are very helpful. BlockCard Learn 🔥🔥  Thank you
+2
+likes
+Reply
+Anthony E. Dubose
+6 years ago
+Wow! Congratulations! Who knows where this will lead?
+Like
+Reply
+Freida Claborn
+6 years ago
+Awesome, I can't wait to hear more!
+1
+like
+Reply
+Sunil George
+6 years ago
+Awesome Updates!
+1
+like
+Reply
+Sean Stobart
+6 years ago
+Awesome!! Love, love this!!!
+Sounds amazing, thanks for these wonderful updates!!
+😍😍💪💪🤑🤑🙏🙏🚀🚀
+3
+likes
+Reply
+Davie Vinu
+6 years ago
+Waiting for it to hit the Asian markets especially India in the future.
+1
+like
+Reply
+Yvonne Yeboah
+6 years ago
+Wow awesome update keep the good work up
+1
+like
+Reply
+Darryl Robinson
+6 years ago
+WOW!!!! Busy, busy, busy!!!! Detail and great information. Looking forward to the next update.
+2
+likes
+Reply
+Martin Brenner
+6 years ago
+Thank you for the great work done so far!
+Do you have a time-line for the roll-out in Europe, specifically Switzerland?
+1
+like
+Reply
+Tarun Eldho Alias
+6 years ago
+Hi, @ian-kane, Are you interested in bringing TERN to incognitio chain where crypto can be exchanged anonymously with no KYC?
+1
+like
+Reply
+Raymond Brown
+6 years ago
+You guys ROCK 👌
+3
+likes
+Reply
+Charles Edmundson
+6 years ago
+That’s awesome and I’m surely excited to be apart of. I use the web browser BRAVE and it pays you BAT tokens for those interested, but I said that to say I’ve seen advertisements in reference to BLOCKCARD on that browser quite often lately..  and just being an investor in such a great organization means a lot. Happy to be apart of something much bigger than I and to be able to add my little contribution mean a ton. The Blockcard learn is amazing, surly will take my time and go throughout the whole course. Thanks for the update, I only see good things hands down moving forward. 🙌🙌
+2
+likes
+Reply
+See more comments
+Join the discussion
+Verify your identity to join the discussion
+To keep discussions authentic and prevent spam,
+we ask users to verify their identity.
+Verify your identity
+Your information is kept secure and will only be used for identity verification.
+Open for investment
+Investors in Unbanked (formerly Ternio BlockCard) also invested in these companies.
+View more
+Mintworks
+$30T opportunity by 2030. We turn any asset into dig...
+Republic Funding Portal · Reg CF
+Code Blue
+AI that calls for help when you can’t
+Republic Funding Portal · Reg CF
+Miso Robotics
+engineers AI-powered kitchen robots and operating sy...
+Capital R · Reg A+
+Mightylicious
+Gluten free cookies sold in 1,775 stores nationwide
+Republic Funding Portal · Reg CF
+The Gifted
+The $2.5M Future Vision XPRIZE film contest winner
+Republic Funding Portal · Reg CF
+Loading...
+Back to Unbanked (formerly Ternio BlockCard) deal page
+Giving everyone access to early-stage startup investing
+For investors
+Why invest
+How it works
+FAQ
+Risks
+Privacy policy
+Accessibility
+Cookie Preferences
+Form CRS
+For startups
+Why raise
+Learn
+FAQ
+Tokenized assets
+Company
+About
+Insights
+Events
+Contact
+Security
+We're hiring!
+Refer a startup, get $2,500
+Invest in the app
+This site (the "Site") is owned and maintained by OpenDeal Inc., which is not a registered
+broker-dealer. OpenDeal Inc. does not give investment advice, endorsement, analysis or
+recommendations with respect to any securities. All securities listed here are being offered
+by, and all information included on this Site is the responsibility of, the applicable issuer
+of such securities. The intermediary facilitating the offering will be identified in such
+offering’s documentation.
+All related securities activity is conducted by OpenDeal Broker LLC a registered broker-dealer,
+Member of
+FINRA
+and
+SiPC
+,
+an affiliate of OpenDeal Inc. and OpenDeal Portal LLC, located at 149 5th Avenue,
+10th Floor, New York, NY 10010. Please check our background on FINRA’s
+BrokerCheck
+.
+Certain pages discussing the mechanics and providing educational materials
+regarding regulation crowdfunding offerings may refer to OpenDeal Broker LLC
+and OpenDeal Portal LLC collectively as “Republic”, solely for explanatory purposes.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC make investment
+recommendations and no communication, through this Site, or in any other medium,
+should be construed as a recommendation for any security offered on or off this
+investment platform. Investment opportunities posted on this Site are private placements
+of securities that are not publicly traded, involve a high degree of risk, may lose value
+including the total loss of invested capital, are subject to holding period requirements
+and are intended for investors who do not need a liquid investment. Past performance is
+not indicative of future results. Investors must be able to afford the loss of their
+entire investment. Only qualified investors, who understand the risks of early-stage
+investment and who meet the Republic's investment criteria may invest. Investors
+may be restricted to only Accredited Investors or non-U.S. persons, to invest in offerings
+hosted by OpenDeal Broker. Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC,
+nor any of their officers, directors, agents and employees make any warranty, express or implied,
+of any kind whatsoever related to the adequacy, accuracy or completeness of any information on
+this Site or the use of information on this site. Offers to sell securities can only be made
+through official offering documents that contain important information about the investment
+and the issuers, including risks. Investors should carefully read the offering documents.
+Investors should conduct their own due diligence and are encouraged to consult with their tax,
+legal and financial advisors.
+By accessing the Site and any pages thereof, you agree to be bound by the
+Terms of Use
+and
+Privacy Policy
+.
+Please also see OpenDeal Broker’s
+Business Continuity Plan
+and
+Additional Risk Disclosures
+.
+All issuers offering securities under regulation crowdfunding as hosted by
+OpenDeal Portal LLC are listed on the
+All Companies Page
+.
+The inclusion or exclusion of an issuer on the
+Platform Page
+and/or Republic’s
+Homepage
+,
+which includes offerings conducted under regulation crowdfunding as well as
+other exemptions from registration, is not based upon any endorsement or recommendation
+by OpenDeal Inc, OpenDeal Portal LLC, or OpenDeal Broker LLC, nor any of their affiliates,
+officers, directors, agents, and employees. Rather, issuers of securities may,
+in their sole discretion, opt-out of being listed on the
+Platform Page
+and
+Homepage
+.
+Investors should verify any issuer information they consider important before making
+an investment.
+Investments in private companies are particularly risky and may result in total loss of
+invested capital. Past performance of a security or a company does not guarantee future
+results or returns. Only investors who understand the
+risks of early stage investment
+and who meet the Republic's
+investment criteria
+may invest.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC verify
+information provided by companies on this Site and makes no assurance as to the completeness
+or accuracy of any such information. Additional information about companies fundraising on
+the Site can be found by searching the
+EDGAR database
+,
+or the offering documentation located on the Site when the offering does not require an
+EDGAR filing.
+To help the government fight the funding of terrorism and money laundering activities,
+Federal law requires all financial institutions to obtain, verify, and record information
+that identifies each person who opens an account.
+Therefore, when you use the Services we will ask for your name, address, date of birth,
+and other information that will allow us to identify you.
+We may also ask to see your driver's license, passport or other identifying documents.
+Republic and its affiliates are not and do not operate or act as a bank. Certain banking
+services are provided by BitGo Trust Company, a South Dakota-chartered trust company and
+registered money services business. BitGo Trust Company is not an FDIC member.
+Digital (crypto) assets and investment products are not insured by the FDIC, may lose value,
+and are not deposits or other obligations of BitGo Trust Company and are not guaranteed by
+BitGo Trust Company. Terms and conditions apply.
+Show disclaimers
+Invest in startups using your credit card
+Made in SF/NYC

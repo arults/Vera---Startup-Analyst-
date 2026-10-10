@@ -1,0 +1,529 @@
+Log in
+Investors
+Businesses
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Investors
+Businesses
+US
+Log in
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Spotlight deal
+Miso Robotics
+engineers AI-powered kitchen robots and operating systems for restaurants and hospitality
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Blue
+Updates
+Apr 26
+2024
+Your BLUE Tokens Are Coming Soon! Get Ready for the UniSwap Launch!
+Hello Blue Social Fam,
+Exciting news ahead! Your BLUE tokens from our PreSale last year are about to be airdropped to your wallets! 🎉 As one of our early supporters, we're deeply grateful for your unwavering trust and belief in our vision.
+Your BLUE tokens symbolize more than just a digital asset; they represent your commitment to leading the charge in revolutionizing social networking. With BLUE tokens, you're not just supporting our platform; you're supporting a future where social interactions are rewarded and valued like never before.
+But that's not all! We minted the BLUE tokens last week and are thrilled to announce that the official launch of BLUE tokens on
+UniSwap
+is fast approaching, scheduled for
+May 1st, 2024
+. This is a monumental milestone for us, and we're ecstatic to share it with you.
+As we gear up for the UniSwap launch, we invite you to join us in building anticipation for this historic event. With BLUE tokens soon available for trading on one of the largest decentralized exchanges globally, we're opening doors to new opportunities for liquidity and market access.
+And here's where you come in! To ensure the smooth operation of our token on UniSwap and to prevent price manipulation, we're calling on you to contribute to our liquidity pool. Your participation will play a crucial role in maintaining stability and fairness in the market. Message me directly if you'd like to help support the liquidity pool and earn fee's from Swaps.
+Once again, we want to extend our heartfelt thanks for your incredible support and belief in Blue Social. Your contributions have been instrumental in bringing us to where we are today, and we're thrilled to continue this journey with you.
+Stay tuned for more updates and announcements as we count down to the UniSwap launch on May 1st. Together, we're shaping the future of social networking and creating a more rewarding and connected world.
+Make sure to update your mobile app to see the latest updates!
+-> Update Now <-
+Best regards,
+Jose Montero & the Blue Social Team
+Jose Montero
+Blue
+Like
+8
+Comments
+(14)
+Harish Damodhardas
+2 years ago
+Hi Jose,
+1. I followed the procedure to claim the tokens but am not able to see these, can you please explain where I can see these and which wallet you are refering to?
+2. Please inform if it is mandatory to connect/link to metamask wallet or we have option to keep the tokens in our Repbulic account.
+3. Please give details of your presale, price, total number of tokens, and current price of tokens.
+4. Please inform if I had bought the tokens during presale as I do not remember this or can see my purchase in my account.
+5. When will these tokens be listed on external exchanges to trade in open market.
+6. Any other relevant info about the tokens.
+1
+like
+Reply
+View 6 more replies
+Harish Damodhardas
+@jose-montero thanks your prompt response. 1. I am still not clear about the wallet, dont know how to find, check this. I just followed your instructions of clicking the link you sent recently taking me to next page, asking me to put my email, which I did and then asking to put code which you sent to my email. Was the wallet created during this process?  2. What is the name of this wallet, eg trust wallet, meta mask.3 Is there any way you can check about my purchase during the presale, either directly or through Republic as I do not know how to check this. 4. Please help me in tracing my wallet to see where my airdrip, purchased tokens are.
+Like
+·
+Reply
+·
+2 years ago
+Harish Damodhardas
+@jose-montero  I clicked the link you sent few days back to see the process of how to clarim the tokens and getting this message which says that you will create the wallet.  To claim your tokens we require you to use the email associated with your Republic Account.
+When signing up, we will automatically generate a non-custodial wallet for us to Airdrop the tokens to.
+Release Schedule: 100% vesting 1.5 years (1.28% unlocked per week)
+Sign in
+Enter the verification code sent to
+harisshddb@yahoo.com
+Verify
+But this time not getting verification code in my email. Maybe as I already claimed.
+Like
+·
+Reply
+·
+2 years ago
+Jose Montero
+@harish-damodhardas-asar Hi Harish, yes you have already claimed last week. The wallet is generated by Thirdweb - a full stack web3 development platform. The wallet was generated when you put in your email and did the verification code the first time. The tokens will be airdropped when we go live on UniSwap... so they are not in there yet. This is your public wallet address for Airdrop tokens: 0x95E12a2a11B6CF1F7aeb95c074d70D299Fa0C58c
+Like
+·
+Reply
+·
+2 years ago
+MVN Shastry
+2 years ago
+Hello Jose - I think I've followed the steps correctly, but I don't find tokens, may I request you to confirm from your end please?
+Like
+Reply
+Jose Montero
+@mvn-shastry Hello, I can confirm you are all set. The tokens will be airdropped into your wallet on June 1st. The reason being, we have to batch the Airdrops together in one file vs doing separate transactions for each individual which can cost us a lot of money in gas fees. You will receive an email shortly, that confirms you've claimed and another email at the time BLUE tokens are sent.
+1
+like
+·
+Reply
+·
+2 years ago
+MVN Shastry
+@jose-montero - we have half month past June, wanted to check what's plan around this?
+Like
+·
+Reply
+·
+2 years ago
+Jose Montero
+@mvn-shastry Hey we had posted another update and also sent an email regarding the launch. We decided to build on BASE network and are participating in the Base (Coinbase) buildathon which ends on June 30th. We are working hard to finish the integration of the token Utility in app before launch so that way we avoid the SEC saying it's a security. Safer for us in the long run.
+Like
+·
+Reply
+·
+2 years ago
+Micheline Guillaume
+2 years ago
+Good morning,
+#i miss the presale but would like to get the token as well as participating in the liquidity
+1
+like
+Reply
+Jose Montero
+@micheline-guillaume Good morning Micheline, would love to have your help in participation in the liquidity! Send me a message.
+Like
+·
+Reply
+·
+2 years ago
+Micheline Guillaume
+Hi Jose,
+How do I participate in the liquidity.
+1
+like
+·
+Reply
+·
+2 years ago
+Jose Montero
+@micheline-guillaume What is a good email to reach you at?
+Like
+·
+Reply
+·
+2 years ago
+Mohammed Kaidi
+2 years ago
+Hello and thank you for all your time and help.
+I was wondering How can we buy the token before lunch if we missed the presale? And how we will get notified please.
+Thank you
+1
+like
+Reply
+Jose Montero
+@mohammed-kaidi Hello Mohammad, the token presale has officially closed since last year. But depending on how much you're looking to purchase you may be able to help with liquidity and get tokens at a discount before we list on UniSwap May 10th. Send me a message and we can talk.
+Otherwise you will be notified via email or on the Blue Social mobile app at the same time as everyone else. Thank you.
+Like
+·
+Reply
+·
+2 years ago
+Carlos Ernesto Minoli
+2 years ago
+Hi Jose, I connected the wallet but I am not seeing the tokens.  Also I did not receive the email that I saw someone else received.  Is there any delay or should I check with support?
+Like
+Reply
+Jose Montero
+@carlos-minoli Hi Carlos, I do see that you claimed and generated your wallet correctly. As mentioned in the email, they will be airdropped into your wallet on the 1st of the month. The reason being, we have to batch the Airdrops together in one file vs doing separate transactions for each individual which can cost us a lot of money in gas fees. You will receive an email shortly, that confirms you've claimed and another email at the time BLUE tokens are sent to your wallet. Thank you for your continued support.
+Like
+·
+Reply
+·
+2 years ago
+Carlos Ernesto Minoli
+Sounds great @jose-montero! Thank you for taking the time to answer.
+1
+like
+·
+Reply
+·
+2 years ago
+Emmanuella Antoine
+2 years ago
+Has the tokens been dropped yet?
+1
+like
+Reply
+Jose Montero
+@windy-jay Hey Emmanuella, thanks for following up. We did launch the official Token Contract last week on Ethereum Mainnet. However, we decided to move the launch on UniSwap to May 10th. To give us more time to meet with potential liquidity providers. We don't want to launch on a DEX with low liquidity to avoid price manipulations and front-runner bots. We will also be hosting a webinar next week for potential LP's to learn more about the project and helping us with liquidity. I'll be sending another email out with more details if you're interested.
+Like
+·
+Reply
+·
+2 years ago
+Syed Ali
+2 years ago
+Blue will go $75 dollars
+3
+likes
+Reply
+Ava Horrell
+2 years ago
+Hello Jose, as far as i'm aware < i do not have a wallet address. How will you make a deposit?
+1
+like
+Reply
+Jose Montero
+@ava-horrell Hello Ava, if you didn't purchase tokens during our PreSale last year - don't worry! We will have a way for you to generate a wallet and claim tokens for participating in our Republic CF campaign in 2020. We will be sharing a post shortly. Stay tuned..!
+Like
+·
+Reply
+·
+2 years ago
+Samuel Stokes
+2 years ago
+How does the liquidity pool work? I need more info. Thanks
+1
+like
+Reply
+Jose Montero
+@samuel-stokes Just sent you a direct message! Thanks.
+Like
+·
+Reply
+·
+2 years ago
+peter bangura
+2 years ago
+It great new Jose and thank you for pressing on to this point. But I couldn't remember whether I have a wallet Address.  Could you please give me an update if I have any. If not how would I get I one at this point. Once again Thank you for a remarkable journey
+1
+like
+Reply
+Jose Montero
+@peter-bangura Hello Peter, we don't automatically create you a Ethereum Wallet address. We recommend you create one using MetaMask by going to the Official MetaMask website. If you didn't purchase tokens during the PreSale, don't worry. We will be doing another post that shares how to claim free tokens for the airdrop. Thank you.
+Like
+·
+Reply
+·
+2 years ago
+Doretha Carson
+2 years ago
+Great news; will stay tuned.
+2
+likes
+Reply
+Jose Montero
+@doretha-carson Appreciate it!
+Like
+·
+Reply
+·
+2 years ago
+Joseph Lizyness
+2 years ago
+This is awesome. Blue to the moon. Do we have a Google sheet or something to provide our metamask wallet info?
+1
+like
+Reply
+Jose Montero
+@joseph-lizyness Hi Joseph, if you participated in the PreSale we already have your Wallet Address that will be airdropped the tokens :)
+Like
+·
+Reply
+·
+2 years ago
+Ben Spickard
+2 years ago
+Great update Jose! Excited for the launch on Uniswap. I'm connected to an on-chain market maker who can help build additional liquidity on Uniswap. Will send you a message. Cheers!
+2
+likes
+Reply
+Ben Spickard
+@ben-spickard Sent over a linkedin message :)
+2
+likes
+·
+Reply
+·
+2 years ago
+Jose Montero
+@ben-spickard thank you Ben! Will respond to you shortly!
+Like
+·
+Reply
+·
+2 years ago
+Elaine Brown
+2 years ago
+Thanks for the information. Are we expected to do anything?
+3
+likes
+Reply
+Jose Montero
+@elaine-brown-1 Hi Elaine, if you purchased tokens during the PreSale there is nothing for you to do atm. The tokens will be airdropped to your wallet. Also, I will be posting another post that shares how Republic investors can claim FREE tokens. Stay tuned! Thank you.
+Like
+·
+Reply
+·
+2 years ago
+Elaine Brown
+@jose-montero thank you
+Like
+·
+Reply
+·
+2 years ago
+Join the discussion
+Verify your identity to join the discussion
+To keep discussions authentic and prevent spam,
+we ask users to verify their identity.
+Verify your identity
+Your information is kept secure and will only be used for identity verification.
+Open for investment
+Investors in Blue also invested in these companies.
+View more
+Yakuru Inc.
+The integrated health platform combining precision s...
+Republic Funding Portal · Reg CF
+Mintworks
+$30T opportunity by 2030. We turn any asset into dig...
+Republic Funding Portal · Reg CF
+Mightylicious
+Gluten free cookies sold in 1,775 stores nationwide
+Republic Funding Portal · Reg CF
+The Gifted
+The $2.5M Future Vision XPRIZE film contest winner
+Republic Funding Portal · Reg CF
+Loading...
+Back to Blue deal page
+Giving everyone access to early-stage startup investing
+For investors
+Why invest
+How it works
+FAQ
+Risks
+Privacy policy
+Accessibility
+Cookie Preferences
+Form CRS
+For startups
+Why raise
+Learn
+FAQ
+Tokenized assets
+Company
+About
+Insights
+Events
+Contact
+Security
+We're hiring!
+Refer a startup, get $2,500
+Invest in the app
+This site (the "Site") is owned and maintained by OpenDeal Inc., which is not a registered
+broker-dealer. OpenDeal Inc. does not give investment advice, endorsement, analysis or
+recommendations with respect to any securities. All securities listed here are being offered
+by, and all information included on this Site is the responsibility of, the applicable issuer
+of such securities. The intermediary facilitating the offering will be identified in such
+offering’s documentation.
+All related securities activity is conducted by OpenDeal Broker LLC a registered broker-dealer,
+Member of
+FINRA
+and
+SiPC
+,
+an affiliate of OpenDeal Inc. and OpenDeal Portal LLC, located at 149 5th Avenue,
+10th Floor, New York, NY 10010. Please check our background on FINRA’s
+BrokerCheck
+.
+Certain pages discussing the mechanics and providing educational materials
+regarding regulation crowdfunding offerings may refer to OpenDeal Broker LLC
+and OpenDeal Portal LLC collectively as “Republic”, solely for explanatory purposes.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC make investment
+recommendations and no communication, through this Site, or in any other medium,
+should be construed as a recommendation for any security offered on or off this
+investment platform. Investment opportunities posted on this Site are private placements
+of securities that are not publicly traded, involve a high degree of risk, may lose value
+including the total loss of invested capital, are subject to holding period requirements
+and are intended for investors who do not need a liquid investment. Past performance is
+not indicative of future results. Investors must be able to afford the loss of their
+entire investment. Only qualified investors, who understand the risks of early-stage
+investment and who meet the Republic's investment criteria may invest. Investors
+may be restricted to only Accredited Investors or non-U.S. persons, to invest in offerings
+hosted by OpenDeal Broker. Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC,
+nor any of their officers, directors, agents and employees make any warranty, express or implied,
+of any kind whatsoever related to the adequacy, accuracy or completeness of any information on
+this Site or the use of information on this site. Offers to sell securities can only be made
+through official offering documents that contain important information about the investment
+and the issuers, including risks. Investors should carefully read the offering documents.
+Investors should conduct their own due diligence and are encouraged to consult with their tax,
+legal and financial advisors.
+By accessing the Site and any pages thereof, you agree to be bound by the
+Terms of Use
+and
+Privacy Policy
+.
+Please also see OpenDeal Broker’s
+Business Continuity Plan
+and
+Additional Risk Disclosures
+.
+All issuers offering securities under regulation crowdfunding as hosted by
+OpenDeal Portal LLC are listed on the
+All Companies Page
+.
+The inclusion or exclusion of an issuer on the
+Platform Page
+and/or Republic’s
+Homepage
+,
+which includes offerings conducted under regulation crowdfunding as well as
+other exemptions from registration, is not based upon any endorsement or recommendation
+by OpenDeal Inc, OpenDeal Portal LLC, or OpenDeal Broker LLC, nor any of their affiliates,
+officers, directors, agents, and employees. Rather, issuers of securities may,
+in their sole discretion, opt-out of being listed on the
+Platform Page
+and
+Homepage
+.
+Investors should verify any issuer information they consider important before making
+an investment.
+Investments in private companies are particularly risky and may result in total loss of
+invested capital. Past performance of a security or a company does not guarantee future
+results or returns. Only investors who understand the
+risks of early stage investment
+and who meet the Republic's
+investment criteria
+may invest.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC verify
+information provided by companies on this Site and makes no assurance as to the completeness
+or accuracy of any such information. Additional information about companies fundraising on
+the Site can be found by searching the
+EDGAR database
+,
+or the offering documentation located on the Site when the offering does not require an
+EDGAR filing.
+To help the government fight the funding of terrorism and money laundering activities,
+Federal law requires all financial institutions to obtain, verify, and record information
+that identifies each person who opens an account.
+Therefore, when you use the Services we will ask for your name, address, date of birth,
+and other information that will allow us to identify you.
+We may also ask to see your driver's license, passport or other identifying documents.
+Republic and its affiliates are not and do not operate or act as a bank. Certain banking
+services are provided by BitGo Trust Company, a South Dakota-chartered trust company and
+registered money services business. BitGo Trust Company is not an FDIC member.
+Digital (crypto) assets and investment products are not insured by the FDIC, may lose value,
+and are not deposits or other obligations of BitGo Trust Company and are not guaranteed by
+BitGo Trust Company. Terms and conditions apply.
+Show disclaimers
+Invest in startups using your credit card
+Made in SF/NYC
