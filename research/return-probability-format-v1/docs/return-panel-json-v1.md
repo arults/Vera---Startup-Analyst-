@@ -1,0 +1,23 @@
+# Return panel JSON contract v1.0.0
+
+The stdlib validator in `tools/validate_return_panel.py` defines required structural fields. `examples/return-panel-abstention-v1.json` is a complete non-company illustration. JSON probabilities are fractions in [0,1], never percentages. Exact ordered thresholds: 10,25,50,100.
+
+- Top level: contract_version, analysis_identity, data_cutoff (ISO date), estimand (unconditional_net_realized_moic_at_horizon), calibration_status (CALIBRATED/PARTIALLY_CALIBRATED/UNCALIBRATED), terms object, thresholds array, and numeric-only provenance object.
+- Terms: every field listed in TERMS_FIELDS describes the known convention or explicitly missing information. Null terms are not silently defaulted. Numeric outputs require substantively sufficient actual terms; the validator cannot verify natural-language sufficiency.
+- Each row: threshold, status (ESTIMATED/NOT_ESTIMABLE), probability (fraction or null), interval (object or null), derivation, source_ids, assumptions, blocking_gaps, reviews.
+- Abstention: probability and interval null; at least one explicit blocking gap. This is a valid successful result.
+- Estimated: no blocking gaps; source IDs and assumptions; an uncertainty interval with lower/upper, kind (confidence/credible/sensitivity/judgment), method and interpretation. Point may be null when only defensible bounds/range exist. Confidence/credible intervals require coverage in (0,1); sensitivity/judgment ranges require coverage null. State whether envelope bounds are joint/simultaneous or marginal; monotone envelope endpoints are required here, not asserted as a universal property of separately constructed confidence intervals.
+- Review objects: independent_verifier and jev. Each has status (NOT_RUN/PENDING_AUTHORIZATION/UNAVAILABLE/COMPLETED/FAILED), scope (generic_method/company_estimate/none), feedback. COMPLETED additionally requires reviewer, timestamp, input_version, result, resolution. These fields record real review; they must not be populated with invented feedback. A passing generic review cannot validate a company estimate.
+- Numeric provenance: all fields in PROVENANCE_FIELDS, including actual model/artifact, denominators/censoring, company updates, uncertainty and calibration evidence. Text presence is not truth verification. References should resolve to the thesis's source ledger and computation artifact.
+
+Validation is necessary hygiene, never sufficient authorization to publish numbers. It checks shape, null abstention, numerical domains, nested thresholds, envelope coherence, metadata presence and status compatibility. It does not evaluate source truth, anchor defensibility, actual permission, reviewer independence, cash waterfall accuracy, scenario normalization, empirical calibration, or whether a natural-language field merely contains a placeholder. Those require substantive independent review and the existing Vera calibration gate. Numeric tests use deliberately synthetic software fixtures; they are not company priors or estimates.
+
+Run from repository root:
+
+    python tools/validate_return_panel.py examples/return-panel-abstention-v1.json
+    python -m unittest discover -s tests -p 'test_return_panel.py'
+
+Review status `FAILED` means the review could not be completed (for example a service failure); feedback explains why. A completed adverse review uses `COMPLETED`, with a negative result and unresolved issues in resolution/blocking_gaps. No numeric result should be published while an indispensable unresolved critique blocks the estimation basis. Source IDs are presence-checked only; resolution to actual sources belongs to substantive review.
+
+## Publication gate
+Every panel declares publication_state DRAFT or RELEASED. Draft estimates are working artifacts, not approved user-facing numerical conclusions. Numeric panels also declare a typed basis_complete boolean and basis_blocking_gaps array; numerical provenance includes input_artifact_version. A RELEASED numeric panel requires basis_complete=true and no basis blockers. Each ESTIMATED row requires both reviews COMPLETED, scope=company_estimate, result=PASS, explicit material_blockers=[], and review input_version/model_version exactly matching provenance input_artifact_version/model_version. Generic-method reviews, pending reviews, stale versions and unresolved material critiques cannot release a numeric estimate. This structural gate records real review assertions but cannot authenticate them. Synthetic release fixtures contain clearly labelled fictional software-test review metadata, not real reviewer findings or actual investments.
