@@ -1,0 +1,97 @@
+{
+  "observed_at": "2026-10-11T10:19:19Z",
+  "code_commit": "da57cac9853633198b122220ee956b3b15754fec",
+  "code_tree": "fc4dcdd7d7cf321921cf6457407a60a527090748",
+  "runs": [
+    {
+      "id": 38131432063,
+      "name": "Vera run metrics validation",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38131432063"
+    },
+    {
+      "id": 38131432050,
+      "name": "Vera observability validation",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38131432050"
+    },
+    {
+      "id": 38131432046,
+      "name": "Phase 1C verifier",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38131432046"
+    },
+    {
+      "id": 38131432041,
+      "name": "Phase 1D verifier",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38131432041"
+    },
+    {
+      "id": 38131432075,
+      "name": "Phase 1B verifier",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38131432075"
+    },
+    {
+      "id": 38131427195,
+      "name": "Vera observability validation",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38131427195"
+    }
+  ],
+  "earlier_metrics_commit": "ae449caa7c77e65f287b70ffc323a1dc66024d03",
+  "earlier_runs": [
+    {
+      "id": 38130534574,
+      "name": "Vera run metrics validation",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38130534574"
+    },
+    {
+      "id": 38130534587,
+      "name": "Phase 1C verifier",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38130534587"
+    },
+    {
+      "id": 38130534621,
+      "name": "Phase 1D verifier",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38130534621"
+    },
+    {
+      "id": 38130534604,
+      "name": "Phase 1B verifier",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38130534604"
+    },
+    {
+      "id": 38130529872,
+      "name": "Vera run metrics validation",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/actions/runs/38130529872"
+    }
+  ],
+  "original_data_blobs_preserved": 7271,
+  "existing_modified_paths_since_baseline": [
+    "SKILLS.md"
+  ],
+  "limits": [
+    "Code and synthetic validation only",
+    "Scientific Phase 1D remains incomplete",
+    "Serving-host integration remains missing",
+    "No visual browser QA pass"
+  ]
+}

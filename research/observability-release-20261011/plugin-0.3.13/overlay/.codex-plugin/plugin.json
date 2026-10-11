@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Finance",
+    "defaultPrompt": [
+      "Analyze this startup investment with Vera.",
+      "Compare these startup opportunities with Vera.",
+      "Extract the startups from this page and analyze them individually."
+    ],
+    "developerName": "Arul TS",
+    "displayName": "Vera",
+    "longDescription": "Vera analyzes startup investments with calibrated Decision Analysis and builds audited base-rate reference classes through exhaustive filing denominators, primary-source file-level funding reconciliation, issuer deduplication, checkpointed censoring-aware survival analysis, an independent Verifier, reflection corrections, and Jev-gated promotion.",
+    "shortDescription": "Startup decision intelligence"
+  },
+  "name": "vera",
+  "version": "0.3.13",
+  "description": "Vera is a probabilistic startup investment system with a calibrated Decision Analyst plus Phase 1B Base-Rate Sourcer, Verifier, frozen denominators, primary-source funding reconciliation, censoring-aware survival analysis, and Jev-gated reference classes.",
+  "author": {
+    "name": "Arul TS",
+    "email": "arul.ts10@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

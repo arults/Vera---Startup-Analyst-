@@ -1,0 +1,33 @@
+{
+  "plugin_id": "plugins_6ac5b64525c881918f65e20c48ac8451",
+  "version": "0.3.13",
+  "release_id": "pluginrel_6acb621ffb24819196b9072028e51c85",
+  "plugin_url": "https://chatgpt.com/plugins/plugins_6ac5b64525c881918f65e20c48ac8451",
+  "scope": "USER",
+  "discoverability": "PRIVATE",
+  "current_inventory_files": 56,
+  "runtime_sha256": {
+    "metrics": "624f781a0f547b96a9e370d0893d2aae255b6af5bdbef01db45cec89e91075ab",
+    "observability": "6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b",
+    "synthetic_harness": "24e010440ed6cae45d6c86a1c96c6bc6dc25d22b7a2d243ec8b720067a007084"
+  },
+  "package_tests": {
+    "metrics": 79,
+    "observability": 88
+  },
+  "independent_checks": {
+    "metrics": 26,
+    "observability": 46
+  },
+  "relocated_metrics_linked_synthetic_cases": 8,
+  "limits": [
+    "No serving-host/all-user automatic integration",
+    "No live company or billing validation",
+    "No remote RAM instrumentation",
+    "No visual browser QA claim",
+    "Synthetic fixtures are not empirical calibration"
+  ],
+  "uploaded_files_readback_exact": 32,
+  "baseline_0_3_11_paths_preserved": 28,
+  "prior_0_3_12_paths_preserved": 38
+}

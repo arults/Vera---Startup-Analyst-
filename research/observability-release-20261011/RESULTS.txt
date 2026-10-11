@@ -1,0 +1,44 @@
+Vera Phase 1D operational observability build — verified 2026-10-11
+
+Status: Local instrumentation, evaluation replay, dashboard generation and active-plugin output contract are built, published and verified. This is not a claim that every hosted user session is automatically instrumented or that scientific Phase 1D is complete.
+
+Published code: da57cac9853633198b122220ee956b3b15754fec on phase-1d.
+Code tree: fc4dcdd7d7cf321921cf6457407a60a527090748.
+Active plugin: Vera 0.3.13, pluginrel_6acb621ffb24819196b9072028e51c85.
+Plugin link: https://chatgpt.com/plugins/plugins_6ac5b64525c881918f65e20c48ac8451
+
+Implemented
+- Run-scoped, append-only operational ledger; tokens, tool attempts/distinct tools, wall-clock cutoff, known cost/basis and scoped RAM with explicit unknowns.
+- Per-company output table, JSON summaries and local HTML dashboard, with compatible-group sample denominators and descriptive statistics.
+- Eleven declared components, parent/attempt/retry traces, safe errors, incomplete coverage and immutable version/artifact references.
+- Separate telemetry health, execution outcome, engineering evaluations and research quality.
+- Bound evaluation records and eight-case synthetic replay/regression harness linked to the actual local metrics recorder.
+- Active skill and detailed-thesis template changes plus numbered repository SKILLS.md requirements.
+
+Verification
+- Metrics: 79 package tests and 26 independent checks.
+- Observability: 88 package tests and 46 independent checks.
+- Two eight-case synthetic replays; zero matched regressions, 202 schema-validated baseline events.
+- Stored JSON/Markdown/HTML fixtures reproduce exactly. Relocated plugin utilities pass tests and linked replay.
+- All six triggered CI runs on the code commit passed; see CI_VERIFICATION.json.
+- All 32 plugin overlay files read back exactly; all 38 previous-release paths preserved. Root independently re-read the active main skill and both runtime modules and compared exact contents.
+- All 7271 original data blobs are unchanged from the pre-build baseline. Only preexisting SKILLS.md changed; code packages and records are additive.
+
+Learnings applied
+- Provider request duplicates cannot inflate usage or cost across attempts/runs.
+- Known inclusive input totals remain usable when cache split is missing, without assuming zero cache.
+- Latency cutoff is distinct from final closure and parallel worker duration.
+- Partial costs show estimate/invoice basis as well as coverage.
+- Stale evaluation artifacts/configurations cannot masquerade as current passes.
+- Synthetic/methodology evaluations cannot establish company research quality.
+- Successful retries do not erase prior incomplete lifecycle evidence.
+- Dashboard denominators exclude incompatible pricing/memory/model scopes rather than mislabeling them missing.
+
+Remaining integration and verification limits
+- No central serving-host adapter was found in the inspected repository. ChatGPT/hidden-worker interception, complete provider billing, final-response tokens and remote model/GPU RAM remain unavailable unless the host supplies them.
+- Future company reports must expose missing/partial measurements, never invent a total or zero. No measured end-to-end company-average benchmark exists yet.
+- Dashboards are local generated artifacts, not a newly deployed multi-user telemetry service. No new external telemetry destination or cross-user data access was created.
+- Visual browser QA could not run because the cloud Chromium launch was blocked; HTML generation, escaping, structure and safe links were tested independently.
+- Synthetic development fixtures have no independent empirical holdout/calibration claim. Scientific cohort/source/history/return-model gates remain open.
+
+The archived plugin overlay is a versioned partial update, not a complete standalone plugin. Its omitted prior files remain in the active plugin release. See the overlay manifest and release receipt for exact bindings.

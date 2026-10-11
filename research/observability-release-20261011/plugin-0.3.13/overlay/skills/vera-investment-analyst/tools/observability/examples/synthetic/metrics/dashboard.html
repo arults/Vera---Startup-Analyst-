@@ -1,0 +1,129 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Vera run metrics</title><style>body{font:15px system-ui;margin:2rem;color:#17212b}table{border-collapse:collapse;width:100%}th,td{text-align:left;border:1px solid #ccd6dd;padding:.6rem;vertical-align:top}th{background:#e8f1f3}pre{white-space:pre-wrap}h1{font-size:1.7rem}</style><h1>Vera run metrics</h1><p>Operational telemetry only. Unknown values are not zero. Synthetic and live runs are grouped separately.</p><div style="overflow-x:auto"><table><tr><th>Company / run</th><th>Mode / cache / collection</th><th>Data cutoff</th><th>Status / capture / final response</th><th>Input uncached</th><th>Input cached</th><th>Output</th><th>Total tokens</th><th>Tools / distinct / all attempts</th><th>Wall to cutoff seconds</th><th>Cost</th><th>Memory</th></tr><tr><td>synthetic-company / synthetic-complete</td><td>STANDARD / cold / fixture</td><td>2026-10-11T10:14:09.317432+00:00</td><td>completed / partial / excluded</td><td>unknown (0/2)</td><td>unknown (0/2)</td><td>unknown (0/2)</td><td>unknown (0/2)</td><td>2 / 2 / 3 observed (partial)</td><td>0.005029</td><td>unknown</td><td>14: 15859712 B RSS (process_lifetime; getrusage_ru_maxrss; linux); context None; storage None B</td></tr></table></div><h2>Matched groups and measured sample sizes</h2><pre>[
+  {
+    &quot;analysis_mode&quot;: &quot;STANDARD&quot;,
+    &quot;cache_state&quot;: &quot;cold&quot;,
+    &quot;status&quot;: &quot;completed&quot;,
+    &quot;synthetic&quot;: true,
+    &quot;collection_source&quot;: &quot;fixture&quot;,
+    &quot;final_response_included&quot;: false,
+    &quot;model_set&quot;: [
+      {
+        &quot;provider&quot;: &quot;unknown&quot;,
+        &quot;model&quot;: &quot;unknown&quot;,
+        &quot;model_version&quot;: &quot;unknown&quot;
+      }
+    ],
+    &quot;n_runs&quot;: 1,
+    &quot;metrics&quot;: {
+      &quot;uncached_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;cached_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;output_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;wall_seconds&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 0.005029,
+        &quot;min&quot;: 0.005029,
+        &quot;max&quot;: 0.005029,
+        &quot;median&quot;: 0.005029,
+        &quot;p90&quot;: 0.005029,
+        &quot;p95&quot;: 0.005029,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;tool_calls&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;distinct_tool_count&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    },
+    &quot;costs&quot;: [],
+    &quot;memory_peak_groups&quot;: [
+      {
+        &quot;scope&quot;: &quot;process_lifetime&quot;,
+        &quot;method&quot;: &quot;getrusage_ru_maxrss&quot;,
+        &quot;platform&quot;: &quot;linux&quot;,
+        &quot;measure&quot;: &quot;max observed process peak; not simultaneous total&quot;,
+        &quot;eligible_n&quot;: 1,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 15859712.0,
+        &quot;min&quot;: 15859712,
+        &quot;max&quot;: 15859712,
+        &quot;median&quot;: 15859712.0,
+        &quot;p90&quot;: 15859712.0,
+        &quot;p95&quot;: 15859712.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    ]
+  }
+]</pre><p>Observed ledger only. No global runtime interception, inferred usage, or scientific approval.</p></html>
