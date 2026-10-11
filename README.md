@@ -2,7 +2,29 @@
 
 Vera is a probabilistic startup-investment research system. It treats startup outcomes as evidence-backed distributions, preserves provenance, and promotes empirical priors only after independent verification.
 
-**Current status, 2026-10-10: Phase 1D has two independently reviewed legacy Republic rounds in a versioned research ledger, verified source-field progress, and targeted engineering repairs; the scientific study remains incomplete. Global research plateau has not been demonstrated.** The promoted release remains **v0.5.0**; CP10 collection execution reached `0.6.5-dev.research.2`. No new Phase 1D numerical prior is promoted.
+## Current verified checkpoint — October 11, 2026
+
+**Scientific Phase 1D remains INCOMPLETE.** Global research plateau has not been demonstrated, and no new Phase 1D numerical prior or calibrated investor-return probabilities are promoted. The October 11 release records the active private analyst plugin as **0.3.13**; the latest promoted **framework** release remains **v0.5.0**. These version numbers describe different artifacts.
+
+### Start here
+
+- [October 11 engineering and evidence checkpoint](research/phase1d-nap-20261011/RESULTS.txt): the register, bootstrap reporting safeguards, first-success uncertainty, preparation audit and reviewed source records, with bounded verification and remaining scientific gates.
+- [Company/round inventory](research/company-register-v0.1.0/REPORT.md): 2,865 rows across seven selected pinned source tables. This is not a unique-company count or the complete study population; company-level research-completion counts remain unclassified.
+- [Evidence-to-history preparation audit](research/preparation-audit-v0.1.0/README.md): all 952 rows in the pinned Republic Europe v5 ledger received structural dispositions. The 398-row targeted queue identifies overlapping review issues; it is not an eligible subset. All 952 retain six unadjudicated preparation requirements, and eligibility counts remain unknown.
+- [First-success uncertainty component](research/first-success-uncertainty-v0.1.0/README.md): company-clustered bootstrap and endpoint-specific analytic diagnostics verified with synthetic tests. Empirical adoption and source qualification remain separate gates.
+- [Operational metrics and observability release](research/observability-release-20261011/RESULTS.txt): run ledgers, component traces, evaluation replay and local dashboards, plus the plugin output contract. Automatic serving-host integration, complete provider billing/final-response usage and remote RAM are not verified. This release is not company-quality or population calibration evidence.
+
+### Next scientific gate
+
+Review already-linked evidence for economic-round identity and funded origin, initial state, index-specific success/target, typed event chronology, endpoint-specific observation, and cohort assignment. Preserve intervals, unknown outcomes and all input rows. Construct separately versioned reviewed histories only where the evidence supports them, then run a shadow report with explicit scope and existing uncertainty/review gates. A targeted batch is not a representative cohort or full-study completion.
+
+The original [study specification](docs/PHASE_1C_SPEC.md) and [promoted-framework status](VERSION_PROGRESS.txt) remain authoritative. Source inventory, technical CI success, research admission, estimator admission and scientific promotion are distinct milestones.
+
+## Historical checkpoint context — October 10, 2026
+
+The material below preserves the earlier checkpoint and its then-pending items; it is not a current status or permission ledger. Use the October 11 records above for the later bounded deliveries.
+
+**Historical status, 2026-10-10: Phase 1D has two independently reviewed legacy Republic rounds in a versioned research ledger, verified source-field progress, and targeted engineering repairs; the scientific study remains incomplete. Global research plateau has not been demonstrated.** The promoted release remains **v0.5.0**; CP10 collection execution reached `0.6.5-dev.research.2`. No new Phase 1D numerical prior is promoted.
 
 Vera retains the Phase 1B Wefunder 2020 reference class and Phase 1C five-platform calibration framework. Republic Europe's candidate analysis retains 24 LOW_INFORMATION RQ1 cells and no reportable RQ2 cells. Wefunder, Republic US, StartEngine and Crowdcube remain historical-denominator-incomplete.
 
