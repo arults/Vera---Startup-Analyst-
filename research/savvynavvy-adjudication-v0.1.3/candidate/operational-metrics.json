@@ -1,0 +1,40 @@
+{
+  "run_id": "vera-savvynavvy-adjudication-20261011",
+  "start_utc": "2026-10-11T13:15:37Z",
+  "start_provenance": "task receipt developer UTC reminder",
+  "measurement_cutoff_utc": "2026-10-11T13:19:13Z",
+  "tokens_used": {
+    "value": null,
+    "unit": "tokens",
+    "status": "UNAVAILABLE"
+  },
+  "total_tool_invocations": {
+    "value": null,
+    "unit": "invocations",
+    "status": "UNAVAILABLE_FULL_RUN_TOTAL",
+    "scope": "Parent and reviewer activity not instrumented; source-read subtotal listed separately"
+  },
+  "observed_source_read_tool_subtotal": {
+    "value": 23,
+    "unit": "invocations",
+    "status": "PARTIAL",
+    "scope": "This worker before cutoff only:19 github_fetch_file,2 github_fetch,1 github_fetch_blob failed,1 web.run failed. Excludes functions wrappers, shell commands, apply_patch, image views, collaboration and subsequent work."
+  },
+  "wall_clock_latency": {
+    "value": 216,
+    "unit": "seconds",
+    "status": "MEASURED_PARTIAL",
+    "scope": "Task receipt to stated cutoff, not final completed run"
+  },
+  "total_cost": {
+    "value": null,
+    "unit": "currency",
+    "status": "UNAVAILABLE"
+  },
+  "memory_peak_rss": {
+    "value": null,
+    "unit": "bytes",
+    "status": "UNAVAILABLE",
+    "scope": "No attributable per-run process RSS telemetry exposed"
+  }
+}

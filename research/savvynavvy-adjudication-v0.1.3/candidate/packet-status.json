@@ -1,0 +1,21 @@
+{
+  "company_run_id": "vera-savvynavvy-adjudication-20261011",
+  "base_commit": "88cce2695804cb6c7754fb8ce6db4ba3122d2bc9",
+  "ledger_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+  "rows": 6,
+  "pair_controls": 15,
+  "canonical_data_modified": false,
+  "estimators_invoked": false,
+  "new_success_admissions": 0,
+  "eligible_count": null,
+  "ineligible_count": null,
+  "independent_review": "V0_1_3_SEMANTIC_AND_PUBLICATION_SAFETY_REVIEW_PENDING",
+  "jev": "NOT_RUN_CREDIT_APPROVAL_REQUIRED",
+  "scope": "PRIVATE_ADDITIVE_SIX_ROUND_DIAGNOSTIC_NOT_REPRESENTATIVE_COHORT; NOT_INVESTMENT_ADVICE_OR_MODEL_RELEASE",
+  "version": "0.1.3",
+  "predecessor_manifest_sha256": "0a09eb9015da2aa77b81b8db65fbca6944507fadedcada81572f83a923777c20",
+  "cohort_years_supported": 6,
+  "global_history_disposition": "HELD_OTHER_PREPARATION_GATES",
+  "cohort_assignment_scoped_status": "PASS_BOUNDED_COHORT_ONLY",
+  "new_raw_html_included": false
+}

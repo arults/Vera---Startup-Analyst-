@@ -1,0 +1,230 @@
+[
+  {
+    "round_id": "reurope:savvy-navvy1",
+    "source_url": "https://europe.republic.com/savvy-navvy1",
+    "original_html_sha256": "c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.html.gz",
+    "extraction_method": "Allowlisted nonsecret DOM attributes and text regex, manually interpreted fields; not full HTML replay",
+    "fields": {
+      "campaign_id": {
+        "value": "28289",
+        "locator": "div.PageHeader[data-campaign-id] / data-campaign-id attribute",
+        "verbatim_fragment": "data-campaign-id='28289'"
+      },
+      "exact_pre_money_valuation": {
+        "value": "1902516",
+        "currency": "GBP",
+        "locator": "#valuation_popup text immediately following Valuation rounded from",
+        "verbatim_fragment": "Valuation rounded from\n\u00a31,902,516"
+      },
+      "valuation_basis": {
+        "value": "FULLY_DILUTED_PRE_MONEY",
+        "locator": "#valuation_popup paragraph",
+        "verbatim_fragment": "This is the fully-diluted pre-money valuation of the business"
+      },
+      "financial_promotion_approved_as_of": {
+        "value": "2020-02-03",
+        "locator": "financial promotion disclaimer paragraph / as of ... as a financial promotion",
+        "verbatim_fragment": "as of\n3 February 2020 as a financial promotion"
+      },
+      "company_id": {
+        "value": "10919572",
+        "locator": "Business overview / Company number label; value retained in evidence text derivative"
+      },
+      "campaign_funded_label_date": {
+        "value": "2020-03-04",
+        "locator": ".investment_countdown / Funded label and displayed date; value retained in evidence text derivative"
+      }
+    }
+  },
+  {
+    "round_id": "reurope:savvy-navvy2",
+    "source_url": "https://europe.republic.com/savvy-navvy2",
+    "original_html_sha256": "c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.html.gz",
+    "extraction_method": "Allowlisted nonsecret DOM attributes and text regex, manually interpreted fields; not full HTML replay",
+    "fields": {
+      "campaign_id": {
+        "value": "29081",
+        "locator": "div.PageHeader[data-campaign-id] / data-campaign-id attribute",
+        "verbatim_fragment": "data-campaign-id='29081'"
+      },
+      "exact_pre_money_valuation": {
+        "value": "2752942",
+        "currency": "GBP",
+        "locator": "#valuation_popup text immediately following Valuation rounded from",
+        "verbatim_fragment": "Valuation rounded from\n\u00a32,752,942"
+      },
+      "valuation_basis": {
+        "value": "FULLY_DILUTED_PRE_MONEY",
+        "locator": "#valuation_popup paragraph",
+        "verbatim_fragment": "This is the fully-diluted pre-money valuation of the business"
+      },
+      "financial_promotion_approved_as_of": {
+        "value": "2021-03-22",
+        "locator": "financial promotion disclaimer paragraph / as of ... as a financial promotion",
+        "verbatim_fragment": "as of\n22 March 2021 as a financial promotion"
+      },
+      "company_id": {
+        "value": "10919572",
+        "locator": "Business overview / Company number label; value retained in evidence text derivative"
+      },
+      "campaign_funded_label_date": {
+        "value": "2021-04-20",
+        "locator": ".investment_countdown / Funded label and displayed date; value retained in evidence text derivative"
+      }
+    }
+  },
+  {
+    "round_id": "reurope:savvy-navvy3",
+    "source_url": "https://europe.republic.com/savvy-navvy3",
+    "original_html_sha256": "2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.html.gz",
+    "extraction_method": "Allowlisted nonsecret DOM attributes and text regex, manually interpreted fields; not full HTML replay",
+    "fields": {
+      "campaign_id": {
+        "value": "29558",
+        "locator": "div.PageHeader[data-campaign-id] / data-campaign-id attribute",
+        "verbatim_fragment": "data-campaign-id='29558'"
+      },
+      "exact_pre_money_valuation": {
+        "value": "9508214",
+        "currency": "GBP",
+        "locator": "#valuation_popup text immediately following Valuation rounded from",
+        "verbatim_fragment": "Valuation rounded from\n\u00a39,508,214"
+      },
+      "valuation_basis": {
+        "value": "FULLY_DILUTED_PRE_MONEY",
+        "locator": "#valuation_popup paragraph",
+        "verbatim_fragment": "This is the fully-diluted pre-money valuation of the business"
+      },
+      "financial_promotion_approved_as_of": {
+        "value": "2022-01-21",
+        "locator": "financial promotion disclaimer paragraph / as of ... as a financial promotion",
+        "verbatim_fragment": "as of\n21 January 2022 as a financial promotion"
+      },
+      "company_id": {
+        "value": "10919572",
+        "locator": "Business overview / Company number label; value retained in evidence text derivative"
+      },
+      "campaign_funded_label_date": {
+        "value": "2022-02-24",
+        "locator": ".investment_countdown / Funded label and displayed date; value retained in evidence text derivative"
+      }
+    }
+  },
+  {
+    "round_id": "reurope:savvy-navvy4",
+    "source_url": "https://europe.republic.com/savvy-navvy4",
+    "original_html_sha256": "9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.html.gz",
+    "extraction_method": "Allowlisted nonsecret DOM attributes and text regex, manually interpreted fields; not full HTML replay",
+    "fields": {
+      "campaign_id": {
+        "value": "30264",
+        "locator": "div.PageHeader[data-campaign-id] / data-campaign-id attribute",
+        "verbatim_fragment": "data-campaign-id='30264'"
+      },
+      "exact_pre_money_valuation": {
+        "value": "11997450",
+        "currency": "GBP",
+        "locator": "#valuation_popup text immediately following Valuation rounded from",
+        "verbatim_fragment": "Valuation rounded from\n\u00a311,997,450"
+      },
+      "valuation_basis": {
+        "value": "FULLY_DILUTED_PRE_MONEY",
+        "locator": "#valuation_popup paragraph",
+        "verbatim_fragment": "This is the fully-diluted pre-money valuation of the business"
+      },
+      "financial_promotion_approved_as_of": {
+        "value": "2023-01-30",
+        "locator": "financial promotion disclaimer paragraph / as of ... as a financial promotion",
+        "verbatim_fragment": "as of\n30 January 2023 as a financial promotion"
+      },
+      "company_id": {
+        "value": "10919572",
+        "locator": "Business overview / Company number label; value retained in evidence text derivative"
+      },
+      "campaign_funded_label_date": {
+        "value": "2023-03-06",
+        "locator": ".investment_countdown / Funded label and displayed date; value retained in evidence text derivative"
+      }
+    }
+  },
+  {
+    "round_id": "reurope:savvy-navvy5",
+    "source_url": "https://europe.republic.com/savvy-navvy5",
+    "original_html_sha256": "5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.html.gz",
+    "extraction_method": "Allowlisted nonsecret DOM attributes and text regex, manually interpreted fields; not full HTML replay",
+    "fields": {
+      "campaign_id": {
+        "value": "30901",
+        "locator": "div.PageHeader[data-campaign-id] / data-campaign-id attribute",
+        "verbatim_fragment": "data-campaign-id='30901'"
+      },
+      "exact_pre_money_valuation": {
+        "value": "13999301",
+        "currency": "GBP",
+        "locator": "#valuation_popup text immediately following Valuation rounded from",
+        "verbatim_fragment": "Valuation rounded from\n\u00a313,999,301"
+      },
+      "valuation_basis": {
+        "value": "FULLY_DILUTED_PRE_MONEY",
+        "locator": "#valuation_popup paragraph",
+        "verbatim_fragment": "This is the fully-diluted pre-money valuation of the business"
+      },
+      "financial_promotion_approved_as_of": {
+        "value": "2024-04-29",
+        "locator": "financial promotion disclaimer paragraph / as of ... as a financial promotion",
+        "verbatim_fragment": "as of\n29 April 2024 as a financial promotion"
+      },
+      "company_id": {
+        "value": "10919572",
+        "locator": "Business overview / Company number label; value retained in evidence text derivative"
+      },
+      "campaign_funded_label_date": {
+        "value": "2024-06-05",
+        "locator": ".investment_countdown / Funded label and displayed date; value retained in evidence text derivative"
+      }
+    }
+  },
+  {
+    "round_id": "reurope:savvy-navvy6",
+    "source_url": "https://europe.republic.com/savvy-navvy6",
+    "original_html_sha256": "9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.html.gz",
+    "extraction_method": "Allowlisted nonsecret DOM attributes and text regex, manually interpreted fields; not full HTML replay",
+    "fields": {
+      "campaign_id": {
+        "value": "31183",
+        "locator": "div.PageHeader[data-campaign-id] / data-campaign-id attribute",
+        "verbatim_fragment": "data-campaign-id='31183'"
+      },
+      "exact_pre_money_valuation": {
+        "value": "15038136",
+        "currency": "GBP",
+        "locator": "#valuation_popup text immediately following Valuation rounded from",
+        "verbatim_fragment": "Valuation rounded from\n\u00a315,038,136"
+      },
+      "valuation_basis": {
+        "value": "FULLY_DILUTED_PRE_MONEY",
+        "locator": "#valuation_popup paragraph",
+        "verbatim_fragment": "This is the fully-diluted pre-money valuation of the business"
+      },
+      "financial_promotion_approved_as_of": {
+        "value": "2025-11-10",
+        "locator": "financial promotion disclaimer paragraph / as of ... as a financial promotion",
+        "verbatim_fragment": "as of\n10 November 2025 as a financial promotion"
+      },
+      "company_id": {
+        "value": "10919572",
+        "locator": "Business overview / Company number label; value retained in evidence text derivative"
+      },
+      "campaign_funded_label_date": {
+        "value": "2025-12-09",
+        "locator": ".investment_countdown / Funded label and displayed date; value retained in evidence text derivative"
+      }
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "source_url": "https://europe.republic.com/savvy-navvy3",
+    "original_sha256": "2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.html.gz",
+    "original_capture_at": "2026-10-09T09:28:11.608574+00:00",
+    "derivative_file": "sources/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.evidence.txt",
+    "derivative_sha256": "ff73e9399f56f0e7cd47ef20450be6fd1b71fdce1af48bb7931a4d1722037e2d",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 41,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 347,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/savvy-navvy5",
+    "original_sha256": "5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.html.gz",
+    "original_capture_at": "2026-10-09T09:28:12.751706+00:00",
+    "derivative_file": "sources/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.evidence.txt",
+    "derivative_sha256": "3122bdc7f1480dc31a3bc6a1963a31d53cee353e6b0980cf54316fd5f920b8eb",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 41,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 429,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/savvy-navvy4",
+    "original_sha256": "9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.html.gz",
+    "original_capture_at": "2026-10-09T09:28:12.171040+00:00",
+    "derivative_file": "sources/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.evidence.txt",
+    "derivative_sha256": "369f3713117417f011b3e228b1983c8f9b29be732a49f059548a5fa9afdd782e",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 42,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 362,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/savvy-navvy6",
+    "original_sha256": "9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.html.gz",
+    "original_capture_at": "2026-10-09T09:28:13.310029+00:00",
+    "derivative_file": "sources/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.evidence.txt",
+    "derivative_sha256": "4119517b178277c1f8fb125ff2c182a9a82d554588e73cdcc8b1f5698729c561",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 41,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 382,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/businesses/savvy-navvy",
+    "original_sha256": "8bf3262cbd7b37f00ec5c08bc2ceeb38f38935944653bf407767290fa181741f",
+    "original_repository_path": null,
+    "original_capture_at": null,
+    "derivative_file": "sources/business-live.evidence.txt",
+    "derivative_sha256": "61469214a69dee036b64a5b9a70667a8a064ab83ad3570163d699e7e83c15db3",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 39,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 238,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/savvy-navvy1",
+    "original_sha256": "c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.html.gz",
+    "original_capture_at": "2026-10-09T09:28:10.398615+00:00",
+    "derivative_file": "sources/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.evidence.txt",
+    "derivative_sha256": "eeba9e728e48121409551f714d5ccefaf619467d38e52460d49506b540b163f0",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 42,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 354,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/savvy-navvy2",
+    "original_sha256": "c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5",
+    "original_repository_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.html.gz",
+    "original_capture_at": "2026-10-09T09:28:11.052452+00:00",
+    "derivative_file": "sources/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.evidence.txt",
+    "derivative_sha256": "01a290157e65de110c84ee1b255ac4d66f5820cea91b0f1226c8a408c09b7cc3",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 41,
+      "csrf_metadata_elements_removed": 2,
+      "all_tag_attribute_sets_removed": 345,
+      "comments_removed": 7
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  },
+  {
+    "source_url": "https://europe.republic.com/investors-site/guides/what-to-expect-as-a-startup-seedrs-investor/",
+    "original_sha256": "27c3e06088ecc043c0db7fe912caab26d911db832a7096ef0c3f6094ae2a0178",
+    "original_repository_path": null,
+    "original_capture_at": null,
+    "derivative_file": "sources/platform-completion-guide.evidence.txt",
+    "derivative_sha256": "816e22c80fedc8cf66511cfee060d55a8cca866f2bc567d4b698a22a4e764779",
+    "transformation": "HTMLParser text-only derivative, all attributes and comments removed; script/style/noscript/template/iframe contents excluded",
+    "redaction_category_counts": {
+      "script_style_noscript_template_iframe_blocks_removed": 24,
+      "csrf_metadata_elements_removed": 0,
+      "all_tag_attribute_sets_removed": 309,
+      "comments_removed": 8
+    },
+    "credential_marker_scan": "PASS_NO_KNOWN_MARKERS",
+    "limitations": "Counts are removed element categories, not a claim of exact secret count; originals remain private and excluded from packet."
+  }
+]
