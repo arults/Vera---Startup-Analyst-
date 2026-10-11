@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "artifact_scope": "Reviewed SapientX issuer-identity and FY2023 period evidence only",
+  "repository": "arults/Vera---Startup-Analyst-",
+  "branch": "phase-1d",
+  "source_and_expected_parent_commit": "e1991e3d924f44dbc3b7964c06c428c5f5af49ef",
+  "file_count_excluding_manifest": 5,
+  "bytes_excluding_manifest": 25648,
+  "files": [
+    {
+      "path": "research/sapientx-native-identity-supplement-v0.1.0/README.md",
+      "bytes": 2926,
+      "sha256": "0b47449703b8a3dc80c19b03bbc258f27904232bbba4a7debae3749a86d481a6",
+      "git_blob": "1c5fcb01c0a2a913a844987836b221777d10ecee"
+    },
+    {
+      "path": "research/sapientx-native-identity-supplement-v0.1.0/evidence-supplement.json",
+      "bytes": 10945,
+      "sha256": "04c05aef491d854ef76ccb6dd4cc8223b9b1bd7f787ca7141c40270eeeecf908",
+      "git_blob": "44056643baca4d1d3c58c9d15522b501fad2091d"
+    },
+    {
+      "path": "research/sapientx-native-identity-supplement-v0.1.0/raw-byte-review.json",
+      "bytes": 8502,
+      "sha256": "cab604513e81e73503658afd92f7f81e3ae1024c4b131d056341321d1f684649",
+      "git_blob": "06e7e893a4f72acec1aef2f72ef8857178032edb"
+    },
+    {
+      "path": "research/sapientx-native-identity-supplement-v0.1.0/run-log.json",
+      "bytes": 1857,
+      "sha256": "38fbacf9495f4e51bedc74462503069b237982da54ffc6a5da6615dcb4508f55",
+      "git_blob": "453163893d327cd5d35629f178970e1382e59c6b"
+    },
+    {
+      "path": "research/sapientx-native-identity-supplement-v0.1.0/source-review-receipt.json",
+      "bytes": 1418,
+      "sha256": "7f1b3efcbf7ce4910cf08463f4493ef9e35ec71425ed3098ab37f9756988de62",
+      "git_blob": "a1cf1b820f732a61143b7dedbbf1a74d5be39b9a"
+    }
+  ],
+  "raw_files_included": false,
+  "canonical_mutation": false,
+  "self_contained_source_replay": false,
+  "exclusions": [
+    "Raw PDF/HTML/XML/images",
+    "Legacy cohort, outcome and numerical registry contents",
+    "Tax identifiers, credentials and web tokens"
+  ],
+  "scientific_limits": [
+    "Strong issuer bridge does not merge economic rounds.",
+    "FY2023 activity is period-specific; exact operating/censor date is null.",
+    "2024 auditor date and 2023 subsequent-events text remain unresolved.",
+    "No sapientx.ai continuity/current survival, new histories or rates established."
+  ],
+  "review_bindings": {
+    "raw_byte_review_sha256": "cab604513e81e73503658afd92f7f81e3ae1024c4b131d056341321d1f684649",
+    "source_review_scope": "Coordination-message transcription; exact-byte local review separately bound."
+  }
+}

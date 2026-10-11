@@ -1,0 +1,208 @@
+{
+  "artifact_id": "sapientx-native-identity-supplement-v0.1.0",
+  "artifact_version": "0.1.0",
+  "status": "REVIEWED_SCOPED_EVIDENCE_HISTORY_HELD",
+  "scope": "Additive issuer-identity and period-specific native disclosure review for one frozen Wefunder offering; no canonical mutation or numeric promotion.",
+  "source_commit": "e1991e3d924f44dbc3b7964c06c428c5f5af49ef",
+  "frozen_binding": {
+    "offering_key": "0001742055|020-26500",
+    "issuer_name": "SapientX Inc.",
+    "issuer_cik": "0001742055",
+    "initial_form_c_date": "2020-06-10",
+    "initial_form_c_accession": "0001670254-20-000455",
+    "manifest_path": "data/cohort_manifest.csv",
+    "manifest_git_blob": "45d143961d73585dcbe8f7534463ea7362513249",
+    "outcomes_path": "data/outcomes.csv",
+    "outcomes_git_blob": "61fddd1f3aada351e572c0d6c60a72e255755d8a",
+    "original_outcome_type": "active_censor",
+    "original_observation_date": "2026-08-25",
+    "original_evidence_url": "https://sapientx.ai/docs",
+    "preservation": "Frozen row and all other source data remain unchanged."
+  },
+  "identity_candidate": {
+    "status": "SUPPORTED_STRONG_ISSUER_ID_SECOND_REVIEWED",
+    "route": "EXACT_STRONG_ISSUER_IDENTIFIER",
+    "native_page": "https://wefunder.com/sapientx/details",
+    "native_link_label": "official Form C",
+    "linked_filing_accession": "0001670254-24-000497",
+    "linked_filing_date": "2024-04-29",
+    "linked_issuer_cik": "0001742055",
+    "linked_issuer_name": "SapientX Inc.",
+    "linked_issuer_website": "http://www.sapientx.com",
+    "linked_issuer_incorporation_date": "2016-04-06",
+    "linked_issuer_jurisdiction": "Delaware",
+    "linked_later_file_number": "020-33375",
+    "separate_coissuer": "Sapientx I, a series of Wefunder SPV, LLC",
+    "boundary": "This bridge attributes the current native disclosure to the same legal issuer. It does not merge the 020-33375 offering/SPV with frozen offering 020-26500."
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "type": "PLATFORM_HOSTED_HISTORICAL_OPERATING_DISCLOSURE",
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "annual_revenue_usd": 34100,
+      "year_end_cash_usd": 65196,
+      "annual_net_loss_usd": 827193,
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "date_semantics": "Positive annual revenue supports reported operation sometime during FY2023. A period-end balance sheet is not proof of operation on exactly December 31. Native publication date and exact last-positive date remain unresolved.",
+      "current_operation_2026": "NOT_ESTABLISHED",
+      "continuous_survival": "NOT_ESTABLISHED",
+      "native_publication_date": null
+    },
+    {
+      "id": "O2",
+      "type": "SOURCE_TIMING_QUALIFICATIONS",
+      "facts": [
+        "Native summary cash is reported as of November 2023, while MD&A cash is as of December 31, 2023; these are distinct dates.",
+        "The trailing-three-month revenue statement reports 22000 USD/month. Its interval is not independently specified and must not be assigned to Q4 2023 or combined with the annual total.",
+        "The 2023 financial PDF auditor report is dated April 23, 2024; Note 12 reports a subsequent-events evaluation date of April 23, 2023. Preserve this apparent internal discrepancy."
+      ],
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "id": "O3",
+      "type": "EXISTING_INFERENCE_HOLD",
+      "source_ids": [
+        "P1"
+      ],
+      "finding": "The prior source packet did not establish sapientx.ai continuity. Its product-key/billing date is not verified issuer operation. This review supplies no new .ai bridge or replacement endpoint."
+    }
+  ],
+  "sources": [
+    {
+      "id": "P1",
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/blob/e1991e3d924f44dbc3b7964c06c428c5f5af49ef/research/wefunder-followup-evidence-v0.1.1/evidence-packet.json",
+      "git_blob": "d065b74593625fd9e1b0d38202d762ab12b091b5",
+      "role": "Prior bounded research packet; not independent primary corroboration."
+    },
+    {
+      "id": "S1",
+      "url": "https://wefunder.com/sapientx/details",
+      "source_type": "PLATFORM_HOSTED_ISSUER_DISCLOSURE",
+      "locators": [
+        "Financials and Historical Results of Operations",
+        "Other Disclosures: Form C Filing on EDGAR"
+      ],
+      "observed_date_utc": "2026-10-11",
+      "raw_sha256": null,
+      "scope": "Native evidence and direct official filing link; content remains issuer-provided.",
+      "capture_status": "Web text and official-link traversal independently inspected; separate root direct-HTTP attempt returned HTTP 403, no retry or raw capture."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1742055/000167025424000497/0001670254-24-000497-index.htm",
+      "source_type": "SEC_FILING_INDEX",
+      "locators": [
+        "Filing date and accession",
+        "Filer CIK and file number"
+      ],
+      "observed_date_utc": "2026-10-11",
+      "raw_sha256": null,
+      "scope": "Identity/filing lineage support only; not substitution for native-platform outcome evidence."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1742055/000167025424000497/xslC_X01/primary_doc.xml",
+      "source_type": "ISSUER_FILED_SEC_FORM_C_A",
+      "locators": [
+        "Filer Information",
+        "Issuer Information",
+        "Annual Report Disclosure Requirements",
+        "Signature"
+      ],
+      "observed_date_utc": "2026-10-11",
+      "raw_sha256": "b658a3176bb279916195ae878312e9906d1ae2d907ef91c77bf469d639f4ca60",
+      "scope": "Explicit issuer/coissuer separation and matching financial field values. SEC hosting does not verify issuer assertions independently.",
+      "capture_status": "Root direct HTTP 200; 29526 bytes. The .xml URL returns rendered HTML. Independent source review reopened the web rendering; independent publication review verified the local raw hash and issuer fields."
+    },
+    {
+      "id": "S4",
+      "url": "https://uploads.wefunder.com/uploads/form_c/102506/remote_files/822961-6vXLjge5UKKwaJwa58AC3wLM/SapientX_Final_Financials_4.23.pdf",
+      "source_type": "PLATFORM_HOSTED_ISSUER_FINANCIAL_STATEMENTS",
+      "raw_sha256": "28bd915e09c85e3d7468e7740a5b910024936a265b476913b2b9e158912961bd",
+      "pages": 14,
+      "locators": [
+        "Revenue PDF pages 6 and 10",
+        "Auditor opinion PDF page 3; report date page 4",
+        "Note 12 PDF page 14"
+      ],
+      "observed_date_utc": "2026-10-11",
+      "inspection": "Root downloaded, hashed and visually inspected. Independent publication reviewer verified the raw PDF hash, read all 14 pages and visually inspected pages 3, 4, 6 and 14; financial values and the April 2024/Note 12 April 2023 discrepancy were confirmed.",
+      "scope": "2023 financial period with stated going-concern qualification and preserved internal date discrepancy.",
+      "audit_opinion": "Parent and independent publication review confirm an unmodified financial-statement opinion with a substantial-going-concern-doubt paragraph."
+    }
+  ],
+  "admission": {
+    "issuer_identity": "SUPPORTED_STRONG_ISSUER_ID_SECOND_REVIEWED",
+    "period_operating_observation": "SUPPORTED_AS_ISSUER_REPORTED_PERIOD_FACT_ONLY",
+    "exact_last_positive_date": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "canonical_admission": "HOLD",
+    "estimator_admission": "HOLD",
+    "numeric_promotion": "NONE",
+    "same_economic_round_link": "NOT_ASSERTED",
+    "success_event": "NOT_ASSERTED",
+    "native_publication_date": null,
+    "closure_event": "NOT_ESTABLISHED"
+  },
+  "limitations": [
+    "One purposefully selected issuer is not a cohort or representative sample.",
+    "Source retrieval, filing dates, audit dates, period ends and financing labels are not interchangeable outcome clocks.",
+    "Matching annual financial values across the native page and issuer filing is one issuer factual lineage.",
+    "A native financial reporting period does not itself prove continuous survival or current operation.",
+    "No first-live date, successful-close clock, independent-operation state or index-success target was newly adjudicated."
+  ],
+  "publication_boundary": {
+    "artifact_form": "Minimal non-sensitive typed facts and Markdown only.",
+    "excluded": [
+      "Raw HTML/PDF/images",
+      "EIN and other unnecessary identifiers",
+      "Tokens, cookies, headers and executable web content"
+    ],
+    "raw_material": "Private local source-review material is outside the proposed publication packet.",
+    "verification": "Root must hash exact final JSON/Markdown and independently review the publication allowlist before coordinated publication."
+  },
+  "methodology": {
+    "policy_path": "docs/PHASE_1C_SPEC.md",
+    "policy_git_blob": "fb62fb062274cf51b8090f91990c3181dc99bdb2",
+    "jev_called": false,
+    "jev_reason": "Direct source and identity checks did not require a new generic decision.",
+    "new_numeric_rates_computed": false
+  },
+  "operational_metrics": {
+    "tokens_used": null,
+    "total_tool_invocations": null,
+    "total_cost": null,
+    "peak_rss_bytes": null,
+    "coverage": "Run-level attributable provider/tool/cost/RAM totals unavailable; null is not zero."
+  },
+  "independent_review": {
+    "reviewer_task": "independent source reviewer",
+    "date_utc": "2026-10-11",
+    "scope": "Independently reopened native page, traversed official filing link, checked SEC issuer/coissuer and frozen repository rows/spec.",
+    "verdict": "Support issuer identity and period-specific financial disclosure only. Hold exact operating date, current/continuous survival, economic-round merge, .ai continuity, canonical outcomes and promotion.",
+    "exclusions": "The independent source reviewer did not replay PDFs; a separate publication reviewer performed the specified local PDF and SEC checks. No exhaustive security review is claimed.",
+    "cached_source_limit": "Web reads were cached extractions; review does not establish present-day page completeness or freshness.",
+    "quality": {
+      "identity": "HIGH",
+      "temporal_precision": "LOW",
+      "permitted_use": "CONTEXT",
+      "recommendation": "RESEARCH_MORE"
+    },
+    "publication_review": "Independent publication reviewer verified PDF and SEC raw hashes, read all 14 PDF pages and visually inspected pages 3, 4, 6 and 14; matched annual sales 34100 and preserved date discrepancy, issuer continuity and distinct offering numbers."
+  },
+  "bounded_discovery": {
+    "native_updates_url": "https://wefunder.com/sapientx/updates",
+    "result": "Public extraction showed no update bodies. Investor discussion remains discovery-only; no dated issuer closure notice was recovered.",
+    "no_exhaustive_search_claim": true,
+    "next_evidence": "A publicly accessible dated issuer/platform update or notice with operating/closure wording, tied to the verified issuer."
+  }
+}
