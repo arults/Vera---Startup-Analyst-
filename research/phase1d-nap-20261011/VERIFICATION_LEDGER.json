@@ -1,0 +1,91 @@
+{
+  "scope": "Vera Phase 1D nap-session verification; overlapping runs are not new observations",
+  "register": {
+    "commit": "f36fb8109786718ee2402447cf86e934e2b8cc2a",
+    "unit_tests": 25,
+    "independent_checks": 50,
+    "ci_status": "PASS_4_TRIGGERED_WORKFLOWS"
+  },
+  "bootstrap_caller": {
+    "commit": "f909af945c5b027204d02729bb6357278f5a2eaf",
+    "local_tests": 47,
+    "local_skips": 0,
+    "independent_checks": 39,
+    "v4_draws": 13000,
+    "v5_draws": 16000,
+    "actual_unsupported_draws": 0,
+    "targeted_ci": "PASS",
+    "other_identity_workflow": "FAILED_MISSING_BS4_BEFORE_REBUILD"
+  },
+  "first_success": {
+    "commit": "57a4b99d09f1d362336335598bfd4bb846b2d8f1",
+    "local_and_ci_tests": 94,
+    "rational_reference_cases": 960,
+    "independent_draw_reconstructions": 514,
+    "ci_status": "PASS_4_TRIGGERED_WORKFLOWS",
+    "adjacent_sensitivity_combined_tests": 117,
+    "empirical_adoption": false
+  },
+  "identity_isolation": {
+    "commit": "7b5d73fdc7d8b64e91951dc51fe803ba645fa9cb",
+    "local_tests": 28,
+    "independent_checks": 16,
+    "remote_tests_discovered": 390,
+    "remote_tests_skipped": 1,
+    "remote_test_suite": "OK",
+    "pipeline": "FAILED_TEST_EXPORT_INTEGRITY_GUARD_BEFORE_GENERATORS",
+    "resolution_commit": "e42ac2a525a5382eea24378c8e03a13201b32240"
+  },
+  "source_context": {
+    "commit": "7b5d73fdc7d8b64e91951dc51fe803ba645fa9cb",
+    "bounded_records": 14,
+    "collection_reads": 23,
+    "independent_review": "PASS_WITH_STATED_LIMITS",
+    "canonical_promotions": 0
+  },
+  "preparation_audit": {
+    "commit": "f5c15945a7a99d823247a5d9c7271cfaf6cc487f",
+    "tests": 27,
+    "input_rows": 952,
+    "targeted_queue_rows": 398,
+    "eligibility": "NOT_DETERMINED",
+    "ci_status": "PASS_4_TRIGGERED_WORKFLOWS"
+  },
+  "diagnostic": {
+    "commit": "e5fc4f8c4b2ef9627ab426fb6358474eee865d55",
+    "tests": 31,
+    "independent_inventory_cases": 500,
+    "guard_relaxation": false,
+    "remote_ci": "FAILED_AS_EXPECTED_WITH_32_ADDED_BYTECODE_FILES_AND_NO_EXISTING_SOURCE_MUTATIONS"
+  },
+  "jev": {
+    "generic_method_evaluations": 3,
+    "input_tokens": 2132,
+    "output_tokens": 415,
+    "actual_private_study_or_code_submitted": false,
+    "scientific_approval": false
+  },
+  "full_phase1d_complete": false,
+  "bytecode_fix": {
+    "commit": "e42ac2a525a5382eea24378c8e03a13201b32240",
+    "local_regressions": 4,
+    "ci_tests_discovered": 397,
+    "ci_tests_passed": 396,
+    "ci_tests_skipped": 1,
+    "four_stage_isolated_replay": "PASS",
+    "original_checkout_unchanged": true,
+    "complete_sidecar_bindings": "PASS",
+    "triggered_workflows_passed": 5,
+    "rates_promoted": false,
+    "raw_artifacts_uploaded": false
+  },
+  "data_preservation": {
+    "baseline_commit": "eade863cd91b198241d9b7e52e6a46bddf638cdd",
+    "verified_commit": "e42ac2a525a5382eea24378c8e03a13201b32240",
+    "existing_data_paths": 7271,
+    "existing_data_changed": [],
+    "new_data_paths": [],
+    "comparison_basis": "Exact reconstructed and independently checked Git trees; original data/ blob identities preserved."
+  },
+  "verification_timestamp_utc": "2026-10-11T07:14:00Z"
+}

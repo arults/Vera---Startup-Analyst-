@@ -1,0 +1,27 @@
+Vera Phase 1D — verified nap-session results
+2026-10-11, work verified through 07:14 UTC
+
+Overall Phase 1D status: INCOMPLETE. The following bounded engineering and evidence tasks are delivered on the phase-1d branch; they are not a scientific completion claim or a main-branch merge.
+
+1. Published the additive company register. It reconciles 2,865 rows from selected frozen inputs, preserves distinct record/company/offering units and leaves company research-completion counts unclassified. Twenty-five tests and 50 independent checks passed; exact-head CI passed.
+
+2. Fixed the caller's bootstrap reporting safeguard. Every resampled company/round is retained, unsupported or undefined draws are explicit and unreliable intervals are withheld. Forty-seven local tests and independent replay passed; original RQ1 columns and RQ2 outputs were unchanged. The demonstrated defect was synthetic; the archived v4/v5 checks found no new actual-cohort failure.
+
+3. Added first-success uncertainty with a first-event-specific analytic diagnostic and whole-company bootstrap. Ninety-four tests passed in CI. Independent review caught and fixed two numerical edge cases. A separate combined compatibility run passed 117 unique tests, including existing sensitivity tests. These counts overlap and must not be added together.
+
+4. Audited all 952 archived v5 rows for preparation requirements without inventing eligibility, states, histories or dates. Published a reproducible 398-row targeted review queue. Twenty-seven tests and exact reference reproduction passed in CI. Queue categories overlap, and rows outside it still need the universal preparation review.
+
+5. Saved 14 independently reviewed source/qualification records. Rentberry now has a bounded native legal-document CIK bridge. Black Sands records distinguish its parent and anime issuer, historical reports, outside catalog solicitation and interview coverage. Discrepant amounts, date precision and source dependence remain explicit. These records were not promoted to canonical operating outcomes or success events.
+
+6. Repaired the existing CI pipeline, including its missing dependency and unsafe automatic checkpoint-writing path. Isolated exact-head replay now preserves original files and complete sidecar bindings. A further end-to-end failure exposed nested test bytecode writes; the cause was diagnosed and fixed without weakening guards. The final code commit e42ac2a525a5382eea24378c8e03a13201b32240 passed all five triggered workflows. Full repository discovery: 396 passed, one optional replay skipped; all four candidate-rebuild stages and integrity checks passed.
+
+Data preservation: all 7,271 existing data/ paths are unchanged from the session baseline. SKILLS updates preserve the existing text and append numbered preventive lessons. Activity and failure history are retained in ACTIVITY_LOG.txt and VERIFICATION_LEDGER.json.
+
+JEV scope: three generic methodology evaluations informed the process. No actual private study data or code was submitted. They do not supply company-specific or empirical scientific approval.
+
+Next required work
+- Review the queued facts and universal entry/origin/endpoint decisions, starting with already-linked sources; avoid 952 undifferentiated new searches.
+- Construct reviewed histories and a separately versioned empirical shadow report, preserving interval dates and unresolved records.
+- Complete qualified cohort/source coverage and scientific review before canonical promotion or calibrated return-probability claims.
+
+No new empirical priors, investment-return probabilities or global research plateau were declared.
