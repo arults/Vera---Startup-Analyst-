@@ -1,0 +1,263 @@
+{
+  "version": "zeigo-minimized-typed-facts-v0.1.0",
+  "original_source_claims_sha256": "f0d55abeb6ce7bba655d388f96d547e67d2e2834560d2d0fc78492f3e5f9b183",
+  "facts": [
+    {
+      "claim_id": "eq_identity",
+      "source_id": "zeigo-equity",
+      "source_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "section": "Business overview",
+      "value": {
+        "company_number": "11255249",
+        "brand": "Zeigo Energy",
+        "domain": "zeigo.energy"
+      },
+      "qualification": "Exact native strong identifier binds issuer; website may change without changing the legal company."
+    },
+    {
+      "claim_id": "eq_funded",
+      "source_id": "zeigo-equity",
+      "source_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "section": "Campaign header",
+      "value": {
+        "funded_date": "2020-04-22",
+        "instrument": "Equity",
+        "raised_gbp": 846755,
+        "target_gbp": 800004,
+        "investors": 149
+      },
+      "qualification": "Successful aggregate campaign funding supports a platform-funded origin; not a claim that individual settlement, net cash or every investor position was inspected."
+    },
+    {
+      "claim_id": "eq_approval",
+      "source_id": "zeigo-equity",
+      "source_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "section": "Financial promotion disclaimer",
+      "value": {
+        "approval_date": "2020-04-09"
+      },
+      "qualification": "Approval is not an observed exact first-public-live date; approval-to-funded same-calendar-year is the preserved bounded-year rule."
+    },
+    {
+      "claim_id": "eq_value",
+      "source_id": "zeigo-equity",
+      "source_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "section": "Pre-money display and linked tooltip",
+      "value": {
+        "rounded_display_gbp": 2500000,
+        "unrounded_tooltip_gbp": 2499994,
+        "basis": "fully_diluted_pre_money",
+        "selected_comparable_index_value": null
+      },
+      "qualification": "Preserve both displayed precision levels. No post-money normalization or follow-on comparison has been adjudicated."
+    },
+    {
+      "claim_id": "eq_activity",
+      "source_id": "zeigo-equity",
+      "source_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "section": "Monetisation strategy",
+      "value": {
+        "commercial_launch_month": "2019-09",
+        "paying_clients_reported": 7,
+        "renewable_projects_reported": 238
+      },
+      "qualification": "Affirmative issuer-reported operating context. Month-specific commercial launch predates the index; present-tense client claims have no separate exact as-of date and do not supply an exact 2020 operating endpoint."
+    },
+    {
+      "claim_id": "eq_accelerator",
+      "source_id": "zeigo-equity",
+      "source_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "section": "Business accomplishments",
+      "value": {
+        "accelerator_relationship": "Sustainable Ventures"
+      },
+      "qualification": "Supports relationship to the portfolio-manager native acquisition report; SA7 itself identifies Zeigo by brand, not company number."
+    },
+    {
+      "claim_id": "cv_identity",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Business overview",
+      "value": {
+        "company_number": "11255249",
+        "brand": "Zeigo Energy",
+        "domain": "zeigo.com"
+      },
+      "qualification": "Exact same legal number as the equity campaign; distinct campaign and instrument are retained."
+    },
+    {
+      "claim_id": "cv_funded",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Campaign header",
+      "value": {
+        "funded_date": "2020-12-19",
+        "instrument": "Convertible",
+        "raised_gbp": 580340,
+        "target_gbp": 540000,
+        "investors": 209
+      },
+      "qualification": "Aggregate campaign amount includes a previously matched component; no additive total or incremental Seedrs-only cash derived."
+    },
+    {
+      "claim_id": "cv_approval",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Financial promotion disclaimer",
+      "value": {
+        "approval_date": "2020-12-08"
+      },
+      "qualification": "Approval is not an observed exact first-public-live date; bounded-year rule retained."
+    },
+    {
+      "claim_id": "cv_terms",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Key information / Convertible Loan Note",
+      "value": {
+        "valuation_cap_gbp": 6250000,
+        "discount_percent": 20,
+        "interest_percent_pa_noncompounding": 8,
+        "maturity_months_after_signing": 36,
+        "redemption_premium_percent_principal": 100,
+        "actual_priced_equity_valuation": null
+      },
+      "qualification": "Public summarized contractual terms only. Cap is never a priced equity valuation. Underlying executed agreement and actual conversion/redemption not inspected."
+    },
+    {
+      "claim_id": "cv_included_funding",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Key information / Government matched funding",
+      "value": {
+        "matched_investment_component_gbp": 252500,
+        "total_already_included_gbp": 505000,
+        "new_campaign_investments_future_fund_matched": false
+      },
+      "qualification": "£505,000 is already included in £580,340. No addition or inferred net/incremental proceeds; co-funding is a component of this financing, not an automatically separate economic round."
+    },
+    {
+      "claim_id": "cv_exit_contract",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Key information / Convertible Loan Note",
+      "value": {
+        "conditional_exit_conversion_or_redemption_terms_reported": true,
+        "actual_realized_payout": null
+      },
+      "qualification": "Conditional contract language does not establish that investors actually received proceeds or profitable returns on the later acquisition."
+    },
+    {
+      "claim_id": "cv_activity",
+      "source_id": "zeigo-convertible",
+      "source_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "section": "Significant accomplishments",
+      "value": {
+        "corporates_reported": 18,
+        "renewable_projects_near": 270,
+        "platform_version_2_migration_reported_complete": true
+      },
+      "qualification": "Affirmative issuer-attributed operating context; exact as-of date and entry independence are not independently established by current archived campaign display."
+    },
+    {
+      "claim_id": "native_acquisition",
+      "source_id": "sa7",
+      "source_sha256": "fea6bfe9ed0b2a653bafcfb27bb283275bdf4def0ca8b92f7dd3e44073c57097",
+      "url": "https://europe.republic.com/sa7",
+      "section": "Track Record",
+      "value": {
+        "company_event_id": "reurope-company:11255249__acquisition_2022",
+        "event_type": "ACQUISITION_VALUE_UNKNOWN",
+        "interval_start": "2022-01-01",
+        "interval_end": "2022-12-31",
+        "exact_date": null,
+        "success_value": "UNKNOWN"
+      },
+      "qualification": "Native year-only portfolio-manager report linked by brand/product/accelerator context. One company event shared by two round histories. No Zeigo investor payout or transaction value is supplied."
+    },
+    {
+      "claim_id": "sa7_aggregate",
+      "source_id": "sa7",
+      "source_sha256": "fea6bfe9ed0b2a653bafcfb27bb283275bdf4def0ca8b92f7dd3e44073c57097",
+      "url": "https://europe.republic.com/sa7",
+      "section": "Investment strategy / track record",
+      "value": {
+        "scope": "portfolio_combined_enterprise_value",
+        "zeigo_transaction_value": null
+      },
+      "qualification": "Portfolio aggregate and promotional success percentage cannot be assigned to Zeigo or either campaign."
+    },
+    {
+      "claim_id": "buyer_completed_by",
+      "source_id": "buyer-announcement",
+      "source_sha256": "b60c670dc910400bc320779e94e15591d50ee8fdacb7aaf5b9c7ffb7a39857b4",
+      "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-Acquires-Renewable-Energy-Platform-Zeigo-to-Expand-Digital-Procurement-Capabilities-Globally-61e0036f1fff6b18700b31a4/",
+      "section": "Official press release",
+      "value": {
+        "publication_date": "2022-01-13",
+        "completed_acquisition_by": "2022-01-13",
+        "exact_legal_close_date": null,
+        "consideration": null
+      },
+      "qualification": "Buyer says acquisition has occurred by announcement. Outside-primary context cannot sharpen the native-only interval. No exact closing day or consideration inferred."
+    },
+    {
+      "claim_id": "counsel_report",
+      "source_id": "buyer-counsel",
+      "source_sha256": "5ddb26164798f6a011edf7be458393d9daba542d2bc2f3664f9188d9d45eb7b6",
+      "url": "https://www.slaughterandmay.com/recent-work/schneider-electric-on-its-acquisition-of-zeigo/",
+      "section": "Recent work",
+      "value": {
+        "publication_date": "2022-01-14",
+        "target_legal_name": "Zeigo Ltd",
+        "advised_acquirer": "Schneider Electric"
+      },
+      "qualification": "Transaction participant corroboration, dependent on the buyer transaction; not an independent investor-return audit."
+    },
+    {
+      "claim_id": "registry_control",
+      "source_id": "registry-control",
+      "source_sha256": "fce5fd85c6209d206a639f7978f62ad7508a0cd35e8d15a7d5dc0560b1f93933",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11255249/persons-with-significant-control",
+      "section": "Persons with significant control",
+      "value": {
+        "company_number": "11255249",
+        "corporate_controller": "M&C Energy Group Limited",
+        "control_notification_date": "2022-01-07",
+        "founder_control_cessation_date": "2022-01-07",
+        "shares_and_votes_at_least_percent": 75
+      },
+      "qualification": "Registrar labels and filed control facts retained. Neither notification nor cessation is silently selected as the legal acquisition close. Filing accuracy is not guaranteed by the registrar."
+    },
+    {
+      "claim_id": "registry_dissolution",
+      "source_id": "registry-company",
+      "source_sha256": "639df2701fa3b423deabc8917d7f6913bbd1a4709d6fc28be8ae20333496316d",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11255249",
+      "section": "Company overview",
+      "value": {
+        "company_number": "11255249",
+        "legal_name": "ZEIGO LTD",
+        "incorporated": "2018-03-14",
+        "statutory_dissolution_date": "2024-07-16",
+        "previous_name": "THE ECOMPANY LTD"
+      },
+      "qualification": "Outside statutory entity event. Does not establish operating shutdown, independent survival through 2024, investor payout or a native-study closure endpoint."
+    }
+  ],
+  "claim_values_and_qualifications_preserved": true,
+  "omitted_fields": "Original DOM/text character locators and copied long anchors; these remain local in the reviewed source claim file."
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "explicit-run-metrics-five-row-v0.1.0",
+  "run_id": "vera-zeigo-adjudication-20261011",
+  "worker_attempt_id": "republic-zeigo-01",
+  "worker_scope": "Zeigo two-round data-engineering source adjudication; no investment thesis or numeric-return analysis",
+  "company_id": "reurope-company:11255249",
+  "worker": "adjudicate_republic_pending_evidence",
+  "run_started_at_utc": null,
+  "run_start_status": "UNAVAILABLE: earlier task initiation/tool times not completely captured; no retrospective timestamp fabricated",
+  "metrics_snapshot_at_utc": "2026-10-11T15:22:46.364550+00:00",
+  "run_ended_at_utc": null,
+  "run_status": "SOURCE_REVIEW_ACCEPTED_MINIMIZED_PUBLICATION_REVIEW_PENDING",
+  "trace_coverage": "INCOMPLETE; initial source counts, seven raw receipts and exact GitHub blob attempt accounting are available. Whole model/tool/cost trace is not.",
+  "metrics": [
+    {
+      "name": "tokens",
+      "value": null,
+      "unit": "tokens",
+      "status": "UNAVAILABLE",
+      "scope": "whole worker attempt",
+      "provenance": "No provider token-usage counters exposed in source receipts; tool output estimates are not model usage."
+    },
+    {
+      "name": "total_tool_invocations",
+      "value": null,
+      "unit": "invocations",
+      "status": "UNAVAILABLE_FULL_RUN",
+      "scope": "all worker tools including local files, orchestrators and collaboration",
+      "provenance": "Complete invocation trace unavailable; known source-action counts are disaggregated below and must not be presented as full total."
+    },
+    {
+      "name": "wall_clock_latency",
+      "value": null,
+      "unit": "seconds",
+      "status": "UNAVAILABLE_FULL_RUN",
+      "scope": "whole worker attempt",
+      "provenance": "No exact complete attempt start/end; observed raw HTTP batch elapsed time is separately measured below."
+    },
+    {
+      "name": "total_cost",
+      "value": null,
+      "unit": "USD",
+      "status": "UNAVAILABLE",
+      "scope": "whole worker attempt including native reasoning and providers",
+      "provenance": "No pricing/usage invoice exposed. Zero JEV calls does not imply free overall execution."
+    },
+    {
+      "name": "peak_RAM_RSS",
+      "value": null,
+      "unit": "bytes",
+      "status": "UNAVAILABLE",
+      "scope": "whole worker attempt",
+      "provenance": "No peak RSS instrumentation was installed or measured."
+    }
+  ],
+  "measured_subsets": {
+    "raw_http_batch": {
+      "start_utc": "2026-10-11T13:09:57.363662+00:00",
+      "end_utc": "2026-10-11T13:10:38.354451+00:00",
+      "wall_seconds": 40.990789,
+      "attempts": 7,
+      "successful_http_200": 7,
+      "response_body_bytes": 1845459,
+      "redirects": 0,
+      "retries": 0,
+      "receipt": "receipts/raw-public-fetches.json"
+    },
+    "reconstructed_source_actions": {
+      "status": "COUNTED_FROM_VISIBLE_TOOL_HISTORY; not total tools",
+      "github_fetch_file_calls": 5,
+      "web_run_calls": 4,
+      "web_page_open_requests": 11,
+      "web_search_queries": 5,
+      "direct_raw_http_attempts": 7,
+      "web_cache_miss_results": 1,
+      "access_denials": 0,
+      "jev_invocations": 0,
+      "counts_relationship": "Web opens and queries are children of four web calls, not additional provider tool calls. Raw HTTP requests were made by a local collector and are separately counted. Do not sum parent calls and child requests as one metric."
+    },
+    "first_publication_attempt": {
+      "blob_upload_attempts": 36,
+      "successful_blob_objects": 35,
+      "denied_blob_uploads": 1,
+      "existing_blob_references_reused": 2,
+      "unstarted_original_payload_files": 19,
+      "tree_actions": 0,
+      "commit_actions": 0,
+      "ref_actions": 0
+    },
+    "separate_outside_followup": {
+      "web_calls": 3,
+      "search_queries": 3,
+      "web_open_attempts": 2,
+      "direct_pdf_reads": 1,
+      "pdf_bytes": 11901616,
+      "jev_calls": 0,
+      "status": "SEPARATE_LOCAL_FOLLOWUP_NOT_INCLUDED_AS_COMPANY_EVIDENCE_IN_THIS_PAYLOAD"
+    }
+  },
+  "provider_usage": {
+    "github_tokens": null,
+    "web_tokens": null,
+    "native_model_tokens": null,
+    "jev_tokens": null,
+    "jev_calls": 0,
+    "cost": null
+  },
+  "limits": {
+    "no_additional_tools_called_to_fill_missing_metrics": true,
+    "root_aggregate_cost_available": false,
+    "jev_credit_authorization": "Root reports limited existing-balance approval; this worker has made zero calls. Prior blocked status remains historical in unchanged candidate."
+  },
+  "candidate_sha256": "1aee03194d91dacb36877cf22ea3afb893cfcedea2a5cf071bfef7f6db2d1cd9"
+}

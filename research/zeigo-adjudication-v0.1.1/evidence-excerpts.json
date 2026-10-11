@@ -1,0 +1,89 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "source_id": "sa7",
+      "url": "https://europe.republic.com/sa7",
+      "raw_original_sha256": "fea6bfe9ed0b2a653bafcfb27bb283275bdf4def0ca8b92f7dd3e44073c57097",
+      "full_derived_text_sha256": "d6f015860182109e6259d4745574968d00a2cb1327a533a493f687738c9ba4c2",
+      "short_plain_text_excerpts": [
+        "most recent exit in 2022 when Zeigo was acquired by Schneider Electric"
+      ],
+      "excerpt_words": 12,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    },
+    {
+      "source_id": "zeigo-equity",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "raw_original_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "full_derived_text_sha256": "14653f7ce9ba855c1fbcc4a5b821c2207d0e788ce60c2d702830f2000fbd1070",
+      "short_plain_text_excerpts": [
+        "Funded 22 Apr 2020",
+        "Company number\n11255249",
+        "commercial launch in September 2019"
+      ],
+      "excerpt_words": 12,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    },
+    {
+      "source_id": "zeigo-convertible",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "raw_original_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "full_derived_text_sha256": "2d15ed2d4629ebd5218f3a261b3ca23227be8aa18be6feb7f417a2bb0a1ed9f6",
+      "short_plain_text_excerpts": [
+        "Funded 19 Dec 2020",
+        "Type\nConvertible",
+        "Valuation Cap: £6,250,000"
+      ],
+      "excerpt_words": 9,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    },
+    {
+      "source_id": "buyer-announcement",
+      "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-Acquires-Renewable-Energy-Platform-Zeigo-to-Expand-Digital-Procurement-Capabilities-Globally-61e0036f1fff6b18700b31a4/",
+      "raw_original_sha256": "b60c670dc910400bc320779e94e15591d50ee8fdacb7aaf5b9c7ffb7a39857b4",
+      "full_derived_text_sha256": "6cf72a6381b56d32f7050e6614f92b7edab48d80ba0dacb8ec4ba1abb3501df4",
+      "short_plain_text_excerpts": [
+        "13/01/2022",
+        "announced that it has acquired start-up climate-tech platform Zeigo"
+      ],
+      "excerpt_words": 10,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    },
+    {
+      "source_id": "buyer-counsel",
+      "url": "https://www.slaughterandmay.com/recent-work/schneider-electric-on-its-acquisition-of-zeigo/",
+      "raw_original_sha256": "5ddb26164798f6a011edf7be458393d9daba542d2bc2f3664f9188d9d45eb7b6",
+      "full_derived_text_sha256": "0a6cc88a5241ccd6faa659f3da71ba3fd72482764dfa99cb6dbc4cbd42fc6c6b",
+      "short_plain_text_excerpts": [
+        "14 Jan 2022",
+        "acquisition of Zeigo Ltd"
+      ],
+      "excerpt_words": 7,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    },
+    {
+      "source_id": "registry-control",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11255249/persons-with-significant-control",
+      "raw_original_sha256": "fce5fd85c6209d206a639f7978f62ad7508a0cd35e8d15a7d5dc0560b1f93933",
+      "full_derived_text_sha256": "be924649a08046bd5bd54f6a6b8a6b0feb19aeec205a9009fb9a3be4cac1f24f",
+      "short_plain_text_excerpts": [
+        "Notified on\n7 January 2022",
+        "Ownership of shares – 75% or more"
+      ],
+      "excerpt_words": 12,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    },
+    {
+      "source_id": "registry-company",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11255249",
+      "raw_original_sha256": "639df2701fa3b423deabc8917d7f6913bbd1a4709d6fc28be8ae20333496316d",
+      "full_derived_text_sha256": "68b09c7cb566eab192b7058f18f924eaf98b46caf98ea8e0dc7831c25ec3a9cd",
+      "short_plain_text_excerpts": [
+        "Dissolved on\n16 July 2024"
+      ],
+      "excerpt_words": 5,
+      "scope": "Concise exact source anchors; full document and DOM not republished."
+    }
+  ]
+}

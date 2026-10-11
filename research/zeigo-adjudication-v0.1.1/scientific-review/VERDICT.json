@@ -1,0 +1,86 @@
+{
+  "reviewed_at_utc": "2026-10-11T13:23:32.115884+00:00",
+  "verdict": "ACCEPT_ADDITIVE_PARTIAL_SOURCE_ADJUDICATION_WITH_HISTORY_HOLDS",
+  "candidate_path": "/workspace/shared/vera-zeigo-adjudication-v0.1.0/candidate-adjudication-v0.1.1.json",
+  "candidate_sha256": "1aee03194d91dacb36877cf22ea3afb893cfcedea2a5cf071bfef7f6db2d1cd9",
+  "source_manifest_sha256": "b940992453821cc11b7025fb67ea6725b1f0497cf6f98fb9bbd69ff1eaa23e11",
+  "source_claims_sha256": "f0d55abeb6ce7bba655d388f96d547e67d2e2834560d2d0fc78492f3e5f9b183",
+  "original_v010_preserved": true,
+  "independent_checks_passed": 18,
+  "additional_checks": [
+    "acquisition success OR predicate independent from optional realized-return payout",
+    "analytical cutoff explicitly unbound and separate from retrieval"
+  ],
+  "six_gate_review": [
+    {
+      "gate": "round_identity_and_funded_origin",
+      "status": "PASS_SOURCE_FACTS_ONLY",
+      "evidence": [
+        "eq_identity",
+        "cv_identity",
+        "eq_funded",
+        "cv_funded"
+      ],
+      "finding": "Exact legal ID 11255249, separate Equity/Convertible native campaigns and non-overlapping bounded windows support two economic units and proposed platform-funded origins 2020-04-22/2020-12-19. Individual private contracts are not universally required. Analytical time zero remains unadmitted."
+    },
+    {
+      "gate": "initial_state",
+      "status": "HOLD",
+      "evidence": [
+        "eq_activity",
+        "cv_activity"
+      ],
+      "finding": "Affirmative business activity is retained. Independent operating/index-specific prior-success state at each entry remains unadjudicated; no blank-field PRE/POST inference."
+    },
+    {
+      "gate": "index_success_and_target",
+      "status": "PARTIAL_FACT_PASS_HISTORY_HOLD",
+      "evidence": [
+        "eq_value",
+        "cv_terms",
+        "cv_exit_contract",
+        "native_acquisition",
+        "sa7_aggregate"
+      ],
+      "finding": "Equity display/tooltip precision retained. Convertible cap is not priced valuation; conditional redemption terms and portfolio value are not actual realized returns. Acquisition value remains unknown, neither success nor closure. Typed acquisition success needs sufficient native transaction value OR shareholder consideration, not a universal actual payout prerequisite."
+    },
+    {
+      "gate": "typed_event_chronology",
+      "status": "TYPED_FACT_PASS_EXACT_HISTORY_HOLD",
+      "evidence": [
+        "eq_funded",
+        "cv_funded",
+        "native_acquisition"
+      ],
+      "finding": "One shared acquisition retained at 2022 year precision for both round views. No midpoint/start/end becomes exact transition; earlier financing history remains attached to later index. No state transition admitted."
+    },
+    {
+      "gate": "endpoint_observation",
+      "status": "HOLD",
+      "evidence": [
+        "eq_activity",
+        "cv_activity",
+        "native_acquisition"
+      ],
+      "finding": "No exact operating censor endpoint or governing analytical cutoff has been adjudicated. Both remain null, with retrieval separate. Positive attributed activity is not erased or subjected to universal transaction/exact-day gates. Old midpoint remains legacy provenance only."
+    },
+    {
+      "gate": "cohort_assignment",
+      "status": "PASS_BOUNDED_COHORT_ONLY",
+      "evidence": [
+        "eq_approval",
+        "eq_funded",
+        "cv_approval",
+        "cv_funded"
+      ],
+      "finding": "2020 year retained under existing approval-to-funded bounded-year convention; exact first-live date unknown. Both rows and common company cluster preserved; this pair is not the full 952-row cohort."
+    }
+  ],
+  "canonical_rows_changed": 0,
+  "exact_histories_admitted": 0,
+  "scientific_eligibility_decisions": 0,
+  "estimator_or_formula_approval": false,
+  "publication_approval": false,
+  "reviewer_jev_calls": 0,
+  "source_semantics_review": "Inspected local complete relevant native campaign business/terms sections, SA7 track-record context, canonical spec and audit; exact source/claim bindings and source-row lineage independently checked. Outside primary facts remain separately typed context; no native interval sharpening."
+}

@@ -1,0 +1,24 @@
+{
+  "candidate_sha256": "1aee03194d91dacb36877cf22ea3afb893cfcedea2a5cf071bfef7f6db2d1cd9",
+  "checks_passed": 16,
+  "checks": [
+    "candidate bindings",
+    "five exact archive byte and Git blob bindings",
+    "seven raw captures and derived text bindings",
+    "all claim anchors resolve to bound full source text",
+    "two selected rows match exact 952-row denominator archives",
+    "all scientific boundary invariants",
+    "rejects midpoint exact event",
+    "rejects midpoint operation",
+    "rejects unknown acquisition success",
+    "rejects cap as priced valuation",
+    "rejects merged rounds",
+    "rejects erased prior history",
+    "rejects approval exact launch",
+    "rejects outside date admission",
+    "rejects contract payout",
+    "rejects default initial PRE"
+  ],
+  "source_truth_automatically_verified": false,
+  "canonical_mutation": false
+}

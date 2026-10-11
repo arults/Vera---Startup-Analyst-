@@ -1,0 +1,139 @@
+{
+  "version": "zeigo-minimized-publication-manifest-v0.1.0",
+  "created_at_utc": "2026-10-11T15:26:35.602561+00:00",
+  "repository": "arults/Vera---Startup-Analyst-",
+  "branch": "phase-1d",
+  "repository_prefix": "research/zeigo-adjudication-v0.1.1/",
+  "payload_files_excluding_manifest": 15,
+  "payload_bytes_excluding_manifest": 115411,
+  "files": [
+    {
+      "path": "README.md",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/README.md",
+      "bytes": 2726,
+      "utf8_characters": 2726,
+      "sha256": "43494ced7bf446110c87344db181715f339c6c1035af77c264985a761e2ce9cc",
+      "git_blob_sha": "1b1a627594860a290de27ef1d872cdec6f1389f5"
+    },
+    {
+      "path": "candidate-adjudication-v0.1.1.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/candidate-adjudication-v0.1.1.json",
+      "bytes": 29086,
+      "utf8_characters": 29086,
+      "sha256": "1aee03194d91dacb36877cf22ea3afb893cfcedea2a5cf071bfef7f6db2d1cd9",
+      "git_blob_sha": "8a203bbfc332ee860c81851dbab043d3ab5c00e8"
+    },
+    {
+      "path": "candidate-adjudication.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/candidate-adjudication.json",
+      "bytes": 27679,
+      "utf8_characters": 27679,
+      "sha256": "6bbd1081332ea5909066cd9c478b0c880ad8e7c8db42a6ea7f5d9773a2c5032a",
+      "git_blob_sha": "cd960fd4e24e8a9c144a59ba25e4ceef9ca6efe9"
+    },
+    {
+      "path": "erratum-v0.1.1.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/erratum-v0.1.1.json",
+      "bytes": 715,
+      "utf8_characters": 715,
+      "sha256": "caaa277ab6ab45f3599ef1d815525dde2af786ea9dbbf3796b556ba50ddfd204",
+      "git_blob_sha": "1b0513a3f97b28ec21f50a12d330566ac199a775"
+    },
+    {
+      "path": "evidence-excerpts.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/evidence-excerpts.json",
+      "bytes": 4168,
+      "utf8_characters": 4165,
+      "sha256": "5d04be6f7e44263eb3d8fcc28b5a0d5fdbd28d3f6a97ff4c210b5a58ded1a220",
+      "git_blob_sha": "6bdef34b7d29dd797f3b9d712765d9307814324d"
+    },
+    {
+      "path": "minimization-review/FILE_BINDINGS.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/minimization-review/FILE_BINDINGS.json",
+      "bytes": 1284,
+      "utf8_characters": 1284,
+      "sha256": "b3530afcffccc1daad08d60804536737a305adfdda114c3079881c75c31fff46",
+      "git_blob_sha": "9ce98a21cb2ef1caeda83bd76236607b33afacea"
+    },
+    {
+      "path": "minimization-review/RECEIPT.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/minimization-review/RECEIPT.json",
+      "bytes": 1322,
+      "utf8_characters": 1322,
+      "sha256": "12b8a4a5bb7a64e7e6dc7382279a252d4b57007ba9aecd56b74e85c043c9f857",
+      "git_blob_sha": "6242b30a7160a2a78f32d691b264d9eaf1d5b459"
+    },
+    {
+      "path": "prior-publication-attempt.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/prior-publication-attempt.json",
+      "bytes": 14095,
+      "utf8_characters": 14095,
+      "sha256": "83d8dd3938018a4de6f26475a0c29d0ffd319a698a249c823e03d6b8f100d132",
+      "git_blob_sha": "4d43610acdf85df5c9254e8038186fe31bfb3434"
+    },
+    {
+      "path": "run-metrics.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/run-metrics.json",
+      "bytes": 4584,
+      "utf8_characters": 4584,
+      "sha256": "dabf9cbccc3c35c000e65108183e307b5611955b37c6efbeee7cda4155da0cf8",
+      "git_blob_sha": "05cd20d001afc53802c1ca266048703f468e42dd"
+    },
+    {
+      "path": "scientific-review/REVIEW.md",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/scientific-review/REVIEW.md",
+      "bytes": 2216,
+      "utf8_characters": 2216,
+      "sha256": "9ae4baeafe1c9109b40daf99a7ebd201d4569aa6068f642a5a8ee36e3caf6133",
+      "git_blob_sha": "8088cae2e946cbe20c95565929019d057e989732"
+    },
+    {
+      "path": "scientific-review/VERDICT.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/scientific-review/VERDICT.json",
+      "bytes": 4190,
+      "utf8_characters": 4190,
+      "sha256": "a3a030fd4fe751f390eba77c589c36af22f6b9168fdcbeaede8aabcaa7f14106",
+      "git_blob_sha": "e728c3a280fb9fb0cfc6455ad1f2e5d0bfd4e7ca"
+    },
+    {
+      "path": "scientific-review/checks-v01.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/scientific-review/checks-v01.json",
+      "bytes": 869,
+      "utf8_characters": 869,
+      "sha256": "34ba0c0dbd19042d9a39a8a2a9ac9b02c63292a268bb80581a15dd824892fc93",
+      "git_blob_sha": "0e25c2d5280a349a2e47a8fff3f537d67ec5b50f"
+    },
+    {
+      "path": "scientific-review/checks-v011.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/scientific-review/checks-v011.json",
+      "bytes": 869,
+      "utf8_characters": 869,
+      "sha256": "6813ed315d8eb9703ab8bc9977fc0480bfb4522529cf1992c9c71abe13437fbc",
+      "git_blob_sha": "ca43d851786132dad8042c7d39bd5ece0d0e311e"
+    },
+    {
+      "path": "source-provenance.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/source-provenance.json",
+      "bytes": 9182,
+      "utf8_characters": 9182,
+      "sha256": "2dc9aadb99ca14dbd636a38ada9236fe403fa6a3188c7dbddd05f9f85a06570f",
+      "git_blob_sha": "f3d61da64e10a269e0a58ee3e54d47c18be89feb"
+    },
+    {
+      "path": "typed-facts.json",
+      "repository_path": "research/zeigo-adjudication-v0.1.1/typed-facts.json",
+      "bytes": 12426,
+      "utf8_characters": 12424,
+      "sha256": "0f0af246ddd4808fc6c85589e02b7c4a721bd624032feaa1cf9a676a937e1d02",
+      "git_blob_sha": "dbbcdf86bee3d02f23b7dfb814228462bebcf494"
+    }
+  ],
+  "minimization_review_sha256": "12b8a4a5bb7a64e7e6dc7382279a252d4b57007ba9aecd56b74e85c043c9f857",
+  "scientific_candidate_sha256": "1aee03194d91dacb36877cf22ea3afb893cfcedea2a5cf071bfef7f6db2d1cd9",
+  "scope": "EXACT_13_REVIEWED_FILES_PLUS_MINIMIZATION_RECEIPT_FILE_BINDINGS_AND_THIS_MANIFEST",
+  "denied_html_retried_or_included": false,
+  "new_buyer_followup_included": false,
+  "canonical_data_changed": false,
+  "history_or_eligibility_promoted": false,
+  "self_hash_convention": "Manifest excludes itself; exact transport receipt binds its bytes."
+}

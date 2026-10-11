@@ -1,0 +1,558 @@
+{
+  "schema_version": "zeigo-two-round-adjudication-v0.1.0",
+  "run_id": "vera-zeigo-adjudication-20261011",
+  "worker_attempt_id": "republic-zeigo-01",
+  "created_at_utc": "2026-10-11T13:20:44.116190+00:00",
+  "disposition": "ADDITIVE_CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "scope": "Data-engineering evidence-to-history review; no investment thesis or numeric-return analysis.",
+  "source_manifest_sha256": "b940992453821cc11b7025fb67ea6725b1f0497cf6f98fb9bbd69ff1eaa23e11",
+  "source_claims_sha256": "f0d55abeb6ce7bba655d388f96d547e67d2e2834560d2d0fc78492f3e5f9b183",
+  "canonical_commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+  "formal_requirements_source_sha256": "44d7b5de991fd13f2be786c60212b78878b0843b33e583440b6cd7b9c63abafd",
+  "frozen_native_spec_sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+  "rows": [
+    {
+      "round_id": "reurope:zeigo-energy",
+      "company_id": "reurope-company:11255249",
+      "source_data_ordinal": 53,
+      "legacy_lineage": {
+        "ledger_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+        "normalized_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+        "original_ledger_row": {
+          "round_id": "reurope:zeigo-energy",
+          "canonical_company_id": "reurope-company:11255249",
+          "campaign_name": "Zeigo Energy",
+          "platform": "republic_europe",
+          "offering_year": "2020",
+          "offering_year_status": "BOUNDED_YEAR",
+          "primary_field": "climate_energy_industrial",
+          "completion_date": "2020-04-22",
+          "success_date": "",
+          "success_type": "",
+          "success_valuation_multiple": "",
+          "closure_date": "",
+          "closure_type": "",
+          "last_positive_date": "2022-07-02",
+          "censor_date": "2022-07-02",
+          "followup_months": "26.316221765914",
+          "current_eligible_evidence": "false",
+          "evidence_trace": "index_completion:2020-04-22|later_funded_round:reurope:zeigo-energy1:2020-12-19|terminal_acquisition_interval_2022",
+          "outcome_ascertainment_status": "TERMINAL_ACQUISITION_VALUE_UNKNOWN_INTERVAL",
+          "terminal_event_type": "ACQUISITION_VALUE_UNKNOWN",
+          "terminal_event_interval_start": "2022-01-01",
+          "terminal_event_interval_end": "2022-12-31",
+          "terminal_event_midpoint_for_primary": "2022-07-02",
+          "terminal_event_date_status": "INTERVAL_KNOWN_YEAR_ONLY",
+          "terminal_event_evidence_url": "https://europe.republic.com/sa7",
+          "terminal_event_success_value": "UNKNOWN_NOT_COUNTED_AS_SUCCESS",
+          "terminal_event_sensitivity": "START_END_INTERVAL_SENSITIVITY",
+          "success_evidence_url": "",
+          "success_evidence_sha256": "",
+          "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+          "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+        },
+        "original_normalized_row": {
+          "round_id": "reurope:zeigo-energy",
+          "canonical_company_id": "reurope-company:11255249",
+          "platform": "republic_europe",
+          "campaign_name": "Zeigo Energy",
+          "legal_company_number": "11255249",
+          "legal_company_number_canonical": "11255249",
+          "company_id_normalization_status": "CANONICAL_NUMBER",
+          "campaign_url": "https://europe.republic.com/zeigo-energy",
+          "source_content_sha256": "e0330d1a5cefc5891cc94648fac3233ac97a56d08c3eb8301a05cb441d34b497",
+          "status": "funded_completed",
+          "offering_year": "2020",
+          "offering_year_status": "BOUNDED_YEAR",
+          "first_live_date": "",
+          "first_live_date_status": "UNRESOLVED_EXACT",
+          "first_live_lower_bound": "2020-04-09",
+          "first_live_upper_bound": "2020-04-22",
+          "completion_date": "2020-04-22",
+          "completion_date_basis": "platform_funded_date",
+          "approval_date": "2020-04-09",
+          "funded_date": "2020-04-22",
+          "primary_field": "climate_energy_industrial",
+          "platform_sectors_raw": "Energy",
+          "instrument_type": "Equity",
+          "raised_currency": "GBP",
+          "raised_amount": "846755.0",
+          "target_currency": "GBP",
+          "target_amount": "800004.0",
+          "pre_money_currency": "GBP",
+          "pre_money_valuation": "2500000.0",
+          "investors": "149",
+          "cohort_evidence_rule": "approval_to_funded_same_calendar_year",
+          "cohort_exclusion_reason": ""
+        },
+        "old_cp2_source_sha256": "e0330d1a5cefc5891cc94648fac3233ac97a56d08c3eb8301a05cb441d34b497",
+        "old_cp2_raw_body_status": "NOT_RECOVERED; fresh capture is distinct evidence, never asserted byte-equivalent"
+      },
+      "native_campaign_source_id": "zeigo-equity",
+      "native_campaign_sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "campaign_url": "https://europe.republic.com/zeigo-energy",
+      "funded_completion_date": "2020-04-22",
+      "analytical_time_zero": null,
+      "initial_state": null,
+      "scientific_eligibility": null,
+      "exact_history_ready": false,
+      "production_eligible": false,
+      "terminal_event": {
+        "type": "ACQUISITION_VALUE_UNKNOWN",
+        "interval_start": "2022-01-01",
+        "interval_end": "2022-12-31",
+        "exact_date": null,
+        "shared_company_event_id": "reurope-company:11255249__acquisition_2022",
+        "success_value": "UNKNOWN",
+        "consideration": null
+      },
+      "last_positive_date": null,
+      "censor_date": null,
+      "followup_months": null,
+      "success_date": null,
+      "success_valuation_multiple": null,
+      "closure_date": null,
+      "six_requirements": {
+        "round_identity_and_funded_origin": {
+          "disposition": "SUPPORTED_SOURCE_FACTS_PENDING_INDEPENDENT_REVIEW",
+          "reviewed_economic_round_identity": {
+            "issuer_strong_id": "11255249",
+            "unit": "reurope:zeigo-energy",
+            "distinct_unit_basis": "Separate native campaigns, Equity versus Convertible, and non-overlapping approval-to-funded windows; matched funding stays within the convertible campaign. No exhaustive global co-host graph claim."
+          },
+          "funded_position_evidence": [
+            "eq_funded",
+            "eq_identity"
+          ],
+          "origin_convention_review": {
+            "proposed_platform_funded_origin": "2020-04-22",
+            "basis": "Frozen native rule: successful platform completion/close",
+            "exact_private_settlement_claim": false
+          },
+          "remaining_limit": "No individual settlement, executed security position or global co-host deduplication claim is made or universally required for this source-level aggregate funded assessment."
+        },
+        "initial_state": {
+          "disposition": "HOLD",
+          "reviewed_initial_state": null,
+          "initial_state_evidence": [
+            "eq_activity"
+          ],
+          "entry_eligibility_review": "Campaign contains affirmative business activity, but no exact entry-state determination has been completed. Independence/control and index-specific prior success must be reviewed together; blank success fields and funded status cannot automatically select PRE or POST.",
+          "missing_predicates": [
+            "independent_operating_state_at_index",
+            "index_specific_success_state_at_entry"
+          ]
+        },
+        "index_success_and_target": {
+          "disposition": "PARTIAL_ADJUDICATION_HOLD",
+          "index_qualification_review": {
+            "native_acquisition_qualifies_success": null,
+            "native_acquisition_value": "UNKNOWN",
+            "convertible_cap_is_priced_valuation": false,
+            "comparable_index_value_selected": null,
+            "success_valuation_multiple": null,
+            "conditional_contract_payout_is_actual_return": false
+          },
+          "initial_post_policy": "UNRESOLVED: no baseline-plus-incident or incident-only eligibility selected without entry-state review.",
+          "selected_success_endpoint": "First qualifying event under frozen Phase 1C rules; no qualifying event established by this packet.",
+          "evidence": [
+            "eq_value",
+            "cv_terms",
+            "cv_exit_contract",
+            "native_acquisition",
+            "sa7_aggregate"
+          ],
+          "missing_predicates": [
+            "consideration_or_transaction_value_for_acquisition_success",
+            "index_comparability_for_any_priced_followon",
+            "initial_post_and_incident_contribution_policy"
+          ]
+        },
+        "typed_event_chronology": {
+          "disposition": "TYPED_FACTS_SUPPORTED_EXACT_HISTORY_HELD",
+          "reviewed_exact_transition_sequence": null,
+          "typed_source_events": [
+            {
+              "event": "FUNDED_EQUITY_ROUND",
+              "round_id": "reurope:zeigo-energy",
+              "date": "2020-04-22",
+              "role": "INDEX",
+              "claim_id": "eq_funded"
+            },
+            {
+              "event": "FUNDED_CONVERTIBLE_ROUND",
+              "round_id": "reurope:zeigo-energy1",
+              "date": "2020-12-19",
+              "role": "POST_INDEX_FINANCING",
+              "claim_id": "cv_funded",
+              "qualifying_priced_followon": false
+            },
+            {
+              "event": "ACQUISITION_VALUE_UNKNOWN",
+              "company_event_id": "reurope-company:11255249__acquisition_2022",
+              "interval_start": "2022-01-01",
+              "interval_end": "2022-12-31",
+              "date": null,
+              "claim_id": "native_acquisition",
+              "state_transition_admitted": false
+            }
+          ],
+          "same_subject_tie_resolution": "No exact acquisition day or same-day transition order selected. Both round views reference one shared company acquisition event.",
+          "event_precision_review": "Acquisition remains year interval. Later financing is not automatically success or operation; prior company history remains attached to the second index.",
+          "missing_predicates": [
+            "exact_transition_timing_or_approved_interval_history_protocol",
+            "reviewed_first_qualifying_event_sequence"
+          ]
+        },
+        "endpoint_observation": {
+          "disposition": "HOLD_EXACT_ENDPOINT",
+          "endpoint_specific_observation_review": {
+            "native_terminal_interval_supported": true,
+            "affirmative_operating_context_preserved": true,
+            "last_positive_date": null,
+            "censor_date": null,
+            "followup_months": null,
+            "legacy_midpoint_admissible_as_operation": false
+          },
+          "administrative_extraction_limit": {
+            "fresh_capture_completed_at": "2026-10-11T13:10:11.978319+00:00",
+            "scope": "Source availability observation only; not an operating endpoint or automatic extension of the frozen ledger follow-up."
+          },
+          "source_availability_review": {
+            "public_campaign_and_native_portfolio_body": "PUBLIC_VISIBLE",
+            "gated_investor_documents_and_updates": "AUTH_REQUIRED_NOT_INSPECTED",
+            "old_cp2_raw_body": "NOT_RECOVERED_IN_CURRENT_LOCAL_PACKET",
+            "outside_primary": "CONTEXT_ONLY_UNDER_FROZEN_NATIVE_RULES"
+          },
+          "missing_predicates": [
+            "precise_endpoint_date_or_approved_interval_protocol",
+            "dated_affirmative_native_operation_for_any_censor_choice"
+          ]
+        },
+        "cohort_assignment": {
+          "disposition": "SUPPORTED_BOUNDED_YEAR_PENDING_INDEPENDENT_REVIEW",
+          "cohort_membership_review": {
+            "platform": "republic_europe",
+            "offering_year": 2020,
+            "status": "BOUNDED_YEAR",
+            "rule": "approval_to_funded_same_calendar_year",
+            "first_live_date": null,
+            "first_live_lower_bound": "2020-04-09",
+            "first_live_upper_bound": "2020-04-22",
+            "approval_is_exact_first_live": false,
+            "primary_field": "climate_energy_industrial"
+          },
+          "prepared_history_disposition": "RETAIN_CANDIDATE_WITH_HOLDS; both original rows retained, neither exact history admitted. This selected pair does not represent all 952 source rows."
+        }
+      }
+    },
+    {
+      "round_id": "reurope:zeigo-energy1",
+      "company_id": "reurope-company:11255249",
+      "source_data_ordinal": 193,
+      "legacy_lineage": {
+        "ledger_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+        "normalized_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+        "original_ledger_row": {
+          "round_id": "reurope:zeigo-energy1",
+          "canonical_company_id": "reurope-company:11255249",
+          "campaign_name": "Zeigo Energy",
+          "platform": "republic_europe",
+          "offering_year": "2020",
+          "offering_year_status": "BOUNDED_YEAR",
+          "primary_field": "climate_energy_industrial",
+          "completion_date": "2020-12-19",
+          "success_date": "",
+          "success_type": "",
+          "success_valuation_multiple": "",
+          "closure_date": "",
+          "closure_type": "",
+          "last_positive_date": "2022-07-02",
+          "censor_date": "2022-07-02",
+          "followup_months": "18.398357289528",
+          "current_eligible_evidence": "false",
+          "evidence_trace": "index_completion:2020-12-19|terminal_acquisition_interval_2022",
+          "outcome_ascertainment_status": "TERMINAL_ACQUISITION_VALUE_UNKNOWN_INTERVAL",
+          "terminal_event_type": "ACQUISITION_VALUE_UNKNOWN",
+          "terminal_event_interval_start": "2022-01-01",
+          "terminal_event_interval_end": "2022-12-31",
+          "terminal_event_midpoint_for_primary": "2022-07-02",
+          "terminal_event_date_status": "INTERVAL_KNOWN_YEAR_ONLY",
+          "terminal_event_evidence_url": "https://europe.republic.com/sa7",
+          "terminal_event_success_value": "UNKNOWN_NOT_COUNTED_AS_SUCCESS",
+          "terminal_event_sensitivity": "START_END_INTERVAL_SENSITIVITY",
+          "success_evidence_url": "",
+          "success_evidence_sha256": "",
+          "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+          "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+        },
+        "original_normalized_row": {
+          "round_id": "reurope:zeigo-energy1",
+          "canonical_company_id": "reurope-company:11255249",
+          "platform": "republic_europe",
+          "campaign_name": "Zeigo Energy",
+          "legal_company_number": "11255249",
+          "legal_company_number_canonical": "11255249",
+          "company_id_normalization_status": "CANONICAL_NUMBER",
+          "campaign_url": "https://europe.republic.com/zeigo-energy1",
+          "source_content_sha256": "ae64861f8e0f93731d2eb70f72945cf36991ca669d8782bbfb40f274dd6de305",
+          "status": "funded_completed",
+          "offering_year": "2020",
+          "offering_year_status": "BOUNDED_YEAR",
+          "first_live_date": "",
+          "first_live_date_status": "UNRESOLVED_EXACT",
+          "first_live_lower_bound": "2020-12-08",
+          "first_live_upper_bound": "2020-12-19",
+          "completion_date": "2020-12-19",
+          "completion_date_basis": "platform_funded_date",
+          "approval_date": "2020-12-08",
+          "funded_date": "2020-12-19",
+          "primary_field": "climate_energy_industrial",
+          "platform_sectors_raw": "Energy",
+          "instrument_type": "Convertible",
+          "raised_currency": "GBP",
+          "raised_amount": "580340.0",
+          "target_currency": "GBP",
+          "target_amount": "540000.0",
+          "pre_money_currency": "",
+          "pre_money_valuation": "",
+          "investors": "209",
+          "cohort_evidence_rule": "approval_to_funded_same_calendar_year",
+          "cohort_exclusion_reason": ""
+        },
+        "old_cp2_source_sha256": "ae64861f8e0f93731d2eb70f72945cf36991ca669d8782bbfb40f274dd6de305",
+        "old_cp2_raw_body_status": "NOT_RECOVERED; fresh capture is distinct evidence, never asserted byte-equivalent"
+      },
+      "native_campaign_source_id": "zeigo-convertible",
+      "native_campaign_sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "campaign_url": "https://europe.republic.com/zeigo-energy1",
+      "funded_completion_date": "2020-12-19",
+      "analytical_time_zero": null,
+      "initial_state": null,
+      "scientific_eligibility": null,
+      "exact_history_ready": false,
+      "production_eligible": false,
+      "terminal_event": {
+        "type": "ACQUISITION_VALUE_UNKNOWN",
+        "interval_start": "2022-01-01",
+        "interval_end": "2022-12-31",
+        "exact_date": null,
+        "shared_company_event_id": "reurope-company:11255249__acquisition_2022",
+        "success_value": "UNKNOWN",
+        "consideration": null
+      },
+      "last_positive_date": null,
+      "censor_date": null,
+      "followup_months": null,
+      "success_date": null,
+      "success_valuation_multiple": null,
+      "closure_date": null,
+      "six_requirements": {
+        "round_identity_and_funded_origin": {
+          "disposition": "SUPPORTED_SOURCE_FACTS_PENDING_INDEPENDENT_REVIEW",
+          "reviewed_economic_round_identity": {
+            "issuer_strong_id": "11255249",
+            "unit": "reurope:zeigo-energy1",
+            "distinct_unit_basis": "Separate native campaigns, Equity versus Convertible, and non-overlapping approval-to-funded windows; matched funding stays within the convertible campaign. No exhaustive global co-host graph claim."
+          },
+          "funded_position_evidence": [
+            "cv_funded",
+            "cv_identity"
+          ],
+          "origin_convention_review": {
+            "proposed_platform_funded_origin": "2020-12-19",
+            "basis": "Frozen native rule: successful platform completion/close",
+            "exact_private_settlement_claim": false
+          },
+          "remaining_limit": "No individual settlement, executed security position or global co-host deduplication claim is made or universally required for this source-level aggregate funded assessment."
+        },
+        "initial_state": {
+          "disposition": "HOLD",
+          "reviewed_initial_state": null,
+          "initial_state_evidence": [
+            "cv_activity"
+          ],
+          "entry_eligibility_review": "Campaign contains affirmative business activity, but no exact entry-state determination has been completed. Independence/control and index-specific prior success must be reviewed together; blank success fields and funded status cannot automatically select PRE or POST.",
+          "missing_predicates": [
+            "independent_operating_state_at_index",
+            "index_specific_success_state_at_entry"
+          ]
+        },
+        "index_success_and_target": {
+          "disposition": "PARTIAL_ADJUDICATION_HOLD",
+          "index_qualification_review": {
+            "native_acquisition_qualifies_success": null,
+            "native_acquisition_value": "UNKNOWN",
+            "convertible_cap_is_priced_valuation": false,
+            "comparable_index_value_selected": null,
+            "success_valuation_multiple": null,
+            "conditional_contract_payout_is_actual_return": false
+          },
+          "initial_post_policy": "UNRESOLVED: no baseline-plus-incident or incident-only eligibility selected without entry-state review.",
+          "selected_success_endpoint": "First qualifying event under frozen Phase 1C rules; no qualifying event established by this packet.",
+          "evidence": [
+            "eq_value",
+            "cv_terms",
+            "cv_exit_contract",
+            "native_acquisition",
+            "sa7_aggregate"
+          ],
+          "missing_predicates": [
+            "consideration_or_transaction_value_for_acquisition_success",
+            "index_comparability_for_any_priced_followon",
+            "initial_post_and_incident_contribution_policy"
+          ]
+        },
+        "typed_event_chronology": {
+          "disposition": "TYPED_FACTS_SUPPORTED_EXACT_HISTORY_HELD",
+          "reviewed_exact_transition_sequence": null,
+          "typed_source_events": [
+            {
+              "event": "FUNDED_EQUITY_ROUND",
+              "round_id": "reurope:zeigo-energy",
+              "date": "2020-04-22",
+              "role": "PRE_INDEX_HISTORY",
+              "claim_id": "eq_funded"
+            },
+            {
+              "event": "FUNDED_CONVERTIBLE_ROUND",
+              "round_id": "reurope:zeigo-energy1",
+              "date": "2020-12-19",
+              "role": "INDEX",
+              "claim_id": "cv_funded",
+              "qualifying_priced_followon": false
+            },
+            {
+              "event": "ACQUISITION_VALUE_UNKNOWN",
+              "company_event_id": "reurope-company:11255249__acquisition_2022",
+              "interval_start": "2022-01-01",
+              "interval_end": "2022-12-31",
+              "date": null,
+              "claim_id": "native_acquisition",
+              "state_transition_admitted": false
+            }
+          ],
+          "same_subject_tie_resolution": "No exact acquisition day or same-day transition order selected. Both round views reference one shared company acquisition event.",
+          "event_precision_review": "Acquisition remains year interval. Later financing is not automatically success or operation; prior company history remains attached to the second index.",
+          "missing_predicates": [
+            "exact_transition_timing_or_approved_interval_history_protocol",
+            "reviewed_first_qualifying_event_sequence"
+          ]
+        },
+        "endpoint_observation": {
+          "disposition": "HOLD_EXACT_ENDPOINT",
+          "endpoint_specific_observation_review": {
+            "native_terminal_interval_supported": true,
+            "affirmative_operating_context_preserved": true,
+            "last_positive_date": null,
+            "censor_date": null,
+            "followup_months": null,
+            "legacy_midpoint_admissible_as_operation": false
+          },
+          "administrative_extraction_limit": {
+            "fresh_capture_completed_at": "2026-10-11T13:10:16.037388+00:00",
+            "scope": "Source availability observation only; not an operating endpoint or automatic extension of the frozen ledger follow-up."
+          },
+          "source_availability_review": {
+            "public_campaign_and_native_portfolio_body": "PUBLIC_VISIBLE",
+            "gated_investor_documents_and_updates": "AUTH_REQUIRED_NOT_INSPECTED",
+            "old_cp2_raw_body": "NOT_RECOVERED_IN_CURRENT_LOCAL_PACKET",
+            "outside_primary": "CONTEXT_ONLY_UNDER_FROZEN_NATIVE_RULES"
+          },
+          "missing_predicates": [
+            "precise_endpoint_date_or_approved_interval_protocol",
+            "dated_affirmative_native_operation_for_any_censor_choice"
+          ]
+        },
+        "cohort_assignment": {
+          "disposition": "SUPPORTED_BOUNDED_YEAR_PENDING_INDEPENDENT_REVIEW",
+          "cohort_membership_review": {
+            "platform": "republic_europe",
+            "offering_year": 2020,
+            "status": "BOUNDED_YEAR",
+            "rule": "approval_to_funded_same_calendar_year",
+            "first_live_date": null,
+            "first_live_lower_bound": "2020-12-08",
+            "first_live_upper_bound": "2020-12-19",
+            "approval_is_exact_first_live": false,
+            "primary_field": "climate_energy_industrial"
+          },
+          "prepared_history_disposition": "RETAIN_CANDIDATE_WITH_HOLDS; both original rows retained, neither exact history admitted. This selected pair does not represent all 952 source rows."
+        }
+      }
+    }
+  ],
+  "outside_context": {
+    "claim_ids": [
+      "buyer_completed_by",
+      "counsel_report",
+      "registry_control",
+      "registry_dissolution"
+    ],
+    "native_interval_overwritten": false,
+    "policy": "Outside primary evidence remains separately typed context; no retrospective native-only source admission."
+  },
+  "contradiction_search": {
+    "receipt_path": "receipts/contradiction-search-request.json",
+    "response_path": "receipts/web-contradiction-search.txt",
+    "queries": 3,
+    "scope": "Native consideration/return and official buyer/counsel transaction searches. Full originals inspected for target claims.",
+    "result": "No qualifying investor consideration or exact legal-close proof established in inspected originals. Search snippets and repeated press-release copies not treated as evidence.",
+    "exhaustiveness": "BOUNDED_SEARCH_ONLY"
+  },
+  "next_actions_ranked": [
+    {
+      "priority": 1,
+      "predicate": "Initial independent operating / index-specific success state at both entries",
+      "evidence_needed": "Contemporaneous native ownership/control and prior-event context linked to each index. Public business activity already retained; absence of a success record is insufficient.",
+      "requires_new_evidence_or_policy_review": true
+    },
+    {
+      "priority": 2,
+      "predicate": "Acquisition exact-history representation",
+      "evidence_needed": "Native exact date or an explicitly approved interval-aware history protocol. Buyer completed-by date and registry control dates remain separate typed context.",
+      "requires_new_evidence_or_policy_review": true
+    },
+    {
+      "priority": 3,
+      "predicate": "Index-specific acquisition success / actual security payout",
+      "evidence_needed": "Native transaction value/shareholder consideration and actual conversion/redemption outcome relevant to each instrument. Contract promises alone do not settle realized proceeds.",
+      "requires_new_evidence_or_policy_review": true
+    },
+    {
+      "priority": 4,
+      "predicate": "Last affirmative native operating endpoint",
+      "evidence_needed": "A dated native operating report if censoring is required; avoid financing dates, capture dates and old acquisition midpoint.",
+      "requires_new_evidence_or_policy_review": true
+    }
+  ],
+  "progress": {
+    "existing_rows_reviewed": 2,
+    "companies": 1,
+    "new_unique_round_observations": 0,
+    "fresh_native_sources": 3,
+    "fresh_outside_primary_sources": 4,
+    "rows_with_supported_funded_origin_and_bounded_year": 2,
+    "exact_histories_admitted": 0,
+    "scientific_eligibility_decisions": 0,
+    "canonical_rows_changed": 0,
+    "full_cohort_completion": false
+  },
+  "authorization_and_promotion": {
+    "canonical_apply": false,
+    "history_admission": false,
+    "rate_production_promotion": false,
+    "jev_calls": 0,
+    "jev_status": "BLOCKED_PENDING_USER_CREDIT_APPROVAL",
+    "independent_review": "PENDING"
+  },
+  "limitations": [
+    "Current pages can have changed since the historical raises; original CP2 bytes remain unrecovered.",
+    "Campaign operation statements are issuer-attributed and not separately date-bound at index.",
+    "Both campaigns are strong-ID linked, but no exhaustive global co-host/economic-round graph was searched.",
+    "Year bounds follow the existing approval-to-funded rule; exact first-live days remain unknown.",
+    "Entry-state, exact temporal history and index-specific success remain unresolved.",
+    "Statutory dissolution does not settle operating shutdown or shareholder return.",
+    "This is a selected two-row repair; 952-row denominator and all canonical objects remain unchanged."
+  ]
+}
