@@ -147,10 +147,21 @@ class TestReportingInputValidation(unittest.TestCase):
                     'operating_survival_terminal_start_status',
                     'operating_survival_terminal_end_status',
                 }
-                self.assertEqual(set(rows[0]), set(legacy_fields) | diagnostics)
-                self.assertEqual([key for key in rows[0] if key not in diagnostics], legacy_fields)
+                bootstrap_fields = {
+                    f'{endpoint}_bootstrap_{field}'
+                    for endpoint in ('success', 'closure', 'survival')
+                    for field in ('execution_status', 'interval_status', 'requested_replicates',
+                                  'completed_replicates', 'seed', 'supported_draw_count',
+                                  'unsupported_draw_count', 'defined_draw_count', 'undefined_draw_count',
+                                  'not_run_draw_count', 'degenerate_draw_count', 'degenerate_distribution',
+                                  'report_id')
+                }
+                all_diagnostics = diagnostics | bootstrap_fields
+                self.assertEqual(set(rows[0]), set(legacy_fields) | all_diagnostics)
+                added_fields = all_diagnostics - set(legacy_fields)
+                self.assertEqual([key for key in rows[0] if key not in added_fields], legacy_fields)
                 for current, archived in zip(rows, baseline_rows):
-                    self.assertEqual(set(current), set(legacy_fields) | diagnostics)
+                    self.assertEqual(set(current), set(legacy_fields) | all_diagnostics)
                     # This specific archived replay has no unsupported scenario
                     # within a primary-estimable cell; synthetic tests cover it.
                     expected_status = ('SUPPORTED' if archived['estimable'] == 'true'

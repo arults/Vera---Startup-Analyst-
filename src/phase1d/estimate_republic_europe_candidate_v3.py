@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 import csv
+import gzip
 import hashlib
+import io
+import os
+import tempfile
 import json
 import math
 import random
@@ -157,25 +161,195 @@ def grouped_bootstrap_indices(rows: list[dict], n: int, seed: int) -> list[list[
     return samples
 
 
-def bootstrap_cif(rows: list[dict], estimand: str, horizon: float, seed: int) -> tuple[float, float, float]:
-    observations = [first_event_observation(r, estimand) for r in rows]
-    point = cif_at_horizon(observations, estimand, horizon)
-    values = []
-    for indices in grouped_bootstrap_indices(rows, BOOTSTRAPS, seed):
-        sample = [observations[i] for i in indices]
-        values.append(cif_at_horizon(sample, estimand, horizon))
-    lo, hi = percentile_interval(values)
-    return point, lo, hi
+def _bootstrap_not_run(status: str, seed: int | None = None) -> dict:
+    return {
+        "requested_replicates": BOOTSTRAPS, "completed_replicates": 0,
+        "seed": seed, "execution_status": status,
+        "interval_status": "WITHHELD_BOOTSTRAP_NOT_RUN", "primary_interval": None,
+        "supported_draw_count": None, "unsupported_draw_count": None,
+        "defined_draw_count": None, "undefined_draw_count": None,
+        "not_run_draw_count": BOOTSTRAPS, "degenerate_draw_count": None,
+        "degenerate_distribution": None, "draws": [],
+    }
 
 
-def bootstrap_survival(rows: list[dict], horizon: float, seed: int) -> tuple[float, float, float]:
-    point = km_survival(rows, horizon)
-    values = []
-    for indices in grouped_bootstrap_indices(rows, BOOTSTRAPS, seed):
-        sample = [rows[i] for i in indices]
-        values.append(km_survival(sample, horizon))
-    lo, hi = percentile_interval(values)
-    return point, lo, hi
+def _caller_bootstrap_report(rows: list[dict], endpoint: str, horizon: float, seed: int) -> dict:
+    """Retain every company draw; support is checked on the endpoint's own history.
+
+    This is a conservative reporting disposition, not a coverage guarantee. The
+    operating endpoint remains the caller's existing collapsed-terminal KM.
+    """
+    if isinstance(BOOTSTRAPS, bool) or not isinstance(BOOTSTRAPS, int) or BOOTSTRAPS < 0:
+        raise ValueError("nonnegative_integer_replicate_count_required")
+    if isinstance(seed, bool) or not isinstance(seed, int):
+        raise ValueError("integer_seed_required")
+    if endpoint not in ("success", "closure", "survival"):
+        raise ValueError("unsupported_bootstrap_endpoint")
+    if isinstance(horizon, bool) or not isinstance(horizon, (int, float)) or not math.isfinite(horizon) or horizon < 0:
+        raise ValueError("finite_nonnegative_horizon_required")
+    if endpoint == "survival":
+        observations = [CompetingRiskObservation(
+            r["round_id"], r["canonical_company_id"],
+            (months(r.get("completion_date", ""), terminal_date(r)) or 0.0)
+            if terminal_date(r) else followup_time(r),
+            "terminal" if terminal_date(r) else None,
+        ) for r in rows]
+        point = km_survival(rows, horizon)
+    else:
+        observations = [first_event_observation(r, endpoint) for r in rows]
+        point = cif_at_horizon(observations, endpoint, horizon)
+    parent_supported = landmark_supported(observations, horizon)
+    metadata = {
+        "endpoint": endpoint, "horizon": horizon, "point": point,
+        "full_sample_support_status": "SUPPORTED" if parent_supported else "UNSUPPORTED_HORIZON",
+        "company_count": len({r["canonical_company_id"] for r in rows}),
+        "round_count": len(rows), "confidence_level": .95,
+        "percentile_convention": "legacy_discrete_indices_floor(B*alpha/2)_and_floor(B*(1-alpha/2))-1_clamped",
+    }
+    if BOOTSTRAPS == 0 or metadata["company_count"] < 2:
+        status = "NOT_RUN_ZERO_REPLICATES_REQUESTED" if BOOTSTRAPS == 0 else "NOT_RUN_INSUFFICIENT_COMPANY_CLUSTERS"
+        return dict(metadata, **_bootstrap_not_run(status, seed))
+    draws = []
+    for index, indices in enumerate(grouped_bootstrap_indices(rows, BOOTSTRAPS, seed)):
+        sample_obs = [observations[i] for i in indices]
+        support_status = "SUPPORTED" if landmark_supported(sample_obs, horizon) else "UNSUPPORTED_HORIZON"
+        try:
+            value = (km_survival([rows[i] for i in indices], horizon) if endpoint == "survival"
+                     else cif_at_horizon(sample_obs, endpoint, horizon))
+            if not math.isfinite(value):
+                raise ValueError("nonfinite_bootstrap_statistic")
+            reason = None
+        except (ValueError, ArithmeticError) as error:
+            value = None
+            reason = f"{type(error).__name__}:{error}"
+        draws.append({
+            "index": index, "source_row_indices": indices,
+            "source_round_ids": [rows[i]["round_id"] for i in indices],
+            "source_company_ids_by_row": [rows[i]["canonical_company_id"] for i in indices],
+            "mathematical_value": value, "numerical_support_status": support_status,
+            "statistic_status": "DEFINED" if value is not None else "UNDEFINED_BOOTSTRAP_STATISTIC",
+            "failure_reason": reason,
+        })
+    unsupported = sum(d["numerical_support_status"] == "UNSUPPORTED_HORIZON" for d in draws)
+    undefined = sum(d["mathematical_value"] is None for d in draws)
+    values = [d["mathematical_value"] for d in draws if d["mathematical_value"] is not None]
+    degenerate = (min(values) == max(values)) if not undefined else None
+    interval = None
+    if not parent_supported:
+        interval_status = "WITHHELD_FULL_SAMPLE_STATE_RISK_GAP"
+    elif undefined:
+        interval_status = "WITHHELD_UNDEFINED_BOOTSTRAP_DRAWS"
+    elif unsupported:
+        interval_status = "WITHHELD_UNSUPPORTED_BOOTSTRAP_DRAWS"
+    elif BOOTSTRAPS < 2:
+        interval_status = "WITHHELD_FEWER_THAN_TWO_REPLICATES"
+    elif degenerate:
+        interval_status = "WITHHELD_DEGENERATE_BOOTSTRAP_DISTRIBUTION"
+    else:
+        interval = percentile_interval(values)
+        interval_status = "PERCENTILE_BOOTSTRAP_INTERVAL_NO_NOMINAL_COVERAGE_GUARANTEE"
+    return dict(metadata, requested_replicates=BOOTSTRAPS, completed_replicates=len(draws),
+        seed=seed, execution_status="RUN_ALL_REQUESTED_DRAWS_RETAINED",
+        interval_status=interval_status, primary_interval=interval,
+        supported_draw_count=len(draws) - unsupported, unsupported_draw_count=unsupported,
+        defined_draw_count=len(draws) - undefined, undefined_draw_count=undefined,
+        not_run_draw_count=BOOTSTRAPS - len(draws),
+        degenerate_draw_count=len(draws) if degenerate else (None if undefined else 0),
+        degenerate_distribution=degenerate, draws=draws)
+
+
+def bootstrap_cif(rows: list[dict], estimand: str, horizon: float, seed: int, *, return_report: bool = False):
+    report = _caller_bootstrap_report(rows, estimand, horizon, seed)
+    if return_report:
+        return report
+    lo, hi = report["primary_interval"] or (None, None)
+    return report["point"], lo, hi
+
+
+def bootstrap_survival(rows: list[dict], horizon: float, seed: int, *, return_report: bool = False):
+    report = _caller_bootstrap_report(rows, "survival", horizon, seed)
+    if return_report:
+        return report
+    lo, hi = report["primary_interval"] or (None, None)
+    return report["point"], lo, hi
+
+
+def _rq1_bootstrap_fields(reports: dict[str, dict], report_prefix: str) -> dict:
+    """Compact diagnostics only; the full draw records belong in the audit sidecar."""
+    fields = {}
+    for endpoint, report in reports.items():
+        for field in ("execution_status", "interval_status", "requested_replicates",
+                      "completed_replicates", "seed", "supported_draw_count",
+                      "unsupported_draw_count", "defined_draw_count", "undefined_draw_count",
+                      "not_run_draw_count", "degenerate_draw_count", "degenerate_distribution"):
+            fields[f"{endpoint}_bootstrap_{field}"] = report[field]
+        fields[f"{endpoint}_bootstrap_report_id"] = f"{report_prefix}/{endpoint}"
+    return fields
+
+
+def _write_immutable(path: Path, payload: bytes) -> None:
+    if path.exists():
+        if path.read_bytes() != payload:
+            raise ValueError(f"bootstrap_audit_artifact_conflict:{path.name}")
+        return
+    # Publish a complete file atomically without replacing a concurrent writer.
+    with tempfile.NamedTemporaryFile(dir=path.parent, delete=False) as temporary:
+        temporary.write(payload)
+        temporary_path = Path(temporary.name)
+    try:
+        try:
+            os.link(temporary_path, path)
+        except FileExistsError:
+            if path.read_bytes() != payload:
+                raise ValueError(f"bootstrap_audit_artifact_conflict:{path.name}")
+    finally:
+        temporary_path.unlink()
+
+
+def write_bootstrap_audit(output_dir: Path, reports: dict[str, dict], source_hashes: dict[str, str]) -> dict:
+    """Write portable, deterministic, content-addressed full-draw evidence.
+
+    These files contain source identifiers, inherit the ledger's access controls,
+    and must not be published simply because the implementation is public.
+    Serialization is validated before writing; existing artifacts are immutable.
+    """
+    buffer = io.BytesIO()
+    with gzip.GzipFile(filename="", mode="wb", fileobj=buffer, mtime=0) as compressed:
+        for report_id, report in sorted(reports.items()):
+            if not report_id or report_id.startswith("/") or ".." in report_id.split("/"):
+                raise ValueError("relative_bootstrap_report_id_required")
+            record = {"report_id": report_id, "report": report}
+            compressed.write((json.dumps(record, sort_keys=True, separators=(",", ":"), allow_nan=False) + "\n").encode("utf-8"))
+    draw_bytes = buffer.getvalue()
+    draw_hash = hashlib.sha256(draw_bytes).hexdigest()
+    draw_path = output_dir / f"cp4_republic_europe_candidate_v3_bootstrap_draws.{draw_hash}.jsonl.gz"
+    manifest = {
+        "schema_version": "caller-bootstrap-audit-v1",
+        "reporting_policy": "retain_all_requested_draws_and_withhold_affected_intervals",
+        "empirical_failure_claim": False,
+        "source_sha256": source_hashes,
+        "artifact": {"relative_path": draw_path.name, "sha256": draw_hash,
+                     "format": "gzip_jsonl_one_report_per_line"},
+        "reports": {report_id: {"line_1based": i + 1,
+                     "requested_replicates": report["requested_replicates"],
+                     "completed_replicates": report["completed_replicates"],
+                     "interval_status": report["interval_status"]}
+                    for i, (report_id, report) in enumerate(sorted(reports.items()))},
+    }
+    manifest_bytes = (json.dumps(manifest, indent=2, sort_keys=True, allow_nan=False) + "\n").encode("utf-8")
+    manifest_hash = hashlib.sha256(manifest_bytes).hexdigest()
+    manifest_path = output_dir / f"cp4_republic_europe_candidate_v3_bootstrap_manifest.{manifest_hash}.json"
+    # Check both existing artifacts before publishing either one.
+    for path, payload in ((draw_path, draw_bytes), (manifest_path, manifest_bytes)):
+        if path.exists() and path.read_bytes() != payload:
+            raise ValueError(f"bootstrap_audit_artifact_conflict:{path.name}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    _write_immutable(draw_path, draw_bytes)
+    _write_immutable(manifest_path, manifest_bytes)
+    return {"bootstrap_audit_manifest": manifest_path.name,
+            "bootstrap_audit_manifest_sha256": manifest_hash,
+            "bootstrap_audit_artifact": draw_path.name,
+            "bootstrap_audit_artifact_sha256": draw_hash}
 
 
 def supported(observation: CompetingRiskObservation, horizon: float) -> bool:
@@ -245,7 +419,9 @@ def fmt(value: float | None) -> str:
     return "" if value is None else f"{value:.12g}"
 
 
-def rq1_rows(ledger: list[dict]) -> list[dict]:
+def rq1_rows(ledger: list[dict], *, bootstrap_audit: dict[str, dict] | None = None) -> list[dict]:
+    if isinstance(BOOTSTRAPS, bool) or not isinstance(BOOTSTRAPS, int) or BOOTSTRAPS < 0:
+        raise ValueError("nonnegative_integer_replicate_count_required")
     output = []
     for year in range(2020, 2026):
         cell = [r for r in ledger if r.get("offering_year_status") == "BOUNDED_YEAR" and r.get("offering_year") == str(year)]
@@ -276,20 +452,31 @@ def rq1_rows(ledger: list[dict]) -> list[dict]:
             success_events = event_count(success_obs, "success", horizon)
             closure_events = event_count(closure_obs, "closure", horizon)
             terminal_other = event_count(closure_obs, "terminal_other", horizon)
+            bootstrap_reports = {endpoint: dict(
+                _bootstrap_not_run(
+                    "NOT_RUN_ZERO_OBSERVED_EVENTS" if estimable else "NOT_RUN_PRIMARY_UNESTIMABLE",
+                    year * 1000 + int(horizon) + offset),
+                endpoint=endpoint, horizon=horizon, company_count=companies, round_count=n,
+                full_sample_support_status="SUPPORTED" if landmark_supported(observations, horizon) else "UNSUPPORTED_HORIZON",
+            ) for endpoint, offset, observations in (
+                ("success", 11, success_obs), ("closure", 23, closure_obs), ("survival", 37, survival_obs))}
             if estimable:
                 success_point = cif_at_horizon(success_obs, "success", horizon)
                 closure_point = cif_at_horizon(closure_obs, "closure", horizon)
                 survival_point = km_survival(cell, horizon)
                 if success_events:
-                    _, success_lo, success_hi = bootstrap_cif(cell, "success", horizon, year * 1000 + int(horizon) + 11)
+                    bootstrap_reports["success"] = bootstrap_cif(cell, "success", horizon, year * 1000 + int(horizon) + 11, return_report=True)
+                    success_lo, success_hi = bootstrap_reports["success"]["primary_interval"] or (None, None)
                 else:
                     success_lo = success_hi = None
                 if closure_events:
-                    _, closure_lo, closure_hi = bootstrap_cif(cell, "closure", horizon, year * 1000 + int(horizon) + 23)
+                    bootstrap_reports["closure"] = bootstrap_cif(cell, "closure", horizon, year * 1000 + int(horizon) + 23, return_report=True)
+                    closure_lo, closure_hi = bootstrap_reports["closure"]["primary_interval"] or (None, None)
                 else:
                     closure_lo = closure_hi = None
                 if closure_events + terminal_other:
-                    _, survival_lo, survival_hi = bootstrap_survival(cell, horizon, year * 1000 + int(horizon) + 37)
+                    bootstrap_reports["survival"] = bootstrap_survival(cell, horizon, year * 1000 + int(horizon) + 37, return_report=True)
+                    survival_lo, survival_hi = bootstrap_reports["survival"]["primary_interval"] or (None, None)
                 else:
                     survival_lo = survival_hi = None
                 terminal_start, terminal_start_status = supported_survival_scenario(cell, horizon, "start")
@@ -306,7 +493,12 @@ def rq1_rows(ledger: list[dict]) -> list[dict]:
                 or ascertainment < 0.80
                 or n_supported < 30
             )
+            report_prefix = f"republic_europe/{year}/{int(horizon)}"
+            if bootstrap_audit is not None:
+                for endpoint, report in bootstrap_reports.items():
+                    bootstrap_audit[f"{report_prefix}/{endpoint}"] = report
             output.append({
+                **_rq1_bootstrap_fields(bootstrap_reports, report_prefix),
                 "platform": "republic_europe",
                 "offering_year": year,
                 "horizon_months": int(horizon),
@@ -397,7 +589,17 @@ def main() -> None:
     ledger = read_csv(LEDGER)
     if len(ledger) != 952:
         raise ValueError("unexpected ledger row count")
-    rq1 = rq1_rows(ledger)
+    bootstrap_audit = {}
+    rq1 = rq1_rows(ledger, bootstrap_audit=bootstrap_audit)
+    audit_binding = write_bootstrap_audit(DATA, bootstrap_audit, {
+        LEDGER.name: sha(LEDGER),
+        "src/phase1d/estimate_republic_europe_candidate_v3.py": sha(Path(__file__)),
+        "src/phase1c/estimators.py": sha(ROOT / "src/phase1c/estimators.py"),
+        "src/phase1c/outcomes.py": sha(ROOT / "src/phase1c/outcomes.py"),
+        "src/phase1c/reporting.py": sha(ROOT / "src/phase1c/reporting.py"),
+    })
+    for row in rq1:
+        row.update(audit_binding)
     rq2 = rq2_rows(ledger)
     rq1_fields = list(rq1[0].keys()) if rq1 else []
     rq2_fields = list(rq2[0].keys()) if rq2 else []
@@ -434,6 +636,7 @@ def main() -> None:
         "output_files": {RQ1.name: sha(RQ1), RQ2.name: sha(RQ2), SUMMARY.name: sha(SUMMARY)},
         "summary": summary,
         "bootstrap_replicates": BOOTSTRAPS,
+        "bootstrap_audit": audit_binding,
     }, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(summary, sort_keys=True))
 
