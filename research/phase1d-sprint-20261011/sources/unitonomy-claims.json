@@ -1,0 +1,52 @@
+{
+  "title": "Unitonomy: source-attributed financing and product observations",
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "captured_date_utc": "2026-10-11",
+  "scope": "Paraphrased public-source observations. These are interested-party reports, not independently verified transactions, legal conclusions, valuations, investor returns, or investment advice.",
+  "observations": [
+    {
+      "id": "unitonomy-preferred-conversion-report",
+      "source_url": "https://wefunder.com/feed/147882",
+      "publisher": "Cory Forsyth, identified on Wefunder as Unitonomy's lead investor",
+      "publication_timestamp_utc": "2021-08-27T00:20:48Z",
+      "browser_display_date": "2021-08-26",
+      "claim": "The lead investor reported that all Unitonomy SAFE holders had converted, including the Wefunder investors whose SAFEs he exercised, into preferred stock of Unitonomy.",
+      "time_precision": "Reported completed by the dated update, conditional on its stated dating. Exact transaction date and historical page-version availability are unverified.",
+      "limitations": [
+        "The page includes an earlier founder update that still describes the conversion opportunity prospectively.",
+        "Unitonomy's separate Details page lists zero preferred shares outstanding, without a clear date for that table. That apparent inconsistency remains unresolved.",
+        "No executed conversion documents or dated cap table were inspected. The report does not establish investor liquidity or returns."
+      ],
+      "counterevidence_source_url": "https://wefunder.com/unitonomy/details"
+    },
+    {
+      "id": "unitonomy-subsidiary-parent-valuation-distinction",
+      "source_url": "https://wefunder.com/feed/147882",
+      "publication_timestamp_utc": "2021-08-27T00:20:48Z",
+      "claim": "The same update describes an OrgVitals financing at a $2.7 million post-money valuation and Unitonomy owning 71% of OrgVitals. It describes $1.92 million as a derived Unitonomy valuation used for the conversion.",
+      "time_precision": "The financing is described as recent; no exact closing date is stated.",
+      "limitations": [
+        "OrgVitals and Unitonomy are distinct issuers.",
+        "The derived parent valuation is not evidence of a separately priced Unitonomy financing."
+      ]
+    },
+    {
+      "id": "orgvitals-product-deployment-report",
+      "source_url": "https://wefunder.com/feed/145635",
+      "publisher": "Cory Forsyth, identified on Wefunder as Unitonomy's lead investor",
+      "publication_timestamp_utc": "2021-06-05T16:02:05Z",
+      "claim": "The May investor update reports deployment of OrgVitals 2.0 and onboarding of three consulting groups. It distinguishes some free early adopters from customers whose platform fees begin after client deployment.",
+      "time_precision": "The update is labelled May and published in June. Its reference to 'today' does not establish a separately verified activity date.",
+      "limitations": [
+        "This is an OrgVitals product-level activity report, not proof of continuous operation or an independently verified revenue amount.",
+        "It does not establish the operating status of the Unitonomy holding company or investor returns."
+      ]
+    }
+  ],
+  "context_source": {
+    "source_url": "https://wefunder.com/feed/143739",
+    "publication_timestamp_utc": "2021-04-11T15:25:46Z",
+    "claim": "An earlier update describes separate subsidiary cap tables and prospective Unitonomy SAFE conversion paperwork. It provides chronology and entity context, not evidence that conversion was already complete in April."
+  },
+  "access_limit": "The financial-notes document linked from the public Details page could not be retrieved. Its contents were not used."
+}

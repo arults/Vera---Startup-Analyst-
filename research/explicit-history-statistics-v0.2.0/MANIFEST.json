@@ -1,0 +1,24 @@
+{
+  "scope": "Additive source-neutral implementation; no empirical promotion. Bundled files preserve independently reviewed bytes.",
+  "source_candidate_manifests": {
+    "frozen-statistical-reporting-candidate-v1": "496ed194caf7b42615f34721e75d4b030951e2f812b4fa043bf166fbbbb456cd",
+    "frozen-lost-followup-sensitivity-candidate-v1": "9380dbdde4ee5a371ddcad04b4df364b28f549d29abca9b0d0665f3d8832fbd0"
+  },
+  "files": {
+    "FIRST_SUCCESS.md": "f1e35bae4cc6ee609d8dc48b0aaa82b2fe1dbaaf65d237ad243a4ed3c3bff89f",
+    "IMPLEMENTATION.md": "955b7a6d6549f95ebdb1c7456c5598ba333c5e5010167da355b560aacb5133a8",
+    "LOST_FOLLOWUP_SENSITIVITY.md": "5a262175b4d0d82683af144adec3b99af3f0a07862cffa679625de385af1a9b1",
+    "METHOD_REFERENCE.md": "4b99fa75925298a5b0fa0c21e8a23ca3d955ca177ad4158de205a159f0d67e50",
+    "README.md": "709ecf91aaca00725ff9d7dcda462ce3acea2ff6682ac3f8a24612a33fc0254c",
+    "aj_explicit_history.py": "5517d9796317faf10d782acdc7288b44e745dc5d699f922c9e5f72546ed0691c",
+    "aj_ij.py": "1f35c6e1a1bb59f333a0802a4850629c702dbf07a48d35378265b686b43f6fbb",
+    "first_success.py": "629a6f541d1c32120b13d2abaff5bd0f0c8fcf0d85d39fa74d7e17dfa1696377",
+    "lost_followup_sensitivity.py": "959226af9d2c9287864539586a87f6eec1197eac0cf26648452a98bd75c4ef8a",
+    "statistical_reporting.py": "25544b443afea9ec1afa3cece89a2445062bc9a9ae9cc03c693e6b5ae0f2d726",
+    "test_aj_explicit_history.py": "7f9023680893edd19e8601312b99061d1e47a88c600e1146975165ff1d11db95",
+    "test_aj_ij.py": "11e058c5e657e27730705f4942a80014a96d34650a5f08b5a61463fbfa6f6070",
+    "test_first_success.py": "90a110a42cdd803baa73defa5039677782e33bc69f7fbe1acfcfd1a12274fdca",
+    "test_lost_followup_sensitivity.py": "a3f5eb2a75a99ad2e2ef5ac42153904143f9e4cb8a6c08471363ed1f6bf847a8",
+    "test_statistical_reporting.py": "2320cedd9427cfa546523913353e83799e6cb16d8db37598a9fe66f374e1a795"
+  }
+}
