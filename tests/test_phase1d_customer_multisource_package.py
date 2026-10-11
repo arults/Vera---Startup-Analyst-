@@ -20,9 +20,10 @@ class CustomerMultisourcePackageTests(unittest.TestCase):
             bootstrap + "sys.argv = ['unittest', 'discover', '-s', 'tests', '-v']; "
             "runpy.run_module('unittest', run_name='__main__')",
         )
+        # -I ignores PYTHONDONTWRITEBYTECODE; -B keeps package source immutable.
         for command in commands:
             result = subprocess.run(
-                [sys.executable, "-I", "-c", command], cwd=package,
+                [sys.executable, "-I", "-B", "-c", command], cwd=package,
                 capture_output=True, text=True, timeout=120,
             )
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
