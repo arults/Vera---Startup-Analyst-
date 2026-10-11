@@ -1,23 +1,16 @@
 name: Phase 1D Republic Europe identity review
-on:
+'on':
   workflow_dispatch:
   push:
     branches: [phase-1d]
     paths:
-      - 'src/phase1d/build_republic_europe_identity_review.py'
-      - 'src/phase1d/apply_republic_europe_identity_review.py'
-      - 'src/phase1d/rebuild_republic_europe_outcomes_v4.py'
-      - 'src/phase1d/estimate_republic_europe_candidate_v3.py'
-      - 'tests/test_phase1d_republic_europe_identity_review.py'
-      - 'tests/test_phase1d_republic_europe_identity_apply.py'
-      - 'tests/test_phase1d_republic_europe_outcomes_v4.py'
-      - 'tests/test_phase1d_republic_europe_estimates_v3.py'
+      - 'src/phase1c/**'
+      - 'src/phase1d/**'
+      - 'tests/**'
+      - 'scripts/ci/validate_identity_checkpoint.py'
       - '.github/workflows/phase1d-republic-europe-identity-review.yml'
-concurrency:
-  group: phase1d-writer
-  cancel-in-progress: false
 permissions:
-  contents: write
+  contents: read
 jobs:
   review_queue:
     runs-on: ubuntu-latest
@@ -25,46 +18,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: phase-1d
-          fetch-depth: 0
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install optional recovery dependencies
-        run: pip install requests curl_cffi
-      - name: Run full regression suite
-        run: python -m unittest discover -s tests -v
-      - name: Rebuild fail-closed identity review queue
-        run: python -m src.phase1d.build_republic_europe_identity_review
-      - name: Apply conservative Jev review disposition
-        run: python -m src.phase1d.apply_republic_europe_identity_review
-      - name: Rebuild canonical outcome ledger v4
-        run: python -m src.phase1d.rebuild_republic_europe_outcomes_v4
-      - name: Recompute censoring-aware candidate estimates v3
-        run: python -m src.phase1d.estimate_republic_europe_candidate_v3
-      - name: Persist reviewed identity outcome and estimate checkpoint
+      - name: Verify exact triggered head
+        shell: bash
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Install existing regression dependencies
         run: |
-          git config user.name "vera-phase1d-bot"
-          git config user.email "vera-phase1d-bot@users.noreply.github.com"
-          git add data/phase1d/cp3_republic_europe_identity_review_queue.csv
-          git add data/phase1d/cp3_republic_europe_identity_unmatched_after_queue.csv
-          git add data/phase1d/cp3_republic_europe_identity_review_summary.json
-          git add data/phase1d/cp3_republic_europe_identity_review_manifest.json
-          git add data/phase1d/cp3_republic_europe_identity_review_decisions.csv
-          git add data/phase1d/cp3_republic_europe_identity_matches_accepted.csv
-          git add data/phase1d/cp3_republic_europe_business_observations_v2.csv
-          git add data/phase1d/cp3_republic_europe_identity_review_applied_summary.json
-          git add data/phase1d/cp3_republic_europe_identity_review_applied_manifest.json
-          git add data/phase1d/cp3_republic_europe_outcome_ledger_v4.csv
-          git add data/phase1d/cp3_republic_europe_outcome_ledger_v4_summary.json
-          git add data/phase1d/cp3_republic_europe_outcome_ledger_v4_manifest.json
-          git add data/phase1d/cp4_republic_europe_rq1_candidate_v3.csv
-          git add data/phase1d/cp4_republic_europe_rq2_gate_v3.csv
-          git add data/phase1d/cp4_republic_europe_candidate_v3_summary.json
-          git add data/phase1d/cp4_republic_europe_candidate_v3_manifest.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Phase 1D: persist canonical Republic Europe candidate estimates v3 [skip ci]"
-            git fetch origin phase-1d
-            git rebase origin/phase-1d
-            git push origin HEAD:phase-1d
-          fi
+          python -m pip install --only-binary=:all: requests beautifulsoup4 curl_cffi
+      - name: Validate full suite and isolated candidate checkpoint
+        shell: bash
+        run: >-
+          python -B scripts/ci/validate_identity_checkpoint.py
+          --expected-sha "$GITHUB_SHA"
+          --scratch-root "$RUNNER_TEMP/identity-candidate-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Upload hash and status evidence only
+        uses: actions/upload-artifact@v4
+        with:
+          name: identity-candidate-evidence-${{ github.sha }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/identity-candidate-${{ github.run_id }}-${{ github.run_attempt }}/evidence/validation.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: State validation scope
+        if: always()
+        shell: bash
+        run: |
+          echo 'Full regression and isolated candidate replay only; inspect stage results and test skips.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No canonical checkpoint files are committed. Raw candidates and full-draw sidecars remain together in disposable runner storage; only verified hash/status evidence is uploaded on success.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No empirical rates or priors are promoted. A passing run does not establish scientific completeness.' >> "$GITHUB_STEP_SUMMARY"

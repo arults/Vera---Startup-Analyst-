@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "publication_allowlist": [
+    "candidate_claim_catalogue.json",
+    "activity_log.txt",
+    "README.md",
+    "hashmanifest.json"
+  ],
+  "hash_algorithm": "SHA-256",
+  "files": {
+    "candidate_claim_catalogue.json": "c989b0da5813e59eee220a002386e7f7727b135f8caa5b636ddfd0c79c72ee57",
+    "activity_log.txt": "9bf7e75daea562b2138455b70c01254c1129ad213257a53dbc0ab637a039aabd",
+    "README.md": "6bf20a9855187385eb35a785430b31cc41cf947df44f0af0159590a325e3be72"
+  },
+  "manifest_self_hash_included": false,
+  "source_captures_included": false,
+  "review_disposition": "INDEPENDENT_EVIDENCE_REVIEW_PASS_CANDIDATE_ONLY",
+  "canonical_or_estimation_promotion": false
+}

@@ -1,0 +1,520 @@
+{
+  "scope": "Bounded frozen42 follow-up; no canonical promotion",
+  "frozen_manifest_sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+  "frozen_count": 42,
+  "claims": [
+    {
+      "claim_id": "BSE_IDENTITY",
+      "issuer_name": "Black Sands Entertainment Inc.",
+      "issuer_cik": "0001800218",
+      "offering_key": "0001800218|020-26035",
+      "claim_type": "STRONG_NATIVE_IDENTITY",
+      "summary": "The native profile links to a SEC filing index naming the frozen issuer and CIK 0001800218.",
+      "source_url": "https://wefunder.com/black.sands.entertainment/details",
+      "source_lines": "turn358view0 L138,L235-237; turn359view0 L47-50",
+      "effective_event_date": null,
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "The linked filing is a 2023 offering, not proof that it is the same economic round as the 2020 index offering."
+      ],
+      "linked_source_url": "https://www.sec.gov/Archives/edgar/data/1800218/000167025423000327/0001670254-23-000327-index.htm",
+      "linked_filing_date": "2023-04-11",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "BSE_OP_2023",
+      "issuer_name": "Black Sands Entertainment Inc.",
+      "issuer_cik": "0001800218",
+      "offering_key": "0001800218|020-26035",
+      "claim_type": "AFFIRMATIVE_HISTORICAL_OPERATION",
+      "summary": "Issuer reports FY2023 sales of $486,498 and a $284,040 net loss.",
+      "source_url": "https://wefunder.com/black.sands.entertainment/details",
+      "source_lines": "turn358view0 L145-149",
+      "effective_event_date": {
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "precision": "year_reporting_period"
+      },
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "Issuer-authored platform disclosure; underlying financial PDF not opened. Does not establish operation at the 2026 cutoff."
+      ],
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "BSE_OP_2024",
+      "issuer_name": "Black Sands Entertainment Inc.",
+      "issuer_cik": "0001800218",
+      "offering_key": "0001800218|020-26035",
+      "claim_type": "AFFIRMATIVE_HISTORICAL_OPERATION",
+      "summary": "August 2024 disclosure reports prior-three-month average revenue of $35,000 per month.",
+      "source_url": "https://wefunder.com/black.sands.entertainment/details",
+      "source_lines": "turn358view0 L156-160",
+      "effective_event_date": {
+        "as_of": "2024-08",
+        "precision": "month",
+        "exact_day": null,
+        "revenue_period": "preceding three months; exact endpoints unspecified"
+      },
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "No exact publication date or operating-state endpoint. Current-profitability language and FY2023 loss refer to different periods; retain both. Do not manufacture an exact censoring day."
+      ],
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "BSE_FINANCE_TENSION",
+      "issuer_name": "Black Sands Entertainment Inc.",
+      "issuer_cik": "0001800218",
+      "offering_key": "0001800218|020-26035",
+      "claim_type": "UNRECONCILED_FINANCING_HISTORY",
+      "summary": "Native February 2020 history lists $478,000; frozen C-U evidence records $480,000.",
+      "source_url": "https://wefunder.com/black.sands.entertainment/details",
+      "source_lines": "turn358view0 L210-216",
+      "effective_event_date": {
+        "as_of": "2020-02",
+        "precision": "month"
+      },
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "Difference is $2,000. Source does not explain gross/net scope. Preserve both; no silent amount replacement or duplicate-round assumption."
+      ],
+      "frozen_amount_usd": "480000.00",
+      "native_amount_usd": "478000",
+      "instrument_scope": "Native label: Priced Round; class and comparable valuation unverified",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "BSE_NOT_ANIME",
+      "issuer_name": "Black Sands Entertainment Inc.",
+      "issuer_cik": "0001800218",
+      "offering_key": "0001800218|020-26035",
+      "claim_type": "EXPLICIT_DIFFERENT_ISSUER",
+      "summary": "Anime revenue share belongs to Black Sands First Act Co., expressly excluding investment in Black Sands Entertainment Inc.",
+      "source_url": "https://wefunder.com/blacksandsanime",
+      "source_lines": "turn358view2 L109-111",
+      "effective_event_date": null,
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "Project-level funds and proposed investor returns must not be assigned to the frozen parent issuer. Relationship does not establish legal-entity identity or realized parent return."
+      ],
+      "instrument_scope": "Revenue share on three anime episodes",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "BSE_FEED_LIMIT",
+      "issuer_name": "Black Sands Entertainment Inc.",
+      "issuer_cik": "0001800218",
+      "offering_key": "0001800218|020-26035",
+      "claim_type": "TRUNCATED_UPDATE_NOT_EVENT_PROOF",
+      "summary": "May 31, 2024 update announces a planned anime round; returned opening contains only an excerpt.",
+      "source_url": "https://wefunder.com/feed/173791",
+      "source_lines": "turn358view1 L22-32",
+      "effective_event_date": null,
+      "publication_date": "2024-05-31T22:36:09Z",
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "NOT_VERIFIED_EVENT",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "Search showed more content than open. Do not use search-only body/comments as verified facts. Announcement is not completed funding."
+      ],
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "RENT_FINANCE_2026",
+      "issuer_name": "Rentberry, Inc.",
+      "issuer_cik": "0001657493",
+      "offering_key": "0001657493|020-26384",
+      "claim_type": "TYPED_COMPLETED_FINANCING_CANDIDATE",
+      "summary": "Republic reports common-stock financing closed September 1, 2026, at $1.85 per share; displayed proceeds differ by $1.",
+      "source_url": "https://republic.com/rentberry",
+      "source_lines": "turn361view0 L123-133,L364-374,L579",
+      "effective_event_date": {
+        "date": "2026-09-01",
+        "precision": "day"
+      },
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "Native exact legal name supports candidate only; direct CIK bridge was not completed. Listed bonus shares mean headline share price is not universally effective price. No comparable index valuation, first-live date, or normalized economic-round proof. Financing is not operation proof or qualifying success."
+      ],
+      "instrument_scope": "Reg CF common stock issued by Rentberry Inc.; not SAFE or realized exit",
+      "amount_observations_usd": [
+        "4999998",
+        "4999999"
+      ],
+      "identity_status": "UNRESOLVED_STRONG_IDENTIFIER_BRIDGE",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "RENT_OP_2025",
+      "issuer_name": "Rentberry, Inc.",
+      "issuer_cik": "0001657493",
+      "offering_key": "0001657493|020-26384",
+      "claim_type": "OPERATING_ACTIVITY_CANDIDATE",
+      "summary": "Republic describes actual property-processing and user activity during 2025.",
+      "source_url": "https://republic.com/rentberry",
+      "source_lines": "turn361view0 L299,L308",
+      "effective_event_date": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "precision": "year",
+        "caution": "Some text is only year-to-date as entering Q4 2025."
+      },
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "Exact publication date absent, metrics unaudited and potentially stale; do not assume continuous operation through 2026. Identity bridge remains incomplete. Header, body and team user metrics have differing apparent scopes and no reconciled denominator."
+      ],
+      "identity_status": "UNRESOLVED_STRONG_IDENTIFIER_BRIDGE",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "claim_id": "RENT_NO_IPO",
+      "issuer_name": "Rentberry, Inc.",
+      "issuer_cik": "0001657493",
+      "offering_key": "0001657493|020-26384",
+      "claim_type": "ANNOUNCEMENT_NOT_REALIZED_OUTCOME",
+      "summary": "Reserved ticker and pre-IPO promotional language are not evidence of a completed listing.",
+      "source_url": "https://republic.com/rentberry",
+      "source_lines": "turn361view0 L194,L207-209,L241",
+      "effective_event_date": null,
+      "publication_date": null,
+      "observed_as_of": "2026-10-11T06:43:36Z",
+      "status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "estimation_eligible": false,
+      "qualification_limits": [
+        "No IPO, realized investor return, or success event promoted."
+      ],
+      "identity_status": "UNRESOLVED_STRONG_IDENTIFIER_BRIDGE",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS"
+    },
+    {
+      "issuer_name": "Rentberry, Inc.",
+      "issuer_cik": "0001657493",
+      "offering_key": "0001657493|020-26384",
+      "observed_as_of": "2026-10-11T06:50:41.517679Z",
+      "publication_date": null,
+      "status": "INDEPENDENTLY_REVIEWED_CANDIDATE_ONLY",
+      "estimation_eligible": false,
+      "source_url": "https://republic.com/documents/23925?view=preview",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS",
+      "identity_status": "STRONG_NATIVE_DOCUMENT_CIK_BRIDGE_UNPROMOTED",
+      "claim_id": "RENT_IDENTITY_BRIDGE_ADDITIVE",
+      "claim_type": "STRONG_NATIVE_DOCUMENT_IDENTITY_BRIDGE",
+      "summary": "Republic campaign links to a Form C/A whose subscription agreement and Exhibit G link to a stockholders agreement in SEC issuer archive 1657493, matching frozen CIK.",
+      "effective_event_date": null,
+      "source_lines": "Campaign turn362view0 L174-182; Form C/A turn363view0 L14-29; turn364view0 L2225-2233 PDF p61 and L4904-4907 PDF p142",
+      "source_chain": [
+        "https://republic.com/rentberry",
+        "https://republic.com/documents/23925?view=preview",
+        "https://www.sec.gov/Archives/edgar/data/1657493/000121390021030690/ea142082ex5-3_rentberry.htm"
+      ],
+      "linked_sec_target_opened": false,
+      "qualification_limits": [
+        "Linked SEC URL is evidence of the identifier bridge; its content was not opened.",
+        "Issuer linkage does not establish the same economic round as the 2020 offering or change canonical membership.",
+        "Original unresolved chronology remains visible; this additive record supplies the current reviewed identity disposition."
+      ]
+    },
+    {
+      "issuer_name": "Rentberry, Inc.",
+      "issuer_cik": "0001657493",
+      "offering_key": "0001657493|020-26384",
+      "observed_as_of": "2026-10-11T06:50:41.517679Z",
+      "publication_date": null,
+      "status": "INDEPENDENTLY_REVIEWED_CANDIDATE_ONLY",
+      "estimation_eligible": false,
+      "source_url": "https://republic.com/documents/23925?view=preview",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS",
+      "identity_status": "STRONG_NATIVE_DOCUMENT_CIK_BRIDGE_UNPROMOTED",
+      "claim_id": "RENT_LEGAL_DATE_SCOPE_ADDITIVE",
+      "claim_type": "TERMS_AND_DATES_SCOPE",
+      "summary": "Legal deadline August 31, 2026 differs from displayed platform completion September 1; legal maximum $4,999,998.70 is not actual proceeds.",
+      "effective_event_date": {
+        "legal_deadline": "2026-08-31",
+        "platform_displayed_completion": "2026-09-01",
+        "amendment_filing_date": null
+      },
+      "source_lines": "turn363view0 L10,L45-63; turn362view0 L102,L133",
+      "qualification_limits": [
+        "Retain both dates in distinct fields; do not silently select one as funding close.",
+        "Retain $4,999,998 versus $4,999,999 displayed proceeds discrepancy; maximum is not replacement net/gross proceeds evidence."
+      ]
+    },
+    {
+      "issuer_name": "Rentberry, Inc.",
+      "issuer_cik": "0001657493",
+      "offering_key": "0001657493|020-26384",
+      "observed_as_of": "2026-10-11T06:50:41.517679Z",
+      "publication_date": null,
+      "status": "INDEPENDENTLY_REVIEWED_CANDIDATE_ONLY",
+      "estimation_eligible": false,
+      "source_url": "https://republic.com/documents/23925?view=preview",
+      "review_disposition": "INDEPENDENT_REVIEW_PASS_WITH_STATED_LIMITS",
+      "identity_status": "STRONG_NATIVE_DOCUMENT_CIK_BRIDGE_UNPROMOTED",
+      "claim_id": "RENT_HISTORICAL_SALES_ADDITIVE",
+      "claim_type": "AFFIRMATIVE_HISTORICAL_OPERATION_CANDIDATE",
+      "summary": "Legal disclosure reports sales of $1,722,578 in 2025 and $819,365 in 2024, with losses in both years.",
+      "effective_event_date": {
+        "reporting_years": [
+          2024,
+          2025
+        ],
+        "precision": "year",
+        "exact_operating_endpoint": null
+      },
+      "source_lines": "turn363view0 L68-82",
+      "qualification_limits": [
+        "Reported historical sales, not continuous operation at October 2026 cutoff.",
+        "Underlying audit not examined; exact publication/amendment filing dates remain unknown.",
+        "No profitability, success, IPO or realized return inferred."
+      ]
+    },
+    {
+      "subject_brand": "Black Sands Entertainment",
+      "issuer_cik": null,
+      "legal_issuer_identity_verified": false,
+      "related_frozen_issuer_for_research_only": "0001800218|020-26035",
+      "observed_as_of": "2026-10-11T06:54:00Z",
+      "status": "INDEPENDENTLY_REVIEWED_OUTSIDE_CONTEXT_ONLY",
+      "estimation_eligible": false,
+      "operating_endpoint_assigned": false,
+      "source_origin": "outside platform",
+      "review_disposition": "PASS_BOUNDED_CONTEXT_WITH_STATED_LIMITS",
+      "claim_id": "BSE_OUTSIDE_CATALOG_CONTEXT",
+      "claim_type": "THIRD_PARTY_CATALOG_SOLICITATION",
+      "summary": "April 2025 PREVIEWS catalog lists publisher Black Sands Entertainment and Cosmic Girl GN Vol 01.",
+      "source_url": "https://www.milehighcomics.com/html/04_25_cof.pdf",
+      "source_lines": "turn368view1 cover; turn369view0 L1243-1244, printed page 19 / zero-based page 18",
+      "publication_date": {
+        "period": "2025-04",
+        "exact_day": null
+      },
+      "effective_event_date": {
+        "solicitation_period": "2025-04",
+        "customer_order_deadline": "2025-04-18",
+        "retailer_orders_due": "2025-04-24",
+        "scheduled_release_not_actual": "2025-06-11"
+      },
+      "independence_scope": "Outside direct evidence of catalog listing only. Product metadata may originate with publisher.",
+      "qualification_limits": [
+        "No CIK/corporate identifier in catalog row; exact frozen legal issuer not established.",
+        "Catalog listing is not completed sale, shipment, actual release, current operation or business viability. Release dates tentative.",
+        "PDF text was inspectable; screenshot failed, so no visual verification."
+      ]
+    },
+    {
+      "subject_brand": "Black Sands Entertainment",
+      "issuer_cik": null,
+      "legal_issuer_identity_verified": false,
+      "related_frozen_issuer_for_research_only": "0001800218|020-26035",
+      "observed_as_of": "2026-10-11T06:54:00Z",
+      "status": "INDEPENDENTLY_REVIEWED_OUTSIDE_CONTEXT_ONLY",
+      "estimation_eligible": false,
+      "operating_endpoint_assigned": false,
+      "source_origin": "outside platform",
+      "review_disposition": "PASS_BOUNDED_CONTEXT_WITH_STATED_LIMITS",
+      "claim_id": "BSE_OUTSIDE_INTERVIEW_CONTEXT",
+      "claim_type": "DATED_EXTERNAL_MEDIA_COVERAGE",
+      "summary": "Sway\u2019s Universe published founder-interview coverage of the Black Sands publishing brand on January 22, 2025.",
+      "source_url": "https://swaysuniverse.com/2025/01/22/black-history-meets-comics-inside-black-sands-success/",
+      "source_lines": "turn368view0 L18-21,L29-33,L40-50,L59",
+      "publication_date": "2025-01-22",
+      "effective_event_date": {
+        "interview_recording_or_broadcast_date": null
+      },
+      "independence_scope": "Outside outlet\u2019s coverage record; founder-derived business, funding and partnership assertions are not independently verified facts.",
+      "qualification_limits": [
+        "Brand/founder consistency only, no CIK or exact legal-entity bridge.",
+        "Publication date does not establish operating endpoint. Planned animation activity is not actual release.",
+        "Investment solicitation may conflate parent and anime vehicle; no financing or investor-return attribution.",
+        "Outlet ownership/financial independence not separately investigated; no claim that its coverage audits the company."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "artifact_sha256": "9c22316c2dd3a733a0e1675e356478c01b03df4b1601abc18a03396a7eecd1a3",
+      "returned_render_utf8_sha256": "203291e252629e647627fe54e5fcb35a6033fed2e834e07eccb34926af9e3ff9",
+      "capture_type": "search_navigation_only",
+      "original_http_body_sha256": null,
+      "limit": "Hash attests locally retained tool response, not original HTTP response bytes. Render may be partial. Search text is not verified original evidence.",
+      "capture_reference": "search1.json",
+      "capture_in_publication_bundle": false
+    },
+    {
+      "artifact_sha256": "634bdf2541f2a73928e4e20b2fb82c993350a6b370b6590a210d5dba07cf726b",
+      "returned_render_utf8_sha256": "ada9e4bc2aa43506098eab629fe8791fe55c38c5aa0f5198ceb799ed8fd16377",
+      "capture_type": "web_tool_returned_text_render",
+      "original_http_body_sha256": null,
+      "limit": "Hash attests locally retained tool response, not original HTTP response bytes. Render may be partial. Search text is not verified original evidence.",
+      "capture_reference": "open1.json",
+      "capture_in_publication_bundle": false
+    },
+    {
+      "artifact_sha256": "ff92ac374afac2c092e6064ad367f604368a719d984d7a02545415cb87f60b5d",
+      "returned_render_utf8_sha256": "e47b1bf0478a0a42241c6bcf5f08f80fb36239ceadaa519e199ec3c04b7b8788",
+      "capture_type": "web_tool_returned_text_render",
+      "original_http_body_sha256": null,
+      "limit": "Hash attests locally retained tool response, not original HTTP response bytes. Render may be partial. Search text is not verified original evidence.",
+      "capture_reference": "click1.json",
+      "capture_in_publication_bundle": false
+    },
+    {
+      "artifact_sha256": "dad4e190fc6c202da717461ede5bf4445ec1c5df17b23514e2e5da046b33a457",
+      "returned_render_utf8_sha256": "85dd8f412ded0e74c910ffc6a87c15c07020b6036999f47d7017cff0c2095852",
+      "capture_type": "search_navigation_only",
+      "original_http_body_sha256": null,
+      "limit": "Hash attests locally retained tool response, not original HTTP response bytes. Render may be partial. Search text is not verified original evidence.",
+      "capture_reference": "search2.json",
+      "capture_in_publication_bundle": false
+    },
+    {
+      "artifact_sha256": "85b0c8e462ac1402eef5d9e3830b14f8b0d2f4fd3fda1c88bb0a29b1c3a1b0b3",
+      "returned_render_utf8_sha256": "b7dc7bda03645182c0c4a59c2df7099ef81db1f003125d8e6073e0f0300f88d1",
+      "capture_type": "web_tool_returned_text_render",
+      "original_http_body_sha256": null,
+      "limit": "Hash attests locally retained tool response, not original HTTP response bytes. Render may be partial. Search text is not verified original evidence.",
+      "capture_reference": "open2.json",
+      "capture_in_publication_bundle": false
+    },
+    {
+      "capture_reference": "rentberry-bridge/read1.json",
+      "artifact_sha256": "93671108b83230c030df0f2c9dfda95983bc5f79c94dd949b0a0a54e07f5e1d5",
+      "capture_type": "web_tool_returned_text_or_uninspectable_screenshot_reference",
+      "original_http_body_sha256": null,
+      "capture_in_publication_bundle": false,
+      "limit": "Retained tool-response artifact hash, not original PDF/HTTP bytes. Text rendering inspected; screenshot payloads were not visually inspectable."
+    },
+    {
+      "capture_reference": "rentberry-bridge/read2.json",
+      "artifact_sha256": "59150e35108a1722e645cae8c2b64353a5baa7486e9764045c1193d97d71d366",
+      "capture_type": "web_tool_returned_text_or_uninspectable_screenshot_reference",
+      "original_http_body_sha256": null,
+      "capture_in_publication_bundle": false,
+      "limit": "Retained tool-response artifact hash, not original PDF/HTTP bytes. Text rendering inspected; screenshot payloads were not visually inspectable."
+    },
+    {
+      "capture_reference": "rentberry-bridge/read3.json",
+      "artifact_sha256": "544f308b8f3993544e687706b98ed50fc998af1579b949bd67564e9082d789f2",
+      "capture_type": "web_tool_returned_text_or_uninspectable_screenshot_reference",
+      "original_http_body_sha256": null,
+      "capture_in_publication_bundle": false,
+      "limit": "Retained tool-response artifact hash, not original PDF/HTTP bytes. Text rendering inspected; screenshot payloads were not visually inspectable."
+    },
+    {
+      "capture_reference": "rentberry-bridge/read4_5.json",
+      "artifact_sha256": "cac67bd364cc9fc3178fa4432f0a5f5677f449417b78422d17d92fb49168f5cf",
+      "capture_type": "web_tool_returned_text_or_uninspectable_screenshot_reference",
+      "original_http_body_sha256": null,
+      "capture_in_publication_bundle": false,
+      "limit": "Retained tool-response artifact hash, not original PDF/HTTP bytes. Text rendering inspected; screenshot payloads were not visually inspectable."
+    },
+    {
+      "capture_reference": "blacksands-corroboration/bse_read34.json",
+      "artifact_sha256": "351b6795374cb804ed9ae2c52eacddcbb73d60b2f05d666edec0ccfb1b919c17",
+      "capture_type": "web_tool_response_text_or_failed_screenshot",
+      "capture_in_publication_bundle": false,
+      "original_http_body_sha256": null,
+      "limit": "Tool-render artifact only; not original response bytes. Search snippets navigation only. Failed screenshot is not visual verification."
+    },
+    {
+      "capture_reference": "blacksands-corroboration/bse_read56.json",
+      "artifact_sha256": "f73f7c204b8361b3951def5c851648b3686f66723233eba35b57dfa5b36c9491",
+      "capture_type": "web_tool_response_text_or_failed_screenshot",
+      "capture_in_publication_bundle": false,
+      "original_http_body_sha256": null,
+      "limit": "Tool-render artifact only; not original response bytes. Search snippets navigation only. Failed screenshot is not visual verification."
+    },
+    {
+      "capture_reference": "blacksands-corroboration/bse_read7.json",
+      "artifact_sha256": "1ad6f5731305f30872396c8c7e93d9d56e75cca20a12372eb8eb889a83469404",
+      "capture_type": "web_tool_response_text_or_failed_screenshot",
+      "capture_in_publication_bundle": false,
+      "original_http_body_sha256": null,
+      "limit": "Tool-render artifact only; not original response bytes. Search snippets navigation only. Failed screenshot is not visual verification."
+    },
+    {
+      "capture_reference": "blacksands-corroboration/bse_screenshot_metadata.json",
+      "artifact_sha256": "ef0359e5c36f8063ded56ceb7460d16871908a5a680f982f37d7530ed3116dbd",
+      "capture_type": "web_tool_response_text_or_failed_screenshot",
+      "capture_in_publication_bundle": false,
+      "original_http_body_sha256": null,
+      "limit": "Tool-render artifact only; not original response bytes. Search snippets navigation only. Failed screenshot is not visual verification."
+    },
+    {
+      "capture_reference": "blacksands-corroboration/bse_search1.json",
+      "artifact_sha256": "666877c26e3db84fe8547bdbdba8ea9e3a2cfbec74d038eb4c82a2ab5729e343",
+      "capture_type": "web_tool_response_text_or_failed_screenshot",
+      "capture_in_publication_bundle": false,
+      "original_http_body_sha256": null,
+      "limit": "Tool-render artifact only; not original response bytes. Search snippets navigation only. Failed screenshot is not visual verification."
+    }
+  ],
+  "external_reads": 10,
+  "external_read_accounting": "4 search queries + 6 opened/clicked URLs; 5 batched web calls",
+  "primary_evidence_companies": 1,
+  "additional_identity_unresolved_companies": 1,
+  "groGuru_disposition": "Search-only leads did not establish native follow-up or strong identity; not promoted.",
+  "third_party_context_policy": "Outside information and snippets used only as navigation; no external-only outcome promoted.",
+  "review_history": [
+    {
+      "sequence": 1,
+      "status": "PENDING_AT_INITIAL_CAPTURE",
+      "as_of": "2026-10-11T06:45:11Z",
+      "note": "All initial claims were unpromoted and pending independent review."
+    },
+    {
+      "sequence": 2,
+      "status": "PASS_BOUNDED_CANDIDATE_CATALOGUE",
+      "as_of": "2026-10-11T06:50:46Z",
+      "review_scope": "Nine original claims, frozen issuer records, source-render hashes, date qualifications and discrepancies independently checked. No additional external reads; not original HTTP/PDF verification."
+    },
+    {
+      "sequence": 3,
+      "as_of": "2026-10-11T06:51:58Z",
+      "status": "PASS_BOUNDED_NATIVE_DOCUMENT_BRIDGE",
+      "review_scope": "Additional Rentberry native-document bridge independently reviewed against retained rendered excerpts and frozen issuer. No direct linked-SEC content, raw PDF-byte or screenshot verification."
+    },
+    {
+      "sequence": 4,
+      "status": "PASS_BOUNDED_OUTSIDE_CONTEXT",
+      "review_scope": "Outside catalog and interview evidence independently checked as contextual records only, with legal-entity and operation limits retained."
+    }
+  ],
+  "current_disposition": "INDEPENDENTLY_REVIEWED_CANDIDATE_ONLY_NO_CANONICAL_PROMOTION",
+  "publication_scope": "Selected source claim catalogue and activity log only; underlying returned render captures are not included.",
+  "current_identity_dispositions": {
+    "Black Sands Entertainment Inc.": "EXACT_NATIVE_TO_SEC_CIK_LINK_REVIEWED_CANDIDATE_ONLY",
+    "Rentberry, Inc.": "STRONG_NATIVE_DOCUMENT_CIK_BRIDGE_REVIEWED_CANDIDATE_ONLY"
+  },
+  "chronology_note": "Original Rentberry UNRESOLVED fields record first-pass findings. Additive bridge claims below supersede only current issuer-link disposition; economic-round normalization, success and cutoff operation remain unverified.",
+  "external_read_accounting_by_stage": {
+    "initial_collection": 10,
+    "separately_authorized_identity_bridge": 5,
+    "total": 23,
+    "separately_authorized_outside_context": 8
+  },
+  "external_reads_note": "external_reads=10 is original collection only. Separately authorized bridge used five reads and outside-context collection used eight; combined total 23, including cached renders and failed screenshot requests.",
+  "count_scope_note": "Top-level primary_evidence_companies=1 and additional_identity_unresolved_companies=1 describe original collection only, before the additive Rentberry bridge. For current reviewed issuer-link context, use current_identity_dispositions. Stronger identity context is not canonical completion, estimation eligibility or cutoff operating proof."
+}
