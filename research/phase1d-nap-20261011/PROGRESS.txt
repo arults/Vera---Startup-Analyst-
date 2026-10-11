@@ -1,0 +1,11 @@
+Vera Phase 1D nap session — 2026-10-11, 06:30–07:30 UTC
+
+This checkpoint incorporates the previously reviewed additive register on top of the published return-probability format. It preserves the original source files and previous SKILLS text. The earlier cancelled publication is not reported as delivered.
+
+Fresh verification before publication: 2,865 source rows from seven selected frozen tables, nine logical tables, 25 unit tests and 50 separate independent checks passed. These are overlapping verification activities, not new company observations. The full populations and company research-completion counts remain unclassified.
+
+JEV reviewed a standalone generic execution method: verify then deliver; bind recovered code to fresh review; preserve unknown identity overlap; report bounded results. No actual private study data or code was sent in that evaluation, and it is not scientific approval.
+
+Pending work at preparation: reconstruct/recover the unpublished bootstrap-support reporting repair and independently verify it; investigate bounded company-identity links; final remote readback and CI; full empirical Phase1D completion. This text does not claim those pending tasks are done. The source-qualified population/history and estimator/report integration gates remain open.
+
+Logs and a final verified disposition will distinguish published, local-only, passed, not-run and blocked work. No deadline or passing software suite establishes a research plateau.

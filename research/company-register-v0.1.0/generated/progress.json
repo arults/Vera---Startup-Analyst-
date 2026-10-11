@@ -1,0 +1,112 @@
+[
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 20,
+    "partial": null,
+    "platform": "crowdcube",
+    "unclassified": 20,
+    "unit": "discovery_url",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 789,
+    "partial": null,
+    "platform": "republic_europe",
+    "unclassified": 789,
+    "unit": "company_key",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 952,
+    "partial": null,
+    "platform": "republic_europe",
+    "unclassified": 952,
+    "unit": "round",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 108,
+    "partial": null,
+    "platform": "republic_us",
+    "unclassified": 108,
+    "unit": "discovery_url",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 568,
+    "partial": null,
+    "platform": "republic_us",
+    "unclassified": 568,
+    "unit": "offering",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 112,
+    "partial": null,
+    "platform": "startengine",
+    "unclassified": 112,
+    "unit": "discovery_url",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 42,
+    "partial": null,
+    "platform": "wefunder",
+    "unclassified": 42,
+    "unit": "company",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 46,
+    "partial": null,
+    "platform": "wefunder",
+    "unclassified": 46,
+    "unit": "discovery_url",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 42,
+    "partial": null,
+    "platform": "wefunder",
+    "unclassified": 42,
+    "unit": "offering",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 57,
+    "partial": null,
+    "platform": "wefunder",
+    "unclassified": 57,
+    "unit": "profile",
+    "verified_complete": null
+  },
+  {
+    "completion_counts_established": false,
+    "denominator_scope": "loaded_inputs_only_not_full_population",
+    "loaded_unique_records": 65,
+    "partial": null,
+    "platform": "wefunder",
+    "unclassified": 65,
+    "unit": "profile_event",
+    "verified_complete": null
+  }
+]
