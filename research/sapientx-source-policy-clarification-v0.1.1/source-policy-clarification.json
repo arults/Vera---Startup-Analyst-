@@ -1,0 +1,66 @@
+{
+  "artifact_version": "0.1.1",
+  "status": "ADDITIVE_SOURCE_POLICY_CLARIFICATION",
+  "original_packet": {
+    "commit": "da020aabe0da8e9c6da04cd594f9c16067f4f031",
+    "path": "research/sapientx-native-identity-supplement-v0.1.0/evidence-supplement.json",
+    "sha256": "04c05aef491d854ef76ccb6dd4cc8223b9b1bd7f787ca7141c40270eeeecf908",
+    "git_blob": "44056643baca4d1d3c58c9d15522b501fad2091d",
+    "preserved_unchanged": true
+  },
+  "frozen_binding": {
+    "offering_key": "0001742055|020-26500",
+    "later_file_number": "020-33375",
+    "offering_merge": false
+  },
+  "policy": {
+    "path": "docs/PHASE_1C_SPEC.md",
+    "git_blob": "fb62fb062274cf51b8090f91990c3181dc99bdb2",
+    "sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+    "relevant_lines": [
+      164,
+      168
+    ],
+    "scope": "Platform-only restriction applies to all study evidence including identity."
+  },
+  "source_policy": {
+    "identity_bridge_status": "EXTERNAL_CONTEXT_ONLY_NOT_STUDY_IDENTITY_GATE",
+    "external_bridge_evidence_retained": true,
+    "native_only_identity_gate": "NOT_ADJUDICATED_IN_ORIGINAL_PACKET",
+    "original_identity_label_semantics": "SUPPORTED_STRONG_ISSUER_ID_SECOND_REVIEWED is an external-context review finding, not a study-gate admission.",
+    "study_policy_expanded": false,
+    "sapientx_used_by_crua_overlay": false
+  },
+  "unchanged_holds": {
+    "canonical_admission": "HOLD",
+    "estimator_admission": "HOLD",
+    "exact_last_positive_date": null,
+    "native_publication_date": null,
+    "sapientx_ai_continuity": "NOT_ESTABLISHED",
+    "current_continuous_survival": "NOT_ESTABLISHED",
+    "numeric_promotion": "NONE"
+  },
+  "period_fact": {
+    "fiscal_year": 2023,
+    "annual_revenue_usd": 34100,
+    "scope": "Issuer-reported historical reporting-period activity; no exact day or continuous survival inference.",
+    "source_date_discrepancy": {
+      "auditor_report_date": "2024-04-23",
+      "note_12_evaluation_text_date": "2023-04-23",
+      "status": "UNRESOLVED"
+    },
+    "trailing_three_month_revenue_interval": "UNRESOLVED"
+  },
+  "mutation_scope": {
+    "original_artifacts_changed": false,
+    "canonical_data_changed": false,
+    "new_companies": 0,
+    "new_rounds": 0,
+    "new_canonical_outcomes": 0,
+    "numeric_rates_computed": false
+  },
+  "next_gate_evidence": "Native-only identity bridge independently reviewed under the frozen source policy, or separately approved versioned study-policy amendment.",
+  "new_source_reads": 0,
+  "jev_invocations": 0,
+  "publication_status": "LOCAL_CANDIDATE_PENDING_ROOT_REVIEW"
+}

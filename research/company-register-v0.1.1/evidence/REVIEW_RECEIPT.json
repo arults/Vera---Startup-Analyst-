@@ -1,0 +1,985 @@
+{
+  "receipt_id": "crua-issuer-identity-independent-review-20261011-v0.1.1",
+  "receipt_schema": "bounded-issuer-identity-review/1.0.1",
+  "review_completed_on": "2026-10-11",
+  "status": "VERIFIED_BOUNDED_IDENTITY_EVIDENCE",
+  "application_status": "NOT_APPLIED_BY_THIS_REVIEW",
+  "snapshot_commit": "e1991e3d924f44dbc3b7964c06c428c5f5af49ef",
+  "immutable_register_path": "research/company-register-v0.1.0",
+  "reviewer_role": "Independent second review of six selected native-platform campaign-to-issuer matches; separate external context checks are excluded from study-gate evidence.",
+  "bindings": [
+    {
+      "file": "ISSUER_IDENTITY_FACTS.json",
+      "sha256": "391bf5b290488137939e9bc6b7b2f4f4db8f7bbdad3303e7cb889dddfaa7a1b3"
+    },
+    {
+      "file": "REGISTER_BINDINGS.json",
+      "sha256": "a4c994019eb5d6a03246abc5e7b0a7322b20e288c9b53eb356a9ac1ee7afea7b"
+    },
+    {
+      "file": "REVIEW.md",
+      "sha256": "30362d4f0e085c508b331a21aa75ff1c0510c66e972701e0e02cb93509c33214"
+    }
+  ],
+  "record_hash_algorithm": "SHA-256 of UTF-8 JSON with sorted keys, separators comma and colon, ensure_ascii=false, no terminal newline",
+  "target_allowlist": [
+    {
+      "record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+      "record_type": "company_key",
+      "source_key": "reurope-company:553249",
+      "assessment_id": "assessment:3f9a0aae04a2369b620709c4a9d2fa41",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "ff45ff65ba483061a4340c862b481bf098039026127b8038f1a101823e932bc6",
+      "baseline_assessment_sha256": "e5f9729ec438c7eb7281dff285644377c26fb934a7aca4c9f728ddc39b33a10d",
+      "baseline_gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:1f419827753304fcd808ab7e5ce3a5dc",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:bc2d3ecc502ee2da412fce23ca001646"
+          ],
+          "row_number": 723,
+          "row_sha256": "8d11688fb37ca58fe7f5cada473d688cde61f537e9a110e7bda983abb359981f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:868e0977f4c346368f6c913b21e95d23",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:9b77d74195b84705bd01c2d1f5e5fe30"
+          ],
+          "row_number": 834,
+          "row_sha256": "e2b9a080128a4e9e3d9b6ce5a761f0958e5013e5eec53c6ad6692289f87ffbd7",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+      "record_type": "company_key",
+      "source_key": "reurope-company:553249",
+      "assessment_id": "assessment:322fc6e4056423b464e5a08deecf1520",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "ff45ff65ba483061a4340c862b481bf098039026127b8038f1a101823e932bc6",
+      "baseline_assessment_sha256": "f5a7d479fa35bec7a5ce383a3f112f0592fa81272d980474d190186161093c06",
+      "baseline_gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:07c82d1741d207c0e729df9410a51ff1",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:bc2d3ecc502ee2da412fce23ca001646"
+          ],
+          "row_number": 723,
+          "row_sha256": "6f79b67c73ce0d5ffa20c188836b5ff46b764181560bba37220634de4ba0a65a",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:db3cbb694d967c2a172e04dd7043c46a",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:9b77d74195b84705bd01c2d1f5e5fe30"
+          ],
+          "row_number": 834,
+          "row_sha256": "71d63042b244d2236fb557a7d6c0deb2a84b935ae50a0fa7539b3f15b83d92c2",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "company_key:6557a4956422270d73af23ae717975d9",
+      "record_type": "company_key",
+      "source_key": "reurope-company:553249IRELAND",
+      "assessment_id": "assessment:af8ad1dcc552dd67b1781e8209f18049",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "48527c11b729505bd77ed042d2576757cf3ecdf6413c4c68dc47ea6feb2fcfa9",
+      "baseline_assessment_sha256": "239a3c47eda8379f18e43c0ab202d2f7f1556923e226ebbfa993a98782381b85",
+      "baseline_gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:24702b04a525a26a013e4fe3dc471626",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:13e46017af9a1115eee058bcbda54aa5"
+          ],
+          "row_number": 64,
+          "row_sha256": "91b9405dfffa6c63295c453691568534dcc81c5ede586da58817399b3bb6adde",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:2f213b6473c017fd2945013f8f8e9875",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:463ff1af759fadc4365d650fb25b9c41"
+          ],
+          "row_number": 455,
+          "row_sha256": "4dd39c1a772864c76617166ace2c92131144aefb164253cb373b3f80a1f9464f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:3c61e90d7a1324953898ee6c94a8969e",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:ecd454a66c34b450e9ac961e994fbdbf"
+          ],
+          "row_number": 264,
+          "row_sha256": "96181ca692d432ce7085f77aa8988d5af34620434c2dc4535c8f684c13d2bb2f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:a3e9947e108bb3ed2de2fdef2ce591fe",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:f221b36fb7d6a6969479e450600e46e7"
+          ],
+          "row_number": 571,
+          "row_sha256": "4f63015ffa02914138b85228efac216ed62042414ee836523c4c368ac3ae503f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "company_key:6557a4956422270d73af23ae717975d9",
+      "record_type": "company_key",
+      "source_key": "reurope-company:553249IRELAND",
+      "assessment_id": "assessment:7cdf5b611a5758fd6c248ba2bcfb4657",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "48527c11b729505bd77ed042d2576757cf3ecdf6413c4c68dc47ea6feb2fcfa9",
+      "baseline_assessment_sha256": "4a1eec692f9201215b252aefa9e630106e6475e4f5769efdfbefcb0d56a56ae1",
+      "baseline_gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:5cc3f2facd11312afad8ab0526896f5b",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:463ff1af759fadc4365d650fb25b9c41"
+          ],
+          "row_number": 455,
+          "row_sha256": "4b9f08a718e35ace991704fd279e0931298a46f598e7c4e25cee34488a209b28",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:868ab82ebbb6d4b94af828960fa15f16",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:ecd454a66c34b450e9ac961e994fbdbf"
+          ],
+          "row_number": 264,
+          "row_sha256": "0fbe3de8d490c60b2b71104d7f50435bcf6ce5881ee570ae3f4e85305759e30f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:87266e8c6840fb568dd8ea6ad30e146d",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:13e46017af9a1115eee058bcbda54aa5"
+          ],
+          "row_number": 64,
+          "row_sha256": "3560c2d0f55ce522412f52b987aff54b6dda93d6083c46de11c3f2b160b2bcfd",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        },
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:e04d482cf6aea35cc4b20c7ce9b6a4f9",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:f221b36fb7d6a6969479e450600e46e7"
+          ],
+          "row_number": 571,
+          "row_sha256": "42f7ac1622e4461c136eed6e0681d49720a979ba05f75c3a9c231557b3347113",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "record_type": "round",
+      "source_key": "reurope:crua-convertible",
+      "assessment_id": "assessment:9101d5141de6cd61764cde4a250b9537",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "6a267374b6cf82f303633aae0d8ea719c69fa2f664964f50ed3483012354d27b",
+      "baseline_assessment_sha256": "cd3777b5d8d0973967311d061da6b47a9b21b062b0329edb4c0c03cf5d9ff179",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:2f213b6473c017fd2945013f8f8e9875",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:463ff1af759fadc4365d650fb25b9c41"
+          ],
+          "row_number": 455,
+          "row_sha256": "4dd39c1a772864c76617166ace2c92131144aefb164253cb373b3f80a1f9464f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "record_type": "round",
+      "source_key": "reurope:crua-convertible",
+      "assessment_id": "assessment:54bdf6ea157155753999cd820112fa64",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "6a267374b6cf82f303633aae0d8ea719c69fa2f664964f50ed3483012354d27b",
+      "baseline_assessment_sha256": "4b43d438580323dd48c0cb216a5e9eb0efffe6d457298878bab3d5d8ac826cda",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:5cc3f2facd11312afad8ab0526896f5b",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:463ff1af759fadc4365d650fb25b9c41"
+          ],
+          "row_number": 455,
+          "row_sha256": "4b9f08a718e35ace991704fd279e0931298a46f598e7c4e25cee34488a209b28",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors2",
+      "assessment_id": "assessment:30442a171b76e707d013598c43975f04",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "f58ec59093a633198784b90213f968612ca2c0e52a867c4924894c236e2479a3",
+      "baseline_assessment_sha256": "d05f77a4e1784b1a9b31318519e77a08a5664c1cd4cfeadfa970f1f55f6dc393",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:24702b04a525a26a013e4fe3dc471626",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:13e46017af9a1115eee058bcbda54aa5"
+          ],
+          "row_number": 64,
+          "row_sha256": "91b9405dfffa6c63295c453691568534dcc81c5ede586da58817399b3bb6adde",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors2",
+      "assessment_id": "assessment:457de017d4558272130878f6d130e2da",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "f58ec59093a633198784b90213f968612ca2c0e52a867c4924894c236e2479a3",
+      "baseline_assessment_sha256": "feb4bac0eb6d170c9bf6539bfa6e3ef2d4927bc9b73dfb8b470d46c9ecde4307",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:87266e8c6840fb568dd8ea6ad30e146d",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:13e46017af9a1115eee058bcbda54aa5"
+          ],
+          "row_number": 64,
+          "row_sha256": "3560c2d0f55ce522412f52b987aff54b6dda93d6083c46de11c3f2b160b2bcfd",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors3",
+      "assessment_id": "assessment:c87df25f8a6cc284c68d9a5bb4f1e749",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "93ed547ba32c2038d2f0b1081dbd8d72f27f44bdebc571de443fee893b4a6d2c",
+      "baseline_assessment_sha256": "d0fd036220d1bb308a6c777ae29b023fc85e54f3ba527b0fe29a321fc6538907",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:a3e9947e108bb3ed2de2fdef2ce591fe",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:f221b36fb7d6a6969479e450600e46e7"
+          ],
+          "row_number": 571,
+          "row_sha256": "4f63015ffa02914138b85228efac216ed62042414ee836523c4c368ac3ae503f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors3",
+      "assessment_id": "assessment:21b8d293dc7cd05cf2d1cf594c2412a7",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "93ed547ba32c2038d2f0b1081dbd8d72f27f44bdebc571de443fee893b4a6d2c",
+      "baseline_assessment_sha256": "8f8fc134ff89f9d4db77a8406a7075a3972245a3767276810641aa528008944b",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:e04d482cf6aea35cc4b20c7ce9b6a4f9",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:f221b36fb7d6a6969479e450600e46e7"
+          ],
+          "row_number": 571,
+          "row_sha256": "42f7ac1622e4461c136eed6e0681d49720a979ba05f75c3a9c231557b3347113",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors4",
+      "assessment_id": "assessment:fad7ca9163b7304c6f2a1334fb8b498d",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "fa583db5232ff42c375cd8d33a947e8edda668ab599535d2b8fd26cbc4dcaf59",
+      "baseline_assessment_sha256": "7567f0e0dd0e365e186654d8a81b7f1517cb987c02b5a7c5446637915129ee0b",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:1f419827753304fcd808ab7e5ce3a5dc",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:bc2d3ecc502ee2da412fce23ca001646"
+          ],
+          "row_number": 723,
+          "row_sha256": "8d11688fb37ca58fe7f5cada473d688cde61f537e9a110e7bda983abb359981f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors4",
+      "assessment_id": "assessment:69d50a2a0728feee7e22463bc8dc35a6",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "fa583db5232ff42c375cd8d33a947e8edda668ab599535d2b8fd26cbc4dcaf59",
+      "baseline_assessment_sha256": "d9569be72108d6eabaa5d4dbf8a79cb0a18c23d386a05dec52a0190fbe8b261e",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:07c82d1741d207c0e729df9410a51ff1",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:bc2d3ecc502ee2da412fce23ca001646"
+          ],
+          "row_number": 723,
+          "row_sha256": "6f79b67c73ce0d5ffa20c188836b5ff46b764181560bba37220634de4ba0a65a",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors5",
+      "assessment_id": "assessment:066c01f44b2f5d509eb6453f863df60a",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "d2b3c02ce3372261839ab8ceee9167c7e633e004558c5342348f69ce49fe327c",
+      "baseline_assessment_sha256": "799d5af05df01151529663fc0e681e1a9afee57ca489816560d958c644dbf1d1",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:868e0977f4c346368f6c913b21e95d23",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:9b77d74195b84705bd01c2d1f5e5fe30"
+          ],
+          "row_number": 834,
+          "row_sha256": "e2b9a080128a4e9e3d9b6ce5a761f0958e5013e5eec53c6ad6692289f87ffbd7",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors5",
+      "assessment_id": "assessment:464a6262653677b8fb1756333c6a9113",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "d2b3c02ce3372261839ab8ceee9167c7e633e004558c5342348f69ce49fe327c",
+      "baseline_assessment_sha256": "16d982e6fcf464c42747f9c744e140bea10d1e90204c3113ca9a466b03d843be",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:db3cbb694d967c2a172e04dd7043c46a",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+            "round:9b77d74195b84705bd01c2d1f5e5fe30"
+          ],
+          "row_number": 834,
+          "row_sha256": "71d63042b244d2236fb557a7d6c0deb2a84b935ae50a0fa7539b3f15b83d92c2",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    },
+    {
+      "record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "record_type": "round",
+      "source_key": "reurope:crua3",
+      "assessment_id": "assessment:89840e674833935ac1c0d16d720779bb",
+      "source_scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "28c26ed7961cc3d133be08073d97a0a6652ba52b8f1a38481c67bd8676914a06",
+      "baseline_assessment_sha256": "f863676dcb763a74edba431f3ffc41dc95349f4c55d16fa2f4d221adc969fe8a",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:3c61e90d7a1324953898ee6c94a8969e",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:ecd454a66c34b450e9ac961e994fbdbf"
+          ],
+          "row_number": 264,
+          "row_sha256": "96181ca692d432ce7085f77aa8988d5af34620434c2dc4535c8f684c13d2bb2f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+          "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+        }
+      ]
+    },
+    {
+      "record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "record_type": "round",
+      "source_key": "reurope:crua3",
+      "assessment_id": "assessment:72dd75eb6cf4198dbc5d008316b19517",
+      "source_scope": "eu_outcomes_v5_source_frame",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "baseline_record_sha256": "28c26ed7961cc3d133be08073d97a0a6652ba52b8f1a38481c67bd8676914a06",
+      "baseline_assessment_sha256": "e3690ab073868f2701be044e8bb0a6ea249a15ed05d645f3d92b65e51fdfe7c1",
+      "baseline_gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "permitted_derived_gate_changes": {
+        "identity": {
+          "from": "not_assessed",
+          "to": "VERIFIED_ISSUER_IDENTITY"
+        },
+        "identity_qa": {
+          "from": "not_assessed",
+          "to": "VERIFIED_SELECTED_MATCHES"
+        }
+      },
+      "source_bindings": [
+        {
+          "disposition": "unresolved",
+          "lineage_id": "lineage:868ab82ebbb6d4b94af828960fa15f16",
+          "reason": "legal_jurisdiction_and_research_gates_unverified",
+          "record_ids": [
+            "company_key:6557a4956422270d73af23ae717975d9",
+            "round:ecd454a66c34b450e9ac961e994fbdbf"
+          ],
+          "row_number": 264,
+          "row_sha256": "0fbe3de8d490c60b2b71104d7f50435bcf6ce5881ee570ae3f4e85305759e30f",
+          "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+          "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+          "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+        }
+      ]
+    }
+  ],
+  "scope_counts": {
+    "company_key_records": 2,
+    "round_records": 6,
+    "assessment_records": 16,
+    "original_source_lineages": 12,
+    "source_crosswalk_links": 12,
+    "independently_reviewed_campaign_issuer_matches": 6
+  },
+  "identity_semantics": {
+    "VERIFIED_ISSUER_IDENTITY": "The exact selected campaign/source-key record is supported by the six hash-verified native platform captures alone as a link to Thermo Tents Limited, Irish registration 553249. This status does not merge either source company-key record or any source round. External registry context is not required gate evidence.",
+    "VERIFIED_SELECTED_MATCHES": "Independent second review of the six named native campaign-to-issuer matches only, applied to 16 bound assessments across two source scopes. It is not whole-pipeline identity QA, a population sample, or evidence of distinct/equal economic rounds."
+  },
+  "jurisdiction_semantics": {
+    "native_explicit_company_number_jurisdiction": "Four archived native Company number fields read 553249(Ireland), and the same four pages explicitly name Thermo Tents Limited trading as Crua.",
+    "newer_native_number_fields": "crua-outdoors4 and crua-outdoors5 read 553249 with no jurisdiction suffix. They match the four native anchors on exact number, incorporation date, domain, headquarters location and Crua Outdoors brand.",
+    "sufficient_native_bridge": "The four explicit native issuer/jurisdiction anchors plus the two full native identifier matches suffice for all six selected issuer links under the frozen platform-only source policy. Business location alone and suffix stripping alone are not legal-jurisdiction evidence.",
+    "external_registry_context": "Companies House and CRO were checked separately as outside-study corroboration. Neither is required, admissible gate evidence for this receipt, or a reason to expand the study source policy.",
+    "incorporation_date_status": "26 November 2014 is stated consistently on all six native pages."
+  },
+  "invariants": {
+    "modify_immutable_v0_1_0": false,
+    "change_record_ids": false,
+    "change_company_keys": false,
+    "merge_legal_or_economic_records": false,
+    "change_source_memberships": false,
+    "change_source_row_bytes": false,
+    "change_lineage_ids": false,
+    "change_crosswalk_edges": false,
+    "change_other_gate_values": false,
+    "change_outcomes_or_censoring": false,
+    "derive_operating_failure_from_cro_filing_date": false,
+    "change_rates_or_cohort_denominators": false,
+    "empirical_promotion": false,
+    "completion_status": "unclassified",
+    "completion_counts_established": false,
+    "verified_complete_count": null,
+    "partial_count": null,
+    "expand_frozen_study_source_policy": false
+  },
+  "permitted_application": "A separately versioned read-only derived register view may apply only the two specified gate changes to the exact allowlist after checking every baseline input, record, assessment, source binding and native capture evidence binding. Native-only matching is the sufficient basis; external context is excluded from the study-gate dependencies. Preserve original records, keys, membership, counts and all remaining gates.",
+  "scientific_status": "Identity-only progress; no study-completion certificate, economic-round adjudication, outcome decision, or prior promotion.",
+  "jev_called": false,
+  "raw_artifacts_included": false,
+  "supersedes": {
+    "receipt_id": "crua-issuer-identity-independent-review-20261011-v0.1.0",
+    "receipt_sha256": "7d7b5146da8be453c82b9297d48a5124764b663aced6b630a7fd3be79d404368",
+    "reason": "Superseded source-policy rationale: sufficient study-gate evidence is the native-only selected-match chain. External registries are outside-study corroborating context, not a required bridge. Source facts, targets and permitted gate changes are unchanged."
+  },
+  "gate_evidence_policy": {
+    "protocol": "Frozen Phase 1C public-source hierarchy, docs/PHASE_1C_SPEC.md lines 164-168",
+    "protocol_scope": "The platform-only source restriction applies to all study evidence, including identity gates.",
+    "sufficient_gate_evidence": "Only the six hash-verified native Republic Europe archives and their existing source-lineage bindings.",
+    "native_anchor_set": [
+      "reurope:crua-outdoors2",
+      "reurope:crua3",
+      "reurope:crua-convertible",
+      "reurope:crua-outdoors3"
+    ],
+    "native_anchor_predicate": "Each of these four native campaigns explicitly pairs the Company number field 553249(Ireland) with a Thermo Tents Limited trading-name statement.",
+    "native_unsuffixed_set": [
+      "reurope:crua-outdoors4",
+      "reurope:crua-outdoors5"
+    ],
+    "native_unsuffixed_predicate": "Each unsuffixed campaign states Company number 553249 and matches the anchored native campaigns on incorporation date 26 Nov 2014, www.cruaoutdoors.com, Tralee/Ireland location, and Crua Outdoors brand. This combined native chain is sufficient for the selected issuer attribution; location alone and string normalization alone are not.",
+    "jurisdiction_basis": "Ireland is explicit in the four native Company number qualifiers. The two unsuffixed pages inherit the selected-match attribution through the full native chain; no registry lookup is required for this bounded study finding.",
+    "external_registry_role": "Outside-study corroborating context only; not gate evidence, a required gate dependency, or a modification of the frozen source policy.",
+    "external_source_policy_expanded": false
+  },
+  "gate_evidence_allowlist": [
+    {
+      "source_round_key": "reurope:crua-outdoors2",
+      "url": "https://europe.republic.com/crua-outdoors2",
+      "content_sha256": "96bc6a996c59e96033bdba9a177f6f224d3c913b84ab020b9724a30426a45819",
+      "text_sha256": "58a981ac9d6bb8343024e5efde3015c181565d692ddd9754657cd0bd15a8a7f6"
+    },
+    {
+      "source_round_key": "reurope:crua3",
+      "url": "https://europe.republic.com/crua3",
+      "content_sha256": "93c5210feeff20e4dba4fc7361f03b43f7a7a0c4631aefc554449b5edfc74243",
+      "text_sha256": "72fb046d978fc76adc367765461c350e4237f2be5741a515ca4810595550afad"
+    },
+    {
+      "source_round_key": "reurope:crua-convertible",
+      "url": "https://europe.republic.com/crua-convertible",
+      "content_sha256": "7185f48621d9c6d3e3670da37417b32ce2397d116fc72a05e2a6f78206c268fd",
+      "text_sha256": "f55c38381636039ba41d4f4d7e77e6a94327c8c2a3275d94c0729810a9508cd7"
+    },
+    {
+      "source_round_key": "reurope:crua-outdoors3",
+      "url": "https://europe.republic.com/crua-outdoors3",
+      "content_sha256": "12608c96860a5f10188a3c9f894aa615543023c6a65442308b024e9888d8935f",
+      "text_sha256": "851ac4533a07016de694aec317174248a840e885a02a2d4e99907dd38b62fdd9"
+    },
+    {
+      "source_round_key": "reurope:crua-outdoors4",
+      "url": "https://europe.republic.com/crua-outdoors4",
+      "content_sha256": "5abdecbbd6ea25386162af7b3c4596a4520ec129273df0828e9343e491c0e0dc",
+      "text_sha256": "1238ecd798c3de9d275a7c8c3a41f9b7646646b746d9cd3a657dbda413d5b247"
+    },
+    {
+      "source_round_key": "reurope:crua-outdoors5",
+      "url": "https://europe.republic.com/crua-outdoors5",
+      "content_sha256": "6667a746d0ea07d2e010fcf50c4dd830862513022ba411e8c23ac51b4ec5593e",
+      "text_sha256": "771ccb4227a5f1663c04a4a07045d09c932a26893d0fe9ae06496636b30ebb23"
+    }
+  ],
+  "outside_study_context_urls": [
+    "https://find-and-update.company-information.service.gov.uk/company/FC034372",
+    "https://cro.ie/wp-content/uploads/2025/11/5-November-2025-Liquidations-Receiverships-Examinerships-Submissions.pdf"
+  ]
+}

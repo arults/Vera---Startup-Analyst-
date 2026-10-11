@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "supersedes_receipt_sha256": "7d7b5146da8be453c82b9297d48a5124764b663aced6b630a7fd3be79d404368",
+  "files": [
+    {
+      "path": "ISSUER_IDENTITY_FACTS.json",
+      "sha256": "391bf5b290488137939e9bc6b7b2f4f4db8f7bbdad3303e7cb889dddfaa7a1b3",
+      "bytes": 23829
+    },
+    {
+      "path": "REGISTER_BINDINGS.json",
+      "sha256": "a4c994019eb5d6a03246abc5e7b0a7322b20e288c9b53eb356a9ac1ee7afea7b",
+      "bytes": 38870
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "30362d4f0e085c508b331a21aa75ff1c0510c66e972701e0e02cb93509c33214",
+      "bytes": 4106
+    },
+    {
+      "path": "REVIEW_RECEIPT.json",
+      "sha256": "49f74dd5d6f9f54e01fadf5f87199417492ac7aa3a6f21271e017cf0b4f7bae1",
+      "bytes": 46956
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "d7a0300c79fc64e48d6e645c0e6f0828101b20d5afd0de2951fc327f19752d94",
+      "bytes": 1047
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "blocking_findings": [],
+  "crua": {
+    "allowed_gate_changes": {
+      "identity": "VERIFIED_ISSUER_IDENTITY",
+      "identity_qa": "VERIFIED_SELECTED_MATCHES"
+    },
+    "assessment_applications": 16,
+    "candidate_files": [
+      {
+        "bytes": 5018,
+        "path": "research/company-register-v0.1.1/README.md",
+        "sha256": "aa829b9bf2dd8a74e5e9d193d3086ed98a1e586baac2adbe2ae9b04df03d7dda"
+      },
+      {
+        "bytes": 913,
+        "path": "research/company-register-v0.1.1/evidence/FILE_HASHES.json",
+        "sha256": "42d0636f568d19f281847e452265239eb912dcb9caeeba43b577ac6f978e86c1"
+      },
+      {
+        "bytes": 23829,
+        "path": "research/company-register-v0.1.1/evidence/ISSUER_IDENTITY_FACTS.json",
+        "sha256": "391bf5b290488137939e9bc6b7b2f4f4db8f7bbdad3303e7cb889dddfaa7a1b3"
+      },
+      {
+        "bytes": 38870,
+        "path": "research/company-register-v0.1.1/evidence/REGISTER_BINDINGS.json",
+        "sha256": "a4c994019eb5d6a03246abc5e7b0a7322b20e288c9b53eb356a9ac1ee7afea7b"
+      },
+      {
+        "bytes": 4106,
+        "path": "research/company-register-v0.1.1/evidence/REVIEW.md",
+        "sha256": "30362d4f0e085c508b331a21aa75ff1c0510c66e972701e0e02cb93509c33214"
+      },
+      {
+        "bytes": 46956,
+        "path": "research/company-register-v0.1.1/evidence/REVIEW_RECEIPT.json",
+        "sha256": "49f74dd5d6f9f54e01fadf5f87199417492ac7aa3a6f21271e017cf0b4f7bae1"
+      },
+      {
+        "bytes": 1047,
+        "path": "research/company-register-v0.1.1/evidence/VALIDATION.json",
+        "sha256": "d7a0300c79fc64e48d6e645c0e6f0828101b20d5afd0de2951fc327f19752d94"
+      },
+      {
+        "bytes": 18546,
+        "path": "research/company-register-v0.1.1/inspect_reviewed.py",
+        "sha256": "3065d2ea69998e43020673e11b301d1416f8e86fffff80339546ff87096509e1"
+      },
+      {
+        "bytes": 10894,
+        "path": "research/company-register-v0.1.1/tests/test_reviewed_view.py",
+        "sha256": "757ef2d58dff4d6264ab1562ca4547b8872af2a6f7f293a8eb1126f8a25242aa"
+      }
+    ],
+    "candidate_manifest_sha256": "e12dfde09da8384becef2a2cf4d6d0d11281dee7b391de9bfc1a8e416ae2080e",
+    "implementation_sha256": "3065d2ea69998e43020673e11b301d1416f8e86fffff80339546ff87096509e1",
+    "independent_reviewed_matches": 6,
+    "native_only_receipt_sha256": "49f74dd5d6f9f54e01fadf5f87199417492ac7aa3a6f21271e017cf0b4f7bae1",
+    "output_sha256": "d83b56e04e2e65fb5f35e134e5b06bc8daa489fa7c84afd74f8cf1c5116c3003",
+    "record_count": 8,
+    "source_lineages": 12,
+    "source_scopes": 2
+  },
+  "decision": "PASS_BOUNDED_LOCAL_CANDIDATES",
+  "limits": [
+    "Issuer attribution only; no economic-round equivalence adjudicated.",
+    "Selected-match review only; population-wide identity QA remains unassessed.",
+    "No outcome, date, cohort, source-key, canonical record, rate, prior or completion promotion.",
+    "This review does not itself authorize publication.",
+    "No external writes, JEV, plugin edits or canonical mutations were performed by the reviewer."
+  ],
+  "resolved_findings": [
+    {
+      "issue": "External registry context was initially described as contributing required study identity evidence.",
+      "resolution": "Superseded receipt rejected. Corrected native-only receipt and runtime require all six native campaigns and do not consume external context as proof."
+    }
+  ],
+  "review_artifacts": [
+    {
+      "file": "REVIEW.md",
+      "sha256": "0e9b2bf7c09954c8281cd89420bb2ac6deca2e3410cbf57033d17b580caaea38"
+    },
+    {
+      "file": "audit_evidence.py",
+      "sha256": "5988f25cd22f5ae016e0d3ba379382f04f02f9f62379f90678d2eca4f8ac24bf"
+    },
+    {
+      "file": "audit_overlay.py",
+      "sha256": "c15ce8af55933dbe5eba23aa083c8e213e9566f3093a5f782ae5d967aaaafdb1"
+    },
+    {
+      "file": "baseline-before.sha256.json",
+      "sha256": "635294663145b8419adde2a4da4792266a357a979c9701ec912d775524827d6a"
+    },
+    {
+      "file": "baseline-regeneration.json",
+      "sha256": "83a2269fc141d24a6ccaa3761288ae3ff856898a514047410c742d497760f5b3"
+    },
+    {
+      "file": "baseline-tests.log",
+      "sha256": "d57536302ae5e44e877935e4d9a57b589e7563028890cdcf7b8645068e5f41ef"
+    },
+    {
+      "file": "evidence-audit-result.json",
+      "sha256": "dcc409cfdaa56656d02d57f90904c7d29b9e7f173453c94518f82ef7de3a6fb1"
+    },
+    {
+      "file": "freeze-audit-result.json",
+      "sha256": "17ae42df6387f73bbbc3eebef540d207d91a931a2a35fb94b7b6d7294ceb51ca"
+    },
+    {
+      "file": "native-capture-checks.json",
+      "sha256": "f31d00b2a7b5cd0a5b1ea3930a10e3ae38e58b89ca81de239e4e61d4c25df239"
+    },
+    {
+      "file": "new-tests.log",
+      "sha256": "cb8a03e8e4999ceefe16c76dc56d4092ca298f11339ee3ea98ec3068e5a0db24"
+    },
+    {
+      "file": "overlay-audit-result.json",
+      "sha256": "82d82b6d85fe1ccc34338be4457094afc19ad496d6435ecd585065e75c4078fa"
+    }
+  ],
+  "review_schema": "independent-identity-view-review/1.0.0",
+  "reviewed_on": "2026-10-11",
+  "sapientx_clarification": {
+    "holds_preserved": true,
+    "json_sha256": "422c0db233e8c5500aa4fed6ae3c796563becd208a755f96a15c7015263b756c",
+    "policy_status": "EXTERNAL_CONTEXT_ONLY_NOT_STUDY_IDENTITY_GATE",
+    "published_original_commit": "da020aabe0da8e9c6da04cd594f9c16067f4f031",
+    "published_original_git_blob": "44056643baca4d1d3c58c9d15522b501fad2091d",
+    "published_original_sha256": "04c05aef491d854ef76ccb6dd4cc8223b9b1bd7f787ca7141c40270eeeecf908",
+    "readme_sha256": "f5d497c1587fb74f67ef0388aeea22abb898b8d25724e5a9e1ed7bb8ec07ffde",
+    "underlying_primary_sources_newly_adjudicated": false
+  },
+  "verification": {
+    "baseline_files_unchanged": 20,
+    "baseline_regenerated_rows": 2865,
+    "baseline_regenerated_tables": 9,
+    "baseline_tests": 25,
+    "exact_compressed_bytes_match": true,
+    "implementation_tests": 19,
+    "independent_tests": 10,
+    "input_bytes_and_mtimes_unchanged": true,
+    "missing_stale_file_probes": 76,
+    "native_git_blobs_recomputed": 12,
+    "native_predicate_probes": 8,
+    "selection_semantic_probes": 12,
+    "source_logical_rows_recomputed": 12
+  }
+}

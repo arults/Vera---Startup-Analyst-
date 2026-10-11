@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "checks": {
+    "capture_pairs_verified": 6,
+    "git_capture_blobs_verified": 12,
+    "register_stored_sha256_and_git_blob_verified": 4,
+    "record_targets": 8,
+    "assessment_targets": 16,
+    "unique_source_lineages": 12,
+    "independent_campaign_issuer_matches": 6,
+    "exact_gate_change_allowlist": true,
+    "sensitive_artifact_pattern_scan": true,
+    "originals_and_raw_html_excluded": true,
+    "external_state_changed": false,
+    "native_only_sufficient_gate_evidence": true,
+    "external_context_excluded_from_gate_dependencies": true,
+    "target_allowlist_unchanged_from_prior": true,
+    "register_bindings_bytes_unchanged_from_prior": true,
+    "previous_receipt_preserved_locally": true
+  },
+  "limitations": [
+    "Registry overview raw bytes not archived.",
+    "Original input row hashes were copied from verified frozen register lineages; this review did not regenerate the complete register from all seven sources.",
+    "No derived implementation or view has been applied by this review."
+  ]
+}

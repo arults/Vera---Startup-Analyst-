@@ -1,0 +1,476 @@
+{
+  "artifact_type": "independent_crua_issuer_identity_review",
+  "version": "0.1.1",
+  "reviewed_on": "2026-10-11",
+  "snapshot": {
+    "repository": "arults/Vera---Startup-Analyst-",
+    "snapshot_commit": "e1991e3d924f44dbc3b7964c06c428c5f5af49ef",
+    "manifest_git_blob": "670ffcd362838935f352b910a14ec5037e3cec28",
+    "ledger_git_blob": "8d15721a66b6a46ef92f6a139303d9f327930f84",
+    "register_documentation_git_blob": "98c5773dc13505c18f431b80375cd583031d31e9",
+    "register_schema_git_blob": "050cd780403ad00b5f37af28dabb3c5121f0db0c",
+    "phase1c_spec_git_blob": "fb62fb062274cf51b8090f91990c3181dc99bdb2"
+  },
+  "review_scope": "Six archived Republic Europe campaign-to-legal-issuer matches only",
+  "observations": [
+    {
+      "source_round_key": "reurope:crua-outdoors2",
+      "original_logical_row": 64,
+      "existing_company_key": "reurope-company:553249IRELAND",
+      "source_url": "https://europe.republic.com/crua-outdoors2",
+      "captured_at": "2026-10-09T09:26:29.877885+00:00",
+      "company_number_native": "553249(Ireland)",
+      "company_number_normalized": "553249",
+      "legal_name_in_native_text": "Thermo Tents Limited",
+      "trading_name_clause": "Thermo Tents Limited (trading as Crua Outdoors & Crua Industrial)",
+      "legal_name_bridge": "explicit_native_text",
+      "location_native": [
+        "Tralee",
+        "Ireland"
+      ],
+      "jurisdiction_native": "Ireland",
+      "jurisdiction_supported": "Ireland",
+      "incorporation_date_native": "26 Nov 2014",
+      "incorporation_date_iso": "2014-11-26",
+      "company_domain_native": "www.cruaoutdoors.com",
+      "company_domain_normalized": "cruaoutdoors.com",
+      "native_text_anchors": {
+        "location_start_line": 23,
+        "website_start_line": 27,
+        "company_number_start_line": 33,
+        "incorporation_date_start_line": 35,
+        "trading_name_clause_line": 70
+      },
+      "archive": {
+        "capture_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/96bc6a996c59e96033bdba9a177f6f224d3c913b84ab020b9724a30426a45819.html.gz",
+        "text_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/96bc6a996c59e96033bdba9a177f6f224d3c913b84ab020b9724a30426a45819.txt.gz",
+        "content_sha256": "96bc6a996c59e96033bdba9a177f6f224d3c913b84ab020b9724a30426a45819",
+        "capture_gzip_sha256": "e9fa1e97b794f10db33dacacdc62bfadb3ef554db7438bf98bddb58eb06c50fa",
+        "text_sha256": "58a981ac9d6bb8343024e5efde3015c181565d692ddd9754657cd0bd15a8a7f6",
+        "text_chars": 16938
+      },
+      "git_blob_bindings": [
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/96bc6a996c59e96033bdba9a177f6f224d3c913b84ab020b9724a30426a45819.html.gz",
+          "git_blob_sha": "6636110cab3ffd1a2dd502e3d5baf4e62746bd7f",
+          "git_blob_verified": true
+        },
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/96bc6a996c59e96033bdba9a177f6f224d3c913b84ab020b9724a30426a45819.txt.gz",
+          "git_blob_sha": "a6c460020936f7c1388a9fabf6d2711f1815a091",
+          "git_blob_verified": true
+        }
+      ],
+      "verification": {
+        "gzip_html": true,
+        "raw_html": true,
+        "raw_text": true,
+        "text_chars": true
+      },
+      "existing_ledger_completion_date": "2020-05-25",
+      "existing_ledger_outcome_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "existing_ledger_terminal_event_type": "",
+      "existing_ledger_censor_date": "2022-09-21",
+      "round_adjudication_performed": false,
+      "study_evidence_eligible": true,
+      "jurisdiction_supported_basis": "explicit_native_company_number_qualifier"
+    },
+    {
+      "source_round_key": "reurope:crua3",
+      "original_logical_row": 264,
+      "existing_company_key": "reurope-company:553249IRELAND",
+      "source_url": "https://europe.republic.com/crua3",
+      "captured_at": "2026-10-09T09:26:32.416824+00:00",
+      "company_number_native": "553249(Ireland)",
+      "company_number_normalized": "553249",
+      "legal_name_in_native_text": "Thermo Tents Limited",
+      "trading_name_clause": "Thermo Tents Limited (Trading as Crua Outdoors and Crua Industrial)",
+      "legal_name_bridge": "explicit_native_text",
+      "location_native": [
+        "Tralee",
+        "Ireland"
+      ],
+      "jurisdiction_native": "Ireland",
+      "jurisdiction_supported": "Ireland",
+      "incorporation_date_native": "26 Nov 2014",
+      "incorporation_date_iso": "2014-11-26",
+      "company_domain_native": "www.cruaoutdoors.com",
+      "company_domain_normalized": "cruaoutdoors.com",
+      "native_text_anchors": {
+        "location_start_line": 23,
+        "website_start_line": 27,
+        "company_number_start_line": 33,
+        "incorporation_date_start_line": 35,
+        "trading_name_clause_line": 70
+      },
+      "archive": {
+        "capture_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/93c5210feeff20e4dba4fc7361f03b43f7a7a0c4631aefc554449b5edfc74243.html.gz",
+        "text_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/93c5210feeff20e4dba4fc7361f03b43f7a7a0c4631aefc554449b5edfc74243.txt.gz",
+        "content_sha256": "93c5210feeff20e4dba4fc7361f03b43f7a7a0c4631aefc554449b5edfc74243",
+        "capture_gzip_sha256": "1cbeb93ae5ad55f05674468c1788a1754d619c118aa489065cb65b1aa61da912",
+        "text_sha256": "72fb046d978fc76adc367765461c350e4237f2be5741a515ca4810595550afad",
+        "text_chars": 14641
+      },
+      "git_blob_bindings": [
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/93c5210feeff20e4dba4fc7361f03b43f7a7a0c4631aefc554449b5edfc74243.html.gz",
+          "git_blob_sha": "bef31ba143d3e64a1b3dfe17205cb394f5aa013f",
+          "git_blob_verified": true
+        },
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/93c5210feeff20e4dba4fc7361f03b43f7a7a0c4631aefc554449b5edfc74243.txt.gz",
+          "git_blob_sha": "fabe97b9dc25105d0bfe1bf7da6d2d65ef363ee0",
+          "git_blob_verified": true
+        }
+      ],
+      "verification": {
+        "gzip_html": true,
+        "raw_html": true,
+        "raw_text": true,
+        "text_chars": true
+      },
+      "existing_ledger_completion_date": "2021-03-29",
+      "existing_ledger_outcome_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "existing_ledger_terminal_event_type": "",
+      "existing_ledger_censor_date": "2022-09-21",
+      "round_adjudication_performed": false,
+      "study_evidence_eligible": true,
+      "jurisdiction_supported_basis": "explicit_native_company_number_qualifier"
+    },
+    {
+      "source_round_key": "reurope:crua-convertible",
+      "original_logical_row": 455,
+      "existing_company_key": "reurope-company:553249IRELAND",
+      "source_url": "https://europe.republic.com/crua-convertible",
+      "captured_at": "2026-10-09T09:26:29.265768+00:00",
+      "company_number_native": "553249(Ireland)",
+      "company_number_normalized": "553249",
+      "legal_name_in_native_text": "Thermo Tents Limited",
+      "trading_name_clause": "Thermo Tents Limited (Trading as Crua Outdoors)",
+      "legal_name_bridge": "explicit_native_text",
+      "location_native": [
+        "Tralee",
+        "Ireland"
+      ],
+      "jurisdiction_native": "Ireland",
+      "jurisdiction_supported": "Ireland",
+      "incorporation_date_native": "26 Nov 2014",
+      "incorporation_date_iso": "2014-11-26",
+      "company_domain_native": "www.cruaoutdoors.com",
+      "company_domain_normalized": "cruaoutdoors.com",
+      "native_text_anchors": {
+        "location_start_line": 23,
+        "website_start_line": 27,
+        "company_number_start_line": 33,
+        "incorporation_date_start_line": 35,
+        "trading_name_clause_line": 75
+      },
+      "archive": {
+        "capture_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/7185f48621d9c6d3e3670da37417b32ce2397d116fc72a05e2a6f78206c268fd.html.gz",
+        "text_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/7185f48621d9c6d3e3670da37417b32ce2397d116fc72a05e2a6f78206c268fd.txt.gz",
+        "content_sha256": "7185f48621d9c6d3e3670da37417b32ce2397d116fc72a05e2a6f78206c268fd",
+        "capture_gzip_sha256": "cd27cdab0d95c348021a929c3c7c6e496cd8023d1eafecdd37003fc62ff97486",
+        "text_sha256": "f55c38381636039ba41d4f4d7e77e6a94327c8c2a3275d94c0729810a9508cd7",
+        "text_chars": 16314
+      },
+      "git_blob_bindings": [
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/7185f48621d9c6d3e3670da37417b32ce2397d116fc72a05e2a6f78206c268fd.html.gz",
+          "git_blob_sha": "a1e6b7dc329897e41a50a93676f54459f47c4114",
+          "git_blob_verified": true
+        },
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/7185f48621d9c6d3e3670da37417b32ce2397d116fc72a05e2a6f78206c268fd.txt.gz",
+          "git_blob_sha": "ea36f383bcfb1b6b95fccfb85ab33b50f4267c2a",
+          "git_blob_verified": true
+        }
+      ],
+      "verification": {
+        "gzip_html": true,
+        "raw_html": true,
+        "raw_text": true,
+        "text_chars": true
+      },
+      "existing_ledger_completion_date": "2022-02-11",
+      "existing_ledger_outcome_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "existing_ledger_terminal_event_type": "",
+      "existing_ledger_censor_date": "2022-09-21",
+      "round_adjudication_performed": false,
+      "study_evidence_eligible": true,
+      "jurisdiction_supported_basis": "explicit_native_company_number_qualifier"
+    },
+    {
+      "source_round_key": "reurope:crua-outdoors3",
+      "original_logical_row": 571,
+      "existing_company_key": "reurope-company:553249IRELAND",
+      "source_url": "https://europe.republic.com/crua-outdoors3",
+      "captured_at": "2026-10-09T09:26:30.464449+00:00",
+      "company_number_native": "553249(Ireland)",
+      "company_number_normalized": "553249",
+      "legal_name_in_native_text": "Thermo Tents Limited",
+      "trading_name_clause": "Thermo Tents Limited (T/A Crua Outdoors)",
+      "legal_name_bridge": "explicit_native_text",
+      "location_native": [
+        "Tralee",
+        "Ireland"
+      ],
+      "jurisdiction_native": "Ireland",
+      "jurisdiction_supported": "Ireland",
+      "incorporation_date_native": "26 Nov 2014",
+      "incorporation_date_iso": "2014-11-26",
+      "company_domain_native": "www.cruaoutdoors.com",
+      "company_domain_normalized": "cruaoutdoors.com",
+      "native_text_anchors": {
+        "location_start_line": 23,
+        "website_start_line": 27,
+        "company_number_start_line": 33,
+        "incorporation_date_start_line": 35,
+        "trading_name_clause_line": 74
+      },
+      "archive": {
+        "capture_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/12608c96860a5f10188a3c9f894aa615543023c6a65442308b024e9888d8935f.html.gz",
+        "text_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/12608c96860a5f10188a3c9f894aa615543023c6a65442308b024e9888d8935f.txt.gz",
+        "content_sha256": "12608c96860a5f10188a3c9f894aa615543023c6a65442308b024e9888d8935f",
+        "capture_gzip_sha256": "252ddedac0b9a1051a2ab0d6609d8c4bba0201959b08f43b407f071a1081a4e1",
+        "text_sha256": "851ac4533a07016de694aec317174248a840e885a02a2d4e99907dd38b62fdd9",
+        "text_chars": 16001
+      },
+      "git_blob_bindings": [
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/12608c96860a5f10188a3c9f894aa615543023c6a65442308b024e9888d8935f.html.gz",
+          "git_blob_sha": "417ccaf9ad5d3a02bc7189313e3c5b8dc5810be6",
+          "git_blob_verified": true
+        },
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/12608c96860a5f10188a3c9f894aa615543023c6a65442308b024e9888d8935f.txt.gz",
+          "git_blob_sha": "da362527168950ddda6e0ed70de5c3d1bdee7b7e",
+          "git_blob_verified": true
+        }
+      ],
+      "verification": {
+        "gzip_html": true,
+        "raw_html": true,
+        "raw_text": true,
+        "text_chars": true
+      },
+      "existing_ledger_completion_date": "2022-09-21",
+      "existing_ledger_outcome_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "existing_ledger_terminal_event_type": "",
+      "existing_ledger_censor_date": "2022-09-21",
+      "round_adjudication_performed": false,
+      "study_evidence_eligible": true,
+      "jurisdiction_supported_basis": "explicit_native_company_number_qualifier"
+    },
+    {
+      "source_round_key": "reurope:crua-outdoors4",
+      "original_logical_row": 723,
+      "existing_company_key": "reurope-company:553249",
+      "source_url": "https://europe.republic.com/crua-outdoors4",
+      "captured_at": "2026-10-09T09:26:31.221073+00:00",
+      "company_number_native": "553249",
+      "company_number_normalized": "553249",
+      "legal_name_in_native_text": null,
+      "trading_name_clause": null,
+      "legal_name_bridge": "native_only_selected_match_to_four_explicit_issuer_jurisdiction_pages",
+      "location_native": [
+        "Tralee",
+        "Ireland"
+      ],
+      "jurisdiction_native": null,
+      "jurisdiction_supported": "Ireland",
+      "incorporation_date_native": "26 Nov 2014",
+      "incorporation_date_iso": "2014-11-26",
+      "company_domain_native": "www.cruaoutdoors.com",
+      "company_domain_normalized": "cruaoutdoors.com",
+      "native_text_anchors": {
+        "location_start_line": 23,
+        "website_start_line": 27,
+        "company_number_start_line": 33,
+        "incorporation_date_start_line": 35,
+        "trading_name_clause_line": null
+      },
+      "archive": {
+        "capture_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/5abdecbbd6ea25386162af7b3c4596a4520ec129273df0828e9343e491c0e0dc.html.gz",
+        "text_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/5abdecbbd6ea25386162af7b3c4596a4520ec129273df0828e9343e491c0e0dc.txt.gz",
+        "content_sha256": "5abdecbbd6ea25386162af7b3c4596a4520ec129273df0828e9343e491c0e0dc",
+        "capture_gzip_sha256": "3146d09c3a782a4975fa8bb5c45ab53efd16727df307f7479f28cff93299ac29",
+        "text_sha256": "1238ecd798c3de9d275a7c8c3a41f9b7646646b746d9cd3a657dbda413d5b247",
+        "text_chars": 14910
+      },
+      "git_blob_bindings": [
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/5abdecbbd6ea25386162af7b3c4596a4520ec129273df0828e9343e491c0e0dc.html.gz",
+          "git_blob_sha": "847fe8d584fd8e2c16bb47bf2bc3c6bedc353462",
+          "git_blob_verified": true
+        },
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/5abdecbbd6ea25386162af7b3c4596a4520ec129273df0828e9343e491c0e0dc.txt.gz",
+          "git_blob_sha": "cbd807bd3729130a50be304bc101b26d7d500069",
+          "git_blob_verified": true
+        }
+      ],
+      "verification": {
+        "gzip_html": true,
+        "raw_html": true,
+        "raw_text": true,
+        "text_chars": true
+      },
+      "existing_ledger_completion_date": "2023-06-21",
+      "existing_ledger_outcome_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "existing_ledger_terminal_event_type": "",
+      "existing_ledger_censor_date": "2024-05-29",
+      "round_adjudication_performed": false,
+      "study_evidence_eligible": true,
+      "jurisdiction_supported_basis": "native_only_exact_number_and_matching_date_domain_location_brand_to_explicit_anchor_pages"
+    },
+    {
+      "source_round_key": "reurope:crua-outdoors5",
+      "original_logical_row": 834,
+      "existing_company_key": "reurope-company:553249",
+      "source_url": "https://europe.republic.com/crua-outdoors5",
+      "captured_at": "2026-10-09T09:26:31.773943+00:00",
+      "company_number_native": "553249",
+      "company_number_normalized": "553249",
+      "legal_name_in_native_text": null,
+      "trading_name_clause": null,
+      "legal_name_bridge": "native_only_selected_match_to_four_explicit_issuer_jurisdiction_pages",
+      "location_native": [
+        "Tralee",
+        "Ireland"
+      ],
+      "jurisdiction_native": null,
+      "jurisdiction_supported": "Ireland",
+      "incorporation_date_native": "26 Nov 2014",
+      "incorporation_date_iso": "2014-11-26",
+      "company_domain_native": "www.cruaoutdoors.com",
+      "company_domain_normalized": "cruaoutdoors.com",
+      "native_text_anchors": {
+        "location_start_line": 23,
+        "website_start_line": 27,
+        "company_number_start_line": 33,
+        "incorporation_date_start_line": 35,
+        "trading_name_clause_line": null
+      },
+      "archive": {
+        "capture_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/6667a746d0ea07d2e010fcf50c4dd830862513022ba411e8c23ac51b4ec5593e.html.gz",
+        "text_path": "data/phase1d/cp7/cycle-3/batch-0002/captures/6667a746d0ea07d2e010fcf50c4dd830862513022ba411e8c23ac51b4ec5593e.txt.gz",
+        "content_sha256": "6667a746d0ea07d2e010fcf50c4dd830862513022ba411e8c23ac51b4ec5593e",
+        "capture_gzip_sha256": "9561cc7e1f31baa91d900b4e88114bbc6719a5f44faeaf83e89302c9de8563c1",
+        "text_sha256": "771ccb4227a5f1663c04a4a07045d09c932a26893d0fe9ae06496636b30ebb23",
+        "text_chars": 14225
+      },
+      "git_blob_bindings": [
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/6667a746d0ea07d2e010fcf50c4dd830862513022ba411e8c23ac51b4ec5593e.html.gz",
+          "git_blob_sha": "d73e18757064aec5015ae3469e9333c545145b7c",
+          "git_blob_verified": true
+        },
+        {
+          "path": "data/phase1d/cp7/cycle-3/batch-0002/captures/6667a746d0ea07d2e010fcf50c4dd830862513022ba411e8c23ac51b4ec5593e.txt.gz",
+          "git_blob_sha": "3817eb241383ad2a2a59dad06a8aa35083496764",
+          "git_blob_verified": true
+        }
+      ],
+      "verification": {
+        "gzip_html": true,
+        "raw_html": true,
+        "raw_text": true,
+        "text_chars": true
+      },
+      "existing_ledger_completion_date": "2024-05-29",
+      "existing_ledger_outcome_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "existing_ledger_terminal_event_type": "",
+      "existing_ledger_censor_date": "2024-05-29",
+      "round_adjudication_performed": false,
+      "study_evidence_eligible": true,
+      "jurisdiction_supported_basis": "native_only_exact_number_and_matching_date_domain_location_brand_to_explicit_anchor_pages"
+    }
+  ],
+  "independent_registry_identity": {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/FC034372",
+    "retrieved_on": "2026-10-11",
+    "retrieval": "web text read; raw response not archived or byte-hashed",
+    "legal_name": "THERMO TENTS LIMITED",
+    "registry_record": "FC034372",
+    "record_type": "UK overseas company",
+    "place_of_incorporation": "IRELAND",
+    "home_registration_number": "553249",
+    "parent_registry": "Companies Registration Office",
+    "legal_form": "Private Limited Company By Shares",
+    "limitation": "UK Active is legal registry status and is not operating survival evidence. Irish incorporation date was corroborated across native platform pages, not independently by this overview.",
+    "study_evidence_eligible": false,
+    "role": "Outside-study corroborating identity context only; not required for either study gate."
+  },
+  "cro_filing_context": {
+    "url": "https://cro.ie/wp-content/uploads/2025/11/5-November-2025-Liquidations-Receiverships-Examinerships-Submissions.pdf",
+    "retrieved_on": "2026-10-11",
+    "original_pdf_sha256": "b7e4976b5c42a72fb0d5863ef0f82578808600d64beda390584b6ac6f22bcc19",
+    "original_pdf_bytes": 912527,
+    "pdf_page_count": 13,
+    "visual_review": {
+      "index_page_1based": 2,
+      "target_pages_1based": [
+        4,
+        13
+      ],
+      "table_header_verified": "Date Of Registration"
+    },
+    "issuer": "THERMO TENTS LIMITED",
+    "company_number": "553249",
+    "filings": [
+      {
+        "document_type": "E2",
+        "meaning": "liquidator appointment notice",
+        "page_1based": 4,
+        "date_of_registration": "2025-10-29"
+      },
+      {
+        "document_type": "G2",
+        "meaning": "ordinary winding-up resolution",
+        "page_1based": 13,
+        "date_of_registration": "2025-10-29"
+      }
+    ],
+    "limitation": "Off-platform legal filing context only. Registration dates are not established operating cessation, appointment-effective, resolution-effective, or dissolution dates. No outcome or survival-status change is authorized by this identity review.",
+    "study_evidence_eligible": false,
+    "role": "Outside-study legal-filing context only; not required for either study gate."
+  },
+  "finding": {
+    "issuer_identity": "The six hash-verified native campaigns alone support the selected attribution to the Irish legal issuer Thermo Tents Limited, registration 553249, under the frozen platform-only identity protocol.",
+    "false_split_candidate": "The two source keys differ by the appended IRELAND string. This review supports a legal-issuer bridge, while preserving both existing keys and all six round records.",
+    "second_review_scope": "All six selected campaign-to-issuer matches were independently inspected using the native platform captures, including original byte-hash validation. Separate external registry checks provide outside-study context only.",
+    "economic_round_equivalence": "Not established. Same issuer does not imply same economic round; instrument terms and overlapping raise windows were not adjudicated.",
+    "global_identity_qa": "Not assessed; this is not a population sample, pipeline acceptance, or false-match/false-split rate estimate.",
+    "production_promotion": false,
+    "canonical_merge_applied": false,
+    "outcome_changes_applied": false,
+    "jev_called": false,
+    "jev_decision": null
+  },
+  "privacy": "Facts-only derivative. Excludes raw HTML, scripts, tokens, addresses, officer information, tax identifiers, and unrelated captures.",
+  "source_policy": {
+    "protocol": "Frozen Phase 1C public-source hierarchy, docs/PHASE_1C_SPEC.md lines 164-168",
+    "protocol_scope": "The platform-only source restriction applies to all study evidence, including identity gates.",
+    "sufficient_gate_evidence": "Only the six hash-verified native Republic Europe archives and their existing source-lineage bindings.",
+    "native_anchor_set": [
+      "reurope:crua-outdoors2",
+      "reurope:crua3",
+      "reurope:crua-convertible",
+      "reurope:crua-outdoors3"
+    ],
+    "native_anchor_predicate": "Each of these four native campaigns explicitly pairs the Company number field 553249(Ireland) with a Thermo Tents Limited trading-name statement.",
+    "native_unsuffixed_set": [
+      "reurope:crua-outdoors4",
+      "reurope:crua-outdoors5"
+    ],
+    "native_unsuffixed_predicate": "Each unsuffixed campaign states Company number 553249 and matches the anchored native campaigns on incorporation date 26 Nov 2014, www.cruaoutdoors.com, Tralee/Ireland location, and Crua Outdoors brand. This combined native chain is sufficient for the selected issuer attribution; location alone and string normalization alone are not.",
+    "jurisdiction_basis": "Ireland is explicit in the four native Company number qualifiers. The two unsuffixed pages inherit the selected-match attribution through the full native chain; no registry lookup is required for this bounded study finding.",
+    "external_registry_role": "Outside-study corroborating context only; not gate evidence, a required gate dependency, or a modification of the frozen source policy.",
+    "external_source_policy_expanded": false
+  },
+  "supersedes": {
+    "receipt_id": "crua-issuer-identity-independent-review-20261011-v0.1.0",
+    "receipt_sha256": "7d7b5146da8be453c82b9297d48a5124764b663aced6b630a7fd3be79d404368",
+    "reason": "Superseded source-policy rationale: sufficient study-gate evidence is the native-only selected-match chain. External registries are outside-study corroborating context, not a required bridge. Source facts, targets and permitted gate changes are unchanged."
+  }
+}
