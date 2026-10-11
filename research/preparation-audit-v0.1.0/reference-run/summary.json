@@ -1,0 +1,141 @@
+{
+  "audit_version": "preparation-disposition-audit-v0.1.0",
+  "eligibility_assessment": "NOT_PERFORMED; missing review fields are not evidence of ineligibility",
+  "eligible_row_count": null,
+  "followup_comparison_tolerance_months": 1e-06,
+  "gap_affected_row_counts": {
+    "COHORT_AND_DISPOSITION_REVIEW": 952,
+    "ENDPOINT_OBSERVATION_AND_CUTOFF_REVIEW": 952,
+    "FUNDED_CLOCK_AND_ROUND_IDENTITY_REVIEW": 952,
+    "INDEX_QUALIFICATION_AND_TARGET_REVIEW": 952,
+    "INITIAL_STATE_REVIEW_NO_AUTOMATIC_PRE_OR_POST": 952,
+    "MULTI_ROUND_COMPANY_REQUIRES_INDEX_SPECIFIC_ENTRY_REVIEW": 287,
+    "OFFERING_YEAR_UNRESOLVED": 156,
+    "SUCCESS_EVENT_LABEL_REQUIRES_INDEX_EVIDENCE_REVIEW": 70,
+    "TERMINAL_INTERVAL_NOT_EXACT": 2,
+    "TYPED_EXACT_CHRONOLOGY_REVIEW": 952,
+    "UNKNOWN_VALUE_ACQUISITION_NOT_AUTOMATIC_SUCCESS_OR_CLOSURE": 2
+  },
+  "gap_occurrence_counts": {
+    "COHORT_AND_DISPOSITION_REVIEW": 952,
+    "ENDPOINT_OBSERVATION_AND_CUTOFF_REVIEW": 952,
+    "FUNDED_CLOCK_AND_ROUND_IDENTITY_REVIEW": 952,
+    "INDEX_QUALIFICATION_AND_TARGET_REVIEW": 952,
+    "INITIAL_STATE_REVIEW_NO_AUTOMATIC_PRE_OR_POST": 952,
+    "MULTI_ROUND_COMPANY_REQUIRES_INDEX_SPECIFIC_ENTRY_REVIEW": 287,
+    "OFFERING_YEAR_UNRESOLVED": 156,
+    "SUCCESS_EVENT_LABEL_REQUIRES_INDEX_EVIDENCE_REVIEW": 70,
+    "TERMINAL_INTERVAL_NOT_EXACT": 2,
+    "TYPED_EXACT_CHRONOLOGY_REVIEW": 952,
+    "UNKNOWN_VALUE_ACQUISITION_NOT_AUTOMATIC_SUCCESS_OR_CLOSURE": 2
+  },
+  "ineligible_row_count": null,
+  "input_rows": 952,
+  "mechanical_status_counts": {
+    "FLAT_SCHEMA_PARSEABLE_FOR_REVIEW": 952
+  },
+  "output_dispositions": 952,
+  "prepared_histories_created": 0,
+  "priority_interpretation": "Review triage only; numbers do not measure statistical readiness, evidence quality, or investment merit.",
+  "requirements_schema_map": {
+    "cohort_assignment": {
+      "existing_fields_absent": [],
+      "existing_fields_present": [
+        "offering_year",
+        "offering_year_status",
+        "platform"
+      ],
+      "next_action": "Retain every row and its unresolved dispositions; do not present a selected exact-history subset as the original cohort.",
+      "review_fields_absent": [
+        "cohort_membership_review",
+        "prepared_history_disposition"
+      ],
+      "review_fields_present": []
+    },
+    "endpoint_observation": {
+      "existing_fields_absent": [],
+      "existing_fields_present": [
+        "last_positive_date",
+        "censor_date",
+        "followup_months",
+        "terminal_event_evidence_url",
+        "evidence_trace"
+      ],
+      "next_action": "Separate affirmative operation, event-specific endpoints and administrative limit; do not extend follow-up automatically.",
+      "review_fields_absent": [
+        "endpoint_specific_observation_review",
+        "administrative_extraction_limit",
+        "source_availability_review"
+      ],
+      "review_fields_present": []
+    },
+    "index_success_and_target": {
+      "existing_fields_absent": [],
+      "existing_fields_present": [
+        "success_date",
+        "success_type",
+        "success_valuation_multiple",
+        "success_evidence_url",
+        "success_evidence_sha256"
+      ],
+      "next_action": "Review the success predicate against this index round and explicitly distinguish incident contribution from baseline-plus-incident qualification.",
+      "review_fields_absent": [
+        "index_qualification_review",
+        "initial_post_policy",
+        "selected_success_endpoint"
+      ],
+      "review_fields_present": []
+    },
+    "initial_state": {
+      "existing_fields_absent": [],
+      "existing_fields_present": [
+        "completion_date",
+        "success_date",
+        "terminal_event_type"
+      ],
+      "next_action": "Review independence and index-specific success state at entry. Neither a blank success field nor a financing automatically supplies PRE/POST.",
+      "review_fields_absent": [
+        "reviewed_initial_state",
+        "initial_state_evidence",
+        "entry_eligibility_review"
+      ],
+      "review_fields_present": []
+    },
+    "round_identity_and_funded_origin": {
+      "existing_fields_absent": [],
+      "existing_fields_present": [
+        "round_id",
+        "canonical_company_id",
+        "completion_date",
+        "evidence_trace"
+      ],
+      "next_action": "Bind the economic round, funded/completed position and chosen origin to reviewed evidence; do not infer them from populated keys or a date.",
+      "review_fields_absent": [
+        "reviewed_economic_round_identity",
+        "funded_position_evidence",
+        "origin_convention_review"
+      ],
+      "review_fields_present": []
+    },
+    "typed_event_chronology": {
+      "existing_fields_absent": [],
+      "existing_fields_present": [
+        "success_date",
+        "closure_date",
+        "terminal_event_type",
+        "terminal_event_interval_start",
+        "terminal_event_interval_end",
+        "terminal_event_midpoint_for_primary"
+      ],
+      "next_action": "Review typed first events, precision and sequence without replacing unknown/interval facts by automatic transitions.",
+      "review_fields_absent": [
+        "reviewed_exact_transition_sequence",
+        "same_subject_tie_resolution",
+        "event_precision_review"
+      ],
+      "review_fields_present": []
+    }
+  },
+  "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+  "states_or_event_times_synthesized": 0
+}

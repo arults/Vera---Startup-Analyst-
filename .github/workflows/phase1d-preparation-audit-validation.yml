@@ -1,0 +1,32 @@
+name: Phase 1D preparation audit validation
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/preparation-audit-v0.1.0/**'
+      - 'data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv'
+      - '.github/workflows/phase1d-preparation-audit-validation.yml'
+permissions:
+  contents: read
+jobs:
+  verify_exact_head:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        shell: bash
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Run 18 implementation and 9 independent audit tests
+        run: python -I -B -m unittest discover -s research/preparation-audit-v0.1.0 -p 'test_*.py' -v
+      - name: Reproduce frozen audit outside repository and verify compact packet
+        run: >-
+          python -I -B research/preparation-audit-v0.1.0/verify_reference_run.py
+          --root .
+          --output "$RUNNER_TEMP/phase1d-preparation-audit"
