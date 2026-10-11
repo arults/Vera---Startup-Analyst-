@@ -1,6 +1,8 @@
 """Synthetic safety regressions; no private source fixtures or external services."""
 import csv
 import gzip
+import contextlib
+import io
 import importlib.util
 import json
 from pathlib import Path
@@ -274,6 +276,43 @@ class IdentityCIIsolationTests(unittest.TestCase):
         self.write_candidate(self.source, audit_override={"reports": {}})
         with self.assertRaisesRegex(ValueError, "report coverage"):
             ci.verify_candidate(self.source / ci.DATA, self.source)
+
+    def test_inventory_diagnostic_is_sorted_hash_metadata_only(self):
+        old = {"z.csv": {"sha256": "a" * 64, "executable": False},
+               "removed.csv": {"sha256": "b" * 64, "executable": False}}
+        new = {"z.csv": {"sha256": "c" * 64, "executable": True},
+               "added.csv": {"sha256": "d" * 64, "executable": False}}
+        stream = io.StringIO()
+        with contextlib.redirect_stderr(stream), self.assertRaisesRegex(ValueError, "tests changed"):
+            ci.unchanged_or_raise(old, new, "tests changed exported source files")
+        result = json.loads(stream.getvalue())
+        self.assertEqual(result["changed_file_count"], 3)
+        self.assertEqual([row["path"] for row in result["changes"]], ["added.csv", "removed.csv", "z.csv"])
+        self.assertIsNone(result["changes"][0]["before"])
+        self.assertIsNone(result["changes"][1]["after"])
+        self.assertEqual(result["changes"][2]["after"], new["z.csv"])
+        self.assertEqual(set(result["changes"][2]), {"path", "before", "after"})
+
+    def test_unchanged_inventory_emits_no_diagnostic(self):
+        value = {"file.py": {"sha256": "a" * 64, "executable": False}}
+        stream = io.StringIO()
+        with contextlib.redirect_stderr(stream):
+            ci.unchanged_or_raise(value, value, "must not fail")
+        self.assertEqual(stream.getvalue(), "")
+
+    def test_test_mutation_reports_relative_hashes_without_contents(self):
+        stream = io.StringIO()
+        secret_fixture = "SYNTHETIC_CONTENT_MUST_NOT_BE_LOGGED"
+        def mutate(args, **kwargs):
+            (kwargs["cwd"] / "frozen.csv").write_text(secret_fixture)
+        with contextlib.redirect_stderr(stream), self.assertRaisesRegex(ValueError, "tests changed"):
+            ci.validate(self.source, self.scratch, self.head, run=mutate)
+        text = stream.getvalue()
+        result = json.loads(text)
+        self.assertEqual(result["changes"][0]["path"], "frozen.csv")
+        self.assertNotIn(secret_fixture, text)
+        self.assertNotIn(str(self.source), text)
+        self.assertFalse((self.scratch / "evidence").exists())
 
     def test_workflow_has_no_writer_or_raw_upload_path(self):
         text = (ROOT / ".github/workflows/phase1d-republic-europe-identity-review.yml").read_text()

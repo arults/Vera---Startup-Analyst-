@@ -77,6 +77,22 @@ def inventory(root: Path, *, checkout: bool = False) -> dict:
     return result
 
 
+def inventory_changes(before: dict, after: dict) -> list[dict]:
+    """Deterministic path/hash metadata only; never include file contents."""
+    return [{"path": name, "before": before.get(name), "after": after.get(name)}
+            for name in sorted(set(before) | set(after))
+            if before.get(name) != after.get(name)]
+
+
+def unchanged_or_raise(before: dict, after: dict, message: str) -> None:
+    changes = inventory_changes(before, after)
+    if changes:
+        print(json.dumps({"diagnostic": "identity_ci_inventory_change",
+                          "stage": message, "changed_file_count": len(changes),
+                          "changes": changes}, sort_keys=True), file=sys.stderr, flush=True)
+        raise ValueError(message)
+
+
 def git(root: Path, *args: str) -> bytes:
     return subprocess.check_output(["git", "-C", str(root), *args])
 
@@ -226,8 +242,7 @@ def validate(source: Path, scratch: Path, expected_sha: str, *, run=subprocess.r
         run([sys.executable, "-B", "-m", "unittest", "discover", "-s", "tests", "-v"],
             cwd=work, env=environment, check=True)
         completed.append("full_regression_suite")
-        if inventory(work) != exported:
-            raise ValueError("tests changed exported source files")
+        unchanged_or_raise(exported, inventory(work), "tests changed exported source files")
         for module in GENERATORS:
             # The archived apply module uses local deterministic dispositions;
             # this replay does not invoke a new JEV review or external service.
@@ -253,8 +268,8 @@ def validate(source: Path, scratch: Path, expected_sha: str, *, run=subprocess.r
             "candidate_files": {name: digest(work / DATA / name) for name in sorted((*OUTPUT_NAMES, *sidecars))},
         }
     finally:
-        if inventory(source, checkout=True) != before:
-            raise ValueError("original checkout changed during isolated validation")
+        unchanged_or_raise(before, inventory(source, checkout=True),
+                           "original checkout changed during isolated validation")
     evidence_dir = scratch / "evidence"
     evidence_dir.mkdir()
     (evidence_dir / "validation.json").write_text(json.dumps(evidence, indent=2, sort_keys=True) + "\n")
