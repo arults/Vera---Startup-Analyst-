@@ -1,0 +1,432 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Vera local observability</title><style>body{font:15px system-ui;background:#0e1726;color:#e6edf5;max-width:1200px;margin:auto;padding:24px}h1,h2{letter-spacing:-.03em}a{color:#94d8ff}.warning{padding:16px;border:1px solid #a87d3a;background:#30281f;border-radius:10px}section,details{margin:16px 0;padding:16px;background:#172438;border-radius:10px}summary{cursor:pointer;font-weight:600}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:9px;border-bottom:1px solid #35465f}pre{white-space:pre-wrap;overflow-wrap:anywhere;color:#c9d8e8}.scroll{overflow-x:auto}.bad{color:#ffaeae}.muted{color:#b8c5d6}.cards{display:flex;flex-wrap:wrap;gap:10px}.card{flex:1;padding:14px;background:#203149;border-radius:8px;min-width:130px}</style><h1>Vera · local observability</h1><p class="warning">Production company-analysis host integration is missing. Explicit local adapters only.<br>Engineering and synthetic checks do not establish research accuracy, calibration, or prior promotion.</p><p class="muted">Payload-free append-only traces. Expand a component or evaluation to inspect its evidence. No network requests or scripts.</p><section><h2>synthetic-complete · SYNTHETIC</h2><div class="cards"><div class="card">Telemetry<br><strong>healthy</strong></div><div class="card">Execution<br><strong>completed</strong></div><div class="card">Engineering checks<br><strong>passed_declared_checks</strong></div><div class="card">Research quality<br><strong>not_evaluated</strong></div><div class="card">Observed components<br><strong>11/11</strong></div></div><p><a href="metrics/dashboard.html">Open linked run metrics</a> · correlation: matched<br>Attempt coverage: complete; report content: verified_generated_bytes</p><p>Provenance: complete. Attempts: attempt-1</p><details><summary>prompt · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;prompt-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.312654+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;prompt&quot;,
+    &quot;event_id&quot;: &quot;f819869e-1eaa-46d3-b4de-2cbc0a49fea4&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 2,
+    &quot;span_id&quot;: &quot;prompt-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.312868+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;2e915a91-bdaf-414d-9e50-cdd6f1279dcb&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 3,
+    &quot;span_id&quot;: &quot;prompt-span&quot;
+  }
+}</pre></details><details><summary>identity · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;identity-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.312944+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;identity&quot;,
+    &quot;event_id&quot;: &quot;59af0c99-827e-45ce-a375-6b5b08c0bb64&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 4,
+    &quot;span_id&quot;: &quot;identity-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.313001+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;21e459a9-c9ae-4672-8781-a35fe460c1d4&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 5,
+    &quot;span_id&quot;: &quot;identity-span&quot;
+  }
+}</pre></details><details><summary>planning · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;planning-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.313053+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;planning&quot;,
+    &quot;event_id&quot;: &quot;fd90d55b-a107-4210-92b1-1f3a2dc624e2&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 6,
+    &quot;span_id&quot;: &quot;planning-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.313101+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;71da592b-f737-41fb-a4f5-72d8fe6e7f64&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 7,
+    &quot;span_id&quot;: &quot;planning-span&quot;
+  }
+}</pre></details><details><summary>research · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;research-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.313146+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;research&quot;,
+    &quot;event_id&quot;: &quot;1e87ae37-d68e-47db-b7a9-00a3bcd4d08d&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 8,
+    &quot;span_id&quot;: &quot;research-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.313627+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;536bc067-5141-424e-8555-77f3fc4e39e4&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 9,
+    &quot;span_id&quot;: &quot;research-span&quot;
+  }
+}</pre></details><details><summary>retrieval · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;retrieval-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.313896+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;retrieval&quot;,
+    &quot;event_id&quot;: &quot;3a19eaf7-afcf-4ca9-b399-6b276eaf99af&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: &quot;retrieval-dispatch&quot;,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 10,
+    &quot;span_id&quot;: &quot;retrieval-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.314383+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;3b993186-4939-439e-a2cd-6a01dd57876a&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 11,
+    &quot;span_id&quot;: &quot;retrieval-span&quot;
+  }
+}</pre></details><details><summary>sourcing_verifier · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;sourcing_verifier-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.314440+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;sourcing_verifier&quot;,
+    &quot;event_id&quot;: &quot;f4f4907a-73d6-4f2e-aba3-6e2bf846acd6&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 12,
+    &quot;span_id&quot;: &quot;sourcing_verifier-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.314495+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;00ad166b-19c1-43af-9da5-f4e415b992f9&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 13,
+    &quot;span_id&quot;: &quot;sourcing_verifier-span&quot;
+  }
+}</pre></details><details><summary>analysis · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;analysis-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.314541+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;analysis&quot;,
+    &quot;event_id&quot;: &quot;6672587b-a67f-4ae6-911e-e88dc3ee3b80&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 14,
+    &quot;span_id&quot;: &quot;analysis-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.314588+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;4f6acfa0-2abf-4b14-bfca-75933e31e7aa&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 15,
+    &quot;span_id&quot;: &quot;analysis-span&quot;
+  }
+}</pre></details><details><summary>model · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;model-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.314633+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;model&quot;,
+    &quot;event_id&quot;: &quot;e96e7321-e8d1-4b79-9e77-4742c49e3c62&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: &quot;model-dispatch&quot;,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 16,
+    &quot;span_id&quot;: &quot;model-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.315659+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;ad673f5d-3a6e-47c3-a88d-b296163f9a42&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 17,
+    &quot;span_id&quot;: &quot;model-span&quot;
+  }
+}</pre></details><details><summary>jev · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;jev-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.315730+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;jev&quot;,
+    &quot;event_id&quot;: &quot;d7a549a6-1a5c-49ea-907d-ad1fc1b3479e&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: &quot;jev-dispatch&quot;,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 18,
+    &quot;span_id&quot;: &quot;jev-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.315957+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;0163ca5c-cfe7-4b47-9d3a-a76b56d13780&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 19,
+    &quot;span_id&quot;: &quot;jev-span&quot;
+  }
+}</pre></details><details><summary>report · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;report-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.316012+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;report&quot;,
+    &quot;event_id&quot;: &quot;4bc58979-115f-4787-8464-c80c397b80bc&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 20,
+    &quot;span_id&quot;: &quot;report-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.316144+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;5b7b0815-3709-48d1-befd-2d620cce678d&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 21,
+    &quot;span_id&quot;: &quot;report-span&quot;
+  }
+}</pre></details><details><summary>persistence · completed</summary><pre>{
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;applicability&quot;: &quot;required&quot;,
+  &quot;reason_code&quot;: null,
+  &quot;span_ids&quot;: [
+    &quot;persistence-span&quot;
+  ],
+  &quot;recovered_attempts&quot;: 0
+}</pre><pre>{
+  &quot;start&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.316272+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;component&quot;: &quot;persistence&quot;,
+    &quot;event_id&quot;: &quot;dd4f5f09-c9a7-4384-a6cd-f68aa77829b1&quot;,
+    &quot;kind&quot;: &quot;span_start&quot;,
+    &quot;metrics_attempt_id&quot;: null,
+    &quot;parent_span_id&quot;: null,
+    &quot;refs&quot;: {},
+    &quot;retry_of&quot;: null,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 22,
+    &quot;span_id&quot;: &quot;persistence-span&quot;
+  },
+  &quot;end&quot;: {
+    &quot;at&quot;: &quot;2026-10-11T10:14:09.316389+00:00&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-1&quot;,
+    &quot;error_code&quot;: &quot;NONE&quot;,
+    &quot;event_id&quot;: &quot;3abfcfb4-4950-4553-ae3f-8ee7b55f019e&quot;,
+    &quot;execution_status&quot;: &quot;completed&quot;,
+    &quot;kind&quot;: &quot;span_end&quot;,
+    &quot;run_id&quot;: &quot;synthetic-complete&quot;,
+    &quot;schema_version&quot;: &quot;vera.observability/1&quot;,
+    &quot;seq&quot;: 23,
+    &quot;span_id&quot;: &quot;persistence-span&quot;
+  }
+}</pre></details><details><summary>Evaluation evidence (1)</summary><details><summary>contract-check · pass · synthetic_contract</summary><pre>{
+  &quot;component&quot;: &quot;system&quot;,
+  &quot;eval_id&quot;: &quot;contract-check&quot;,
+  &quot;evidence_ref&quot;: &quot;sha256:9caee3f159f637cdfc965eb86005bb41106a53bac861b28f1b3e44cf60cc63ec&quot;,
+  &quot;jev&quot;: null,
+  &quot;quality_axis&quot;: &quot;engineering&quot;,
+  &quot;reason_code&quot;: &quot;NONE&quot;,
+  &quot;refs&quot;: {
+    &quot;artifact&quot;: &quot;ver:synthetic-artifact-1&quot;,
+    &quot;code&quot;: &quot;sha256:6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b&quot;,
+    &quot;config&quot;: &quot;ver:synthetic-config-1&quot;,
+    &quot;dataset&quot;: &quot;sha256:6d848af273348fa1ea396f1ce8386a66294d62484d03d266cdcd06e86f3be422&quot;,
+    &quot;input&quot;: &quot;sha256:21f8980f56e815fe49551bd2b9cdac141380a660f304153e5c7fe8cfdf240380&quot;,
+    &quot;model&quot;: &quot;ver:deterministic-no-llm-1&quot;,
+    &quot;prompt&quot;: &quot;ver:synthetic-prompt-1&quot;,
+    &quot;rubric&quot;: &quot;ver:synthetic-contract-rubric-1&quot;
+  },
+  &quot;reviewer_basis&quot;: &quot;synthetic_fixture&quot;,
+  &quot;schema_version&quot;: &quot;vera.eval/1&quot;,
+  &quot;scope&quot;: &quot;synthetic_contract&quot;,
+  &quot;span_id&quot;: null,
+  &quot;status&quot;: &quot;pass&quot;,
+  &quot;observed&quot;: true
+}</pre></details></details><details><summary>Diagnostics and provenance</summary><pre>{
+  &quot;issues&quot;: [],
+  &quot;refs&quot;: {
+    &quot;artifact&quot;: &quot;ver:synthetic-artifact-1&quot;,
+    &quot;code&quot;: &quot;sha256:6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b&quot;,
+    &quot;config&quot;: &quot;ver:synthetic-config-1&quot;,
+    &quot;dataset&quot;: &quot;sha256:6d848af273348fa1ea396f1ce8386a66294d62484d03d266cdcd06e86f3be422&quot;,
+    &quot;input&quot;: &quot;sha256:21f8980f56e815fe49551bd2b9cdac141380a660f304153e5c7fe8cfdf240380&quot;,
+    &quot;model&quot;: &quot;ver:deterministic-no-llm-1&quot;,
+    &quot;prompt&quot;: &quot;ver:synthetic-prompt-1&quot;,
+    &quot;rubric&quot;: &quot;ver:synthetic-contract-rubric-1&quot;
+  }
+}</pre></details></section></html>

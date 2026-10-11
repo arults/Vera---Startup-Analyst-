@@ -1,0 +1,50 @@
+VERA — mental model
+
+             COMPANY REQUEST
+                    |
+          RUN ID + SCOPE + VERSION
+                    |
+          IDENTITY + RESEARCH PLAN
+                    |
+       +------------+------------+
+       |            |            |
+    RESEARCH     ANALYSIS      EXECUTION
+    Sources      Cohorts      Tools/workers
+    Filings      Evidence     Retries/errors
+    Q&A/news     Scenarios    Runtime calls
+       |            |            |
+    SOURCE      VERIFIER       TOOL/TRACE
+     EVAL        + JEV          CHECKS
+       |            |            |
+       +------------+------------+
+                    |
+                DRAFT THESIS
+                    |
+          EVIDENCE + OUTPUT GATES
+                    |
+               FINAL REPORT
+          + 5-ROW METRICS TABLE
+
+All instrumented stages feed the observability layer:
+
+      TRACES + ERRORS + EVAL RESULTS
+                    +
+     TOKENS / TOOLS / LATENCY / COST
+                / MEMORY
+                    |
+         COVERAGE + SAFETY CHECKS
+                    |
+              RUN DASHBOARD
+                    |
+       MATCHED REGRESSION EVALUATIONS
+                    |
+              FIX AND RETEST
+
+Interpretation
+1. Research asks: are the sources credible, independent, current and deep enough for each claim? Relevant accessible discussion/Q&A pages are part of the research requirement, not a guaranteed crawler result.
+2. Analysis asks: do the conclusions follow from evidence and applicable reference data? Unknown investor-return probabilities stay NOT ESTIMABLE. JEV review confidence is not investment probability.
+3. Execution asks: did each tool/component actually run, finish and return usable results? A successful API call is not proof of correct research.
+4. Final gates ask: do citations, contradictions, assumptions, uncertainty and required reviews support the released report?
+5. Observability asks: what happened, where did it fail, what did it consume, what is missing and did a comparable evaluation regress?
+
+This diagram is the intended operating model. The released local instrumentation and synthetic replay demonstrate hooks and reporting, not automatic interception of every hosted model/tool/user. Dashboard coverage must mark unconnected adapters and unavailable billing/RAM explicitly. Operational code tests do not establish scientific Phase 1D completion or calibrated return estimates. Research, analysis and execution are interacting responsibilities; the diagram does not assert every branch runs concurrently.

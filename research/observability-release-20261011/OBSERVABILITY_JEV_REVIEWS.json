@@ -1,0 +1,11 @@
+{
+  "scope": "generic observability architecture and measurement methodology, not private source code or company analysis",
+  "observed_date": "2026-10-11",
+  "model": "jev-1.13.0",
+  "reviews": [
+    {"stage": "architecture", "usage": {"input_tokens":557,"output_tokens":63}, "answers":{"architecture":{"choice":"layered","confidence":1,"probabilities":{"layered":1,"simple":0}},"release":{"choice":"verify","confidence":1,"probabilities":{"verify":1,"promise":0}}}},
+    {"stage": "refinement after generic adversarial-risk review", "usage":{"input_tokens":546,"output_tokens":65}, "answers":{"gates":{"choice":"strict","confidence":1,"probabilities":{"strict":1,"permissive":0}},"plateau":{"choice":"scoped","confidence":1,"probabilities":{"scoped":1,"global":0}}}}
+  ],
+  "decisions": ["Correlate versioned component traces and evaluation records with operational run IDs", "Keep instrumentation health, execution and research quality separate", "Reject stale target/artifact/model/prompt/rubric evidence as a current pass", "Synthetic and methodology-only checks do not establish company research quality", "Successful retries do not erase earlier incomplete lifecycle evidence", "State exact tested scope and missing live adapters"],
+  "limitations": ["JEV judgment is advisory", "No implementation or live-company verification is implied", "No price or paid invoice is implied by usage tokens", "No global research plateau or scientific Phase 1D completion is established"]
+}
