@@ -1,0 +1,146 @@
+{
+  "artifact_version": "0.1.0",
+  "observed_date_utc": "2026-10-11",
+  "supplements": "vera-wefunder-followup-v0.1.0",
+  "offering_key": "0001651239|020-26816",
+  "scope": "Additive public-source authority and visual-review evidence only. No canonical writes, rates, cessation dates, study clocks, or promotion.",
+  "verdict": "PARTIAL_PROGRESS_HOLD_EXACT_NOTICE_SOURCE_OPERATOR_AUTHENTICATION",
+  "closed_holds": [
+    "Original notice raw bytes downloaded, hashed and visually inspected.",
+    "Claims-page direct hyperlinks to exact notice and executed assignment verified in local HTML.",
+    "Document-level candidate identity substantially strengthened by exact legal name, Delaware jurisdiction, SEC address, and suppressed identifier match.",
+    "Real assignee/B. Riley relationship independently attributed in SEC filing; broker-reported ABC corroboration on FINRA."
+  ],
+  "remaining_holds": [
+    "No independently attributable official assignee/administrator/issuer/court/regulatory page found linking TPLC or exact notice URL/bytes. Same-host self-attribution is insufficient for strict origin authentication.",
+    "Required independent second review of issuer-identity binding not performed in this supplement.",
+    "July 15 FINRA action date versus July 16 notice/assignment date remains unresolved.",
+    "Clinical cessation is month-only and scope-limited; exact total-issuer cessation and completed liquidation remain unestablished.",
+    "Off-platform evidence does not qualify for native-baseline censor replacement automatically.",
+    "Frozen CIK/file pair inherited from parent packet; no new filing-index verification of file number."
+  ],
+  "sources": [
+    {
+      "id": "Q01",
+      "url": "https://media.hometeamsonline.com/photos/htosports/TPLC-CLAIMS/QBI_POC_Notice1.pdf",
+      "classification": "purported_assignee_notice; exact raw bytes and page visually reviewed",
+      "locator": "page 1, first notice paragraph and signature block",
+      "facts": {
+        "assignor": "Quadrant Biosciences Inc.",
+        "assignor_jurisdiction": "Delaware",
+        "assignee": "Quadrant Biosciences (assignment for the benefit of creditors), LLC",
+        "assignee_jurisdiction": "California",
+        "assignment_date": "2024-07-16",
+        "notice_date": "2024-07-26",
+        "signature": "Jonathan J. Wernick, Manager",
+        "claim_bar_date": "2025-01-12"
+      },
+      "limit": "Asset assignment/liquidation purpose and planned wind-down are not exact operating cessation or completed liquidation. Printed /s/ signature and PDF author metadata do not independently authenticate origin.",
+      "raw_sha256": "a666700b3040e55ef996fd5bd6d56d0a80591404ffaf83de92a5902085e37cf7"
+    },
+    {
+      "id": "Q02",
+      "url": "https://www.htosports.com/teams/default.asp?p=custom&pagename=Quadrant+Biosciences+Info&s=htosports&u=TPLC-CLAIMS",
+      "classification": "claimed_assignee_information_page",
+      "locator": "CREDITOR CLAIM INFORMATION and hyperlink hrefs in downloaded HTML",
+      "facts": {
+        "provider_claim": "Quadrant Biosciences (ABC), LLC",
+        "assignment_date": "2024-07-16",
+        "notice_distribution": "on or around 2024-08-16",
+        "bar_date": "2025-01-12",
+        "status_update_label": "2025-02-12",
+        "links_exact_notice": true,
+        "links_exact_assignment": true
+      },
+      "limit": "Notice-distribution date differs semantically from notice date. Scheduled update label is not proof update occurred. Same-host self-attribution does not establish operator independently.",
+      "raw_sha256": "9f74c358bd99904c7f3bc2b50e9500ff9e056d58a6da820358650c6d43f9cd14"
+    },
+    {
+      "id": "Q03",
+      "url": "https://media.hometeamsonline.com/photos/htosports/TPLC-CLAIMS/1_-_General_Assignment_Letter_-_QBI-_Executed-7-16-24.pdf",
+      "classification": "purported_executed_assignment; page 1 and cropped signature section visually reviewed",
+      "locator": "page 1 opening paragraph; page 7 signature block; page 4 indemnified parties",
+      "facts": {
+        "assignor": "Quadrant Biosciences Inc.",
+        "jurisdiction": "Delaware",
+        "address": "505 Irving Avenue, Suite 3100AB, Syracuse, NY 13210",
+        "as_of_assignment_date": "2024-07-16",
+        "assignee": "Quadrant Biosciences (assignment for the benefit of creditors), LLC",
+        "signatures_observed": [
+          "Richard Bongo, CFO",
+          "Jonathan Wernick, Manager"
+        ],
+        "additional_identifier_check": "Exact public issuer identifier matches Q04; value suppressed. Q03 page 7 Federal-number field and Q04 cover issuer-identifier field."
+      },
+      "limit": "Visual signatures are observations, not cryptographic verification. Q01/Q02/Q03 share a hosting/operator cluster; no independent-source multiplication.",
+      "raw_sha256": "c78a33639d1a5086a024f1f231838882610d84b2a78651bfb778af2023e1f552"
+    },
+    {
+      "id": "Q04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1651239/000110465921057434/tm2114406d1_1k.htm",
+      "classification": "issuer_filing_on_official_SEC_EDGAR",
+      "locator": "Form 1-K cover, web lines 23-37",
+      "facts": {
+        "issuer": "Quadrant Biosciences Inc.",
+        "CIK_from_archive_path": "0001651239",
+        "jurisdiction": "Delaware",
+        "address": "505 Irving Avenue, Suite 3100AB, Syracuse, New York 13210"
+      },
+      "limit": "Binds legal issuer identity to CIK; does not attest to 2024 PDF or assignee website. File 020-26816 remains frozen-input binding, not newly verified here."
+    },
+    {
+      "id": "Q05",
+      "url": "https://files.brokercheck.finra.org/individual/individual_2270495.pdf",
+      "classification": "official_FINRA_host; broker-reported disclosure, not regulator-adjudicated event",
+      "locator": "PDF pages 7,9,10; printed pages 5,7,8",
+      "facts": {
+        "person": "Richard A. Uhlig",
+        "issuer_employment": "Quadrant Biosciences Inc., CEO, Syracuse, 02/2012\u201307/2024",
+        "later_employment": "Quadrant Biosciences (ABC) LLC, employee, 07/2024\u2013Present as reported",
+        "event": "non-judicial ABC in California",
+        "action_date": "2024-07-15",
+        "disposition_date": "2024-07-15",
+        "clinical_cessation_month": "2024-06",
+        "administrator": "B. Riley",
+        "asset_disposition": "ongoing as reported"
+      },
+      "limit": "Not exact-notice authentication. July 15 conflicts with July 16 assignment date. Clinical operations scope and month precision cannot be generalized to all issuer operations or a chosen day. Current copyright year does not establish when ongoing disposition was last affirmed.",
+      "raw_sha256": "2ba90a1d16e0ec6a35ebc8e46006b3dc147ae3662b4b4a428779ddbce30ee636"
+    },
+    {
+      "id": "Q06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000011/exhibit211subsidiarylist.htm",
+      "classification": "B_Riley_issuer_filing_on_official_SEC_EDGAR",
+      "locator": "Exhibit 21.1, subsidiaries as of 2024-12-31; web line 206",
+      "facts": {
+        "listed_subsidiary": "Quadrant Biosciences (ASSIGNMENT FOR THE BENEFIT OF CREDITORS) LLC",
+        "jurisdiction": "California",
+        "parent": "B. Riley Financial, Inc."
+      },
+      "limit": "Independent hosting and attributed filing establish assignee association; do not link TPLC or certify the notice bytes."
+    },
+    {
+      "id": "Q07",
+      "url": "https://glassratner.com/team/jonathan-wernick/",
+      "classification": "official_administrator_firm_biography",
+      "locator": "opening biography and specialties",
+      "facts": {
+        "name": "Jonathan Wernick",
+        "position": "Managing Director, California practice",
+        "specialty": "Assignments for the Benefit of Creditors"
+      },
+      "limit": "Corroborates professional identity only; does not identify Quadrant engagement or TPLC ownership."
+    }
+  ],
+  "external_decision_service": {
+    "used": false,
+    "reason": "The unresolved issue requires external primary-source evidence. A generic decision cannot authenticate a PDF; no spending or payload transmission justified."
+  },
+  "privacy": "Raw HTML/PDF/images retained separately for local review only. Supplement excludes raw tax identifiers, cookies, scripts, tokens, and unreviewed source payloads.",
+  "retrieval_notes": [
+    "Initial secondary-PDF download polling reported automatic approval review cancelled; paused. One same-command retry after parent-provided transcript evidence succeeded.",
+    "Web screenshot wrapper returned text references, not visible image payloads; visual claims rely on local pdftoppm renders opened with view_image.",
+    "TPLC root URL failed in web tool; exact claims page HTML downloaded successfully.",
+    "FINRA render emitted font-cache warnings, but visually inspected pages were legible."
+  ]
+}

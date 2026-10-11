@@ -1,0 +1,22 @@
+{
+  "id": "S06",
+  "url": "https://wefunder.com/festivalpass/",
+  "source_type": "platform_hosted_issuer_profile",
+  "retrieval": "web.open turn401view1",
+  "locators": "lines35-41,98,139-146",
+  "excerpt": "Last Funded December 2020",
+  "facts": {
+    "raised_usd": 120601,
+    "founder": "Ed Vincent",
+    "domain": "festivalpass.com",
+    "latest_explicit_operating_content_period": "Fall 2020"
+  },
+  "limitations": [
+    "Current page availability does not establish 2026 operation.",
+    "December 2020 is month-only financing date."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained."
+}

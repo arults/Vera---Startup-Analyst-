@@ -1,0 +1,27 @@
+{
+  "run_id": "vera-wf42-followup-20261011T150742Z",
+  "status": "EVIDENCE_ONLY_HOLD_CANONICAL",
+  "files": {
+    "README.md": "cb4594c9c2179b80fd7978543859215f5f533adeeac8a06b9a7a6cabe5769f7e",
+    "evidence-packet.json": "f869a8c374699e4feaa80b6819f7cfcc61ee7dc1c148dd485d0fb7435bc70995",
+    "inputs/OUTCOME_PROVENANCE.md": "d7f888acb5f2c756efec5b3d06dadafd0bdb1c20ce51934b3d4eb6f3b675520b",
+    "inputs/PHASE_1C_SPEC.md": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+    "inputs/PHASE_1D_CP6_STOP_GATE_AUDIT.md": "07094f2bb3089cbb3a16df7391b7f2c7369972fe416803ab977a6bd90abebc65",
+    "inputs/REPORT.md": "06288de0d7ef8286a553251663394e303a95d9d834881fcf1845d10a991ee1f1",
+    "inputs/bindings.json": "156efd6a2028e403004fd698125a745fab6a2218fe7a975e8abe106e4b4edf7b",
+    "inputs/cohort_manifest.csv": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+    "inputs/outcomes.csv": "7f87d79c2a24bf748a6751180fed4cc286b678e0621d4fcbe8ec8b38b2afb5fc",
+    "inputs/prior-archive-selected-receipts.json": "53cfcd9180d936d9ca8dbd5b00311b3b177afb68396dfec6109ab01ef89ba952",
+    "inputs/selected-outcomes.csv": "e9a7802ff83bb18050d723b991aba74239b9b4f6716916c7c18ae3adec809056",
+    "inputs/wefunder_2020_operating_survival.json": "0acb5eae958db9542d4af4325c328d8a412e72b9d28c7e3d410d5f305268dbd0",
+    "run-log.json": "56bdad359a5e5efc9ddae72628fd9695db8e71ec61fdccb047186486df335fc2",
+    "sources/S01.json": "82bcb681617daf032ba85c3eeaf10ee7f935f8c36c45675f6a009246070827e9",
+    "sources/S02.json": "507f4e6d81f431a88858563f6abfc98cd70c740973a5d3699bf1c8d3618a09d2",
+    "sources/S03.json": "2e6b33e54ecee7b955ba0976d957210d897f49d75b1669879e6d50e364f3d93b",
+    "sources/S04.json": "75cc232faba12d8331105f94b8cc28d5a06f589cd58ef1b10d05def1a523b618",
+    "sources/S05.json": "5df8d6a14bd06d9e50789caab3146b87673ff9b805da2b54123392b05e14a0ec",
+    "sources/S06.json": "53e0531c1efd591a26dbf30f652a923c21696066de65d1abf16b70ab530404c8",
+    "sources/S07.json": "2192a62512514026ea85949f29e5ac26289fce5ab68d285cabe53be3696f9aae",
+    "verification.json": "31ba474f6d6d7de5b24b460eee78bb9dade1e5130ebe079b24c3cc3b11c7abf0"
+  }
+}

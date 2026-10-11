@@ -1,0 +1,30 @@
+{
+  "version": "wf-evidence-only-publication-v0.1.1",
+  "prepared_at_utc": "2026-10-11T15:46:40.927217+00:00",
+  "status": "HELD_SCIENTIFIC_EVIDENCE_ONLY",
+  "source_review_sha256": "1397fa0f898de49603448e315bb162644b8eae1ee7ea581c4ceeb39bcfc49a86",
+  "source_artifacts_copied_unchanged": {
+    "wefunder_noninput_json_markdown": 12,
+    "quadrant_exact_allowlist": 3
+  },
+  "omitted_inputs_count": 10,
+  "no_legacy_input_content_included": true,
+  "no_numerical_survival_estimates_return_priors_or_promotion_objects": true,
+  "self_contained_replay": false,
+  "previous_attempt": "Frozen separately after legacy registry blob denial; no retry of that content or branch update.",
+  "original_manifest_handling": "Original WF hashmanifest bytes preserved at wefunder-followup-evidence-v0.1.1/lineage/original-packet-hashmanifest.json. It inventories the larger original packet; this publication intentionally omits all ten original input contents.",
+  "actual_progress": {
+    "existing_offerings_reviewed": 3,
+    "frozen_denominator_unchanged": 42,
+    "source_records": 14,
+    "distinct_source_urls": 12,
+    "new_supplement_urls_relative_to_parent": 5,
+    "supplement_raw_hashes": 4,
+    "new_companies": 0,
+    "new_rounds": 0,
+    "canonical_events_admitted": 0,
+    "canonical_changes": 0
+  },
+  "date_semantics": "July 15 broker-reported action and July 16 assignment as-of remain distinct source/event fields; same-event correspondence unresolved. No confirmed contradiction or selected cessation date.",
+  "review_scope": "Independent source review accepts bounded statements and documentary identity context, not exact notice-operator authentication, final cessation/liquidation, canonical admission or a study clock."
+}

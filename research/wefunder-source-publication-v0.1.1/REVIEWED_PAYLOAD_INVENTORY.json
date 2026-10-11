@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "path": "research/quadrant-authority-supplement-v0.1.0/README.md",
+      "sha256": "661cc535fc485099819d1ea54695ef4a2c9993438d628e13b45e89cfa8c917b2",
+      "bytes": 1943
+    },
+    {
+      "path": "research/quadrant-authority-supplement-v0.1.0/evidence-supplement.json",
+      "sha256": "70da17fb67ed6883051835e476a08047e7c1ce207371a930b5a8bf1032805f5e",
+      "bytes": 8867
+    },
+    {
+      "path": "research/quadrant-authority-supplement-v0.1.0/hashmanifest.json",
+      "sha256": "4674318ad3f46213fefb437ea80b1f066bd4633153cea70386e7d218bd60cb45",
+      "bytes": 184
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/README.md",
+      "sha256": "cb4594c9c2179b80fd7978543859215f5f533adeeac8a06b9a7a6cabe5769f7e",
+      "bytes": 3471
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/evidence-packet.json",
+      "sha256": "f869a8c374699e4feaa80b6819f7cfcc61ee7dc1c148dd485d0fb7435bc70995",
+      "bytes": 6172
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/lineage/original-packet-hashmanifest.json",
+      "sha256": "53f8715009629cfdfee2395511a96484e406dcb40ea69a0a2f2ce0f1eb75ced0",
+      "bytes": 2166
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/run-log.json",
+      "sha256": "56bdad359a5e5efc9ddae72628fd9695db8e71ec61fdccb047186486df335fc2",
+      "bytes": 2884
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S01.json",
+      "sha256": "82bcb681617daf032ba85c3eeaf10ee7f935f8c36c45675f6a009246070827e9",
+      "bytes": 1053
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S02.json",
+      "sha256": "507f4e6d81f431a88858563f6abfc98cd70c740973a5d3699bf1c8d3618a09d2",
+      "bytes": 1147
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S03.json",
+      "sha256": "2e6b33e54ecee7b955ba0976d957210d897f49d75b1669879e6d50e364f3d93b",
+      "bytes": 1244
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S04.json",
+      "sha256": "75cc232faba12d8331105f94b8cc28d5a06f589cd58ef1b10d05def1a523b618",
+      "bytes": 896
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S05.json",
+      "sha256": "5df8d6a14bd06d9e50789caab3146b87673ff9b805da2b54123392b05e14a0ec",
+      "bytes": 813
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S06.json",
+      "sha256": "53e0531c1efd591a26dbf30f652a923c21696066de65d1abf16b70ab530404c8",
+      "bytes": 796
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/sources/S07.json",
+      "sha256": "2192a62512514026ea85949f29e5ac26289fce5ab68d285cabe53be3696f9aae",
+      "bytes": 1171
+    },
+    {
+      "path": "research/wefunder-followup-evidence-v0.1.1/verification.json",
+      "sha256": "31ba474f6d6d7de5b24b460eee78bb9dade1e5130ebe079b24c3cc3b11c7abf0",
+      "bytes": 1206
+    },
+    {
+      "path": "research/wefunder-source-publication-v0.1.1/PUBLICATION_SCOPE.json",
+      "sha256": "d70bb52b3d631ba627eaeb6e08431098d7515a8b430c17a34c98737a6fcd3424",
+      "bytes": 1733
+    },
+    {
+      "path": "research/wefunder-source-publication-v0.1.1/README.md",
+      "sha256": "0f5043d476d6f90265810631e79fccd8f193da0f4006b4ef0d5e5ae1d34ca3a3",
+      "bytes": 2233
+    },
+    {
+      "path": "research/wefunder-source-publication-v0.1.1/legacy-input-references.json",
+      "sha256": "be0ff61c7678c68d94a31eac9ef873784f6430f740244e98fa2d3089cb3c8b57",
+      "bytes": 8858
+    },
+    {
+      "path": "research/wefunder-source-publication-v0.1.1/run-metrics.json",
+      "sha256": "1e20c2fd04669838fcd9434d4e3818acbbdc6def04de65ae3feb041432aee1bf",
+      "bytes": 1766
+    },
+    {
+      "path": "research/wefunder-source-publication-v0.1.1/source-review-receipt.json",
+      "sha256": "1397fa0f898de49603448e315bb162644b8eae1ee7ea581c4ceeb39bcfc49a86",
+      "bytes": 3591
+    }
+  ],
+  "file_count": 20,
+  "total_bytes": 52194
+}

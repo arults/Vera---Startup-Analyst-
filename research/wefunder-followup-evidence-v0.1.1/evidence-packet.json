@@ -1,0 +1,95 @@
+{
+  "run_id": "vera-wf42-followup-20261011T150742Z",
+  "source_commit": "a68fe48d4ebfedeac7258403a1200d7ce9c54437",
+  "artifact_version": "0.1.0",
+  "scope": "Additive evidence-only review of three exact frozen funded-2020 offerings; no canonical edits, rates, clock changes or promotion.",
+  "selected_offerings": [
+    {
+      "offering_key": "0001742055|020-26500",
+      "issuer": "SapientX Inc.",
+      "question": "Is sapientx.ai a verified continuation of the frozen issuer, and what dated platform evidence supports operations?",
+      "accepted_source_facts": [
+        "Wefunder details states SapientX Inc. was incorporated in Delaware in April 2016 and reports annual revenue $34,100 for the period ended 2023-12-31.",
+        "Wefunder links the company to sapientx.com and names David Colleen.",
+        "Wefunder displays Last Funded January 2025, a month-only financing label."
+      ],
+      "held": [
+        "No observed legal-identity bridge between sapientx.ai and frozen issuer. Do not carry its 2026-08-25 product-change date into issuer operation history.",
+        "2023 annual financial period does not prove current operation or continuous survival through 2026.",
+        "January 2025 financing label is not an exact event day or qualifying success.",
+        "Identity to the frozen issuer remains unreviewed against a strong-identifier OR two independent medium-identifier route with required second review; current profile supports candidate identity only."
+      ],
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "proposed_event": null,
+      "canonical_admission": "HOLD"
+    },
+    {
+      "offering_key": "0001651239|020-26816",
+      "issuer": "Quadrant Biosciences Inc",
+      "question": "Is there explicit issuer-level winding-down evidence beyond the stale 2021 SEC fallback?",
+      "accepted_source_facts": [
+        "A public notice naming Quadrant Biosciences Inc. as Delaware assignor states assignment for benefit of creditors on 2024-07-16, transfer of tangible/intangible asset rights for liquidation, and planned wind-down actions. Notice date is 2024-07-26.",
+        "The notice explicitly separates the Delaware assignor from a similarly named California assignee LLC.",
+        "Wefunder public post published 2021-02-17 says offering closes tomorrow February 18; this is planned closing, not actual completion."
+      ],
+      "held": [
+        "The public PDF is a purported assignee-issued notice. Source-operator authority and identity to the frozen issuer remain unreviewed against a strong-identifier OR two independent medium-identifier route with required second review.",
+        "ABC date is not exact operating cessation or completed liquidation. July 1 shutdown from third-party employee/news material remains discovery only.",
+        "No platform-hosted explicit later closure was found in this bounded pass. Investor speculation is inadmissible.",
+        "No silent substitution for pinned 2021 censor or installed skill cessation inventory."
+      ],
+      "sources": [
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "proposed_event": {
+        "type": "ASSIGNMENT_FOR_BENEFIT_OF_CREDITORS_REPORTED",
+        "date": "2024-07-16",
+        "date_semantics": "reported assignment/asset transfer, not cessation",
+        "source_notice_date": "2024-07-26",
+        "native_baseline_admissible": false,
+        "multisource_adjudication_status": "HOLD_SOURCE_AUTHORITY_AND_SECOND_REVIEWED_IDENTITY"
+      },
+      "canonical_admission": "HOLD"
+    },
+    {
+      "offering_key": "0001810447|020-26399",
+      "issuer": "festivalPass, LLC",
+      "question": "Can later affirmative operations be established beyond 2021-03-23 and matched to the frozen issuer?",
+      "accepted_source_facts": [
+        "Wefunder profile shows $120,601, matching frozen offering proceeds, Last Funded December 2020, and founder Ed Vincent.",
+        "A festivalPass-issued release dated 2022-06-01 announces a global marketplace launch and describes current member ticket/hotel access with founder Ed Vincent."
+      ],
+      "held": [
+        "Press release is issuer-controlled off-platform evidence, not independent journalism. Brand/founder/product continuity supports candidate identity; identity to the frozen issuer remains unreviewed under strong-identifier OR two independent medium-identifier rules with required second review.",
+        "June 1, 2022 supports a dated issuer operating claim; it is not current 2026 operation or proof of continuous survival.",
+        "No later qualifying platform-hosted operation date recovered; StartEngine offering route returned JavaScript/robot verification. No CAPTCHA solved.",
+        "No native-baseline censor extension or cross-platform economic-round merger."
+      ],
+      "sources": [
+        "S06",
+        "S07"
+      ],
+      "proposed_event": null,
+      "canonical_admission": "HOLD"
+    }
+  ],
+  "definitions": {
+    "accepted_source_fact": "Accurately bounded statement visible in the inspected source; not acceptance into canonical outcome data.",
+    "held_fact": "Unsupported inference or unmet identity, source-authority, date or study-scope requirement.",
+    "dates": "Dates remain source-specific. Retrieval date does not replace event date. No new outcome clock or study cutoff selected.",
+    "independence": "Wefunder issuer content and issuer press releases retain company-control classification; host does not confer independent verification."
+  },
+  "lineage": {
+    "installed_skill": "v0.3.7: initial Form C clock; cutoff 2026-10-07; different outcome inventory without row-level hash crosswalk",
+    "pinned_repository": "Phase 1B v0.4.0: funding-close clock; cutoff 2026-10-08; 35 active/censored, 4 failure, 2 acquisition, 1 listing",
+    "pinned_outcomes_origin_commit": "c362f0d980ba44b1f4310fc3b30ee5b16d789d0c",
+    "origin_commit_time_utc": "2026-10-08T10:46:25Z",
+    "origin_verification": "Independent reviewer checked Git path history; sole outcomes.csv revision through pinned head",
+    "disposition": "Unaligned version/source/estimand lineage; no erroneous/stale conclusion or replacement."
+  }
+}

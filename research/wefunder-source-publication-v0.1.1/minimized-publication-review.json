@@ -1,0 +1,32 @@
+{
+  "review_id": "wf-evidence-minimized-publication-review-20261011T1547Z",
+  "verdict": "PASS_WITH_CONSTRAINTS",
+  "scope": "Local-only packaging review of the newly minimized evidence-only publication. No additional source acquisition or JEV calls.",
+  "input_inventory_sha256": "36c2497b60479fd6bfa4f46a08d7f399005ca7db361d1a207ac510f51238fd12",
+  "publication_scope_sha256": "d70bb52b3d631ba627eaeb6e08431098d7515a8b430c17a34c98737a6fcd3424",
+  "checks": {
+    "publication_files": 20,
+    "publication_bytes": 52194,
+    "inventory_hash_and_length_mismatches": 0,
+    "unchanged_wefunder_noninput_artifacts": 12,
+    "unchanged_quadrant_allowlisted_files": 3,
+    "original_review_receipt_unchanged": true,
+    "all_ten_original_input_contents_omitted": true,
+    "legacy_bindings_are_references_only": true,
+    "only_json_markdown": true
+  },
+  "payload_review": "Manual inspection of the new wrappers and references plus byte comparison of previously reviewed artifacts found no numerical survival estimates, calibrated return priors, legacy registry/promotion objects, raw tax identifiers, credentials, raw HTML, PDFs or render images in the inventoried set. Historical inventory counts and version/scope statements are retained as provenance, not estimates or admission.",
+  "date_semantics": "The successor wrapper preserves July 15 broker-reported action and July 16 assignment-as-of as distinct source/event fields with same-event correspondence unresolved. No exact issuer-wide cessation, complete liquidation, or date selection admitted.",
+  "packaging_effect": "Supersedes only the earlier publication plan that omitted three CSVs; this successor omits all ten legacy input contents. Original evidence packets, original manifest and original source-review receipt remain unchanged. The subset is explicitly not self-contained replay.",
+  "constraints": [
+    "Publish only exact inventoried files plus separately identified safe review/packaging receipts.",
+    "Do not retry or include the denied legacy registry content.",
+    "Do not include adjacent raw-source folders.",
+    "No scientific verdict, canonical data, clock, estimator eligibility or promotion changed.",
+    "Any altered evidence bytes require a successor exact-hash review."
+  ],
+  "research_source_verdict": "Original PASS_WITH_CONSTRAINTS preserved; canonical histories held.",
+  "network_calls": 0,
+  "jev_calls": 0,
+  "github_writes": 0
+}

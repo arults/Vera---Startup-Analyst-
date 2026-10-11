@@ -1,0 +1,23 @@
+{
+  "id": "S04",
+  "url": "https://www.htosports.com/teams/default.asp?p=custom&pagename=Quadrant+Biosciences+Info&s=htosports&u=TPLC-CLAIMS",
+  "source_type": "claim_administration_host_context",
+  "retrieval": "web.open turn423view1",
+  "locators": "lines6-10",
+  "excerpt": "Quadrant Viral Testing Info",
+  "facts": {
+    "navigation_includes": [
+      "As You Are Physicians P.C.",
+      "Quadrant Viral Testing",
+      "Quadrant Biosciences"
+    ]
+  },
+  "limitations": [
+    "Visible extract mostly navigation; not enough to authenticate PDF issuer or underlying legal assignment.",
+    "www.tplc-claims.com unavailable in web tool."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained."
+}

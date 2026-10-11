@@ -1,0 +1,52 @@
+{
+  "run_id": "vera-wf42-followup-20261011T150742Z",
+  "started_at_utc": "2026-10-11T15:07:42Z",
+  "ended_at_utc": "2026-10-11T15:16:26Z",
+  "clock_source": "developer current-time reminders (executor wall clock differs; not used as study clock)",
+  "source_commit": "a68fe48d4ebfedeac7258403a1200d7ce9c54437",
+  "metrics": {
+    "provider_run_id": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "cost_usd": null,
+    "peak_ram_bytes": null,
+    "jev_calls": 0,
+    "jev_tokens": null,
+    "jev_cost_usd": null
+  },
+  "jev_decision": "Not invoked by this worker. Existing rules directly resolve evidence-admission boundaries; no unresolved methodological decision justified a new paid call.",
+  "activity": [
+    {
+      "phase": "prior_work_review",
+      "result": "Read frozen survival and production cohort skills; pinned cohort_manifest.csv, outcomes.csv, OUTCOME_PROVENANCE.md, PHASE_1C_SPEC.md, stop-gate audit, company register report and preserved360 frame."
+    },
+    {
+      "phase": "archive_inspection",
+      "result": "CP9 issuer-history manifest has selected three SEC submissions requests not attempted because source circuit was open. CP9 public-post follow-up queue and CP8 Wefunder 65-event candidate table contain no selected name matches. This is limited index inspection, not exhaustive scan of all archived bodies."
+    },
+    {
+      "phase": "public_retrieval",
+      "result": "Inspected Wefunder SapientX details/profile/updates, Quadrant profile/feed 142054 and festivalPass profile; no snippets admitted as source evidence."
+    },
+    {
+      "phase": "public_retrieval",
+      "result": "Read public Quadrant ABC notice text, ancillary host navigation, festivalPass primary press release, sapientx.ai manual."
+    },
+    {
+      "phase": "limitations",
+      "result": "Wefunder direct Pythonurllib HTTP 403; selected Wefunder update/details pages failed via web, SapientX financial PDF failed, SEC selected initial index requests failed. Quadrant annual-report PDF extraction garbled and render failed, excluded as accepted evidence. StartEngine festivalPass served robot/JavaScript check, no challenge solved."
+    },
+    {
+      "phase": "tavily",
+      "result": "One extract batch of 4 public URLs failed plan usage limit status 432. No upgrade/top-up attempted; charged cost not exposed."
+    },
+    {
+      "phase": "scientific_boundary",
+      "result": "No research plateau, global search exhaustion, complete company outcomes, rates or numeric prior promotion claimed."
+    }
+  ],
+  "source_trace_note": "Source derivatives retain web retrieval handles and exact public URLs; provider request IDs not exposed. Original full webtool raw responses are not republished.",
+  "elapsed_seconds": 524,
+  "elapsed_basis": "developer reminder interval, includes tool and review wait; not provider latency"
+}
