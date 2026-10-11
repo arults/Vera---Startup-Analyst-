@@ -1,0 +1,13 @@
+{
+  "scope": "generic operational telemetry methodology only",
+  "contains_private_company_data": false,
+  "contains_source_code": false,
+  "model": "jev-1.13.0",
+  "observed_date": "2026-10-11",
+  "usage": {"input_tokens": 531, "output_tokens": 64},
+  "answers": {
+    "design": {"choice": "scoped", "confidence": 1, "probabilities": {"scoped": 1, "aggregate": 0}},
+    "release": {"choice": "honest", "confidence": 1, "probabilities": {"honest": 1, "assume": 0}}
+  },
+  "limitations": ["Not an implementation audit", "Not a company-analysis measurement", "Not a billing receipt or price", "Not evidence of complete automatic runtime integration"]
+}

@@ -1,0 +1,634 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vera payload-free run metric event v1",
+  "description": "Structural reference. vera_metrics.validate_event and aggregate additionally enforce finite decimal, lifecycle, identity, cutoff, cache-subset, exclusive-attribution and completeness invariants.",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "run_start"
+        },
+        "company_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "analysis_mode": {
+          "enum": [
+            "SCREEN",
+            "STANDARD",
+            "DEEP"
+          ]
+        },
+        "cache_state": {
+          "enum": [
+            "cold",
+            "warm",
+            "mixed",
+            "unknown"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean"
+        },
+        "collection_source": {
+          "enum": [
+            "adapter",
+            "manual",
+            "command_boundary",
+            "fixture"
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type",
+        "company_id",
+        "analysis_mode",
+        "cache_state",
+        "synthetic",
+        "collection_source"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "run_resume"
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "run_end"
+        },
+        "status": {
+          "enum": [
+            "completed",
+            "failed",
+            "cancelled",
+            "blocked"
+          ]
+        },
+        "capture_status": {
+          "enum": [
+            "complete",
+            "partial",
+            "unavailable"
+          ]
+        },
+        "data_cutoff": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "final_response_included": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type",
+        "status",
+        "capture_status",
+        "data_cutoff",
+        "final_response_included"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "worker_start"
+        },
+        "worker_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "parent_worker_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type",
+        "worker_id"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "attempt_start"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "worker_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "kind": {
+          "enum": [
+            "model",
+            "tool",
+            "jev"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "parent_attempt_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "provider": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "model_version": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "provider_request_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dispatch_role": {
+          "enum": [
+            "leaf",
+            "wrapper"
+          ]
+        },
+        "usage_scope": {
+          "const": "exclusive"
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type",
+        "attempt_id",
+        "worker_id",
+        "kind",
+        "name",
+        "usage_scope"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "attempt_end"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "status": {
+          "enum": [
+            "completed",
+            "failed",
+            "cancelled",
+            "blocked"
+          ]
+        },
+        "token_usage": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "input_tokens": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "maximum": 9223372036854775807
+                },
+                "cached_input_tokens": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "maximum": 9223372036854775807
+                },
+                "output_tokens": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "maximum": 9223372036854775807
+                },
+                "input_includes_cached": {
+                  "type": "boolean"
+                },
+                "source": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+                }
+              },
+              "required": [
+                "input_includes_cached",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "cost": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "amount": {
+                  "type": "string",
+                  "description": "Finite nonnegative Decimal string; executable validator enforces magnitude/precision bounds."
+                },
+                "complete": {
+                  "type": "boolean"
+                },
+                "basis": {
+                  "enum": [
+                    "invoice",
+                    "provider_reported",
+                    "estimate",
+                    "explicit_no_charge"
+                  ]
+                },
+                "price_version": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "currency",
+                "amount",
+                "complete",
+                "basis"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "prices": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "price_version": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+                },
+                "source": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+                },
+                "uncached_input_per_million": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "description": "Finite nonnegative Decimal string; executable validator enforces magnitude/precision bounds."
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "cached_input_per_million": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "description": "Finite nonnegative Decimal string; executable validator enforces magnitude/precision bounds."
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "output_per_million": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "description": "Finite nonnegative Decimal string; executable validator enforces magnitude/precision bounds."
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "currency",
+                "price_version",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type",
+        "attempt_id",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "vera.run-metrics/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "const": "memory_sample"
+        },
+        "worker_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "process_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "scope": {
+          "enum": [
+            "process_lifetime",
+            "run_isolated_process"
+          ]
+        },
+        "peak_rss_bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 9223372036854775807
+        },
+        "context_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 9223372036854775807
+        },
+        "storage_bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 9223372036854775807
+        },
+        "method": {
+          "enum": [
+            "getrusage_ru_maxrss",
+            "provider_reported",
+            "os_sample",
+            "fixture"
+          ]
+        },
+        "platform": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:/@+ -]{1,160}$"
+        },
+        "measurement_start": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "measurement_end": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "at",
+        "type",
+        "worker_id",
+        "process_id",
+        "scope",
+        "method",
+        "platform",
+        "measurement_end"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

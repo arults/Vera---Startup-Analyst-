@@ -1,0 +1,1131 @@
+{
+  "duplicate_event_count": 0,
+  "groups": [
+    {
+      "analysis_mode": "DEEP",
+      "cache_state": "cold",
+      "collection_source": "fixture",
+      "costs": [],
+      "final_response_included": false,
+      "memory_peak_groups": [],
+      "metrics": {
+        "cached_input_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "distinct_tool_count": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "output_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "tool_calls": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_input_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "uncached_input_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "wall_seconds": {
+          "max": 10.0,
+          "mean": 10.0,
+          "median": 10.0,
+          "min": 10.0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 10.0,
+          "p95": 10.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        }
+      },
+      "model_set": [
+        {
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "provider": "fixture"
+        }
+      ],
+      "n_runs": 1,
+      "status": "blocked",
+      "synthetic": true
+    },
+    {
+      "analysis_mode": "SCREEN",
+      "cache_state": "cold",
+      "collection_source": "fixture",
+      "costs": [
+        {
+          "basis": [
+            "estimate"
+          ],
+          "currency": "USD",
+          "eligible_n": 1,
+          "excluded_incompatible_count": 0,
+          "mean": "0.006",
+          "missing_count": 0,
+          "n": 1,
+          "price_versions": [
+            "synthetic-v1"
+          ],
+          "unknown_provenance_count": 0
+        }
+      ],
+      "final_response_included": true,
+      "memory_peak_groups": [
+        {
+          "eligible_n": 1,
+          "excluded_incompatible_count": 0,
+          "max": 1048576,
+          "mean": 1048576.0,
+          "measure": "max observed process peak; not simultaneous total",
+          "median": 1048576.0,
+          "method": "fixture",
+          "min": 1048576,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1048576.0,
+          "p95": 1048576.0,
+          "percentile_method": "linear interpolation; descriptive only",
+          "platform": "synthetic",
+          "scope": "run_isolated_process",
+          "unknown_provenance_count": 0
+        }
+      ],
+      "metrics": {
+        "cached_input_tokens": {
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 0.0,
+          "p95": 0.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "distinct_tool_count": {
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 0.0,
+          "p95": 0.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "output_tokens": {
+          "max": 500,
+          "mean": 500.0,
+          "median": 500.0,
+          "min": 500,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 500.0,
+          "p95": 500.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "tool_calls": {
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 0.0,
+          "p95": 0.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_input_tokens": {
+          "max": 1000,
+          "mean": 1000.0,
+          "median": 1000.0,
+          "min": 1000,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1000.0,
+          "p95": 1000.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_tokens": {
+          "max": 1500,
+          "mean": 1500.0,
+          "median": 1500.0,
+          "min": 1500,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1500.0,
+          "p95": 1500.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "uncached_input_tokens": {
+          "max": 1000,
+          "mean": 1000.0,
+          "median": 1000.0,
+          "min": 1000,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1000.0,
+          "p95": 1000.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "wall_seconds": {
+          "max": 10.0,
+          "mean": 10.0,
+          "median": 10.0,
+          "min": 10.0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 10.0,
+          "p95": 10.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        }
+      },
+      "model_set": [
+        {
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "provider": "fixture"
+        }
+      ],
+      "n_runs": 1,
+      "status": "completed",
+      "synthetic": true
+    },
+    {
+      "analysis_mode": "STANDARD",
+      "cache_state": "warm",
+      "collection_source": "fixture",
+      "costs": [
+        {
+          "basis": [
+            "estimate"
+          ],
+          "currency": "USD",
+          "eligible_n": 1,
+          "excluded_incompatible_count": 0,
+          "mean": null,
+          "missing_count": 1,
+          "n": 0,
+          "price_versions": [
+            "synthetic-v1"
+          ],
+          "unknown_provenance_count": 0
+        }
+      ],
+      "final_response_included": false,
+      "memory_peak_groups": [
+        {
+          "eligible_n": 1,
+          "excluded_incompatible_count": 0,
+          "max": 2097152,
+          "mean": 2097152.0,
+          "measure": "max observed process peak; not simultaneous total",
+          "median": 2097152.0,
+          "method": "fixture",
+          "min": 2097152,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 2097152.0,
+          "p95": 2097152.0,
+          "percentile_method": "linear interpolation; descriptive only",
+          "platform": "synthetic",
+          "scope": "run_isolated_process",
+          "unknown_provenance_count": 0
+        }
+      ],
+      "metrics": {
+        "cached_input_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "distinct_tool_count": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "output_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "tool_calls": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_input_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "uncached_input_tokens": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "missing_count": 1,
+          "n": 0,
+          "p90": null,
+          "p95": null,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "wall_seconds": {
+          "max": 10.0,
+          "mean": 10.0,
+          "median": 10.0,
+          "min": 10.0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 10.0,
+          "p95": 10.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        }
+      },
+      "model_set": [
+        {
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "provider": "fixture"
+        },
+        {
+          "model": "unknown",
+          "model_version": "unknown",
+          "provider": "unknown"
+        }
+      ],
+      "n_runs": 1,
+      "status": "completed",
+      "synthetic": true
+    },
+    {
+      "analysis_mode": "STANDARD",
+      "cache_state": "warm",
+      "collection_source": "fixture",
+      "costs": [
+        {
+          "basis": [
+            "estimate"
+          ],
+          "currency": "USD",
+          "eligible_n": 1,
+          "excluded_incompatible_count": 0,
+          "mean": "0.0272",
+          "missing_count": 0,
+          "n": 1,
+          "price_versions": [
+            "synthetic-tool-v1",
+            "synthetic-v1"
+          ],
+          "unknown_provenance_count": 0
+        }
+      ],
+      "final_response_included": true,
+      "memory_peak_groups": [
+        {
+          "eligible_n": 1,
+          "excluded_incompatible_count": 0,
+          "max": 3145728,
+          "mean": 3145728.0,
+          "measure": "max observed process peak; not simultaneous total",
+          "median": 3145728.0,
+          "method": "fixture",
+          "min": 3145728,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 3145728.0,
+          "p95": 3145728.0,
+          "percentile_method": "linear interpolation; descriptive only",
+          "platform": "synthetic",
+          "scope": "run_isolated_process",
+          "unknown_provenance_count": 0
+        }
+      ],
+      "metrics": {
+        "cached_input_tokens": {
+          "max": 800,
+          "mean": 800.0,
+          "median": 800.0,
+          "min": 800,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 800.0,
+          "p95": 800.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "distinct_tool_count": {
+          "max": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1.0,
+          "p95": 1.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "output_tokens": {
+          "max": 1500,
+          "mean": 1500.0,
+          "median": 1500.0,
+          "min": 1500,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1500.0,
+          "p95": 1500.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "tool_calls": {
+          "max": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 1.0,
+          "p95": 1.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_input_tokens": {
+          "max": 3000,
+          "mean": 3000.0,
+          "median": 3000.0,
+          "min": 3000,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 3000.0,
+          "p95": 3000.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "total_tokens": {
+          "max": 4500,
+          "mean": 4500.0,
+          "median": 4500.0,
+          "min": 4500,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 4500.0,
+          "p95": 4500.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "uncached_input_tokens": {
+          "max": 2200,
+          "mean": 2200.0,
+          "median": 2200.0,
+          "min": 2200,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 2200.0,
+          "p95": 2200.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        },
+        "wall_seconds": {
+          "max": 10.0,
+          "mean": 10.0,
+          "median": 10.0,
+          "min": 10.0,
+          "missing_count": 0,
+          "n": 1,
+          "p90": 10.0,
+          "p95": 10.0,
+          "percentile_method": "linear interpolation; descriptive only"
+        }
+      },
+      "model_set": [
+        {
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "provider": "fixture"
+        }
+      ],
+      "n_runs": 1,
+      "status": "completed",
+      "synthetic": true
+    }
+  ],
+  "runs": [
+    {
+      "analysis_mode": "SCREEN",
+      "attempt_count": 1,
+      "attempt_status_counts": {
+        "blocked": 0,
+        "cancelled": 0,
+        "completed": 1,
+        "failed": 0
+      },
+      "attempts": [
+        {
+          "attempt_id": "a1",
+          "cost": {
+            "basis": "estimate",
+            "complete": true,
+            "currency": "USD",
+            "expected_components": 3,
+            "known_components": 3,
+            "known_subtotal": "0.006",
+            "price_version": "synthetic-v1"
+          },
+          "dispatch_role": "leaf",
+          "kind": "model",
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "name": "analysis",
+          "parent_attempt_id": null,
+          "provider": "fixture",
+          "provider_request_id": "synthetic-request-0",
+          "status": "completed",
+          "worker_id": "root"
+        }
+      ],
+      "cache_state": "cold",
+      "capture_status": "complete",
+      "closure_wall_seconds": 10.0,
+      "collection_source": "fixture",
+      "company_id": "synthetic-company-0",
+      "cost_complete": true,
+      "cost_unknown_attempts": 0,
+      "costs": [
+        {
+          "basis": [
+            "estimate"
+          ],
+          "complete": true,
+          "complete_total": "0.006",
+          "currency": "USD",
+          "expected_attempts": 1,
+          "known_attempts": 1,
+          "known_subtotal": "0.006",
+          "price_versions": [
+            "synthetic-v1"
+          ]
+        }
+      ],
+      "data_cutoff": "2026-10-11T00:00:10Z",
+      "ended_at": "2026-10-11T00:00:10+00:00",
+      "final_response_included": true,
+      "memory": {
+        "expected_workers": 1,
+        "max_observed_isolated_process_peak_rss_bytes": 1048576,
+        "note": "Process-lifetime peaks may predate run. Never sum process peaks; context tokens and storage are separate.",
+        "processes": [
+          {
+            "context_tokens_max": 100,
+            "measurement_end": "2026-10-11T00:00:09Z",
+            "measurement_start": null,
+            "method": "fixture",
+            "peak_rss_bytes": 1048576,
+            "platform": "synthetic",
+            "process_id": "synthetic-process-0",
+            "scope": "run_isolated_process",
+            "storage_bytes_max": 1024,
+            "worker_ids": [
+              "root"
+            ]
+          }
+        ],
+        "simultaneous_total_peak_rss_bytes": null,
+        "workers_with_rss": 1
+      },
+      "model_attempt_count": 1,
+      "open_attempt_count": 0,
+      "resumes": 0,
+      "run_id": "synthetic-run-0",
+      "started_at": "2026-10-11T00:00:00+00:00",
+      "status": "completed",
+      "summed_attempt_seconds": 6.0,
+      "synthetic": true,
+      "tokens": {
+        "cached_input_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 0,
+          "status": "complete"
+        },
+        "output_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 500,
+          "status": "complete"
+        },
+        "total_input_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 1000,
+          "status": "complete"
+        },
+        "total_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 1500,
+          "status": "complete"
+        },
+        "uncached_input_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 1000,
+          "status": "complete"
+        }
+      },
+      "tool_attempt_count": 0,
+      "tool_calls": {
+        "complete": true,
+        "distinct_tool_count": 0,
+        "distinct_tools": [],
+        "known_subtotal": 0,
+        "observed_attempts": 0,
+        "status": "complete"
+      },
+      "wall_seconds": 10.0,
+      "worker_count": 1,
+      "wrapper_attempt_count": 0
+    },
+    {
+      "analysis_mode": "STANDARD",
+      "attempt_count": 2,
+      "attempt_status_counts": {
+        "blocked": 0,
+        "cancelled": 0,
+        "completed": 2,
+        "failed": 0
+      },
+      "attempts": [
+        {
+          "attempt_id": "a1",
+          "cost": {
+            "basis": "estimate",
+            "complete": false,
+            "currency": "USD",
+            "expected_components": 3,
+            "known_components": 1,
+            "known_subtotal": "0.008",
+            "price_version": "synthetic-v1"
+          },
+          "dispatch_role": "leaf",
+          "kind": "model",
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "name": "analysis",
+          "parent_attempt_id": null,
+          "provider": "fixture",
+          "provider_request_id": "synthetic-request-1",
+          "status": "completed",
+          "worker_id": "root"
+        },
+        {
+          "attempt_id": "jev1",
+          "cost": {
+            "basis": "unavailable",
+            "complete": false,
+            "currency": null,
+            "expected_components": 1,
+            "known_components": 0,
+            "known_subtotal": null,
+            "price_version": null
+          },
+          "dispatch_role": "leaf",
+          "kind": "jev",
+          "model": null,
+          "model_version": null,
+          "name": "synthetic-jev",
+          "parent_attempt_id": null,
+          "provider": null,
+          "provider_request_id": null,
+          "status": "completed",
+          "worker_id": "root"
+        }
+      ],
+      "cache_state": "warm",
+      "capture_status": "partial",
+      "closure_wall_seconds": 10.0,
+      "collection_source": "fixture",
+      "company_id": "synthetic-company-1",
+      "cost_complete": false,
+      "cost_unknown_attempts": 1,
+      "costs": [
+        {
+          "basis": [
+            "estimate"
+          ],
+          "complete": false,
+          "complete_total": null,
+          "currency": "USD",
+          "expected_attempts": 2,
+          "known_attempts": 1,
+          "known_subtotal": "0.008",
+          "price_versions": [
+            "synthetic-v1"
+          ]
+        }
+      ],
+      "data_cutoff": "2026-10-11T00:00:10Z",
+      "ended_at": "2026-10-11T00:00:10+00:00",
+      "final_response_included": false,
+      "memory": {
+        "expected_workers": 1,
+        "max_observed_isolated_process_peak_rss_bytes": 2097152,
+        "note": "Process-lifetime peaks may predate run. Never sum process peaks; context tokens and storage are separate.",
+        "processes": [
+          {
+            "context_tokens_max": 200,
+            "measurement_end": "2026-10-11T00:00:09Z",
+            "measurement_start": null,
+            "method": "fixture",
+            "peak_rss_bytes": 2097152,
+            "platform": "synthetic",
+            "process_id": "synthetic-process-1",
+            "scope": "run_isolated_process",
+            "storage_bytes_max": 2048,
+            "worker_ids": [
+              "root"
+            ]
+          }
+        ],
+        "simultaneous_total_peak_rss_bytes": null,
+        "workers_with_rss": 1
+      },
+      "model_attempt_count": 2,
+      "open_attempt_count": 0,
+      "resumes": 0,
+      "run_id": "synthetic-run-1",
+      "started_at": "2026-10-11T00:00:00+00:00",
+      "status": "completed",
+      "summed_attempt_seconds": 10.0,
+      "synthetic": true,
+      "tokens": {
+        "cached_input_tokens": {
+          "complete": false,
+          "expected_count": 2,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        },
+        "output_tokens": {
+          "complete": false,
+          "expected_count": 2,
+          "known_count": 1,
+          "known_subtotal": 1000,
+          "status": "partial"
+        },
+        "total_input_tokens": {
+          "complete": false,
+          "expected_count": 2,
+          "known_count": 1,
+          "known_subtotal": 2000,
+          "status": "partial"
+        },
+        "total_tokens": {
+          "complete": false,
+          "expected_count": 2,
+          "known_count": 1,
+          "known_subtotal": 3000,
+          "status": "partial"
+        },
+        "uncached_input_tokens": {
+          "complete": false,
+          "expected_count": 2,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        }
+      },
+      "tool_attempt_count": 1,
+      "tool_calls": {
+        "complete": false,
+        "distinct_tool_count": 1,
+        "distinct_tools": [
+          "synthetic-jev"
+        ],
+        "known_subtotal": 1,
+        "observed_attempts": 1,
+        "status": "partial"
+      },
+      "wall_seconds": 10.0,
+      "worker_count": 1,
+      "wrapper_attempt_count": 0
+    },
+    {
+      "analysis_mode": "STANDARD",
+      "attempt_count": 2,
+      "attempt_status_counts": {
+        "blocked": 0,
+        "cancelled": 0,
+        "completed": 2,
+        "failed": 0
+      },
+      "attempts": [
+        {
+          "attempt_id": "a1",
+          "cost": {
+            "basis": "estimate",
+            "complete": true,
+            "currency": "USD",
+            "expected_components": 3,
+            "known_components": 3,
+            "known_subtotal": "0.0172",
+            "price_version": "synthetic-v1"
+          },
+          "dispatch_role": "leaf",
+          "kind": "model",
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "name": "analysis",
+          "parent_attempt_id": null,
+          "provider": "fixture",
+          "provider_request_id": "synthetic-request-2",
+          "status": "completed",
+          "worker_id": "root"
+        },
+        {
+          "attempt_id": "tool1",
+          "cost": {
+            "basis": "estimate",
+            "complete": true,
+            "currency": "USD",
+            "expected_components": 1,
+            "known_components": 1,
+            "known_subtotal": "0.01",
+            "price_version": "synthetic-tool-v1"
+          },
+          "dispatch_role": "leaf",
+          "kind": "tool",
+          "model": null,
+          "model_version": null,
+          "name": "synthetic-search",
+          "parent_attempt_id": null,
+          "provider": null,
+          "provider_request_id": null,
+          "status": "completed",
+          "worker_id": "root"
+        }
+      ],
+      "cache_state": "warm",
+      "capture_status": "complete",
+      "closure_wall_seconds": 10.0,
+      "collection_source": "fixture",
+      "company_id": "synthetic-company-2",
+      "cost_complete": true,
+      "cost_unknown_attempts": 0,
+      "costs": [
+        {
+          "basis": [
+            "estimate"
+          ],
+          "complete": true,
+          "complete_total": "0.0272",
+          "currency": "USD",
+          "expected_attempts": 2,
+          "known_attempts": 2,
+          "known_subtotal": "0.0272",
+          "price_versions": [
+            "synthetic-tool-v1",
+            "synthetic-v1"
+          ]
+        }
+      ],
+      "data_cutoff": "2026-10-11T00:00:10Z",
+      "ended_at": "2026-10-11T00:00:10+00:00",
+      "final_response_included": true,
+      "memory": {
+        "expected_workers": 1,
+        "max_observed_isolated_process_peak_rss_bytes": 3145728,
+        "note": "Process-lifetime peaks may predate run. Never sum process peaks; context tokens and storage are separate.",
+        "processes": [
+          {
+            "context_tokens_max": 300,
+            "measurement_end": "2026-10-11T00:00:09Z",
+            "measurement_start": null,
+            "method": "fixture",
+            "peak_rss_bytes": 3145728,
+            "platform": "synthetic",
+            "process_id": "synthetic-process-2",
+            "scope": "run_isolated_process",
+            "storage_bytes_max": 3072,
+            "worker_ids": [
+              "root"
+            ]
+          }
+        ],
+        "simultaneous_total_peak_rss_bytes": null,
+        "workers_with_rss": 1
+      },
+      "model_attempt_count": 1,
+      "open_attempt_count": 0,
+      "resumes": 0,
+      "run_id": "synthetic-run-2",
+      "started_at": "2026-10-11T00:00:00+00:00",
+      "status": "completed",
+      "summed_attempt_seconds": 10.0,
+      "synthetic": true,
+      "tokens": {
+        "cached_input_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 800,
+          "status": "complete"
+        },
+        "output_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 1500,
+          "status": "complete"
+        },
+        "total_input_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 3000,
+          "status": "complete"
+        },
+        "total_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 4500,
+          "status": "complete"
+        },
+        "uncached_input_tokens": {
+          "complete": true,
+          "expected_count": 1,
+          "known_count": 1,
+          "known_subtotal": 2200,
+          "status": "complete"
+        }
+      },
+      "tool_attempt_count": 1,
+      "tool_calls": {
+        "complete": true,
+        "distinct_tool_count": 1,
+        "distinct_tools": [
+          "synthetic-search"
+        ],
+        "known_subtotal": 1,
+        "observed_attempts": 1,
+        "status": "complete"
+      },
+      "wall_seconds": 10.0,
+      "worker_count": 1,
+      "wrapper_attempt_count": 0
+    },
+    {
+      "analysis_mode": "DEEP",
+      "attempt_count": 1,
+      "attempt_status_counts": {
+        "blocked": 0,
+        "cancelled": 1,
+        "completed": 0,
+        "failed": 0
+      },
+      "attempts": [
+        {
+          "attempt_id": "a1",
+          "cost": {
+            "basis": "unavailable",
+            "complete": false,
+            "currency": null,
+            "expected_components": 1,
+            "known_components": 0,
+            "known_subtotal": null,
+            "price_version": null
+          },
+          "dispatch_role": "leaf",
+          "kind": "model",
+          "model": "fixture-model",
+          "model_version": "synthetic-v1",
+          "name": "analysis",
+          "parent_attempt_id": null,
+          "provider": "fixture",
+          "provider_request_id": "synthetic-request-3",
+          "status": "cancelled",
+          "worker_id": "root"
+        }
+      ],
+      "cache_state": "cold",
+      "capture_status": "unavailable",
+      "closure_wall_seconds": 10.0,
+      "collection_source": "fixture",
+      "company_id": "synthetic-company-3",
+      "cost_complete": false,
+      "cost_unknown_attempts": 1,
+      "costs": [],
+      "data_cutoff": "2026-10-11T00:00:10Z",
+      "ended_at": "2026-10-11T00:00:10+00:00",
+      "final_response_included": false,
+      "memory": {
+        "expected_workers": 1,
+        "max_observed_isolated_process_peak_rss_bytes": null,
+        "note": "Process-lifetime peaks may predate run. Never sum process peaks; context tokens and storage are separate.",
+        "processes": [],
+        "simultaneous_total_peak_rss_bytes": null,
+        "workers_with_rss": 0
+      },
+      "model_attempt_count": 1,
+      "open_attempt_count": 0,
+      "resumes": 0,
+      "run_id": "synthetic-run-3",
+      "started_at": "2026-10-11T00:00:00+00:00",
+      "status": "blocked",
+      "summed_attempt_seconds": 6.0,
+      "synthetic": true,
+      "tokens": {
+        "cached_input_tokens": {
+          "complete": false,
+          "expected_count": 1,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        },
+        "output_tokens": {
+          "complete": false,
+          "expected_count": 1,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        },
+        "total_input_tokens": {
+          "complete": false,
+          "expected_count": 1,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        },
+        "total_tokens": {
+          "complete": false,
+          "expected_count": 1,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        },
+        "uncached_input_tokens": {
+          "complete": false,
+          "expected_count": 1,
+          "known_count": 0,
+          "known_subtotal": null,
+          "status": "unavailable"
+        }
+      },
+      "tool_attempt_count": 0,
+      "tool_calls": {
+        "complete": false,
+        "distinct_tool_count": null,
+        "distinct_tools": [],
+        "known_subtotal": null,
+        "observed_attempts": 0,
+        "status": "unavailable"
+      },
+      "wall_seconds": 10.0,
+      "worker_count": 1,
+      "wrapper_attempt_count": 0
+    }
+  ],
+  "schema_version": "vera.run-metrics/1",
+  "warning": "Observed ledger only. No global runtime interception, inferred usage, or scientific approval."
+}

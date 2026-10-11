@@ -1,0 +1,31 @@
+name: Vera run metrics validation
+on:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/run-metrics-v0.1.0/**'
+      - '.github/workflows/vera-run-metrics-validation.yml'
+  pull_request:
+    paths:
+      - 'research/run-metrics-v0.1.0/**'
+      - '.github/workflows/vera-run-metrics-validation.yml'
+permissions:
+  contents: read
+jobs:
+  synthetic-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Verify exact triggering commit
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run isolated synthetic regressions
+        run: python -I -B -m unittest discover -s research/run-metrics-v0.1.0 -p 'test_*.py' -v
+      - name: Validate synthetic ledger and render dashboard
+        run: python -I -B research/run-metrics-v0.1.0/vera_metrics.py report research/run-metrics-v0.1.0/examples/synthetic.jsonl --output-dir "$RUNNER_TEMP/vera-run-metrics"
