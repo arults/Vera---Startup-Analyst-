@@ -697,3 +697,16 @@ See the later section of [the October 12 checkpoint](docs/PHASE_1D_2026_10_12_CH
 6. Parse and hash one consumed CSV byte buffer. Reopening an input path for its hash can bind calculations to a later version, including an optional prior; absent, empty and subsequently created files need distinct provenance states.
 7. Test interacting fixes together with controls for each single-fix configuration. Preserve exact composition and narrowly normalize only verified source-provenance differences; overlapping test reruns do not increase distinct coverage.
 8. Keep source interpretation, implementation verification, external model review, remote CI and publication gates explicit. Retain failed fixtures and corrected transformations, and distinguish coordinator-supplied network receipts from independently observed activity.
+
+## Conditional terms and observation-assumption lessons — 2026-10-12, completed through 19:28 UTC
+
+See the later section of [the October 12 checkpoint](docs/PHASE_1D_2026_10_12_CHECKPOINT.md). These numbered additions preserve all prior guidance and scientific/publication holds.
+
+1. Read operative conditions, amendments, holder-majority rules, event definitions, priorities and transfer restrictions before mapping an acquisition or reorganization to investor treatment. A template, proposed pool or set-aside amount is not execution, completed conversion or receipt.
+2. Keep source fidelity distinct from validator completeness. Challenge factual prose, every unresolved value, coverage metadata, sidecars and report content; a valid reviewed candidate can still sit behind an incomplete validator.
+3. Reject ambiguous raw JSON keys, nonfinite values, type aliases and unlisted package entries where a fixed package contract requires it. Bind consumed inputs before parsing, and retain an externally trusted package/code seal; self-consistency alone is not authenticity.
+4. Distinguish archive receipt, displayed publication, announced event, executed event and analytical clock. A recent capture of an old post is not current survival evidence, and a latest displayed date is not an automatic censoring endpoint.
+5. Count source units honestly. Reused native identifiers may require position-plus-identifier keys; retained cards, unique posts, campaigns, rounds, companies and independent origins are different units. Complete structural extraction is not complete semantic or historical coverage.
+6. Define the estimand separately from the resampling unit. Company-cluster uncertainty can accompany a round-weighted point; informative cluster size changes that target and does not imply an implementation bug.
+7. Evaluate observation assumptions as well as numerical correctness. Agreement between intervals is not evidence of independent censoring or nominal coverage; preserve Monte Carlo limits, fixed thresholds, shared randomness and conditional model scope.
+8. State the caller and admission gates actually exercised. A direct additive-guard benchmark cannot certify an active reporting entrypoint or an unexecuted ascertainment gate. Keep local verification, JEV, publication and scientific admission separate, and rebase stale documentation before publishing a held code proposal.
