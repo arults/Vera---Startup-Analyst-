@@ -49,3 +49,7 @@ The integration commit's [Phase 1B](https://github.com/arults/Vera---Startup-Ana
 A separate fourteen-campaign review now has independently supported local proposals, holds and first-live exclusions (checkpoint section 19). Its final JEV review awaits specific disclosure authorization; none is added to the two-row research ledger. The scientific study remains incomplete.
 
 [The fourteen-campaign source-review checkpoint](data/phase1d/cp10/tranche14-source-review/README.md) preserves the reviewed proposals, holds, original source references and portable hash lineage for resuming the work.
+
+## Endpoint-specific evidence planning v0.1.0
+
+Use [the endpoint requirements planner](research/endpoint-evidence-v0.1.0/README.md) to choose a survival, qualifying-company-success or investor-cash-return work queue before collecting evidence. Its 38-field map makes irrelevant facts optional and branch/method-dependent facts conditional. It does not modify the frozen preparation audit, empirical caller, results, active plugin or numerical-release gates. The package includes synthetic examples and tests; empirical pilot and production adoption remain separate.

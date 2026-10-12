@@ -1,0 +1,119 @@
+[
+  {
+    "applicability": {},
+    "estimator_compatibility": "NOT_VERIFIED",
+    "evidence_eligibility": "NOT_ADJUDICATED",
+    "fictional": true,
+    "name": "Survival without investor contracts",
+    "numeric_release": "NOT_AUTHORIZED_BY_PLAN",
+    "omitted_ids": [
+      "investor_payout_and_contract_detail",
+      "nonterminal_success_qualification",
+      "comparable_priced_valuations",
+      "exit_consideration_or_gross_moic"
+    ],
+    "queue_ids": [
+      "identity_unit",
+      "target_clock",
+      "frame_dispositions",
+      "provenance_observation",
+      "method_compatibility",
+      "funded_round_origin",
+      "platform_offering_year",
+      "independent_operation_entry",
+      "operating_endpoint_evidence",
+      "exact_relevant_chronology",
+      "decision_material_enrichment",
+      "systematic_missingness_review"
+    ],
+    "spec": {
+      "endpoint": "operating_survival",
+      "field_breakdown": false,
+      "frame": "funded_rounds",
+      "method": "exact_history",
+      "platform_year": true,
+      "purpose": "historical_endpoint"
+    }
+  },
+  {
+    "applicability": {
+      "comparable_priced_valuations": {
+        "rationale": "Fictional independently qualifying IPO, no multiple branch needed",
+        "review_ref": "fictional-ipo-policy-v1",
+        "status": "FALSE"
+      },
+      "exit_consideration_or_gross_moic": {
+        "rationale": "Fictional IPO, no acquisition/profitable-exit branch needed",
+        "review_ref": "fictional-ipo-policy-v1",
+        "status": "FALSE"
+      }
+    },
+    "estimator_compatibility": "NOT_VERIFIED",
+    "evidence_eligibility": "NOT_ADJUDICATED",
+    "fictional": true,
+    "name": "IPO-qualified composite success",
+    "numeric_release": "NOT_AUTHORIZED_BY_PLAN",
+    "omitted_ids": [
+      "comparable_priced_valuations",
+      "exit_consideration_or_gross_moic",
+      "investor_10x_payouts"
+    ],
+    "queue_ids": [
+      "identity_unit",
+      "target_clock",
+      "frame_dispositions",
+      "provenance_observation",
+      "method_compatibility",
+      "funded_round_origin",
+      "platform_offering_year",
+      "index_relative_entry_success",
+      "typed_composite_success",
+      "relevant_success_competition",
+      "exact_relevant_chronology",
+      "decision_material_enrichment",
+      "systematic_missingness_review"
+    ],
+    "spec": {
+      "endpoint": "qualifying_company_success",
+      "field_breakdown": false,
+      "frame": "funded_rounds",
+      "method": "exact_history",
+      "platform_year": true,
+      "purpose": "historical_endpoint"
+    }
+  },
+  {
+    "applicability": {},
+    "estimator_compatibility": "NOT_VERIFIED",
+    "evidence_eligibility": "NOT_ADJUDICATED",
+    "fictional": true,
+    "name": "Proposed investor cash-return forecast",
+    "numeric_release": "NOT_AUTHORIZED_BY_PLAN",
+    "omitted_ids": [
+      "observed_net_cash",
+      "future_realized_payouts"
+    ],
+    "queue_ids": [
+      "identity_unit",
+      "target_clock",
+      "frame_dispositions",
+      "provenance_observation",
+      "method_compatibility",
+      "declared_entry_origin",
+      "net_cash_target",
+      "entry_terms_return_mapping",
+      "calibration_uncertainty",
+      "numeric_release_reviews",
+      "decision_material_enrichment",
+      "systematic_missingness_review"
+    ],
+    "spec": {
+      "endpoint": "investor_moic",
+      "field_breakdown": false,
+      "frame": "proposed_position",
+      "method": "forecast_model",
+      "platform_year": false,
+      "purpose": "forecast"
+    }
+  }
+]
