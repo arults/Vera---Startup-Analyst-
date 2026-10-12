@@ -710,3 +710,17 @@ See the later section of [the October 12 checkpoint](docs/PHASE_1D_2026_10_12_CH
 6. Define the estimand separately from the resampling unit. Company-cluster uncertainty can accompany a round-weighted point; informative cluster size changes that target and does not imply an implementation bug.
 7. Evaluate observation assumptions as well as numerical correctness. Agreement between intervals is not evidence of independent censoring or nominal coverage; preserve Monte Carlo limits, fixed thresholds, shared randomness and conditional model scope.
 8. State the caller and admission gates actually exercised. A direct additive-guard benchmark cannot certify an active reporting entrypoint or an unexecuted ascertainment gate. Keep local verification, JEV, publication and scientific admission separate, and rebase stale documentation before publishing a held code proposal.
+
+## Full-context and frame-overlap lessons — 2026-10-12, completed through 20:28 UTC
+
+See the final source-scope section of [the October 12 checkpoint](docs/PHASE_1D_2026_10_12_CHECKPOINT.md). These numbered additions preserve all earlier guidance and admission holds.
+
+1. Read the full saved context and identify the subject of each event. Supplier financing, a neighboring company's sale, an issuer's acquisition goal and its completed transaction are different claims; keyword matches do not resolve attribution.
+2. Preserve adverse and positive operating evidence together. Backlog loss, production delays and continuing-operation assertions each have source-specific limits; none alone establishes revenue, insolvency, uninterrupted survival or holder return.
+3. Distinguish promised, delayed, delivered, functional and deployed equipment. A passing fixed-packet integrity test can preserve an unsupported implication, so independent semantic review and versioned corrections remain necessary.
+4. Compare financial labels and accounting scope before calculating growth. Revenue, system-wide sales, guest lower bounds, location stocks, development commitments and loyalty counts are not interchangeable measures or independent confirmations.
+5. Review security continuity across reorganizations without moving the financing origin or assuming holder-level execution. Aggregate outstanding-SAFE disclosures can support bounded issuer history while conversion, distribution, priority and individual continuity remain unresolved.
+6. Check cohort eligibility before assigning research priority. Multi-game portfolios and property/series structures require explicit scope qualifications; more detailed source evidence does not automatically make them individual-startup observations.
+7. Keep a frame row, native profile, canonical company, economic round and reviewed excerpt distinct. An unavailable earlier selection prevents union-coverage arithmetic; a matching normalized name is a review flag, not a merge authorization.
+8. Report the exact semantic subset and its exclusions. A complete post-completion excerpt census does not read every issuer excerpt or linked body; editorial prior-context overlap is not demonstrated prior card-level review.
+9. Retain exact predecessor seals, controlling qualifications and observed completion bounds. Separate source authenticity, inherited commit-to-tree lineage, portable integrity, semantic acceptance, external review and scientific promotion.
