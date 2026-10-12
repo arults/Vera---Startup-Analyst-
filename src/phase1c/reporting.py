@@ -15,6 +15,14 @@ def _validate_count(value: int, name: str) -> None:
     if not valid:
         raise ValueError(f"invalid_count:{name}")
 
+def _validate_year(year: int) -> None:
+    """Require an unambiguous offering-year key inside the frozen study scope."""
+    if isinstance(year, bool) or not isinstance(year, Integral):
+        raise ValueError("invalid_year")
+    if not 2020 <= year <= 2025:
+        raise ValueError("year_out_of_scope")
+
+
 def _validate_coverage(value: float) -> None:
     if isinstance(value, bool) or not isinstance(value, Real) or not 0 <= value <= 1:
         raise ValueError("invalid_ascertainment_coverage")
@@ -35,6 +43,7 @@ class CellStats:
     ascertained: int
 
     def __post_init__(self) -> None:
+        _validate_year(self.year)
         _validate_count(self.n, "n")
         _validate_count(self.informative_events, "informative_events")
         _validate_count(self.ascertained, "ascertained")
@@ -80,12 +89,13 @@ def rq2_field_cell_decision(n: int, informative_events: int, ascertainment_cover
     return CellDecision(ok,not ok,not ok,tuple(reasons))
 
 def maturity_block(year: int) -> str:
+    _validate_year(year)
     if year in {2020,2021,2022,2023}: return "2020_2023"
     if year in {2024,2025}: return "2024_2025"
     raise ValueError("year_out_of_scope")
 
 def adjacent_pool_order(year: int) -> list[int]:
-    block=[2020,2021,2022,2023] if year<=2023 else [2024,2025]
+    block=[2020,2021,2022,2023] if maturity_block(year)=="2020_2023" else [2024,2025]
     return sorted(block,key=lambda y:(abs(y-year),y))
 
 def pool_adjacent_years(target_year: int, cells: list[CellStats]) -> PoolResult:
@@ -93,7 +103,15 @@ def pool_adjacent_years(target_year: int, cells: list[CellStats]) -> PoolResult:
     Expand within the target maturity block until RQ2 gates pass.
     This function never silently crosses the 2023/2024 boundary.
     """
-    by_year={c.year:c for c in cells}
+    # Validate the complete supplied cell list before any early reporting return.
+    # A repeated year is not an instruction to drop, sum or choose one cell.
+    _validate_year(target_year)
+    by_year={}
+    for cell in cells:
+        _validate_year(cell.year)
+        if cell.year in by_year:
+            raise ValueError("duplicate_year_cell")
+        by_year[cell.year]=cell
     selected=[]
     last_reasons=()
     for year in adjacent_pool_order(target_year):

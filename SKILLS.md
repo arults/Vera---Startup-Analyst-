@@ -630,3 +630,12 @@ These lessons arise from the independently reviewed BuyAlerts/Reental pass. They
 9. Keep issued-security principal, rolling-close locked funds and final campaign totals in their own source-defined fields. Multiple closings within one observed offering do not create extra rounds, establish a common entry date for every investor or justify an unsupported net-cash reconciliation.
 10. Do not turn an exact reviewed subset's guardrails into universal scientific requirements. A subset's unknown first-close field does not require later well-supported first-close facts to remain unknown. Preserve wider prior/private financing relationships and downstream holds rather than silently resolving them through local research admission.
 11. Verify every applied additive release independently against its exact reviewed proposal and unchanged base. Preserve prior records, permit only declared administrative status transitions, reject duplicates and conflicting existing outputs, and confirm identical replay performs no write. Record source review, model critique, focused regressions and applied-artifact verification separately; none establishes population coverage or estimator readiness.
+
+
+## RQ2 offering-year key integrity — 2026-10-12
+
+These are synthetic engineering lessons, not empirical source or cohort findings. See [the scoped regression report](docs/PHASE_1D_POOL_KEY_INTEGRITY.md).
+
+1. Validate the requested offering year and every supplied cell key before selecting a maturity block. An out-of-scope target must not borrow a neighboring in-scope cell and become reportable.
+2. Reject repeated year cells before any early reporting return. Do not silently keep the last row, sum conflicting rows or deduplicate them; first resolve the caller's cell identity and aggregation contract.
+3. Verify valid-input preservation separately from malformed-input rejection. Differential and permutation tests support implementation compatibility, not population coverage, outcome qualification, investor-return calibration or Phase 1D completion.
