@@ -649,3 +649,14 @@ These lessons describe a separately imported synthetic numerical-reporting safeg
 2. Check probability domains before clipping interval endpoints. Materially invalid or nonfinite upstream values must fail closed; a reporting guard must not convert them into plausible probabilities.
 3. Verify boundary and interior constant-statistic examples with an independently constructed exact-rational reference. Retain unsupported/undefined/NOT_RUN precedence and company-cluster multiplicity; do not redraw or filter inconvenient samples.
 4. Keep dependency integrity, software correctness, caller adoption and empirical inference as separate claims. An additive guard does not repair legacy imports automatically or establish source eligibility, nominal coverage or calibration.
+
+
+## Source precision and matched-caller lessons — 2026-10-12
+
+These bounded lessons preserve prior study rules and admission gates. See [the checkpoint](docs/PHASE_1D_2026_10_12_CHECKPOINT.md).
+
+1. Distinguish exact fractions from rounded decimal displays. Preserve numerator and denominator when an exact source comparison is available; label the display precision rather than calling a finite rounded ratio exact.
+2. Bind every recovered archive to its actual collection stage. A later authenticated campaign capture does not authenticate the earlier extraction bytes, even when fields agree. Hash lineage and historical availability are separate claims.
+3. Keep corporate instruments separate from underlying project investments. Conditional ASA/convertible caps, fallback prices, expected income and project-investor returns do not establish an actual priced corporate round, realized revenue or corporate-shareholder return.
+4. When a source-reading or shadow interface hashes an input, parse those same captured bytes. Reopening the file after hashing can produce a report whose provenance hash describes different content. Verify this with a deterministic mutation test.
+5. Treat a failed defect hypothesis as a result. If saved raw and normalized dates agree and the suspected footer does not match the parser, record the bounded negative result and remaining source-scope limitations rather than modifying code without a reproduced defect.

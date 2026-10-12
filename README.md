@@ -2,7 +2,11 @@
 
 Vera is a probabilistic startup-investment research system. It treats startup outcomes as evidence-backed distributions, preserves provenance, and promotes empirical priors only after independent verification.
 
-## Current verified checkpoint — October 11, 2026
+## Bounded checkpoint — October 12, 2026
+
+The [October 12 checkpoint](docs/PHASE_1D_2026_10_12_CHECKPOINT.md) records two verified engineering changes, matched synthetic shadow evaluation, targeted source follow-up and unresolved scientific gates. The RQ2 key-integrity fix is in the existing reporting function; the numerical uncertainty guard is additive and does not migrate empirical callers automatically. Scientific Phase 1D remains incomplete, with no new numeric prior or active-plugin promotion.
+
+## Prior verified checkpoint — October 11, 2026
 
 **Scientific Phase 1D remains INCOMPLETE.** Global research plateau has not been demonstrated, and no new Phase 1D numerical prior or calibrated investor-return probabilities are promoted. The October 11 release records the active private analyst plugin as **0.3.13**; the latest promoted **framework** release remains **v0.5.0**. These version numbers describe different artifacts.
 
