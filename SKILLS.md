@@ -616,3 +616,12 @@ These lessons arise from the independently reviewed BuyAlerts/Reental pass. They
 4. **Retain cap conflicts and unsigned-form limits.** Where a summary and attached SAFE disagree, preserve both source statements and keep the operative cap unresolved. An unexecuted form does not prove investor-specific terms, realized repricing, a down round or a comparable priced valuation.
 5. **Keep offering boundaries distinct even when amounts match.** A conditional concurrent accredited-investor offering cannot establish that the Reg CF maximum changed or that additional securities were actually sold. Campaign-link labels identify sources to inspect, not their effective contents.
 6. **Separate deadline changes from actual-close evidence.** Preserve version-specific deadlines, residual body wording, platform completion labels and source dates separately. A later deadline can coexist with permitted early closing; neither automatically disproves the other. Keep outside filings as labelled context unless a versioned policy permits their study use.
+## Source-bound research application lessons
+
+1. Keep original source-review and proposal receipts immutable. A later application has its own exact-byte decision and applied-release review.
+2. Distinguish native final campaign completion from the earliest investor security closing. Do not invent an estimator clock to fill a missing first-close date.
+3. Preserve exact page anchors for offered conversion caps and tiers. An offered cap, stock price or issuer-stated implied valuation is not automatically an operative or comparable realized valuation.
+4. Keep campaign-only amounts separate from combined public/private headers. Cap tiers do not themselves create additional economic rounds, and conditional outside financing is not an observed event.
+5. Apply a reviewed finite batch through a deterministic additive operation that verifies its base, rejects duplicate identities and never overwrites an existing different release.
+6. Test identity, source attribution, temporal meaning, immutable replay and before/after counts separately from outcome ascertainment, historical coverage and estimator readiness.
+7. Use case-bound model critique to help resolve decisions; keep its probability and confidence separate from source evidence, empirical quality scores and publication authority.
