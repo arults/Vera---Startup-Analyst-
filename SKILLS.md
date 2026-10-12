@@ -639,3 +639,13 @@ These are synthetic engineering lessons, not empirical source or cohort findings
 1. Validate the requested offering year and every supplied cell key before selecting a maturity block. An out-of-scope target must not borrow a neighboring in-scope cell and become reportable.
 2. Reject repeated year cells before any early reporting return. Do not silently keep the last row, sum conflicting rows or deduplicate them; first resolve the caller's cell identity and aggregation contract.
 3. Verify valid-input preservation separately from malformed-input rejection. Differential and permutation tests support implementation compatibility, not population coverage, outcome qualification, investor-return calibration or Phase 1D completion.
+
+
+## Operating uncertainty machine-precision lessons — 2026-10-12
+
+These lessons describe a separately imported synthetic numerical-reporting safeguard. They do not change frozen estimator dependencies or existing empirical callers. See [the reviewed guard checkpoint](docs/PHASE_1D_OPERATING_NUMERICAL_GUARDS.md).
+
+1. A machine-sized spread is not evidence of informative uncertainty. Preserve exact and numerical degeneracy separately, the raw draws and raw mathematical point, and explicitly disclose any conservative roundoff tolerance.
+2. Check probability domains before clipping interval endpoints. Materially invalid or nonfinite upstream values must fail closed; a reporting guard must not convert them into plausible probabilities.
+3. Verify boundary and interior constant-statistic examples with an independently constructed exact-rational reference. Retain unsupported/undefined/NOT_RUN precedence and company-cluster multiplicity; do not redraw or filter inconvenient samples.
+4. Keep dependency integrity, software correctness, caller adoption and empirical inference as separate claims. An additive guard does not repair legacy imports automatically or establish source eligibility, nominal coverage or calibration.

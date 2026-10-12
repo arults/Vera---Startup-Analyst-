@@ -1,0 +1,17 @@
+{
+  "repository": "arults/Vera---Startup-Analyst-",
+  "commit": "de1f7b9b375618cf92fe12339e420cf07a0f48f1",
+  "relative_directory": "../explicit-history-statistics-v0.2.0",
+  "git_blob_sha1": {
+    "aj_explicit_history.py": "a71beeaed288f89d0886f4d3fd4dd30c0089cbc4",
+    "aj_ij.py": "b7044aae48b3d315ed94c3a8af8676659f3a0aaa",
+    "first_success.py": "72024eb253c8b5dad9af85e98c87f3edb4c79e99",
+    "lost_followup_sensitivity.py": "84c045f69d8ab60bfbc6123dccf5a71a027758ca",
+    "statistical_reporting.py": "82c8568c42aa5f9e3926a37236c14e2c52d661a9",
+    "test_aj_explicit_history.py": "80eefdb0a4fa7d1710952961d4fe831bf95eb069",
+    "test_aj_ij.py": "e8f133f15ac791bf1d69da4339f47aba3db1f2c6",
+    "test_first_success.py": "c1a4292190169d560326ee2d11eb8a2c99ff4ebc",
+    "test_lost_followup_sensitivity.py": "3133453eb78ef3f370a4876bd84fec4d8f2f7806",
+    "test_statistical_reporting.py": "b73d3cc86dbcc1bd860b9b4a1dab90b33c40592d"
+  }
+}
