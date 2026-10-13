@@ -1,0 +1,18 @@
+{
+  "bytes": 91193,
+  "campaign_url": "https://republic.com/preemadonna",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/preemadonna/show_updates",
+  "gzip_sha256": "e300b8425fe684db6d67b04ef24dcff157da0b9577736197c2e225ba987c27a9",
+  "http_status": 200,
+  "parent_sha256": "52198278f439346339350250d1dc1d6a6d01ed5f3d202582c61819f4b652d1cc",
+  "raw_sha256": "6a759b097d0c3cfc8abeb79f15c96deae8bf04e8ffd606952102e39f22fd0b27",
+  "received_at": "2026-10-10T02:35:28.865522+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:28.247195+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6a759b097d0c3cfc8abeb79f15c96deae8bf04e8ffd606952102e39f22fd0b27.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/preemadonna/show_updates"
+}

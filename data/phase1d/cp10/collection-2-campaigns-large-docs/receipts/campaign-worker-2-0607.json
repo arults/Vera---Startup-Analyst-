@@ -1,0 +1,18 @@
+{
+  "bytes": 158230,
+  "campaign_url": "https://republic.com/three-sages",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/three-sages/show_updates",
+  "gzip_sha256": "8cae698bb867f2ee54199dd71970238f5d4c478fed39d4f63896f185fd019019",
+  "http_status": 200,
+  "parent_sha256": "50a9c047172f6fe036a7ab95e34d3c754573b6941e1fb64b2603c7be84f5a0b7",
+  "raw_sha256": "97d243b75383381e9e85fe06a905e3d5127fba6eb7bbae440f97d2fed28e7e0e",
+  "received_at": "2026-10-10T02:38:18.262179+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:17.344890+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/97d243b75383381e9e85fe06a905e3d5127fba6eb7bbae440f97d2fed28e7e0e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/three-sages/show_updates"
+}

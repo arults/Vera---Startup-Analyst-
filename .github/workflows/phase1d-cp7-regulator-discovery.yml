@@ -1,0 +1,42 @@
+name: Phase 1D CP7 regulator discovery inventory
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp7-regulator-discovery.yml]
+permissions:
+  contents: write
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python -m src.phase1d.capture_cp7_regulator_discovery
+      - name: Persist regulator discovery only
+        run: |
+          git config user.name 'Vera research checkpoint'
+          git config user.email '109891188+arults@users.noreply.github.com'
+          git add data/phase1d/cp7/cycle-5-regulator-discovery
+          git diff --cached --name-status > /tmp/vera-changes.txt
+          if grep -v '^A' /tmp/vera-changes.txt; then exit 1; fi
+          git commit -m 'CP7 cycle 5: official regulator inventory, not platform census or outcome promotion'
+          git push origin HEAD:phase-1d
+      - name: Export evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp7-regulator
+          if test -d data/phase1d/cp7/cycle-5-regulator-discovery; then tar -czf /tmp/vera-cp7-regulator/research.tar.gz data/phase1d/cp7/cycle-5-regulator-discovery; fi
+          git rev-parse HEAD > /tmp/vera-cp7-regulator/commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp7-regulator-${{ github.run_id }}
+          path: /tmp/vera-cp7-regulator/
+          retention-days: 90
+          if-no-files-found: error

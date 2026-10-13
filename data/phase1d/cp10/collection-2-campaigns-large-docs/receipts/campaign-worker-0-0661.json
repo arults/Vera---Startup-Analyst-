@@ -1,0 +1,18 @@
+{
+  "bytes": 21366,
+  "campaign_url": "https://republic.com/zelf",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/zelf/show_updates",
+  "gzip_sha256": "433fe6362b3e30427848c694c1aa122a71aa58cc6c01bfd090014fb8799e0b96",
+  "http_status": 200,
+  "parent_sha256": "48d47d581c6e565e325da97441c5daba54f0d1e8431b1b736ba08a3945c81175",
+  "raw_sha256": "7c1dbcda3c58d2dbc3cf60a7d2bd1c7f95340718bf6a93bcab753265f5b4a296",
+  "received_at": "2026-10-10T02:39:23.326351+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:22.766438+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7c1dbcda3c58d2dbc3cf60a7d2bd1c7f95340718bf6a93bcab753265f5b4a296.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/zelf/show_updates"
+}

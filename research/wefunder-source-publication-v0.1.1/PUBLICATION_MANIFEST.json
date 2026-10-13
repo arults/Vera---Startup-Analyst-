@@ -1,0 +1,196 @@
+{
+  "version": "wf-source-evidence-publication-v0.1.1",
+  "created_at_utc": "2026-10-11T15:48:48.168389+00:00",
+  "repository": "arults/Vera---Startup-Analyst-",
+  "branch": "phase-1d",
+  "files_excluding_manifest": 22,
+  "bytes_excluding_manifest": 58619,
+  "files": [
+    {
+      "local_relative_path": "research/quadrant-authority-supplement-v0.1.0/README.md",
+      "repository_path": "research/quadrant-authority-supplement-v0.1.0/README.md",
+      "bytes": 1943,
+      "utf8_characters": 1937,
+      "sha256": "661cc535fc485099819d1ea54695ef4a2c9993438d628e13b45e89cfa8c917b2",
+      "git_blob_sha": "4da8ae42ddd0d986a135a51e422ae785d1eeef9a"
+    },
+    {
+      "local_relative_path": "research/quadrant-authority-supplement-v0.1.0/evidence-supplement.json",
+      "repository_path": "research/quadrant-authority-supplement-v0.1.0/evidence-supplement.json",
+      "bytes": 8867,
+      "utf8_characters": 8867,
+      "sha256": "70da17fb67ed6883051835e476a08047e7c1ce207371a930b5a8bf1032805f5e",
+      "git_blob_sha": "5f8620f50afb1ca142e75eff067fd9bf8f02eba0"
+    },
+    {
+      "local_relative_path": "research/quadrant-authority-supplement-v0.1.0/hashmanifest.json",
+      "repository_path": "research/quadrant-authority-supplement-v0.1.0/hashmanifest.json",
+      "bytes": 184,
+      "utf8_characters": 184,
+      "sha256": "4674318ad3f46213fefb437ea80b1f066bd4633153cea70386e7d218bd60cb45",
+      "git_blob_sha": "fe9a158ecdfd6bfbfbc469d1160ba454b766fcf1"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/README.md",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/README.md",
+      "bytes": 3471,
+      "utf8_characters": 3471,
+      "sha256": "cb4594c9c2179b80fd7978543859215f5f533adeeac8a06b9a7a6cabe5769f7e",
+      "git_blob_sha": "2702a8ed38c99b9923f5df3db0eb088820259f91"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/evidence-packet.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/evidence-packet.json",
+      "bytes": 6172,
+      "utf8_characters": 6172,
+      "sha256": "f869a8c374699e4feaa80b6819f7cfcc61ee7dc1c148dd485d0fb7435bc70995",
+      "git_blob_sha": "d065b74593625fd9e1b0d38202d762ab12b091b5"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/lineage/original-packet-hashmanifest.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/lineage/original-packet-hashmanifest.json",
+      "bytes": 2166,
+      "utf8_characters": 2166,
+      "sha256": "53f8715009629cfdfee2395511a96484e406dcb40ea69a0a2f2ce0f1eb75ced0",
+      "git_blob_sha": "bb91df1310c5ca246982f58be468f68bc2c9a926"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/run-log.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/run-log.json",
+      "bytes": 2884,
+      "utf8_characters": 2884,
+      "sha256": "56bdad359a5e5efc9ddae72628fd9695db8e71ec61fdccb047186486df335fc2",
+      "git_blob_sha": "38636d66543ec7107bc4eb0593ddcc9e7f4acdb0"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S01.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S01.json",
+      "bytes": 1053,
+      "utf8_characters": 1053,
+      "sha256": "82bcb681617daf032ba85c3eeaf10ee7f935f8c36c45675f6a009246070827e9",
+      "git_blob_sha": "dc9a2f8b56b6d412d187a54597cff47ee8395f6e"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S02.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S02.json",
+      "bytes": 1147,
+      "utf8_characters": 1147,
+      "sha256": "507f4e6d81f431a88858563f6abfc98cd70c740973a5d3699bf1c8d3618a09d2",
+      "git_blob_sha": "e6e24c59d8b62949dc27e1d985b2d6806a77d93b"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S03.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S03.json",
+      "bytes": 1244,
+      "utf8_characters": 1244,
+      "sha256": "2e6b33e54ecee7b955ba0976d957210d897f49d75b1669879e6d50e364f3d93b",
+      "git_blob_sha": "ecce043ade27e580abf70a142442d62571986142"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S04.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S04.json",
+      "bytes": 896,
+      "utf8_characters": 896,
+      "sha256": "75cc232faba12d8331105f94b8cc28d5a06f589cd58ef1b10d05def1a523b618",
+      "git_blob_sha": "ba36875a76401961ed32ff1d250e4854bdfe833e"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S05.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S05.json",
+      "bytes": 813,
+      "utf8_characters": 813,
+      "sha256": "5df8d6a14bd06d9e50789caab3146b87673ff9b805da2b54123392b05e14a0ec",
+      "git_blob_sha": "43f4594facac78969be963bdd1a2ff24143a6d60"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S06.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S06.json",
+      "bytes": 796,
+      "utf8_characters": 796,
+      "sha256": "53e0531c1efd591a26dbf30f652a923c21696066de65d1abf16b70ab530404c8",
+      "git_blob_sha": "33daabf970be9d954a195ea0e7243116c4cff91f"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/sources/S07.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/sources/S07.json",
+      "bytes": 1171,
+      "utf8_characters": 1171,
+      "sha256": "2192a62512514026ea85949f29e5ac26289fce5ab68d285cabe53be3696f9aae",
+      "git_blob_sha": "d8b0a661b0fe53bcb84b0136ced81e0725d02023"
+    },
+    {
+      "local_relative_path": "research/wefunder-followup-evidence-v0.1.1/verification.json",
+      "repository_path": "research/wefunder-followup-evidence-v0.1.1/verification.json",
+      "bytes": 1206,
+      "utf8_characters": 1206,
+      "sha256": "31ba474f6d6d7de5b24b460eee78bb9dade1e5130ebe079b24c3cc3b11c7abf0",
+      "git_blob_sha": "d82654083bb67f39790cd3e2194d159fb1efa6a2"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/PUBLICATION_SCOPE.json",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/PUBLICATION_SCOPE.json",
+      "bytes": 1733,
+      "utf8_characters": 1733,
+      "sha256": "d70bb52b3d631ba627eaeb6e08431098d7515a8b430c17a34c98737a6fcd3424",
+      "git_blob_sha": "b2eaa69e338ca9dc6dd9a4947c54df4ab8c44bbb"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/README.md",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/README.md",
+      "bytes": 2233,
+      "utf8_characters": 2233,
+      "sha256": "0f5043d476d6f90265810631e79fccd8f193da0f4006b4ef0d5e5ae1d34ca3a3",
+      "git_blob_sha": "669c4cb2dc6140749d7b0a5dca31620f2b7a236e"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/REVIEWED_PAYLOAD_INVENTORY.json",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/REVIEWED_PAYLOAD_INVENTORY.json",
+      "bytes": 3996,
+      "utf8_characters": 3996,
+      "sha256": "36c2497b60479fd6bfa4f46a08d7f399005ca7db361d1a207ac510f51238fd12",
+      "git_blob_sha": "12c8eaa166244b49ce8b35dd0b93d81466f88026"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/legacy-input-references.json",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/legacy-input-references.json",
+      "bytes": 8858,
+      "utf8_characters": 8858,
+      "sha256": "be0ff61c7678c68d94a31eac9ef873784f6430f740244e98fa2d3089cb3c8b57",
+      "git_blob_sha": "9a8bfe83a31eb993ae8cc9fd12d12a269fc43b6e"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/minimized-publication-review.json",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/minimized-publication-review.json",
+      "bytes": 2429,
+      "utf8_characters": 2429,
+      "sha256": "944728234f87e06e9e5a1629aebf1f84a1ec269642699952551cbb4998159d13",
+      "git_blob_sha": "227743add17ccf702aa0a5d494e5748c80e07492"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/run-metrics.json",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/run-metrics.json",
+      "bytes": 1766,
+      "utf8_characters": 1766,
+      "sha256": "1e20c2fd04669838fcd9434d4e3818acbbdc6def04de65ae3feb041432aee1bf",
+      "git_blob_sha": "ff5ff5f26dfe26ddf2b56ff9c1d961b592fe55c5"
+    },
+    {
+      "local_relative_path": "research/wefunder-source-publication-v0.1.1/source-review-receipt.json",
+      "repository_path": "research/wefunder-source-publication-v0.1.1/source-review-receipt.json",
+      "bytes": 3591,
+      "utf8_characters": 3591,
+      "sha256": "1397fa0f898de49603448e315bb162644b8eae1ee7ea581c4ceeb39bcfc49a86",
+      "git_blob_sha": "d0a496c375d250a9570280f5059dd8f49b0acab9"
+    }
+  ],
+  "independent_successor_receipt_sha256": "944728234f87e06e9e5a1629aebf1f84a1ec269642699952551cbb4998159d13",
+  "reviewed_inventory_sha256": "36c2497b60479fd6bfa4f46a08d7f399005ca7db361d1a207ac510f51238fd12",
+  "scope": "New source evidence, exact reviews, provenance-only legacy references and explicit holds; no copied legacy input content.",
+  "denied_registry_content_retried_or_included": false,
+  "html_pdf_image_script_taxid_or_secret_content": false,
+  "numerical_survival_return_priors_or_promotion_objects": false,
+  "canonical_changes": 0,
+  "history_admissions": 0,
+  "self_contained_replay": false,
+  "self_hash_convention": "Manifest excludes itself; transport receipt binds its bytes."
+}

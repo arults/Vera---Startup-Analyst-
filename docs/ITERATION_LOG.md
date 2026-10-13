@@ -129,3 +129,129 @@ The executable code was frozen after the hardened verifier passed 45/45 tests an
 - Round 8: plateau vs round 7 yes probability 0.86; no design flip probability 0.96.
 
 The two consecutive plateau rounds satisfy the requested stop condition. Vera v0.5.0 therefore promotes the Phase 1C **framework only**. No multi-platform empirical rate is promoted by this version.
+
+
+## 2026-10-08 — Phase 1D CP1 real execution / census recovery
+
+Phase 1D targets Vera v0.6.0 and executes the frozen Phase 1C study. Jev selected five execution checkpoints and the same two-consecutive-round plateau rule.
+
+### First census attempt — failed closed
+- Wefunder: plain HTTP historical directory returned 403; zero usable census candidates.
+- StartEngine: plain HTTP returned asynchronous/blocked responses; zero candidates.
+- Crowdcube: Cloudflare 403; zero candidates.
+- Republic US: partial public seed links only.
+- Republic Europe: initial gzip sitemap parser did not decode the sitemap.
+- Generated checkpoint push also hit a non-fast-forward race.
+
+Jev selected browser_and_gzip recovery with probability 1.00 and marked the first CP1 attempt blocked_rebuild rather than allowing a partial denominator.
+
+### Rebuild
+- Added gzip sitemap parsing.
+- Added TLS/Chrome impersonation and Chromium rendering.
+- Corrected workflow persistence to rebase before checkpoint push.
+- Fixed a workflow bug where literal newline escape characters had prevented Playwright installation.
+- Fixed relative nested-sitemap URL resolution.
+
+Result:
+- Republic Europe: 2,896 sitemap URLs / 2,073 candidate slugs — reproducibly enumerable.
+- Wefunder: partial browser root only; historical directory remains blocked.
+- StartEngine: browser/TLS blocked.
+- Crowdcube: browser/TLS blocked.
+- Republic US: public pages work but no exhaustive year denominator recovered.
+
+### Search discovery
+Search-engine discovery remained discovery-only. A first Bing worker failed because redirect targets were not decoded; this was preserved rather than treated as evidence. Structured platform-domain search later recovered discovery subsets including 112 StartEngine and 108 Republic US campaign URLs, plus smaller Wefunder/Crowdcube sets, but these are not complete denominators.
+
+### Final CP1 Jev gate
+Jev decisions:
+- incomplete census -> suppress_invalid_cells: probability 1.00 / confidence 1.00.
+- completeness requires reproducible native enumeration or convergent independent discovery with platform validation: probability 1.00 / confidence 1.00.
+- canonical platform-page extracts may count as platform evidence; search snippets may not: probability 1.00 / confidence 1.00.
+- CP1 state = PASS_WITH_SUPPRESSION: probability 1.00 / confidence 1.00.
+
+Therefore the study proceeds with Republic Europe while preserving the other four platforms' discovery rows and coverage diagnostics but prohibiting their outcome-rate estimates until denominator coverage becomes defensible.
+
+
+## 2026-10-09 — Phase 1D CP2 Republic Europe execution
+
+Republic Europe exposed a concrete execution gap: funded dates were available, but exact first-live dates were not. The platform-hosted approval date was available for 910/952 rows; median approval→funding lag was 50 days and there were zero negative lags.
+
+### Jev resolution
+- Use a bounded offering year only where approval and funded dates fall in the same calendar year: probability 0.61.
+- Preserve exact first-live date as unresolved and store the approval/funding interval bounds: probability 1.00.
+- Do not reopen Phase 1C D13R solely for this bounded representation: reopen yes probability 0.16.
+
+This yielded 796 rate-eligible rows and 156 year-unresolved/suppressed rows.
+
+### Identity / round audit
+- 946/952 normalized rows have strong platform company numbers.
+- All 796 usable cohort rows have strong IDs.
+- 121 companies have multiple rounds.
+- 160 chronological next-round edges were retained.
+- Zero pairs met the same-economic-round duplicate review threshold; no rows were collapsed.
+
+Jev froze CP2 with probability 0.99.
+
+### Checkpointing failure retained
+The first bounded-cohort workflow computed the same 796-row result correctly but failed to push because another writer moved the branch. Writer paths were then serialized/rebased; the successful rerun persisted the cohort. Lesson: execution workers writing durable research checkpoints need serialized branch writes or explicit lease/rebase logic.
+
+### CP3 follow-on refinement
+The first qualified-follow-on pass looked only at immediate n→n+1 edges and found 57 successes. Jev then clarified with probability 1.00 that each index round must scan all later comparable rounds chronologically for the first >=1.5x priced follow-on, while the graph itself remains immediate n→n+1. The corrected derived relation found 63 qualified follow-on successes, including 6 non-adjacent first successes.
+
+
+## 2026-10-09 — Phase 1D CP3/CP4 Republic Europe execution
+
+### Outcome-evidence rebuild
+Republic Europe secondary-market business pages were enumerated natively from the platform sitemap: 784/784 pages fetched, 453 matched to frozen company lineages, and current Eligible status supplied medium-confidence positive operating evidence. Jev explicitly kept Not eligible neutral and rejected using indicative valuation alone as current operating evidence.
+
+The raw acquisition keyword queue contained 467 hits, but 453 were boilerplate ("shares were acquired from a campaign"). Fourteen true "wholly owned subsidiary" notices were reclassified by Jev as internal successor restructures, not acquisition successes, and were linked into canonical company lineages.
+
+Thirteen Not eligible pages carried £/€0 indicative valuation. Jev selected these as targeted closure-review triggers only; targeted public-platform review found no explicit admissible closure statement, so zero closures were invented.
+
+### Qualified follow-on correction
+An adjacent-only n→n+1 pass found 57 qualifying >=1.5x priced follow-on successes. Jev clarified with probability 1.00 that each index round must scan all later same-company rounds for the first comparable >=1.5x success while preserving immediate NEXT_ROUND graph edges. The corrected full-universe count became 63, including 6 non-adjacent first successes; 55 belong to bounded-year rate-eligible rows.
+
+### Ledger v2 failure -> ledger v3
+Zeigo was correctly classified as a 2022 acquisition-value-unknown terminal event, but ledger v2 accidentally kept its censor date at its last 2020 funding evidence instead of extending follow-up to the known terminal acquisition interval. Candidate CP4 v1 therefore failed an internal reality check: 2020 operating survival incorrectly stayed 1.0.
+
+The mistake was preserved, not overwritten. Ledger v3 extends both Zeigo 2020 rounds to the Jev-approved midpoint approximation (2022-07-02), with 2022-01-01 / 2022-12-31 sensitivity bounds. Corrected CP4 v2 then shows the terminal event in the 2020 survival curve.
+
+### Zero-event uncertainty
+Because no explicit closure passed the frozen rule, Jev rejected 0-0 bootstrap confidence intervals. Zero target-event cells use a one-sided 95% SUPPORT_SET_BOUND based only on rounds demonstrably followed through the target horizon. Likewise, 1.0 survival cells with zero terminal events carry a support-set lower bound rather than a 1-1 bootstrap interval.
+
+### Deterministic execution verification
+Corrected candidate v2 passed 27/27 Phase 1D gates in GitHub Actions run 37886717240.
+The verifier checks census suppression, 952/796 cohort integrity, strong IDs, outcome counts, no zero-valuation auto-closure, Zeigo interval handling, all-later success scan, probability bounds, no horizon extrapolation, monotonicity, zero-event support bounds, RQ2 fail-closed suppression, and explicit invalidation of CP4 candidate v1.
+
+Jev execution round 1 after the verifier:
+- denominator breadth remains the weakest dimension because only Republic Europe is rate-eligible;
+- Republic Europe outputs remain candidate_only, probability 0.86;
+- no Phase 1C design flip, probability 0.88;
+- highest expected-value next improvement = attempt Wefunder denominator recovery through the on-platform explore API.
+
+## 2026-10-09 — Phase 1D CP4B / execution 0.6.0-dev.r2
+
+### Continuation-state correction
+The later Wefunder Jev gate rejected the 149-row current visible API subset (144 Portal LLC rows, no matches to the known 42-row 2020 cohort) as a historical denominator and selected Republic US next. SKILLS.md and the old next-action paragraph above had become stale. They are retained as history; the current checkpoint is `checkpoints/PHASE_1D_CP4B_REPUBLIC_US_RECOVERY.md`.
+
+### Concrete capture defects repaired
+The legacy Republic US probe rejected `companies` before its intended company-profile allowance, used cumulative global candidates for supposed per-page counts, deduplicated all responses by URL regardless of content, and relied only on scrolling. An additive collector now preserves per-page evidence, distinct same-URL response hashes, bounded native pagination, immutable source snapshots and run-scoped checkpoints. Nineteen adversarial tests cover the capture increment. Prior evidence files are untouched.
+
+### Failed live attempt retained
+Run 37894313863 executed and persisted correctly; 82/82 regression tests passed. Nevertheless, all four public directory requests returned HTTP403 and produced zero new captures. The workflow was green because it successfully recorded errors, not because research had succeeded. Its 10/10 integrity checks cannot prove the presence or completeness of data.
+
+Rejected: reporting green CI as successful evidence collection; declaring a historical census complete from visible-list exhaustion; repeating the identical four blocked requests without a changed access condition. Jev selected ACCESS_BLOCKED / no new evidence, probability 1.00 and confidence 1.00. No authentication or access controls were bypassed.
+
+### Feedback -> rebuild -> re-execute
+Jev selected normalization of the already-preserved public API archive, probability 1.00 and confidence 1.00. A second 19-test increment added exact integer-cents handling, month-bound date parsing, raw-row/source hashes, duplicate/conflict flags, a missing-evidence queue and non-empty evidence gates.
+
+Run 37894925070 persisted 144 archived native candidates with 144 unique slugs, zero rejected rows, zero exact duplicate rows and zero slug conflicts. All 15 normalization/provenance gates and 101 total regression tests passed. The raw archive's Git blob and SHA-256 were verified before processing; output hashes and an independent artifact copy are retained.
+
+Rejected: calling these 144 newly discovered or verified funded rounds; assigning first-live offering years from deadline months; treating a cap as a priced valuation; matching legal entities by name alone; assuming funding completion or survival from a portfolio listing. The 49 records with 2020 deadline bounds are not a validated 2020 cohort, and this archive has no 2021–2025 deadline entries. All 144 remain estimation-ineligible with unresolved legal IDs and first-live/funded-close dates.
+
+### Checkpoint and remaining work
+Output: `data/phase1d/republic_us_archive/gh-37894925070-1/`, including a 144-item resolution queue. Live errors remain in `data/phase1d/republic_us_recovery/gh-37894313863/`. All four Jev evaluations and exact confidence/probability distributions are retained in `evidence/jev/PHASE_1D_CP4_ROUND2_RECOVERY.json`.
+
+Jev's final choice accepts the candidate checkpoint only (probability 1.00, confidence 1.00), keeps the whole study incomplete/not plateau (probability 1.00, confidence 1.00), and prioritizes historical census/date recovery. These are decision-model judgments, not empirical startup success probabilities. Four platform historical denominators remain incomplete; no outcome rate or release was promoted. Promoted version stays v0.5.0; execution increment is 0.6.0-dev.r2.
+
+Lesson: data-source availability, capture integrity, historical coverage and statistical eligibility are distinct gates. Progress on one must never be presented as completion of the others. The next resumption must use the saved manifests/queue and a defensible historical source, not restart failed access attempts or infer missing outcomes.

@@ -1,0 +1,30 @@
+Vera Phase 1D progress checkpoint
+Prepared October 10, 2026, 19:10:27 UTC
+
+This is a preparation-time checkpoint, separate from preserved historical records. It does not complete the ongoing work request. Phase 1D remains incomplete, and a scientific research plateau has not been demonstrated. Publication, exact readback and terminal remote CI for this checkpoint remain unverified at preparation; later outcomes must be recorded separately.
+
+Source evidence
+
+Reviewed campaign work covers 105 bounded source-attributed statements across ten campaign pages. These are statements, not 105 companies, rounds, independent confirmations or outcomes. Six predicates from the linked Easy Expense template remain a separate same-origin document scope. The catalog rendering now has independent acceptance after correcting a product/quantity association: planned 2,000-unit manufacturing concerns ESX-1, separately from ESX-2 design/marketing. Campaign-scoped keys prevent reused statement-label collisions. This adds no source facts or admissions.
+
+Separate original-source additions include narrowly attributed customer/project observations, issuer activity and offering-status statements. StockCard’s recovered February 2023 original supports two retrospective activity attributions, separate from the 105 campaign statements. Source acceptance does not automatically establish executable intake, corporate continuity, investor returns or analytical event dates.
+
+The canonical research frame remains twelve rows with unknown native outcomes. No new canonical admission, survival rate or numerical prior is promoted. The accepted fixed-frame descriptive table and source-linked completion anchors remain useful within their scope, without becoming an estimator-ready cohort.
+
+Engineering and method checks
+
+Verified local corrections address invalid reporting inputs, unsupported primary horizons and individually unsupported start/end sensitivity scenarios. Two added scenario-status columns intentionally change the full RQ1 CSV: its 24-row legacy-column projection remains byte-identical, while all 60 RQ2 rows remain wholly unchanged. RQ2 rows are gating metadata, not sixty estimated outcomes.
+
+UTC normalization aligns equivalent review/retrieval instants while preserving source-calendar labels and naive-timestamp rejection. Its sixteen-test regression detects five predecessor failures. A separate selected-identity-source cutoff repair has fifteen companion tests and detects four predecessor failures. Predicate freshness/known-by fields still do not certify all-dependency historical knowability.
+
+The 1.0.4.3 package and combined v5 candidate have bounded independent packaging acceptance: 833 checks, 190 package-test passes with one skip, and 45 selected-root-test passes with one skip. Actual versioned reports differ only in implementation_version. Explicit Python flags corrected a bytecode-generation harness mistake; package contents were rechecked. These are local engineering results, not full repository CI or scientific approval.
+
+Independent review reproduced 16,000 endpoint draws on the selected 952-row archive: thirteen success-cumulative-incidence runs and three survival runs, each with 1,000 draws, across thirteen distinct cells. All retained sampled risk reaching the horizon; none relied solely on modeled absorption. These are not 16,000 survival draws, companies or independent observations. No draws were filtered or reweighted. The finite diagnostic does not validate censoring assumptions, uncertainty calibration or historical coverage.
+
+An accepted explanatory erratum records actual closure-field precedence in a dual-terminal counterexample. No inspected ledger row has that combination, but absence does not establish an input prohibition; scientific compatibility remains unresolved. The 70 success-date labels are inherited: 62 within the bounded-year subset and eight outside, not new event admissions. Code and estimates are unchanged by this correction.
+
+Remaining work
+
+Material gaps include historical first-live coverage, issuer/economic-round identity, admissible outcomes, entry-state/censoring interpretation, multistate methods, repeated-round diagnostics and bootstrap-support policy. A bounded evidence or documentation checkpoint can close with reproducible scope and retained unknowns without completing the study.
+
+Next source priorities remain exact Easy Expense chronology material, a linked filing only for a concrete remaining question, and selected archived issuer/round originals. Their unread contents are not assumed. Bounded local source-gap triage established no new available material original; it did not establish global exhaustion. Preparation, source review, publication and empirical promotion remain separate.

@@ -1,0 +1,18 @@
+{
+  "bytes": 201713,
+  "campaign_url": "https://republic.com/cybr",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cybr/show_updates",
+  "gzip_sha256": "6a922b42763498117214496fb9301c026c80e1dd241a8c9a36257a515a5c6779",
+  "http_status": 200,
+  "parent_sha256": "1a3fb1de381ce02dd80fcace768169a8b80c9c4a97a822edfd60efbe8d305e54",
+  "raw_sha256": "12fd030a3818b1d927da3d60e7dd907182aeffa738178991f1083efbc4d62b99",
+  "received_at": "2026-10-10T02:26:10.328366+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:09.639987+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/12fd030a3818b1d927da3d60e7dd907182aeffa738178991f1083efbc4d62b99.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cybr/show_updates"
+}

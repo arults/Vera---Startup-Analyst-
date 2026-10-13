@@ -1,0 +1,18 @@
+{
+  "bytes": 21820,
+  "campaign_url": "https://republic.com/cultos",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cultos/show_updates",
+  "gzip_sha256": "48ff3d8e148fd8235ac95a08d4f112d24f53bee2d76366fbd8b645a8df132a17",
+  "http_status": 200,
+  "parent_sha256": "7932ac624278771f3d6d941f75d59ef63a0c84bf0e63b53c35867fb175263a2f",
+  "raw_sha256": "6f405ae7546898eb0eaacba06598cd059faf2b9b24edcac80a718c7f6ce0360a",
+  "received_at": "2026-10-10T02:26:00.327006+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:59.671346+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6f405ae7546898eb0eaacba06598cd059faf2b9b24edcac80a718c7f6ce0360a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cultos/show_updates"
+}

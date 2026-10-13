@@ -1,0 +1,33 @@
+{
+  "version": "0.1.3",
+  "base_commit": "88cce2695804cb6c7754fb8ce6db4ba3122d2bc9",
+  "predecessor_manifest_sha256": "0a09eb9015da2aa77b81b8db65fbca6944507fadedcada81572f83a923777c20",
+  "private_frozen_v010_manifest_sha256": "5e5254e98ea8d169be5ea83c960e3648f760029867a7e4eccbe886b1744be5f4",
+  "files": {
+    "RECONCILIATION.md": "ea5b31f8b549d323ba8d2e2790299659faa897b0f15c5d0069cd0c1d436574e9",
+    "candidate/all-15-pair-observations.json": "0b43afd1fc0ca00abb03f67e9d4f279e62db49ea999309856d99d4f54b31dc87",
+    "candidate/bounded-search-log.json": "fb6e5f763bc66ccec784e081b5beab4c46c1e59aa2782b2d656097704bf98948",
+    "candidate/context-2019.json": "9add42cdd3e3032fd12292977bc0607b2ebbfea37bea2aaea17ad0255c30b1ce",
+    "candidate/contradiction-ledger.json": "339afcd8bdf03f5cfd1e5d47cc639b136810c9280afac764c264547d8a61e8c7",
+    "candidate/operational-metrics.json": "5b039a7b9edcbdb2f27b0b4ff5372e73e1fed45b48a183f15336e100d4cf75f0",
+    "candidate/packet-status.json": "13f279367057bea1b10a40096dcf87fcc8dec346adce1e7746a9e4e756ffb796",
+    "candidate/publication-safe-typed-dom-extracts.json": "c4cf468c33a19b759925b1ae1cf5658b67fd4b521a395ebb67e771da57e534f5",
+    "candidate/round-candidates.json": "29d591f00197c22db7a10ea642d0893b41481ccdeb4546a007783132a0e1df82",
+    "candidate/source-receipts.json": "c624ab138a4c9c23dc1d5efa227fb2b51c309eed8036c9ffadca8941431cb955",
+    "sources/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.evidence.txt": "ff73e9399f56f0e7cd47ef20450be6fd1b71fdce1af48bb7931a4d1722037e2d",
+    "sources/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.evidence.txt": "3122bdc7f1480dc31a3bc6a1963a31d53cee353e6b0980cf54316fd5f920b8eb",
+    "sources/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.evidence.txt": "369f3713117417f011b3e228b1983c8f9b29be732a49f059548a5fa9afdd782e",
+    "sources/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.evidence.txt": "4119517b178277c1f8fb125ff2c182a9a82d554588e73cdcc8b1f5698729c561",
+    "sources/PHASE_1C_SPEC.md": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+    "sources/business-live.evidence.txt": "61469214a69dee036b64a5b9a70667a8a064ab83ad3570163d699e7e83c15db3",
+    "sources/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.evidence.txt": "eeba9e728e48121409551f714d5ccefaf619467d38e52460d49506b540b163f0",
+    "sources/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.evidence.txt": "01a290157e65de110c84ee1b255ac4d66f5820cea91b0f1226c8a408c09b7cc3",
+    "sources/kiis-2024-page3.png": "67d7e1bc1ac3cfd8f8c3c459ed1071082c617efff549d6b72da22c19e63f66d3",
+    "sources/kiis-20240426.pdf": "bbbfb05100cc24c25e7b7f2f3d0dcde6a25f1a72a7357d7d34a9e5b7be80b840",
+    "sources/kiis-20240426.txt": "19f63c7566f8278c6008d1416d4809c76b79537353ed688e80de3e9f5befee09",
+    "sources/kiis-20251110.pdf": "d85134e13977c926bf4ff6d508bb02e7a986022ab1f2434b6dfb0eca84bec3f2",
+    "sources/kiis-20251110.txt": "5c99dfe542e9e2da1979fff746e266bfd241b4ad19800ff1e11452462dc4b697",
+    "sources/kiis-page3.png": "25c47bec0c387273c5148b4430a8e0d192bbf03bdb01150b4aee4766dab2a41e",
+    "sources/platform-completion-guide.evidence.txt": "816e22c80fedc8cf66511cfee060d55a8cca866f2bc567d4b698a22a4e764779"
+  }
+}

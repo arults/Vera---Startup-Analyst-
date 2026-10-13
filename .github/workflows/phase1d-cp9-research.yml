@@ -1,0 +1,78 @@
+name: Phase 1D CP9 empirical collection
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp9-research.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp9-empirical
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install research dependencies
+        run: python -m pip install requests beautifulsoup4
+      - name: Capture genuinely new source routes and preserve prior evidence
+        run: python -m src.phase1d.capture_cp9_evidence
+      - name: Run complete existing regression suite
+        if: always()
+        run: |
+          mkdir -p evidence/phase1d_cp9/cycle-1
+          python -m unittest discover -s tests -v > evidence/phase1d_cp9/cycle-1/full-tests.txt 2>&1
+          cat evidence/phase1d_cp9/cycle-1/full-tests.txt
+      - name: Verify immutable source hashes and logical holds
+        run: |
+          python - <<'PY'
+          import json, gzip, hashlib
+          from pathlib import Path
+          root=Path('.');p=root/'data/phase1d/cp9/cycle-1-issuer-history-updates'
+          sha=lambda b:hashlib.sha256(b).hexdigest()
+          before=json.loads((p/'preserved_before.json').read_text())
+          assert all((root/k).is_file() and sha((root/k).read_bytes())==v for k,v in before.items())
+          count=0
+          for r in json.loads((p/'manifest.json').read_text()):
+              if r.get('source_path'):
+                  b=(root/r['source_path']).read_bytes()
+                  assert sha(b)==r['gzip_sha256'] and sha(gzip.decompress(b))==r['raw_sha256']
+                  count+=1
+          s=json.loads((p/'summary.json').read_text())
+          assert s['wefunder_preserved_frame_rows']==s['wefunder_prior_funded_rows']+s['wefunder_prior_unconfirmed_or_excluded']
+          assert not s['four_native_censuses_complete'] and not s['rates_promoted'] and not s['research_plateau']
+          result={'checked_source_captures':count,'preserved_existing_data_files':len(before),'all_unchanged':True,'promotions':0,'scope':'Hash and hold checks; not independent outcome verification'}
+          with open('evidence/phase1d_cp9/cycle-1/integrity.json','x') as f:json.dump(result,f,indent=2)
+          print(result)
+          PY
+      - name: Commit new evidence without modifying existing datasets
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/phase1d/cp9 evidence/phase1d_cp9
+          if git diff --cached --name-status | grep -v '^A[[:space:]]'; then echo 'Non-additive staged change refused'; exit 1; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'CP9 cycle 1: checkpoint actual issuer-history and native-update collection; no promotions'
+            git push origin HEAD:phase-1d
+          fi
+      - name: Export actual checkpoint and receipts
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp9-result
+          git archive --format=tar.gz --output=/tmp/vera-cp9-result/branch-source.tar.gz HEAD
+          git rev-parse HEAD > /tmp/vera-cp9-result/source-commit.txt
+          sha256sum /tmp/vera-cp9-result/branch-source.tar.gz > /tmp/vera-cp9-result/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp9-research-${{ github.run_id }}
+          path: /tmp/vera-cp9-result/
+          retention-days: 30
+          if-no-files-found: error

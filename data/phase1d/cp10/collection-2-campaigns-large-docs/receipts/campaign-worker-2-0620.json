@@ -1,0 +1,18 @@
+{
+  "bytes": 110066,
+  "campaign_url": "https://republic.com/true-made-foods",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/true-made-foods/show_updates",
+  "gzip_sha256": "2f5e1e305cf4cfcb11642dc6f6d81c607ec8c40ef18df4fcba670b55fa4acccd",
+  "http_status": 200,
+  "parent_sha256": "d675cddc52b743f3c2f6316855014ad8b08a16b55947e0a029c171e3b2c2fb92",
+  "raw_sha256": "fa14c310e817051de6a904326f9dd43899d97c35d71b6eb913206ce1b9fd0d4b",
+  "received_at": "2026-10-10T02:38:32.706108+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:32.057211+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fa14c310e817051de6a904326f9dd43899d97c35d71b6eb913206ce1b9fd0d4b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/true-made-foods/show_updates"
+}

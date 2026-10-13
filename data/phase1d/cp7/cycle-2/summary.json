@@ -1,0 +1,15 @@
+{
+  "by_platform": {
+    "republic_europe": {
+      "PUBLIC_CAPTURED_UNADJUDICATED": 30
+    },
+    "republic_us": {
+      "PUBLIC_CAPTURED_UNADJUDICATED": 6
+    }
+  },
+  "census_complete": false,
+  "completed_at": "2026-10-09T09:18:55.455663+00:00",
+  "queued": 36,
+  "rates_promoted": false,
+  "research_plateau": false
+}

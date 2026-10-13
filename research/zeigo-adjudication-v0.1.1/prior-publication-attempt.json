@@ -1,0 +1,321 @@
+{
+  "version": "publication-attempt-accounting-v0.1.0",
+  "created_at_utc": "2026-10-11T15:22:46.364550+00:00",
+  "original_payload_manifest_sha256": "d388a2de85bea5fa915e3219bc5114745f69bf57bbd5dbcc33a282282e993337",
+  "original_payload_disposition": "FROZEN_LOCAL_BLOCKED; not branch-published",
+  "blob_upload_attempts": 36,
+  "successful_blob_objects": 35,
+  "denied_blob_uploads": 1,
+  "existing_blob_references_reused": 2,
+  "unstarted_original_payload_files": 19,
+  "tree_actions": 0,
+  "commit_actions": 0,
+  "ref_actions": 0,
+  "pending_tools": 0,
+  "retry_of_denied_html": false,
+  "long_wait_note": "An already-started parallel buyer derivative upload completed at 15:18:55 UTC. No additional uploads were scheduled after denial.",
+  "receipts": [
+    {
+      "path": "SUMMARY.md",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:38.367Z",
+      "completed_at": "2026-10-11T13:37:47.039Z",
+      "expected_git_blob_sha": "07510698a9c00c7236a1ce620c984e79e708b689",
+      "returned_git_blob_sha": "07510698a9c00c7236a1ce620c984e79e708b689"
+    },
+    {
+      "path": "FINAL_DISPOSITION.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:38.367Z",
+      "completed_at": "2026-10-11T13:37:50.142Z",
+      "expected_git_blob_sha": "ea4497f4e1ba5e6836ead3e5ac58cce2d3fe26bc",
+      "returned_git_blob_sha": "ea4497f4e1ba5e6836ead3e5ac58cce2d3fe26bc"
+    },
+    {
+      "path": "author-checks-v0.1.1.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:47.039Z",
+      "completed_at": "2026-10-11T13:37:51.727Z",
+      "expected_git_blob_sha": "a5cb9fa182a353f0a655d353efdd7f18524e434e",
+      "returned_git_blob_sha": "a5cb9fa182a353f0a655d353efdd7f18524e434e"
+    },
+    {
+      "path": "README.md",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:38.367Z",
+      "completed_at": "2026-10-11T13:37:52.813Z",
+      "expected_git_blob_sha": "1ed33290ed9d5533089cafc578e23b516fa724d1",
+      "returned_git_blob_sha": "1ed33290ed9d5533089cafc578e23b516fa724d1"
+    },
+    {
+      "path": "build_candidate.py",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:51.727Z",
+      "completed_at": "2026-10-11T13:37:56.468Z",
+      "expected_git_blob_sha": "29293b7a57ce5ae59b86afddcd07d00c3feb083a",
+      "returned_git_blob_sha": "29293b7a57ce5ae59b86afddcd07d00c3feb083a"
+    },
+    {
+      "path": "author-checks.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:50.142Z",
+      "completed_at": "2026-10-11T13:37:59.720Z",
+      "expected_git_blob_sha": "07c64cc85049d708f3f2ba50139cdcb47069bbeb",
+      "returned_git_blob_sha": "07c64cc85049d708f3f2ba50139cdcb47069bbeb"
+    },
+    {
+      "path": "capture_public.py",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:59.720Z",
+      "completed_at": "2026-10-11T13:38:04.996Z",
+      "expected_git_blob_sha": "40896873fc3ac866a88516afc9389ab20d60262e",
+      "returned_git_blob_sha": "40896873fc3ac866a88516afc9389ab20d60262e"
+    },
+    {
+      "path": "candidate-adjudication-v0.1.1.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:52.813Z",
+      "completed_at": "2026-10-11T13:38:10.068Z",
+      "expected_git_blob_sha": "8a203bbfc332ee860c81851dbab043d3ab5c00e8",
+      "returned_git_blob_sha": "8a203bbfc332ee860c81851dbab043d3ab5c00e8"
+    },
+    {
+      "path": "erratum-v0.1.1.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:04.997Z",
+      "completed_at": "2026-10-11T13:38:11.336Z",
+      "expected_git_blob_sha": "1b0513a3f97b28ec21f50a12d330566ac199a775",
+      "returned_git_blob_sha": "1b0513a3f97b28ec21f50a12d330566ac199a775"
+    },
+    {
+      "path": "candidate-adjudication.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:37:56.468Z",
+      "completed_at": "2026-10-11T13:38:13.395Z",
+      "expected_git_blob_sha": "cd960fd4e24e8a9c144a59ba25e4ceef9ca6efe9",
+      "returned_git_blob_sha": "cd960fd4e24e8a9c144a59ba25e4ceef9ca6efe9"
+    },
+    {
+      "path": "independent-review/MANIFEST.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:10.068Z",
+      "completed_at": "2026-10-11T13:38:15.742Z",
+      "expected_git_blob_sha": "fab05031bc2825ec747bb6fc15ee569d32a9df71",
+      "returned_git_blob_sha": "fab05031bc2825ec747bb6fc15ee569d32a9df71"
+    },
+    {
+      "path": "independent-review/REVIEW.md",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:11.336Z",
+      "completed_at": "2026-10-11T13:38:18.350Z",
+      "expected_git_blob_sha": "8088cae2e946cbe20c95565929019d057e989732",
+      "returned_git_blob_sha": "8088cae2e946cbe20c95565929019d057e989732"
+    },
+    {
+      "path": "independent-review/VERDICT.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:13.395Z",
+      "completed_at": "2026-10-11T13:38:21.846Z",
+      "expected_git_blob_sha": "e728c3a280fb9fb0cfc6455ad1f2e5d0bfd4e7ca",
+      "returned_git_blob_sha": "e728c3a280fb9fb0cfc6455ad1f2e5d0bfd4e7ca"
+    },
+    {
+      "path": "independent-review/checks-v01.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:15.742Z",
+      "completed_at": "2026-10-11T13:38:24.994Z",
+      "expected_git_blob_sha": "0e25c2d5280a349a2e47a8fff3f537d67ec5b50f",
+      "returned_git_blob_sha": "0e25c2d5280a349a2e47a8fff3f537d67ec5b50f"
+    },
+    {
+      "path": "independent-review/checks-v011.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:18.350Z",
+      "completed_at": "2026-10-11T13:38:28.239Z",
+      "expected_git_blob_sha": "ca43d851786132dad8042c7d39bd5ece0d0e311e",
+      "returned_git_blob_sha": "ca43d851786132dad8042c7d39bd5ece0d0e311e"
+    },
+    {
+      "path": "portable-replay.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:28.239Z",
+      "completed_at": "2026-10-11T13:38:31.703Z",
+      "expected_git_blob_sha": "974b1ec9e533883b6aef7f9b0347f5ac7c967e24",
+      "returned_git_blob_sha": "974b1ec9e533883b6aef7f9b0347f5ac7c967e24"
+    },
+    {
+      "path": "independent-review/review_checks.py",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:24.994Z",
+      "completed_at": "2026-10-11T13:38:35.772Z",
+      "expected_git_blob_sha": "b2ad05e96a8d720215363681411ffe2ea3cf2f4c",
+      "returned_git_blob_sha": "b2ad05e96a8d720215363681411ffe2ea3cf2f4c"
+    },
+    {
+      "path": "independent-review/finalize_review.py",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:21.846Z",
+      "completed_at": "2026-10-11T13:38:39.435Z",
+      "expected_git_blob_sha": "529136ef8d45aa7c60ef8048714ea749b4223c37",
+      "returned_git_blob_sha": "529136ef8d45aa7c60ef8048714ea749b4223c37"
+    },
+    {
+      "path": "publication-independent-review/audit_publication.py",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:39.435Z",
+      "completed_at": "2026-10-11T13:38:43.827Z",
+      "expected_git_blob_sha": "1f1d723d2d5bf8f77c890aa81c10f0edb8101c05",
+      "returned_git_blob_sha": "1f1d723d2d5bf8f77c890aa81c10f0edb8101c05"
+    },
+    {
+      "path": "publication-independent-review/RECEIPT.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:35.773Z",
+      "completed_at": "2026-10-11T13:38:46.827Z",
+      "expected_git_blob_sha": "45ba9f4ad4b703d48f8c5660b8875511053a7419",
+      "returned_git_blob_sha": "45ba9f4ad4b703d48f8c5660b8875511053a7419"
+    },
+    {
+      "path": "publication-independent-review/FILE_BINDINGS.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:31.704Z",
+      "completed_at": "2026-10-11T13:38:49.809Z",
+      "expected_git_blob_sha": "7fdc41ccf372b91f4e117208fc99165de376fba7",
+      "returned_git_blob_sha": "7fdc41ccf372b91f4e117208fc99165de376fba7"
+    },
+    {
+      "path": "publication-source-map.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:46.827Z",
+      "completed_at": "2026-10-11T13:38:53.739Z",
+      "expected_git_blob_sha": "ea5839c0b5963e1ca9c7b961f6baf64043499d5d",
+      "returned_git_blob_sha": "ea5839c0b5963e1ca9c7b961f6baf64043499d5d"
+    },
+    {
+      "path": "receipts/contradiction-search-request.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:49.810Z",
+      "completed_at": "2026-10-11T13:38:58.622Z",
+      "expected_git_blob_sha": "5bbdf8e4dbcd575a817c159f4b3a7f3db83c8827",
+      "returned_git_blob_sha": "5bbdf8e4dbcd575a817c159f4b3a7f3db83c8827"
+    },
+    {
+      "path": "publication-safety-check.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:43.827Z",
+      "completed_at": "2026-10-11T13:39:01.400Z",
+      "expected_git_blob_sha": "bfcad0266359caa893193cf9e73dc306a74d0a19",
+      "returned_git_blob_sha": "bfcad0266359caa893193cf9e73dc306a74d0a19"
+    },
+    {
+      "path": "receipts/raw-public-fetches.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:53.739Z",
+      "completed_at": "2026-10-11T13:39:05.950Z",
+      "expected_git_blob_sha": "29222b8e7e6fec04f65181b55869b90a7d40db2d",
+      "returned_git_blob_sha": "29222b8e7e6fec04f65181b55869b90a7d40db2d"
+    },
+    {
+      "path": "receipts/web-contradiction-search.txt",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:38:58.622Z",
+      "completed_at": "2026-10-11T13:39:09.134Z",
+      "expected_git_blob_sha": "78c5d3232d99c05416418f992cc69e4213a92943",
+      "returned_git_blob_sha": "78c5d3232d99c05416418f992cc69e4213a92943"
+    },
+    {
+      "path": "receipts/web-source-reads-1.txt",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:01.401Z",
+      "completed_at": "2026-10-11T13:39:12.400Z",
+      "expected_git_blob_sha": "d4576aa27fb40aab5a8d20eed86bb28ee2f16122",
+      "returned_git_blob_sha": "d4576aa27fb40aab5a8d20eed86bb28ee2f16122"
+    },
+    {
+      "path": "run-metrics.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:12.400Z",
+      "completed_at": "2026-10-11T13:39:16.886Z",
+      "expected_git_blob_sha": "1c99b25628d56a24ac0ddb92ea409fa4dc299ba9",
+      "returned_git_blob_sha": "1c99b25628d56a24ac0ddb92ea409fa4dc299ba9"
+    },
+    {
+      "path": "source-artifacts/audit_readme.md",
+      "status": "REUSED_IMMUTABLE_VERIFIED_BLOB",
+      "started_at": "2026-10-11T13:39:16.886Z",
+      "git_blob_sha": "9468336cefa180597ba4343610e074ec37d97a1a"
+    },
+    {
+      "path": "run-metrics-final.json",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:09.134Z",
+      "completed_at": "2026-10-11T13:39:19.943Z",
+      "expected_git_blob_sha": "ed9ef1b133b4835feb6bed12b6ccb754176c1e7e",
+      "returned_git_blob_sha": "ed9ef1b133b4835feb6bed12b6ccb754176c1e7e"
+    },
+    {
+      "path": "source-artifacts/buyer-announcement-public-text.txt",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:16.886Z",
+      "completed_at": "2026-10-11T13:39:24.318Z",
+      "expected_git_blob_sha": "e0b11345c87a5d40859252e35ee374dff5f8834a",
+      "returned_git_blob_sha": "e0b11345c87a5d40859252e35ee374dff5f8834a"
+    },
+    {
+      "path": "receipts/web-source-reads-2.txt",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:05.951Z",
+      "completed_at": "2026-10-11T13:39:24.331Z",
+      "expected_git_blob_sha": "41bdff19980293f9890051d529fe248c2bdb15e3",
+      "returned_git_blob_sha": "41bdff19980293f9890051d529fe248c2bdb15e3"
+    },
+    {
+      "path": "source-artifacts/ledger-connector-exact.csv",
+      "status": "REUSED_IMMUTABLE_VERIFIED_BLOB",
+      "started_at": "2026-10-11T13:39:24.331Z",
+      "git_blob_sha": "8d15721a66b6a46ef92f6a139303d9f327930f84"
+    },
+    {
+      "path": "source-artifacts/buyer-counsel-public-text.txt",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:19.943Z",
+      "completed_at": "2026-10-11T13:39:30.176Z",
+      "expected_git_blob_sha": "2153622b7fc6bd00683eb9273266db0f701754b3",
+      "returned_git_blob_sha": "2153622b7fc6bd00683eb9273266db0f701754b3"
+    },
+    {
+      "path": "source-artifacts/buyer-counsel.html",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:24.318Z",
+      "completed_at": "2026-10-11T13:39:37.507Z",
+      "expected_git_blob_sha": "9a2da5d21aadf8e7729836698890b50e0e1d7aae",
+      "returned_git_blob_sha": "9a2da5d21aadf8e7729836698890b50e0e1d7aae"
+    },
+    {
+      "path": "source-artifacts/publication-safe/sa7.html",
+      "status": "ERROR",
+      "started_at": "2026-10-11T13:39:37.507Z",
+      "completed_at": "2026-10-11T13:39:50.648Z",
+      "expected_git_blob_sha": "ea236c7ac43b217f021214e37251023cb775b557",
+      "disposition": "DENIED; no retry",
+      "reason_summary": "Captured HTML judged to retain CSRF/telemetry/tracking identifiers; prohibited publication of that content. No alternative route was attempted."
+    },
+    {
+      "path": "source-artifacts/ledger.csv",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:24.331Z",
+      "completed_at": "2026-10-11T13:40:05.795Z",
+      "expected_git_blob_sha": "b9b0d7a5ec4c4beeacc465002c80925b2c82c6cd",
+      "returned_git_blob_sha": "b9b0d7a5ec4c4beeacc465002c80925b2c82c6cd"
+    },
+    {
+      "path": "source-artifacts/publication-safe/buyer-announcement.html",
+      "status": "UPLOADED_HASH_VERIFIED",
+      "started_at": "2026-10-11T13:39:30.176Z",
+      "completed_at": "2026-10-11T15:18:55.220Z",
+      "expected_git_blob_sha": "1e5e638c51dbb091c36653797a90f0866a769ce9",
+      "returned_git_blob_sha": "1e5e638c51dbb091c36653797a90f0866a769ce9"
+    }
+  ],
+  "new_successor_scope": "Minimized text and typed facts only; separate review and root approval required."
+}

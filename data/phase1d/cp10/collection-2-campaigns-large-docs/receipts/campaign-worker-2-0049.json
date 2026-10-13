@@ -1,0 +1,18 @@
+{
+  "bytes": 265001,
+  "campaign_url": "https://republic.com/audios",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/audios/show_updates",
+  "gzip_sha256": "a0c7e89bfe74d36e5a81de67373d2bbd2428e4d1b50270d0bbda41d1704dd123",
+  "http_status": 200,
+  "parent_sha256": "427d2da1e049df9752bb019f5f39db18b82751385c3dced3b67e8b0eb155578b",
+  "raw_sha256": "46a1b5e29fc93ab881fead0d4618aaa70458168f6a30e9ada08eb3366deaecf8",
+  "received_at": "2026-10-10T02:23:57.572853+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:56.747575+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/46a1b5e29fc93ab881fead0d4618aaa70458168f6a30e9ada08eb3366deaecf8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/audios/show_updates"
+}

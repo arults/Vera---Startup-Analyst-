@@ -1,0 +1,18 @@
+{
+  "bytes": 110550,
+  "campaign_url": "https://republic.com/melior",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/melior/show_updates",
+  "gzip_sha256": "518cd394c61eabd39091f22c70f0fa3d6b1e8b50f042784bf88d57bfc5d5c94e",
+  "http_status": 200,
+  "parent_sha256": "1f3d139fdcab87b8742cbd03fe5fb1f6d4217abf8ce1e3fa92df094cecd53a8e",
+  "raw_sha256": "08f1db3df7bb8616ba47ba3cab4148b4b07b8ac2f53bab8c59583de783dbf887",
+  "received_at": "2026-10-10T02:33:42.618778+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:41.993563+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/08f1db3df7bb8616ba47ba3cab4148b4b07b8ac2f53bab8c59583de783dbf887.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/melior/show_updates"
+}

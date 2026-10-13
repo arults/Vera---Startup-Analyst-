@@ -1,0 +1,18 @@
+{
+  "bytes": 174169,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/npcx2024",
+  "gzip_sha256": "35322a4556dbf74128179ced92b0f43ebd5a1dfe97f49f14f84ee52768ec6598",
+  "http_status": 200,
+  "raw_sha256": "37d6747513f7c8ab7c7c0f7e83dfb2bec06e6c2dad4f922328fede21eb9c1f99",
+  "received_at": "2026-10-10T02:34:31.239285+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:30.330564+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/37d6747513f7c8ab7c7c0f7e83dfb2bec06e6c2dad4f922328fede21eb9c1f99.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/npcx2024"
+}

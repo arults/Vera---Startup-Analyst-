@@ -1,0 +1,18 @@
+{
+  "bytes": 1883513,
+  "campaign_url": "https://republic.com/watrfall",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/18265?view=preview",
+  "gzip_sha256": "ffd9e99a4d0198e2f3756c6d83c47aca83230e791eeadccdbfcb5a80aec50eda",
+  "http_status": 200,
+  "label": "Watrfall - Form C-A.pdf",
+  "parent_sha256": "aa2cc40f3ee3422be74d432ce8e23d4025bb8d7aa225d6e66f77bee4a47e8a66",
+  "raw_sha256": "a42059b8b3a42a88808c4d671963b64f16df510d31b410a2829cd3e86cd36146",
+  "received_at": "2026-10-10T02:09:48.178037+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:47.493912+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/a42059b8b3a42a88808c4d671963b64f16df510d31b410a2829cd3e86cd36146.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/18265?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 37263,
+  "campaign_url": "https://republic.com/lunar-hard-seltzer",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lunar-hard-seltzer/show_updates",
+  "gzip_sha256": "a4ae2d235a2181ad2e86c291581abdc80a24b434227dce6978c81713f9124366",
+  "http_status": 200,
+  "parent_sha256": "1aa88e9235811cd4e3e283d0046feadc5f0329218ffe627d76cef2dc8299515e",
+  "raw_sha256": "8361a4ce669b5354ad3f0a6aa13d0223981a1da3b8ea9eb289f13a7d7106dce2",
+  "received_at": "2026-10-10T02:33:09.874713+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:09.283260+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8361a4ce669b5354ad3f0a6aa13d0223981a1da3b8ea9eb289f13a7d7106dce2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lunar-hard-seltzer/show_updates"
+}

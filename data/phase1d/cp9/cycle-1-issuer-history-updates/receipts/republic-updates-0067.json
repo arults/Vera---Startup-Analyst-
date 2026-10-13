@@ -1,0 +1,19 @@
+{
+  "bytes": 88605,
+  "campaign_url": "https://republic.com/nanno-2019",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/nanno-2019/show_updates",
+  "gzip_sha256": "71db50154fadd60a185b3992442e81bd0d3621d7d40a58c35594490a504ac8c2",
+  "http_status": 200,
+  "legal_name": "Nanno, Inc.",
+  "native_offering_id": 303,
+  "parent_sha256": "43279a9b80fffe9df7dc693d1183e650013981b2564114b101ac2d36ef5f19fd",
+  "raw_sha256": "e8319b81b181d50d528c899d0d5e1a0640cff53fc8b4a9c61ae865297997f4a0",
+  "received_at": "2026-10-10T00:52:18.044392+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:17.473602+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/e8319b81b181d50d528c899d0d5e1a0640cff53fc8b4a9c61ae865297997f4a0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/nanno-2019/show_updates"
+}

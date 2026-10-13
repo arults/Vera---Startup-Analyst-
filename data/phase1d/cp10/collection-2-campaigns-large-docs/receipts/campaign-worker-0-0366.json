@@ -1,0 +1,18 @@
+{
+  "bytes": 39682,
+  "campaign_url": "https://republic.com/mighty-monkey",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mighty-monkey/show_updates",
+  "gzip_sha256": "95c1629889daee41841f95cf0a3bf9b61e195417639920ca80c4d91eff81d9cb",
+  "http_status": 200,
+  "parent_sha256": "aa071c39cd4c3c87e80e83db92f6bb689cdf018890dba302dc68e53a54c35fda",
+  "raw_sha256": "566e03cf715ea7051889b80f059339147af948a484517d2813f5380a6d957718",
+  "received_at": "2026-10-10T02:33:42.020576+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:41.443419+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/566e03cf715ea7051889b80f059339147af948a484517d2813f5380a6d957718.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mighty-monkey/show_updates"
+}

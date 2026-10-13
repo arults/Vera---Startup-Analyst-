@@ -1,0 +1,18 @@
+{
+  "bytes": 28494,
+  "campaign_url": "https://republic.com/pure-culture",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pure-culture/show_updates",
+  "gzip_sha256": "484ea21ce1a620c74989b4a0048773991cb18e7c7b4c0e5ebdfcdf6b57405c67",
+  "http_status": 200,
+  "parent_sha256": "fb52ab5508d7032eca073a3afa07af78eddc2a760a2e135e32a0dffe1e873cc8",
+  "raw_sha256": "7e702956922c96773bbf1e6cd5a1200f9f73d12deec5cfed0285bc56f16411a0",
+  "received_at": "2026-10-10T02:35:43.690072+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:43.124863+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7e702956922c96773bbf1e6cd5a1200f9f73d12deec5cfed0285bc56f16411a0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pure-culture/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 158688,
+  "campaign_url": "https://republic.com/acfn",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/acfn/show_updates",
+  "gzip_sha256": "9849e26e79a927ccdaad80d4327c10a039fe098d57bd01c45cc6feb435a16d6b",
+  "http_status": 200,
+  "legal_name": "ACFN Franchised Inc.",
+  "native_offering_id": 1825,
+  "parent_sha256": "3dbb63dbfc7c3047dfacc0e55877365d6fd7dfc2427adb62ab70877c5681fbf6",
+  "raw_sha256": "54c96a9f1b8fa86badc61c6275a5642a1eb362734531bcf181116c77eb649c9e",
+  "received_at": "2026-10-10T00:51:39.364021+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:38.751362+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/54c96a9f1b8fa86badc61c6275a5642a1eb362734531bcf181116c77eb649c9e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/acfn/show_updates"
+}

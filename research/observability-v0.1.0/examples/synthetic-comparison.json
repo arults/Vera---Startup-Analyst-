@@ -1,0 +1,63 @@
+{
+  "schema_version": "vera.synthetic-comparison/1",
+  "synthetic": true,
+  "matched_cases": 8,
+  "config_changed": false,
+  "baseline_config_ref": "ver:synthetic-config-1",
+  "candidate_config_ref": "ver:synthetic-config-1",
+  "baseline_implementation_ref": "sha256:6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b",
+  "candidate_implementation_ref": "sha256:6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b",
+  "regressions": 0,
+  "cases": [
+    {
+      "case_id": "complete",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "failed-evaluation",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "generic-jev-only",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "missing-component",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "missing-evaluation",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "resume-after-crash",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "retry",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    },
+    {
+      "case_id": "tool-exception",
+      "regressions": [],
+      "baseline_passed": true,
+      "candidate_passed": true
+    }
+  ],
+  "research_quality": "not_evaluated",
+  "warning": "Engineering and synthetic checks do not establish research accuracy, calibration, or prior promotion."
+}

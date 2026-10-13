@@ -1,0 +1,63 @@
+name: Phase 1D StartEngine recovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/recover_startengine.py'
+      - 'tests/test_phase1d_startengine.py'
+      - '.github/workflows/phase1d-startengine-recovery.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      RECOVERY_RUN_ID: gh-${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full regression suite
+        run: |
+          mkdir -p data/phase1d/startengine_recovery/$RECOVERY_RUN_ID
+          set -o pipefail
+          python -m unittest discover -s tests -v 2>&1 | tee data/phase1d/startengine_recovery/$RECOVERY_RUN_ID/tests.txt
+          sha256sum src/phase1d/recover_startengine.py tests/test_phase1d_startengine.py > data/phase1d/startengine_recovery/$RECOVERY_RUN_ID/code_sha256.txt
+      - name: Install browser collector
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+          pip freeze > data/phase1d/startengine_recovery/$RECOVERY_RUN_ID/runtime.txt
+      - name: Recover public native StartEngine directory evidence
+        run: |
+          set -o pipefail
+          python src/phase1d/recover_startengine.py --run-id "$RECOVERY_RUN_ID" --steps-per-seed 12 2>&1 | tee data/phase1d/startengine_recovery/$RECOVERY_RUN_ID/execution.txt
+      - name: Upload independent recovery copy
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase1d-startengine-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/phase1d/startengine_recovery/${{ env.RECOVERY_RUN_ID }}/
+          if-no-files-found: warn
+          retention-days: 90
+      - name: Persist incremental evidence
+        if: always()
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/startengine_recovery/
+          if ! git diff --cached --quiet; then
+            git commit -m "Phase 1D: persist StartEngine recovery $RECOVERY_RUN_ID [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi

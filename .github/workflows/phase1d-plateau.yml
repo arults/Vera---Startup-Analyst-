@@ -1,0 +1,54 @@
+name: Phase 1D replay audit and research stop guard
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/research_plateau_gate.py'
+      - 'src/phase1d/plateau_verifier.py'
+      - 'tests/test_phase1d_research_plateau_gate.py'
+      - 'tests/test_phase1d_plateau_verifier.py'
+      - '.github/workflows/phase1d-plateau.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install existing regression dependencies
+        run: pip install requests beautifulsoup4 curl_cffi
+      - name: Full regression suite
+        run: |
+          mkdir -p runtime-audit
+          set -o pipefail
+          python -m unittest discover -s tests -v 2>&1 | tee runtime-audit/tests.txt
+      - name: Reverify unchanged scientific data
+        run: |
+          set -o pipefail
+          python -m src.phase1d.verifier_v4 | tee runtime-audit/scientific-verifier.txt
+      - name: Audit historical snapshots without rewriting them
+        run: |
+          python -m src.phase1d.research_plateau_gate --root . \
+            --snapshots data/phase1d/plateau/deterministic-a.json data/phase1d/plateau/deterministic-b.json data/phase1d/plateau/deterministic-c.json \
+            --output runtime-audit/research-stop-report.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          result=json.loads(Path('runtime-audit/research-stop-report.json').read_text())
+          assert result['research_plateau'] is False
+          assert result['empirical_promotion'] is False
+          assert 'two_substantive_iteration_receipts_required' in result['reasons']
+          print('GUARD_PASS: historical replay is NOT research plateau')
+          PY
+      - name: Retain audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase1d-cp6-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: runtime-audit/
+          if-no-files-found: error

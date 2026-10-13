@@ -1,0 +1,37 @@
+{
+  "schema": "vera-neutral-diagnostic-package-v1",
+  "status": "UNADOPTED_HYPOTHETICAL_GROUNDWORK_ONLY",
+  "scope": "Typed assertion preservation and neutral calendar/order diagnostics; no empirical admission, scientific origin choice, estimator or production-adapter authority.",
+  "standalone_synthetic_tests": {
+    "ran": 28,
+    "passed": 28,
+    "skipped": 0,
+    "execution": "Isolated Python unittest discovery in a temporary package copy; no persistent result file."
+  },
+  "files": [
+    {
+      "path": "research/neutral-origin-preparer-v0.1.0/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 3912,
+      "sha256": "ac24d61c51b6b387fa7448577e937845acae09ef9d17da74afe6b91d230c2236",
+      "git_blob_sha": "80359bb53a0b1be10539d46e160201e81dcfc227"
+    },
+    {
+      "path": "research/neutral-origin-preparer-v0.1.0/neutral_preparer.py",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 7544,
+      "sha256": "4e789f2c523bbebcfffb88eaca8c8094f45bf4a24efced7aec613e1c6e01b4e9",
+      "git_blob_sha": "0b111ecac3538e2e9914297aeb69a67cf99c46eb"
+    },
+    {
+      "path": "research/neutral-origin-preparer-v0.1.0/test_neutral_preparer.py",
+      "mode": "100644",
+      "type": "blob",
+      "bytes": 8672,
+      "sha256": "c848a999d170f03c37ee5b3cf5b48bd665f79c06b9b1e4481fa773f8ea311702",
+      "git_blob_sha": "bf2a3ac4a746ca6e691816e74892452ccadbd0a7"
+    }
+  ]
+}

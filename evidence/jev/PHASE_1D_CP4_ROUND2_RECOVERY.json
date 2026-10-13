@@ -1,0 +1,64 @@
+{
+  "execution_increment": "0.6.0-dev.r2",
+  "date": "2026-10-09",
+  "interpretation": "Jev outputs are model judgments about narrowly specified decisions, not calibrated empirical company-success probabilities. No full-study promotion or plateau.",
+  "source_branch": "phase-1d",
+  "starting_commit": "d1de1c6c2735353f31087cb56d04ffeda917e041",
+  "evidence": {
+    "previous_wefunder_gate": "evidence/jev/PHASE_1D_WEFUNDER_CENSUS_DECISION.json",
+    "live_recovery_run_id": 37894313863,
+    "live_recovery_summary": "data/phase1d/republic_us_recovery/gh-37894313863/summary.json",
+    "live_recovery_result": {"new_captures": 0, "http403_directories": 4, "tests_passed": 82, "tests_total": 82, "research_status": "ACCESS_BLOCKED"},
+    "archive_normalization_run_id": 37894925070,
+    "archive_output_commit": "12911af88137516c211c4a48bb5f7800ba1fa66b",
+    "archive_summary": "data/phase1d/republic_us_archive/gh-37894925070-1/summary.json",
+    "archive_manifest": "data/phase1d/republic_us_archive/gh-37894925070-1/manifest.json",
+    "archive_result": {"candidate_rows": 144, "rejected_rows": 0, "duplicate_source_rows": 0, "conflicting_slugs": 0, "tests_passed": 101, "tests_total": 101, "normalization_gates_passed": 15, "normalization_gates_total": 15, "estimation_eligible": 0, "new_live_evidence": false},
+    "source_sha256": "0cfea3138ddbbfcb3f66c4ab1fd755a1b2ad88eaa7720cbfbe9a1714f60c80dd"
+  },
+  "evaluations": [
+    {
+      "sequence": 1,
+      "input_summary": "Latest durable Wefunder decision rejects 149 currently-visible API rows as historical census and selects Republic US next; operational documents are stale; all four non-Europe censuses incomplete.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "next_execution": {"type": "choice", "choice": "republic_us_census", "confidence": 1, "probabilities": {"republic_us_census": 1, "repeat_wefunder_api": 0, "sec_crosscheck": 0, "stop": 0}},
+        "documentation_repair": {"type": "choice", "choice": "append_current_checkpoint", "confidence": 1, "probabilities": {"append_current_checkpoint": 1, "ignore": 0, "rewrite_history": 0}},
+        "promotion": {"type": "choice", "choice": "remain_unpromoted", "confidence": 1, "probabilities": {"remain_unpromoted": 1, "promote_full": 0}}
+      },
+      "usage": {"input_tokens": 1211, "output_tokens": 144}
+    },
+    {
+      "sequence": 2,
+      "input_summary": "Real old-probe defects: unreachable companies/<slug> branch; cumulative counts mislabeled per-page; URL-only response dedup; scrolling without explicit pagination; fixed outputs. Proposed additive public-only bounded collector, immutable snapshots, source hashes and tests; no changes to estimators.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "repair_scope": {"type": "choice", "choice": "implement_increment", "confidence": 1, "probabilities": {"implement_increment": 1, "keep_buggy_probe": 0, "reopen_statistics": 0}},
+        "denominator_policy": {"type": "choice", "choice": "candidate_only", "confidence": 1, "probabilities": {"candidate_only": 1, "complete_on_exhaustion": 0}}
+      },
+      "usage": {"input_tokens": 1025, "output_tokens": 85}
+    },
+    {
+      "sequence": 3,
+      "input_summary": "New recovery executed: 82 tests pass but all four public directories return HTTP403, zero captures; 10 integrity checks are vacuously insufficient for collection success. Existing saved public API archive has144 rows. Normalize preserved archive with source/row hashes and unresolved year/identity/date semantics, rather than retry identical403 requests.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "next_action": {"type": "choice", "choice": "normalize_existing_archive", "confidence": 1, "probabilities": {"normalize_existing_archive": 1, "retry_403_same_run": 0, "promote_green_ci": 0, "stop_without_checkpoint": 0}},
+        "research_status": {"type": "choice", "choice": "access_blocked_no_new_evidence", "confidence": 1, "probabilities": {"access_blocked_no_new_evidence": 1, "collection_passed": 0}},
+        "archive_policy": {"type": "choice", "choice": "candidate_only_with_unknowns", "confidence": 1, "probabilities": {"candidate_only_with_unknowns": 1, "historical_denominator": 0}}
+      },
+      "usage": {"input_tokens": 1270, "output_tokens": 154}
+    },
+    {
+      "sequence": 4,
+      "input_summary": "Executed archive normalization:144 candidates,144 unique slugs,0 rejects/duplicates/conflicts,15/15 gates,101/101 total tests. Deadline years2016:5,2017:14,2018:38,2019:38,2020:49 are not cohort years. Zero resolved first-live years, strong legal IDs or estimation-eligible rows. Failed live collection and all four incomplete platform censuses remain visible. Candidate-only checkpoint accepted; no promotion or full-study plateau.",
+      "model": "jev-1.13.0",
+      "answers": {
+        "increment_gate": {"type": "choice", "choice": "accept_candidate_checkpoint", "confidence": 1, "probabilities": {"accept_candidate_checkpoint": 1, "reject_increment": 0, "promote_full_study": 0}},
+        "study_gate": {"type": "choice", "choice": "blocked_incomplete_not_plateau", "confidence": 1, "probabilities": {"blocked_incomplete_not_plateau": 1, "complete_plateau": 0}},
+        "next_work_priority": {"type": "choice", "choice": "historical_source_and_dates", "confidence": 1, "probabilities": {"historical_source_and_dates": 1, "estimate_archived_subset": 0, "repeat_same_403": 0, "more_estimator_tuning": 0}}
+      },
+      "usage": {"input_tokens": 1534, "output_tokens": 162}
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 40470409,
+  "campaign_url": "https://republic.com/vonmercier",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "VonMercier Form C.pdf",
+  "page_count": 326,
+  "parent_sha256": "5eac4834130268793dad125a55fc15f34bdd12f85c28620b1612c1087065d078",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 944,
+      "pymupdf_sha256": "05eb1f6df88dd4ff4e526d41392a5e589a3c0cf3cf40d70f3338e728e4b9a1c8",
+      "pypdf_chars": 944,
+      "pypdf_sha256": "05eb1f6df88dd4ff4e526d41392a5e589a3c0cf3cf40d70f3338e728e4b9a1c8"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1617,
+      "pymupdf_sha256": "6a34a1924d3a40cb5316d123c34b3fce98ea228f17d8d88b77142dd8c05f659d",
+      "pypdf_chars": 1619,
+      "pypdf_sha256": "8f2d47fa8fffafa727e1e67ec8b27210f66f77ad9ea45719d39ffca28e5e31e6"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1029,
+      "pymupdf_sha256": "0def31e4cfb5d8f2bc5ce2041812cb9b92090a0924fc01264238e28dba50b241",
+      "pypdf_chars": 1031,
+      "pypdf_sha256": "652712156a25e4e3e6a849602a72d94fbd4ceac4f6711455b4692da9b82ead56"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3182,
+      "pymupdf_sha256": "e9efed0c4690b3c841a55d36268dc04908be71e889af2ef428ad75037f5e9e33",
+      "pypdf_chars": 3188,
+      "pypdf_sha256": "603f929c7b7a15ce05316beafc89abfe3c820b301b72ead19eea35564413eb79"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/966d8c5d7dfdcb33d4125afe2f1907ccfe6e84cfcb71dfb513eec53af20dc482.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/966d8c5d7dfdcb33d4125afe2f1907ccfe6e84cfcb71dfb513eec53af20dc482.bin.gz",
+  "source_sha256": "966d8c5d7dfdcb33d4125afe2f1907ccfe6e84cfcb71dfb513eec53af20dc482",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1513?view=preview"
+}

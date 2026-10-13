@@ -1,0 +1,18 @@
+{
+  "bytes": 169350,
+  "campaign_url": "https://republic.com/claro",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/claro/show_updates",
+  "gzip_sha256": "e76dfd6f8d4d8c5d6de354127176ffbb794805326fb5010c103fb22eb532a0ad",
+  "http_status": 200,
+  "parent_sha256": "ca88a1d4c1e565878a43321d0e0b598f0c7d7c72bcda8214f1b4219fbd7d4362",
+  "raw_sha256": "90757ed5439772a1d03432c057d68068a25272adefd3baf51fd2781ca18f22bf",
+  "received_at": "2026-10-10T02:25:27.810643+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:27.152619+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/90757ed5439772a1d03432c057d68068a25272adefd3baf51fd2781ca18f22bf.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/claro/show_updates"
+}

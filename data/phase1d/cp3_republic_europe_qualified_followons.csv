@@ -1,0 +1,58 @@
+canonical_company_id,source_round_id,destination_round_id,source_campaign,destination_campaign,source_offering_year,destination_offering_year,source_completion,destination_completion,source_field,currency,source_pre_money,destination_pre_money,valuation_multiple,success_type
+ukco:09140632,reurope:salcombegin,reurope:salcombedistillingco,Salcombe Distilling Co.,Salcombe Distilling Co.,,2022,2020-01-09,2022-05-24,food_beverage_agtech,GBP,16800000,29400000,1.750000,qualified_priced_followon
+ukco:10843995,reurope:skinny-tonic,reurope:skinny-tonic2,Skinny Tonic™️,Skinny Tonic,,,2020-01-17,2021-01-07,food_beverage_agtech,GBP,5700000,12000000,2.105263,qualified_priced_followon
+ukco:10843995,reurope:skinny-tonic2,reurope:skinny-drinks-group,Skinny Tonic,Happy Drinks Co,,,2021-01-07,2022-04-20,food_beverage_agtech,GBP,12000000,48000000,4.000000,qualified_priced_followon
+ukco:10919572,reurope:savvy-navvy2,reurope:savvy-navvy3,savvy navvy,savvy navvy,2021,2022,2021-04-20,2022-02-24,mobility_logistics_aerospace,GBP,2800000,9500000,3.392857,qualified_priced_followon
+ukco:10309136,reurope:elfin-market,reurope:elfin-market3,Elfin Market,Elfin Market,2020,2023,2020-03-10,2023-12-07,fintech_insurtech,GBP,6500000,25000000,3.846154,qualified_priced_followon
+ukco:10248770,reurope:the-funky-appliance-company,reurope:the-funky-appliance-company2,The Funky Appliance Company,The Funky Appliance Company,2020,2021,2020-03-15,2021-06-23,consumer_retail,GBP,3900000,8000000,2.051282,qualified_priced_followon
+ukco:09617757,reurope:manilife2,reurope:manilife3,ManíLife,ManiLife,2020,2023,2020-03-18,2023-05-18,food_beverage_agtech,GBP,3200000,11600000,3.625000,qualified_priced_followon
+ukco:10305828,reurope:big-drop-brewing-co,reurope:bigdropbrewing1,Big Drop Brewing Co,Big Drop Brewing,2020,2022,2020-04-13,2022-12-02,food_beverage_agtech,GBP,7500000,14200000,1.893333,qualified_priced_followon
+ukco:07120773,reurope:3rdrock,reurope:3rd-rock,3RD ROCK,3RD ROCK,2020,2021,2020-05-21,2021-05-31,other_diversified,GBP,1400000,2100000,1.500000,qualified_priced_followon
+ukco:12558919,reurope:estateguru-2020,reurope:estateguru-2021,EstateGuru,EstateGuru,2020,2021,2020-06-11,2021-05-14,fintech_insurtech,EUR,28800000,49000000,1.701389,qualified_priced_followon
+ukco:07870731,reurope:troubadour-goods2,reurope:troubadour-goods4,Troubadour Goods,Troubadour,2020,2023,2020-06-19,2023-10-04,other_diversified,GBP,5400000,13600000,2.518519,qualified_priced_followon
+ukco:11628016,reurope:square-mile-farms,reurope:square-mile-farms2,Square Mile Farms,Square Mile Farms,2020,2022,2020-08-06,2022-03-25,realestate_hospitality_proptech,GBP,2100000,4000000,1.904762,qualified_priced_followon
+ukco:11071470,reurope:fetch,reurope:fetch1,FETCH,FETCH,2020,2021,2020-09-22,2021-09-01,fintech_insurtech,GBP,7500000,24000000,3.200000,qualified_priced_followon
+ukco:12091439,reurope:rnwl,reurope:rnwl1,Rnwl,Rnwl,2020,2021,2020-10-31,2021-12-21,fintech_insurtech,GBP,3800000,6000000,1.578947,qualified_priced_followon
+ukco:09993255,reurope:pharmaseal,reurope:pharmaseal1,PHARMASEAL,PHARMASEAL International Ltd,2020,2023,2020-11-13,2023-05-22,healthcare_medtech,GBP,1000000,5000000,5.000000,qualified_priced_followon
+ukco:09204810,reurope:ziglu,reurope:ziglu1,Ziglu,Ziglu,2020,2021,2020-12-01,2021-11-09,fintech_insurtech,GBP,45200000,85000000,1.880531,qualified_priced_followon
+ukco:08403776,reurope:heights,reurope:heights3,Heights,Heights,2020,,2020-12-03,2022-08-03,healthcare_medtech,GBP,8400000,30000000,3.571429,qualified_priced_followon
+ukco:08108791,reurope:uni-compare,reurope:uni-compare1,Uni Compare,Uni Compare,2020,2022,2020-12-04,2022-09-16,other_diversified,GBP,3600000,7500000,2.083333,qualified_priced_followon
+ukco:12284429,reurope:peckwater-brands,reurope:peckwater-brands2,Peckwater Brands,Peckwater Brands,2020,2022,2020-12-15,2022-10-15,food_beverage_agtech,GBP,1600000,50000000,31.250000,qualified_priced_followon
+ukco:12284429,reurope:peckwater-brands2,reurope:peckwater-brands4,Peckwater Brands,Peckwater Brands,2022,2024,2022-10-15,2024-06-20,food_beverage_agtech,GBP,50000000,80000000,1.600000,qualified_priced_followon
+ukco:10076849,reurope:solivus,reurope:solivus2,Solivus,Solivus,,2022,2021-01-26,2022-12-13,climate_energy_industrial,GBP,16500000,29000000,1.757576,qualified_priced_followon
+ukco:11825005,reurope:your-dogs-club,reurope:your-dog-s-club,Your Dog's Club,Your Dog's Club,2021,2022,2021-01-27,2022-04-27,consumer_retail,GBP,1000000,5500000,5.500000,qualified_priced_followon
+ukco:09185882,reurope:lemonadedolls,reurope:lemonade-dolls2,Lemonade Dolls,Lemonade Dolls,,,2021-02-06,2025-01-15,other_diversified,GBP,2500000,16900000,6.760000,qualified_priced_followon
+ukco:12617723,reurope:virtuallyvisiting,reurope:virtually-visiting,Virtually Visiting,Virtually Visiting,2021,2022,2021-02-17,2022-06-13,mobility_logistics_aerospace,GBP,567100,1200000,2.116029,qualified_priced_followon
+ukco:11814871,reurope:getsetpet,reurope:get-set-pet1,Get Set Pet,Get Set Pet,2021,2022,2021-03-08,2022-06-21,food_beverage_agtech,GBP,2500000,12400000,4.960000,qualified_priced_followon
+ukco:10388042,reurope:vegums,reurope:vegums1,Vegums,Vegums,2021,2022,2021-03-16,2022-03-23,healthcare_medtech,GBP,2400000,5000000,2.083333,qualified_priced_followon
+ukco:10850868,reurope:imployable,reurope:imployable1,Imployable,Imployable,2021,2023,2021-03-26,2023-04-11,other_diversified,GBP,5000000,10100000,2.020000,qualified_priced_followon
+ukco:08784537,reurope:square-root-soda,reurope:square-root-soda1,Square Root Soda,Square Root,2021,2022,2021-04-01,2022-11-07,food_beverage_agtech,GBP,4700000,7500000,1.595745,qualified_priced_followon
+ukco:13059872,reurope:jump-into-design,reurope:jump-into-design1,JUMP into DESIGN,JUMP into DESIGN,2021,2022,2021-04-03,2022-10-29,saas_enterprise_software,GBP,2000000,4900000,2.450000,qualified_priced_followon
+ukco:09360817,reurope:dma,reurope:dmalink3,DMALINK,DMALINK,2021,2023,2021-04-07,2023-09-05,fintech_insurtech,GBP,10300000,17300000,1.679612,qualified_priced_followon
+ukco:12181387,reurope:qardus,reurope:qardus1,Qardus,Qardus,2021,2023,2021-04-13,2023-07-21,fintech_insurtech,GBP,3000000,8000000,2.666667,qualified_priced_followon
+ukco:12664906,reurope:sipchampagnes,reurope:sip-champagnes,Sip Champagnes,Sip Champagnes,2021,2022,2021-04-29,2022-10-06,food_beverage_agtech,GBP,810000,2200000,2.716049,qualified_priced_followon
+ukco:14532315,reurope:fagura,reurope:fagura1,Fagura,Fagura,2021,,2021-05-24,2023-01-05,fintech_insurtech,EUR,2000000,5000000,2.500000,qualified_priced_followon
+ukco:SC543722,reurope:ebar1,reurope:ebar4,EBar,EBar,2021,2023,2021-06-21,2023-03-08,food_beverage_agtech,GBP,3000000,8800000,2.933333,qualified_priced_followon
+ukco:09507932,reurope:glint,reurope:glint1,Glint,Glint,2021,2022,2021-07-05,2022-12-12,fintech_insurtech,GBP,35900000,77700000,2.164345,qualified_priced_followon
+ukco:07974955,reurope:perkierfoods,reurope:perkier,Perkier,Perkier,2021,2023,2021-09-16,2023-05-26,food_beverage_agtech,GBP,3800000,5800000,1.526316,qualified_priced_followon
+ukco:12192959,reurope:occuity,reurope:occuity2022,Occuity,Occuity,2021,2022,2021-10-05,2022-12-29,healthcare_medtech,GBP,12900000,24000000,1.860465,qualified_priced_followon
+ukco:12192959,reurope:occuity2022,reurope:occuity2,Occuity,Occuity,2022,2025,2022-12-29,2025-12-23,healthcare_medtech,GBP,24000000,38900000,1.620833,qualified_priced_followon
+ukco:11356014,reurope:oceansaver1,reurope:oceansaver3,OceanSaver,OceanSaver,2023,,2023-04-09,2024-12-02,consumer_retail,GBP,2500000,10300000,4.120000,qualified_priced_followon
+ukco:685489,reurope:riley,reurope:riley1,Riley,Riley,2021,2023,2021-11-19,2023-06-02,healthcare_medtech,EUR,2500000,8000000,3.200000,qualified_priced_followon
+ukco:13402423,reurope:goodfolio,reurope:goodfolio1,GOODFOLIO,GOODFOLIO,2021,2022,2021-12-11,2022-10-21,fintech_insurtech,GBP,1200000,2400000,2.000000,qualified_priced_followon
+ukco:12539971,reurope:baotree,reurope:baotree1,Baotree,Baotree,2021,,2021-12-14,2024-01-11,saas_enterprise_software,GBP,2000000,3200000,1.600000,qualified_priced_followon
+ukco:09925185,reurope:hofmeister,reurope:hofmeister-beer,Hofmeister,Hofmeister,2021,2023,2021-12-25,2023-05-22,food_beverage_agtech,GBP,9300000,15000000,1.612903,qualified_priced_followon
+ukco:12187743,reurope:unltd,reurope:unltd1,UNLTD.,UNLTD.,2022,2023,2022-01-17,2023-06-14,food_beverage_agtech,GBP,2000000,3500000,1.750000,qualified_priced_followon
+ukco:12914205,reurope:for-the-creators,reurope:for-the-creators2,For The Creators,For The Creators,,,2022-01-24,2025-01-30,other_diversified,GBP,1700000,5000000,2.941176,qualified_priced_followon
+ukco:13142206,reurope:ferris,reurope:ferris1,Ferris,Ferris,2022,2023,2022-02-26,2023-03-24,consumer_retail,GBP,1600000,2500000,1.562500,qualified_priced_followon
+ukco:12397107,reurope:onoco,reurope:onoco1,Onoco,Onoco,2022,2023,2022-05-25,2023-08-21,saas_enterprise_software,GBP,2200000,3500000,1.590909,qualified_priced_followon
+ukco:11413946,reurope:currensea2,reurope:currensea3,Currensea,Currensea,2022,,2022-07-17,2024-07-23,fintech_insurtech,GBP,16500000,28500000,1.727273,qualified_priced_followon
+ukco:12861535,reurope:naked-sprout,reurope:naked-sprout1,Naked Sprout,Naked Sprout,2022,2024,2022-07-21,2024-03-01,consumer_retail,GBP,6500000,11000000,1.692308,qualified_priced_followon
+ukco:11211232,reurope:akt-london,reurope:akt-london1,AKT London,AKT London,2022,2023,2022-07-26,2023-10-16,consumer_retail,GBP,5000000,8000000,1.600000,qualified_priced_followon
+ukco:09793739,reurope:future-motion,reurope:clearwatt,ClearWatt by Future Motion,ClearWatt,2022,2024,2022-11-25,2024-06-18,mobility_logistics_aerospace,GBP,1800000,4000000,2.222222,qualified_priced_followon
+ukco:12863419,reurope:altilium-metal,reurope:altilium,Altilium Metals,Altilium,2022,2025,2022-12-05,2025-07-16,climate_energy_industrial,GBP,77200000,167600000,2.170984,qualified_priced_followon
+ukco:07179872,reurope:verv-energy,reurope:verv-energy1,Verv Energy,Verv Energy,2022,2024,2022-12-23,2024-03-26,climate_energy_industrial,GBP,6400000,12000000,1.875000,qualified_priced_followon
+ukco:SC616013,reurope:jump-ship,reurope:jump-ship-brewing,Jump Ship Brewing,Jump Ship Brewing,2023,2025,2023-03-13,2025-12-19,food_beverage_agtech,GBP,2200000,3300000,1.500000,qualified_priced_followon
+ukco:12179870,reurope:carnot-engines,reurope:carnot-engines1,Carnot Engines,Carnot Engines,2023,,2023-08-18,2024-09-30,mobility_logistics_aerospace,GBP,11600000,20200000,1.741379,qualified_priced_followon
+ukco:14668208,reurope:pronto-pos,reurope:pronto-pos1,Pronto POS,Pronto POS,,2025,2024-01-17,2025-06-09,saas_enterprise_software,GBP,1500000,2300000,1.533333,qualified_priced_followon
+ukco:09508827,reurope:stir-cambridge,reurope:stir-cambridge1,Stir Cambridge,Stir Cambridge,2024,2025,2024-06-25,2025-11-06,food_beverage_agtech,GBP,3200000,4800000,1.500000,qualified_priced_followon

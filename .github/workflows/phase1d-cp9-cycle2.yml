@@ -1,0 +1,83 @@
+name: Phase 1D CP9 second empirical cycle
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp9-cycle2.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp9-empirical
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install collection dependencies
+        run: python -m pip install requests beautifulsoup4
+      - name: Correct JSON envelope and independently verify native timeline dates
+        run: python -m src.phase1d.reconcile_cp9_timelines
+      - name: Capture new source-linked full posts and public documents
+        run: python -m src.phase1d.capture_cp9_documents_posts
+      - name: Full regression suite including adversarial CP9 tests
+        if: always()
+        run: |
+          mkdir -p evidence/phase1d_cp9/cycle-2
+          python -m unittest discover -s tests -v > evidence/phase1d_cp9/cycle-2/full-tests.txt 2>&1
+          cat evidence/phase1d_cp9/cycle-2/full-tests.txt
+      - name: Independently verify source integrity and forbid unsupported promotion
+        run: |
+          python - <<'PY'
+          import json,gzip,hashlib,csv
+          from pathlib import Path
+          root=Path('.');base=root/'data/phase1d/cp9';p=base/'cycle-2-documents-posts'
+          sha=lambda b:hashlib.sha256(b).hexdigest()
+          before=json.loads((p/'preserved_before.json').read_text())
+          assert all((root/k).is_file() and sha((root/k).read_bytes())==v for k,v in before.items())
+          checked=0
+          for r in json.loads((p/'manifest.json').read_text()):
+              if r.get('source_path'):
+                  b=(root/r['source_path']).read_bytes()
+                  assert sha(b)==r['gzip_sha256'] and sha(gzip.decompress(b))==r['raw_sha256'];checked+=1
+          dates=list(csv.DictReader((base/'cycle-1-reconciled/republic_us_verified_date_candidates.csv').open()))
+          assert len(dates)==122
+          assert all(r['first_live_date']<=r['native_completion_date'] and r['estimation_eligible']=='False' for r in dates)
+          assert next(r for r in dates if r['source_url']=='https://republic.com/trusst')['offering_year']=='2020'
+          assert next(r for r in dates if r['source_url']=='https://republic.com/ternio')['year_in_study']=='False'
+          summary=json.loads((p/'summary.json').read_text())
+          assert not any(summary[k] for k in ['rates_promoted','census_complete','research_plateau'])
+          result={'prior_data_files_checked_unchanged':len(before),'new_source_receipts_hash_verified':checked,'launch_completion_chronology_rows':len(dates),'trusst_launch_year_2020_verified':True,'ternio_2019_control_excluded':True,'numerical_promotions':0,'scope':'Independent bytes, chronology and hold checks; semantic outcome adjudication still required'}
+          with open('evidence/phase1d_cp9/cycle-2/integrity.json','x') as f:json.dump(result,f,indent=2)
+          print(result)
+          PY
+      - name: Preserve all new checkpoint outputs without changing existing data
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/phase1d/cp9 evidence/phase1d_cp9
+          if git diff --cached --name-status | grep -v '^A[[:space:]]'; then echo 'Non-additive staged data change refused'; exit 1; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'CP9 cycle 2: preserve corrected timelines, actual public source captures and test receipts; no promotions'
+            git push origin HEAD:phase-1d
+          fi
+      - name: Export actual tracked checkpoint
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp9-cycle2
+          git archive --format=tar.gz --output=/tmp/vera-cp9-cycle2/branch-source.tar.gz HEAD
+          git rev-parse HEAD > /tmp/vera-cp9-cycle2/source-commit.txt
+          sha256sum /tmp/vera-cp9-cycle2/branch-source.tar.gz > /tmp/vera-cp9-cycle2/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp9-cycle2-${{ github.run_id }}
+          path: /tmp/vera-cp9-cycle2/
+          retention-days: 30
+          if-no-files-found: error

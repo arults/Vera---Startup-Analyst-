@@ -1,0 +1,21 @@
+{
+  "Jev_choice": "bounded_resume_and_new_campaigns",
+  "Jev_confidence": 1.0,
+  "Jev_selection_probability": 1.0,
+  "limits": {
+    "all_document_download_bytes": 300000000,
+    "document_bytes": 48000000,
+    "per_document_seconds": 120
+  },
+  "rules": [
+    "Only incomplete/size-held docs resumed. Existing validcaptures not downloaded again.",
+    "Local size/time hold does not trigger source-wide access circuit.",
+    "Two actual access/network errors stop source; no authentication or blockedSEC retries.",
+    "New campaigns identified by issuer links and native discovery, not random slug guesses.",
+    "All fetched content unadjudicated; SAFE caps never priced followon success.",
+    "Previous files immutable; no rates, main merge or plateau."
+  ],
+  "source_commit": "ba07297b40106ace98d0022d509d81e60b92263c",
+  "started_at": "2026-10-10T01:20:53.344797+00:00",
+  "version": "0.6.4-dev.research.3"
+}

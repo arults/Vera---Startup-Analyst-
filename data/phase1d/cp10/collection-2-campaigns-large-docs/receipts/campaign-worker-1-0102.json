@@ -1,0 +1,18 @@
+{
+  "bytes": 152520,
+  "campaign_url": "https://republic.com/chasin-dreams-farm",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/chasin-dreams-farm/show_updates",
+  "gzip_sha256": "4d3593ed654ebd5ac17c3af3f63ac86290bf12a5b06131b7bfd1d39eae97d839",
+  "http_status": 200,
+  "parent_sha256": "3b084f2cf32e46b1a2c5d3ac9d9a96886c244d53ce48a5cab6086f2e39480c80",
+  "raw_sha256": "78d7edec91a8f39329591560c4d78f47873434f48ba7e685460786441d50b92c",
+  "received_at": "2026-10-10T02:25:49.909121+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:49.205337+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/78d7edec91a8f39329591560c4d78f47873434f48ba7e685460786441d50b92c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/chasin-dreams-farm/show_updates"
+}

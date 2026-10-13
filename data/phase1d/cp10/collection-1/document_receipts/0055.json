@@ -1,0 +1,49 @@
+{
+  "bytes": 588517,
+  "campaign_url": "https://republic.com/phantom-phood",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Phantom Phood Form C.pdf",
+  "page_count": 61,
+  "parent_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 952,
+      "pymupdf_sha256": "1a0d1476d46fdcefa505ec63c778d036583f1e7ca41a2622f4a1d4b26d723047",
+      "pypdf_chars": 952,
+      "pypdf_sha256": "1a0d1476d46fdcefa505ec63c778d036583f1e7ca41a2622f4a1d4b26d723047"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1614,
+      "pymupdf_sha256": "4408a40bbf8788de20aa46f1dd703358eb2764097e54c970a996a1566104903e",
+      "pypdf_chars": 1616,
+      "pypdf_sha256": "3ad338ea6e496e418db42f6223644620d22591da73b4297637df3b58f76bcfaf"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1045,
+      "pymupdf_sha256": "ee2d23a0f3ff66ec3fe384617a2ba2c8ba8f645c66739662885a94e146f42d81",
+      "pypdf_chars": 1047,
+      "pypdf_sha256": "a4e13108b49bc33e910a6580c0180a05d18ec91b8a8814f0e691ecf5346bf14a"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3186,
+      "pymupdf_sha256": "fa478a10a503360be17c609e7163fad35c898a5c6220bfd9ea650eee3d3044de",
+      "pypdf_chars": 3192,
+      "pypdf_sha256": "3e34d30239244eb63d97a5bf641dca94311b4cfb6a27cb3cc740e287cf12b157"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+  "source_sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/2055?view=preview"
+}

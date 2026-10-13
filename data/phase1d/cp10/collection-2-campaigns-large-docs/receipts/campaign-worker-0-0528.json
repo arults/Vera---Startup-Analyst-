@@ -1,0 +1,18 @@
+{
+  "bytes": 138287,
+  "campaign_url": "https://republic.com/scripx",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/scripx/show_updates",
+  "gzip_sha256": "59065f8413174ccb992a71cbd8f86d9ccb9225998b1f6b69ae01216bbc41bfb6",
+  "http_status": 200,
+  "parent_sha256": "1970fb505aa0522828220bc84a709a6cfde533a765c3f12a4bcaeecbcaeaced1",
+  "raw_sha256": "b13c133c866edd6da27167538a94004c96fbf720780a01b5e4a5bcaf96ce406b",
+  "received_at": "2026-10-10T02:36:44.515094+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:43.864500+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b13c133c866edd6da27167538a94004c96fbf720780a01b5e4a5bcaf96ce406b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/scripx/show_updates"
+}

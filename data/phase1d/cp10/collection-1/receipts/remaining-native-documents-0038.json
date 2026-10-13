@@ -1,0 +1,14 @@
+{
+  "campaign_url": "https://republic.com/hellowoofy-december-2019",
+  "content_type": "application/pdf",
+  "downloaded_bytes": 48037888,
+  "final_url": "https://republic.com/documents/142?view=preview",
+  "http_status": 200,
+  "label": "Woofy Form C:A 02.12.2020.pdf",
+  "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:14.023929+00:00",
+  "source_group": "remaining-native-documents",
+  "status": "DOCUMENT_LOCAL_BYTE_LIMIT_HOLD",
+  "url": "https://republic.com/documents/142?view=preview"
+}

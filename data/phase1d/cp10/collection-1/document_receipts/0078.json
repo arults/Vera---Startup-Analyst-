@@ -1,0 +1,13 @@
+{
+  "bytes": 137155,
+  "campaign_url": "https://republic.com/startglobal",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "StartGlobal Form C.docx",
+  "parent_sha256": "0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+  "pdf_magic_verified": false,
+  "source_path": "data/phase1d/cp10/collection-1/captures/e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4.bin.gz",
+  "source_sha256": "e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4",
+  "status": "NON_PDF_DOCUMENT_RESPONSE_REVIEW_REQUIRED",
+  "url": "https://republic.com/documents/11091?view=preview"
+}

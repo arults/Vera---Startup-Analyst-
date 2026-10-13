@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Cerveza Tulum",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/cerveza-tulum",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/925b63cf86b2d3b9175cfc14d63b9de54cd2669a98c85c686510c71975c8073e.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1862075",
+    "final_url": "https://republic.com/cerveza-tulum",
+    "first_live_date": "",
+    "investors": "206",
+    "legal_name_from_platform": "Cervecería Gran Arrecife Maya USA Corp",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "161875",
+    "security_type": "Class B Non-Voting shares",
+    "source_content_sha256": "925b63cf86b2d3b9175cfc14d63b9de54cd2669a98c85c686510c71975c8073e",
+    "source_url": "https://republic.com/cerveza-tulum",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2022-05-01",
+    "successful_close_year_NOT_offering_year": "2022"
+  },
+  "final_url": "https://republic.com/cerveza-tulum",
+  "first_live_date": "2021-06-01",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2022-05-01",
+      "Successfully raised $161,875.13 🍾"
+    ],
+    [
+      "2021-06-01",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 1001,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/925b63cf86b2d3b9175cfc14d63b9de54cd2669a98c85c686510c71975c8073e.bin.gz",
+  "source_sha256": "925b63cf86b2d3b9175cfc14d63b9de54cd2669a98c85c686510c71975c8073e",
+  "successful_completion_date": "2022-05-01",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/18c0fa7e3784bf89405a024f61dc582eba6525c85ccd2d2aab78a1701c1c1af3.bin.gz",
+  "timeline_source_sha256": "18c0fa7e3784bf89405a024f61dc582eba6525c85ccd2d2aab78a1701c1c1af3",
+  "url": "https://republic.com/cerveza-tulum",
+  "year_in_study": true
+}

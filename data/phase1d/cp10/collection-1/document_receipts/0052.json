@@ -1,0 +1,49 @@
+{
+  "bytes": 30907295,
+  "campaign_url": "https://republic.com/natural-selection",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Natural Selection Form C.pdf",
+  "page_count": 100,
+  "parent_sha256": "5e54e1466501c78c84586de44e44d511fe97baa86151d5f9317bc4b470408450",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1063,
+      "pymupdf_sha256": "e070ab82832db2d31de3598ab0f48724ae3ac1793fb2ab7cfb3ef3cf689fea26",
+      "pypdf_chars": 1063,
+      "pypdf_sha256": "e070ab82832db2d31de3598ab0f48724ae3ac1793fb2ab7cfb3ef3cf689fea26"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1448,
+      "pymupdf_sha256": "7f91298ff34332e7e0c6456e1c5194a556c225b268f1677388d5c8e5aa3e5827",
+      "pypdf_chars": 1448,
+      "pypdf_sha256": "7f91298ff34332e7e0c6456e1c5194a556c225b268f1677388d5c8e5aa3e5827"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 984,
+      "pymupdf_sha256": "e289d6c3a5afbcb09aa723cd8a444bc3a940fdbeb4b162e4740805488ad5e46a",
+      "pypdf_chars": 984,
+      "pypdf_sha256": "e289d6c3a5afbcb09aa723cd8a444bc3a940fdbeb4b162e4740805488ad5e46a"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 857,
+      "pymupdf_sha256": "f0a147e885ee95a5eefeb309d80621a1671d41ad6ec16a40eb5a5a42951d75a9",
+      "pypdf_chars": 857,
+      "pypdf_sha256": "f0a147e885ee95a5eefeb309d80621a1671d41ad6ec16a40eb5a5a42951d75a9"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/d8a1fe00a174f13b6db1d29c921814077e033c1cb45a53d42f584aaf37346dc3.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d8a1fe00a174f13b6db1d29c921814077e033c1cb45a53d42f584aaf37346dc3.bin.gz",
+  "source_sha256": "d8a1fe00a174f13b6db1d29c921814077e033c1cb45a53d42f584aaf37346dc3",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/122?view=preview"
+}

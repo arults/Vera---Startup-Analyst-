@@ -1,0 +1,1316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vera:observability:1",
+  "title": "Vera append-only component event 1",
+  "description": "Use validate_event and aggregate for mandatory semantic, chronology and graph validation.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "attempt_id",
+        "seq",
+        "at",
+        "kind",
+        "synthetic",
+        "expected_components",
+        "expected_evals",
+        "refs",
+        "metrics_ref",
+        "integration_scope"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.observability/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "at": {
+          "type": "string",
+          "maxLength": 40,
+          "format": "date-time"
+        },
+        "kind": {
+          "const": "run_start"
+        },
+        "synthetic": {
+          "type": "boolean"
+        },
+        "expected_components": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "prompt",
+            "identity",
+            "planning",
+            "research",
+            "retrieval",
+            "sourcing_verifier",
+            "analysis",
+            "model",
+            "jev",
+            "report",
+            "persistence"
+          ],
+          "properties": {
+            "prompt": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "identity": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "planning": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "research": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "retrieval": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "sourcing_verifier": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "analysis": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "model": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "jev": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "report": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            "persistence": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "applicability",
+                "reason_code"
+              ],
+              "properties": {
+                "applicability": {
+                  "type": "string",
+                  "enum": [
+                    "not_applicable",
+                    "required"
+                  ]
+                },
+                "reason_code": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "FIXTURE_OUT_OF_SCOPE",
+                        "NOT_USED_BY_DECLARED_MODE",
+                        "NO_JEV_REVIEW_REQUIRED",
+                        "NO_MODEL_REQUEST_REQUIRED",
+                        "NO_PERSISTENCE_REQUIRED"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "expected_evals": {
+          "type": "object",
+          "maxProperties": 1000,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+          },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "component",
+              "quality_axis",
+              "scope"
+            ],
+            "properties": {
+              "component": {
+                "type": "string",
+                "enum": [
+                  "analysis",
+                  "identity",
+                  "jev",
+                  "model",
+                  "persistence",
+                  "planning",
+                  "prompt",
+                  "report",
+                  "research",
+                  "retrieval",
+                  "sourcing_verifier",
+                  "system"
+                ]
+              },
+              "quality_axis": {
+                "type": "string",
+                "enum": [
+                  "engineering",
+                  "research"
+                ]
+              },
+              "scope": {
+                "type": "string",
+                "enum": [
+                  "component",
+                  "full_system",
+                  "generic_method",
+                  "synthetic_contract"
+                ]
+              }
+            }
+          }
+        },
+        "refs": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "artifact",
+            "code",
+            "config",
+            "dataset",
+            "input",
+            "model",
+            "prompt",
+            "rubric"
+          ],
+          "properties": {
+            "artifact": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "code": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "config": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "dataset": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "input": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "model": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "prompt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "rubric": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "metrics_ref": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 180,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*(/[A-Za-z0-9][A-Za-z0-9_.-]*)*\\.html$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "integration_scope": {
+          "const": "explicit_local_adapter"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "attempt_id",
+        "seq",
+        "at",
+        "kind",
+        "resumes_attempt_id"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.observability/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "at": {
+          "type": "string",
+          "maxLength": 40,
+          "format": "date-time"
+        },
+        "kind": {
+          "const": "run_resume"
+        },
+        "resumes_attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "attempt_id",
+        "seq",
+        "at",
+        "kind",
+        "span_id",
+        "parent_span_id",
+        "component",
+        "retry_of",
+        "metrics_attempt_id",
+        "refs"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.observability/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "at": {
+          "type": "string",
+          "maxLength": 40,
+          "format": "date-time"
+        },
+        "kind": {
+          "const": "span_start"
+        },
+        "span_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "parent_span_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "component": {
+          "type": "string",
+          "enum": [
+            "analysis",
+            "identity",
+            "jev",
+            "model",
+            "persistence",
+            "planning",
+            "prompt",
+            "report",
+            "research",
+            "retrieval",
+            "sourcing_verifier"
+          ]
+        },
+        "retry_of": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "metrics_attempt_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "refs": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "artifact": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "code": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "config": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "dataset": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "input": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "model": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "prompt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "rubric": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "attempt_id",
+        "seq",
+        "at",
+        "kind",
+        "span_id",
+        "execution_status",
+        "error_code"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.observability/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "at": {
+          "type": "string",
+          "maxLength": 40,
+          "format": "date-time"
+        },
+        "kind": {
+          "const": "span_end"
+        },
+        "span_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "execution_status": {
+          "type": "string",
+          "enum": [
+            "blocked",
+            "cancelled",
+            "completed",
+            "failed",
+            "not_run"
+          ]
+        },
+        "error_code": {
+          "type": "string",
+          "enum": [
+            "ASSERTION_FAILED",
+            "CANCELLED",
+            "DEPENDENCY_UNAVAILABLE",
+            "EXPLICIT_BLOCK",
+            "INVALID_INPUT",
+            "IO_FAILURE",
+            "NONE",
+            "TIMEOUT",
+            "UNCLASSIFIED_EXCEPTION"
+          ]
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "attempt_id",
+        "seq",
+        "at",
+        "kind",
+        "result"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.observability/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "at": {
+          "type": "string",
+          "maxLength": 40,
+          "format": "date-time"
+        },
+        "kind": {
+          "const": "eval_result"
+        },
+        "result": {
+          "$ref": "#/$defs/eval"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "event_id",
+        "run_id",
+        "attempt_id",
+        "seq",
+        "at",
+        "kind",
+        "execution_status",
+        "capture_status"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.observability/1"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "attempt_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "at": {
+          "type": "string",
+          "maxLength": 40,
+          "format": "date-time"
+        },
+        "kind": {
+          "const": "run_end"
+        },
+        "execution_status": {
+          "type": "string",
+          "enum": [
+            "blocked",
+            "cancelled",
+            "completed",
+            "failed"
+          ]
+        },
+        "capture_status": {
+          "type": "string",
+          "enum": [
+            "complete",
+            "partial"
+          ]
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "eval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "eval_id",
+        "component",
+        "span_id",
+        "status",
+        "quality_axis",
+        "scope",
+        "reviewer_basis",
+        "refs",
+        "evidence_ref",
+        "reason_code",
+        "jev"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "vera.eval/1"
+        },
+        "eval_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        "component": {
+          "type": "string",
+          "enum": [
+            "analysis",
+            "identity",
+            "jev",
+            "model",
+            "persistence",
+            "planning",
+            "prompt",
+            "report",
+            "research",
+            "retrieval",
+            "sourcing_verifier",
+            "system"
+          ]
+        },
+        "span_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "blocked",
+            "fail",
+            "incomplete",
+            "not_run",
+            "pass"
+          ]
+        },
+        "quality_axis": {
+          "type": "string",
+          "enum": [
+            "engineering",
+            "research"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "enum": [
+            "component",
+            "full_system",
+            "generic_method",
+            "synthetic_contract"
+          ]
+        },
+        "reviewer_basis": {
+          "type": "string",
+          "enum": [
+            "deterministic_check",
+            "human_review",
+            "jev_structured",
+            "synthetic_fixture"
+          ]
+        },
+        "refs": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "artifact",
+            "code",
+            "config",
+            "dataset",
+            "input",
+            "model",
+            "prompt",
+            "rubric"
+          ],
+          "properties": {
+            "artifact": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "code": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "config": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "dataset": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "input": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "model": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "prompt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "rubric": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "evidence_ref": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reason_code": {
+          "type": "string",
+          "enum": [
+            "ASSERTION_FAILED",
+            "DEPENDENCY_UNAVAILABLE",
+            "EVIDENCE_MISSING",
+            "INSUFFICIENT_PROVENANCE",
+            "NONE",
+            "OUT_OF_SCOPE"
+          ]
+        },
+        "jev": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "model_ref",
+                "question_ref",
+                "response_ref",
+                "confidence",
+                "review_scope"
+              ],
+              "properties": {
+                "model_ref": {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                "question_ref": {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                "response_ref": {
+                  "type": "string",
+                  "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+                },
+                "confidence": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "review_scope": {
+                  "type": "string",
+                  "enum": [
+                    "component",
+                    "full_system",
+                    "generic_method",
+                    "synthetic_contract"
+                  ]
+                }
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "title": "Vera structured evaluation 1",
+      "description": "Structural contract only. Runtime validation additionally enforces target, scope, provenance and chronology."
+    }
+  }
+}

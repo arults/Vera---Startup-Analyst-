@@ -1,0 +1,21 @@
+{
+  "id": "S02",
+  "url": "https://sapientx.ai/docs",
+  "source_type": "company_controlled_identity_unresolved",
+  "retrieval": "web.open turn395view3; web.find turn427view0",
+  "locators": "lines 623-632 and 666-668",
+  "excerpt": "SapientX is an AI workforce and a visual automation builder in one product",
+  "facts": {
+    "product": "AI workforce/visual automation",
+    "product_key_billing_change_date": "2026-08-25"
+  },
+  "limitations": [
+    "No completed strong-ID or second-reviewed independent-medium identity bridge to frozen SapientX observed.",
+    "Product date/website retrieval is not issuer operating date."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained.",
+  "date_claim": "Current worker and independent reviewer observed a date rendered as 25 August 2026 at lines 666-668, describing model calls using platform-managed keys/prepaid Sparks. This is a product-key/billing migration, not an issuer-operation timestamp."
+}

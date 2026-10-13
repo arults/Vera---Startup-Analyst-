@@ -1,0 +1,111 @@
+name: Phase 1D CP10 native campaign frame validation
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp10-campaigns.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp10-empirical
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests beautifulsoup4 defusedxml pymupdf pypdf lxml python-docx
+      - name: Preflight independent milestone parser against frozen native sources
+        run: |
+          python - <<'PY'
+          import json,gzip,csv
+          from pathlib import Path
+          from src.phase1d.capture_cp10_campaigns import parse_timeline
+          p=Path('data/phase1d/cp9/cycle-1-reconciled/republic_us_verified_date_candidates.csv')
+          rows=list(csv.DictReader(p.open()))
+          assert len(rows)==122
+          for r in rows:
+              result=parse_timeline(gzip.decompress(Path(r['timeline_source_path']).read_bytes()))
+              assert result['first_live_date']==r['native_launch_date']
+              assert result['successful_completion_date']==r['native_completion_date']
+          print('122 preserved native timelines agree with generic independent milestone parser. This replay is not new empirical evidence.')
+          PY
+      - name: Validate all new non-profile candidates and capture all five large-document sources
+        run: python -m src.phase1d.capture_cp10_campaigns
+      - name: Full regression suite and historical scientific checks
+        if: always()
+        run: |
+          mkdir -p evidence/phase1d_cp10/collection-2
+          python -m unittest discover -s tests -v > evidence/phase1d_cp10/collection-2/full-tests.txt 2>&1
+          python -m src.phase1d.verifier_v4 > evidence/phase1d_cp10/collection-2/historical-scientific-verifier.json
+          tail -5 evidence/phase1d_cp10/collection-2/full-tests.txt
+      - name: Verify source bytes, large-file reconstruction, chronology and no unsupported promotions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,gzip,hashlib
+          p=Path('data/phase1d/cp10/collection-2-campaigns-large-docs');sha=lambda b:hashlib.sha256(b).hexdigest()
+          before=json.loads((p/'preserved_before.json').read_text());assert all(Path(k).is_file() and sha(Path(k).read_bytes())==v for k,v in before.items())
+          n=0
+          for r in json.loads((p/'manifest.json').read_text()):
+              if r.get('source_path'):
+                  b=Path(r['source_path']).read_bytes();assert sha(b)==r['gzip_sha256'];assert sha(gzip.decompress(b))==r['raw_sha256'];n+=1
+          count=0;chunks=0
+          for r in json.loads((p/'large_document_manifest.json').read_text()):
+              h=hashlib.sha256();length=0
+              for part in r['chunks']:
+                  b=Path(part['path']).read_bytes();assert sha(b)==part['gzip_sha256'];raw=gzip.decompress(b);assert sha(raw)==part['raw_sha256'];assert len(raw)==part['raw_bytes'];h.update(raw);length+=len(raw);chunks+=1
+              if r['chunks']:
+                  assert h.hexdigest()==r['raw_sha256'] and length==r['raw_bytes']
+              if r['status']=='PUBLIC_FULL_DOCUMENT_CAPTURED':count+=1
+          rows=json.loads((p/'native_page_classifications.json').read_text());assert len(rows)==1242
+          assert all('/@' not in r['url'] for r in rows)
+          missing=json.loads((p/'historical_campaigns_missing_current_sitemap.json').read_text());assert missing['count']==14
+          s=json.loads((p/'summary.json').read_text());assert not any(s[k] for k in ['phase_complete','rates_promoted','global_plateau','full_historical_census_complete'])
+          campaigns=json.loads((p/'native_campaign_candidates.json').read_text())
+          assert all(not r['company_economic_round_identity_verified'] and not r['estimation_eligible'] for r in campaigns)
+          assert all(not r.get('successful_completion_date') or not r.get('first_live_date') or r['first_live_date']<=r['successful_completion_date'] for r in campaigns)
+          hist=json.loads(Path('evidence/phase1d_cp10/collection-2/historical-scientific-verifier.json').read_text());assert hist['passed']==hist['gate_count']==43
+          result={'prior_files_unchanged':len(before),'native_source_payloads_hash_verified':n,'large_document_chunks_verified':chunks,'full_documents_reconstructed':count,'all1242newnonprofileURLs_classified':True,'14knownsitemapomissions_preserved':True,'no_historical_census_or_rate_promotion':True,'historical43checks_passed':True}
+          with open('evidence/phase1d_cp10/collection-2/integrity.json','x') as f:json.dump(result,f,indent=2)
+          print(result)
+          PY
+      - name: Preserve all new immutable source receipts and data
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/phase1d/cp10 evidence/phase1d_cp10
+          if git diff --cached --name-status | grep -v '^A[[:space:]]'; then echo 'Non-additive change refused'; exit 1; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'CP10: checkpoint actual current-frame campaign validation and reconstructable public large filings; no priors promoted'
+            git push origin HEAD:phase-1d
+          fi
+      - name: Export new field-level results and verification provenance
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil,subprocess,hashlib
+          out=Path('/tmp/vera-cp10-campaigns');out.mkdir()
+          p=Path('data/phase1d/cp10/collection-2-campaigns-large-docs')
+          files=list(p.glob('*.json'))+list(Path('evidence/phase1d_cp10/collection-2').rglob('*'))+[Path('src/phase1d/capture_cp10_campaigns.py')]
+          for f in files:
+              if f.is_file():
+                  target=out/f;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(f,target)
+          (out/'source-commit.txt').write_text(subprocess.check_output(['git','rev-parse','HEAD'],text=True))
+          lines=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(out)) for f in sorted(out.rglob('*')) if f.is_file()]
+          (out/'SHA256SUMS').write_text('\n'.join(lines)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp10-campaigns-${{ github.run_id }}
+          path: /tmp/vera-cp10-campaigns/
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,49 @@
+{
+  "bytes": 5630283,
+  "campaign_url": "https://republic.com/status-money",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Status Money Form C .pdf",
+  "page_count": 93,
+  "parent_sha256": "7f25848bc1a5a45ce264b62cdb3e9d3ddfe27c1ced79284ce5bebbdc0dc68633",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 891,
+      "pymupdf_sha256": "a06569712828f0f173341dbcfd10f2872a18df2f7d841041e7836526652561ca",
+      "pypdf_chars": 891,
+      "pypdf_sha256": "a06569712828f0f173341dbcfd10f2872a18df2f7d841041e7836526652561ca"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1591,
+      "pymupdf_sha256": "26c5b187991266728eb9a98be7371ef112eecc4a64473c113e65e6c9fe3b7603",
+      "pypdf_chars": 1591,
+      "pypdf_sha256": "26c5b187991266728eb9a98be7371ef112eecc4a64473c113e65e6c9fe3b7603"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 969,
+      "pymupdf_sha256": "d49beb39ec202581ee07fa26bed821aa3b58993d527e7d863df8f549d7b9fc9d",
+      "pypdf_chars": 969,
+      "pypdf_sha256": "d49beb39ec202581ee07fa26bed821aa3b58993d527e7d863df8f549d7b9fc9d"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 797,
+      "pymupdf_sha256": "e26e44ab0b6667d3a9321ac4d43f6c5452d853ea599b52a50d046ad562648513",
+      "pypdf_chars": 797,
+      "pypdf_sha256": "e26e44ab0b6667d3a9321ac4d43f6c5452d853ea599b52a50d046ad562648513"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/852679abd85a48108b67f11a92d403ea0763d7985c7574345e277501f0d8c3fa.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/852679abd85a48108b67f11a92d403ea0763d7985c7574345e277501f0d8c3fa.bin.gz",
+  "source_sha256": "852679abd85a48108b67f11a92d403ea0763d7985c7574345e277501f0d8c3fa",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/85?view=preview"
+}

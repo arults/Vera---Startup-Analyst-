@@ -1,0 +1,18 @@
+{
+  "bytes": 455309,
+  "campaign_url": "https://republic.com/citizens-coffee",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/citizens-coffee/show_updates",
+  "gzip_sha256": "64ce3ceca1a4ffc51ce70d33575bc9e623b83cdc38fe1d7d2febedbbc35691c6",
+  "http_status": 200,
+  "parent_sha256": "25fcf33cd441f2f374335a1727e0bbc4e32c22840758d1d83fcc719f36ff8c16",
+  "raw_sha256": "d61a72172777034d5a396f6295477451fd3b308d40e6545d5f3ff5e077c79cb8",
+  "received_at": "2026-10-10T02:25:24.946836+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:23.843331+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d61a72172777034d5a396f6295477451fd3b308d40e6545d5f3ff5e077c79cb8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/citizens-coffee/show_updates"
+}

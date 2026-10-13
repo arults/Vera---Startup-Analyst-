@@ -1,0 +1,18 @@
+{
+  "bytes": 119267,
+  "campaign_url": "https://republic.com/upchoose",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/upchoose/show_updates",
+  "gzip_sha256": "e63c13a42fb77146d5caa7e53ef3322b772342852043ef669052c72628d3d15a",
+  "http_status": 200,
+  "parent_sha256": "31acc6a58cc999a7c0c4f6467fc77ceb451ede60c15af0116bfcc85fa062b384",
+  "raw_sha256": "9dba2be28bb58d175bcf42c950781eae1a32f7a7602e951d7b9c3670a4b6ddff",
+  "received_at": "2026-10-10T02:38:33.296528+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:32.607291+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9dba2be28bb58d175bcf42c950781eae1a32f7a7602e951d7b9c3670a4b6ddff.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/upchoose/show_updates"
+}

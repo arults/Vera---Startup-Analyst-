@@ -1,0 +1,18 @@
+{
+  "bytes": 1851,
+  "campaign_url": "https://republic.com/lambs-reg-d",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lambs-reg-d/show_updates",
+  "gzip_sha256": "15bdaab7ce9a984ba74f6a24678b8eeb59a185837bb41776855bad3b5260025e",
+  "http_status": 200,
+  "parent_sha256": "84cf48b0e0b2834d742bf2f661af5607af459e843bee17a7a7f8ef7e3bd8d956",
+  "raw_sha256": "9e23c55f089111c4674c81bdd84f8cd8d0e6de671649c724d364a1be973634c4",
+  "received_at": "2026-10-10T02:32:22.431697+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:21.904809+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9e23c55f089111c4674c81bdd84f8cd8d0e6de671649c724d364a1be973634c4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lambs-reg-d/show_updates"
+}

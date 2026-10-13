@@ -1,0 +1,7 @@
+{
+  "http_status": 403,
+  "received_at": "2026-10-09T09:55:16.816602+00:00",
+  "sha256": "f71f6f4e376ba6fedcfc90bcce1a91b3185713be97626d3416263348830539b0",
+  "source_path": "data/phase1d/cp7/cycle-5-regulator-discovery/sec-index-response.bin",
+  "url": "https://www.sec.gov/data-research/sec-markets-data/crowdfunding-offerings-data-sets"
+}

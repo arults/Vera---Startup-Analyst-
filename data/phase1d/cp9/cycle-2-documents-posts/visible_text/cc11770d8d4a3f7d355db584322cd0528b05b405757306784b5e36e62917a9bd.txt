@@ -1,0 +1,425 @@
+Log in
+Investors
+Businesses
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Investors
+Businesses
+US
+Log in
+Open account
+All investors
+Live deals
+Investment opportunities
+Trading
+Buy and sell
+Republic Note
+Own a piece of Republic's upside
+Accredited only
+Republic Ventures
+Opportunities for accredited investors
+Institutional
+Republic Capital
+Multi-stage venture firm
+More
+Wallet
+Manage your digital assets
+Mobile app
+Available on iOS or Android
+Learning center
+Explore investor resources
+FAQ
+Get your questions answered
+Spotlight deal
+Miso Robotics
+engineers AI-powered kitchen robots and operating systems for restaurants and hospitality
+Growth capital solutions
+Capital fundraising
+Raise on Republic
+Tokenized assets
+Design, launch, manage tokenized assets
+Sharedrops
+Gift equity as a reward
+Founder Academy
+A complete guide to raising funds
+Web3 services
+Advisory
+Access veteran web3 advisors
+Infrastructure
+Stake your digital assets
+Tokenization
+Deploy your assets on-chain
+Institutional services
+Republic Capital
+In-house Venture Capital fund
+Broker dealer
+Regulated capital services
+Unbanked (formerly Ternio BlockCard)
+Updates
+Jun 30
+2020
+New Ternio Updates - Bitcoin.com Sponsorship, 153% Quarter over Quarter growth, New Hires, and More.
+As you're all aware by now - Ternio sold out our raise on Republic! We have been going through the finalization process with Republic and should have access to all raised funds in the very near future.  Congrats to those of you who were able to make it into our campaign after being on the waitlist.  I have a lot to share in this update, so I'll get right to it!
+BlockCard Sponsors Bitcoin.com
+We are looking to rapidly grow our user footprint and have partnered with
+Bitcoin.com
+to help spread the word on BlockCard!   You may have seen the recent article -
+The Best Crypto Debit Card - BlockCard
+or that we're the new lead sponsor of the Bitcoin Podcast.  We have a number of different marketing initiatives happening right now that will help accelerate our growth in the coming weeks!
+We Announced Our Raise
+https://www.prnewswire.com/news-releases/ternio-closes-oversubscribed-round-on-republic-301083638.html
+This past week we put out a press release on our Republic campaign which was picked up on numerous channels including Yahoo Finance, MarketWatch, AP, and many other tier 1 publications.   The CEO of Republic was kind of enough to share a quote for it as well!
+Chuck Pettid, CEO, Republic Crowdfunding Portal, said, "The crowd loved the idea of cryptocurrency having real-world products and it showed. Ternio's campaign was one of the best we ever had from a total dollars raised and investor engagement perspective."
+Bank Accounts
+We have been testing the
+Bank Account
+functionality for the last month and things have been going great.   We plan to open up the Bank Account functionality with the "Buy/Sell Crypto" option for US users after the July 4th holiday.  We're spending a little extra time testing, because we want to ensure we get it right.   Once we know things are working well for US users, we then plan to open it up internationally.   It's a very exciting time to launch these brand new feature(s).
+Investor Dashboard
+Everyone who was able to invest in Ternio will be receiving an email in the coming weeks to setup their Investor Dashboard.  This will be a dashboard that allows you to manage your investment as well as stay up to date on all the latest news and happenings with Ternio.   You will receive the email from @ternio.io so please make sure you have it whitelisted with your email provider.
+Q1 vs Q2 Revenue up 153%
+Our Q2 revenues were up 153% over Q1!  It's a very exciting time and we hope to see that continue and accelerate more into the future.   We are seeing an uptick overall in terms of awareness from consumers (using BlockCard), but also on the B2B side.
+Migrating TERN from Stellar to Ethereum
+Since starting Ternio we have regularly been asked about why the
+TERN token
+was not available as an ERC-20 option.  Ethereum is the second largest blockchain platform so there was a vast network of crypto users that we weren't tapping into.  To make BlockCard more accessible for all, we burned 100M TERN from the Stellar blockchain and made it available on Ethereum - enabling for better cross chain availability.  We have seen a number of people come over from the Ethereum community to start using BlockCard.  You can read more in the blog post below.
+https://ternio.io/tern-available-on-ethereum-for-cross-chain-accessibility/
+Fight Night!
+One of Ternio's investors (Angel) is a boxing referee and asked if he could help spread the word about Ternio during his televised fights.  We love the idea of our investors taking an active approach in helping us grow and spread the word.
+We created a unique patch that was sewn onto the back of his shirt and will be a constant reminder to anyone watching the fight that they need to check out BlockCard!
+If any other investors want to help promote Ternio or BlockCard, please don't hesitate to contact me.
+Thank you Angel!
+Snowball Money
+You may have come across Snowball Money who are also currently fundraising via republic. Snowball offers a high-interest account that pays superior interest rates via decentralized finance and since we are exploring a partnership, Snowball is offering the Ternio family first access to the Snowball App skipping the 220,000+ waitlist as a bonus.
+You can follow or invest in their campaign -->
+www.republic.co/snowball-money
+.
+No partnerships have been signed yet between Ternio and Snowball, but I wanted to put it on everyone's radar as a company to watch and research!
+New Hires
+We have made a number of new hires, including support on the marketing, product and engineering side of the business.   We are being mindful not to hire too quickly and ensure we find the right people who are talented and cultural fit for our company.   There is not shortage of work to be done so if you know of anyone who could be a fit, please send them to
+https://careers.ternio.io/
+----
+There are lots of developments happening daily, so I'm doing my best to keep things concise and to the point. That's all I have for now!   Stay tuned for more updates coming soon.  😎
+Ian Kane
+Unbanked (formerly Ternio BlockCard)
+Like
+28
+Comments
+(33)
+Davie Vinu
+6 years ago
+Wonderful news to hear about the potential of Ternio BlockCard. Waiting for more positive news
+Regards,
+Davie George Vinu
+Like
+Reply
+Ben Workman
+6 years ago
+It's July 11th.  What email address will the dashboard notification come from?  Hope I didn't delete it or went to spam.
+Like
+Reply
+Mark Dilloo
+6 years ago
+This is the biggest scam ive ever seen first you cant fund the damn thing normally, you have to buy crypto and screw around to get it to even go to the account then they charge you for the card which takes over a moth to show up and before you even take the damn thing out of your wallet its got a negative balance. I invested in this piece of shinolla and its basically useless. If your gonna steal from folks before they even fund the card you fing well better be in profit quick! I hartally encourage people NOT TO INVEST in the biggest scam since frozen mashed potatos and chinese coffee..
+Like
+Reply
+Iriz Bernal
+@mark-dilloo-1 Why did you invest in this START UP? I'm pretty sure that not many new companies have a smooth beginning. You invested in a company (as did I)  that offers a new and innovative service. And with innovation comes trials and errors and it requires patience. Sometimes it takes time to iron out the kinks. Trust your initial instinct when you invested in the company. Trust that you made the right decision to invest and give them some time to make you happy. They haven't even finalized the investments, yet.
+1
+like
+·
+Reply
+·
+6 years ago
+Kelly Check
+6 years ago
+This is great news! I love your updates. Always something exciting happening. Great work!
+Like
+Reply
+Anthony E. Dubose
+6 years ago
+Great news! Wow! I get to play a part in the future becoming reality! Thank you for the update.
+And most importantly, thank you for this wonderful opportunity.
+Like
+Reply
+Patricia Harris
+6 years ago
+Great the team is stable
+Like
+Reply
+Leonides Sumayan
+6 years ago
+I love this partnership!
+1
+like
+Reply
+Laurie Landry
+6 years ago
+So excited to be invested in this!!!
+Like
+Reply
+Parul Gujral
+6 years ago
+Thanks for the shout, Ternio Team. Very excited to welcome Ternio investors to Snowball. Make sure you let us know you discovered us via Ternio.
+Signup form  --->
+forms.gle/QwYhHbkA2mR81EHJ6
+Snowball Money VIP Tester Application
+We're now taking applications from people who want to work closely with us on developing the app and have influence on how the app will look and feel.
+Google Docs
+1
+like
+Reply
+Lori Lux
+6 years ago
+What a fantastic update, fun to read, thank you and keep up the hard work
+Like
+Reply
+Jaycine Williams
+6 years ago
+I am so glad to have been accepted off of the wait list and are glad to be apart of the family!
+1
+like
+Reply
+Simthembile Wisani
+6 years ago
+Wow those are great news i want offer advise Mr Ian can you  guys contact the Mining City CEOs i think they are a real deal Customers that can buy into the Ternio BlockCard  product because they dont use a Crypto card they use the liquid exchange to change their Bitcoins into USD they are from Poland and they have many Customers  Worldwide mining with their Campany.
+2
+likes
+Reply
+Wayne Warner
+6 years ago
+Sounds like you have a lot of momentum! Keep up the great work! Like the sound of your partnership possibilities with Snowball. I have invested in them as well.
+Wayne
+2
+likes
+Reply
+Connie Taylor
+6 years ago
+Everywhere I turn I see Ternio Blockcard advertisements! Great marketing Ian and Ternio Team!!! I am beyond excited to be a part of this adventure as an investor and pray for Ternio's ongoing success!! Thank you for the frequent updates!! God bless you all!!
+3
+likes
+Reply
+Darryl Robinson
+6 years ago
+Oh Yeah!!!! Congratulations!!!
+1
+like
+Reply
+SENUWAVI ABRAHAM
+6 years ago
+I'm so impressed. Please keep up the good work.
+Like
+Reply
+Sunil George
+6 years ago
+Great updates. Thank you
+Like
+Reply
+Wendell McConnie
+6 years ago
+THANK YOU KINDLY FOR THE UPDATE AND INSIGHTS MR. IAN KANE!!!! – ALL CAPS = EXTRAORDINARY ENERGY ALWAYS!!!!
+KEEP TURNING ON THE TERNIO!!!!
+ALWAYS GRATEFUL (A.G.),
+WM
+Like
+Reply
+Cheryl Johnson
+6 years ago
+Sounds exciting!!! Thanks for the update.
+Like
+Reply
+Zahid Shah
+6 years ago
+Way to go
+Like
+Reply
+See more comments
+Join the discussion
+Verify your identity to join the discussion
+To keep discussions authentic and prevent spam,
+we ask users to verify their identity.
+Verify your identity
+Your information is kept secure and will only be used for identity verification.
+Open for investment
+Investors in Unbanked (formerly Ternio BlockCard) also invested in these companies.
+View more
+Mintworks
+$30T opportunity by 2030. We turn any asset into dig...
+Republic Funding Portal · Reg CF
+Code Blue
+AI that calls for help when you can’t
+Republic Funding Portal · Reg CF
+Miso Robotics
+engineers AI-powered kitchen robots and operating sy...
+Capital R · Reg A+
+Mightylicious
+Gluten free cookies sold in 1,775 stores nationwide
+Republic Funding Portal · Reg CF
+The Gifted
+The $2.5M Future Vision XPRIZE film contest winner
+Republic Funding Portal · Reg CF
+Loading...
+Back to Unbanked (formerly Ternio BlockCard) deal page
+Giving everyone access to early-stage startup investing
+For investors
+Why invest
+How it works
+FAQ
+Risks
+Privacy policy
+Accessibility
+Cookie Preferences
+Form CRS
+For startups
+Why raise
+Learn
+FAQ
+Tokenized assets
+Company
+About
+Insights
+Events
+Contact
+Security
+We're hiring!
+Refer a startup, get $2,500
+Invest in the app
+This site (the "Site") is owned and maintained by OpenDeal Inc., which is not a registered
+broker-dealer. OpenDeal Inc. does not give investment advice, endorsement, analysis or
+recommendations with respect to any securities. All securities listed here are being offered
+by, and all information included on this Site is the responsibility of, the applicable issuer
+of such securities. The intermediary facilitating the offering will be identified in such
+offering’s documentation.
+All related securities activity is conducted by OpenDeal Broker LLC a registered broker-dealer,
+Member of
+FINRA
+and
+SiPC
+,
+an affiliate of OpenDeal Inc. and OpenDeal Portal LLC, located at 149 5th Avenue,
+10th Floor, New York, NY 10010. Please check our background on FINRA’s
+BrokerCheck
+.
+Certain pages discussing the mechanics and providing educational materials
+regarding regulation crowdfunding offerings may refer to OpenDeal Broker LLC
+and OpenDeal Portal LLC collectively as “Republic”, solely for explanatory purposes.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC make investment
+recommendations and no communication, through this Site, or in any other medium,
+should be construed as a recommendation for any security offered on or off this
+investment platform. Investment opportunities posted on this Site are private placements
+of securities that are not publicly traded, involve a high degree of risk, may lose value
+including the total loss of invested capital, are subject to holding period requirements
+and are intended for investors who do not need a liquid investment. Past performance is
+not indicative of future results. Investors must be able to afford the loss of their
+entire investment. Only qualified investors, who understand the risks of early-stage
+investment and who meet the Republic's investment criteria may invest. Investors
+may be restricted to only Accredited Investors or non-U.S. persons, to invest in offerings
+hosted by OpenDeal Broker. Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC,
+nor any of their officers, directors, agents and employees make any warranty, express or implied,
+of any kind whatsoever related to the adequacy, accuracy or completeness of any information on
+this Site or the use of information on this site. Offers to sell securities can only be made
+through official offering documents that contain important information about the investment
+and the issuers, including risks. Investors should carefully read the offering documents.
+Investors should conduct their own due diligence and are encouraged to consult with their tax,
+legal and financial advisors.
+By accessing the Site and any pages thereof, you agree to be bound by the
+Terms of Use
+and
+Privacy Policy
+.
+Please also see OpenDeal Broker’s
+Business Continuity Plan
+and
+Additional Risk Disclosures
+.
+All issuers offering securities under regulation crowdfunding as hosted by
+OpenDeal Portal LLC are listed on the
+All Companies Page
+.
+The inclusion or exclusion of an issuer on the
+Platform Page
+and/or Republic’s
+Homepage
+,
+which includes offerings conducted under regulation crowdfunding as well as
+other exemptions from registration, is not based upon any endorsement or recommendation
+by OpenDeal Inc, OpenDeal Portal LLC, or OpenDeal Broker LLC, nor any of their affiliates,
+officers, directors, agents, and employees. Rather, issuers of securities may,
+in their sole discretion, opt-out of being listed on the
+Platform Page
+and
+Homepage
+.
+Investors should verify any issuer information they consider important before making
+an investment.
+Investments in private companies are particularly risky and may result in total loss of
+invested capital. Past performance of a security or a company does not guarantee future
+results or returns. Only investors who understand the
+risks of early stage investment
+and who meet the Republic's
+investment criteria
+may invest.
+Neither OpenDeal Inc., OpenDeal Portal LLC nor OpenDeal Broker LLC verify
+information provided by companies on this Site and makes no assurance as to the completeness
+or accuracy of any such information. Additional information about companies fundraising on
+the Site can be found by searching the
+EDGAR database
+,
+or the offering documentation located on the Site when the offering does not require an
+EDGAR filing.
+To help the government fight the funding of terrorism and money laundering activities,
+Federal law requires all financial institutions to obtain, verify, and record information
+that identifies each person who opens an account.
+Therefore, when you use the Services we will ask for your name, address, date of birth,
+and other information that will allow us to identify you.
+We may also ask to see your driver's license, passport or other identifying documents.
+Republic and its affiliates are not and do not operate or act as a bank. Certain banking
+services are provided by BitGo Trust Company, a South Dakota-chartered trust company and
+registered money services business. BitGo Trust Company is not an FDIC member.
+Digital (crypto) assets and investment products are not insured by the FDIC, may lose value,
+and are not deposits or other obligations of BitGo Trust Company and are not guaranteed by
+BitGo Trust Company. Terms and conditions apply.
+Show disclaimers
+Invest in startups using your credit card
+Made in SF/NYC

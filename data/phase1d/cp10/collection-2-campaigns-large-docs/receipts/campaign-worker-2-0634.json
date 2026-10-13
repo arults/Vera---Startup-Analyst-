@@ -1,0 +1,18 @@
+{
+  "bytes": 29775,
+  "campaign_url": "https://republic.com/vene",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/vene/show_updates",
+  "gzip_sha256": "1c15dfe6ee5f85033302c3c0e8f8ffd184c9df4332861163ad6db12d7f5599eb",
+  "http_status": 200,
+  "parent_sha256": "c7aed6e86a73d3b1c467839f53328ae70d241d0941070c58e23f9f122f47a90f",
+  "raw_sha256": "236a1443eae16552b5ddd336e1158f3f755854af976a4197e3bc44121ba2e564",
+  "received_at": "2026-10-10T02:38:49.473357+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:48.919055+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/236a1443eae16552b5ddd336e1158f3f755854af976a4197e3bc44121ba2e564.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/vene/show_updates"
+}

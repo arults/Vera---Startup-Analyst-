@@ -1,0 +1,35 @@
+{
+  "closure_events_total": 0,
+  "comparison_to_candidate_v2": {
+    "comparable_metric_count": 51,
+    "largest_delta_cell": {
+      "absolute_delta": 0.06928267093756288,
+      "after": 0.196966925388,
+      "before": 0.2662495963255629,
+      "horizon": 36,
+      "metric": "success_cif",
+      "year": 2021
+    },
+    "max_absolute_point_estimate_delta": 0.06928267093756288,
+    "prior_present": true
+  },
+  "limitations": [
+    "Only Republic Europe has a denominator-grade native census.",
+    "All estimable RQ1 cells remain low-information because closure ascertainment is zero and/or ascertainment/support gates fail.",
+    "RQ2 field estimates remain suppressed unless n/event/ascertainment gates pass.",
+    "2024-2025 remain right-censored; unsupported horizons are not estimated."
+  ],
+  "promotion_status": "CANDIDATE_ONLY",
+  "rates_promoted": false,
+  "rq1_cells": 24,
+  "rq1_estimable_cells": 17,
+  "rq1_low_information_cells": 24,
+  "rq2_cells": 60,
+  "rq2_reportable_cells": 0,
+  "rq2_suppressed_cells": 60,
+  "source_ledger": "cp3_republic_europe_outcome_ledger_v4.csv",
+  "source_rows": 952,
+  "success_events_total": 63,
+  "terminal_nonclosure_events_total": 2,
+  "version": "candidate_v3"
+}

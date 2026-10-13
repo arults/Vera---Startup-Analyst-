@@ -1,0 +1,18 @@
+{
+  "bytes": 132132,
+  "campaign_url": "https://republic.com/amplio-ai",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/amplio-ai/show_updates",
+  "gzip_sha256": "7eb88d1a3e230cf9fce1ebdf4f36b0c63b9fa0791044a84301af9fdc6db27616",
+  "http_status": 200,
+  "parent_sha256": "c8538b4a662c90efe0da04a00b19221a740b3f30cee605611bfde64372aaf81f",
+  "raw_sha256": "085a35fa2896e8085ed28cb27ea642fff34665fadf5be3034f96da2540e8ede2",
+  "received_at": "2026-10-10T02:23:22.092188+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:21.454789+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/085a35fa2896e8085ed28cb27ea642fff34665fadf5be3034f96da2540e8ede2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/amplio-ai/show_updates"
+}

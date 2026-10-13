@@ -1,0 +1,20 @@
+{
+  "bytes": 134867,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/satellites-and-defense-solutions-the-conflict-in-ukraine",
+  "gzip_sha256": "f4a96e0f7589c5a455610d3717ed134262e4589b1602f42d0a73ebdc5619d75d",
+  "http_status": 200,
+  "raw_sha256": "2d3a84a774f9134cbd292aa2b850a16bb2fde88398e0f8512d080eaa30cd0cb7",
+  "received_at": "2026-10-10T02:36:51.671108+00:00",
+  "redirects": [
+    "https://republic.com/events/satellites-and-defense-solutions-the-conflict-in-ukraine"
+  ],
+  "retrieval_started_at": "2026-10-10T02:36:51.016614+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2d3a84a774f9134cbd292aa2b850a16bb2fde88398e0f8512d080eaa30cd0cb7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/satellites-and-defense-solutions-the-conflict-in-ukraine"
+}

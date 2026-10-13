@@ -1,0 +1,49 @@
+{
+  "bytes": 2722496,
+  "campaign_url": "https://republic.com/lynx-city",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Lynx City Form C.pdf",
+  "page_count": 83,
+  "parent_sha256": "e8fd45246649df387ebfd6a8060af46cf30dd9c4c86fb0c62c36845866f28f61",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1034,
+      "pymupdf_sha256": "6de97aa9c98c3f612eca5206206b76c0fde210a6440ef60464307db4e1f61b7c",
+      "pypdf_chars": 1034,
+      "pypdf_sha256": "6de97aa9c98c3f612eca5206206b76c0fde210a6440ef60464307db4e1f61b7c"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1574,
+      "pymupdf_sha256": "aaed79586a95bb4c698af2f0bda1063cfd75dab08bc8aa532cb21e869b247a85",
+      "pypdf_chars": 1580,
+      "pypdf_sha256": "f5d5fe89d27e48e4f96089e397a2bf6a5e9f03fd10f16ac6d6be13a4362d3494"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 986,
+      "pymupdf_sha256": "f5560e163579605a054d9a40bf51b9d70bf4d509b683482449a41e50529b6210",
+      "pypdf_chars": 988,
+      "pypdf_sha256": "2b937a998dbaa2041c4c163c17ed7b226c93a833cada8bb476ad69138fd924f1"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2303,
+      "pymupdf_sha256": "468286b51fdaa7297c604c9d6c6862ff1025ae6e74283dc7d9c91cecd429ae84",
+      "pypdf_chars": 2313,
+      "pypdf_sha256": "56fdb868a9176d1bec15d61d326a4ff73558ad9308498deb512f14e895316db6"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/7b492153761f28fff480a8f905c827513615cb324468426f800db0ac7424d150.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/7b492153761f28fff480a8f905c827513615cb324468426f800db0ac7424d150.bin.gz",
+  "source_sha256": "7b492153761f28fff480a8f905c827513615cb324468426f800db0ac7424d150",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/471?view=preview"
+}

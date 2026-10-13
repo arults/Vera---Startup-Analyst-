@@ -1,0 +1,18 @@
+{
+  "bytes": 73457,
+  "campaign_url": "https://republic.com/curastory",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/curastory/show_updates",
+  "gzip_sha256": "51fc484cbac8391a588429b75766290acc1791550dc7a4d95f405c91df5db890",
+  "http_status": 200,
+  "parent_sha256": "705d653686e848385bf75b9f87782c47063505eca9c2d7cd687f6868490e96bb",
+  "raw_sha256": "8359841bb69b96f778889dd729bf7abeaa3fa19f1e7a1e0ac711671f16746a21",
+  "received_at": "2026-10-10T02:26:05.829469+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:05.232401+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8359841bb69b96f778889dd729bf7abeaa3fa19f1e7a1e0ac711671f16746a21.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/curastory/show_updates"
+}

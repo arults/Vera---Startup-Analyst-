@@ -1,0 +1,18 @@
+{
+  "bytes": 10765,
+  "campaign_url": "https://republic.com/avenify",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/avenify/show_updates",
+  "gzip_sha256": "36b30dfcbf304a9256abeb0fec490d129c4ac48ecaa59b41d17a507434b7cb6e",
+  "http_status": 200,
+  "parent_sha256": "af5c92eb70c65f3ff6b589f730e0e0f7c5a883a63ad6712c7a9fa3af0585d973",
+  "raw_sha256": "6b7e12d4c0578bf62b9bc3c788034f660413e9909f92086d1312cb28450404dc",
+  "received_at": "2026-10-10T02:23:58.402722+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:57.847825+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6b7e12d4c0578bf62b9bc3c788034f660413e9909f92086d1312cb28450404dc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/avenify/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 43750,
+  "campaign_url": "https://republic.com/smartyields",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/smartyields/show_updates",
+  "gzip_sha256": "8e592aebd00505c190162ab653bef3302b3f53dfa7b594104364e30be354ad60",
+  "http_status": 200,
+  "parent_sha256": "d97c2693b621d900fe25be9222a26cba174555876a30095d5c12d134cc9200f6",
+  "raw_sha256": "f2f0a02da34bada6605c4936224e50b771a407e1dc749965706761cba74391be",
+  "received_at": "2026-10-10T02:37:22.640392+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:22.071116+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f2f0a02da34bada6605c4936224e50b771a407e1dc749965706761cba74391be.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/smartyields/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 1125174,
+  "campaign_url": "https://republic.com/sugarfina",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/sugarfina/show_updates",
+  "gzip_sha256": "d70c07c027c3d41af733d012b24046f388970459c1d2006cd24b83da1ea704b8",
+  "http_status": 200,
+  "parent_sha256": "c9505bd2e07070b6b8fad985f7f7238cd04a96d74342eb1aeaaaaade8ec64f2a",
+  "raw_sha256": "e9025503306880611ce37faf9b9ffdcfac458d84233a1599d44516075d2c90be",
+  "received_at": "2026-10-10T02:37:47.520337+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:45.927515+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e9025503306880611ce37faf9b9ffdcfac458d84233a1599d44516075d2c90be.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sugarfina/show_updates"
+}

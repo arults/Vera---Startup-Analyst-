@@ -1,0 +1,54 @@
+{
+  "checkpoint": "PHASE_1D_CP4_CANDIDATE_V3",
+  "verified_at": "2026-10-09",
+  "github_actions": {
+    "run_id": 37898349963,
+    "job_id": 113714826737,
+    "conclusion": "success",
+    "tests_passed": 164,
+    "tests_failed": 0
+  },
+  "scientific_verifier": {
+    "revision": "v3_repaired_republic_us_archive_checkpoint",
+    "passed": 36,
+    "total": 36,
+    "promotion_gate": "PASS"
+  },
+  "candidate": {
+    "version": "candidate_v3",
+    "source_rows": 952,
+    "rate_eligible_rows": 796,
+    "unique_companies": 789,
+    "success_events": 63,
+    "closure_events": 0,
+    "terminal_nonclosure_events": 2,
+    "rq1_cells": 24,
+    "rq1_estimable_cells": 17,
+    "rq1_low_information_cells": 24,
+    "rq2_cells": 60,
+    "rq2_reportable_cells": 0,
+    "promotion_status": "CANDIDATE_ONLY",
+    "rates_promoted": false
+  },
+  "reexecution_delta": {
+    "prior": "candidate_v2",
+    "comparable_metrics": 51,
+    "max_absolute_point_estimate_delta": 0.06928267093756288,
+    "largest_delta_cell": {
+      "offering_year": 2021,
+      "horizon_months": 36,
+      "metric": "success_cif",
+      "before": 0.2662495963255629,
+      "after": 0.196966925388
+    }
+  },
+  "verified_boundaries": [
+    "Only Republic Europe has a denominator-grade native census.",
+    "Wefunder, Republic US, StartEngine and Crowdcube rates remain suppressed.",
+    "All estimable RQ1 cells remain LOW_INFORMATION.",
+    "No RQ2 field cell passes the reporting gate.",
+    "No unsupported 2024-2025 horizon is estimated.",
+    "All point estimates were independently recomputed by the verifier.",
+    "Candidate v3 is not a promoted empirical prior."
+  ]
+}

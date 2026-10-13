@@ -1,0 +1,61 @@
+{
+  "candidate_rows": 144,
+  "census_status": "CENSUS_INCOMPLETE",
+  "cohort_year_resolved": 0,
+  "conflicting_slugs": 0,
+  "deadline_year_histogram_NOT_cohort_year": {
+    "2016": 5,
+    "2017": 14,
+    "2018": 38,
+    "2019": 38,
+    "2020": 49
+  },
+  "duplicate_source_rows": 0,
+  "estimation_eligible": 0,
+  "gates": {
+    "checks": {
+      "all_source_rows_valid": true,
+      "candidate_ids_unique": true,
+      "canonical_campaign_urls": true,
+      "caps_not_priced_valuations": true,
+      "capture_timestamp_present": true,
+      "cardinality_reconciles": true,
+      "no_deadline_as_first_live": true,
+      "no_deadline_as_time_zero": true,
+      "no_estimation_eligibility": true,
+      "no_name_only_identity_merge": true,
+      "no_outcome_inference": true,
+      "nonempty_candidates": true,
+      "nonempty_source": true,
+      "raw_hashes_verified": true,
+      "source_hashes_bound": true
+    },
+    "passed": 15,
+    "total": 15
+  },
+  "instrument_histogram": {
+    "Crowd IPA": 1,
+    "Crowd SAFE": 134,
+    "Crowd SDA": 1,
+    "SAFE": 1,
+    "Token DPA (Early Stage with Escrow)": 1,
+    "Token DPA (Late Stage with Escrow)": 5,
+    "Token Purchase Agreement": 1
+  },
+  "limitations": [
+    "Old public-note portfolio subset is not a 2020-2025 platform denominator.",
+    "Deadline bounds are not first-live or successful-close dates.",
+    "A native slug is not a strong legal-entity identifier or a validated unique round.",
+    "Raw cents retained; currency not independently verified.",
+    "No new live collection; prior four-directory recovery returned HTTP 403."
+  ],
+  "live_recovery_status": "ACCESS_BLOCKED",
+  "new_live_evidence": false,
+  "prior_recovery_summary_sha256": "ca07b254be143191ac5912eb57fa3b95237740d3cefd17e5eb7392e8dab59600",
+  "rates_promoted": false,
+  "rejected_rows": 0,
+  "source_mode": "PRESERVED_ARCHIVE_REPROCESSING",
+  "source_rows": 144,
+  "strong_company_ids": 0,
+  "unique_native_slugs": 144
+}

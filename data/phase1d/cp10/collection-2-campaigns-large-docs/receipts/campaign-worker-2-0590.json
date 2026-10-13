@@ -1,0 +1,18 @@
+{
+  "bytes": 19567,
+  "campaign_url": "https://republic.com/talley-and-twine",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/talley-and-twine/show_updates",
+  "gzip_sha256": "646d8537f32a9fe4ef0644a8fef90d0d99f482f80a31c82384aabe5bd6b29878",
+  "http_status": 200,
+  "parent_sha256": "d03360dcffa800d6e394f887863ea7333f4cc1d92e1c0135726dca0f20497b1a",
+  "raw_sha256": "e25a6fe9577d405a746c3800d50b4a609b4c30f2b59fc902e481ad5a8196d5fb",
+  "received_at": "2026-10-10T02:37:58.347016+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:57.795428+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e25a6fe9577d405a746c3800d50b4a609b4c30f2b59fc902e481ad5a8196d5fb.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/talley-and-twine/show_updates"
+}

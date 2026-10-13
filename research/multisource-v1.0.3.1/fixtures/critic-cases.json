@@ -1,0 +1,321 @@
+{
+  "schema": "vera.multisource.policy-critique-tests.v1",
+  "status": "PROPOSED_EXPECTED_DISPOSITIONS_NOT_EXECUTED",
+  "frozen_ledger_mutated": false,
+  "source_basis": [
+    "outcome-wave1/outcome-proposals.json",
+    "outcome-source-policy-case-packet/CASE_PACKET.md",
+    "outcome-wave1/canonical-12-local-outcome-gap-map.json"
+  ],
+  "tests": [
+    {
+      "id": "inlightened_completion",
+      "fixture_kind": "REAL_CAPTURED",
+      "input_scenario": "Buyer completed-acquisition release14Aug2023; target says joinedAug2023; business identity matches domain/founders; autonomy retained.",
+      "accept_only": [
+        "buyer-reported completed acquisition",
+        "completion upper bound2023-08-14"
+      ],
+      "hold_or_reject": [
+        "exact close date",
+        "issuer security payout",
+        "automatic independent-operation terminal assignment",
+        "closure"
+      ],
+      "rationale": "Separate occurrence, temporal precision, legal/control chain and payout; autonomy does not rebut acquisition."
+    },
+    {
+      "id": "inlightened_single_source",
+      "fixture_kind": "SYNTHETIC_PERTURBATION_OF_REAL",
+      "input_scenario": "Remove target page, preserve original buyer release and adequate business match.",
+      "accept_only": [
+        "buyer-reported completed acquisition"
+      ],
+      "hold_or_reject": [
+        "independently corroborated label",
+        "blanket rejection for only1source"
+      ],
+      "rationale": "One competent source can support narrow attributed claim."
+    },
+    {
+      "id": "inlightened_syndication",
+      "fixture_kind": "SYNTHETIC_PERTURBATION_OF_REAL",
+      "input_scenario": "Add20articles copying buyer release.",
+      "accept_only": [
+        "one transaction-origin family"
+      ],
+      "hold_or_reject": [
+        "21independent confirmations",
+        "numerical probability upgrade"
+      ],
+      "rationale": "Publisher count is not factual-origin count."
+    },
+    {
+      "id": "inlightened_asset_sale",
+      "fixture_kind": "SYNTHETIC_PERTURBATION_OF_REAL",
+      "input_scenario": "Replace acquired company with acquired certain assets, rest unchanged.",
+      "accept_only": [
+        "asset acquisition report"
+      ],
+      "hold_or_reject": [
+        "whole issuer control transfer",
+        "holder payout",
+        "company shutdown"
+      ],
+      "rationale": "Transaction object changes the claim."
+    },
+    {
+      "id": "inlightened_announced_intent",
+      "fixture_kind": "SYNTHETIC_PERTURBATION_OF_REAL",
+      "input_scenario": "Replace completes with agrees to acquire, subject to regulatory approvals.",
+      "accept_only": [
+        "announced transaction intent"
+      ],
+      "hold_or_reject": [
+        "completed acquisition",
+        "completed date"
+      ],
+      "rationale": "Intent is not occurrence."
+    },
+    {
+      "id": "currently_wine_period",
+      "fixture_kind": "REAL_CAPTURED",
+      "input_scenario": "Q1revenue and cash as ofMar31; publishedApr8.",
+      "accept_only": [
+        "period activityJan1\u2013Mar31"
+      ],
+      "hold_or_reject": [
+        "operating specificallyMar31",
+        "operatingApr8",
+        "transition intervalJan1\u2013Mar31"
+      ],
+      "rationale": "Period revenue does not identify point activity or bound a terminal transition."
+    },
+    {
+      "id": "reental_holder_scope",
+      "fixture_kind": "REAL_CAPTURED",
+      "input_scenario": "November project distributions in issuer update publishedJan2.",
+      "accept_only": [
+        "November project distribution report",
+        "period activity"
+      ],
+      "hold_or_reject": [
+        "Crowd SAFE payout",
+        "investor MOIC",
+        "Jan2point observation"
+      ],
+      "rationale": "Cash recipient and security mapping differ."
+    },
+    {
+      "id": "1821_native_marketing",
+      "fixture_kind": "REAL_CAPTURED",
+      "input_scenario": "Native editorial recaps financing and expansion without dated realized launch/sale.",
+      "accept_only": [
+        "editorial financing/expansion statement"
+      ],
+      "hold_or_reject": [
+        "point operating observation"
+      ],
+      "rationale": "Platform provenance alone does not establish predicate."
+    },
+    {
+      "id": "stockcard_point_date",
+      "fixture_kind": "REAL_CAPTURED",
+      "input_scenario": "Letter explicitlyJuly4publishedJuly5.",
+      "accept_only": [
+        "reported operating observationJuly4subject to current review"
+      ],
+      "hold_or_reject": [
+        "automaticJuly5event date",
+        "operation through extraction"
+      ],
+      "rationale": "Report body temporal meaning controls date."
+    },
+    {
+      "id": "ethos_current_vs_retrospective",
+      "fixture_kind": "REAL_CAPTURED_PENDING_REVIEW",
+      "input_scenario": "Nov22dated post has current live app/incentive text, retrospective six-month work and future plans.",
+      "accept_only": [
+        "separate current activity candidate for semantic review",
+        "retrospective and future assertions separately"
+      ],
+      "hold_or_reject": [
+        "automatic all contentNov22",
+        "token launch as priced equity"
+      ],
+      "rationale": "Positive case prevents blanket rejection of contemporaneous present-tense evidence."
+    },
+    {
+      "id": "seven_missing_reports",
+      "fixture_kind": "REAL_CAPTURED",
+      "input_scenario": "No visible post-close reports in reviewed timelines;3tool endpoints fail;4not tried.",
+      "accept_only": [
+        "bounded search result and explicit failures/unperformed routes"
+      ],
+      "hold_or_reject": [
+        "7closures",
+        "7confirmed no reports",
+        "all endpoints denied"
+      ],
+      "rationale": "Access and search outcomes are not company events."
+    },
+    {
+      "id": "ctr_reporting",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "SEC C-TR present with reporting termination reason other than dissolution.",
+      "accept_only": [
+        "reporting termination"
+      ],
+      "hold_or_reject": [
+        "closure"
+      ],
+      "rationale": "Filing form has multiple legal grounds; verify actual reason."
+    },
+    {
+      "id": "car_missing",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "No C-AR found in bounded search.",
+      "accept_only": [
+        "filing not found in specified search"
+      ],
+      "hold_or_reject": [
+        "failure",
+        "closure",
+        "audit opinion"
+      ],
+      "rationale": "Absence is bounded and assurance cannot be inferred."
+    },
+    {
+      "id": "registry_active",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Current official register says active; no business evidence.",
+      "accept_only": [
+        "legal registered status"
+      ],
+      "hold_or_reject": [
+        "commercial operation",
+        "solvency"
+      ],
+      "rationale": "Competent source limited to supported legal fact."
+    },
+    {
+      "id": "bankruptcy_petition",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Identified company files bankruptcy petition and continues trade.",
+      "accept_only": [
+        "bankruptcy petition"
+      ],
+      "hold_or_reject": [
+        "completed liquidation",
+        "ceased operations"
+      ],
+      "rationale": "Legal/process status and operations can coexist."
+    },
+    {
+      "id": "same_brand_successor",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Old issuer dissolved; brand/domain acquired by unrelated successor; website active.",
+      "accept_only": [
+        "successor website activity"
+      ],
+      "hold_or_reject": [
+        "old issuer continuing operation",
+        "old investors success"
+      ],
+      "rationale": "Brand continuity must not transfer issuer outcomes."
+    },
+    {
+      "id": "same_claim_conflict",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Buyer reports closing; later correction explicitly says transaction did not close.",
+      "accept_only": [
+        "original and correction claims with lineage",
+        "DISPUTED pending adjudication"
+      ],
+      "hold_or_reject": [
+        "majority-vote completion",
+        "silent deletion of original"
+      ],
+      "rationale": "Claim-level contradictory evidence needs review."
+    },
+    {
+      "id": "different_time_no_conflict",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Product shutdown2024and verified relaunch2026.",
+      "accept_only": [
+        "both appropriately scoped events"
+      ],
+      "hold_or_reject": [
+        "automatic contradiction",
+        "uninterrupted survival"
+      ],
+      "rationale": "Time/subject/predicate distinguish apparent conflict."
+    },
+    {
+      "id": "known_at_leakage",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "2026about page retrospectively reports2023acquisition.",
+      "accept_only": [
+        "2023retrospective event candidate known by2026capture"
+      ],
+      "hold_or_reject": [
+        "available-in2023predictor evidence"
+      ],
+      "rationale": "Event-time and evidence-availability clocks differ."
+    },
+    {
+      "id": "success_without_payout",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Authentic completed acquisition transaction value disclosed; security terms unknown.",
+      "accept_only": [
+        "company-level transaction value",
+        "metric-specific success only if prospectively defined"
+      ],
+      "hold_or_reject": [
+        "realized holder profit",
+        "MOIC"
+      ],
+      "rationale": "Company success and investor return are different estimands."
+    },
+    {
+      "id": "incomplete_search",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "20positive blogs read; accessible original filing and negative-event queries unperformed.",
+      "accept_only": [
+        "INCOMPLETE_MATERIAL_ROUTE"
+      ],
+      "hold_or_reject": [
+        "source coverage sufficient due to20pages"
+      ],
+      "rationale": "Information value and claim requirements govern coverage."
+    },
+    {
+      "id": "blocked_primary",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Relevant primary access denied; alternative lawful sources attempted and inadequate.",
+      "accept_only": [
+        "ACCESS_BLOCKED or EXHAUSTED_WITH_UNKNOWNS with reason"
+      ],
+      "hold_or_reject": [
+        "denial bypass",
+        "closure",
+        "sufficient-for-definitive-event"
+      ],
+      "rationale": "No impossible-access mandate or fabricated certainty."
+    },
+    {
+      "id": "narrow_complete_unknown_returns",
+      "fixture_kind": "SYNTHETIC_POLICY_FIXTURE",
+      "input_scenario": "Completed company acquisition adequately evidenced; exhaustive lawful return search inconclusive.",
+      "accept_only": [
+        "SUFFICIENT_FOR_NARROW_CLAIM acquisition",
+        "UNKNOWN shareholder returns"
+      ],
+      "hold_or_reject": [
+        "reject whole record",
+        "require investor documents for acquisition fact"
+      ],
+      "rationale": "Claim-scoped completeness avoids both false positives and false rejection."
+    }
+  ]
+}

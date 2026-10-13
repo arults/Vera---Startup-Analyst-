@@ -1,0 +1,45 @@
+name: Phase 1D Republic Europe closure adjudication
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/adjudicate_republic_europe_closure_audit.py'
+      - 'tests/test_phase1d_republic_europe_closure_adjudication.py'
+      - '.github/workflows/phase1d-republic-europe-closure-adjudication.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  adjudicate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional regression dependencies
+        run: pip install requests beautifulsoup4 curl_cffi
+      - name: Run full regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Adjudicate preserved closure review candidates
+        run: python -m src.phase1d.adjudicate_republic_europe_closure_audit
+      - name: Persist closure adjudication checkpoint
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/cp3_republic_europe_zero_valuation_closure_decisions.csv
+          git add data/phase1d/cp3_republic_europe_zero_valuation_closure_adjudication.json
+          git add data/phase1d/cp3_republic_europe_zero_valuation_closure_adjudication_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Phase 1D: persist Republic Europe closure adjudication [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi

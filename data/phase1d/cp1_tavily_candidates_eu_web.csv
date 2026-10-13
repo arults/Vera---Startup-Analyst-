@@ -1,0 +1,67 @@
+platform,query_year,url,title,discovery_method,validation_status
+crowdcube,2021,https://www.crowdcube.com/companies/bitstocks/pitches/byJQWq,Bitstocks raised investment - January 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/breedr/pitches/lEmDal,Breedr raised investment - October 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/clim8/pitches/qWEB2Z,Clim8 raised investment - June 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/crowdcube/pitches/qD0nPq,Crowdcube raised investment - December 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/crowdcube/pitches/qno1vl,Crowdcube raised investment - March 2022.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/emma/pitches/leavgl,emma raised investment - June 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/freetrade/pitches/l8aQNZ?country=GB,Freetrade raised investment - November 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/gertrude/pitches/bMjEBq,Gertrude raised investment - September 2025.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/heura-foods/pitches/bLrWOl,Heura Foods raised investment - June 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/jeeni/pitches/qD0WNq,Jeeni raised investment - September 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/nothing,Nothing,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/small-robot-company/pitches/bLPXnb,Small Robot Company raised investment - July 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/swipii/pitches/bJD02l,Swipii raised investment - March 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/the-ethical-butcher/pitches/lEJKKZ,The Ethical Butcher raised investment - June 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/together-price/pitches/qrRE5q,Together Price raised investment - January 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/trending-travel/pitches/bVNYjb,Trending Travel raised investment - April 2022.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/white-peak-distillery/pitches/Z5no2b,White Peak Distillery raised investment - March 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/companies/zzish-1/pitches/bk8gvq,Zzish raised investment - November 2021.,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/explore/blog/crowdcube/crowdcube-q2-2021-shareholder-update,Crowdcube Q2 2021 shareholder update,tavily_platform_search,UNVERIFIED_DISCOVERY
+crowdcube,2021,https://www.crowdcube.com/explore/investor-returns,Investor Returns from Equity Crowdfunding,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://help.wefunder.com/article/ce3901d0-overview-what-is-wefunder,Overview: What is Wefunder?,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://help.wefunder.com/basic-jargon/follow-on-investment,Follow-on Investment - Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://help.wefunder.com/why-wefunder/304047-who-else-has-raised-funding-2,Who are the best startups funded by Wefunder? - Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020;2024,https://wefunder.com,Wefunder — Raise Capital from Your Community,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/about,"Invest in Startups You Love | Wefunder, Home of the Community Round",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/backerkit,"BackerKit Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/companies/tagged/with/saas,saas on Wefunder | Crowd Investing for Startups,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020;2025,https://wefunder.com/cortex,"Cortex Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020;2024,https://wefunder.com/driven/details,"Driven Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/ecarra,"eCarra Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/explore/5m_plus_revenue,"Invest in Startups You Love | Explore Companies | Wefunder, Home of the Community Round",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/explore/film,Film - Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/explore/restaurant,Invest in Startups You Love | Explore Companies - Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/gift-guide,"Invest in Startups You Love | Wefunder, Home of the Community Round",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/groundfloor,"Invest in Groundfloor | Short-term, high-yield real estate debt investments for everyone.",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/immersed,"Immersed Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/investors,Invest in A Fund | Led by 47 Veteran Founders | Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/jobs,"Jobs | Wefunder, Home of the Community Round",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/jobs?cookie_consent=true,"Jobs | Wefunder, Home of the Community Round",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/jurny,"Jurny Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/kingscrowd,"Kingscrowd Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/legionm,"Legion M Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020;2024,https://wefunder.com/levels,"Levels Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/lillibros/details,"Lil' Libros Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/lisa.marino.1,Lisa Marino's Startup Investments and Updates | Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/myrentberry,"Rentberry Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/news,"Wefunder Blog - Startup Investing News, Guides & Updates",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/oscar.hernandez.9,Oscar Hernandez's Startup Investments and Updates | Wefunder,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/pbc,Public Benefit Corporation,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/plunge,"Plunge Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020;2024,https://wefunder.com/press,Press,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/pump.for.joy,"Pump For Joy Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/s23orangefund,"S23 Orange Fund Updates, Team, and Funding Progress | Wefunder, Home of the Community Round",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/school,Wefunder Investor School,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/small.change,"Small Change Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/snapify,Only $2M of the $5M is being raised in this Wefunder offering.,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020;2024,https://wefunder.com/spill,"SPILL Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/terms,"Terms of Service Policy | Wefunder, Home of the ...",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/theshareplatform,"SHARE Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/too.soon,"Too Soon Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/updates/164038-we-re-officially-trending-on-wefunder,We’re officially trending on Wefunder!! 🙌 | Overplay,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2025,https://wefunder.com/updates/181378-2m-raised-final-hours-to-lock-in-your-investment,$2M+ Raised👏 Final Hours to Lock In Your Investment | Qnetic Corporation,tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2020,https://wefunder.com/upstack,"Upstack Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/value.buddy,"Value Buddy Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/wefunder,"Wefunder Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY
+wefunder,2024,https://wefunder.com/zette,"Zette Updates, Team, and Funding Progress",tavily_platform_search,UNVERIFIED_DISCOVERY

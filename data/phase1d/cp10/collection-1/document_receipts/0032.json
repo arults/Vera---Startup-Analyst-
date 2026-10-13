@@ -1,0 +1,49 @@
+{
+  "bytes": 12322792,
+  "campaign_url": "https://republic.com/growing-talent",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Growing Talent Form C:A 11.8.19.pdf",
+  "page_count": 94,
+  "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1084,
+      "pymupdf_sha256": "421aa93cf1a5826b93b6a8fa6394fd51ee511f6419f56df62b127378f925456f",
+      "pypdf_chars": 1636,
+      "pypdf_sha256": "8a75ddf5a3c968c0a1a9deeac6bd7159dcec1640315f4e8e669d141bd408a2a5"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1037,
+      "pymupdf_sha256": "ce8d8dcd79ff160e2393d3448fe0a6c23fcac06aaa06706727edeec5f5fbda1f",
+      "pypdf_chars": 1517,
+      "pypdf_sha256": "996fedc5569719ec5c60cad258b27c2a8c800d9622e1dc038338b2242c72fdaa"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1373,
+      "pymupdf_sha256": "7703e3fb72b32e688583bad5da2dad524fb1f16f9705bdf30ca9160fb14f4f5a",
+      "pypdf_chars": 1966,
+      "pypdf_sha256": "d5f544dea8e65a2651b910185516f6cbe10239e930ad9dc3ce575b92728891ae"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/860e8f67f448d8a3535bdab7208d8e99260ed58d61327f5295de3df2b98269cd.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/860e8f67f448d8a3535bdab7208d8e99260ed58d61327f5295de3df2b98269cd.bin.gz",
+  "source_sha256": "860e8f67f448d8a3535bdab7208d8e99260ed58d61327f5295de3df2b98269cd",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/100?view=preview"
+}

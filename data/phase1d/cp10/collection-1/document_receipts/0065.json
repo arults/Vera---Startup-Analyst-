@@ -1,0 +1,49 @@
+{
+  "bytes": 1423136,
+  "campaign_url": "https://republic.com/reental",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Reental Form C Amendment 7.19.2024.pdf",
+  "page_count": 202,
+  "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1246,
+      "pymupdf_sha256": "149ecbdfd39cda2c446d455be3a0b13ed2e0dbabddfac3d97de62697ecce105f",
+      "pypdf_chars": 1247,
+      "pypdf_sha256": "9481576600aebae103b1b01dafb91ec4b45bb1fed2622c8cc1eedecbdf65b73c"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1773,
+      "pymupdf_sha256": "ca924df71f4da0532a0489e377af42ef701c40f6f659e4bbf568e69c9a45bd69",
+      "pypdf_chars": 1775,
+      "pypdf_sha256": "83bf6a88cb103932b46214f9e9dcb48d76a4558332ade6fd50a6e883a5fdc618"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 673,
+      "pymupdf_sha256": "ce21bfa131421df8e0789438dfdc45b8c983d9dddc842f32b1321bdd53d4b298",
+      "pypdf_chars": 682,
+      "pypdf_sha256": "cb440fb82f90b8449759a901fbce3bc869b98f4b34452a197d4cfb619025f749"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 761,
+      "pymupdf_sha256": "c07e9126e1dbfebc97d553f931a35b1f2d8433e093a6bf2d34b83060cb6b9b87",
+      "pypdf_chars": 763,
+      "pypdf_sha256": "a4503fa957acf79c27b2f29fd102513763641e4fc698c11f2b485756e4c4a01a"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526.bin.gz",
+  "source_sha256": "e10e270f4e0459d9a3df81db64a22246c041667bb8d96ddd67970fb7fa143526",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/10583?view=preview"
+}

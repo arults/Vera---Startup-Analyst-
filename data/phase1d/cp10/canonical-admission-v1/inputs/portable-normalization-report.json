@@ -1,0 +1,185 @@
+{
+  "changes": [
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/0/sources/native_parent/local_path",
+      "new_repository_relative_value": "data/phase1d/cp7/cycle-1/captures/d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475.html.gz",
+      "old_string_sha256": "a9b2bc963486e64ab5ac80b6a84a4329a0d43e4b00d87e6e3d8bccd23c9e341b"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/0/sources/native_timeline/local_path",
+      "new_repository_relative_value": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f.bin.gz",
+      "old_string_sha256": "8c52a9cfafc0595c49da021f1bab4f34001884f1c3c6e817c317372c66d9dd77"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/0/sources/form_c/local_path",
+      "new_repository_relative_value": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+      "old_string_sha256": "bf35f886ef7e097c7559eef6a8153d62096938adb40d7ea9bad1163a80ad77d8"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/0/sources/form_c/original_field_ledger",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+      "old_string_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/0/sources/frozen_rules/spec",
+      "new_repository_relative_value": "docs/PHASE_1C_SPEC.md",
+      "old_string_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/0/sources/frozen_rules/schema",
+      "new_repository_relative_value": "schema/phase1c_round.schema.json",
+      "old_string_sha256": "e37bdcb1aed4fe3e8cea14bded9d401a18499bad4c58ee973cced81b17c0e66b"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/1/sources/native_parent/local_path",
+      "new_repository_relative_value": "data/phase1d/cp7/cycle-1/captures/6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042.html.gz",
+      "old_string_sha256": "22d4500c7b8a4f87b4061d9b83f398a1a4003b035311f50880100acbd07b795f"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/1/sources/native_timeline/local_path",
+      "new_repository_relative_value": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13.bin.gz",
+      "old_string_sha256": "b458c185c65d2c5f5b3640b0cdc9b74fee368ac2f952687f25f0ac415fcf910a"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/1/sources/form_c/local_path",
+      "new_repository_relative_value": "data/phase1d/cp10/collection-1/captures/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.bin.gz",
+      "old_string_sha256": "a0ee1f109eecc2ef3e439ff5e117c57bf50ae85b4e96531abda663b0e611a8dc"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/1/sources/form_c/original_field_ledger",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+      "old_string_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/1/sources/frozen_rules/spec",
+      "new_repository_relative_value": "docs/PHASE_1C_SPEC.md",
+      "old_string_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d"
+    },
+    {
+      "input": "matrix",
+      "json_pointer": "/proposals/1/sources/frozen_rules/schema",
+      "new_repository_relative_value": "schema/phase1c_round.schema.json",
+      "old_string_sha256": "e37bdcb1aed4fe3e8cea14bded9d401a18499bad4c58ee973cced81b17c0e66b"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/review_path",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/review.json",
+      "old_string_sha256": "6c855987c6e895c87bb80198fe0c4b4e2ee8037c482b41c431de063dffacef41"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/final_jev_path",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_final_response.json",
+      "old_string_sha256": "81812c0a1345c76960cf75f1dd369a9b141f1f17d13b633aacbfe3be76e451a8"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/0/source_evidence/native_parent/local_path",
+      "new_repository_relative_value": "data/phase1d/cp7/cycle-1/captures/d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475.html.gz",
+      "old_string_sha256": "a9b2bc963486e64ab5ac80b6a84a4329a0d43e4b00d87e6e3d8bccd23c9e341b"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/0/source_evidence/native_timeline/local_path",
+      "new_repository_relative_value": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/358ae73343df8c165d51dbf89e121c111171f5d6e3a0d10661f526763c6d6c6f.bin.gz",
+      "old_string_sha256": "8c52a9cfafc0595c49da021f1bab4f34001884f1c3c6e817c317372c66d9dd77"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/0/source_evidence/form_c/local_path",
+      "new_repository_relative_value": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+      "old_string_sha256": "bf35f886ef7e097c7559eef6a8153d62096938adb40d7ea9bad1163a80ad77d8"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/0/source_evidence/form_c/original_field_ledger",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+      "old_string_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/0/source_evidence/frozen_rules/spec",
+      "new_repository_relative_value": "docs/PHASE_1C_SPEC.md",
+      "old_string_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/0/source_evidence/frozen_rules/schema",
+      "new_repository_relative_value": "schema/phase1c_round.schema.json",
+      "old_string_sha256": "e37bdcb1aed4fe3e8cea14bded9d401a18499bad4c58ee973cced81b17c0e66b"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/1/source_evidence/native_parent/local_path",
+      "new_repository_relative_value": "data/phase1d/cp7/cycle-1/captures/6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042.html.gz",
+      "old_string_sha256": "22d4500c7b8a4f87b4061d9b83f398a1a4003b035311f50880100acbd07b795f"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/1/source_evidence/native_timeline/local_path",
+      "new_repository_relative_value": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13.bin.gz",
+      "old_string_sha256": "b458c185c65d2c5f5b3640b0cdc9b74fee368ac2f952687f25f0ac415fcf910a"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/1/source_evidence/form_c/local_path",
+      "new_repository_relative_value": "data/phase1d/cp10/collection-1/captures/ea334b0169be63ecc13a44c497d2806b69f2a7e918c7f787890d9dc338ddd2b3.bin.gz",
+      "old_string_sha256": "a0ee1f109eecc2ef3e439ff5e117c57bf50ae85b4e96531abda663b0e611a8dc"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/1/source_evidence/form_c/original_field_ledger",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/source_fields.json",
+      "old_string_sha256": "2575d37bfa876c6122974799970ca1e6fcd19b918591abfe0166b491f7725ea4"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/1/source_evidence/frozen_rules/spec",
+      "new_repository_relative_value": "docs/PHASE_1C_SPEC.md",
+      "old_string_sha256": "5d72b25ae382794fc3f46463785d98056b219086a0ddaef85a4acdc4ce6e943d"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/recommendations/1/source_evidence/frozen_rules/schema",
+      "new_repository_relative_value": "schema/phase1c_round.schema.json",
+      "old_string_sha256": "e37bdcb1aed4fe3e8cea14bded9d401a18499bad4c58ee973cced81b17c0e66b"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/jev_receipts/0/path",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_upstream_plan_response.json",
+      "old_string_sha256": "106dfee6be4632b5a366afba862bb11445c65a629466b92d5db206cca1a92798"
+    },
+    {
+      "input": "decisions",
+      "json_pointer": "/jev_receipts/1/path",
+      "new_repository_relative_value": "data/phase1d/cp10/canonical-admission-v1/inputs/jev_final_response.json",
+      "old_string_sha256": "81812c0a1345c76960cf75f1dd369a9b141f1f17d13b633aacbfe3be76e451a8"
+    }
+  ],
+  "inputs": {
+    "decisions": {
+      "portable_sha256": "feda2353de104c425439d6cfccd8e1e8aa2702157ce1f367d4216dd3647e4a91",
+      "semantic_changes": false,
+      "upstream_original_sha256": "e8b60c16cd2b3f5e69aa2a410c151287c5b65a7a804167c40c15e59b310a1e23"
+    },
+    "matrix": {
+      "portable_sha256": "fe776120902f1dda0122ce538fdabc3c46547e932401f7cad6d62743c87a638b",
+      "semantic_changes": false,
+      "upstream_original_sha256": "0bbadd0f5d85d039eb6a7b2288ef9a1681d118428ec843ec0fed6a793311eebc"
+    }
+  },
+  "scope": "Path-only portable derivatives of frozen accepted inputs; original review remains original-byte lineage and is not represented as certifying normalized bytes."
+}

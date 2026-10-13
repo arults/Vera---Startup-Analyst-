@@ -1,0 +1,18 @@
+{
+  "bytes": 116381,
+  "campaign_url": "https://republic.com/ai-box",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ai-box/show_updates",
+  "gzip_sha256": "537a825735080267356f5d8a961933ebece96bc1224eaf58f7fe12a57ed964f4",
+  "http_status": 200,
+  "parent_sha256": "e658e1536c39a08531a71c314b995ef8563b065fa09a46d3c71ba663c076bd41",
+  "raw_sha256": "afca6bf1652ab3968e580e3b585fe86e4a1bc0f1283ab28253e3eaf701b2ce0d",
+  "received_at": "2026-10-10T02:23:00.001123+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:59.337154+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/afca6bf1652ab3968e580e3b585fe86e4a1bc0f1283ab28253e3eaf701b2ce0d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ai-box/show_updates"
+}

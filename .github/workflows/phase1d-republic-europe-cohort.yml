@@ -1,0 +1,63 @@
+name: Phase 1D Republic Europe cohort normalize
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/build_republic_europe_cohort.py'
+      - 'src/phase1d/audit_republic_europe_rounds.py'
+      - 'src/phase1d/build_republic_europe_identity_review.py'
+      - 'tests/test_phase1d_republic_europe_company_ids.py'
+      - 'tests/test_phase1d_republic_europe_identity_review.py'
+      - '.github/workflows/phase1d-republic-europe-cohort.yml'
+concurrency:
+  group: phase1d-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify legal-ID and identity-review rules
+        run: |
+          python -m unittest discover -s tests -p 'test_phase1d_republic_europe_company_ids.py' -v
+          python -m unittest discover -s tests -p 'test_phase1d_republic_europe_identity_review.py' -v
+      - name: Rebuild normalized cohort
+        run: python src/phase1d/build_republic_europe_cohort.py
+      - name: Rebuild repeat-round graph audit
+        run: python src/phase1d/audit_republic_europe_rounds.py
+      - name: Rebuild fail-closed identity review queue
+        run: python -m src.phase1d.build_republic_europe_identity_review
+      - name: Persist atomic CP2/CP3 identity rebuild
+        run: |
+          git config user.name "vera-phase1d-bot"
+          git config user.email "vera-phase1d-bot@users.noreply.github.com"
+          git add data/phase1d/cp2_republic_europe_rounds_normalized.csv
+          git add data/phase1d/cp2_republic_europe_year_unresolved.csv
+          git add data/phase1d/cp2_republic_europe_company_id_collision_audit.csv
+          git add data/phase1d/cp2_republic_europe_normalized_manifest.json
+          git add data/phase1d/cp2_republic_europe_repeat_round_audit.json
+          git add data/phase1d/cp2_republic_europe_same_round_candidates.csv
+          git add data/phase1d/cp2_republic_europe_sequence_edges.csv
+          git add data/phase1d/cp2_republic_europe_graph_audit_manifest.json
+          git add data/phase1d/cp3_republic_europe_identity_review_queue.csv
+          git add data/phase1d/cp3_republic_europe_identity_unmatched_after_queue.csv
+          git add data/phase1d/cp3_republic_europe_identity_review_summary.json
+          git add data/phase1d/cp3_republic_europe_identity_review_manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Phase 1D: persist canonical legal-ID cohort rebuild [skip ci]"
+            git fetch origin phase-1d
+            git rebase origin/phase-1d
+            git push origin HEAD:phase-1d
+          fi

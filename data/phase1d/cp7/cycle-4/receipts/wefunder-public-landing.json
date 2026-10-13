@@ -1,0 +1,9 @@
+{
+  "capture_path": "data/phase1d/cp7/cycle-4/captures/36a8120d2dbb66a3d944b9d2b8e10dc1ddfc1c8e3e66730b8691a9aec2de66c9.bin.gz",
+  "gzip_sha256": "519baf37e98de3a93b81958df11d297e56686b8aba3170c61b6a8ae6f4e49c42",
+  "http_status": 403,
+  "label": "wefunder-public-landing",
+  "raw_sha256": "36a8120d2dbb66a3d944b9d2b8e10dc1ddfc1c8e3e66730b8691a9aec2de66c9",
+  "received_at": "2026-10-09T09:43:32.090149+00:00",
+  "url": "https://wefunder.com/explore"
+}

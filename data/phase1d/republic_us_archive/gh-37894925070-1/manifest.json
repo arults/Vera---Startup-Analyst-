@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-10-09T06:42:26.384216+00:00",
+  "files": {
+    "candidates.json": "7823a4b2128fcc1e1235bc40d15fcc6f5173e7733426d91989346d37a6a89de9",
+    "quarantine.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "resolution_queue.json": "f59b7543e2bccfa88bcdacfee2a1f5d2f4001e2e3cf08e5c9bafda8a323d6aab",
+    "summary.json": "d6b6211def040a0feaaac64a2ed96045a2ad2755420dc8f7f0e2a953b4790ded"
+  },
+  "run_id": "gh-37894925070-1",
+  "script_sha256": "e4238c2402d2fe2d7742fbd4d675c619851a5d0244942894ed4dacea8a3aa72e",
+  "source_file": "data/phase1d/cp1_republic_us_probe.json",
+  "source_git_blob": "4257d36bb7259b8a9f923a4b050c8d05936eaed5",
+  "source_sha256": "0cfea3138ddbbfcb3f66c4ab1fd755a1b2ad88eaa7720cbfbe9a1714f60c80dd"
+}

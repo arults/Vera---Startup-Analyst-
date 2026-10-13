@@ -1,0 +1,18 @@
+{
+  "bytes": 11220,
+  "campaign_url": "https://republic.com/monarch",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/monarch/show_updates",
+  "gzip_sha256": "5738e192f2affaae810ac481784b733438b6ac4de05f6860d97bb4267740bd6f",
+  "http_status": 200,
+  "parent_sha256": "5fd990e89e3798e6106c0c8a921dc26b0415bb8d1cc15a3a296881552111ed0a",
+  "raw_sha256": "185565640ec35b5ee9beeeca82f0561b83ecd1269d37e1716ddc8bb0402a3a30",
+  "received_at": "2026-10-10T02:34:01.744324+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:01.167852+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/185565640ec35b5ee9beeeca82f0561b83ecd1269d37e1716ddc8bb0402a3a30.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/monarch/show_updates"
+}

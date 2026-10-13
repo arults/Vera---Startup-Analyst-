@@ -1,0 +1,18 @@
+{
+  "bytes": 55668,
+  "campaign_url": "https://republic.com/dope-dog",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/dope-dog/show_updates",
+  "gzip_sha256": "5f26ab9ce8837afde944286c731ce064770d1f5f745313674b9e7e8b0abac6bf",
+  "http_status": 200,
+  "parent_sha256": "e27f5727170134b6dd2487631ec48378dde8aed78877b123546c9818b8501ace",
+  "raw_sha256": "ae0596b4a7f7136bab53890cedd04b604fc255ffd65ddaad061b74effec60721",
+  "received_at": "2026-10-10T02:27:15.924515+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:15.338913+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ae0596b4a7f7136bab53890cedd04b604fc255ffd65ddaad061b74effec60721.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dope-dog/show_updates"
+}

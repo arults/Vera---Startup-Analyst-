@@ -1,0 +1,18 @@
+{
+  "bytes": 243776,
+  "campaign_url": "https://republic.com/bitterbrains",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bitterbrains/show_updates",
+  "gzip_sha256": "39c02c0d382194e777f9309cd9112d56ffacc03adf4df1c726af07a987ad5e50",
+  "http_status": 200,
+  "parent_sha256": "3af1069531edb2000c3aaab7c396b5215f4b9a218a2d10aadef177215e7e01f0",
+  "raw_sha256": "65d4a1b2532b7eb9e57b0869825862963ee4f7ca6de4634058444cfc4894e16e",
+  "received_at": "2026-10-10T02:24:30.014280+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:29.255318+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/65d4a1b2532b7eb9e57b0869825862963ee4f7ca6de4634058444cfc4894e16e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bitterbrains/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 159539,
+  "campaign_url": "https://republic.com/fetchfind",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fetchfind/show_updates",
+  "gzip_sha256": "bb379f17186a4cf6aeb174d89f767e3dd97d741f67c8b489aebc88066efb8d73",
+  "http_status": 200,
+  "parent_sha256": "1eb484089f0cfda0c956f0f52ce5ce4c8ecb7b982ea345fad6e677550b968b5d",
+  "raw_sha256": "0c2c5bec26aa6d4c9dba08333eda39df4f759d9a1bed8032820c35aa1e4bd04d",
+  "received_at": "2026-10-10T02:27:35.504630+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:34.834525+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0c2c5bec26aa6d4c9dba08333eda39df4f759d9a1bed8032820c35aa1e4bd04d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fetchfind/show_updates"
+}

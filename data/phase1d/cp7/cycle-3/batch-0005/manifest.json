@@ -1,0 +1,762 @@
+[
+  {
+    "attempted_at": "2026-10-09T09:27:51.902292+00:00",
+    "capture_gzip_sha256": "4a10daecaa7d8018f54d950e3c4d8cee91c215b2586242f36de9795053b51c11",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/7d8521c35cd4948217dfab12205edbe341dc083c961c73194492be6e30e5b2e3.html.gz",
+    "content_sha256": "7d8521c35cd4948217dfab12205edbe341dc083c961c73194492be6e30e5b2e3",
+    "final_url": "https://europe.republic.com/propelair1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:52.165594+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 18582,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/7d8521c35cd4948217dfab12205edbe341dc083c961c73194492be6e30e5b2e3.txt.gz",
+    "text_sha256": "27b2d5cc2bcda0d0ac9a7015835c7f00132a27d2b4045ae89c836c7268aa54cb",
+    "title": "Propelair | Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/propelair1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:52.594525+00:00",
+    "capture_gzip_sha256": "6837df141509d0237d38a5995714e8687f094b4401c1223648746ccb909195c1",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c61402cd45a80acaa22081ef465411414af59aed0e3235120bf0317f1dd64978.html.gz",
+    "content_sha256": "c61402cd45a80acaa22081ef465411414af59aed0e3235120bf0317f1dd64978",
+    "final_url": "https://europe.republic.com/property-loop",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:53.004363+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15247,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c61402cd45a80acaa22081ef465411414af59aed0e3235120bf0317f1dd64978.txt.gz",
+    "text_sha256": "72e1533b9a8d87643015e85a3bf4c7aea32282a5aad541d64a818d7aa057bce4",
+    "title": "PropertyLoop | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/property-loop"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:53.368398+00:00",
+    "capture_gzip_sha256": "1a1a00a4969a06a2819baddc115c7dd220eb324a17c6094b7196ca46a920cf55",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/4ab97e76af25c282dadcf36c0235c590ba5a554e82de5d2a508922fc9be3ad39.html.gz",
+    "content_sha256": "4ab97e76af25c282dadcf36c0235c590ba5a554e82de5d2a508922fc9be3ad39",
+    "final_url": "https://europe.republic.com/propertyloop",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:53.557407+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14806,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/4ab97e76af25c282dadcf36c0235c590ba5a554e82de5d2a508922fc9be3ad39.txt.gz",
+    "text_sha256": "1390a0e5a9658bef0f8c2768fd74ae8809293bdcaa33b21ea1e2e6ea4ca00254",
+    "title": "PropertyLoop | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/propertyloop"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:53.922430+00:00",
+    "capture_gzip_sha256": "89a33544b1972248f2854ee745412c049f75c39cb0da96e59ead987343384aac",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2eb8eb60db2dae6462266bbf9201c3aa06c9b3f4e497a909870cee516959be04.html.gz",
+    "content_sha256": "2eb8eb60db2dae6462266bbf9201c3aa06c9b3f4e497a909870cee516959be04",
+    "final_url": "https://europe.republic.com/qardus",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:54.104882+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14380,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2eb8eb60db2dae6462266bbf9201c3aa06c9b3f4e497a909870cee516959be04.txt.gz",
+    "text_sha256": "6e4e2d11d48e89c54a4f236c1560222a2fd8b64961d89c8bad37154cc5e3fe33",
+    "title": "Qardus | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/qardus"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:54.468710+00:00",
+    "capture_gzip_sha256": "417b0b74fec5e3e67bb168b8ef7e7e40f535423eec193a5a08d62d049d978dca",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/a0e789214d59711e2d95706f32f128bbf687d8f69cc330a16c1936c1725b3752.html.gz",
+    "content_sha256": "a0e789214d59711e2d95706f32f128bbf687d8f69cc330a16c1936c1725b3752",
+    "final_url": "https://europe.republic.com/qardus1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:54.654515+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14952,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/a0e789214d59711e2d95706f32f128bbf687d8f69cc330a16c1936c1725b3752.txt.gz",
+    "text_sha256": "5674f7e52ba1e76c61b19fb5ba79968b0dbe473598eded83598b4dcbcfbacaeb",
+    "title": "Qardus | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/qardus1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:55.018551+00:00",
+    "capture_gzip_sha256": "6b549de909b831bc5fbd3934896d05a0a1f0153b2a6f0b03eab16a386b810b06",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/1796e10d3769ef1e6e71583c947265dffdd8fa23f1079e3c4cbfb67b4683c077.html.gz",
+    "content_sha256": "1796e10d3769ef1e6e71583c947265dffdd8fa23f1079e3c4cbfb67b4683c077",
+    "final_url": "https://europe.republic.com/qed-naval",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:55.250746+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 16141,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/1796e10d3769ef1e6e71583c947265dffdd8fa23f1079e3c4cbfb67b4683c077.txt.gz",
+    "text_sha256": "02ba83dd3c4f54b065bc08d829fe8ed8e6a7cbbf522a1b29f6d6807b025d79fc",
+    "title": "QED Naval | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/qed-naval"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:55.615619+00:00",
+    "capture_gzip_sha256": "84556aafb3b6b18ea172020003cabb884e4f3fa395664008b0c02c2bdf72b262",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2640059f482137e44c28d647ab391b70b1814bf6ea974200264375055f439511.html.gz",
+    "content_sha256": "2640059f482137e44c28d647ab391b70b1814bf6ea974200264375055f439511",
+    "final_url": "https://europe.republic.com/qed-naval1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:55.800785+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 16802,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2640059f482137e44c28d647ab391b70b1814bf6ea974200264375055f439511.txt.gz",
+    "text_sha256": "4196a02e471dfdbfeb1b615a57ae257155781a2751d836e81e18dfcc48685933",
+    "title": "QED Naval | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/qed-naval1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:56.164618+00:00",
+    "capture_gzip_sha256": "7115aa1c757d54e106df7d6ed97960ee37a8a6981f6a89e285d1a70087102dcf",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/b8e0ff00833f41ae6e3e8514bde4e96dd62032dfc4fc5e47250a93097d87c497.html.gz",
+    "content_sha256": "b8e0ff00833f41ae6e3e8514bde4e96dd62032dfc4fc5e47250a93097d87c497",
+    "final_url": "https://europe.republic.com/qed-naval2",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:56.380401+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15118,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/b8e0ff00833f41ae6e3e8514bde4e96dd62032dfc4fc5e47250a93097d87c497.txt.gz",
+    "text_sha256": "b5b010ad738c2661ace57ec9890f5ac32b658fdbe0d1a5d7b8fa6721de2d81b4",
+    "title": "QED Naval | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/qed-naval2"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:56.749451+00:00",
+    "capture_gzip_sha256": "1fb0db82ca81ffaaae51793a08f80849a619631412e3d650097b4243123071d9",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/cc11744879cb7a13c234efb0bda5843d4a34ae1bbc9e8fdebdbe41dc565922eb.html.gz",
+    "content_sha256": "cc11744879cb7a13c234efb0bda5843d4a34ae1bbc9e8fdebdbe41dc565922eb",
+    "final_url": "https://europe.republic.com/really-local-group",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:56.936469+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 21825,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/cc11744879cb7a13c234efb0bda5843d4a34ae1bbc9e8fdebdbe41dc565922eb.txt.gz",
+    "text_sha256": "ab68eeb37f466872d7ca9f3f6f9ad431be569e5dacaacd833e3607e2b45b0dde",
+    "title": "Really Local Group | Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/really-local-group"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:57.301947+00:00",
+    "capture_gzip_sha256": "a619e198ddfaa385ff39be019fe53439113cc7b30ae951cc4960f3d5e003b3d3",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/7b5a2fea9a1a74b93c54d7632633ed413cbc9368b2b07ea28c62a349f8ead8cf.html.gz",
+    "content_sha256": "7b5a2fea9a1a74b93c54d7632633ed413cbc9368b2b07ea28c62a349f8ead8cf",
+    "final_url": "https://europe.republic.com/really-local-group1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:57.482685+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15086,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/7b5a2fea9a1a74b93c54d7632633ed413cbc9368b2b07ea28c62a349f8ead8cf.txt.gz",
+    "text_sha256": "c4e74279f2b5283814738805f48fb51fa1fbbb61b9093253f33e28e13772bc2b",
+    "title": "Really Local Group | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/really-local-group1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:57.847903+00:00",
+    "capture_gzip_sha256": "db0342b04b66281fbb3e448ded5c41c41c790cffc804c67a4249092afa0f9e5e",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/4d0fdaafc2c4f6c7b2c46e5dc581a51ae5812a3a4541064db5089f7d911793f7.html.gz",
+    "content_sha256": "4d0fdaafc2c4f6c7b2c46e5dc581a51ae5812a3a4541064db5089f7d911793f7",
+    "final_url": "https://europe.republic.com/ride-tandem",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:58.041872+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 13525,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/4d0fdaafc2c4f6c7b2c46e5dc581a51ae5812a3a4541064db5089f7d911793f7.txt.gz",
+    "text_sha256": "ccb1348ab75e36aa21fc370d5c92928e00de50104c4573585e19016034b6be28",
+    "title": "Ride Tandem | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/ride-tandem"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:58.404581+00:00",
+    "capture_gzip_sha256": "65219b8de73ba710bfa77029c6f77685892c3d70d607a42f38a09235052ead5c",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9f729c9ae859b331241bd5688f388c0240e8b9ad6a8841c8843b0ab7e6f568a6.html.gz",
+    "content_sha256": "9f729c9ae859b331241bd5688f388c0240e8b9ad6a8841c8843b0ab7e6f568a6",
+    "final_url": "https://europe.republic.com/ride-tandem1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:58.589668+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 13810,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9f729c9ae859b331241bd5688f388c0240e8b9ad6a8841c8843b0ab7e6f568a6.txt.gz",
+    "text_sha256": "1248b530519fd416b92adf167a53db2cf06e3b80d83f0f914c0fd2560c9a0a4d",
+    "title": "RideTandem | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/ride-tandem1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:58.952850+00:00",
+    "capture_gzip_sha256": "ee59ddcaef8921eea22248f8ec1f7af5a100ed7b026838e2e04fb57f384d1173",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/d4a616885a35503a3a8af0693bd32eb243ff61276cfc1e6720aab4c2219f6708.html.gz",
+    "content_sha256": "d4a616885a35503a3a8af0693bd32eb243ff61276cfc1e6720aab4c2219f6708",
+    "final_url": "https://europe.republic.com/riley",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:59.170512+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14042,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/d4a616885a35503a3a8af0693bd32eb243ff61276cfc1e6720aab4c2219f6708.txt.gz",
+    "text_sha256": "981162be16c5dfec3ccca50af048508806ca3cc9b4f2208eaaa57107d968bcb8",
+    "title": "Riley | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/riley"
+  },
+  {
+    "attempted_at": "2026-10-09T09:27:59.536907+00:00",
+    "capture_gzip_sha256": "ea1db6ddf3e72bd46069539a7502579a18eed0dd6394dba3e5060821c54e2a84",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c57084620e473af41d8ea53ef163bb455c765b234576d0e41849150d7c0fb4a3.html.gz",
+    "content_sha256": "c57084620e473af41d8ea53ef163bb455c765b234576d0e41849150d7c0fb4a3",
+    "final_url": "https://europe.republic.com/riley1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:27:59.773698+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15808,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c57084620e473af41d8ea53ef163bb455c765b234576d0e41849150d7c0fb4a3.txt.gz",
+    "text_sha256": "c958e361e5075806a188cd9582157526d8d44ad533b0c34fec27707ba06eadaa",
+    "title": "Riley | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/riley1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:00.137449+00:00",
+    "capture_gzip_sha256": "02d972af12c9ee579376f3f7e1ef804d8753e304ea59bd63c6632a6260f958eb",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/05f07b35b5a62334ceb90fdcbdc50c9c8e74a8fb9759c8f1b6174d0e9e90faf0.html.gz",
+    "content_sha256": "05f07b35b5a62334ceb90fdcbdc50c9c8e74a8fb9759c8f1b6174d0e9e90faf0",
+    "final_url": "https://europe.republic.com/ripple1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:00.395161+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 21599,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/05f07b35b5a62334ceb90fdcbdc50c9c8e74a8fb9759c8f1b6174d0e9e90faf0.txt.gz",
+    "text_sha256": "73b40f2f125cb3459a4fa1936144cb7b6423820658f2458e745165f2910f52b7",
+    "title": "Ripple | Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/ripple1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:00.761624+00:00",
+    "capture_gzip_sha256": "5b3c8fd8bdb7c65b2fc09022c110316c817d0f88486070be6f631a4b06c32485",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/d9b523a9f50a08e1ecb19fad235452c394dae0c543cb9ffaf5642d718f4459e6.html.gz",
+    "content_sha256": "d9b523a9f50a08e1ecb19fad235452c394dae0c543cb9ffaf5642d718f4459e6",
+    "final_url": "https://europe.republic.com/ripple2",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:00.969266+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14179,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/d9b523a9f50a08e1ecb19fad235452c394dae0c543cb9ffaf5642d718f4459e6.txt.gz",
+    "text_sha256": "3f9e491d0f57871a77047952a4c14770fac52a53292590e78a4b4c9f10db835a",
+    "title": "Ripple | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/ripple2"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:01.333170+00:00",
+    "capture_gzip_sha256": "7ba3d5d586889627e38d8d09c87bda2009e57fd866cd8814b44c5dd40236032e",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/435845f6e04c8f57bdd8cb21041b55bb4fdb9e520d410350484c893a382e852a.html.gz",
+    "content_sha256": "435845f6e04c8f57bdd8cb21041b55bb4fdb9e520d410350484c893a382e852a",
+    "final_url": "https://europe.republic.com/ripple3",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:01.534785+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15471,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/435845f6e04c8f57bdd8cb21041b55bb4fdb9e520d410350484c893a382e852a.txt.gz",
+    "text_sha256": "0539019486ca4b2a71e51e44778de17830d250124e56e2810fea6e1fdab87d82",
+    "title": "Ripple | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/ripple3"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:01.900108+00:00",
+    "capture_gzip_sha256": "7c86ee476c4ef783fbb64c4aaa2a881b28d395e4bf1065136d0d07d5607689f8",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/f100ad4df9ebfaac128b10571a6f4faa0d4b8c0e6a69e1972bb4a961095fbc50.html.gz",
+    "content_sha256": "f100ad4df9ebfaac128b10571a6f4faa0d4b8c0e6a69e1972bb4a961095fbc50",
+    "final_url": "https://europe.republic.com/ripple4",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:02.107605+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14133,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/f100ad4df9ebfaac128b10571a6f4faa0d4b8c0e6a69e1972bb4a961095fbc50.txt.gz",
+    "text_sha256": "467d5223373c4bc6f536b38d09a367f4c4ed711b3d5a2bbdf0eb13ee6c7862ca",
+    "title": "Ripple | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/ripple4"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:02.471379+00:00",
+    "capture_gzip_sha256": "39ce40e6ebebc6c0d210d148f5bad8d0f86aa2f1e0d1f9a69aa0c285e1c4d82c",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/1e963f79b609d9f8f639fe2f22b3846edcb4d044a8185241324e4ebf16cb8791.html.gz",
+    "content_sha256": "1e963f79b609d9f8f639fe2f22b3846edcb4d044a8185241324e4ebf16cb8791",
+    "final_url": "https://europe.republic.com/ripple5",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:02.683278+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 16052,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/1e963f79b609d9f8f639fe2f22b3846edcb4d044a8185241324e4ebf16cb8791.txt.gz",
+    "text_sha256": "27cb9f9f5d58fe50dd7e2d3f6f2c948628fbc69f9571bf95fa354e4b210382bb",
+    "title": "Ripple | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/ripple5"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:03.048795+00:00",
+    "capture_gzip_sha256": "65ca3ec842a61f0acc48983474fbcbb77e46a56d8fe2da1079468edb80d53aef",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/248c5123ef11defe6c899f074cb74ea613fbd50894522b71584367c4c4011ac1.html.gz",
+    "content_sha256": "248c5123ef11defe6c899f074cb74ea613fbd50894522b71584367c4c4011ac1",
+    "final_url": "https://europe.republic.com/riversimple2",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:03.232291+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 22405,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/248c5123ef11defe6c899f074cb74ea613fbd50894522b71584367c4c4011ac1.txt.gz",
+    "text_sha256": "3af2f2122c645d7d8ba7e4c38e241c183ce6f1b9886e610118d725714571dfae",
+    "title": "Riversimple | Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/riversimple2"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:03.596973+00:00",
+    "capture_gzip_sha256": "32dfe6122c23ea12ce3de08968dd3807d10571515216d05aa8bbdd7b040288ad",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c0293732a5916565fc21703e7d9626dfab571c4fb97a2f3c104695fcb485ea2e.html.gz",
+    "content_sha256": "c0293732a5916565fc21703e7d9626dfab571c4fb97a2f3c104695fcb485ea2e",
+    "final_url": "https://europe.republic.com/riversimple3",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:03.786385+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15600,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c0293732a5916565fc21703e7d9626dfab571c4fb97a2f3c104695fcb485ea2e.txt.gz",
+    "text_sha256": "668bbf3ea539f966a8866c05008a692e111e607f94118d5866c57efac84503f9",
+    "title": "Riversimple | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/riversimple3"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:04.151179+00:00",
+    "capture_gzip_sha256": "509f6f7ef7d6b37320517110746c91b56e335f4b1ff1711aa7bd426be3898ab6",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/980ee9991d5fac785d1218341fdafb72daec5c1ceac0aecf196f9fde28589650.html.gz",
+    "content_sha256": "980ee9991d5fac785d1218341fdafb72daec5c1ceac0aecf196f9fde28589650",
+    "final_url": "https://europe.republic.com/riversimple5",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:04.438418+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15944,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/980ee9991d5fac785d1218341fdafb72daec5c1ceac0aecf196f9fde28589650.txt.gz",
+    "text_sha256": "b8ddf60f0ba37f6deb8dc8e116a9e5972f2df0dc841c5e9ea4a60e4e1b56c326",
+    "title": "Riversimple | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/riversimple5"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:04.803618+00:00",
+    "capture_gzip_sha256": "afb0eae8724026045549b0b75124f6e698ccca1ab9741d1cec346b2657596b3e",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/ffd494407d8e0728f69f287047b4eaeca046972cea0e80d26c0b38bda515a6e0.html.gz",
+    "content_sha256": "ffd494407d8e0728f69f287047b4eaeca046972cea0e80d26c0b38bda515a6e0",
+    "final_url": "https://europe.republic.com/rnwl",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:05.048423+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 12213,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/ffd494407d8e0728f69f287047b4eaeca046972cea0e80d26c0b38bda515a6e0.txt.gz",
+    "text_sha256": "8e4b020f999f604374df0c36ce30f95a44ab0b5600449f8c763f97ae10e310f6",
+    "title": "Rnwl | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/rnwl"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:05.411650+00:00",
+    "capture_gzip_sha256": "454be24d1bb6ebb8f94ae0e5f5d8c2fe1e9e91afd7c0f8be95c2f7cc63e6f7cb",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/e6ecca304fedb0030fb3835f5fde52546418903890ee7c94fba733ba5ee00e8b.html.gz",
+    "content_sha256": "e6ecca304fedb0030fb3835f5fde52546418903890ee7c94fba733ba5ee00e8b",
+    "final_url": "https://europe.republic.com/rnwl1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:05.597802+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 12517,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/e6ecca304fedb0030fb3835f5fde52546418903890ee7c94fba733ba5ee00e8b.txt.gz",
+    "text_sha256": "6dd5480b91a6e863e082876cd7ea6faf9f4b02ed60fde223ad9f331282df37c0",
+    "title": "Rnwl | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/rnwl1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:05.962112+00:00",
+    "capture_gzip_sha256": "431fc9f55b2caf0dd45de20d57af247ca6021ec0e947fc63372ca9cc5d5835ba",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9f0837fa37c5c87d6e26fff8b448bbf172b98a8c0c0f16299d40560aab40c6dd.html.gz",
+    "content_sha256": "9f0837fa37c5c87d6e26fff8b448bbf172b98a8c0c0f16299d40560aab40c6dd",
+    "final_url": "https://europe.republic.com/rnwl2",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:06.147392+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 12831,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9f0837fa37c5c87d6e26fff8b448bbf172b98a8c0c0f16299d40560aab40c6dd.txt.gz",
+    "text_sha256": "1b078f3ddd04e5553318ee452a534132e8187b12b2ee77f9bd4a53c4a35211d5",
+    "title": "Rnwl | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/rnwl2"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:06.510807+00:00",
+    "capture_gzip_sha256": "552ffa0446efd90ec3fe65458227eb1d648a23e7f37ffc276c0f2924874dc3a3",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/f7066b30cdc98ed5d1d991af970d7dd71b1ce82ceee6b7a0267d93ffdffdf6ae.html.gz",
+    "content_sha256": "f7066b30cdc98ed5d1d991af970d7dd71b1ce82ceee6b7a0267d93ffdffdf6ae",
+    "final_url": "https://europe.republic.com/rspax-mirror-notes",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:06.716645+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 21236,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/f7066b30cdc98ed5d1d991af970d7dd71b1ce82ceee6b7a0267d93ffdffdf6ae.txt.gz",
+    "text_sha256": "3d4687a4e0de89ad90d3bb4c784c4a5781aabc7e73ee0d52696f538b642701e5",
+    "title": "rSPAX Mirror Notes | Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/rspax-mirror-notes"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:07.081547+00:00",
+    "capture_gzip_sha256": "e410b29ef587fb3d838021dfc45440ca2c3bceafb1940965a12302964334c8a0",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/1846a33fb81a6654232a4fdbbe2939b0ecd5093dadc8f5fc1c4346a0052c88f3.html.gz",
+    "content_sha256": "1846a33fb81a6654232a4fdbbe2939b0ecd5093dadc8f5fc1c4346a0052c88f3",
+    "final_url": "https://europe.republic.com/rttok-mirror-notes",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:07.367849+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 22855,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/1846a33fb81a6654232a4fdbbe2939b0ecd5093dadc8f5fc1c4346a0052c88f3.txt.gz",
+    "text_sha256": "1f87b9612b69d9fa10677722d2b31a0b3de21a8ce8fe52651a3c00e4473c47af",
+    "title": "rTTOK Mirror Notes | Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/rttok-mirror-notes"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:07.782085+00:00",
+    "capture_gzip_sha256": "1d2dd1ec1b83c82d6b4007120eb6da5664d03ab5490a0b4a21a0cd1afcbb1939",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/713afe2ca3b15d741063eb2bcfd4ad970ac2b7f21d0c7cd91426927df1d758f0.html.gz",
+    "content_sha256": "713afe2ca3b15d741063eb2bcfd4ad970ac2b7f21d0c7cd91426927df1d758f0",
+    "final_url": "https://europe.republic.com/salcombe-distilling-co1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:07.973972+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 12327,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/713afe2ca3b15d741063eb2bcfd4ad970ac2b7f21d0c7cd91426927df1d758f0.txt.gz",
+    "text_sha256": "58ec988b6bc89dd9743d221b8ae081fad663a8d085576886946237a2e7631144",
+    "title": "Salcombe Distilling Co. | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/salcombe-distilling-co1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:08.337443+00:00",
+    "capture_gzip_sha256": "d884ba094c8cc5b19d57114762489d0feaa1a0d5a86713f0812f5b8f6ba456f3",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/dd798ef381ecd306f76842abd630b6151d01a1e05edd2a3c455ff6e0a6fee215.html.gz",
+    "content_sha256": "dd798ef381ecd306f76842abd630b6151d01a1e05edd2a3c455ff6e0a6fee215",
+    "final_url": "https://europe.republic.com/salcombedistillingco",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:08.644968+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15632,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/dd798ef381ecd306f76842abd630b6151d01a1e05edd2a3c455ff6e0a6fee215.txt.gz",
+    "text_sha256": "072192592929abe5fa31f809d1cad7ac4a892bf18d2efce1b68dcef997187de2",
+    "title": "Salcombe Distilling Co. | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/salcombedistillingco"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:09.010812+00:00",
+    "capture_gzip_sha256": "e431ff8036ad68127797097579afc70ffbc5c837974be553d38b511559a19b7a",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/afbd1ae845b50a03867dee5b265bb0fc0701535b14151d239edaec161eacf4c7.html.gz",
+    "content_sha256": "afbd1ae845b50a03867dee5b265bb0fc0701535b14151d239edaec161eacf4c7",
+    "final_url": "https://europe.republic.com/salcombegin",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:09.444566+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15350,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/afbd1ae845b50a03867dee5b265bb0fc0701535b14151d239edaec161eacf4c7.txt.gz",
+    "text_sha256": "7d1ef2f6b89c1647dd2a4a987c8994072d61b5dc9d91f3a8383fffb21fe1acbe",
+    "title": "Salcombe Distilling Co. | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/salcombegin"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:09.807875+00:00",
+    "capture_gzip_sha256": "43085b1953dfd7db1f68c5311f85d648737aea9d9b400ae0b626f17bf68ff492",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.html.gz",
+    "content_sha256": "c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3",
+    "final_url": "https://europe.republic.com/savvy-navvy1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:10.398615+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14995,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.txt.gz",
+    "text_sha256": "9769b74d84eeaf545560b877592963622decadd4ed6df63c3cdd894bcef54fa8",
+    "title": "savvy navvy | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/savvy-navvy1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:10.763547+00:00",
+    "capture_gzip_sha256": "51abce22d8fc5e410fcabc583a0fe7d949e82494676cf76a4fe5ec459b2661d3",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.html.gz",
+    "content_sha256": "c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5",
+    "final_url": "https://europe.republic.com/savvy-navvy2",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:11.052452+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 13796,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.txt.gz",
+    "text_sha256": "c06a8f3161ab381b644595bc770a925c2c7152ad061ca481ada9207c6db8c1b0",
+    "title": "savvy navvy | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/savvy-navvy2"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:11.416220+00:00",
+    "capture_gzip_sha256": "1d57eed60c5cfe7f23621389110ee8d1909233986dc7bf58d7b394aed2661485",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.html.gz",
+    "content_sha256": "2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef",
+    "final_url": "https://europe.republic.com/savvy-navvy3",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:11.608574+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 13632,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.txt.gz",
+    "text_sha256": "58fc733c2217445c9957dc572b9b41cafecd7e7e53b49474785563daeeab7808",
+    "title": "savvy navvy | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/savvy-navvy3"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:11.973605+00:00",
+    "capture_gzip_sha256": "1b6c3c4d37db55b3dd2845a6b726c4d822653672f3db3f6ac45d248c9b273e98",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.html.gz",
+    "content_sha256": "9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c",
+    "final_url": "https://europe.republic.com/savvy-navvy4",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:12.171040+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14811,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.txt.gz",
+    "text_sha256": "8f3c43f827bf8da71c708887159ed8403b04811c9bd0ce785365683a607623d0",
+    "title": "savvy navvy | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/savvy-navvy4"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:12.535440+00:00",
+    "capture_gzip_sha256": "58a5a9b7153404e8fa65078d5578d42d6595de39dbc9fe79e5e43d5e17e8bfee",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.html.gz",
+    "content_sha256": "5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f",
+    "final_url": "https://europe.republic.com/savvy-navvy5",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:12.751706+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14285,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.txt.gz",
+    "text_sha256": "5947e4314debbfdd3625e7d2fd718b45b02582787a56384767fe19c2bb5f0c85",
+    "title": "savvy navvy | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/savvy-navvy5"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:13.119510+00:00",
+    "capture_gzip_sha256": "f139f0b265f534959572c4a4463c11c1306213585428acd4743ba978f4e2128c",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.html.gz",
+    "content_sha256": "9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008",
+    "final_url": "https://europe.republic.com/savvy-navvy6",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:13.310029+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 12334,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.txt.gz",
+    "text_sha256": "85326fc270659a6c8e35ab7c7b99219cf745e18e23c965623600534157d7e0b5",
+    "title": "savvy navvy | EIS Crowdfunding Investment | Seedrs",
+    "url": "https://europe.republic.com/savvy-navvy6"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:13.675742+00:00",
+    "capture_gzip_sha256": "4c4eca2c1af090e278ece4dc4e020fa032807436ddb7e73be647f34cbbf3b60e",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/d18871f9b563c6875eeac1ef2b7a0ea3241f212a340a886e9933d6322f31763a.html.gz",
+    "content_sha256": "d18871f9b563c6875eeac1ef2b7a0ea3241f212a340a886e9933d6322f31763a",
+    "final_url": "https://europe.republic.com/selma",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:13.870473+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 16281,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/d18871f9b563c6875eeac1ef2b7a0ea3241f212a340a886e9933d6322f31763a.txt.gz",
+    "text_sha256": "1471813b58917ad6d507c58fcc61ff9a2b6aae567b6d307a5fa17cc4ee660a77",
+    "title": "Selma | Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/selma"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:14.234667+00:00",
+    "capture_gzip_sha256": "7e45aa9982168e2fe98f891e577fd9a6182513114e61e0f4ea6e519f6f3cf8e6",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/8b81ca8e762ba9650a5c7085ffd21d8f70d2fe2d91dce31cf3b65bfdd1fe512c.html.gz",
+    "content_sha256": "8b81ca8e762ba9650a5c7085ffd21d8f70d2fe2d91dce31cf3b65bfdd1fe512c",
+    "final_url": "https://europe.republic.com/selma1",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:14.482129+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15313,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/8b81ca8e762ba9650a5c7085ffd21d8f70d2fe2d91dce31cf3b65bfdd1fe512c.txt.gz",
+    "text_sha256": "d331a011d48f87072644e1730781ca57ee980a7b178a33eccec48064c6f3e47b",
+    "title": "Selma | Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/selma1"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:14.847578+00:00",
+    "capture_gzip_sha256": "e7feb7a4a20e890a36f087092efff250a0472c672a8bbbe8cf21487031c6e0ff",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/8070f1a9ab8c3a27eb48dc38998678dfb684178293fdd29d1d23d089de910e0f.html.gz",
+    "content_sha256": "8070f1a9ab8c3a27eb48dc38998678dfb684178293fdd29d1d23d089de910e0f",
+    "final_url": "https://europe.republic.com/shorts-boy-distillery",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:15.031907+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 14652,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/8070f1a9ab8c3a27eb48dc38998678dfb684178293fdd29d1d23d089de910e0f.txt.gz",
+    "text_sha256": "dfb29b3d39c07ef60f0cf98543a47ea8e0a0a5de6429959ea909817a0de13920",
+    "title": "Shorts Boy Distillery | EIS Crowdfunding Opportunity | Seedrs",
+    "url": "https://europe.republic.com/shorts-boy-distillery"
+  },
+  {
+    "attempted_at": "2026-10-09T09:28:15.396178+00:00",
+    "capture_gzip_sha256": "676906b4ccc8c745acc428eb61802148493141108fb4294c3fcedb4da8de89f3",
+    "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/816197fcfcfbe49f05bbbe91ef75c69555bf92180af3810087479753e40e1942.html.gz",
+    "content_sha256": "816197fcfcfbe49f05bbbe91ef75c69555bf92180af3810087479753e40e1942",
+    "final_url": "https://europe.republic.com/sip-champagnes",
+    "http_status": 200,
+    "platform": "republic_europe",
+    "reasons": [
+      "systematic_exact_price_audit_after_revvies_rounded_false_positive"
+    ],
+    "received_at": "2026-10-09T09:28:15.893420+00:00",
+    "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+    "text_chars": 15144,
+    "text_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/816197fcfcfbe49f05bbbe91ef75c69555bf92180af3810087479753e40e1942.txt.gz",
+    "text_sha256": "d5a8fa8024fdd022ccbe1985fa12d4a719fadda81407ccf081b0186e5da937c9",
+    "title": "Sip Champagnes | EIS Crowdfunding Campaign | Seedrs",
+    "url": "https://europe.republic.com/sip-champagnes"
+  }
+]

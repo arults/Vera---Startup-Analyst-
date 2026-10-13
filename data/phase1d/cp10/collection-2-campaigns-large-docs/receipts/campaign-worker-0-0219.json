@@ -1,0 +1,18 @@
+{
+  "bytes": 153021,
+  "campaign_url": "https://republic.com/glyph",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/glyph/show_updates",
+  "gzip_sha256": "3b4529d6f3744ea1bdd1a105b98a18e1d5436aa77fdaa4187521d976de152df6",
+  "http_status": 200,
+  "parent_sha256": "3b49ed89b8bedc43827f0fe936887fd05554340446d1b8fb242fc31d2b85f13b",
+  "raw_sha256": "d83046df9f47712ba4ae2468aac6f2c9b0529e717eb2339ccbccbb83dff402d9",
+  "received_at": "2026-10-10T02:28:40.071505+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:39.367975+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d83046df9f47712ba4ae2468aac6f2c9b0529e717eb2339ccbccbb83dff402d9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/glyph/show_updates"
+}

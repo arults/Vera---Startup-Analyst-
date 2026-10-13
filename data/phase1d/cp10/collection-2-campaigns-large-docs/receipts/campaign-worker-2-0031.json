@@ -1,0 +1,18 @@
+{
+  "bytes": 28792,
+  "campaign_url": "https://republic.com/anodos-labs",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/anodos-labs/show_updates",
+  "gzip_sha256": "a5388b493e3e462137e8f0c4c6454e7192fe98486d35d49b697eaaf77e525638",
+  "http_status": 200,
+  "parent_sha256": "b81c0ea5d468814550c3f937a16b0f55e39489f60ef440c5b05f67750617dab6",
+  "raw_sha256": "c9b031c13c842d13b7d0fcd5d44831ecbadd6987d3615c238ffcf680761c4992",
+  "received_at": "2026-10-10T02:23:27.523275+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:26.966072+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c9b031c13c842d13b7d0fcd5d44831ecbadd6987d3615c238ffcf680761c4992.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/anodos-labs/show_updates"
+}

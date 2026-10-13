@@ -1,0 +1,856 @@
+[
+  {
+    "campaign_url": "https://republic.com/trusst",
+    "legal_name": "Trusst Health Inc.",
+    "native_offering_id": 674,
+    "parent_sha256": "75e4ff315ef654667ac34c1391150853f7d9a41a8b79c922ec72cfd5852530b3",
+    "url": "https://republic.com/trusst/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/a-boring-life",
+    "legal_name": "A Boring Life, Inc",
+    "native_offering_id": 449,
+    "parent_sha256": "e932f49dda4ad9a245ce7718b5d6ff9398ac55f73720c312e3b5fbab79969333",
+    "url": "https://republic.com/a-boring-life/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/acciyo",
+    "legal_name": "acciyo, Inc.",
+    "native_offering_id": 450,
+    "parent_sha256": "b2e6138eb9a260628ad5722d15b83d5fa852dde8c7130434f3edc1f7c108f7ee",
+    "url": "https://republic.com/acciyo/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/acfn",
+    "legal_name": "ACFN Franchised Inc.",
+    "native_offering_id": 1825,
+    "parent_sha256": "3dbb63dbfc7c3047dfacc0e55877365d6fd7dfc2427adb62ab70877c5681fbf6",
+    "url": "https://republic.com/acfn/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/aera",
+    "legal_name": "The Humble Shoe Company, Inc.",
+    "native_offering_id": 494,
+    "parent_sha256": "9c7f9d64bd59522a7a1ec86cb4c53d416f6d1e305d796fcb418ba30b5b303e8b",
+    "url": "https://republic.com/aera/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/alpha-a",
+    "legal_name": "Alpha'a inc",
+    "native_offering_id": 360,
+    "parent_sha256": "70dcbbe0f33214c33d3b57564c8f879fb575782f721df874f68e498dc691ed01",
+    "url": "https://republic.com/alpha-a/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/alphaflow",
+    "legal_name": "AlphaFlow Inc.",
+    "native_offering_id": 974,
+    "parent_sha256": "2e4987c0a45a34e4f96f261adfdf8c055d6d04b55ced7b38f49805b9822c0890",
+    "url": "https://republic.com/alphaflow/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/alphaflow-august-2020",
+    "legal_name": "AlphaFlow Inc.",
+    "native_offering_id": 602,
+    "parent_sha256": "50ee2534db1374a67384fff07e25e46235f578dad550081e718b24eee9221d65",
+    "url": "https://republic.com/alphaflow-august-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/altwork",
+    "legal_name": "SV Tool Corp",
+    "native_offering_id": 1213,
+    "parent_sha256": "4b094d376db802b961975d6c6af093658c7bfcaafad4becda1edede2248ef1ba",
+    "url": "https://republic.com/altwork/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ample-foods",
+    "legal_name": "Ample Foods, Inc.",
+    "native_offering_id": 473,
+    "parent_sha256": "6b51446f02e1d505e79a8347595861abbf25d3d014b9856ec3dd0021b2c29b12",
+    "url": "https://republic.com/ample-foods/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/arka",
+    "legal_name": "Arka Incorporated",
+    "native_offering_id": 1582,
+    "parent_sha256": "787a142c22fb92c0b9ee2ead04bee7067391cf977086b7bd49f3372f45d02933",
+    "url": "https://republic.com/arka/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/arlene",
+    "legal_name": "Arlene, Inc.",
+    "native_offering_id": 800,
+    "parent_sha256": "cd075b62b99bfd7d2316f788833e813388897495f8ae13165a52a6d5574903dc",
+    "url": "https://republic.com/arlene/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/avenify-2020",
+    "legal_name": "Avenify Corporation",
+    "native_offering_id": 350,
+    "parent_sha256": "557f9fdf6c028aba5cccd6c722c4bcc13403011f191e52f37ccec815e582ad9c",
+    "url": "https://republic.com/avenify-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/axle-ai-2020",
+    "legal_name": "Axle AI, Inc.",
+    "native_offering_id": 354,
+    "parent_sha256": "41a3527e8d5b631dcd0af4ce39c840588c15778f0e73ca6080c575636dca99f6",
+    "url": "https://republic.com/axle-ai-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/base8",
+    "legal_name": "Base8 Inc.",
+    "native_offering_id": 10172,
+    "parent_sha256": "c71ec5fdc1ac7b4140a8a4c74abedeb24db615e53559ffd596c222b09a1c2765",
+    "url": "https://republic.com/base8/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/beacons-ai",
+    "legal_name": "Beacons AI, Inc.",
+    "native_offering_id": 854,
+    "parent_sha256": "bcc0d53dc9649b4b1057e155dea4e98911ae18b0dc15cb925bbb10c268aa3ef7",
+    "url": "https://republic.com/beacons-ai/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/blue",
+    "legal_name": "Follow-Mee, Inc.",
+    "native_offering_id": 409,
+    "parent_sha256": "bc84431b48721097a139bf14acc1cd0bac6521c846305d3d0e3d24c57af08870",
+    "url": "https://republic.com/blue/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/bounty0x",
+    "legal_name": "Bounty0x Inc.",
+    "native_offering_id": 277,
+    "parent_sha256": "516eb14681abd84cd5f442b154ff58597cbffab39fb6b21fd42a8a36f4f43928",
+    "url": "https://republic.com/bounty0x/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/bucket-list",
+    "legal_name": "The Bucket List Studios Inc.",
+    "native_offering_id": 969,
+    "parent_sha256": "79050f084b45a23b8ebff2f005eb21ef9d2f520f51bda2a55a98257d4451e483",
+    "url": "https://republic.com/bucket-list/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/buff-bake",
+    "legal_name": "Buff Bake, Inc.",
+    "native_offering_id": 359,
+    "parent_sha256": "af61da34e0f4b4c94b62bd83bdcd7717fdaa86789e9b1ea369e59f9cee4172e3",
+    "url": "https://republic.com/buff-bake/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/buy-alerts",
+    "legal_name": "Live Stream Technology Services Inc.",
+    "native_offering_id": 2065,
+    "parent_sha256": "be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a",
+    "url": "https://republic.com/buy-alerts/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/callingdr",
+    "legal_name": "MYAPPS CORP.",
+    "native_offering_id": 476,
+    "parent_sha256": "0a0c0839b978bd5d69d067a6e732892185b49d271f8cdffe890328872c9456ff",
+    "url": "https://republic.com/callingdr/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/capsule-social",
+    "legal_name": "Capsule Social, Inc.",
+    "native_offering_id": 1318,
+    "parent_sha256": "c02a1ac507dbd80d0c3f3d3ce66a1f1e0bcaa128821749869fe52167d90a115a",
+    "url": "https://republic.com/capsule-social/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/chilling",
+    "legal_name": "Chilling, Inc",
+    "native_offering_id": 1611,
+    "parent_sha256": "3a8d208661c2f2d5990791ec700d8af718044b24198487359213f5abd0b21cc7",
+    "url": "https://republic.com/chilling/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/choix",
+    "legal_name": "Choix, Inc.",
+    "native_offering_id": 1835,
+    "parent_sha256": "5a2a7b0e509e1f1226e2a20b4dee8fb076987abd73d4cc75eb9ff9390a5e5973",
+    "url": "https://republic.com/choix/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/citiesense",
+    "legal_name": "Citiesense Inc.",
+    "native_offering_id": 308,
+    "parent_sha256": "916c2daaa062fdd875fd263c8d4f110cc79d4909b40f5a49e1e38ba373bd7694",
+    "url": "https://republic.com/citiesense/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/compound-reach",
+    "legal_name": "Compound Projects, LLC Series #Reach",
+    "native_offering_id": null,
+    "parent_sha256": "545d0b9a7352a0aaea7df5a6bf917fb2e3e3b7fd93fad6120a8fb84e80b60558",
+    "url": "https://republic.com/compound-reach/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/cricclubs",
+    "legal_name": "CricClubs Inc",
+    "native_offering_id": 468,
+    "parent_sha256": "83136c730d12a4a0afcee2b5b5e1e4228e4fbf876b73e11a425875f8967cbf70",
+    "url": "https://republic.com/cricclubs/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/currently-wine",
+    "legal_name": "Proud Pour Inc.",
+    "native_offering_id": 11538,
+    "parent_sha256": "d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581",
+    "url": "https://republic.com/currently-wine/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/dallas-cityfund-a",
+    "legal_name": "Cityfunds I, LLC",
+    "native_offering_id": 1905,
+    "parent_sha256": "41a29f020595b78e004e20c94c169299087949723be517fa6fc9b685e76204b1",
+    "url": "https://republic.com/dallas-cityfund-a/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/delee-2019",
+    "legal_name": "Delee Corp.",
+    "native_offering_id": 375,
+    "parent_sha256": "b8059678f823e98bf527c3b07844ba99113cac57d31842eb28920e2321df4b4d",
+    "url": "https://republic.com/delee-2019/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/digital-dream-labs-2020",
+    "legal_name": "Digital Dream Labs, LLC",
+    "native_offering_id": 343,
+    "parent_sha256": "b65cb30dce8eda38b9a329192cfe8da8824c0ccc9a74163655c92e72db6e15c0",
+    "url": "https://republic.com/digital-dream-labs-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/dispatch-goods",
+    "legal_name": "Dispatch Goods, Inc.",
+    "native_offering_id": 419,
+    "parent_sha256": "6fef4dfb697f9152058156afc8bdf128969102a8c9d000a294843dd79b9339a2",
+    "url": "https://republic.com/dispatch-goods/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/dorahacks",
+    "legal_name": "Twenty-Second Century Dora Technology Holdings, Inc.",
+    "native_offering_id": 295,
+    "parent_sha256": "50249d35acb4068e730fff76128fd1074ab62e8d68f751e163cd04a4d99dcb9a",
+    "url": "https://republic.com/dorahacks/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/dryvebox",
+    "legal_name": "Dryvebox, Inc.",
+    "native_offering_id": 1059,
+    "parent_sha256": "d7a93f047c9680832619137013b1ef16ae855a35890546a9b79b37a9de12adf9",
+    "url": "https://republic.com/dryvebox/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ecotone-renewables",
+    "legal_name": "Ecotone Renewables PBC",
+    "native_offering_id": 12933,
+    "parent_sha256": "aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+    "url": "https://republic.com/ecotone-renewables/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ember-fund-2019",
+    "legal_name": "Ember Fund Inc.",
+    "native_offering_id": 348,
+    "parent_sha256": "09a8535f48fb1d252fcf7bcfaa24db65b47d7095b4ba1cf99d972611764feb60",
+    "url": "https://republic.com/ember-fund-2019/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/event-hollow",
+    "legal_name": "Event Hollow, Inc.",
+    "native_offering_id": 376,
+    "parent_sha256": "dd95c4710cb9ddafbc82ac49a65b6afb70f93d8d2ed97e74970194c211e99038",
+    "url": "https://republic.com/event-hollow/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/fashwire",
+    "legal_name": "Fashwire Inc.",
+    "native_offering_id": 410,
+    "parent_sha256": "424eb6c91bb65186673a7e3e74b22ca5e5a4d4be6672e56e8d45822efcbefcaa",
+    "url": "https://republic.com/fashwire/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/fcf-glacier-boyz-2021",
+    "legal_name": "Fanchise League Company, LLC - FCF Team 1 LLC",
+    "native_offering_id": 698,
+    "parent_sha256": "f0f02890dd8932da558572b1781be62e7b4730388aada08993ae9cc306203f38",
+    "url": "https://republic.com/fcf-glacier-boyz-2021/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/fig-portfolio",
+    "legal_name": "Fig Publishing, Inc.",
+    "native_offering_id": 1008,
+    "parent_sha256": "d114c4c454d304661f6245cc2e1e23034810eff992131eb2f88cf64f32caeddd",
+    "url": "https://republic.com/fig-portfolio/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/fund-the-first",
+    "legal_name": "FT1 Inc.",
+    "native_offering_id": 924,
+    "parent_sha256": "034751d89623cdfb04b4af0955762c7d2501ec29bf7a7e331ce2a65a42c1347f",
+    "url": "https://republic.com/fund-the-first/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/get-on-board",
+    "legal_name": "Get on Board Holding Corp.",
+    "native_offering_id": 5232,
+    "parent_sha256": "5d3fd5bd469988e70c9e9a91a53bdf372dbe60a77e87e955cc9a52b9cef91569",
+    "url": "https://republic.com/get-on-board/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/gopillar",
+    "legal_name": "Cocontest Inc.",
+    "native_offering_id": 1325,
+    "parent_sha256": "21bd74c4ae2a1bb4016781880b6dc80e228ffa5ba09dd22e1364f34f5f7b23b8",
+    "url": "https://republic.com/gopillar/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/groundfloor",
+    "legal_name": "Groundfloor Finance Inc.",
+    "native_offering_id": 6891,
+    "parent_sha256": "6d854cd3fbcbbb5d28e5e07896cbfaef26cc0fc687481b3a5cdd0445815aa029",
+    "url": "https://republic.com/groundfloor/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/growing-talent",
+    "legal_name": "Growing Talent LLC",
+    "native_offering_id": 341,
+    "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+    "url": "https://republic.com/growing-talent/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/hawaiian-bros",
+    "legal_name": "Hawaiian Bros Inc.",
+    "native_offering_id": 1323,
+    "parent_sha256": "f8407c06b94c8ff0659f82ba26c607e33f1216508e51ddd0f733e3af9952817f",
+    "url": "https://republic.com/hawaiian-bros/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/helloava",
+    "legal_name": "HelloAva, INC",
+    "native_offering_id": 302,
+    "parent_sha256": "6c15b1f0f3dd99cc44ba6536159d5bce2f38983d192ef47878d20b8521528116",
+    "url": "https://republic.com/helloava/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/hellowoofy-december-2019",
+    "legal_name": "Woofy, Inc.",
+    "native_offering_id": 400,
+    "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+    "url": "https://republic.com/hellowoofy-december-2019/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/hive",
+    "legal_name": "Hive Companies, Inc.",
+    "native_offering_id": 415,
+    "parent_sha256": "fbbaae9e21253a9096a2299f831f6655df6a30509056b16828231dc6a2c66351",
+    "url": "https://republic.com/hive/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/hold-the-magic",
+    "legal_name": "HOLD THE MAGIC, INC.",
+    "native_offering_id": 1192,
+    "parent_sha256": "6e5054aff15aac2aab0353b670b51878514d00d912c2656e55daeaf27b10f024",
+    "url": "https://republic.com/hold-the-magic/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/holmehadfield",
+    "legal_name": "Holme & Hadfield LLC",
+    "native_offering_id": 8945,
+    "parent_sha256": "c24761b56fc86695c3efab42df3887b42b2d4881d821d0c5ebe87b9ffc71e32f",
+    "url": "https://republic.com/holmehadfield/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/horrorsection",
+    "legal_name": "The Horror Section Inc",
+    "native_offering_id": 13662,
+    "parent_sha256": "97ccf48df2244d598c4d99192e38232d0e688fb9614d45898ec620c909d9bba2",
+    "url": "https://republic.com/horrorsection/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/inahsi",
+    "legal_name": "Inahsi LLC",
+    "native_offering_id": 1004,
+    "parent_sha256": "c597131dc5ed153a811d510a7d81515295ab05aed770301779a06b2ed99ba655",
+    "url": "https://republic.com/inahsi/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/inlightened",
+    "legal_name": "Inlightened, Inc",
+    "native_offering_id": 1286,
+    "parent_sha256": "cedf155f7daf0beea2b1a3dd319e665cfdcc103191569f6ed971e59fc979e5c7",
+    "url": "https://republic.com/inlightened/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ip3",
+    "legal_name": "IP3 Labs Inc.",
+    "native_offering_id": 4767,
+    "parent_sha256": "c47190bf61700556d40f351b0551722a51d5c6d9d490dc96007c11b2bf7742c7",
+    "url": "https://republic.com/ip3/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/jane-west-january-2020",
+    "legal_name": "Pistil & Pollen, LLC",
+    "native_offering_id": 420,
+    "parent_sha256": "89432bf9cdc64bdd9c082dfc07c49c96bcb7a943ab361247aedb59b6e014f231",
+    "url": "https://republic.com/jane-west-january-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/janover-ventures",
+    "legal_name": "Janover Ventures LLC",
+    "native_offering_id": 493,
+    "parent_sha256": "b4efa55b4b54d1b8a84cb4f23f019b490d3869bad9a622a1d519da70bcfa1961",
+    "url": "https://republic.com/janover-ventures/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/jar-goods",
+    "legal_name": "Jar Goods LLC",
+    "native_offering_id": 497,
+    "parent_sha256": "12c1d1ba91248aecab423c6b7bbf9b14be436865bfc64a29c36b54ae62e71817",
+    "url": "https://republic.com/jar-goods/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/knightscope",
+    "legal_name": "Knightscope, Inc.",
+    "native_offering_id": 7684,
+    "parent_sha256": "fc9c5736a16099dc133d7282ad31fbd9f58ae62c11c4374ff98e7e954a65c3b7",
+    "url": "https://republic.com/knightscope/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/layali",
+    "legal_name": "Layali LLC",
+    "native_offering_id": 352,
+    "parent_sha256": "ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+    "url": "https://republic.com/layali/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/lynx-city",
+    "legal_name": "Lynx City LLC",
+    "native_offering_id": 764,
+    "parent_sha256": "e8fd45246649df387ebfd6a8060af46cf30dd9c4c86fb0c62c36845866f28f61",
+    "url": "https://republic.com/lynx-city/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/maven",
+    "legal_name": "Didactic, Inc.",
+    "native_offering_id": 750,
+    "parent_sha256": "320d5b71e4fec16ecfbc5e799b4871b2e148f7748af67c75a97f77049d7cc2da",
+    "url": "https://republic.com/maven/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/miami-cityfund-a",
+    "legal_name": "Cityfunds I, LLC",
+    "native_offering_id": 1907,
+    "parent_sha256": "6184ba16b9531644f510b8f44585f497231b93d5869e8da63478400d88565a94",
+    "url": "https://republic.com/miami-cityfund-a/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/moriondo-coffee",
+    "legal_name": "Luxbeverage LLC",
+    "native_offering_id": 1277,
+    "parent_sha256": "16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+    "url": "https://republic.com/moriondo-coffee/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/myslabs",
+    "legal_name": "MySlabs, Inc.",
+    "native_offering_id": 3563,
+    "parent_sha256": "10a911aef2a054103c3fa6d1d2db521b224c391f1eb169af1024a2000899792e",
+    "url": "https://republic.com/myslabs/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/nanno-2019",
+    "legal_name": "Nanno, Inc.",
+    "native_offering_id": 303,
+    "parent_sha256": "43279a9b80fffe9df7dc693d1183e650013981b2564114b101ac2d36ef5f19fd",
+    "url": "https://republic.com/nanno-2019/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/natural-selection",
+    "legal_name": "Natural Selection Nutrition, LLC",
+    "native_offering_id": 399,
+    "parent_sha256": "5e54e1466501c78c84586de44e44d511fe97baa86151d5f9317bc4b470408450",
+    "url": "https://republic.com/natural-selection/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/nobodystudios",
+    "legal_name": "Nobody Studios, Inc.",
+    "native_offering_id": 1994,
+    "parent_sha256": "53a79c17f7634f87e33ecc59c5fa564d353e136b3460134905e48f89c5601b62",
+    "url": "https://republic.com/nobodystudios/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/people-first-rh",
+    "legal_name": "People First RH",
+    "native_offering_id": 527,
+    "parent_sha256": "a5a03b66d30403fc8d19430dce997029af84b8493ce2612efd3c4f8f88eb7e94",
+    "url": "https://republic.com/people-first-rh/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/pfd",
+    "legal_name": "PFD Capital Partners, Inc. (Manager)",
+    "native_offering_id": 6990,
+    "parent_sha256": "7cbde5d695efd927ae4fc854d81b23167df7408f6f4dd05e5aa4d99d0578f454",
+    "url": "https://republic.com/pfd/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/phantom-phood",
+    "legal_name": "Phantom Phood Inc",
+    "native_offering_id": 2045,
+    "parent_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+    "url": "https://republic.com/phantom-phood/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/plain-sight",
+    "legal_name": "Get to Work, Inc.",
+    "native_offering_id": 904,
+    "parent_sha256": "b1448f08e95c7573f10faa445c7ada0c8fd27e195229f6bbb368f888eccaa196",
+    "url": "https://republic.com/plain-sight/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/plant-an-app",
+    "legal_name": "Plant an App, Inc.",
+    "native_offering_id": 613,
+    "parent_sha256": "b5739d62d2c88b89432855834bb870cbbd3464782871b2d7346fb4dd8bdb984c",
+    "url": "https://republic.com/plant-an-app/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/plei-jan-2020",
+    "legal_name": "Plei, Inc.",
+    "native_offering_id": 417,
+    "parent_sha256": "d757196a9052b4318ac39a9af2c6b1d274bf5f8c8ff6de4362bf75e1ecd8d28e",
+    "url": "https://republic.com/plei-jan-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/popularium",
+    "legal_name": "Popularium, Inc.",
+    "native_offering_id": 10139,
+    "parent_sha256": "3a61fce37095663e12b29ba818db94262d2fa695a268df0bc5c65c18d506620c",
+    "url": "https://republic.com/popularium/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/qoins",
+    "legal_name": "Qoins Technologies Inc.",
+    "native_offering_id": 509,
+    "parent_sha256": "8703082b50563378f1d0ebb71ea367492d8b4cee8319c880e646a06d742cc248",
+    "url": "https://republic.com/qoins/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/quickloadz-2022",
+    "legal_name": "Quick Loadz Container System LLC",
+    "native_offering_id": 1092,
+    "parent_sha256": "a4cc0392cb452a408b74ecad95e044967a2a52a75d547e55f59b511104a486fd",
+    "url": "https://republic.com/quickloadz-2022/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ready-set-jet",
+    "legal_name": "Ready Set Jet, Inc",
+    "native_offering_id": 783,
+    "parent_sha256": "eaa38f9a74b6e3b78c8008e6f7b31568b9393e032b655209ddbc6ec6cd44be50",
+    "url": "https://republic.com/ready-set-jet/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/realtyfeed",
+    "legal_name": "Realtyna Inc.",
+    "native_offering_id": 616,
+    "parent_sha256": "f67fc4abcd6a0c4028b248b0863d524f47f84d8bab1036be77cb09a1e59bd8ad",
+    "url": "https://republic.com/realtyfeed/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/reental",
+    "legal_name": "Reental Holding Company",
+    "native_offering_id": 3131,
+    "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+    "url": "https://republic.com/reental/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/reflex-protect",
+    "legal_name": "Reflex Red Storm, LLC",
+    "native_offering_id": 481,
+    "parent_sha256": "276876cb03f9a31a11360005431401db6e77392f24dfa4505981cf0a9b88594f",
+    "url": "https://republic.com/reflex-protect/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/rehabpath",
+    "legal_name": "RehabPath, Inc.",
+    "native_offering_id": 396,
+    "parent_sha256": "360bf912dd3fcce9aa0d41ff32159e359a3397cbc351760d77ae0d5541a2b60e",
+    "url": "https://republic.com/rehabpath/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/revero",
+    "legal_name": "Revero Inc",
+    "native_offering_id": 15907,
+    "parent_sha256": "976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+    "url": "https://republic.com/revero/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/rheenergise",
+    "legal_name": "RheEnergise Limited",
+    "native_offering_id": 14393,
+    "parent_sha256": "48cd7b3f5863bcfd73238c3cc868ffc5575a27a17a9740f2de669ed60dedf800",
+    "url": "https://republic.com/rheenergise/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ring4",
+    "legal_name": "YOURVIRTUALSIM INC",
+    "native_offering_id": 150,
+    "parent_sha256": "d30a96b61153b88ea9f27ca90052213b835c124f312a82f9ff14b4ab05d6ea55",
+    "url": "https://republic.com/ring4/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/rocket-dollar",
+    "legal_name": "Rocket Dollar, Inc.",
+    "native_offering_id": 269,
+    "parent_sha256": "233bd937e7d1478182e5b732ce7b57284880a6f7bb12d5bfbf6e418c126f0b4e",
+    "url": "https://republic.com/rocket-dollar/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/rodriguez",
+    "legal_name": "RR Action LLC",
+    "native_offering_id": 11703,
+    "parent_sha256": "1c216486f50b75622c1f5a133806ed4dd3635cb5ddc9b8d71bfae06ba17cd445",
+    "url": "https://republic.com/rodriguez/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ryse-3",
+    "legal_name": "RYSE Inc.",
+    "native_offering_id": 13496,
+    "parent_sha256": "faa3dc8ba6794f435bffbc6bbe712995c485eaf479a53f1a396b15ec0244f4bd",
+    "url": "https://republic.com/ryse-3/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/salsagod",
+    "legal_name": "Salsa God LLC",
+    "native_offering_id": 321,
+    "parent_sha256": "87ea113f19e4be85e25634311584f523410a2074620feecb981d9cec46670df5",
+    "url": "https://republic.com/salsagod/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/share-scoops-inc",
+    "legal_name": "Share Scoops, Inc.",
+    "native_offering_id": 2058,
+    "parent_sha256": "795a51335275e97a770fa8a226b30cfac715e9d1efecd07906400114fa5025a9",
+    "url": "https://republic.com/share-scoops-inc/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/sienna-sauce-2020",
+    "legal_name": "Tyla-Simone's Wings LLC",
+    "native_offering_id": 474,
+    "parent_sha256": "f3498218092a95f9a2207ebe158c0fc717660762e7cc98a5eb75019071f22585",
+    "url": "https://republic.com/sienna-sauce-2020/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/skyboundcf",
+    "legal_name": "Skybound Holdings LLC",
+    "native_offering_id": 8713,
+    "parent_sha256": "ffb77bb9dda75348cee4c27a4d3180d33586ab0f30d865940d85524f3f3bafb8",
+    "url": "https://republic.com/skyboundcf/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/skyhi",
+    "legal_name": "SkyHi Travel, Inc.",
+    "native_offering_id": 322,
+    "parent_sha256": "9907b59f3610850aa18a102bef96d4a51d41c97e3b631973da7b70aa9cb909bf",
+    "url": "https://republic.com/skyhi/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/soar-robotics",
+    "legal_name": "Soar Robotics Inc.",
+    "native_offering_id": 347,
+    "parent_sha256": "55cf049927407a644c85aba399d451d40429b080f8e1db7e31407919edf4ff7b",
+    "url": "https://republic.com/soar-robotics/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/soon",
+    "legal_name": "Safehaven Labs, Inc.",
+    "native_offering_id": 2063,
+    "parent_sha256": "39161b48e118580ae9dd2472f91267d413d83719e7d4056604ec7c9d57a473a6",
+    "url": "https://republic.com/soon/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/sparkle",
+    "legal_name": "SPARKLE INNOVATIONS INC",
+    "native_offering_id": 403,
+    "parent_sha256": "1fb9373f7e33c643371cea7fe41c8f7931f25281121964f0c42db41a53fd2358",
+    "url": "https://republic.com/sparkle/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/stareable",
+    "legal_name": "Stareable, Inc.",
+    "native_offering_id": 430,
+    "parent_sha256": "075b7b6d99f1f540b2a3e2e868bdc3807ebf9ec7d30782362862299f13a94980",
+    "url": "https://republic.com/stareable/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/startglobal",
+    "legal_name": "StartGlobal, Inc.",
+    "native_offering_id": 8680,
+    "parent_sha256": "0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+    "url": "https://republic.com/startglobal/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/status-money",
+    "legal_name": "Status Money Inc.",
+    "native_offering_id": 355,
+    "parent_sha256": "7f25848bc1a5a45ce264b62cdb3e9d3ddfe27c1ced79284ce5bebbdc0dc68633",
+    "url": "https://republic.com/status-money/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/stockcard",
+    "legal_name": "Stock Card, Inc.",
+    "native_offering_id": 1759,
+    "parent_sha256": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042",
+    "url": "https://republic.com/stockcard/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/sugarwood",
+    "legal_name": "Triple D Adventures, Inc.",
+    "native_offering_id": 6063,
+    "parent_sha256": "e454d30f52240d51deb2d1d4f66448d1af3dd33c7fa7cb301206e22e3f97934c",
+    "url": "https://republic.com/sugarwood/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/sunu",
+    "legal_name": "Sunu, Inc.",
+    "native_offering_id": 365,
+    "parent_sha256": "f93d05d880802cf3e73009ef289680c74c46536dded7d19b0011793f7bf37525",
+    "url": "https://republic.com/sunu/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/sweetberry",
+    "legal_name": "Sweetberry Holdings LLC",
+    "native_offering_id": 370,
+    "parent_sha256": "4192e0f0cb6844429776712abe38b0a5dc14e6ddbf9ae50c42a1ae7a85230e8b",
+    "url": "https://republic.com/sweetberry/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/tallyfy",
+    "legal_name": "Tallyfy, Inc",
+    "native_offering_id": 337,
+    "parent_sha256": "47a890283f26cefb32a64d49a08fad8e12206413614ce4934084936f92e1a5aa",
+    "url": "https://republic.com/tallyfy/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/teooh",
+    "legal_name": "Teooh Inc.",
+    "native_offering_id": 464,
+    "parent_sha256": "fc819eeea756571473f1dec1681d0c829aec3a3dbb6588048617314d21d84333",
+    "url": "https://republic.com/teooh/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/ternio",
+    "legal_name": "Ternio, LLC",
+    "native_offering_id": 397,
+    "parent_sha256": "7841f09b4a009939b1b77e9d9f51ea7e7191cb4d3a2dcf9f92f14835ee7e096d",
+    "url": "https://republic.com/ternio/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/the-cru",
+    "legal_name": "TheCru II, Inc.",
+    "native_offering_id": 2005,
+    "parent_sha256": "eb6b0ff519f5eff50d0dc0f142af971f18a1fa64f420b3fe0d1988e15b2c400d",
+    "url": "https://republic.com/the-cru/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/the-lieu",
+    "legal_name": "Lieu Ltd.",
+    "native_offering_id": 373,
+    "parent_sha256": "d41c90aafdb883298f7091c6834edcc9b5d3867ddb79c97d778805c6c0fb5b6c",
+    "url": "https://republic.com/the-lieu/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/the-sports-bra",
+    "legal_name": "The Sports Bra Hold Co",
+    "native_offering_id": 19776,
+    "parent_sha256": "d93a168c9838371354a96e92e70e07ea72377e8f96c3337f14728b5329385e14",
+    "url": "https://republic.com/the-sports-bra/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/thuzio",
+    "legal_name": "Thuzio, Inc.",
+    "native_offering_id": 424,
+    "parent_sha256": "a35d7b7f1331620122e4b5e8c9be217e0f4ca94dd3953c2e442ed23d37927f42",
+    "url": "https://republic.com/thuzio/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/tracflo",
+    "legal_name": "TracFlo Inc",
+    "native_offering_id": 738,
+    "parent_sha256": "ce3b98807791eb12ae5c6fa9b747c1fdd6f3ffd22190e5da233264b140f753b8",
+    "url": "https://republic.com/tracflo/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/trust-exchange",
+    "legal_name": "G2Link, LLC",
+    "native_offering_id": 5033,
+    "parent_sha256": "3ca4b77967966bb8d61a55b48d8939099efee72a6dae0d08f567c38980f21c52",
+    "url": "https://republic.com/trust-exchange/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/upside-app",
+    "legal_name": "Vision Sports Ventures, PBC",
+    "native_offering_id": 10738,
+    "parent_sha256": "e9c81a8d0058bb3612f81cea2e10614ff2cca03b4944299de09432ebc7aa9a4c",
+    "url": "https://republic.com/upside-app/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/vonmercier",
+    "legal_name": "VonMercier Inc.",
+    "native_offering_id": 1416,
+    "parent_sha256": "5eac4834130268793dad125a55fc15f34bdd12f85c28620b1612c1087065d078",
+    "url": "https://republic.com/vonmercier/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/wandering-barman",
+    "legal_name": "The Wandering Barman LLC",
+    "native_offering_id": 372,
+    "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+    "url": "https://republic.com/wandering-barman/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/watrfall",
+    "legal_name": "MR DTP LLC",
+    "native_offering_id": 14990,
+    "parent_sha256": "aa2cc40f3ee3422be74d432ce8e23d4025bb8d7aa225d6e66f77bee4a47e8a66",
+    "url": "https://republic.com/watrfall/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/wayzn",
+    "legal_name": "Wayzn, Inc.",
+    "native_offering_id": 592,
+    "parent_sha256": "effe114f84fde56406b862b0a4cc93dfb839a3e28d95e1ee62fabd7c24763a00",
+    "url": "https://republic.com/wayzn/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/welivv",
+    "legal_name": "WeLivv Inc.",
+    "native_offering_id": 313,
+    "parent_sha256": "140fc55cd1a88db074727f90ae585d02316b68a049f558ebd8563ba75e422858",
+    "url": "https://republic.com/welivv/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/wellwell",
+    "legal_name": "WellWell LLC",
+    "native_offering_id": 680,
+    "parent_sha256": "76fe770947652a0a98e2defe404aab64262a6f7ec1a6d0312fd39f149070646d",
+    "url": "https://republic.com/wellwell/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/whereby-us",
+    "legal_name": "WhereBy.Us Enterprises, Inc",
+    "native_offering_id": 363,
+    "parent_sha256": "b110d698dff6c3cae873a4b331eab3c5ade21cf3d35183c4e723a4c5c3441a66",
+    "url": "https://republic.com/whereby-us/show_updates"
+  },
+  {
+    "campaign_url": "https://republic.com/zoop",
+    "legal_name": "Zoop Collective Inc.",
+    "native_offering_id": 7585,
+    "parent_sha256": "ac9f46eccac12ca8ac56b8ba0918fc2dff0bf49d3e565eb729612c2c420b9036",
+    "url": "https://republic.com/zoop/show_updates"
+  }
+]

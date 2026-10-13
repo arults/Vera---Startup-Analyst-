@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"model\":\"jev-1.13.0\",\"answers\":{\"record_disposition\":{\"type\":\"choice\",\"choice\":\"accept_two_bounded_observed_rounds\",\"confidence\":1,\"probabilities\":{\"accept_two_bounded_observed_rounds\":1,\"stockcard_only\":0,\"source_fields_only\":0,\"require_private_executed_contracts\":0}},\"can_promote_numeric_rates_or_phase_completion\":{\"type\":\"noul\",\"noul\":0.02},\"provenance_safe_caps\":{\"type\":\"noul\",\"noul\":0.96}},\"usage\":{\"input_tokens\":1715,\"output_tokens\":125}}"
+    }
+  ],
+  "structuredContent": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "record_disposition": {
+        "type": "choice",
+        "choice": "accept_two_bounded_observed_rounds",
+        "confidence": 1,
+        "probabilities": {
+          "accept_two_bounded_observed_rounds": 1,
+          "stockcard_only": 0,
+          "source_fields_only": 0,
+          "require_private_executed_contracts": 0
+        }
+      },
+      "can_promote_numeric_rates_or_phase_completion": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "provenance_safe_caps": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    },
+    "usage": {
+      "input_tokens": 1715,
+      "output_tokens": 125
+    }
+  },
+  "isError": false
+}

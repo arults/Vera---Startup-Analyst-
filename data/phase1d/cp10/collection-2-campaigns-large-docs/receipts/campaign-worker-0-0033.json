@@ -1,0 +1,18 @@
+{
+  "bytes": 87421,
+  "campaign_url": "https://republic.com/aptera",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/aptera/show_updates",
+  "gzip_sha256": "31c20b75696b23fed65d2d1f9baa4931c900e683157de36a9277d8ca20d97b5d",
+  "http_status": 200,
+  "parent_sha256": "7d81ced7e9b8285ffb7cfc81bc85bb832170d4c43f0b3adc6ce225b22cdee562",
+  "raw_sha256": "3e4bf68d0cebb4cc0a0479dd0ae7963d668da022b078c2061f509a6a73fca168",
+  "received_at": "2026-10-10T02:23:30.369405+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:29.726730+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3e4bf68d0cebb4cc0a0479dd0ae7963d668da022b078c2061f509a6a73fca168.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/aptera/show_updates"
+}

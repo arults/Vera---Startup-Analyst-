@@ -1,0 +1,49 @@
+{
+  "bytes": 3247526,
+  "campaign_url": "https://republic.com/gopillar",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "GoPillar Form C.pdf",
+  "page_count": 81,
+  "parent_sha256": "21bd74c4ae2a1bb4016781880b6dc80e228ffa5ba09dd22e1364f34f5f7b23b8",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 951,
+      "pymupdf_sha256": "40336cf65c15722a3866833c52427cff9c4c45603935bb8b5fdc45796180d3b7",
+      "pypdf_chars": 951,
+      "pypdf_sha256": "40336cf65c15722a3866833c52427cff9c4c45603935bb8b5fdc45796180d3b7"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1616,
+      "pymupdf_sha256": "7eb2dad3cf29ef2711467e59a2595ebb7365ae66a02417440ff7d3f1a1994423",
+      "pypdf_chars": 1618,
+      "pypdf_sha256": "389ba971aa437979820303793a9ba963b18ed338cf0c10cd590db514cbd67595"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1075,
+      "pymupdf_sha256": "d01e3921b475820a51b8320b14fb9f9d0ce3a15eb74a5892108c96e241e30010",
+      "pypdf_chars": 1076,
+      "pypdf_sha256": "2a07c3a5070732dbdbfef8311bacd98a22ccae8b7874525c7e68e391a07a75f1"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3181,
+      "pymupdf_sha256": "c5327d68c494734486b27872252f64a19cdb39412b98fd1ffbc645f6374678bd",
+      "pypdf_chars": 3186,
+      "pypdf_sha256": "3c76bcdaa1e10b77cb9f20f9a8849274e531fbdedf0456b7e7c51127dbbd47ac"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/9a789e7509c348636d771b7ed4594584147a7c2b41472aa99caf7f4ff1124ae4.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9a789e7509c348636d771b7ed4594584147a7c2b41472aa99caf7f4ff1124ae4.bin.gz",
+  "source_sha256": "9a789e7509c348636d771b7ed4594584147a7c2b41472aa99caf7f4ff1124ae4",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1628?view=preview"
+}

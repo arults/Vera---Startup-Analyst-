@@ -1,0 +1,42 @@
+{
+  "by_platform": {
+    "crowdcube": {
+      "queued": 18,
+      "status_counts": {
+        "HTTP_ERROR_OR_REDIRECT": 5,
+        "NOT_ATTEMPTED_DOMAIN_CIRCUIT_OPEN": 13
+      }
+    },
+    "republic_europe": {
+      "queued": 73,
+      "status_counts": {
+        "PUBLIC_CAPTURED_UNADJUDICATED": 73
+      }
+    },
+    "republic_us": {
+      "queued": 119,
+      "status_counts": {
+        "PUBLIC_CAPTURED_UNADJUDICATED": 119
+      }
+    },
+    "startengine": {
+      "queued": 96,
+      "status_counts": {
+        "HTTP_ERROR_OR_REDIRECT": 5,
+        "NOT_ATTEMPTED_DOMAIN_CIRCUIT_OPEN": 91
+      }
+    },
+    "wefunder": {
+      "queued": 32,
+      "status_counts": {
+        "HTTP_ERROR_OR_REDIRECT": 5,
+        "NOT_ATTEMPTED_DOMAIN_CIRCUIT_OPEN": 27
+      }
+    }
+  },
+  "census_completed": false,
+  "completed_at": "2026-10-09T09:10:03.765183+00:00",
+  "queued": 338,
+  "rates_promoted": false,
+  "research_plateau": false
+}

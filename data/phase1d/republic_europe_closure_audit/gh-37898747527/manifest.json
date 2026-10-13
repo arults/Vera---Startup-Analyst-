@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-10-09T07:23:47.910432+00:00",
+  "source_files": {
+    "cp2_republic_europe_rounds_normalized.csv": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+    "cp3_republic_europe_business_observations_v2.csv": "193a2cae796cee99bb718c2eef036ff7603fd65b4e89d46a61ec5557dd2e9957",
+    "cp3_republic_europe_business_pages_raw.csv": "21a1e3bb42efc47ea1439d1fa8470ffd9111f278ff7f27839994d7ad23718ed7"
+  },
+  "summary": {
+    "captures": 41,
+    "closure_review_candidates": 14,
+    "closures_applied": 0,
+    "dated_review_candidates": 0,
+    "files": {
+      "captures.csv": "616dcb9b313dfda2e854f9da6ce9390c961e1dd021a192c7a8fd83d866f21b6d",
+      "closure_review_candidates.csv": "4742b1bc5c03f12adf738240cf52780f953f7d17c4516ec1dd3ed8634b7feb3e"
+    },
+    "initial_source_jobs": 27,
+    "platform_update_jobs": 14,
+    "policy": "No zero valuation or phrase match is an automatic closure. Every candidate requires Verifier and Jev adjudication; missing dates remain unresolved.",
+    "rates_promoted": false,
+    "run_id": "gh-37898747527",
+    "scope": "Republic Europe business pages, original campaign pages, and same-platform update links for Not eligible + zero indicative valuation review triggers only.",
+    "successful_captures": 41,
+    "target_company_pages": 13,
+    "target_unique_companies": 13
+  }
+}

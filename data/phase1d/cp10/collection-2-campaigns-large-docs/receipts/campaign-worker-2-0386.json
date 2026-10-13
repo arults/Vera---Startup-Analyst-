@@ -1,0 +1,18 @@
+{
+  "bytes": 288432,
+  "campaign_url": "https://republic.com/moonlighting",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/moonlighting/show_updates",
+  "gzip_sha256": "a3415e5d8c7a646753406b92dd2f557e1e33c83986498dbd15ea835e3ada1c2e",
+  "http_status": 200,
+  "parent_sha256": "1e31295ed14d37978a8410734774d39ef6492f42b5e5cb07b7d4c0d835982ac3",
+  "raw_sha256": "7e5c50929811e7e4a675ab85cdee34d7e5ca7f2ce6e770d820e093889029b903",
+  "received_at": "2026-10-10T02:34:04.192352+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:03.393321+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7e5c50929811e7e4a675ab85cdee34d7e5ca7f2ce6e770d820e093889029b903.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/moonlighting/show_updates"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "S03",
+  "url": "https://media.hometeamsonline.com/photos/htosports/TPLC-CLAIMS/QBI_POC_Notice1.pdf",
+  "source_type": "purported_assignee_notice_public_mirror",
+  "retrieval": "web.open turn417view0",
+  "locators": "page0 lines9-20,33-38",
+  "excerpt": "Assignor transferred ownership of all of its rights in tangible and intangible assets",
+  "facts": {
+    "assignor": "Quadrant Biosciences Inc.",
+    "assignor_jurisdiction": "Delaware",
+    "assignment_date": "2024-07-16",
+    "notice_date": "2024-07-26",
+    "action": "assignment of asset rights for liquidation and wind-down",
+    "assignee": "Quadrant Biosciences (assignment for the benefit of creditors), LLC",
+    "assignee_jurisdiction": "California",
+    "signatory": "Jonathan J. Wernick"
+  },
+  "limitations": [
+    "Text-extraction only; raw PDF and render not obtained (direct HTTP 403).",
+    "Source authority and issuer-CIK bridge await verification.",
+    "Claim deadline 2025-01-12 is not outcome date."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained."
+}

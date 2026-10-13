@@ -1,0 +1,14 @@
+{
+  "campaign_url": "https://republic.com/cricclubs",
+  "content_type": "application/pdf",
+  "downloaded_bytes": 48037888,
+  "final_url": "https://republic.com/documents/159?view=preview",
+  "http_status": 200,
+  "label": "CricClubs Form C.pdf",
+  "parent_sha256": "83136c730d12a4a0afcee2b5b5e1e4228e4fbf876b73e11a425875f8967cbf70",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:37.598860+00:00",
+  "source_group": "remaining-native-documents",
+  "status": "DOCUMENT_LOCAL_BYTE_LIMIT_HOLD",
+  "url": "https://republic.com/documents/159?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 132926,
+  "campaign_url": "https://republic.com/golfkicks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/golfkicks/show_updates",
+  "gzip_sha256": "b4a830cfab3fa6d1aaa200b477327b6cab24fce220a75d9d395d2ec8375d549c",
+  "http_status": 200,
+  "parent_sha256": "0d642317b02e6b99c7c7c0749a6be926793cd08acb754c5ee6c4683610705d31",
+  "raw_sha256": "2df59e805878779ba3bb8a4cb6004fd64bb17d7880cb0a1cbc0227f642620b23",
+  "received_at": "2026-10-10T02:28:52.122275+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:51.470182+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2df59e805878779ba3bb8a4cb6004fd64bb17d7880cb0a1cbc0227f642620b23.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/golfkicks/show_updates"
+}

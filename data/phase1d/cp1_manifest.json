@@ -1,0 +1,11 @@
+{
+  "candidate_rows": 2135,
+  "captured_at": "2026-10-09T04:48:08.711911+00:00",
+  "files": {
+    "cp1_discovery_candidates.csv": "be40eef9e331425401bbe44394e61458f33c607d9b23d6d5b1a0bfe2e5094e5f",
+    "cp1_discovery_report.json": "dff98a6899ba12c1f2a1df6656bcb21a5f1e9c6b64577a0ed78a95396aceaa69",
+    "cp3_republic_europe_business_candidates.csv": "bf98f41a3dbeef540316201351e8f26be3a29dc9e5974eb061dce9e988442218"
+  },
+  "method_version": "cp1-discovery-v3",
+  "republic_europe_business_pages": 784
+}

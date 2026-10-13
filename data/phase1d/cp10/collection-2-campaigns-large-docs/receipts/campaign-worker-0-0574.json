@@ -1,0 +1,18 @@
+{
+  "bytes": 21666,
+  "campaign_url": "https://republic.com/super-sapiens",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/super-sapiens/show_updates",
+  "gzip_sha256": "8a7f587cb642aeac27491eae21ad04c3199c06c489bdb34d00a5bd5fe8185ea7",
+  "http_status": 200,
+  "parent_sha256": "2334a3fa0ac71f159e0af499fad076ae75633c0ce946d47e3e7e4a2de24c9003",
+  "raw_sha256": "a88352fdd4f5f3d6d64ef2e2800d036389c397a6ade9f49738606c0b0374d228",
+  "received_at": "2026-10-10T02:37:37.553081+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:37.003248+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a88352fdd4f5f3d6d64ef2e2800d036389c397a6ade9f49738606c0b0374d228.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/super-sapiens/show_updates"
+}

@@ -1,0 +1,10 @@
+{
+  "census_complete": false,
+  "completed_at": "2026-10-09T09:29:01.566377+00:00",
+  "queued": 266,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "status_counts": {
+    "PUBLIC_CAPTURED_UNADJUDICATED": 266
+  }
+}

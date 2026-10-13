@@ -1,0 +1,18 @@
+{
+  "bytes": 43979,
+  "campaign_url": "https://republic.com/kwelitv",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/kwelitv/show_updates",
+  "gzip_sha256": "345c4cf400ec447188fe61a84c0718ecefbdae80850dea114adc5bfef783821b",
+  "http_status": 200,
+  "parent_sha256": "b0a567e3b40323d041c2cc75523472a0ffa4e75e0e8443ae2c9d58966e135fef",
+  "raw_sha256": "1db1457507a84470d51a9f106ce8708cb302ff5ceb23510569f1b6800c58c49a",
+  "received_at": "2026-10-10T02:32:33.510096+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:32.919431+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1db1457507a84470d51a9f106ce8708cb302ff5ceb23510569f1b6800c58c49a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/kwelitv/show_updates"
+}

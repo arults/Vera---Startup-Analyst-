@@ -1,0 +1,13 @@
+{
+  "base_commit": "de1f7b9b375618cf92fe12339e420cf07a0f48f1",
+  "artifact_scope": "synthetic-only additive operating uncertainty numerical guards; no integration/promotion",
+  "sha256": {
+    "README.md": "843d3caa817b9bb36774eee2ddb461000af0868545ca3350a12097df1068dac7",
+    "dependency_bindings.json": "2ef6f63e2205738974c8191d90e7878b30711e837fcba3a8676f367c7e6f34e4",
+    "exact_reference.py": "d06c7a334106c2bb21798c53500f1b692a920ab52491005a5559eba3ce8860ec",
+    "operating_uncertainty_guards.py": "0f71a80f29e5afc0c9cc719fdf7269396734da59333250f4d01e9f0aae87dfd2",
+    "test_isolated_validation.py": "a2ba36af41bdcb5251f04b916d95489ce0e1669eddf54243b6357e86787e1751",
+    "test_operating_uncertainty_guards.py": "695ea0a2652ff4d84d7d75e03d13016df12a2ba25de0b09c0c36fb1a9d79922d",
+    "validate.py": "a0905a9564328b04f9f46b03501afaf138a0fef5ecfc5456ddc0515ba1d75a2b"
+  }
+}

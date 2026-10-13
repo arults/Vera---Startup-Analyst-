@@ -1,0 +1,18 @@
+{
+  "bytes": 221140,
+  "campaign_url": "https://republic.com/smart-soda",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/smart-soda/show_updates",
+  "gzip_sha256": "f7115fb558019eab3519059e10e55bacf861b96b58884c736a362d481b2f0d2f",
+  "http_status": 200,
+  "parent_sha256": "ac4777c8468e7ba6d72d5b34d5c586b6d8da3d6fa506bc60c9b97bbac62aff20",
+  "raw_sha256": "dfa84adc3c8df2917e6e1639b5d96cf62f8da806751c851b534ad8ece33d7813",
+  "received_at": "2026-10-10T02:37:20.618018+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:19.847745+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/dfa84adc3c8df2917e6e1639b5d96cf62f8da806751c851b534ad8ece33d7813.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/smart-soda/show_updates"
+}

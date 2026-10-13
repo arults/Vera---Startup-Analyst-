@@ -1,0 +1,402 @@
+{
+  "schema_version": "0.1.0",
+  "decision": "ACCEPT_SCOPED_SOURCE_EVIDENCE_ONLY",
+  "candidate_sha256": "04c05aef491d854ef76ccb6dd4cc8223b9b1bd7f787ca7141c40270eeeecf908",
+  "readme_sha256": "0b47449703b8a3dc80c19b03bbc258f27904232bbba4a7debae3749a86d481a6",
+  "source_review_receipt_sha256": "7f1b3efcbf7ce4910cf08463f4493ef9e35ec71425ed3098ab37f9756988de62",
+  "source_bindings": [
+    {
+      "source_id": "S4",
+      "raw_sha256": "28bd915e09c85e3d7468e7740a5b910024936a265b476913b2b9e158912961bd",
+      "raw_bytes": 370012,
+      "pages": 14
+    },
+    {
+      "source_id": "S3",
+      "raw_sha256": "b658a3176bb279916195ae878312e9906d1ae2d907ef91c77bf469d639f4ca60",
+      "raw_bytes": 29526,
+      "format": "rendered HTML from .xml URL"
+    }
+  ],
+  "independent_review_work": {
+    "pdf_read_pages_1_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "visually_inspected_pdf_pages_1_based": [
+      3,
+      4,
+      6,
+      14
+    ],
+    "sec_local_fields_inspected": true,
+    "frozen_manifest_and_outcomes_blob_and_row_checked": true,
+    "native_page_and_index_not_refetched": true,
+    "native_link_chain_scope": "Relies on separately attributed independent source reviewer receipt; this local review does not claim network replay."
+  },
+  "checks": [
+    {
+      "check": "unique source ids",
+      "pass": true
+    },
+    {
+      "check": "all observation source ids resolve",
+      "pass": true
+    },
+    {
+      "check": "frozen offering key",
+      "pass": true
+    },
+    {
+      "check": "CIK bridge",
+      "pass": true
+    },
+    {
+      "check": "distinct later file number",
+      "pass": true
+    },
+    {
+      "check": "pin",
+      "pass": true
+    },
+    {
+      "check": "cohort_manifest.csv immutable blob",
+      "pass": true
+    },
+    {
+      "check": "outcomes.csv immutable blob",
+      "pass": true
+    },
+    {
+      "check": "frozen issuer_name",
+      "pass": true
+    },
+    {
+      "check": "frozen issuer_cik",
+      "pass": true
+    },
+    {
+      "check": "frozen initial_form_c_date",
+      "pass": true
+    },
+    {
+      "check": "frozen initial_form_c_accession",
+      "pass": true
+    },
+    {
+      "check": "frozen original_outcome_type",
+      "pass": true
+    },
+    {
+      "check": "frozen original_observation_date",
+      "pass": true
+    },
+    {
+      "check": "frozen original_evidence_url",
+      "pass": true
+    },
+    {
+      "check": "prior packet exact blob",
+      "pass": true
+    },
+    {
+      "check": "frozen policy blob",
+      "pass": true
+    },
+    {
+      "check": "null exact_last_positive_date",
+      "pass": true
+    },
+    {
+      "check": "null native_publication_date",
+      "pass": true
+    },
+    {
+      "check": "null observation publication",
+      "pass": true
+    },
+    {
+      "check": "canonical_admission",
+      "pass": true
+    },
+    {
+      "check": "estimator_admission",
+      "pass": true
+    },
+    {
+      "check": "numeric_promotion",
+      "pass": true
+    },
+    {
+      "check": "same_economic_round_link",
+      "pass": true
+    },
+    {
+      "check": "success_event",
+      "pass": true
+    },
+    {
+      "check": "closure_event",
+      "pass": true
+    },
+    {
+      "check": "prepared_history",
+      "pass": true
+    },
+    {
+      "check": "no JEV claimed",
+      "pass": true
+    },
+    {
+      "check": "no numeric rates",
+      "pass": true
+    },
+    {
+      "check": "unknown tokens_used",
+      "pass": true
+    },
+    {
+      "check": "unknown total_tool_invocations",
+      "pass": true
+    },
+    {
+      "check": "unknown total_cost",
+      "pass": true
+    },
+    {
+      "check": "unknown peak_rss_bytes",
+      "pass": true
+    },
+    {
+      "check": "financials-2023.pdf raw hash",
+      "pass": true
+    },
+    {
+      "check": "sec-primary.xml raw hash",
+      "pass": true
+    },
+    {
+      "check": "native page no fabricated raw hash",
+      "pass": true
+    },
+    {
+      "check": "filing index no fabricated raw hash",
+      "pass": true
+    },
+    {
+      "check": "PDF14pages",
+      "pass": true
+    },
+    {
+      "check": "PDF annual sales",
+      "pass": true
+    },
+    {
+      "check": "PDF cash",
+      "pass": true
+    },
+    {
+      "check": "PDF net loss",
+      "pass": true
+    },
+    {
+      "check": "PDF report date",
+      "pass": true
+    },
+    {
+      "check": "PDF unmodified opinion",
+      "pass": true
+    },
+    {
+      "check": "PDF going concern",
+      "pass": true
+    },
+    {
+      "check": "PDF incorporation",
+      "pass": true
+    },
+    {
+      "check": "PDF Delaware",
+      "pass": true
+    },
+    {
+      "check": "PDF annual revenue narrative",
+      "pass": true
+    },
+    {
+      "check": "PDF Note12 disputed date",
+      "pass": true
+    },
+    {
+      "check": "candidate annual_revenue_usd",
+      "pass": true
+    },
+    {
+      "check": "candidate year_end_cash_usd",
+      "pass": true
+    },
+    {
+      "check": "candidate annual_net_loss_usd",
+      "pass": true
+    },
+    {
+      "check": "candidate period_start",
+      "pass": true
+    },
+    {
+      "check": "candidate period_end",
+      "pass": true
+    },
+    {
+      "check": "unresolved current operation",
+      "pass": true
+    },
+    {
+      "check": "unresolved continuous survival",
+      "pass": true
+    },
+    {
+      "check": "date problem retained",
+      "pass": true
+    },
+    {
+      "check": "TTM interval unresolved",
+      "pass": true
+    },
+    {
+      "check": "SEC issuer",
+      "pass": true
+    },
+    {
+      "check": "SEC CIK",
+      "pass": true
+    },
+    {
+      "check": "SEC file",
+      "pass": true
+    },
+    {
+      "check": "SEC domain",
+      "pass": true
+    },
+    {
+      "check": "SEC incorporation",
+      "pass": true
+    },
+    {
+      "check": "SEC jurisdiction",
+      "pass": true
+    },
+    {
+      "check": "SEC coissuer",
+      "pass": true
+    },
+    {
+      "check": "SEC amendment scope",
+      "pass": true
+    },
+    {
+      "check": "SEC capture bytes",
+      "pass": true
+    },
+    {
+      "check": "evidence-supplement.json safe extension",
+      "pass": true
+    },
+    {
+      "check": "evidence-supplement.json JSON parses",
+      "pass": true
+    },
+    {
+      "check": "evidence-supplement.json no HTML scripts",
+      "pass": true
+    },
+    {
+      "check": "evidence-supplement.json no credential signatures",
+      "pass": true
+    },
+    {
+      "check": "evidence-supplement.json no SSN-shaped values",
+      "pass": true
+    },
+    {
+      "check": "evidence-supplement.json no source raw body",
+      "pass": true
+    },
+    {
+      "check": "README.md safe extension",
+      "pass": true
+    },
+    {
+      "check": "README.md no HTML scripts",
+      "pass": true
+    },
+    {
+      "check": "README.md no credential signatures",
+      "pass": true
+    },
+    {
+      "check": "README.md no SSN-shaped values",
+      "pass": true
+    },
+    {
+      "check": "README.md no source raw body",
+      "pass": true
+    },
+    {
+      "check": "source-review-receipt.json safe extension",
+      "pass": true
+    },
+    {
+      "check": "source-review-receipt.json JSON parses",
+      "pass": true
+    },
+    {
+      "check": "source-review-receipt.json no HTML scripts",
+      "pass": true
+    },
+    {
+      "check": "source-review-receipt.json no credential signatures",
+      "pass": true
+    },
+    {
+      "check": "source-review-receipt.json no SSN-shaped values",
+      "pass": true
+    },
+    {
+      "check": "source-review-receipt.json no source raw body",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "passed": 83,
+    "failed": 0
+  },
+  "limitations": [
+    "Bounded artifact safety inspection is not an exhaustive security audit.",
+    "Raw originals remain private; published facts and hashes do not reproduce PDF layout or DOM.",
+    "FY2023 positive annual sales supports period activity only; no exact operation/censor endpoint selected.",
+    "Auditor date 2024-04-23 and Note 12 evaluation text 2023-04-23 remain distinct and unresolved.",
+    "Native detail page and filing index have no raw hash in this packet.",
+    "SEC issuer identity corroboration does not merge later offering or substitute an external outcome."
+  ],
+  "canonical_changes": 0,
+  "new_companies": 0,
+  "new_rounds": 0,
+  "new_canonical_outcomes": 0,
+  "jev_invocations_by_this_review": 0,
+  "new_external_source_reads_by_this_review": 0,
+  "application_authorization": false
+}

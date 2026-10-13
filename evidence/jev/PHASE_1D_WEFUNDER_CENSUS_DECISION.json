@@ -1,0 +1,35 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "evidence": {
+    "native_api_rows": 149,
+    "wefunder_portal_llc_rows": 144,
+    "known_2020_denominator": 42,
+    "known_2020_name_matches": 0,
+    "known_match_share": 0
+  },
+  "answers": {
+    "wefunder_denominator_state": {
+      "choice": "partial_suppress",
+      "confidence": 1,
+      "probabilities": {
+        "partial_suppress": 1,
+        "accept_149": 0,
+        "rebuild_with_api_only": 0
+      }
+    },
+    "next_platform_attempt": {
+      "choice": "republic_us",
+      "confidence": 0.95,
+      "probabilities": {
+        "republic_us": 0.96,
+        "startengine": 0.03,
+        "crowdcube": 0,
+        "stop_platform_unlock": 0.01
+      }
+    },
+    "design_flip": {
+      "yes_probability": 0.39
+    }
+  }
+}

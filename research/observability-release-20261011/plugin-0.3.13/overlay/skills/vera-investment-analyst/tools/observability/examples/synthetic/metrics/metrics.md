@@ -1,0 +1,3 @@
+| Company / run | Mode / cache / collection | Data cutoff | Status / capture / final response | Input uncached | Input cached | Output | Total tokens | Tools / distinct / all attempts | Wall to cutoff seconds | Cost | Memory |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| synthetic-company / synthetic-complete | STANDARD / cold / fixture | 2026-10-11T10:14:09.317432+00:00 | completed / partial / excluded | unknown (0/2) | unknown (0/2) | unknown (0/2) | unknown (0/2) | 2 / 2 / 3 observed (partial) | 0.005029 | unknown | 14: 15859712 B RSS (process_lifetime; getrusage_ru_maxrss; linux); context None; storage None B |

@@ -1,0 +1,18 @@
+{
+  "bytes": 186647,
+  "campaign_url": "https://republic.com/clocr",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/clocr/show_updates",
+  "gzip_sha256": "726b57fde1db5493f988700239984bab7db05b84dd077c96e368f4cb6380ac03",
+  "http_status": 200,
+  "parent_sha256": "41ce6b7fd46604d23c339195e35dcc4c21da95c1c95268dcb50630407e25e63f",
+  "raw_sha256": "f3665f306af4c0e4f2564d84c7fd8c40363a1c0d1f9a27ebd3959286cf54ad08",
+  "received_at": "2026-10-10T02:25:31.167639+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:30.463378+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f3665f306af4c0e4f2564d84c7fd8c40363a1c0d1f9a27ebd3959286cf54ad08.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/clocr/show_updates"
+}

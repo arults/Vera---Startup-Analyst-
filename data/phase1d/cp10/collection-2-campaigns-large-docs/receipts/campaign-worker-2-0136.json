@@ -1,0 +1,18 @@
+{
+  "bytes": 18928,
+  "campaign_url": "https://republic.com/customer-io",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/customer-io/show_updates",
+  "gzip_sha256": "b3b75a37bdd8635d86bbe72b4d3286b7af9c505913c2c770ccaf1223e69e290d",
+  "http_status": 200,
+  "parent_sha256": "bcb8b56bdfc676dd9ff1ed3213aab77a19cdb0c68178318404d03215a7e534d4",
+  "raw_sha256": "d723cd20e884023661fb08d9df998ed8bfdd83eef89f3b6e4fdcc23dd1cc6d5f",
+  "received_at": "2026-10-10T02:26:09.144416+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:08.539779+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d723cd20e884023661fb08d9df998ed8bfdd83eef89f3b6e4fdcc23dd1cc6d5f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/customer-io/show_updates"
+}

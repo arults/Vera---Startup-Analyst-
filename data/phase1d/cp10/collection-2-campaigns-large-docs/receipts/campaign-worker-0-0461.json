@@ -1,0 +1,18 @@
+{
+  "bytes": 188906,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/puffcuff",
+  "gzip_sha256": "14703d5c36388b440bdc88ce855e5775bbfa950678855d2e799f74af6610432f",
+  "http_status": 200,
+  "raw_sha256": "f8ce621558699729ab801fb7521d27b80180e6aa75a2b275a85ffcca66c585a8",
+  "received_at": "2026-10-10T02:35:29.776328+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:28.797306+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f8ce621558699729ab801fb7521d27b80180e6aa75a2b275a85ffcca66c585a8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/puffcuff"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 210169,
+  "campaign_url": "https://republic.com/union-electric",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/union-electric/show_updates",
+  "gzip_sha256": "7453316a1152c931ff82df8ce7fe2d164055ea5de776c18f52805a700111f239",
+  "http_status": 200,
+  "parent_sha256": "f20e4d2cc26f8c995e9ac36783f41231ed690f05a9c1fa43693c5d6c6fd4af27",
+  "raw_sha256": "5cd873dde9532c263bdfc67f7d22a7cfb00122df07e3d68ffd8918a72d3823e1",
+  "received_at": "2026-10-10T02:38:37.448420+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:36.637569+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5cd873dde9532c263bdfc67f7d22a7cfb00122df07e3d68ffd8918a72d3823e1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/union-electric/show_updates"
+}

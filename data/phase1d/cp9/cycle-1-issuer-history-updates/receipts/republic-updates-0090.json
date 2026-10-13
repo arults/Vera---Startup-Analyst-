@@ -1,0 +1,19 @@
+{
+  "bytes": 387622,
+  "campaign_url": "https://republic.com/salsagod",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/salsagod/show_updates",
+  "gzip_sha256": "b3189a60befbabcbf701a702b04ea433116403b1403b57ad3099d0610f0c1c7a",
+  "http_status": 200,
+  "legal_name": "Salsa God LLC",
+  "native_offering_id": 321,
+  "parent_sha256": "87ea113f19e4be85e25634311584f523410a2074620feecb981d9cec46670df5",
+  "raw_sha256": "60e316c12b8bd2a93927a67242ee416826f34486340a38b7ae9a06274c597ab2",
+  "received_at": "2026-10-10T00:52:31.597002+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:30.817510+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/60e316c12b8bd2a93927a67242ee416826f34486340a38b7ae9a06274c597ab2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/salsagod/show_updates"
+}

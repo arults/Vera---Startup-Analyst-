@@ -1,0 +1,19 @@
+{
+  "bytes": 304708,
+  "campaign_url": "https://republic.com/stockcard",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/stockcard/show_updates",
+  "gzip_sha256": "27a87c5333278b1fcaa14d1bb4e4f1f4c1cd257c20e4bdc4b4ca7a45e9e38b0d",
+  "http_status": 200,
+  "legal_name": "Stock Card, Inc.",
+  "native_offering_id": 1759,
+  "parent_sha256": "6b79e73753d56920a20318e9fa5950cf023e13f24270bd5559fe721b979bb042",
+  "raw_sha256": "233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13",
+  "received_at": "2026-10-10T00:52:38.618291+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:37.810743+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/233535a42f563e1ebd9ecbac2204116a289327f4126ba0b6b971c086e76a6a13.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/stockcard/show_updates"
+}

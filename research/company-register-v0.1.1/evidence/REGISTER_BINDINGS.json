@@ -1,0 +1,939 @@
+{
+  "artifact_type": "read_only_pinned_register_bindings",
+  "version": "0.1.0",
+  "repository": "arults/Vera---Startup-Analyst-",
+  "snapshot_commit": "e1991e3d924f44dbc3b7964c06c428c5f5af49ef",
+  "immutable_register": "research/company-register-v0.1.0",
+  "binding_verification": "Four stored table byte hashes and Git blob hashes independently verified; stored hashes also match generated/artifact_hashes.json. Original input-row hash values below are copied from the verified lineage table, not a new full source regeneration.",
+  "register_table_bindings": [
+    {
+      "path": "research/company-register-v0.1.0/generated/records.jsonl.gz.b64",
+      "stored_sha256": "a3649d1b9bec9ab08c092cc482efc49fe1764e7e12dc174853b28624708ea161",
+      "gzip_sha256": "fac1beaa76d4d2a98478a44cbb661130f568a051a5135a32fd74d5290d5a46f4",
+      "decoded_sha256": "9d10ff76ebd9fccd8736bf419b543109f111c38e7c2b64b90cc9f4bf9345c57a",
+      "git_blob_sha": "5cb2eff4d03d33dc17b02b7e3414c4830219258a",
+      "git_blob_verified": true,
+      "decoded_rows": 2801,
+      "artifact_manifest_sha256_verified": true
+    },
+    {
+      "path": "research/company-register-v0.1.0/generated/assessments.jsonl.gz.b64",
+      "stored_sha256": "a8a33d480d61622be92449095b920eaf9b7f47cc495ff54312b2a7807eb8bb46",
+      "gzip_sha256": "c609c997668b6aca2bc487c8e64eaf5cd57ac7963d624e9fccef3ebe4d91c83d",
+      "decoded_sha256": "4c54801a96bd02e3274bff4d99245e994f1efae33c20cb3bd81b4b02421a6802",
+      "git_blob_sha": "1f8ed2b312666f6ddec6c1fb009848edabb41bae",
+      "git_blob_verified": true,
+      "decoded_rows": 4542,
+      "artifact_manifest_sha256_verified": true
+    },
+    {
+      "path": "research/company-register-v0.1.0/generated/crosswalk.jsonl.gz.b64",
+      "stored_sha256": "0eea1eb0e62c8d7514d92f53055906fa1773c53789a9dde6540781bec58b12da",
+      "gzip_sha256": "5f606591212323c9c983f8c46dfa2d76fed04344a244d76c2ded620b202db727",
+      "decoded_sha256": "f1fe5b182a44a8390e5f0eba1639a770ec6346d416eaa4966dd630780055b02c",
+      "git_blob_sha": "4378592bdd260bb9c594085619e7acdc9a6c1f2c",
+      "git_blob_verified": true,
+      "decoded_rows": 2011,
+      "artifact_manifest_sha256_verified": true
+    },
+    {
+      "path": "research/company-register-v0.1.0/generated/lineage.jsonl.gz.b64",
+      "stored_sha256": "8de7687719b82190d512a87cf4a6d3c21024ec972985ee82c092c9184535a259",
+      "gzip_sha256": "a6c50b6f254c296fa58c1a6e2fc7946d04fabcd34c7e8e82221f60a055c6f417",
+      "decoded_sha256": "7e4e865a9aa43df922819760c52d205ca9945c0bc6c961e362b2c494f3f6ec48",
+      "git_blob_sha": "8b80236b7b21ab6ad3df1be7c362b63478b09cc9",
+      "git_blob_verified": true,
+      "decoded_rows": 2865,
+      "artifact_manifest_sha256_verified": true
+    }
+  ],
+  "source_inputs": [
+    {
+      "adapter": "eu_round",
+      "expected_rows": 952,
+      "git_blob": "18af1ddafadebdd673209ad9b85a4df445440fcf",
+      "path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "eu_outcome",
+      "expected_rows": 952,
+      "git_blob": "8d15721a66b6a46ef92f6a139303d9f327930f84",
+      "path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "scope": "eu_outcomes_v5_source_frame",
+      "sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    }
+  ],
+  "requirements": {
+    "git_blob": "fb62fb062274cf51b8090f91990c3181dc99bdb2",
+    "path": "docs/PHASE_1C_SPEC.md",
+    "sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+    "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+  },
+  "records": [
+    {
+      "identity_status": "source_identifier_jurisdiction_unverified",
+      "jurisdiction": "",
+      "labels": [
+        "Crua Outdoors"
+      ],
+      "lineage_ids": [
+        "lineage:24702b04a525a26a013e4fe3dc471626",
+        "lineage:2f213b6473c017fd2945013f8f8e9875",
+        "lineage:3c61e90d7a1324953898ee6c94a8969e",
+        "lineage:5cc3f2facd11312afad8ab0526896f5b",
+        "lineage:868ab82ebbb6d4b94af828960fa15f16",
+        "lineage:87266e8c6840fb568dd8ea6ad30e146d",
+        "lineage:a3e9947e108bb3ed2de2fdef2ce591fe",
+        "lineage:e04d482cf6aea35cc4b20c7ce9b6a4f9"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "company_key:6557a4956422270d73af23ae717975d9",
+      "record_type": "company_key",
+      "source_key": "reurope-company:553249IRELAND",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:af8ad1dcc552dd67b1781e8209f18049",
+        "assessment:7cdf5b611a5758fd6c248ba2bcfb4657"
+      ]
+    },
+    {
+      "identity_status": "source_identifier_jurisdiction_unverified",
+      "jurisdiction": "",
+      "labels": [
+        "Crua Outdoors"
+      ],
+      "lineage_ids": [
+        "lineage:07c82d1741d207c0e729df9410a51ff1",
+        "lineage:1f419827753304fcd808ab7e5ce3a5dc",
+        "lineage:868e0977f4c346368f6c913b21e95d23",
+        "lineage:db3cbb694d967c2a172e04dd7043c46a"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+      "record_type": "company_key",
+      "source_key": "reurope-company:553249",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:3f9a0aae04a2369b620709c4a9d2fa41",
+        "assessment:322fc6e4056423b464e5a08deecf1520"
+      ]
+    },
+    {
+      "identity_status": "unresolved",
+      "jurisdiction": "",
+      "labels": [],
+      "lineage_ids": [
+        "lineage:24702b04a525a26a013e4fe3dc471626",
+        "lineage:87266e8c6840fb568dd8ea6ad30e146d"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors2",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:30442a171b76e707d013598c43975f04",
+        "assessment:457de017d4558272130878f6d130e2da"
+      ]
+    },
+    {
+      "identity_status": "unresolved",
+      "jurisdiction": "",
+      "labels": [],
+      "lineage_ids": [
+        "lineage:2f213b6473c017fd2945013f8f8e9875",
+        "lineage:5cc3f2facd11312afad8ab0526896f5b"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "record_type": "round",
+      "source_key": "reurope:crua-convertible",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:9101d5141de6cd61764cde4a250b9537",
+        "assessment:54bdf6ea157155753999cd820112fa64"
+      ]
+    },
+    {
+      "identity_status": "unresolved",
+      "jurisdiction": "",
+      "labels": [],
+      "lineage_ids": [
+        "lineage:868e0977f4c346368f6c913b21e95d23",
+        "lineage:db3cbb694d967c2a172e04dd7043c46a"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors5",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:066c01f44b2f5d509eb6453f863df60a",
+        "assessment:464a6262653677b8fb1756333c6a9113"
+      ]
+    },
+    {
+      "identity_status": "unresolved",
+      "jurisdiction": "",
+      "labels": [],
+      "lineage_ids": [
+        "lineage:07c82d1741d207c0e729df9410a51ff1",
+        "lineage:1f419827753304fcd808ab7e5ce3a5dc"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors4",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:fad7ca9163b7304c6f2a1334fb8b498d",
+        "assessment:69d50a2a0728feee7e22463bc8dc35a6"
+      ]
+    },
+    {
+      "identity_status": "unresolved",
+      "jurisdiction": "",
+      "labels": [],
+      "lineage_ids": [
+        "lineage:3c61e90d7a1324953898ee6c94a8969e",
+        "lineage:868ab82ebbb6d4b94af828960fa15f16"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "record_type": "round",
+      "source_key": "reurope:crua3",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:89840e674833935ac1c0d16d720779bb",
+        "assessment:72dd75eb6cf4198dbc5d008316b19517"
+      ]
+    },
+    {
+      "identity_status": "unresolved",
+      "jurisdiction": "",
+      "labels": [],
+      "lineage_ids": [
+        "lineage:a3e9947e108bb3ed2de2fdef2ce591fe",
+        "lineage:e04d482cf6aea35cc4b20c7ce9b6a4f9"
+      ],
+      "platform": "republic_europe",
+      "platform_memberships": [
+        "republic_europe"
+      ],
+      "record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "record_type": "round",
+      "source_key": "reurope:crua-outdoors3",
+      "source_scopes": [
+        "eu_native_funded_rounds_mixed_offering_year_resolution",
+        "eu_outcomes_v5_source_frame"
+      ],
+      "bound_assessments": [
+        "assessment:c87df25f8a6cc284c68d9a5bb4f1e749",
+        "assessment:21b8d293dc7cd05cf2d1cf594c2412a7"
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "assessment_id": "assessment:af8ad1dcc552dd67b1781e8209f18049",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "company_key:6557a4956422270d73af23ae717975d9",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:7cdf5b611a5758fd6c248ba2bcfb4657",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "company_key:6557a4956422270d73af23ae717975d9",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:3f9a0aae04a2369b620709c4a9d2fa41",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:322fc6e4056423b464e5a08deecf1520",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "not_assessed",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "not_assessed",
+        "funded_time_zero": "not_assessed",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "not_assessed"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:30442a171b76e707d013598c43975f04",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:457de017d4558272130878f6d130e2da",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:9101d5141de6cd61764cde4a250b9537",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:54bdf6ea157155753999cd820112fa64",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:066c01f44b2f5d509eb6453f863df60a",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:464a6262653677b8fb1756333c6a9113",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:fad7ca9163b7304c6f2a1334fb8b498d",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:69d50a2a0728feee7e22463bc8dc35a6",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:89840e674833935ac1c0d16d720779bb",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:72dd75eb6cf4198dbc5d008316b19517",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:c87df25f8a6cc284c68d9a5bb4f1e749",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    },
+    {
+      "assessment_id": "assessment:21b8d293dc7cd05cf2d1cf594c2412a7",
+      "completion_counts_established": false,
+      "completion_status": "unclassified",
+      "empirical_promotion": false,
+      "gates": {
+        "cohort_year": "source_asserted_unadjudicated",
+        "cross_platform_graph": "not_assessed",
+        "economic_round": "not_assessed",
+        "field_taxonomy": "source_asserted_unadjudicated",
+        "funded_time_zero": "source_asserted_unadjudicated",
+        "identity": "not_assessed",
+        "identity_qa": "not_assessed",
+        "outcome_followup": "source_asserted_unadjudicated"
+      },
+      "original_unit_of_analysis": "economic_company_round",
+      "record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "requirements_version": "phase1c-spec-717e7be8-register-v1",
+      "scope": "eu_outcomes_v5_source_frame",
+      "unresolved_reasons": [
+        "full_research_gate_adjudication_not_loaded"
+      ]
+    }
+  ],
+  "crosswalk": [
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:07c82d1741d207c0e729df9410a51ff1",
+      "relation": "source_company_key",
+      "source_record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "target_record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:1f419827753304fcd808ab7e5ce3a5dc",
+      "relation": "source_company_key",
+      "source_record_id": "round:bc2d3ecc502ee2da412fce23ca001646",
+      "target_record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:24702b04a525a26a013e4fe3dc471626",
+      "relation": "source_company_key",
+      "source_record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:2f213b6473c017fd2945013f8f8e9875",
+      "relation": "source_company_key",
+      "source_record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:3c61e90d7a1324953898ee6c94a8969e",
+      "relation": "source_company_key",
+      "source_record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:5cc3f2facd11312afad8ab0526896f5b",
+      "relation": "source_company_key",
+      "source_record_id": "round:463ff1af759fadc4365d650fb25b9c41",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:868ab82ebbb6d4b94af828960fa15f16",
+      "relation": "source_company_key",
+      "source_record_id": "round:ecd454a66c34b450e9ac961e994fbdbf",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:868e0977f4c346368f6c913b21e95d23",
+      "relation": "source_company_key",
+      "source_record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "target_record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:87266e8c6840fb568dd8ea6ad30e146d",
+      "relation": "source_company_key",
+      "source_record_id": "round:13e46017af9a1115eee058bcbda54aa5",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:a3e9947e108bb3ed2de2fdef2ce591fe",
+      "relation": "source_company_key",
+      "source_record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:db3cbb694d967c2a172e04dd7043c46a",
+      "relation": "source_company_key",
+      "source_record_id": "round:9b77d74195b84705bd01c2d1f5e5fe30",
+      "target_record_id": "company_key:d85c081763c2ec9d4b572708fe46a2e9"
+    },
+    {
+      "assertion_status": "source_asserted",
+      "basis": "source_key_only_no_legal_merge",
+      "lineage_id": "lineage:e04d482cf6aea35cc4b20c7ce9b6a4f9",
+      "relation": "source_company_key",
+      "source_record_id": "round:f221b36fb7d6a6969479e450600e46e7",
+      "target_record_id": "company_key:6557a4956422270d73af23ae717975d9"
+    }
+  ],
+  "lineage": [
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:07c82d1741d207c0e729df9410a51ff1",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+        "round:bc2d3ecc502ee2da412fce23ca001646"
+      ],
+      "row_number": 723,
+      "row_sha256": "6f79b67c73ce0d5ffa20c188836b5ff46b764181560bba37220634de4ba0a65a",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:1f419827753304fcd808ab7e5ce3a5dc",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+        "round:bc2d3ecc502ee2da412fce23ca001646"
+      ],
+      "row_number": 723,
+      "row_sha256": "8d11688fb37ca58fe7f5cada473d688cde61f537e9a110e7bda983abb359981f",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:24702b04a525a26a013e4fe3dc471626",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:13e46017af9a1115eee058bcbda54aa5"
+      ],
+      "row_number": 64,
+      "row_sha256": "91b9405dfffa6c63295c453691568534dcc81c5ede586da58817399b3bb6adde",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:2f213b6473c017fd2945013f8f8e9875",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:463ff1af759fadc4365d650fb25b9c41"
+      ],
+      "row_number": 455,
+      "row_sha256": "4dd39c1a772864c76617166ace2c92131144aefb164253cb373b3f80a1f9464f",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:3c61e90d7a1324953898ee6c94a8969e",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:ecd454a66c34b450e9ac961e994fbdbf"
+      ],
+      "row_number": 264,
+      "row_sha256": "96181ca692d432ce7085f77aa8988d5af34620434c2dc4535c8f684c13d2bb2f",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:5cc3f2facd11312afad8ab0526896f5b",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:463ff1af759fadc4365d650fb25b9c41"
+      ],
+      "row_number": 455,
+      "row_sha256": "4b9f08a718e35ace991704fd279e0931298a46f598e7c4e25cee34488a209b28",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:868ab82ebbb6d4b94af828960fa15f16",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:ecd454a66c34b450e9ac961e994fbdbf"
+      ],
+      "row_number": 264,
+      "row_sha256": "0fbe3de8d490c60b2b71104d7f50435bcf6ce5881ee570ae3f4e85305759e30f",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:868e0977f4c346368f6c913b21e95d23",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+        "round:9b77d74195b84705bd01c2d1f5e5fe30"
+      ],
+      "row_number": 834,
+      "row_sha256": "e2b9a080128a4e9e3d9b6ce5a761f0958e5013e5eec53c6ad6692289f87ffbd7",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:87266e8c6840fb568dd8ea6ad30e146d",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:13e46017af9a1115eee058bcbda54aa5"
+      ],
+      "row_number": 64,
+      "row_sha256": "3560c2d0f55ce522412f52b987aff54b6dda93d6083c46de11c3f2b160b2bcfd",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:a3e9947e108bb3ed2de2fdef2ce591fe",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:f221b36fb7d6a6969479e450600e46e7"
+      ],
+      "row_number": 571,
+      "row_sha256": "4f63015ffa02914138b85228efac216ed62042414ee836523c4c368ac3ae503f",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "source_sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:db3cbb694d967c2a172e04dd7043c46a",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:d85c081763c2ec9d4b572708fe46a2e9",
+        "round:9b77d74195b84705bd01c2d1f5e5fe30"
+      ],
+      "row_number": 834,
+      "row_sha256": "71d63042b244d2236fb557a7d6c0deb2a84b935ae50a0fa7539b3f15b83d92c2",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+    },
+    {
+      "disposition": "unresolved",
+      "lineage_id": "lineage:e04d482cf6aea35cc4b20c7ce9b6a4f9",
+      "reason": "legal_jurisdiction_and_research_gates_unverified",
+      "record_ids": [
+        "company_key:6557a4956422270d73af23ae717975d9",
+        "round:f221b36fb7d6a6969479e450600e46e7"
+      ],
+      "row_number": 571,
+      "row_sha256": "42f7ac1622e4461c136eed6e0681d49720a979ba05f75c3a9c231557b3347113",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d",
+      "source_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "source_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe"
+    }
+  ],
+  "selection_counts": {
+    "company_key_records": 2,
+    "round_records": 6,
+    "assessment_records": 16,
+    "original_source_lineages": 12,
+    "source_crosswalk_links": 12,
+    "independently_reviewed_campaign_issuer_matches": 6
+  },
+  "constraints": {
+    "immutable_v0_1_0_modified": false,
+    "source_memberships_changed": false,
+    "canonical_company_merge": false,
+    "economic_round_merge": false,
+    "completion_status": "unclassified",
+    "completion_counts_established": false,
+    "empirical_promotion": false,
+    "verified_complete_count": null,
+    "partial_count": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 28462,
+  "campaign_url": "https://republic.com/cabinet-health",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cabinet-health/show_updates",
+  "gzip_sha256": "80477d4bdfab2c6fc2812d81374009ab974d81e8490445871ff62da20e05e898",
+  "http_status": 200,
+  "parent_sha256": "bb5296b8e7478edfbd9359211c93ebf670558e6365b727134ef28b8ea21ed318",
+  "raw_sha256": "297560db43baa73062041e9edf2c8f5d6c42873650fbd43d196e75698974f8ba",
+  "received_at": "2026-10-10T02:25:01.347658+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:00.789626+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/297560db43baa73062041e9edf2c8f5d6c42873650fbd43d196e75698974f8ba.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cabinet-health/show_updates"
+}

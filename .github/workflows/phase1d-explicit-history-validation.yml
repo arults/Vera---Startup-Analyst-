@@ -1,0 +1,27 @@
+name: Phase 1D explicit-history statistics validation
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/explicit-history-statistics-v0.2.0/**'
+      - '.github/workflows/phase1d-explicit-history-validation.yml'
+permissions:
+  contents: read
+jobs:
+  verify_exact_head:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        shell: bash
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Run source-neutral statistical regression suite
+        shell: bash
+        run: python -I -B -m unittest discover -s research/explicit-history-statistics-v0.2.0 -p 'test_*.py' -v

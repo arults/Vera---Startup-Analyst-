@@ -1,0 +1,18 @@
+{
+  "bytes": 130729,
+  "campaign_url": "https://republic.com/obi",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/obi/show_updates",
+  "gzip_sha256": "ce28a78490732cf3d87737ccddb46e58a018d84d0b639fe834e0b1bb4513c1db",
+  "http_status": 200,
+  "parent_sha256": "d667b89f43b938f9e2969d898e8b5b78e5e60282aa2e166644b2f88512f02563",
+  "raw_sha256": "749c76109e9d5f59dceb4e1b9782bf9784b1de62c1bce560c0de46f63b13d267",
+  "received_at": "2026-10-10T02:34:43.937001+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:43.281041+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/749c76109e9d5f59dceb4e1b9782bf9784b1de62c1bce560c0de46f63b13d267.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/obi/show_updates"
+}

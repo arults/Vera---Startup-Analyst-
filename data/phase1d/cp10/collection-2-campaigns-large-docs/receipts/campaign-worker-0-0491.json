@@ -1,0 +1,18 @@
+{
+  "bytes": 155475,
+  "campaign_url": "https://republic.com/referrizer",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/referrizer/show_updates",
+  "gzip_sha256": "9956c85a982c22b036e926b93bb367d5064a9b3dccbbf26d04800d529e5e2faf",
+  "http_status": 200,
+  "parent_sha256": "e8b53ab8a40c8bc50b2b484d5edbf7ee722836d60e344feb576184c8f8dafa75",
+  "raw_sha256": "ca12925d6baf38f368df736b8ff8744834e1f5f858c1a426916cae8c7ac7cb33",
+  "received_at": "2026-10-10T02:36:03.447800+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:02.758250+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ca12925d6baf38f368df736b8ff8744834e1f5f858c1a426916cae8c7ac7cb33.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/referrizer/show_updates"
+}

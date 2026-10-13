@@ -1,0 +1,18 @@
+{
+  "bytes": 210956,
+  "campaign_url": "https://republic.com/cavu",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cavu/show_updates",
+  "gzip_sha256": "90c40b873ecc3f0a5dcd7c0cb29ce4f4c553f5dc3d5b1b4e13d6af7c7e0ce899",
+  "http_status": 200,
+  "parent_sha256": "c78c9e68a5bff1ef9a92b5b265298fc132b89ed88d58ec92f527f9311078c9b6",
+  "raw_sha256": "c0e70b5722dadfd766ce65c8594031b10a11d8d23da4fc2abcab857394c70f98",
+  "received_at": "2026-10-10T02:25:41.773294+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:40.930737+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c0e70b5722dadfd766ce65c8594031b10a11d8d23da4fc2abcab857394c70f98.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cavu/show_updates"
+}

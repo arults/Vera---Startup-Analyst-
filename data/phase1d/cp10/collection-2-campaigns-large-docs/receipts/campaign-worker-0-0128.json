@@ -1,0 +1,18 @@
+{
+  "bytes": 89132,
+  "campaign_url": "https://republic.com/crowdfind",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/crowdfind/show_updates",
+  "gzip_sha256": "33abbe4ccfbf7715e9d416cfdc0bb616ff1caa017e90ed2723254ad8a3cc1f80",
+  "http_status": 200,
+  "parent_sha256": "240bf2f58f90475dc3e0f6975c50aae0124e055676a243dee879c33910226559",
+  "raw_sha256": "4a4da5d4f9eead3edf5a5b95d7592e162bc6e6bf7b98c8cf60f5f4577782ae4c",
+  "received_at": "2026-10-10T02:25:55.322985+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:54.706223+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4a4da5d4f9eead3edf5a5b95d7592e162bc6e6bf7b98c8cf60f5f4577782ae4c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/crowdfind/show_updates"
+}

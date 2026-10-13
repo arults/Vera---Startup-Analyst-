@@ -1,0 +1,18 @@
+{
+  "bytes": 92220,
+  "campaign_url": "https://republic.com/whoseyourlandlord",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/whoseyourlandlord/show_updates",
+  "gzip_sha256": "f8d11bb7680886c30d05deea407aa1927b3ba7b3b8471bfd1bf1cfa65d5235af",
+  "http_status": 200,
+  "parent_sha256": "311d4aab626a0f73a6c03ec0df9288a318da0faae96f35b62e4072e3480acab9",
+  "raw_sha256": "b65735a40352c6e6c749ad32d0940482bce92e5a961a92677affb2a8354edeeb",
+  "received_at": "2026-10-10T02:39:16.573261+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:15.956436+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b65735a40352c6e6c749ad32d0940482bce92e5a961a92677affb2a8354edeeb.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/whoseyourlandlord/show_updates"
+}

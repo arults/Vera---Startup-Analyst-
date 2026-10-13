@@ -1,0 +1,18 @@
+{
+  "bytes": 89504,
+  "campaign_url": "https://republic.com/truagents",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/truagents/show_updates",
+  "gzip_sha256": "7efa8ce9b41448bf5f8d6361e85195066a4d0b2b7629ab79d33b279b6225211e",
+  "http_status": 200,
+  "parent_sha256": "9ac909648a79e791e4ea978cef614437e05b96c11619589f9445371e5d37a1d1",
+  "raw_sha256": "f4536f2923fcd6207c3ed1c225428a49dd2c9dcf147bf7a8eeed7a00cafc465b",
+  "received_at": "2026-10-10T02:38:24.228580+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:23.616270+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f4536f2923fcd6207c3ed1c225428a49dd2c9dcf147bf7a8eeed7a00cafc465b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/truagents/show_updates"
+}

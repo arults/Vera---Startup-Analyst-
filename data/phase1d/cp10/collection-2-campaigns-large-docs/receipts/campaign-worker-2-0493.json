@@ -1,0 +1,18 @@
+{
+  "bytes": 23833,
+  "campaign_url": "https://republic.com/ratio-finance",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ratio-finance/show_updates",
+  "gzip_sha256": "91610c19872d2c7ef50311ef18a4b7ddfd4d7147b7fb4a4d0c45fd84ef37a187",
+  "http_status": 200,
+  "parent_sha256": "3f27dfca800d0fe27dba8a38855b8e14c4ca301731a90ea5d806b376425472c4",
+  "raw_sha256": "c4a23bc25c45d69bfc953466e02b0fe3cc38ada17875ddbaa47a1f2c6c2d365e",
+  "received_at": "2026-10-10T02:36:06.069141+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:05.508751+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c4a23bc25c45d69bfc953466e02b0fe3cc38ada17875ddbaa47a1f2c6c2d365e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ratio-finance/show_updates"
+}

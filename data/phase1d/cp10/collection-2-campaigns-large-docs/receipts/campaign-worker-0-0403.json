@@ -1,0 +1,18 @@
+{
+  "bytes": 264553,
+  "campaign_url": "https://republic.com/nickelytics-2021",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/nickelytics-2021/show_updates",
+  "gzip_sha256": "30e4640d71d7509bcacd1fcc66aad371eab3609d7682a7cd0413d039b0e37cda",
+  "http_status": 200,
+  "parent_sha256": "68e405a6dcc1007e02a1c8c82dfdfa8a9f18ec7e685b49182e55c43490b5901e",
+  "raw_sha256": "e1faa327e068ff1bbb0967c60112ff27dce467f78e8ac56eea9de8bd69e1ce54",
+  "received_at": "2026-10-10T02:34:24.497008+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:23.682176+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e1faa327e068ff1bbb0967c60112ff27dce467f78e8ac56eea9de8bd69e1ce54.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/nickelytics-2021/show_updates"
+}

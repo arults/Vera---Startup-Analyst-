@@ -1,0 +1,18 @@
+{
+  "bytes": 1108,
+  "campaign_url": "https://republic.com/miso-robotics",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/miso-robotics/show_updates",
+  "gzip_sha256": "0068f5bcd408e0370399e97cca151dee1d5afee16115bb87d35b0dd2ff1a4ac1",
+  "http_status": 200,
+  "parent_sha256": "79e07505f9ed6cc44aaf07eab5d79060e116f2f987bd51ce84db259051f6ae31",
+  "raw_sha256": "352f942494e257b588a2dace2465528210eea9c4db9682ecff21d58196549180",
+  "received_at": "2026-10-10T02:33:54.899982+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:54.307548+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/352f942494e257b588a2dace2465528210eea9c4db9682ecff21d58196549180.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/miso-robotics/show_updates"
+}

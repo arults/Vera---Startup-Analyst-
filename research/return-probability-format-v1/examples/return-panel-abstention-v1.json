@@ -1,0 +1,127 @@
+{
+  "contract_version": "1.0.0",
+  "analysis_identity": "ILLUSTRATIVE ABSTENTION ONLY: no real company or security analyzed",
+  "data_cutoff": "2026-10-11",
+  "estimand": "unconditional_net_realized_moic_at_horizon",
+  "calibration_status": "UNCALIBRATED",
+  "terms": {
+    "security_and_entry_price": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "entry_date": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "horizon": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "capital_denominator_and_followons": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "ownership_conversion_and_dilution": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "rights_and_exercise_policy": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "waterfall_and_debt": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "fees_and_carry": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "currency_and_fx": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "tax_treatment": "UNKNOWN: no company or user entry terms supplied in this illustration.",
+    "cash_observation_policy": "UNKNOWN: no company or user entry terms supplied in this illustration."
+  },
+  "thresholds": [
+    {
+      "threshold": 10,
+      "status": "NOT_ESTIMABLE",
+      "probability": null,
+      "interval": null,
+      "derivation": "No calculation: investment terms, horizon and defensible return reference class have not been supplied. No numeric prior is assumed.",
+      "source_ids": [],
+      "assumptions": "None: no horizon or company facts are invented.",
+      "blocking_gaps": [
+        "Company/security and proposed entry terms absent.",
+        "Horizon, cash-flow and follow-on basis absent.",
+        "Defensible investor-return probability model and applicable evidence absent."
+      ],
+      "reviews": {
+        "independent_verifier": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        },
+        "jev": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        }
+      }
+    },
+    {
+      "threshold": 25,
+      "status": "NOT_ESTIMABLE",
+      "probability": null,
+      "interval": null,
+      "derivation": "No calculation: investment terms, horizon and defensible return reference class have not been supplied. No numeric prior is assumed.",
+      "source_ids": [],
+      "assumptions": "None: no horizon or company facts are invented.",
+      "blocking_gaps": [
+        "Company/security and proposed entry terms absent.",
+        "Horizon, cash-flow and follow-on basis absent.",
+        "Defensible investor-return probability model and applicable evidence absent."
+      ],
+      "reviews": {
+        "independent_verifier": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        },
+        "jev": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        }
+      }
+    },
+    {
+      "threshold": 50,
+      "status": "NOT_ESTIMABLE",
+      "probability": null,
+      "interval": null,
+      "derivation": "No calculation: investment terms, horizon and defensible return reference class have not been supplied. No numeric prior is assumed.",
+      "source_ids": [],
+      "assumptions": "None: no horizon or company facts are invented.",
+      "blocking_gaps": [
+        "Company/security and proposed entry terms absent.",
+        "Horizon, cash-flow and follow-on basis absent.",
+        "Defensible investor-return probability model and applicable evidence absent."
+      ],
+      "reviews": {
+        "independent_verifier": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        },
+        "jev": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        }
+      }
+    },
+    {
+      "threshold": 100,
+      "status": "NOT_ESTIMABLE",
+      "probability": null,
+      "interval": null,
+      "derivation": "No calculation: investment terms, horizon and defensible return reference class have not been supplied. No numeric prior is assumed.",
+      "source_ids": [],
+      "assumptions": "None: no horizon or company facts are invented.",
+      "blocking_gaps": [
+        "Company/security and proposed entry terms absent.",
+        "Horizon, cash-flow and follow-on basis absent.",
+        "Defensible investor-return probability model and applicable evidence absent."
+      ],
+      "reviews": {
+        "independent_verifier": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        },
+        "jev": {
+          "status": "NOT_RUN",
+          "scope": "none",
+          "feedback": "No company-specific review occurred; this is an abstention-format illustration."
+        }
+      }
+    }
+  ],
+  "publication_state": "DRAFT"
+}

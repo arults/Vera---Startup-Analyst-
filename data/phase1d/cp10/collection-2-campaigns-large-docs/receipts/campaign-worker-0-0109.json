@@ -1,0 +1,18 @@
+{
+  "bytes": 87453,
+  "campaign_url": "https://republic.com/cleverman2024",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cleverman2024/show_updates",
+  "gzip_sha256": "ea475faf2da7e5cbf780727a53efdfa54ce95607d97a6135aab33e4853b4cf3e",
+  "http_status": 200,
+  "parent_sha256": "819332b8bcd73600c8d7162b2dafb97c784041016bc3497c593fdf48b21c110d",
+  "raw_sha256": "08be4cbb9f6c11c8463216792252989433b73005689ebe7d73045a2463bdeaa7",
+  "received_at": "2026-10-10T02:25:23.912167+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:23.293229+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/08be4cbb9f6c11c8463216792252989433b73005689ebe7d73045a2463bdeaa7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cleverman2024/show_updates"
+}

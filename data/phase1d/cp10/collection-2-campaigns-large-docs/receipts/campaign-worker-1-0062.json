@@ -1,0 +1,18 @@
+{
+  "bytes": 75302,
+  "campaign_url": "https://republic.com/benson-watch",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/benson-watch/show_updates",
+  "gzip_sha256": "85697acd6bdd20022830cbc72a7f3fa1f4ae084be831d6c4da6b97b2eaedeb3d",
+  "http_status": 200,
+  "parent_sha256": "867658065ef943ae4041f8896aaab2616196a706e7385a1be6c6980e8fe49ef7",
+  "raw_sha256": "f22490c1b74592c8ead296bbd875efea5cc2c465c4b4286ea6bf2e820190f003",
+  "received_at": "2026-10-10T02:24:18.836357+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:18.233000+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f22490c1b74592c8ead296bbd875efea5cc2c465c4b4286ea6bf2e820190f003.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/benson-watch/show_updates"
+}

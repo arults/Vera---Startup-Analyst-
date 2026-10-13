@@ -1,0 +1,18 @@
+{
+  "bytes": 404427,
+  "campaign_url": "https://republic.com/provenance",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/provenance/show_updates",
+  "gzip_sha256": "4a29ca0bc188a7a1891482a5b9291c140031376399e4bbd68f6474a38f0a4ce4",
+  "http_status": 200,
+  "parent_sha256": "679cd6297ea8c03a047ff9f9006d4fd88cb58ca98b866c1231c42a8cfccfbb96",
+  "raw_sha256": "fe1d1de185b86d74daf86e5bb57886e26943266b77de9ad25f869c74fd4427d4",
+  "received_at": "2026-10-10T02:35:41.829511+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:40.924482+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fe1d1de185b86d74daf86e5bb57886e26943266b77de9ad25f869c74fd4427d4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/provenance/show_updates"
+}

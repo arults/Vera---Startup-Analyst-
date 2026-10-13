@@ -1,0 +1,26 @@
+{
+  "status": "DIFFERING_SOURCE_OBSERVATIONS_CANDIDATE_ROUND_LINKS_UNRESOLVED",
+  "source_lineage": "Both KIIS versions are issuer-prepared platform-hosted documents; repeat values do not constitute independent corroboration.",
+  "facts": [
+    "Campaign financial-promotion approval dates are different typed observations from displayed Funded dates.",
+    "2024 and2025 KIIS repeat the same2019\u20132023 Completion date and amount values.",
+    "KIIS2020\u20132024 date observations precede campaign Funded dates by27\u201336 days and are0\u20133 days after approval.",
+    "Both dates and amounts differ for all five candidate in-scope campaign-to-KIIS pairings; correspondence is not finally adjudicated."
+  ],
+  "hypotheses_not_findings": [
+    "Previous campaigns Completion date may reflect a platform metadata mapping or an earlier campaign milestone. No reviewed source confirms this.",
+    "Campaign raise totals may include commitments/cancelled investments or use a different cut-off from KIIS amount raised. No reviewed source confirms this."
+  ],
+  "prohibited_inferences": [
+    "Do not rename KIIS dates launch/approval/close without evidence.",
+    "Do not treat KIIS as automatically superior merely because newer.",
+    "Do not silently equate Funded display with security delivery or independently operating state.",
+    "Do not demand a private individual investor contract universally; sufficient native aggregate evidence may support stagewise round admission."
+  ],
+  "next_evidence": [
+    "Public platform documentation defining the historical previous-campaign Completion date field and displayed Funded date.",
+    "Campaign-specific dated native completion/closing update or issuer/platform correction reconciling both dates and amount scope.",
+    "Index-specific comparability, entry independence and event/observation review under the approved estimator target."
+  ],
+  "mapping_boundary": "KIIS table has no campaign IDs. Every pair and its difference arithmetic is conditional on candidate issuer/year/sequence linkage; exact same-economic-round correspondence remains a G1 review."
+}

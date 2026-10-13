@@ -1,0 +1,18 @@
+{
+  "bytes": 88264,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/animoca-shareholders",
+  "gzip_sha256": "58ad0b894bc0d93eb3480f3db355342eb943e1ccc73a63f4d65b8d8974f8e1db",
+  "http_status": 200,
+  "raw_sha256": "15c14084bceef5123b910ed6c00c88d4d11b84e2f5349c143cfc4e445f36ca66",
+  "received_at": "2026-10-10T02:23:23.698787+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:23.105090+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/15c14084bceef5123b910ed6c00c88d4d11b84e2f5349c143cfc4e445f36ca66.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/animoca-shareholders"
+}

@@ -1,0 +1,21 @@
+{
+  "bytes": 67408,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/note/waitlist?after_subscribe_redirect=https://republic.com/note/note-investor-update-march-2024",
+  "gzip_sha256": "77714884a8082aa60ba845a6814b87136dd21ee0e63c145127b58ce553b5b9b2",
+  "http_status": 200,
+  "raw_sha256": "c9c3c2bd35fb2efa8e7db30be1645012e2f06e0d0eecd31e0e34f9362779663f",
+  "received_at": "2026-10-10T02:34:27.817999+00:00",
+  "redirects": [
+    "https://republic.com/note/note-investor-update-march-2024",
+    "https://republic.com/note/waitlist?after_subscribe_redirect=https://republic.com/note/note-investor-update-march-2024"
+  ],
+  "retrieval_started_at": "2026-10-10T02:34:27.029840+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c9c3c2bd35fb2efa8e7db30be1645012e2f06e0d0eecd31e0e34f9362779663f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/note-investor-update-march-2024"
+}

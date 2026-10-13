@@ -1,0 +1,18 @@
+{
+  "bytes": 17564,
+  "campaign_url": "https://republic.com/bowr",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bowr/show_updates",
+  "gzip_sha256": "c2a4d6d0d8214389267ae0f53f82dc093586297b211d517c0d2c91b1dfef947f",
+  "http_status": 200,
+  "parent_sha256": "eba19ed59051bff5f7634a687f01ea0f1a9e86eefc2178a06df875ac6fb0d813",
+  "raw_sha256": "4b738133dd411171dbcd23b054b6a52c2c02e2f031db25d36aac757f5b3a6b4b",
+  "received_at": "2026-10-10T02:24:47.995587+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:47.455265+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4b738133dd411171dbcd23b054b6a52c2c02e2f031db25d36aac757f5b3a6b4b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bowr/show_updates"
+}

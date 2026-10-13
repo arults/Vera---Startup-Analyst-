@@ -1,0 +1,18 @@
+{
+  "bytes": 1108,
+  "campaign_url": "https://republic.com/fosh",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fosh/show_updates",
+  "gzip_sha256": "d3cd2ea5e4ecf6fd9dd5be75e2d5aa49dfc8193f5a2a29232a138e84ac3f4457",
+  "http_status": 200,
+  "parent_sha256": "d583596eeae7090f93dbb7750f71e7ae964921fa7e210da21528b8c97248bc5f",
+  "raw_sha256": "541ededecb518c3210083b14adbe29746d1949f87950df0d78ce4d2a27c31c39",
+  "received_at": "2026-10-10T02:28:10.073635+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:09.547211+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/541ededecb518c3210083b14adbe29746d1949f87950df0d78ce4d2a27c31c39.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fosh/show_updates"
+}

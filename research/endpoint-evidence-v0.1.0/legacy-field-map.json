@@ -1,0 +1,436 @@
+{
+  "before": "The legacy audit adds all six universal review groups to every row. It never asserted all 38 literal fields must be populated. This map prevents misusing its inventory as a universal work queue.",
+  "classes": {
+    "CONDITIONAL": "Required only when the documented endpoint/method/branch condition applies; unresolved applicability remains unresolved.",
+    "DERIVED_OPTIONAL": "Not separately collected when reproducibly derivable from the authoritative time basis.",
+    "OPTIONAL": "No default collection/blocker for the selected target; a known contradiction or declared material model use can reactivate it.",
+    "REQUIRED_FACT": "Underlying fact required; equivalent shared reviewed fact can supply it."
+  },
+  "fields": [
+    {
+      "field": "administrative_extraction_limit",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "canonical_company_id",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "round_identity_and_funded_origin"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "censor_date",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Censoring/observation endpoint is required when unresolved observation needs it, not as a universal literal date for every already resolved endpoint. Do not extend operating observation with financing or extraction date.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "closure_date",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Only observed/relevant terminal facts or candidate conflicts require classification and source binding. A missing field is neither closure nor nonclosure; terminal events can matter differently to each endpoint.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "cohort_membership_review",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "cohort_assignment"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "completion_date",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "round_identity_and_funded_origin",
+        "initial_state"
+      ],
+      "note": "Historical funded origin timing is required; exact day depends on method. The frozen exact-history caller still requires exact support. Forecast uses declared proposed-entry origin instead.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "endpoint_specific_observation_review",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "entry_eligibility_review",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "initial_state"
+      ],
+      "note": "Operating entry independence and composite index-relative entry are required; cash outcomes/forecasts require position eligibility and known relevant history, not an automatic corporate PRE/POST label.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "event_precision_review",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Preserve supplied precision; sufficient relevant timing is mandatory, exact complete sequence is method-specific. Cash-at-horizon may need only inclusion before/after H; a forecast needs dated available history, not future event times.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "evidence_trace",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "round_identity_and_funded_origin",
+        "endpoint_observation"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "followup_months",
+      "forecast_cash_moic": "DERIVED_OPTIONAL",
+      "historical_cash_moic": "DERIVED_OPTIONAL",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Derived from adjudicated time basis where applicable. Optional duplicate input, not another independent evidence hunt; supplied inconsistent values remain visible.",
+      "operating_survival": "DERIVED_OPTIONAL",
+      "qualifying_company_success": "DERIVED_OPTIONAL"
+    },
+    {
+      "field": "funded_position_evidence",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "round_identity_and_funded_origin"
+      ],
+      "note": "Required for this historical funded-round frame; proposed-position forecast uses its own exact position/security identity and proposed entry, not a fabricated completed round. Adequate aggregate security-position evidence can suffice.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "index_qualification_review",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "OPTIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Composite-success target and incident/baseline policy only. Every endpoint still needs its own explicit target definition. Relevance to independent operation or model features can reactivate a fact.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "initial_post_policy",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "OPTIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Composite-success target and incident/baseline policy only. Every endpoint still needs its own explicit target definition. Relevance to independent operation or model features can reactivate a fact.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "initial_state_evidence",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "initial_state"
+      ],
+      "note": "Operating entry independence and composite index-relative entry are required; cash outcomes/forecasts require position eligibility and known relevant history, not an automatic corporate PRE/POST label.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "last_positive_date",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "OPTIONAL",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Required when defining affirmative operating follow-up; not a universal event endpoint for an already observed absorbing composite outcome or complete cash-at-H label. Forecast historical operation evidence may be material.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "offering_year",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "cohort_assignment"
+      ],
+      "note": "Historical columns retain the frozen platform-by-first-public-year frame in this mapping. Outside that frame, required only for requested strata, reference-class fit or selection analysis. Never substitute completion year.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "offering_year_status",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "cohort_assignment"
+      ],
+      "note": "Historical columns retain the frozen platform-by-first-public-year frame in this mapping. Outside that frame, required only for requested strata, reference-class fit or selection analysis. Never substitute completion year.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "origin_convention_review",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "round_identity_and_funded_origin"
+      ],
+      "note": "Declare relevant origin; never silently change frozen completion clock. A forecast proposed entry must be explicitly proposed.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "platform",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "cohort_assignment"
+      ],
+      "note": "Historical columns retain the frozen platform-by-first-public-year frame in this mapping. Outside that frame, required only for requested strata, reference-class fit or selection analysis. Never substitute completion year.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "prepared_history_disposition",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "cohort_assignment"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "reviewed_economic_round_identity",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "round_identity_and_funded_origin"
+      ],
+      "note": "Required for this historical funded-round frame; proposed-position forecast uses its own exact position/security identity and proposed entry, not a fabricated completed round. Adequate aggregate security-position evidence can suffice.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "reviewed_exact_transition_sequence",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Preserve supplied precision; sufficient relevant timing is mandatory, exact complete sequence is method-specific. Cash-at-horizon may need only inclusion before/after H; a forecast needs dated available history, not future event times.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "reviewed_initial_state",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "initial_state"
+      ],
+      "note": "Operating entry independence and composite index-relative entry are required; cash outcomes/forecasts require position eligibility and known relevant history, not an automatic corporate PRE/POST label.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "round_id",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "round_identity_and_funded_origin"
+      ],
+      "note": "Required for this historical funded-round frame; proposed-position forecast uses its own exact position/security identity and proposed entry, not a fabricated completed round. Adequate aggregate security-position evidence can suffice.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "same_subject_tie_resolution",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Resolve only when plausible orders change endpoint, risk set or selected method result. Unknown material order stays unresolved; never invent within-day order.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "selected_success_endpoint",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "OPTIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Composite-success target and incident/baseline policy only. Every endpoint still needs its own explicit target definition. Relevance to independent operation or model features can reactivate a fact.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "source_availability_review",
+      "forecast_cash_moic": "REQUIRED_FACT",
+      "historical_cash_moic": "REQUIRED_FACT",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Required fact/provenance or all-row scope, not a demand for duplicate columns or fresh independent review per field. Reuse version-bound evidence; forecast cutoff prevents look-ahead.",
+      "operating_survival": "REQUIRED_FACT",
+      "qualifying_company_success": "REQUIRED_FACT"
+    },
+    {
+      "field": "success_date",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "initial_state",
+        "index_success_and_target",
+        "typed_event_chronology"
+      ],
+      "note": "Needed when classifying a claimed qualifying success, evaluating first-event/competing chronology, or materially modeling cash outcomes. No-event/unknown labels need observation coverage, not fabricated event fields. Shared source-bound claim IDs can replace duplicated URL/hash columns.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "success_evidence_sha256",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Needed when classifying a claimed qualifying success, evaluating first-event/competing chronology, or materially modeling cash outcomes. No-event/unknown labels need observation coverage, not fabricated event fields. Shared source-bound claim IDs can replace duplicated URL/hash columns.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "success_evidence_url",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Needed when classifying a claimed qualifying success, evaluating first-event/competing chronology, or materially modeling cash outcomes. No-event/unknown labels need observation coverage, not fabricated event fields. Shared source-bound claim IDs can replace duplicated URL/hash columns.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "success_type",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Needed when classifying a claimed qualifying success, evaluating first-event/competing chronology, or materially modeling cash outcomes. No-event/unknown labels need observation coverage, not fabricated event fields. Shared source-bound claim IDs can replace duplicated URL/hash columns.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "success_valuation_multiple",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "OPTIONAL",
+      "legacy_groups": [
+        "index_success_and_target"
+      ],
+      "note": "Required for the comparable priced-equity >=1.5x branch, not independently qualifying IPO branches. Optional for directly measured historical cash MOIC. A forecast may use actual entry/conversion/valuation scenarios; legacy corporate growth alone never establishes cash MOIC.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "terminal_event_evidence_url",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "endpoint_observation"
+      ],
+      "note": "Only observed/relevant terminal facts or candidate conflicts require classification and source binding. A missing field is neither closure nor nonclosure; terminal events can matter differently to each endpoint.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "terminal_event_interval_end",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Preserve supplied precision; sufficient relevant timing is mandatory, exact complete sequence is method-specific. Cash-at-horizon may need only inclusion before/after H; a forecast needs dated available history, not future event times.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "terminal_event_interval_start",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Preserve supplied precision; sufficient relevant timing is mandatory, exact complete sequence is method-specific. Cash-at-horizon may need only inclusion before/after H; a forecast needs dated available history, not future event times.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    },
+    {
+      "field": "terminal_event_midpoint_for_primary",
+      "forecast_cash_moic": "OPTIONAL",
+      "historical_cash_moic": "OPTIONAL",
+      "legacy_groups": [
+        "typed_event_chronology"
+      ],
+      "note": "Never required as a factual event time. A midpoint can only be a labelled sensitivity scenario under separate method approval, never an automatic primary transition.",
+      "operating_survival": "OPTIONAL",
+      "qualifying_company_success": "OPTIONAL"
+    },
+    {
+      "field": "terminal_event_type",
+      "forecast_cash_moic": "CONDITIONAL",
+      "historical_cash_moic": "CONDITIONAL",
+      "legacy_groups": [
+        "initial_state",
+        "typed_event_chronology"
+      ],
+      "note": "Only observed/relevant terminal facts or candidate conflicts require classification and source binding. A missing field is neither closure nor nonclosure; terminal events can matter differently to each endpoint.",
+      "operating_survival": "CONDITIONAL",
+      "qualifying_company_success": "CONDITIONAL"
+    }
+  ],
+  "policy_version": "endpoint-evidence-v0.1.0",
+  "scope": "First three columns: historical endpoints in the existing funded-round platform/year frame. Forecast column: proposed investor position. Conditional can be required after applicability review; UNKNOWN never implies optional. This map does not modify the frozen audit."
+}

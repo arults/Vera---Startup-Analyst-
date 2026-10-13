@@ -1,0 +1,49 @@
+{
+  "bytes": 12981427,
+  "campaign_url": "https://republic.com/fcf-glacier-boyz-2021",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "FCF Team 1 - Glacier Boys Form C:A.pdf",
+  "page_count": 157,
+  "parent_sha256": "f0f02890dd8932da558572b1781be62e7b4730388aada08993ae9cc306203f38",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1447,
+      "pymupdf_sha256": "fac8c93ede2eced3327ba4971813c516951b782b249a072063259594d4894409",
+      "pypdf_chars": 1448,
+      "pypdf_sha256": "70a268718660115e7b32bea8d7b1ad5a5c94f311e1335a610a92e77d16d63973"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1617,
+      "pymupdf_sha256": "756889e82f61640d9368d29b340f7d41a6789e5e5eead52655240374cff3a4a5",
+      "pypdf_chars": 1618,
+      "pypdf_sha256": "d52f8c09f3cddd54432a296f22d4dd16b3bb7df6b1c1c7e5d89682588e739331"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1419,
+      "pymupdf_sha256": "77bb2e43d1c9c6609fe4e182e511a95b85b52ec01188fccdec76786b92fcf43e",
+      "pypdf_chars": 1421,
+      "pypdf_sha256": "b8c7e3494433f30c59af7c7f1700ee0d13a8dadb8fd0ec57b2d239c00ec94a76"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 316,
+      "pymupdf_sha256": "e0e56a01045abb9defea8700aedbf477cf906a059a7f5680851577a6b06b31db",
+      "pypdf_chars": 318,
+      "pypdf_sha256": "9f878664d8b2b92250e7bd00797f15a73c08605b3e3e73e9f9f0507d352ed770"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/eafd36768b960c7b2a16c06a4acdaad218da14b184e15972b9c8975700367cec.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/eafd36768b960c7b2a16c06a4acdaad218da14b184e15972b9c8975700367cec.bin.gz",
+  "source_sha256": "eafd36768b960c7b2a16c06a4acdaad218da14b184e15972b9c8975700367cec",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/533?view=preview"
+}

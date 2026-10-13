@@ -1,0 +1,49 @@
+{
+  "bytes": 4390339,
+  "campaign_url": "https://republic.com/teooh",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Teooh Form C-A 6.1.20.pdf",
+  "page_count": 96,
+  "parent_sha256": "fc819eeea756571473f1dec1681d0c829aec3a3dbb6588048617314d21d84333",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1010,
+      "pymupdf_sha256": "61fe6c97d1251cea26eb989b818c8f9cdc2e42c5a132caa14b1a0395bd471233",
+      "pypdf_chars": 1010,
+      "pypdf_sha256": "61fe6c97d1251cea26eb989b818c8f9cdc2e42c5a132caa14b1a0395bd471233"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1443,
+      "pymupdf_sha256": "4dab965af1e3e293d5e62d26931d725512329cb0ff00a791cfaae8e2b40121f7",
+      "pypdf_chars": 1444,
+      "pypdf_sha256": "4ed623eff74fec3fd96a21bd4008986a27c39a7470458d578c8e393c87db91c4"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 2037,
+      "pymupdf_sha256": "389c94d4f3685695b42a070b27c3ed6379e2539b33d1af460ebaf4feb48e86f4",
+      "pypdf_chars": 2056,
+      "pypdf_sha256": "ce055debf3f7e0eaba49d7040667e79cdd2f94a49463736a917c8ec4587f4645"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1235,
+      "pymupdf_sha256": "4e1a6f4b294a59aa2fbeafe2a02db4ec04f488ad3a5f096093fe4bd28d2b2eb5",
+      "pypdf_chars": 1235,
+      "pypdf_sha256": "4e1a6f4b294a59aa2fbeafe2a02db4ec04f488ad3a5f096093fe4bd28d2b2eb5"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/83e68aa8c77d6f88e43246f72d845d6ed3f3ff2b32d260e126510e7e992ba371.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/83e68aa8c77d6f88e43246f72d845d6ed3f3ff2b32d260e126510e7e992ba371.bin.gz",
+  "source_sha256": "83e68aa8c77d6f88e43246f72d845d6ed3f3ff2b32d260e126510e7e992ba371",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/209?view=preview"
+}

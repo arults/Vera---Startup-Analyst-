@@ -1,0 +1,18 @@
+{
+  "audit_code_sha256": "44d7b5de991fd13f2be786c60212b78878b0843b33e583440b6cd7b9c63abafd",
+  "audit_version": "preparation-disposition-audit-v0.1.0",
+  "complete_local_output_sha256": {
+    "row-dispositions.jsonl": "a946f5d6a45263169d776f752ec8367a2dc9b49977ff09e338fc903ea916ab84",
+    "summary.json": "2f49f8a27de5a11f2f450b9e4672e2df296f8bc9dc35dba79a29cc98954327f8",
+    "targeted-review-queue.json": "13808ce73f975ac6e1e17401cdbb2636cbdcf9c5d40e5ab87b00a381170c03a7"
+  },
+  "eligible_row_count": null,
+  "full_row_dispositions_included": false,
+  "ineligible_row_count": null,
+  "public_priority_queue_sha256": "31e23f9cefbb8404d9f10309b54fb8a85c93eb5d4475e5398d1d80c824b6b1d3",
+  "public_summary_sha256": "2f49f8a27de5a11f2f450b9e4672e2df296f8bc9dc35dba79a29cc98954327f8",
+  "raw_entity_identifiers_in_public_queue": false,
+  "source_ledger_repo_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+  "source_ledger_sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+  "source_row_ordinals_in_public_queue": true
+}

@@ -1,0 +1,39 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "state": {
+    "phase": "Phase 1D CP4 improvement loop after Round 1",
+    "republic_europe": "candidate-only; all estimable RQ1 cells LOW_INFORMATION; no RQ2 field cell passes",
+    "wefunder": "PARTIAL_RECENT_ARCHIVE; rates suppressed",
+    "republic_us": "bounded recovery encountered HTTP 403; rates suppressed",
+    "startengine": "CENSUS_INCOMPLETE; official directory total 1539; native recovery not previously executed",
+    "crowdcube": "CENSUS_INCOMPLETE; Cloudflare blocked"
+  },
+  "answers": {
+    "next_step": {
+      "choice": "probe_startengine_native",
+      "confidence": 0.75,
+      "probabilities": {
+        "probe_startengine_native": 0.81,
+        "improve_republic_europe_outcomes": 0.15,
+        "salvage_republic_us_probe": 0.04,
+        "probe_crowdcube_native": 0.0
+      }
+    },
+    "plateau_status": {
+      "choice": "no",
+      "confidence": 0.95,
+      "probabilities": {
+        "no": 0.97,
+        "yes": 0.02,
+        "uncertain": 0.01
+      }
+    }
+  },
+  "decision": "EXECUTE_BOUNDED_STARTENGINE_NATIVE_RECOVERY",
+  "constraints": [
+    "Do not promote StartEngine rates unless historical platform-year denominator completeness is independently verified.",
+    "Persist raw public evidence, content hashes, checkpoints, runtime and tests.",
+    "Any partial or blocked recovery remains CENSUS_INCOMPLETE."
+  ]
+}

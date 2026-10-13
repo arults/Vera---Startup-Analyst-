@@ -1,0 +1,18 @@
+{
+  "bytes": 178619,
+  "campaign_url": "https://republic.com/american-provenance",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/american-provenance/show_updates",
+  "gzip_sha256": "1e687ad9f3a9a4ace4830d91fbbda27653eeee78f5702137225b24782dc3082c",
+  "http_status": 200,
+  "parent_sha256": "c07acaa13676a50cd7d0d5a98972b6c566eee2f6c565ae9fbd58772a95c90617",
+  "raw_sha256": "361ef65daa940240c40e16ffe328aad4ce359c9e167e17bd8df13599854cee5f",
+  "received_at": "2026-10-10T02:23:19.467811+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:18.699112+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/361ef65daa940240c40e16ffe328aad4ce359c9e167e17bd8df13599854cee5f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/american-provenance/show_updates"
+}

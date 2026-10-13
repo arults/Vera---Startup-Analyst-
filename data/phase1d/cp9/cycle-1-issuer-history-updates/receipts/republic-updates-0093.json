@@ -1,0 +1,19 @@
+{
+  "bytes": 99896,
+  "campaign_url": "https://republic.com/skyboundcf",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/skyboundcf/show_updates",
+  "gzip_sha256": "f5ec3648cdf2d8b31b8d2159121df311662de40d45bf56cf8f074dbbd2fd7059",
+  "http_status": 200,
+  "legal_name": "Skybound Holdings LLC",
+  "native_offering_id": 8713,
+  "parent_sha256": "ffb77bb9dda75348cee4c27a4d3180d33586ab0f30d865940d85524f3f3bafb8",
+  "raw_sha256": "13b6dde3d45c7ab38e465ea2ebad5b3726ebc0c448437d0ea62ea052ee9fe4c6",
+  "received_at": "2026-10-10T00:52:33.538784+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:32.964606+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/13b6dde3d45c7ab38e465ea2ebad5b3726ebc0c448437d0ea62ea052ee9fe4c6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/skyboundcf/show_updates"
+}

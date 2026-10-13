@@ -1,0 +1,20 @@
+{
+  "bytes": 132118,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/hubble-ama",
+  "gzip_sha256": "31dc5193a6a6a52792d545276b3f683aefa1ac03850051ef789d9d77f6d91ab7",
+  "http_status": 200,
+  "raw_sha256": "8c8bccb50e647d1788719aae7362791cba4fdc2d4c75633d3be43b60a4e08661",
+  "received_at": "2026-10-10T02:30:23.505095+00:00",
+  "redirects": [
+    "https://republic.com/events/hubble-ama"
+  ],
+  "retrieval_started_at": "2026-10-10T02:30:22.837127+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8c8bccb50e647d1788719aae7362791cba4fdc2d4c75633d3be43b60a4e08661.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hubble-ama"
+}

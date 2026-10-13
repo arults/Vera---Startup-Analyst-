@@ -1,0 +1,29 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scope": "Plan review for a deterministic local research-ledger adapter. No code or private documents transmitted. Two public Republic campaigns, Phantom Phood and Stock Card, already have exact-matrix independent source review and final factual JEV acceptance.",
+    "method": "Restrict the adapter to those two exact approved rows. Pin the matrix, decision, independent review, public original source bytes and source-field anchors by SHA-256. Reject changed or missing artifacts, extra rows, stale decisions, absent review, source/ID/date mismatches and duplicate representations. Preserve sequential stages: source integrity, company identity, observed economic round, launch/completion, aggregate funding, field classification, then canonical local research admission. Later outcome/census unknowns do not erase earlier accepted stages.",
+    "data_scope": "Canonical records use valuation_cap=null and comparable_valuation=null; original offered SAFE caps remain a separately named amount with original-source hash, page/anchor and scope. Preserve Phantom's three amount displays and conditional possible concurrent-financing uncertainty. No-positive-cohost evidence is bounded, not absence proof; do not fabricate graph bridges.",
+    "outputs": "Atomic nonoverwrite versioned local canonical research ledger with two admitted observed Layer B research rows, plus stage and unresolved ledgers. Production admission, estimation eligibility, rates, priors, full historical coverage, global plateau and phase completion all stay false. Deterministic replay must be identical; independently review frozen code/input/output hashes before release acceptance.",
+    "testing": "Adversarial changes to all approval/source hashes, extra rows, missed medium-identity review, intermediary/issuer scope, pending/failed or template-only funding, date substitutions, prior-year launch, cap-as-priced-value, cohost absence, duplicate records and writes to existing nonidentical output. This narrow adapter authenticates bound upstream semantic review; it is not a generic automated source-proof engine."
+  },
+  "questions": {
+    "method": {
+      "type": "choice",
+      "instructions": "Choose the justified next step.",
+      "criteria": {
+        "implement_verify_bounded_adapter": "Implement and independently verify this exact-row, fail-closed, non-promotional research adapter.",
+        "generic_mass_promotion": "Generalize immediately to all discovered rows based on native state alone.",
+        "block_all": "Reject all local research admission despite upstream factual acceptance."
+      }
+    },
+    "stage_separation": {
+      "type": "noul",
+      "instructions": "Should canonical local research admission remain separate from census completeness, outcomes, estimation and production promotion?",
+      "criteria": {
+        "true": "Separate accepted early facts and unresolved downstream gates.",
+        "false": "Set downstream completion gates true when the two rows are admitted."
+      }
+    }
+  }
+}

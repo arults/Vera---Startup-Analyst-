@@ -1,0 +1,83 @@
+name: Phase 1D CP8 native outcome research
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp8-native-outcomes.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp8-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Preserve existing data fingerprints
+        run: |
+          python - <<'PY'
+          import json,hashlib,pathlib
+          rows={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in pathlib.Path('data').rglob('*') if p.is_file()}
+          pathlib.Path('/tmp/cp8-before.json').write_text(json.dumps(rows,sort_keys=True))
+          PY
+      - name: Execute materially different primary-source research
+        run: python -m src.phase1d.capture_cp8_native_outcomes
+      - name: Verify regressions, data preservation and evidence mutation rejection
+        run: |
+          mkdir -p evidence/phase1d_cp8/cycle2
+          python -m unittest discover -s tests -v > evidence/phase1d_cp8/cycle2/tests.txt 2>&1
+          python - <<'PY'
+          import json,hashlib,pathlib
+          from src.phase1d.analyze_cp7_empirical import capture_bytes
+          from src.phase1d.capture_cp7_sources import ROOT
+          out=pathlib.Path('data/phase1d/cp8/cycle-2-native-outcomes')
+          before=json.loads(pathlib.Path('/tmp/cp8-before.json').read_text())
+          assert all(hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()==h for p,h in before.items())
+          manifest=json.loads((out/'manifest.json').read_text())
+          obs=json.loads((out/'outcome_observations.json').read_text())
+          challenges=[]
+          valid=next((r for r in manifest if r.get('content_sha256') and r.get('capture_path')),None)
+          if valid:
+              bad=dict(valid);bad['content_sha256']='0'*64
+              try:capture_bytes(ROOT,bad)
+              except ValueError:challenges.append({'challenge':'altered content hash','rejected':True})
+              else:raise AssertionError('tampered evidence accepted')
+          for row in obs:
+              assert row['exact_gross_moic'] is None
+              assert not row['estimation_eligible'] and row['cohort_offering_year'] is None
+              if row['company']=='Ring4':assert not row['qualifying_success_observation_candidate'] and not row['closure_established']
+              if row['company']=='Trusst':assert row['reported_annualized_return_pct']==102 and row['exact_event_date'] is None
+          report={'all_existing_data_files_preserved':True,'data_files_verified':len(before),'mutation_challenges':challenges,'observations_independently_checked':len(obs),'full_study_complete':False,'rates_promoted':False}
+          pathlib.Path('evidence/phase1d_cp8/cycle2/independent-verifier.json').write_text(json.dumps(report,indent=2)+'\n')
+          PY
+      - name: Commit additive empirical checkpoint
+        run: |
+          git config user.name 'Vera research checkpoint'
+          git config user.email '109891188+arults@users.noreply.github.com'
+          git add data/phase1d/cp8/cycle-2-native-outcomes evidence/phase1d_cp8/cycle2
+          git diff --cached --name-status > /tmp/cp8-native-changes.txt
+          if grep -v '^A' /tmp/cp8-native-changes.txt; then exit 1; fi
+          git commit -m 'CP8 cycle2: preserve source-bound payout observations, controls and incomplete-census holds'
+          git push origin HEAD:phase-1d
+      - name: Export evidence and exact tracked source
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp8-native
+          git archive --format=tar.gz --output=/tmp/vera-cp8-native/branch-source.tar.gz HEAD
+          git rev-parse HEAD > /tmp/vera-cp8-native/source-commit.txt
+          tar -czf /tmp/vera-cp8-native/execution-evidence.tar.gz evidence/phase1d_cp8 data/phase1d/cp8 data/phase1d/cp7/analysis-cp8-verified 2>/dev/null || true
+          sha256sum /tmp/vera-cp8-native/*.tar.gz > /tmp/vera-cp8-native/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp8-native-evidence-${{ github.run_id }}
+          path: /tmp/vera-cp8-native/
+          retention-days: 90
+          if-no-files-found: error

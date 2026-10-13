@@ -1,0 +1,77 @@
+name: Phase 1D CP8 research and reconciliation
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp8-research.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp8-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Baseline regression and archive coverage assertions
+        run: |
+          mkdir -p evidence/phase1d_cp8
+          python -m unittest discover -s tests -v > evidence/phase1d_cp8/tests.txt 2>&1
+          python - <<'PY'
+          from src.phase1d.capture_cp8_published_archives import coverage, published_quarters, archive_tables
+          import io, zipfile, json
+          q=published_quarters()
+          assert len(q)==len(set(q))==26 and (2026,3) not in q
+          assert coverage([])['all_target_filing_archives_verified'] is False
+          complete=[dict(year=y,quarter=p,status='OFFICIAL_ARCHIVE_VERIFIED_DISCOVERY_ONLY') for y,p in q]
+          target=coverage([r for r in complete if r['year']<2026])
+          assert target['all_target_filing_archives_verified'] and not target['all_published_filing_archives_verified']
+          assert not coverage(complete)['platform_census_complete'] and not coverage(complete)['rates_promoted']
+          assert coverage([complete[0]]*26)['published_quarters_verified']==1
+          assert coverage([dict(year=y,quarter=p,status='HTTP_ERROR') for y,p in q])['published_quarters_verified']==0
+          data=io.BytesIO()
+          with zipfile.ZipFile(data,'w') as z:z.writestr('SUBMISSION.tsv','ACCESSION_NUMBER\tCIK\n1\t2\n')
+          assert archive_tables(data.getvalue())[0]['data_rows']==1
+          try: archive_tables(b'<html>Access denied</html>')
+          except ValueError: pass
+          else: raise AssertionError('HTML accepted as archive')
+          print('8 archive/coverage assertions passed')
+          open('evidence/phase1d_cp8/archive-assertions.json','x').write(json.dumps({'passed':8,'total':8,'scope':'engineering assertions, not source availability'}))
+          PY
+      - name: New source route - published static archives only
+        run: python -m src.phase1d.capture_cp8_published_archives
+      - name: Reconcile CP7 raw evidence, exact prices and candidate estimates
+        run: python -m src.phase1d.analyze_cp7_empirical --output data/phase1d/cp7/analysis-cp8-verified > evidence/phase1d_cp8/cp7-reconciliation.txt
+      - name: Preserve historical scientific gates
+        run: python -m src.phase1d.verifier_v4 > evidence/phase1d_cp8/historical-scientific-verifier.txt
+      - name: Commit additive research checkpoints only
+        run: |
+          git config user.name 'Vera research checkpoint'
+          git config user.email '109891188+arults@users.noreply.github.com'
+          git add data/phase1d/cp8 data/phase1d/cp7/analysis-cp8-verified evidence/phase1d_cp8
+          git diff --cached --name-status > /tmp/cp8-changes.txt
+          if grep -v '^A' /tmp/cp8-changes.txt; then exit 1; fi
+          git commit -m 'CP8: preserve source recovery receipts and verified CP7 empirical reconciliation; no promotion'
+          git push origin HEAD:phase-1d
+      - name: Export exact tracked source and research evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp8
+          git archive --format=tar.gz --output=/tmp/vera-cp8/branch-source.tar.gz HEAD
+          git rev-parse HEAD > /tmp/vera-cp8/source-commit.txt
+          tar -czf /tmp/vera-cp8/execution-evidence.tar.gz evidence/phase1d_cp8 data/phase1d/cp8 data/phase1d/cp7/analysis-cp8-verified 2>/dev/null || true
+          sha256sum /tmp/vera-cp8/*.tar.gz > /tmp/vera-cp8/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp8-evidence-${{ github.run_id }}
+          path: /tmp/vera-cp8/
+          retention-days: 90
+          if-no-files-found: error

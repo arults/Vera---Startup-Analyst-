@@ -1,0 +1,49 @@
+Vera Phase 1D activity checkpoint
+2026-10-11, 06:30–07:00 UTC
+
+06:30 — Requested work: pending Phase 1D fixes, JEV-guided review and readable activity logs. No full research-completion claim.
+
+06:34 — Generic JEV methodology review favored fresh verification, preserved unknowns and scoped publication. No actual private company data or code was submitted; this is not empirical approval.
+
+06:35–06:38 — Rebased and published the additive company register at f36fb8109786718ee2402447cf86e934e2b8cc2a. The previous 94,730-byte SKILLS prefix and 7,629 other existing files were preserved. The register reconciles 2,865 rows from selected frozen inputs into nine logical tables; this is not a full population census. Twenty-five tests and 50 separate checks passed.
+
+06:39–06:40 — Verified the register's remote commit, tree, parent and SKILLS bytes. All four triggered CI workflows passed. Company research-completion counts remain unclassified.
+
+06:40 — A bounded identity check found no supported link between the selected 42 strict issuer records and 57 native profile IDs. One shared-token candidate was examined; association did not establish issuer equality. Other hints remain unresolved. No population overlap or disjointness was inferred, and no companies were merged.
+
+06:40–06:47 — Reconstructed the unpublished caller bootstrap safeguard as a fresh successor. The exact older candidate was unavailable, so fresh verification was required. Published at f909af945c5b027204d02729bb6357278f5a2eaf. Forty-seven local tests, including the optional archived replay, and 39 separate checks passed. Independently recomputed 13,000 v4 and 16,000 v5 draws; these overlapping versions are not 29,000 companies. Legacy RQ1 columns and RQ2 results remained unchanged. A synthetic example retained all 1,000 draws and withheld the interval because 257 lacked support. No actual-cohort failure was found in those replays. Private full-draw sidecars were excluded from publication.
+
+06:47 — A second generic JEV review supported bounded release, careful source attribution and scoped review claims. It did not review actual private code or study data.
+
+06:49 — Five workflows on the bootstrap commit passed. The existing Republic Europe identity workflow failed because beautifulsoup4 was omitted from its dependency installation; two imports failed. It stopped before rebuilding or pushing outputs. Inspection also found a separate latent success-path hazard: mutable branch checkout and automatic checkpoint writes omitted the newly required sidecars. A scoped isolated-output repair was prepared; no all-green claim was made.
+
+06:51–06:53 — Published the additive first-success uncertainty package at 57a4b99d09f1d362336335598bfd4bb846b2d8f1. Eleven new files; all 7,656 prior files preserved. Ninety-four tests passed locally and in exact-head CI; all four triggered workflows passed. Independent review covered 960 rational-reference cases and 514 reconstructed draws. Two numerical edge bugs were found, fixed and retested. Real-history preparation and empirical integration remain open.
+
+06:43–06:57 — Collected and independently reviewed 14 bounded source/qualification records. Black Sands native evidence supports historical 2023 and pre-August-2024 reported activity; its anime project is a different issuer. Rentberry's native legal document supplies a CIK bridge, while legal deadline and displayed completion dates remain distinct. Two Black Sands outside records establish catalog solicitation and interview coverage only. Financial discrepancies were retained. The three collection stages used 10, five and eight reads respectively. No source record became a canonical operating outcome, success event or promoted rate.
+
+07:00 preparation — The identity workflow repair passes 28 local tests and 16 independent checks; its full repository suite and four-stage replay remain pending exact-head CI. The preparation audit retains all 952 input rows with eligibility undetermined, and identifies a bounded review queue without constructing histories. Final audit publication and remote checks are still pending at this checkpoint.
+
+Remaining research gates include source-qualified identities and histories, explicit endpoint preparation, empirical adapter/report integration and appropriate scientific review. Passing software tests does not establish complete Phase 1D coverage, calibrated investor-return probabilities or a global research plateau.
+
+
+FOLLOW-UP: 07:00–07:14 UTC
+
+07:02 — Published isolated identity CI, the 14-record source-context packet, preserved-prefix SKILLS lessons and the preceding activity checkpoint at 7b5d73fdc7d8b64e91951dc51fe803ba645fa9cb. Publication was limited to reviewed files; no raw source captures or full private draw artifacts were included.
+
+07:04 — Published the nine-file preparation audit at f5c15945a7a99d823247a5d9c7271cfaf6cc487f. Its 27 tests and pinned reference reproduction passed in exact-head CI; all four triggered workflows passed. All 952 original rows remain represented with evidence eligibility undetermined. A targeted queue contains 398 distinct rows, with overlapping flags for 70 success-label reviews, 287 rows across 124 repeated companies, 156 unresolved offering years, and two interval/unknown-value terminal rows. The other 554 rows are not implicitly approved. Queue ordinals remain linkable to the source and retain its existing repository access scope.
+
+07:05 — The repaired identity workflow ran 390 tests successfully with one optional skip, then stopped at the strict test-export integrity guard. No producer ran. The original checkout remained unchanged. Passing tests alone were not reported as an end-to-end pass.
+
+07:06 — A third generic JEV methodology review supported exact diagnosis, narrow correction and honest pending status. It did not adjudicate private company facts or code. An adjacent compatibility check passed 117 unique tests, including 23 pre-existing lost-follow-up sensitivity tests; all tested source files remained unchanged. This is an overlapping component check, not 117 new observations.
+
+07:08 — Published a diagnostic-only revision at e5fc4f8c4b2ef9627ab426fb6358474eee865d55. Thirty-one local tests and 500 separate inventory comparisons verified unchanged strict rejection behavior. Diagnostics contain relative paths and hash/mode changes, without file contents.
+
+07:09–07:10 — Exact-head diagnostics established 32 newly added Python cache files under two multisource packages, with zero existing-source modifications or deletions. The cause was nested Python isolated mode (-I), which ignores PYTHONDONTWRITEBYTECODE inherited from the parent. The correction explicitly passes -B in both wrappers. Four regression tests reproduce the original issue, prove unchanged source inventories after the correction and preserve failure propagation. No inventory guard was relaxed.
+
+07:11–07:13 — Published the narrow wrapper correction at e42ac2a525a5382eea24378c8e03a13201b32240. All five triggered workflows passed. The complete identity workflow discovered 397 tests: 396 passed and one optional archived-replay test was skipped. All four unchanged producer stages completed in an isolated exact-head copy. Original-source immutability, complete CSV-to-manifest-to-draw bindings and candidate-only status passed. Only hash/status evidence was uploaded; no new empirical rate or prior was promoted. This closes the workflow failure observed earlier in the session.
+
+07:12–07:14 — Independently verified every one of the 7,271 pre-existing data/ paths against the session baseline: identical Git blob, mode and type; zero added, removed or changed data paths. Prepared the final user-facing results, verification ledger and preventive SKILLS lessons.
+
+Three generic JEV evaluations were used, totaling 2,132 input and 415 output tokens reported by that service. These are usage counts, not a price estimate, calibration measure or actual-study approval. Choice confidence is not an investment probability.
+
+Current scientific status: Phase 1D remains incomplete. Required work includes reviewed entry/round identities and endpoint histories, the actual-history adapter and separately verified empirical report, broader cohort/source coverage, and appropriate scientific review. Numerical or CI success cannot fill missing evidence. No global plateau or calibrated 10x/25x/50x/100x probabilities is claimed.

@@ -1,0 +1,18 @@
+{
+  "bytes": 411809,
+  "campaign_url": "https://republic.com/insense",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/insense/show_updates",
+  "gzip_sha256": "a9cb3299a9f68021cfd04f0ab149af227515fbf077db1bab433371248200db3e",
+  "http_status": 200,
+  "parent_sha256": "054a755c2489074269f9c5016d3228446adad3cc0cebd0e85e16c5a2096b68eb",
+  "raw_sha256": "5b5d167baf901cbedb796768d97675ece88e70b73fd59b7dd5f9f37f45b915fa",
+  "received_at": "2026-10-10T02:31:01.295852+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:00.263892+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5b5d167baf901cbedb796768d97675ece88e70b73fd59b7dd5f9f37f45b915fa.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/insense/show_updates"
+}

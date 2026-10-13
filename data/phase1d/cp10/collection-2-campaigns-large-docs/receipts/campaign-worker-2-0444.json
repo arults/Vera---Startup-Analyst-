@@ -1,0 +1,18 @@
+{
+  "bytes": 133202,
+  "campaign_url": "https://republic.com/phuc-labs",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/phuc-labs/show_updates",
+  "gzip_sha256": "3b16fab03d6f96e25c466b84b9c2069c1000dd00f0e56b49043e20c299c04585",
+  "http_status": 200,
+  "parent_sha256": "da9acec997332bc3333d809fe0248b31fd5dbb40c67716acebf565868ce5e691",
+  "raw_sha256": "04087fd0eabc51db3afc3ec07e7a25d2a64d3ced30438047fef8d52ee33d6c71",
+  "received_at": "2026-10-10T02:35:10.230596+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:09.317164+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/04087fd0eabc51db3afc3ec07e7a25d2a64d3ced30438047fef8d52ee33d6c71.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/phuc-labs/show_updates"
+}

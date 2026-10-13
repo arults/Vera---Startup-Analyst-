@@ -1,0 +1,618 @@
+{
+  "checkpoint": "PHASE_1D_CP4_POST_CLOSURE_AUDIT",
+  "closure_audit_effect": "NO_OUTCOME_LABEL_CHANGE",
+  "gate_count": 43,
+  "gates": [
+    {
+      "detail": "PASS_NATIVE_ENUMERABLE",
+      "id": "D3_01_REU_NATIVE_CENSUS",
+      "passed": true
+    },
+    {
+      "detail": [
+        "crowdcube",
+        "republic_us",
+        "startengine",
+        "wefunder"
+      ],
+      "id": "D3_02_OTHER_PLATFORM_SUPPRESSION",
+      "passed": true
+    },
+    {
+      "detail": {
+        "archive_status": "PARTIAL_RECENT_ARCHIVE",
+        "evidence_files": [
+          "cp1_wefunder_us_listed_visible.csv",
+          "cp1_wefunder_us_listed_visible_summary.json"
+        ],
+        "native_api_company_rows": 149,
+        "native_api_nbHits": 149,
+        "observed_started_year_counts": {
+          "2021": 3,
+          "2022": 7,
+          "2023": 12,
+          "2024": 1,
+          "2025": 26,
+          "2026": 82
+        },
+        "phase1b_2020_known_denominator": 42,
+        "phase1b_known_match_share": 0,
+        "phase1b_known_name_matches": 0,
+        "rate_policy": "SUPPRESS",
+        "reason": "Wefunder native explore API is genuine and useful for recent platform observations, but the enumerated listed/visible archive recovers 0/42 of Vera's frozen 2020 Wefunder cohort; it is not denominator-grade for 2020-2025.",
+        "status": "CENSUS_INCOMPLETE",
+        "wefunder_portal_llc_rows": 144
+      },
+      "id": "D3_03_WEFUNDER_PARTIAL_NOT_CENSUS",
+      "passed": true
+    },
+    {
+      "detail": {
+        "browser": {
+          "candidate_count": 0,
+          "capture_count": 2,
+          "census_status": "CENSUS_INCOMPLETE",
+          "completed_seed_count": 0,
+          "directory_stops": [
+            {
+              "at": "2026-10-09T06:45:21.366789+00:00",
+              "reason": "ACCESS_OR_CAPTURE_ERROR",
+              "seed": "https://www.startengine.com/explore"
+            },
+            {
+              "at": "2026-10-09T06:45:24.024003+00:00",
+              "reason": "ACCESS_OR_CAPTURE_ERROR",
+              "seed": "https://www.startengine.com/explore/offerings"
+            }
+          ],
+          "errors": [
+            {
+              "at": "2026-10-09T06:45:21.366766+00:00",
+              "error": "HTTP 202",
+              "url": "https://www.startengine.com/explore"
+            },
+            {
+              "at": "2026-10-09T06:45:21.373282+00:00",
+              "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+              "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+            },
+            {
+              "at": "2026-10-09T06:45:21.375072+00:00",
+              "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+              "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+            },
+            {
+              "at": "2026-10-09T06:45:21.377186+00:00",
+              "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+              "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=Reg+D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED"
+            },
+            {
+              "at": "2026-10-09T06:45:24.023981+00:00",
+              "error": "HTTP 404",
+              "url": "https://www.startengine.com/explore/offerings"
+            },
+            {
+              "at": "2026-10-09T06:45:24.200856+00:00",
+              "error": "TargetClosedError('Response.body: Target page, context or browser has been closed')",
+              "url": "https://www.startengine.com/service/strapi/api/homepages?populate=%2A&pagination%5Bpage%5D=0&pagination%5BpageSize%5D=3"
+            }
+          ],
+          "explicit_total_hints": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "integrity_gates": {
+            "checks": {
+              "candidate_union_reconciles": true,
+              "candidate_urls_canonical": true,
+              "capture_counts_reconcile": true,
+              "captures_distinct": true,
+              "census_not_silently_complete": true,
+              "no_rate_promotion": true,
+              "public_resources_only": true,
+              "schema": true,
+              "snapshot_hashes_verified": true,
+              "timestamps_present": true
+            },
+            "passed": 10,
+            "total": 10
+          },
+          "manifest_sha256": "fbb429105c689316b0e425bced391815305f63598fef089a9e010a6d67aee9ee",
+          "rates_promoted": false,
+          "run_id": "gh-37895139483"
+        },
+        "endpoint": {
+          "candidate_count": 0,
+          "capture_count": 3,
+          "census_status": "CENSUS_INCOMPLETE",
+          "errors": [
+            {
+              "at": "2026-10-09T06:51:09.431181+00:00",
+              "error": "requests:HTTP 403;curl_cffi:HTTP 403",
+              "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+            },
+            {
+              "at": "2026-10-09T06:51:09.506974+00:00",
+              "error": "requests:HTTP 403;curl_cffi:HTTP 403",
+              "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+            },
+            {
+              "at": "2026-10-09T06:51:09.654186+00:00",
+              "error": "requests:HTTP 403;curl_cffi:HTTP 403",
+              "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&query=&regulationTypes=Reg+D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED&page=0"
+            }
+          ],
+          "integrity_gates": {
+            "checks": {
+              "all_capture_urls_allowlisted": true,
+              "bounded_page_count": true,
+              "candidate_union_reconciles": true,
+              "candidate_urls_canonical": true,
+              "capture_counts_reconcile": true,
+              "captures_distinct": true,
+              "census_not_silently_complete": true,
+              "no_rate_promotion": true,
+              "observed_endpoint_scope": true,
+              "public_resources_only": true,
+              "rates_remain_suppressed": true,
+              "schema": true,
+              "search_scope_not_misrepresented": true,
+              "snapshot_hashes_verified": true,
+              "timestamps_present": true
+            },
+            "passed": 15,
+            "total": 15
+          },
+          "manifest_sha256": "0f299c25ecc69dd84c5ae202fb9a9dff761a83fb879e205a38dd9e220f4f4559",
+          "rates_promoted": false,
+          "run_id": "gh-37895699284",
+          "scientific_conclusion": "This exact observed-endpoint attempt cannot establish full StartEngine historical denominator completeness; rates remain suppressed.",
+          "search_pages": [
+            {
+              "candidate_count": 0,
+              "ok": false,
+              "page": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "status": null,
+              "union_count": 0
+            }
+          ],
+          "search_stop_reason": "ACCESS_OR_SCHEMA_ERROR",
+          "static_results": [
+            {
+              "candidate_count": 0,
+              "ok": false,
+              "status": null,
+              "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+            },
+            {
+              "candidate_count": 0,
+              "ok": false,
+              "status": null,
+              "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+            }
+          ]
+        }
+      },
+      "id": "D3_04_STARTENGINE_ACCESS_EXHAUSTED_SUPPRESSED",
+      "passed": true
+    },
+    {
+      "detail": {
+        "archive_candidate_rows": 144,
+        "archive_cohort_year_resolved": 0,
+        "archive_estimation_eligible": 0,
+        "archive_integrity_pass": true,
+        "archive_rates_promoted": false,
+        "archive_source_rows": 144,
+        "archive_strong_company_ids": 0,
+        "coverage_status": "CENSUS_INCOMPLETE",
+        "public_probe_candidate_links": 400,
+        "recovery_candidate_count": 0,
+        "recovery_census_status": "CENSUS_INCOMPLETE",
+        "recovery_integrity_pass": true,
+        "recovery_rates_promoted": false,
+        "scientific_conclusion": "Republic US remains CENSUS_INCOMPLETE: the verified public archive contains 144 non-estimation-eligible candidates with zero resolved cohort years and zero strong legal IDs, and the bounded native recovery returned zero candidates. Rates remain suppressed.",
+        "structured_search_unique": 108
+      },
+      "id": "D3_05_REPUBLIC_US_SUPPRESSED",
+      "passed": true
+    },
+    {
+      "detail": {
+        "all": 952,
+        "unresolved": 156,
+        "usable": 796
+      },
+      "id": "D3_06_CP2_COUNTS",
+      "passed": true
+    },
+    {
+      "detail": 952,
+      "id": "D3_07_UNIQUE_ROUNDS",
+      "passed": true
+    },
+    {
+      "detail": "all 796 usable rows have canonical legal IDs",
+      "id": "D3_08_CANONICAL_STRONG_USABLE_IDS",
+      "passed": true
+    },
+    {
+      "detail": "raw + canonical fields present",
+      "id": "D3_09_RAW_LEGAL_IDS_PRESERVED",
+      "passed": true
+    },
+    {
+      "detail": {
+        "2020": 184,
+        "2021": 191,
+        "2022": 181,
+        "2023": 142,
+        "2024": 47,
+        "2025": 51
+      },
+      "id": "D3_10_YEAR_COUNTS",
+      "passed": true
+    },
+    {
+      "detail": {
+        "blocked": 0,
+        "merged": 3
+      },
+      "id": "D3_11_FORMATTING_COLLISION_AUDIT",
+      "passed": true
+    },
+    {
+      "detail": {
+        "companies_with_multiple_rounds": 124,
+        "normalized_rounds": 952,
+        "platform": "republic_europe",
+        "policy": "Audit only; no candidate auto-collapsed before Jev/Verifier decision.",
+        "repeat_round_rows": 287,
+        "rounds_per_company_distribution": {
+          "1": 665,
+          "2": 94,
+          "3": 24,
+          "4": 4,
+          "5": 1,
+          "6": 1
+        },
+        "same_round_review_candidates": 0,
+        "same_round_score_distribution": {},
+        "sequence_edge_candidates": 163,
+        "unique_companies": 789
+      },
+      "id": "D3_12_GRAPH_REBUILT",
+      "passed": true
+    },
+    {
+      "detail": {
+        "accepted_eligible_pages": 2,
+        "accepted_not_eligible_pages": 3,
+        "accepted_pages": 5,
+        "candidate_rows": 27,
+        "decision_counts": {
+          "ACCEPTED_JEV_RULE": 5,
+          "HELD_COLLISION": 8,
+          "HELD_INSUFFICIENT_SIGNALS": 14
+        },
+        "followup_rows_extended": 2,
+        "generated_at": "2026-10-09T07:11:12.821895+00:00",
+        "held_candidate_rows": 22,
+        "jev": {
+          "acceptance_rule_probability": 0.87,
+          "hold_lower_ranked_collision_probability": 0.83,
+          "normalize_then_rebuild_probability": 0.94
+        },
+        "observations_v1_rows": 453,
+        "observations_v2_rows": 458,
+        "policy": "Accepted only single-candidate pages with a unique top and both platform_slug_exact and deterministic_alias_exact; every collision, tie and one-signal rebrand remains held.",
+        "queue_pages": 23,
+        "usable_cohort_unique_companies": 676,
+        "usable_companies_with_positive_followup": 262,
+        "usable_positive_followup_coverage": 0.3875739644970414
+      },
+      "id": "D3_13_IDENTITY_REVIEW_DISPOSITION",
+      "passed": true
+    },
+    {
+      "detail": 0.3875739644970414,
+      "id": "D3_14_IDENTITY_COVERAGE_EXPOSED",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_15_NO_WEAK_IDENTITY_ACCEPTANCE",
+      "passed": true
+    },
+    {
+      "detail": {
+        "companies": 789,
+        "ledger": 952,
+        "rate": 796
+      },
+      "id": "D3_16_LEDGER_V4_COUNTS",
+      "passed": true
+    },
+    {
+      "detail": "round IDs map exactly to CP2 canonical identities",
+      "id": "D3_17_LEDGER_IDENTITY_RECONCILIATION",
+      "passed": true
+    },
+    {
+      "detail": {
+        "closure": 0,
+        "success": 63,
+        "terminal": 2
+      },
+      "id": "D3_18_OUTCOME_COUNTS",
+      "passed": true
+    },
+    {
+      "detail": {
+        "closure_rows": 0,
+        "followup_companies_extended": 1,
+        "followup_rounds_extended": 2,
+        "identity_rows_migrated": 946,
+        "positive_observation_companies": 291,
+        "rows": 952,
+        "rules": {
+          "company_identity": "round_id -> canonical normalized company identity from CP2 rebuild",
+          "not_eligible": "neutral; does not extend follow-up and is not closure",
+          "positive_followup": "latest reviewed Eligible business-page observation extends only nonterminal rows",
+          "terminal": "later secondary status cannot reopen a terminal endpoint"
+        },
+        "success_rows": 63,
+        "supersedes_for_estimation": "cp3_republic_europe_outcome_ledger_v3.csv",
+        "terminal_events_reopened": 0,
+        "terminal_rows": 2,
+        "unique_companies": 789,
+        "usable_rows": 796,
+        "usable_unique_companies": 676,
+        "version": "v4"
+      },
+      "id": "D3_19_NO_TERMINAL_REOPEN",
+      "passed": true
+    },
+    {
+      "detail": "zero valuation remained a review signal only",
+      "id": "D3_20_NO_ZERO_VAL_AUTO_CLOSURE",
+      "passed": true
+    },
+    {
+      "detail": 24,
+      "id": "D3_21_RQ1_SHAPE",
+      "passed": true
+    },
+    {
+      "detail": "CANDIDATE_ONLY",
+      "id": "D3_22_CANDIDATE_ONLY_LABELS",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_23_INDEPENDENT_POINT_RECOMPUTATION",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_24_PROBABILITY_BOUNDS",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_25_INTERVAL_CONTAINS_POINT",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_26_NO_HORIZON_EXTRAPOLATION",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_27_MONOTONE_ESTIMANDS",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_28_ZERO_EVENT_SUPPORT_BOUNDS",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_29_SUPPORT_RECONCILIATION",
+      "passed": true
+    },
+    {
+      "detail": {
+        "estimable": 17,
+        "low_all": true
+      },
+      "id": "D3_30_LOW_INFORMATION_EXPOSED",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_31_YOUNG_COHORT_CENSORING",
+      "passed": true
+    },
+    {
+      "detail": {
+        "crossed": 0,
+        "passed": 0,
+        "rows": 60
+      },
+      "id": "D3_32_RQ2_FAIL_CLOSED",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_33_NO_INCOMPLETE_PLATFORM_RATES",
+      "passed": true
+    },
+    {
+      "detail": {
+        "comparable_metric_count": 51,
+        "largest_delta_cell": {
+          "absolute_delta": 0.06928267093756288,
+          "after": 0.196966925388,
+          "before": 0.2662495963255629,
+          "horizon": 36,
+          "metric": "success_cif",
+          "year": 2021
+        },
+        "max_absolute_point_estimate_delta": 0.06928267093756288,
+        "prior_present": true
+      },
+      "id": "D3_34_MATERIAL_REEXECUTION_DELTA_EXPOSED",
+      "passed": true
+    },
+    {
+      "detail": {
+        "closure_events_total": 0,
+        "comparison_to_candidate_v2": {
+          "comparable_metric_count": 51,
+          "largest_delta_cell": {
+            "absolute_delta": 0.06928267093756288,
+            "after": 0.196966925388,
+            "before": 0.2662495963255629,
+            "horizon": 36,
+            "metric": "success_cif",
+            "year": 2021
+          },
+          "max_absolute_point_estimate_delta": 0.06928267093756288,
+          "prior_present": true
+        },
+        "limitations": [
+          "Only Republic Europe has a denominator-grade native census.",
+          "All estimable RQ1 cells remain low-information because closure ascertainment is zero and/or ascertainment/support gates fail.",
+          "RQ2 field estimates remain suppressed unless n/event/ascertainment gates pass.",
+          "2024-2025 remain right-censored; unsupported horizons are not estimated."
+        ],
+        "promotion_status": "CANDIDATE_ONLY",
+        "rates_promoted": false,
+        "rq1_cells": 24,
+        "rq1_estimable_cells": 17,
+        "rq1_low_information_cells": 24,
+        "rq2_cells": 60,
+        "rq2_reportable_cells": 0,
+        "rq2_suppressed_cells": 60,
+        "source_ledger": "cp3_republic_europe_outcome_ledger_v4.csv",
+        "source_rows": 952,
+        "success_events_total": 63,
+        "terminal_nonclosure_events_total": 2,
+        "version": "candidate_v3"
+      },
+      "id": "D3_35_PRIOR_CANDIDATE_RETAINED",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "id": "D3_36_OUTPUT_HASH_INTEGRITY",
+      "passed": true
+    },
+    {
+      "detail": {
+        "captures": 41,
+        "closure_review_candidates": 14,
+        "closures_applied": 0,
+        "dated_review_candidates": 0,
+        "files": {
+          "captures.csv": "616dcb9b313dfda2e854f9da6ce9390c961e1dd021a192c7a8fd83d866f21b6d",
+          "closure_review_candidates.csv": "4742b1bc5c03f12adf738240cf52780f953f7d17c4516ec1dd3ed8634b7feb3e"
+        },
+        "initial_source_jobs": 27,
+        "platform_update_jobs": 14,
+        "policy": "No zero valuation or phrase match is an automatic closure. Every candidate requires Verifier and Jev adjudication; missing dates remain unresolved.",
+        "rates_promoted": false,
+        "run_id": "gh-37898747527",
+        "scope": "Republic Europe business pages, original campaign pages, and same-platform update links for Not eligible + zero indicative valuation review triggers only.",
+        "successful_captures": 41,
+        "target_company_pages": 13,
+        "target_unique_companies": 13
+      },
+      "id": "D4_37_CLOSURE_AUDIT_SCOPE",
+      "passed": true
+    },
+    {
+      "detail": {
+        "candidates_actual": "4742b1bc5c03f12adf738240cf52780f953f7d17c4516ec1dd3ed8634b7feb3e",
+        "candidates_expected": "4742b1bc5c03f12adf738240cf52780f953f7d17c4516ec1dd3ed8634b7feb3e",
+        "captures_actual": "616dcb9b313dfda2e854f9da6ce9390c961e1dd021a192c7a8fd83d866f21b6d",
+        "captures_expected": "616dcb9b313dfda2e854f9da6ce9390c961e1dd021a192c7a8fd83d866f21b6d"
+      },
+      "id": "D4_38_CLOSURE_AUDIT_HASH_INTEGRITY",
+      "passed": true
+    },
+    {
+      "detail": {
+        "bad_urls": [],
+        "captures": 41
+      },
+      "id": "D4_39_PLATFORM_ONLY_CLOSURE_SOURCES",
+      "passed": true
+    },
+    {
+      "detail": {
+        "dated": 0,
+        "rows": 14
+      },
+      "id": "D4_40_REVIEW_CANDIDATES_NOT_OUTCOMES",
+      "passed": true
+    },
+    {
+      "detail": {
+        "accepted_closure_events": 0,
+        "candidate_v3_effect": "UNCHANGED_VERIFIED",
+        "candidate_v3_manifest_sha256_before": "35c94137a6153f7ff47af063470edf8ba9f49845482f668132deaf78090c1d07",
+        "dated_review_candidates": 0,
+        "decision_counts": {
+          "FALSE_POSITIVE_CONTRACT_LANGUAGE": 14
+        },
+        "false_positive_contract_candidates": 14,
+        "generated_at": "2026-10-09T07:26:17.218427+00:00",
+        "held_unresolved_candidates": 0,
+        "jev": {
+          "candidate_v3_unchanged_probability": 1.0,
+          "false_positive_contract_language_probability": 1.0,
+          "unresolved_risk_signal_probability": 1.0
+        },
+        "policy": "No zero valuation, Not eligible status, contractual liquidation preference, hypothetical default clause, or undated phrase becomes a closure event.",
+        "rates_promoted": false,
+        "review_candidates": 14,
+        "source_run_id": "gh-37898747527",
+        "target_company_pages": 13,
+        "zero_valuation_signal_status": "UNRESOLVED_ADVERSE_SIGNAL"
+      },
+      "id": "D4_41_CLOSURE_ADJUDICATION",
+      "passed": true
+    },
+    {
+      "detail": {
+        "rows": 14
+      },
+      "id": "D4_42_NO_ZERO_VALUATION_AUTO_CLOSURE",
+      "passed": true
+    },
+    {
+      "detail": {
+        "actual_manifest_hash": "35c94137a6153f7ff47af063470edf8ba9f49845482f668132deaf78090c1d07",
+        "adjudication_manifest_hash": "35c94137a6153f7ff47af063470edf8ba9f49845482f668132deaf78090c1d07",
+        "candidate_closures": 0,
+        "ledger_closures": 0
+      },
+      "id": "D4_43_CANDIDATE_UNCHANGED_AFTER_AUDIT",
+      "passed": true
+    }
+  ],
+  "material_reexecution_delta": 0.06928267093756288,
+  "passed": 43,
+  "promotion_gate": "PASS",
+  "rates_promoted": false,
+  "verifier_revision": "v4_post_zero_valuation_closure_audit"
+}

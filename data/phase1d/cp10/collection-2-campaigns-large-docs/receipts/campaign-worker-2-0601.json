@@ -1,0 +1,18 @@
+{
+  "bytes": 233968,
+  "campaign_url": "https://republic.com/the-phluid-project",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/the-phluid-project/show_updates",
+  "gzip_sha256": "aabeb33a091966e6ef1b8643a36b35fd325fa8a453f2f5554304a96c392318d7",
+  "http_status": 200,
+  "parent_sha256": "42e9e776b76930cd1ae68ddf20ed230c470b5b8465c31db88b18d20442a9d883",
+  "raw_sha256": "5c3751c7e1b64bee6d6bbbbc046d6f83b427755cc2c0accb2f8774851b2b8810",
+  "received_at": "2026-10-10T02:38:11.442283+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:10.698847+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/5c3751c7e1b64bee6d6bbbbc046d6f83b427755cc2c0accb2f8774851b2b8810.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/the-phluid-project/show_updates"
+}

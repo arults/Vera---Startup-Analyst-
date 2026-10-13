@@ -1,0 +1,18 @@
+{
+  "bytes": 46854,
+  "campaign_url": "https://republic.com/inside",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/inside/show_updates",
+  "gzip_sha256": "a1254cee5958956c875e73ca7d6bebfba40ec0fb3d40168d0ac763dd550275a4",
+  "http_status": 200,
+  "parent_sha256": "ec50504eae76e07471842f2f6746ddda46ee0c528b9ff056dd2d4f58377fd627",
+  "raw_sha256": "1bb5236dff4a59d4ff8208538293602144dfd92d8ee0c78c76b5a91cffb5466b",
+  "received_at": "2026-10-10T02:30:46.547045+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:45.961103+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1bb5236dff4a59d4ff8208538293602144dfd92d8ee0c78c76b5a91cffb5466b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/inside/show_updates"
+}

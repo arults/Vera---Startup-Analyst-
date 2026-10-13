@@ -1,0 +1,18 @@
+{
+  "bytes": 141306,
+  "campaign_url": "https://republic.com/aspire-biopharma",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/aspire-biopharma/show_updates",
+  "gzip_sha256": "ab5302d982a11f49e96dd8300371aa1c5d280b3adedb4f55acd80d2767198529",
+  "http_status": 200,
+  "parent_sha256": "d2b687abbea8ffe231edf146836941c995a085dd26a2bd764c9713e2ce634872",
+  "raw_sha256": "1c638cbfb503b325e0d1b3a2ea9e57fcd353415163f95b26588fcf431ea45a32",
+  "received_at": "2026-10-10T02:23:49.367500+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:48.469207+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1c638cbfb503b325e0d1b3a2ea9e57fcd353415163f95b26588fcf431ea45a32.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/aspire-biopharma/show_updates"
+}

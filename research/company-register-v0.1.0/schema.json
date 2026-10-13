@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vera:completion-register:1.0.0",
+  "title": "Vera additive register logical table rows",
+  "description": "Schema for decoded records, lineage and assessments. Other tables are documented in docs/COMPLETION_REGISTER_V1.md. This is not a study-completion certificate.",
+  "oneOf": [
+    {"$ref": "#/$defs/record"},
+    {"$ref": "#/$defs/lineage"},
+    {"$ref": "#/$defs/assessment"}
+  ],
+  "$defs": {
+    "stringArray": {"type": "array", "items": {"type": "string"}},
+    "record": {
+      "type": "object",
+      "required": ["record_id", "record_type", "platform", "jurisdiction", "source_key", "identity_status", "labels", "lineage_ids", "source_scopes", "platform_memberships"],
+      "properties": {
+        "record_id": {"type": "string"},
+        "record_type": {"enum": ["company", "company_key", "offering", "round", "profile", "profile_event", "discovery_url"]},
+        "platform": {"type": "string"},
+        "jurisdiction": {"type": "string"},
+        "source_key": {"type": "string", "minLength": 1},
+        "identity_status": {"type": "string"},
+        "labels": {"$ref": "#/$defs/stringArray"},
+        "lineage_ids": {"$ref": "#/$defs/stringArray"},
+        "source_scopes": {"$ref": "#/$defs/stringArray"},
+        "platform_memberships": {"$ref": "#/$defs/stringArray"}
+      },
+      "additionalProperties": false
+    },
+    "lineage": {
+      "type": "object",
+      "required": ["lineage_id", "source_path", "source_commit", "source_sha256", "row_number", "row_sha256", "record_ids", "disposition", "reason"],
+      "properties": {
+        "lineage_id": {"type": "string"},
+        "source_path": {"type": "string"},
+        "source_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "row_number": {"type": "integer", "minimum": 1},
+        "row_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "record_ids": {"$ref": "#/$defs/stringArray"},
+        "disposition": {"enum": ["linked", "unresolved", "duplicate", "quarantined"]},
+        "reason": {"type": "string"},
+        "duplicate_of": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "assessment": {
+      "type": "object",
+      "required": ["assessment_id", "record_id", "scope", "requirements_version", "completion_status", "gates", "unresolved_reasons", "completion_counts_established", "original_unit_of_analysis", "empirical_promotion"],
+      "properties": {
+        "assessment_id": {"type": "string"},
+        "record_id": {"type": "string"},
+        "scope": {"type": "string"},
+        "requirements_version": {"const": "phase1c-spec-717e7be8-register-v1"},
+        "completion_status": {"const": "unclassified"},
+        "gates": {"type": "object", "required": ["identity", "economic_round", "cohort_year", "funded_time_zero", "field_taxonomy", "outcome_followup", "cross_platform_graph", "identity_qa"], "additionalProperties": {"enum": ["not_assessed", "supported_strong_identifier", "source_asserted_unadjudicated"]}},
+        "unresolved_reasons": {"$ref": "#/$defs/stringArray"},
+        "completion_counts_established": {"const": false},
+        "original_unit_of_analysis": {"const": "economic_company_round"},
+        "empirical_promotion": {"const": false}
+      },
+      "additionalProperties": false
+    }
+  }
+}

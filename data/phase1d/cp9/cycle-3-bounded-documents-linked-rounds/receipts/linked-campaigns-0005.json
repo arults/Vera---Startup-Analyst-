@@ -1,0 +1,16 @@
+{
+  "bytes": 224008,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Exact Campaign3 link in hash-captured September6,2022 AlphaFlow issuer post.",
+  "final_url": "https://republic.com/alpha-flow",
+  "gzip_sha256": "d98d306653a8faf13221f4104464eafb74b69212ad86815f3a28f72a0a2598da",
+  "http_status": 200,
+  "raw_sha256": "57a62fb97c07c2b7fa907b35fcaeb0599c80a91d6a5abc978a36e166498e5b1e",
+  "received_at": "2026-10-10T01:20:58.824927+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:20:57.933365+00:00",
+  "source_group": "linked-campaigns",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/57a62fb97c07c2b7fa907b35fcaeb0599c80a91d6a5abc978a36e166498e5b1e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/alpha-flow"
+}

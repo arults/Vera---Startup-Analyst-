@@ -1,0 +1,85 @@
+{
+  "candidate_estimates": {
+    "rates_promoted": false,
+    "rq1_cells": 24,
+    "rq1_low_information": 24,
+    "rq2_reportable": 0
+  },
+  "comparison_to_prior_candidate_v3": {
+    "comparison_rows": 51,
+    "interpretation": "candidate change is not a promoted startup-specific probability; no empirical plateau",
+    "largest_change": {
+      "absolute_delta": 0.07944334078500001,
+      "after": "0.276410266173",
+      "before": "0.196966925388",
+      "horizon_months": 36,
+      "metric": "success_cif",
+      "offering_year": 2021
+    }
+  },
+  "content_hashes_verified": 509,
+  "crowdcube": {
+    "census_complete": false
+  },
+  "limitations": [
+    "Exact-price universe does not exhaust acquisitions, IPOs, shutdowns or operating evidence.",
+    "Zero confirmed closures is not zero closures.",
+    "Successful-funded discovery is selection-biased; no cross-platform prior can be promoted.",
+    "Four historical censuses remain incomplete."
+  ],
+  "rates_promoted": false,
+  "republic_europe": {
+    "all_pairs_oracle_errors": [],
+    "confirmed_closures": 0,
+    "first_success_dates_changed": 0,
+    "followup_companies_extended": 12,
+    "followup_rows_extended": 17,
+    "index_rows": 952,
+    "later_pairs_evaluated": 245,
+    "new_labeled_successes_ignored_by_censor": 0,
+    "new_qualifying_successes_all": 70,
+    "new_qualifying_successes_year_eligible": 62,
+    "new_success_labels": 8,
+    "old_labeled_successes_ignored_by_rounded_censor": 13,
+    "old_qualifying_successes_all": 63,
+    "old_qualifying_successes_year_eligible": 55,
+    "removed_rounded_success_labels": 1,
+    "repeat_campaigns_exhaustively_price_reviewed": 315,
+    "repeat_groups": 133,
+    "source_precision_changes": 79,
+    "year_eligible_rows": 796
+  },
+  "republic_us": {
+    "campaign_pages_parsed": 120,
+    "census_complete": false,
+    "close_year_2020_2025_NOT_cohort": 118,
+    "estimation_eligible": 0,
+    "explicit_successful_close_dates": 119,
+    "potential_duplicate_alias_groups": [],
+    "single_linked_CIK_pending_identity_review": 103
+  },
+  "research_plateau": false,
+  "scope": "candidate only; unchanged2020-2025 cohorts; followup through2026-10-09",
+  "source_capture_records": 640,
+  "startengine": {
+    "census_complete": false
+  },
+  "version": "0.6.2-dev.empirical.1",
+  "wefunder": {
+    "advertised_index_total": 5132,
+    "census_complete": false,
+    "estimation_eligible": 0,
+    "limitation": "985 profiles were retained, not a complete5132-index enumeration; candidates preserve missing round identity and first-live dates.",
+    "mode": "PRESERVED_NATIVE_SOURCE_RECOVERY",
+    "new_live_observations": 0,
+    "privacy_or_publication_hold_counts": {
+      "DELETED_OR_REJECTED": 14,
+      "NOT_OWNER_PUBLISHED": 125,
+      "SEARCH_PRIVACY_REQUIRES_PUBLIC_CAMPAIGN_CONFIRMATION": 731
+    },
+    "public_profile_companies_with_2020_2025_events": 57,
+    "public_profile_event_candidates_2020_2025": 65,
+    "source_profile_rows": 985,
+    "visible_listed_prior_rows": 149
+  }
+}

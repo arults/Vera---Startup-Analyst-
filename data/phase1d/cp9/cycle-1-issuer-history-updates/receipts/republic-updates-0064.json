@@ -1,0 +1,19 @@
+{
+  "bytes": 74958,
+  "campaign_url": "https://republic.com/miami-cityfund-a",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/miami-cityfund-a/show_updates",
+  "gzip_sha256": "1340dd436cf5af3332d5afaa40732ff343a5726946b59c93ca7c937de9878c55",
+  "http_status": 200,
+  "legal_name": "Cityfunds I, LLC",
+  "native_offering_id": 1907,
+  "parent_sha256": "6184ba16b9531644f510b8f44585f497231b93d5869e8da63478400d88565a94",
+  "raw_sha256": "f3ce4437462b295502e549d7d7caa5798036a24ff8aac38511a7068fe1593671",
+  "received_at": "2026-10-10T00:52:16.495488+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:15.921945+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/f3ce4437462b295502e549d7d7caa5798036a24ff8aac38511a7068fe1593671.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/miami-cityfund-a/show_updates"
+}

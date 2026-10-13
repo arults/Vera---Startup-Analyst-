@@ -1,0 +1,19 @@
+{
+  "bytes": 226644,
+  "campaign_url": "https://republic.com/rocket-dollar",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/rocket-dollar/show_updates",
+  "gzip_sha256": "0794ca9d01cf957eb530dbccec6754b19e0822c4c5ec8fc9c7618af985a07567",
+  "http_status": 200,
+  "legal_name": "Rocket Dollar, Inc.",
+  "native_offering_id": 269,
+  "parent_sha256": "233bd937e7d1478182e5b732ce7b57284880a6f7bb12d5bfbf6e418c126f0b4e",
+  "raw_sha256": "307d1bf8a526bc205a1a545374459a139dbebb0aca65ab817a84e409aa7bb87f",
+  "received_at": "2026-10-10T00:52:29.739372+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:29.098544+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/307d1bf8a526bc205a1a545374459a139dbebb0aca65ab817a84e409aa7bb87f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/rocket-dollar/show_updates"
+}

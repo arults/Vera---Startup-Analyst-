@@ -1,0 +1,18 @@
+{
+  "bytes": 400904,
+  "campaign_url": "https://republic.com/upshift-2022",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/upshift-2022/show_updates",
+  "gzip_sha256": "e589699bbc3d4afb9c7d32413ff49881999dbe9bbc5217664b05bf6f3f704b10",
+  "http_status": 200,
+  "parent_sha256": "58efe69453ad54e17fd452ae8536c651a411df375cda5c2a21be09bf83b9a2b1",
+  "raw_sha256": "49844daa844cd8b3df1a9d0087f48ee7f76858fc903d86e59f2cf1813adcea2a",
+  "received_at": "2026-10-10T02:38:35.867220+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:34.981527+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/49844daa844cd8b3df1a9d0087f48ee7f76858fc903d86e59f2cf1813adcea2a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/upshift-2022/show_updates"
+}

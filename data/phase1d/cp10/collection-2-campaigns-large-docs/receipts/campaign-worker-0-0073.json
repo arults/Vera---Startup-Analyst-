@@ -1,0 +1,18 @@
+{
+  "bytes": 278047,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/blueorigin",
+  "gzip_sha256": "35bc6b65214f0f1769d60ef3c09fd8d583d8f7a73e619bd0969d6d770f93c534",
+  "http_status": 200,
+  "raw_sha256": "be3f05b9b7c125ee658b3e77fa4d49daf092ce1c2a98ee91c00c433a80b71995",
+  "received_at": "2026-10-10T02:24:35.980575+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:35.342975+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/be3f05b9b7c125ee658b3e77fa4d49daf092ce1c2a98ee91c00c433a80b71995.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/blueorigin"
+}

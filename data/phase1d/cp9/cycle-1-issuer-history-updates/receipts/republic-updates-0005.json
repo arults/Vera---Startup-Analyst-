@@ -1,0 +1,19 @@
+{
+  "bytes": 196347,
+  "campaign_url": "https://republic.com/aera",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/aera/show_updates",
+  "gzip_sha256": "dc42230548f9054c203119980f3a0907ba9b40fe8a1965be8a2525100b109138",
+  "http_status": 200,
+  "legal_name": "The Humble Shoe Company, Inc.",
+  "native_offering_id": 494,
+  "parent_sha256": "9c7f9d64bd59522a7a1ec86cb4c53d416f6d1e305d796fcb418ba30b5b303e8b",
+  "raw_sha256": "7c6c0bfc8baa5a5032a934d73fd4fc1d0ada82d018713e14366c6a58dbb69ce5",
+  "received_at": "2026-10-10T00:51:40.008781+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:39.367929+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/7c6c0bfc8baa5a5032a934d73fd4fc1d0ada82d018713e14366c6a58dbb69ce5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/aera/show_updates"
+}

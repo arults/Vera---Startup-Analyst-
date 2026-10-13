@@ -1,0 +1,18 @@
+{
+  "bytes": 51429,
+  "campaign_url": "https://republic.com/consultaimm",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/consultaimm/show_updates",
+  "gzip_sha256": "9192ca12df103d35805925dec2faca8a5527f2aee63cd2cdcabe3606b41b7347",
+  "http_status": 200,
+  "parent_sha256": "13f11665888b94c6ee3abb6dcc41ad77d01a1bff205098915ac200dfa29b04b1",
+  "raw_sha256": "f2ed748035fe76345a79573a4edb68a869b40dccd5b685ac22bf70831a521056",
+  "received_at": "2026-10-10T02:25:43.728406+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:43.154318+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f2ed748035fe76345a79573a4edb68a869b40dccd5b685ac22bf70831a521056.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/consultaimm/show_updates"
+}

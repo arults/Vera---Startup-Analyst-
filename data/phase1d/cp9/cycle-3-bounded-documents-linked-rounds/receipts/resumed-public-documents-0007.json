@@ -1,0 +1,18 @@
+{
+  "bytes": 19368500,
+  "campaign_url": "https://republic.com/alphaflow",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/595?view=preview",
+  "gzip_sha256": "cec8b57a91cf47209ad74e6f9217e88a59d8438828ed6558ebfb727a3cf16b5e",
+  "http_status": 200,
+  "label": "AlphaFlow Form C.pdf",
+  "parent_sha256": "2e4987c0a45a34e4f96f261adfdf8c055d6d04b55ced7b38f49805b9822c0890",
+  "raw_sha256": "b3c1ac3121dc72bb49e101c5da94a31767b5222d53bd411884db9724308be36e",
+  "received_at": "2026-10-10T01:21:09.794192+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:08.177192+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/b3c1ac3121dc72bb49e101c5da94a31767b5222d53bd411884db9724308be36e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/595?view=preview"
+}

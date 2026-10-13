@@ -1,0 +1,18 @@
+{
+  "bytes": 17577,
+  "campaign_url": "https://republic.com/the-pickleball-club",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/the-pickleball-club/show_updates",
+  "gzip_sha256": "f8f310783fc5f938ba79ef9140f26c2f0f5e109910026af76c698539ee02c6f1",
+  "http_status": 200,
+  "parent_sha256": "1b16480a2d83a82a9ef0f4b927df94f3058c85226cd8256adc625a5f59049a34",
+  "raw_sha256": "f9ad8d96d565c1f159699a759715b23736d7b290ebdd9299c6068e0a05995af6",
+  "received_at": "2026-10-10T02:38:01.651114+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:01.105877+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f9ad8d96d565c1f159699a759715b23736d7b290ebdd9299c6068e0a05995af6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/the-pickleball-club/show_updates"
+}

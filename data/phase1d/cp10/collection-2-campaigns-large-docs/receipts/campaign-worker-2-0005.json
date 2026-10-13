@@ -1,0 +1,18 @@
+{
+  "bytes": 225489,
+  "campaign_url": "https://republic.com/420-hotels",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/420-hotels/show_updates",
+  "gzip_sha256": "19f61e28ea64e65b56a6b41f0d828e6c240cc3e5e214894d8c9201b3cee60aa1",
+  "http_status": 200,
+  "parent_sha256": "b98f8e56a5921b8c25257a4108a2612245623823383497b820578338e210b873",
+  "raw_sha256": "323400264258d8b48ba5ae5c53d7e624ddc21531052584d348ed320d0aa3b855",
+  "received_at": "2026-10-10T02:22:44.733248+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:43.865031+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/323400264258d8b48ba5ae5c53d7e624ddc21531052584d348ed320d0aa3b855.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/420-hotels/show_updates"
+}

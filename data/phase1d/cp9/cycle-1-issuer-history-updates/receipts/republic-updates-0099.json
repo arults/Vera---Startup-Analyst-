@@ -1,0 +1,19 @@
+{
+  "bytes": 19502,
+  "campaign_url": "https://republic.com/startglobal",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/startglobal/show_updates",
+  "gzip_sha256": "045bed51b4c928bd8813ed863883948cf03bfa6cec44889a0164b271a0f1dbab",
+  "http_status": 200,
+  "legal_name": "StartGlobal, Inc.",
+  "native_offering_id": 8680,
+  "parent_sha256": "0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+  "raw_sha256": "d2606b9589f47fbbba593804a7b5bddf86e709b1f11631cfe6fd3893b8be4198",
+  "received_at": "2026-10-10T00:52:37.213305+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:36.741075+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/d2606b9589f47fbbba593804a7b5bddf86e709b1f11631cfe6fd3893b8be4198.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/startglobal/show_updates"
+}

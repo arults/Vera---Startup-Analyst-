@@ -1,0 +1,18 @@
+{
+  "bytes": 27260,
+  "campaign_url": "https://republic.com/asarasi",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/asarasi/show_updates",
+  "gzip_sha256": "51fa7a11ea472152942f4ce3e198239a34559ebd7676d46d46eaa2177490b0fc",
+  "http_status": 200,
+  "parent_sha256": "206d57800075669789a429ab594bb2dad23fa12b8558a7a262fbb56f9a9f37f3",
+  "raw_sha256": "6950f6f9e1000d666c9f93ced0f08e05b0da1ae2ff51fd11768705a0d4cc36a0",
+  "received_at": "2026-10-10T02:23:40.274804+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:39.657269+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6950f6f9e1000d666c9f93ced0f08e05b0da1ae2ff51fd11768705a0d4cc36a0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/asarasi/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 512231,
+  "campaign_url": "https://republic.com/skybound",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/skybound/show_updates",
+  "gzip_sha256": "2ce52e01509160b62eea3b407452f17fa658235fc84b6c5e77a463e3a3c67df8",
+  "http_status": 200,
+  "parent_sha256": "1af6aba06c0b88439cc9faebf2b6c9bb8a0b52ea5f095babc1642fad7d54151a",
+  "raw_sha256": "55c8c57a8dd5bb8f3b8fca7c2f5d5cb53e219d00b7adcaf6f541def4ea7da028",
+  "received_at": "2026-10-10T02:37:15.978476+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:14.270824+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/55c8c57a8dd5bb8f3b8fca7c2f5d5cb53e219d00b7adcaf6f541def4ea7da028.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/skybound/show_updates"
+}

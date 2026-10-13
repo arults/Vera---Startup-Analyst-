@@ -1,0 +1,22 @@
+{
+  "incomplete_census_policy": {
+    "choice": "suppress_invalid_cells",
+    "probability": 1,
+    "confidence": 1
+  },
+  "completeness_gate": {
+    "choice": "enumerable_or_convergent",
+    "probability": 1,
+    "confidence": 1
+  },
+  "canonical_platform_extract": {
+    "choice": "yes_if_canonical_platform",
+    "probability": 1,
+    "confidence": 1
+  },
+  "cp1_freeze": {
+    "choice": "pass_with_suppression",
+    "probability": 1,
+    "confidence": 1
+  }
+}

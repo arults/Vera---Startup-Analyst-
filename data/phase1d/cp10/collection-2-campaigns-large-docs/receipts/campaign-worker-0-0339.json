@@ -1,0 +1,18 @@
+{
+  "bytes": 1857,
+  "campaign_url": "https://republic.com/lmnt",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lmnt/show_updates",
+  "gzip_sha256": "85a07c70c731106116f8cdd9e48f013acd7bcc9ec84b1603ee1a5d30fd81d4ed",
+  "http_status": 200,
+  "parent_sha256": "5b8db2bf486c7071b6104f42baeb688a3b0269927ba721d427b6b85a5c26c808",
+  "raw_sha256": "d30926197a9afea89ed103ed2ed41f8912b44da53d836323bf136be9d5ffe96c",
+  "received_at": "2026-10-10T02:32:57.714124+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:57.175848+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d30926197a9afea89ed103ed2ed41f8912b44da53d836323bf136be9d5ffe96c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lmnt/show_updates"
+}

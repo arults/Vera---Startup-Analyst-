@@ -1,0 +1,48 @@
+{
+  "captured_at": "2026-10-09T07:31:54.973910+00:00",
+  "comparison": null,
+  "round_id": "deterministic-a",
+  "state": {
+    "dimensions": {
+      "closure_audit_target_coverage": 1.0,
+      "denominator_grade_platform_share": 0.2,
+      "promoted_rate_share": 0.0,
+      "rate_eligible_strong_identity_share": 1.0,
+      "republic_europe_cohort_year_coverage": 0.8361344537815126,
+      "rq1_reportable_share": 0.0,
+      "rq2_reportable_share": 0.0,
+      "scientific_gate_pass_share": 1.0,
+      "usable_positive_followup_coverage": 0.3875739644970414
+    },
+    "labels": {
+      "candidate_version": "candidate_v3",
+      "closure_audit_effect": "NO_OUTCOME_LABEL_CHANGE",
+      "closure_events_total": 0,
+      "platform_statuses": {
+        "crowdcube": "CENSUS_INCOMPLETE",
+        "republic_europe": "PASS_NATIVE_ENUMERABLE",
+        "republic_us": "CENSUS_INCOMPLETE",
+        "startengine": "CENSUS_INCOMPLETE",
+        "wefunder": "CENSUS_INCOMPLETE"
+      },
+      "promotion_status": "CANDIDATE_ONLY",
+      "rates_promoted": false,
+      "rq1_low_information_cells": 24,
+      "rq2_reportable_cells": 0,
+      "verifier_promotion_gate": "PASS"
+    },
+    "source_hashes": {
+      "cp1_coverage.json": "c34b89d265be176d237c7103365eaa0e5052985c08428bf119ea409dddeb6815",
+      "cp2_republic_europe_normalized_manifest.json": "f32f74d79d549ba0477b972fa5f7ccb3ce602488c2eef11b833963e8b114dada",
+      "cp3_republic_europe_identity_review_applied_manifest.json": "759d84cb1da3cede4c093a6686eeeaf255b5eaa6a22e013061ebaae58ff85157",
+      "cp3_republic_europe_outcome_ledger_v4_manifest.json": "9d221b9d9e59577a849d3a829666e4dd7aa876ab6c44e1ab6d3cb50840f09286",
+      "cp3_republic_europe_zero_valuation_closure_adjudication_manifest.json": "210e72d2b8ff2260a5d5859fc45edab332b2e4531d690cf548cbfc509aaa3c9a",
+      "cp4_republic_europe_candidate_v3_manifest.json": "35c94137a6153f7ff47af063470edf8ba9f49845482f668132deaf78090c1d07"
+    },
+    "verifier": {
+      "passed": 43,
+      "promotion_gate": "PASS",
+      "total": 43
+    }
+  }
+}

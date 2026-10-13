@@ -1,0 +1,26 @@
+{
+  "files": {
+    "cp3_republic_europe_business_observations.csv": "e7910db8570d10c8ef3a6f7a0bd2ea51ea056aa785793c352885c85e3e9ef913",
+    "cp3_republic_europe_business_pages_raw.csv": "21a1e3bb42efc47ea1439d1fa8470ffd9111f278ff7f27839994d7ad23718ed7",
+    "cp3_republic_europe_event_candidates.csv": "32df5dbfc02238e605bb692f43f80e8583c48901b3254466227f355765bbddc8"
+  },
+  "generated_at": "2026-10-09T04:49:12.304463+00:00",
+  "summary": {
+    "candidate_business_pages": 784,
+    "eligible_business_pages": 423,
+    "eligible_matched_unique_companies": 289,
+    "event_review_candidates": 467,
+    "matched_business_pages": 453,
+    "matched_unique_companies": 453,
+    "not_eligible_business_pages": 361,
+    "rule": {
+      "eligible": "medium-confidence positive operating evidence at capture date",
+      "not_eligible": "neutral, not closure and does not extend follow-up",
+      "valuation_only": "does not extend follow-up"
+    },
+    "successful_fetches": 784,
+    "usable_cohort_unique_companies": 679,
+    "usable_companies_with_current_eligible_evidence": 260,
+    "usable_current_eligible_coverage": 0.38291605301914583
+  }
+}

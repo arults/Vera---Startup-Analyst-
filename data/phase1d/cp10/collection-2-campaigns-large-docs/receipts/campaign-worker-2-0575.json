@@ -1,0 +1,18 @@
+{
+  "bytes": 44571,
+  "campaign_url": "https://republic.com/stream-dx",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/stream-dx/show_updates",
+  "gzip_sha256": "cb35cfe64706afe20dd67430de8e0b02c190c85463d63125f86b84771ae7a65d",
+  "http_status": 200,
+  "parent_sha256": "3440c4bba4b3ebd044d7561a9fc5bdf481b3acafb2aadf0913639afcbdf52bc2",
+  "raw_sha256": "8eaa3d2b551a597d9f636a7ba2a5e0c0950eb59fabba598d8b1fa067ffc5f435",
+  "received_at": "2026-10-10T02:37:41.507032+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:40.943105+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8eaa3d2b551a597d9f636a7ba2a5e0c0950eb59fabba598d8b1fa067ffc5f435.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/stream-dx/show_updates"
+}

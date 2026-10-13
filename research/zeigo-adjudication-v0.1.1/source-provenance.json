@@ -1,0 +1,158 @@
+{
+  "version": "zeigo-minimized-source-provenance-v0.1.0",
+  "created_at_utc": "2026-10-11T15:22:46.364550+00:00",
+  "canonical_commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+  "archive_bindings": [
+    {
+      "path": "source-artifacts/spec.md",
+      "repository_path": "docs/PHASE_1C_SPEC.md",
+      "commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+      "git_blob_sha": "fb62fb062274cf51b8090f91990c3181dc99bdb2",
+      "sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+      "bytes": 7974,
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/blob/6e0e25e5457db61d37a443269845f00584377718/docs/PHASE_1C_SPEC.md"
+    },
+    {
+      "path": "source-artifacts/requirements.py",
+      "repository_path": "research/preparation-audit-v0.1.0/preparation_audit.py",
+      "commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+      "git_blob_sha": "6c883a0c3271190e0cd3adc4d7718e91c6277d68",
+      "sha256": "44d7b5de991fd13f2be786c60212b78878b0843b33e583440b6cd7b9c63abafd",
+      "bytes": 20441,
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/blob/6e0e25e5457db61d37a443269845f00584377718/research/preparation-audit-v0.1.0/preparation_audit.py"
+    },
+    {
+      "path": "source-artifacts/audit_readme.md",
+      "repository_path": "research/preparation-audit-v0.1.0/README.md",
+      "commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+      "git_blob_sha": "9468336cefa180597ba4343610e074ec37d97a1a",
+      "sha256": "93fd462b3cfe2af57058ebe05e6f3fa7d2b5b54e52616b5ac2518fdbdf3ed232",
+      "bytes": 8671,
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/blob/6e0e25e5457db61d37a443269845f00584377718/research/preparation-audit-v0.1.0/README.md"
+    },
+    {
+      "path": "source-artifacts/ledger-connector-exact.csv",
+      "repository_path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+      "git_blob_sha": "8d15721a66b6a46ef92f6a139303d9f327930f84",
+      "sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+      "bytes": 352627,
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/blob/6e0e25e5457db61d37a443269845f00584377718/data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv"
+    },
+    {
+      "path": "source-artifacts/rounds-connector-exact.csv",
+      "repository_path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "commit_sha": "6e0e25e5457db61d37a443269845f00584377718",
+      "git_blob_sha": "18af1ddafadebdd673209ad9b85a4df445440fcf",
+      "sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+      "bytes": 445472,
+      "url": "https://github.com/arults/Vera---Startup-Analyst-/blob/6e0e25e5457db61d37a443269845f00584377718/data/phase1d/cp2_republic_europe_rounds_normalized.csv"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sa7",
+      "url": "https://europe.republic.com/sa7",
+      "sha256": "fea6bfe9ed0b2a653bafcfb27bb283275bdf4def0ca8b92f7dd3e44073c57097",
+      "bytes": 126102,
+      "request_started_at": "2026-10-11T13:09:57.363662+00:00",
+      "headers_received_at": "2026-10-11T13:10:04.632087+00:00",
+      "completed_at": "2026-10-11T13:10:04.987642+00:00",
+      "status_code": 200,
+      "study_scope": "PLATFORM_NATIVE",
+      "factual_origin": "Sustainable Ventures portfolio manager assertion on Republic Europe",
+      "origin_family": "issuer_portfolio_manager",
+      "derived_text_sha256": "d6f015860182109e6259d4745574968d00a2cb1327a533a493f687738c9ba4c2"
+    },
+    {
+      "key": "zeigo-equity",
+      "url": "https://europe.republic.com/zeigo-energy",
+      "sha256": "1be2242368ba3aebf9e952cec5975e40c79065dd41fa8db7e94be67f9f92393f",
+      "bytes": 90005,
+      "request_started_at": "2026-10-11T13:10:05.590628+00:00",
+      "headers_received_at": "2026-10-11T13:10:11.854953+00:00",
+      "completed_at": "2026-10-11T13:10:11.978319+00:00",
+      "status_code": 200,
+      "study_scope": "PLATFORM_NATIVE",
+      "factual_origin": "Zeigo issuer campaign on Republic Europe",
+      "origin_family": "zeigo_issuer",
+      "derived_text_sha256": "14653f7ce9ba855c1fbcc4a5b821c2207d0e788ce60c2d702830f2000fbd1070"
+    },
+    {
+      "key": "zeigo-convertible",
+      "url": "https://europe.republic.com/zeigo-energy1",
+      "sha256": "57bd8fec49287d3e7674ec738ccaa7be523a79a3a29435659924c94c236cb6af",
+      "bytes": 91083,
+      "request_started_at": "2026-10-11T13:10:12.581298+00:00",
+      "headers_received_at": "2026-10-11T13:10:15.876847+00:00",
+      "completed_at": "2026-10-11T13:10:16.037388+00:00",
+      "status_code": 200,
+      "study_scope": "PLATFORM_NATIVE",
+      "factual_origin": "Zeigo issuer campaign on Republic Europe",
+      "origin_family": "zeigo_issuer",
+      "derived_text_sha256": "2d15ed2d4629ebd5218f3a261b3ca23227be8aa18be6feb7f417a2bb0a1ed9f6"
+    },
+    {
+      "key": "buyer-announcement",
+      "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-Acquires-Renewable-Energy-Platform-Zeigo-to-Expand-Digital-Procurement-Capabilities-Globally-61e0036f1fff6b18700b31a4/",
+      "sha256": "b60c670dc910400bc320779e94e15591d50ee8fdacb7aaf5b9c7ffb7a39857b4",
+      "bytes": 1313119,
+      "request_started_at": "2026-10-11T13:10:16.640677+00:00",
+      "headers_received_at": "2026-10-11T13:10:22.979818+00:00",
+      "completed_at": "2026-10-11T13:10:23.445330+00:00",
+      "status_code": 200,
+      "study_scope": "OUTSIDE_PRIMARY_CONTEXT_ONLY",
+      "factual_origin": "Schneider Electric acquiring party announcement",
+      "origin_family": "buyer_transaction_party",
+      "derived_text_sha256": "6cf72a6381b56d32f7050e6614f92b7edab48d80ba0dacb8ec4ba1abb3501df4"
+    },
+    {
+      "key": "buyer-counsel",
+      "url": "https://www.slaughterandmay.com/recent-work/schneider-electric-on-its-acquisition-of-zeigo/",
+      "sha256": "5ddb26164798f6a011edf7be458393d9daba542d2bc2f3664f9188d9d45eb7b6",
+      "bytes": 149423,
+      "request_started_at": "2026-10-11T13:10:24.057391+00:00",
+      "headers_received_at": "2026-10-11T13:10:28.038398+00:00",
+      "completed_at": "2026-10-11T13:10:28.180776+00:00",
+      "status_code": 200,
+      "study_scope": "OUTSIDE_PRIMARY_CONTEXT_ONLY",
+      "factual_origin": "Slaughter and May advising acquiring party",
+      "origin_family": "buyer_transaction_party_dependent",
+      "derived_text_sha256": "0a6cc88a5241ccd6faa659f3da71ba3fd72482764dfa99cb6dbc4cbd42fc6c6b"
+    },
+    {
+      "key": "registry-control",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11255249/persons-with-significant-control",
+      "sha256": "fce5fd85c6209d206a639f7978f62ad7508a0cd35e8d15a7d5dc0560b1f93933",
+      "bytes": 40371,
+      "request_started_at": "2026-10-11T13:10:28.782798+00:00",
+      "headers_received_at": "2026-10-11T13:10:33.515031+00:00",
+      "completed_at": "2026-10-11T13:10:33.608681+00:00",
+      "status_code": 200,
+      "study_scope": "OUTSIDE_PRIMARY_CONTEXT_ONLY",
+      "factual_origin": "Companies House presentation of filed company control information",
+      "origin_family": "company_filing_registry",
+      "derived_text_sha256": "be924649a08046bd5bd54f6a6b8a6b0feb19aeec205a9009fb9a3be4cac1f24f"
+    },
+    {
+      "key": "registry-company",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11255249",
+      "sha256": "639df2701fa3b423deabc8917d7f6913bbd1a4709d6fc28be8ae20333496316d",
+      "bytes": 35356,
+      "request_started_at": "2026-10-11T13:10:34.211310+00:00",
+      "headers_received_at": "2026-10-11T13:10:38.264694+00:00",
+      "completed_at": "2026-10-11T13:10:38.354451+00:00",
+      "status_code": 200,
+      "study_scope": "OUTSIDE_PRIMARY_CONTEXT_ONLY",
+      "factual_origin": "Companies House statutory register",
+      "origin_family": "company_filing_registry",
+      "derived_text_sha256": "68b09c7cb566eab192b7058f18f924eaf98b46caf98ea8e0dc7831c25ec3a9cd"
+    }
+  ],
+  "source_custody": "Complete raw originals and full derived texts remain local; no original HTML, compressed body, script or DOM attribute is included in this publication payload.",
+  "original_source_manifest_sha256": "b940992453821cc11b7025fb67ea6725b1f0497cf6f98fb9bbd69ff1eaa23e11",
+  "original_source_claims_sha256": "f0d55abeb6ce7bba655d388f96d547e67d2e2834560d2d0fc78492f3e5f9b183",
+  "dom_reproducibility": "NOT_PROVIDED_BY_THIS_MINIMIZED_PAYLOAD; original independent review inspected local originals. Typed facts and concise excerpts support claim-level audit without reproducing the original DOM.",
+  "original_cp2_limit": "Exact typed CSV bytes and Git blobs verified. Historical page-body hashes are retained as lineage; original old page bytes were not recovered. Current 2026-10-11 public raw captures are independently hash-bound.",
+  "independence": "Two Zeigo campaigns share issuer origin; SA7 is a portfolio manager, not an independent audit. Buyer and its counsel share a transaction-origin family. Registry material records company filings. Seven URLs are not seven independent confirmations."
+}

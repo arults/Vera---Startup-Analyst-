@@ -1,0 +1,18 @@
+{
+  "bytes": 492354,
+  "campaign_url": "https://republic.com/rentberry",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/rentberry/show_updates",
+  "gzip_sha256": "e3d99bda6c7457463bee93fc80fade58dac9b557d9dae3c97c95a7a2880a7ab1",
+  "http_status": 200,
+  "parent_sha256": "54e29052c76e4b5813972ad5be324f57cc48face04660116966b81fbc8f8cdb1",
+  "raw_sha256": "455c8b653a761b6c9920876a2a9dedaedd807022da1791342d439db97455a059",
+  "received_at": "2026-10-10T02:36:10.490260+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:09.418715+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/455c8b653a761b6c9920876a2a9dedaedd807022da1791342d439db97455a059.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/rentberry/show_updates"
+}

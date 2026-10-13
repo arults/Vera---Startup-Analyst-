@@ -1,0 +1,49 @@
+{
+  "bytes": 2963387,
+  "campaign_url": "https://republic.com/jar-goods",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Jar Goods Form C.pdf",
+  "page_count": 93,
+  "parent_sha256": "12c1d1ba91248aecab423c6b7bbf9b14be436865bfc64a29c36b54ae62e71817",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1039,
+      "pymupdf_sha256": "699d695bff075fbc6e13d0bd0bbced426313e4d9038d0fee960bf10d8f82447d",
+      "pypdf_chars": 1039,
+      "pypdf_sha256": "699d695bff075fbc6e13d0bd0bbced426313e4d9038d0fee960bf10d8f82447d"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1577,
+      "pymupdf_sha256": "1d388c3583bbe405f316c09ee922c49397bb37dd5b94568fa78bd43b541d6985",
+      "pypdf_chars": 1578,
+      "pypdf_sha256": "80381bed83c14eb7499f4a7e7159f4e83ab1892f2b8b94151e1d264006e2de84"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1861,
+      "pymupdf_sha256": "98677dda52b0609d0473df8ef3b76b152b9b1e737bb70f65affde0259fd5f11b",
+      "pypdf_chars": 1864,
+      "pypdf_sha256": "40254ad911684886bbb541579b1797f293be2219f441075d6658ebed8aa98c1a"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 878,
+      "pymupdf_sha256": "29183abb07ae76ff7cef3376353c68877b3cc2fe8408b6bc8c6548317dcfb04a",
+      "pypdf_chars": 879,
+      "pypdf_sha256": "efca1f36d4c64a93b0c0f40cfe1f2e91565619c73dbb7be08a2775950a8a079e"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/53d042c06786f35602b29ce73f00a02ac40c20d53bbac801ec776b4537d190c0.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/53d042c06786f35602b29ce73f00a02ac40c20d53bbac801ec776b4537d190c0.bin.gz",
+  "source_sha256": "53d042c06786f35602b29ce73f00a02ac40c20d53bbac801ec776b4537d190c0",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/189?view=preview"
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 12113496,
+  "campaign_url": "https://republic.com/event-hollow",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Event Hollow Form C-A 4.28.20.pdf",
+  "page_count": 82,
+  "parent_sha256": "dd95c4710cb9ddafbc82ac49a65b6afb70f93d8d2ed97e74970194c211e99038",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": false,
+      "page": 1,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1811,
+      "pymupdf_sha256": "485d3dc1f6bd9ced55154d9b40f20eabdb71622c07e9bbd27798a89a55c8f024",
+      "pypdf_chars": 2111,
+      "pypdf_sha256": "a459428d72b090b36fc6c936a0feb41c63eea0b627302e366b2ac68fbce574ae"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 2387,
+      "pymupdf_sha256": "bf371fe14622d59059a93da6afcbb745c9b04d490c55125152678a0d50eb4ba7",
+      "pypdf_chars": 2888,
+      "pypdf_sha256": "89df6e3febb89cd38106a65a7df9441a7bffd655bf57b22d9b2ea660c40fb36e"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1551,
+      "pymupdf_sha256": "be5c0d9acb39930d48575d351aaf1c4948058e5eae0bc3f09df37bcb632c5f10",
+      "pypdf_chars": 1835,
+      "pypdf_sha256": "4d539f26fe2b1a24e892a6b748b98025a8b3b9737561f73c7189d3ef8a2fff11"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/4eef97c78a85c1c6dbcffe314cdeddb96fddf1a7bbb46efd4f562ee72503d89a.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/4eef97c78a85c1c6dbcffe314cdeddb96fddf1a7bbb46efd4f562ee72503d89a.bin.gz",
+  "source_sha256": "4eef97c78a85c1c6dbcffe314cdeddb96fddf1a7bbb46efd4f562ee72503d89a",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/178?view=preview"
+}

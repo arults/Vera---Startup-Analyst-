@@ -1,0 +1,62 @@
+{
+  "run_id": "vera-wf-evidence-only-publication-20261011",
+  "attempt_id": "minimized-successor-02",
+  "started_at_utc": "2026-10-11T15:44:45Z",
+  "clock_basis": "parent successor instruction/developer UTC reminder",
+  "snapshot_at_utc": "2026-10-11T15:46:40.927217+00:00",
+  "scope": "Review and publish only source evidence and immutable legacy references; original data research counts retained separately.",
+  "metrics": [
+    {
+      "name": "tokens",
+      "value": null,
+      "unit": "tokens",
+      "status": "UNAVAILABLE",
+      "scope": "whole attempt",
+      "provenance": "Not exposed"
+    },
+    {
+      "name": "total_tool_invocations",
+      "value": null,
+      "unit": "invocations",
+      "status": "UNAVAILABLE",
+      "scope": "whole attempt",
+      "provenance": "Full trace unavailable; exact publication calls retained separately"
+    },
+    {
+      "name": "wall_clock_latency",
+      "value": null,
+      "unit": "seconds",
+      "status": "UNAVAILABLE",
+      "scope": "whole attempt",
+      "provenance": "Attempt still running"
+    },
+    {
+      "name": "total_cost",
+      "value": null,
+      "unit": "USD",
+      "status": "UNAVAILABLE",
+      "scope": "whole attempt",
+      "provenance": "No attributable provider billing exposed"
+    },
+    {
+      "name": "peak_RAM_RSS",
+      "value": null,
+      "unit": "bytes",
+      "status": "UNAVAILABLE",
+      "scope": "whole attempt",
+      "provenance": "Not instrumented"
+    }
+  ],
+  "jev_calls": 0,
+  "earlier_publication_attempt": {
+    "blob_attempts": 18,
+    "successful_blobs": 17,
+    "denied": 1,
+    "unstarted_files": 9,
+    "tree_actions": 0,
+    "commit_actions": 0,
+    "ref_actions": 0,
+    "denied_legacy_registry_retried": false
+  },
+  "scientific_admissions": 0
+}

@@ -1,0 +1,62 @@
+{
+  "start_utc": "2026-10-11T13:22:13Z",
+  "end_utc": "2026-10-11T13:23:09Z",
+  "source": "exposed developer UTC reminder bounds",
+  "queries": [
+    {
+      "q": "site.help.seedrs.com \"funded\" \"completion\"",
+      "limitation": "Malformed site operator; low-quality attempt"
+    },
+    {
+      "q": "site.europe.republic.com \"savvy navvy\" \"completed\" 2020"
+    },
+    {
+      "q": "site.seedrs.com \"KIIS\" \"Completion date\""
+    },
+    {
+      "q": "\"Seedrs\" \"funded\" \"completion\" campaign",
+      "domains": [
+        "help.seedrs.com",
+        "europe.republic.com"
+      ]
+    },
+    {
+      "q": "\"savvy navvy\" \"2020\" \"closed\"",
+      "domains": [
+        "seedrs.com",
+        "europe.republic.com"
+      ]
+    },
+    {
+      "q": "\"Seedrs\" \"Previous campaigns\" \"Completion date\"",
+      "domains": [
+        "assets.seedrs.com",
+        "help.seedrs.com"
+      ]
+    },
+    {
+      "q": "Seedrs what happens after campaign closes shares issued investment completion",
+      "domains": [
+        "help.seedrs.com",
+        "europe.republic.com",
+        "seedrs.com"
+      ]
+    },
+    {
+      "q": "\"savvy-navvy1\" \"complete\""
+    },
+    {
+      "q": "\"savvy navvy\" \"Seedrs\" \"March 2020\" funding"
+    }
+  ],
+  "candidate_source_opened": "https://europe.republic.com/investors-site/guides/what-to-expect-as-a-startup-seedrs-investor/",
+  "finding": "Generic stage separation verified in source body; no historical field mapping or company-specific date reconciliation found in bounded returned results.",
+  "no_external_contact": true,
+  "no_paid_jev_calls": true,
+  "additional_exposed_tool_invocations": {
+    "web_run_search": 3,
+    "web_run_open": 1,
+    "scope": "Exact search/read subset only; shell download and other assembly/review activity excluded"
+  },
+  "final_full_run_metrics": "UNAVAILABLE; original partial cutoff remains explicitly labelled"
+}

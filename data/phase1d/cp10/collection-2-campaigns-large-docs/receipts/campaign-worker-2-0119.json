@@ -1,0 +1,18 @@
+{
+  "bytes": 212180,
+  "campaign_url": "https://republic.com/coinvest",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/coinvest/show_updates",
+  "gzip_sha256": "f2608449e62e1292dafcdf3aefee2bcbc7a6f5c802efb1c6ddc856242466e8c6",
+  "http_status": 200,
+  "parent_sha256": "5aa67fc1af8157dc47fa02205be5dcdc5a763c058a257c6d03e9d5eabb533df1",
+  "raw_sha256": "f4070cecfdc88743a9cff4fb2f1df3cdcc6b7cb533134f315f7ecc3b1140be6c",
+  "received_at": "2026-10-10T02:25:41.225889+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:40.380653+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f4070cecfdc88743a9cff4fb2f1df3cdcc6b7cb533134f315f7ecc3b1140be6c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/coinvest/show_updates"
+}

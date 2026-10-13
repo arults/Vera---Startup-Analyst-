@@ -1,0 +1,54 @@
+{
+  "run_id": "vera-sapientx-publication-20261011",
+  "worker_attempt": "sapientx-safe-publication-01",
+  "covered_window_start_utc": "2026-10-11T16:00:46Z",
+  "covered_window_end_utc": "2026-10-11T16:05:49Z",
+  "scope": "Local source-byte and candidate review before publication. Later GitHub writes and CI checks have separate publication receipts.",
+  "metrics": [
+    {
+      "metric": "tokens",
+      "value": null,
+      "unit": "tokens",
+      "status": "UNAVAILABLE",
+      "scope": "this review window",
+      "provenance": "Provider token totals not exposed."
+    },
+    {
+      "metric": "total_tool_invocations",
+      "value": null,
+      "unit": "invocations",
+      "status": "NOT_FULLY_INSTRUMENTED",
+      "scope": "this review window",
+      "provenance": "No complete attributable tool-invocation counter; nested and outer orchestration calls are not conflated."
+    },
+    {
+      "metric": "wall_clock_latency",
+      "value": 303,
+      "unit": "seconds",
+      "status": "MEASURED",
+      "scope": "recorded task start to prepublication review freeze",
+      "provenance": "Conversation UTC time 16:00:46 to clock.curr_time 16:05:49."
+    },
+    {
+      "metric": "total_cost",
+      "value": null,
+      "unit": "USD",
+      "status": "UNAVAILABLE",
+      "scope": "this review window",
+      "provenance": "No attributable provider billing data."
+    },
+    {
+      "metric": "peak_RSS",
+      "value": null,
+      "unit": "bytes",
+      "status": "UNAVAILABLE",
+      "scope": "worker process",
+      "provenance": "Peak worker process memory not measured."
+    }
+  ],
+  "new_external_source_reads": 0,
+  "jev_invocations": 0,
+  "root_provided_source_captures_checked": 2,
+  "source_scope": "One existing issuer, one period-specific observation; no new company, financing round or canonical event.",
+  "coverage_complete": false
+}

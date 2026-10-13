@@ -1,0 +1,49 @@
+{
+  "bytes": 19354319,
+  "campaign_url": "https://republic.com/hawaiian-bros",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Hawaiian Bros Form C.pdf",
+  "page_count": 260,
+  "parent_sha256": "f8407c06b94c8ff0659f82ba26c607e33f1216508e51ddd0f733e3af9952817f",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 933,
+      "pymupdf_sha256": "b1e90ac66e9afe62b52a813a608f6ab96e3bb5e2102e4c7eaf16eddddb8a35dc",
+      "pypdf_chars": 933,
+      "pypdf_sha256": "b1e90ac66e9afe62b52a813a608f6ab96e3bb5e2102e4c7eaf16eddddb8a35dc"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1811,
+      "pymupdf_sha256": "713a001a118194df3eb8b087b9a07d009184f33db15cdb5843cca7802450d915",
+      "pypdf_chars": 1811,
+      "pypdf_sha256": "713a001a118194df3eb8b087b9a07d009184f33db15cdb5843cca7802450d915"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1334,
+      "pymupdf_sha256": "f20e0d12cec1214f461674c72703761b3261501a39e58001b07b73ada82fe922",
+      "pypdf_chars": 1334,
+      "pypdf_sha256": "f20e0d12cec1214f461674c72703761b3261501a39e58001b07b73ada82fe922"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2898,
+      "pymupdf_sha256": "df839fb68450e13c51ca2913516a75325e0969869ab4400cae18d80c17876c32",
+      "pypdf_chars": 2898,
+      "pypdf_sha256": "df839fb68450e13c51ca2913516a75325e0969869ab4400cae18d80c17876c32"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/1395be820efbfa5cf9d0fee67d2215a39168471b4c5842a22950ad222a9c0c56.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1395be820efbfa5cf9d0fee67d2215a39168471b4c5842a22950ad222a9c0c56.bin.gz",
+  "source_sha256": "1395be820efbfa5cf9d0fee67d2215a39168471b4c5842a22950ad222a9c0c56",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1069?view=preview"
+}

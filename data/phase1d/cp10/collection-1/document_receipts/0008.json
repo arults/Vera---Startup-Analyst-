@@ -1,0 +1,49 @@
+{
+  "bytes": 3205301,
+  "campaign_url": "https://republic.com/callingdr",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "CallingDr Form C-A.pdf",
+  "page_count": 121,
+  "parent_sha256": "0a0c0839b978bd5d69d067a6e732892185b49d271f8cdffe890328872c9456ff",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1150,
+      "pymupdf_sha256": "18e8b871a75327302072e286d2a690547de3c0bf50da1f797cec00334dfc0ad6",
+      "pypdf_chars": 1150,
+      "pypdf_sha256": "18e8b871a75327302072e286d2a690547de3c0bf50da1f797cec00334dfc0ad6"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1578,
+      "pymupdf_sha256": "4d570ec1c6109ec7683a0e03514aa056ba09d04c49a2b10974d75df5eadff289",
+      "pypdf_chars": 1579,
+      "pypdf_sha256": "819c315a7e9caaa34b1f9275f9798facb960a8399b5b531e63d9f52a4bd2f5a1"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1765,
+      "pymupdf_sha256": "39050f67fb713dee81f43caf6e58844570d089f8ef93bdceb908bf0d821968ef",
+      "pypdf_chars": 1771,
+      "pypdf_sha256": "d5e2fcccbcb5efc3dded2e7cc67852b42972bc17392db711c6fbf00e80aaa138"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 86,
+      "pymupdf_sha256": "c945412e82f18f2447f5b58f2d34c50efd131580880407a3350cd583c64e246c",
+      "pypdf_chars": 87,
+      "pypdf_sha256": "49304477e12092412beed6d0f69622d59bfc1d37c9b0d758c6bb67e8ee5ccc14"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/bc5d704c45b6df96795272c1e3b211789c8a465213b9d858c157e9715f2c758b.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/bc5d704c45b6df96795272c1e3b211789c8a465213b9d858c157e9715f2c758b.bin.gz",
+  "source_sha256": "bc5d704c45b6df96795272c1e3b211789c8a465213b9d858c157e9715f2c758b",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/217?view=preview"
+}

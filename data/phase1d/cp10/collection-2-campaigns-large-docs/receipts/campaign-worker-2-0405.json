@@ -1,0 +1,18 @@
+{
+  "bytes": 68918,
+  "campaign_url": "https://republic.com/neopenda",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/neopenda/show_updates",
+  "gzip_sha256": "10d610e7d2a3fa6bcb9baea295421b8414532f5155ca4fa3391f705a0a68cb99",
+  "http_status": 200,
+  "parent_sha256": "9dc82656e30ec8da665ae8a500c738602baac834810f599abc0007f599dc7c89",
+  "raw_sha256": "4221e63b8ca2d73c889466011079a888ad28f2f1bc4502b592850f7785fae8ff",
+  "received_at": "2026-10-10T02:34:25.967364+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:25.373606+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4221e63b8ca2d73c889466011079a888ad28f2f1bc4502b592850f7785fae8ff.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/neopenda/show_updates"
+}

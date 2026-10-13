@@ -1,0 +1,10 @@
+{
+  "campaign_url": "https://republic.com/a-boring-life",
+  "error": "ValueError:response byte limit",
+  "label": "A Boring Life Form C.pdf",
+  "parent_sha256": "e932f49dda4ad9a245ce7718b5d6ff9398ac55f73720c312e3b5fbab79969333",
+  "retrieval_started_at": "2026-10-10T01:08:17.107424+00:00",
+  "source_group": "native-documents",
+  "status": "REQUEST_OR_VALIDATION_ERROR",
+  "url": "https://republic.com/documents/129?view=preview"
+}

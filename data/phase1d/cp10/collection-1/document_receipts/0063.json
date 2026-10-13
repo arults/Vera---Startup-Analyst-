@@ -1,0 +1,49 @@
+{
+  "bytes": 11483654,
+  "campaign_url": "https://republic.com/ready-set-jet",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Ready Set Jet Form C.pdf",
+  "page_count": 81,
+  "parent_sha256": "eaa38f9a74b6e3b78c8008e6f7b31568b9393e032b655209ddbc6ec6cd44be50",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1149,
+      "pymupdf_sha256": "4adb6b21b64e2f7588b589589170a542ddd6e557542a74f83671d1e999213882",
+      "pypdf_chars": 1615,
+      "pypdf_sha256": "dda2b9985b76c4b204e2271a4f50131d49e6407b3eeafdc188e8af402a31e013"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 2012,
+      "pymupdf_sha256": "e1f0a4b5caebe27fdaab4a1a2448e8f781993f6780d63e2f68c5c1982d717aa4",
+      "pypdf_chars": 2849,
+      "pypdf_sha256": "587ddc69888cd1f050a30e86f930356714fe37a9080ad4a3bbcd821d378d8534"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1419,
+      "pymupdf_sha256": "434d8d31ba10ea111bbbafa511fce19a8554ba10420e758da57072230eca4bd5",
+      "pypdf_chars": 1963,
+      "pypdf_sha256": "84d3c1062d70b01b788f6e861689ec77ccdab67da9c1d6dd0ca585afb628e180"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 4154,
+      "pymupdf_sha256": "40d3440164e748bbc47b4c52c3a83a98091c6eda71abb4f3cf24b70e1718301c",
+      "pypdf_chars": 5791,
+      "pypdf_sha256": "b1c71ce0d389761aea4c636f5aa07f751ca9e0b855a3d3f8d8abafef6c4e70fa"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/8e9563ce249852aa700b93ab5e06363619a28c119fc041ac5b7ffa6bdf5d57a2.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8e9563ce249852aa700b93ab5e06363619a28c119fc041ac5b7ffa6bdf5d57a2.bin.gz",
+  "source_sha256": "8e9563ce249852aa700b93ab5e06363619a28c119fc041ac5b7ffa6bdf5d57a2",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/468?view=preview"
+}

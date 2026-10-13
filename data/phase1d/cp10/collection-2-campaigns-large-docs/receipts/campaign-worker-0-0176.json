@@ -1,0 +1,18 @@
+{
+  "bytes": 75442,
+  "campaign_url": "https://republic.com/evolution-devices-2021",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/evolution-devices-2021/show_updates",
+  "gzip_sha256": "154fa89dc3a8be1ee7e9b9c34934807dc5324b5ae26faab5e6b1952b1983e77f",
+  "http_status": 200,
+  "parent_sha256": "b6ebeb2fe68aebc3bab98554499d22f7a84f3facafb3ccc4c312a4c9666d3a3b",
+  "raw_sha256": "ff011e2a96b37bd30f279d711ccf83dd5b533d9e258ceb8bab0b17a8f7cd48a5",
+  "received_at": "2026-10-10T02:27:14.878023+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:14.233620+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ff011e2a96b37bd30f279d711ccf83dd5b533d9e258ceb8bab0b17a8f7cd48a5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/evolution-devices-2021/show_updates"
+}

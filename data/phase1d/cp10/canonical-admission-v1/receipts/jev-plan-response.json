@@ -1,0 +1,32 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"model\":\"jev-1.13.0\",\"answers\":{\"method\":{\"type\":\"choice\",\"choice\":\"implement_verify_bounded_adapter\",\"confidence\":1,\"probabilities\":{\"implement_verify_bounded_adapter\":1,\"generic_mass_promotion\":0,\"block_all\":0}},\"stage_separation\":{\"type\":\"noul\",\"noul\":0.96}},\"usage\":{\"input_tokens\":841,\"output_tokens\":73}}"
+    }
+  ],
+  "structuredContent": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "method": {
+        "type": "choice",
+        "choice": "implement_verify_bounded_adapter",
+        "confidence": 1,
+        "probabilities": {
+          "implement_verify_bounded_adapter": 1,
+          "generic_mass_promotion": 0,
+          "block_all": 0
+        }
+      },
+      "stage_separation": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    },
+    "usage": {
+      "input_tokens": 841,
+      "output_tokens": 73
+    }
+  },
+  "isError": false
+}

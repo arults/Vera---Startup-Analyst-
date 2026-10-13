@@ -1,0 +1,11 @@
+{
+  "receipt_version": "0.1.0",
+  "receipt_type": "SOURCE_REVIEW_COORDINATION_TRANSCRIPTION",
+  "reviewer_task": "verify_sapientx_identity",
+  "date_utc": "2026-10-11",
+  "review_message_received_utc": "2026-10-11T16:03:30Z",
+  "provenance": "Verbatim independent reviewer message received by publication worker; receipt is materialized from that message, not an original reviewer-authored file.",
+  "review_text": "Review receipt: SapientX native-identity supplement v0.1.0, pinned e1991e3. Independently reviewed the native Wefunder → explicitly linked SEC C/A → named SapientX issuer/CIK chain, frozen manifest/outcome and Phase1C spec. Permitted: issuer-level identity bridge and a research-only FY2023 period disclosure; retain SEC as external identity corroboration and keep offering 020-33375 separate from 020-26500. Held: exact operating/censor endpoint, current or continuous survival, first-live, qualifying success, sapientx.ai continuity, canonical edits, denominator/metric changes and production promotion. Preserve November-summary/December-financial/filing/funding dates separately and flag the unclear trailing-three-month revenue interval. My review excludes local PDF replay; the separate publication reviewer’s PDF/hash work is not mine. No JEV invoked and no external writes performed.",
+  "exact_final_bytes_reviewed_by_this_source_reviewer": false,
+  "publication_authorization": false
+}

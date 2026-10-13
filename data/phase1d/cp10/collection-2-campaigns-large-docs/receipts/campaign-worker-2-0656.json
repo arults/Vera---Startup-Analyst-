@@ -1,0 +1,18 @@
+{
+  "bytes": 60686,
+  "campaign_url": "https://republic.com/whim",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/whim/show_updates",
+  "gzip_sha256": "d7673ff8ef2d68b643fedcd0da1af35ac4502d902c55d51025fd545f0d7fb923",
+  "http_status": 200,
+  "parent_sha256": "334b91ea43a31a2257dccf9443decb1e8cc333adfd0cea0772b88bfcaae95382",
+  "raw_sha256": "4031b1130b212c6a3d9d7d842134a96b49fd2e0da33507374c7be574158a7fbd",
+  "received_at": "2026-10-10T02:39:13.975200+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:13.379631+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4031b1130b212c6a3d9d7d842134a96b49fd2e0da33507374c7be574158a7fbd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/whim/show_updates"
+}

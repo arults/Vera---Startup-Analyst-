@@ -1,0 +1,18 @@
+{
+  "bytes": 8946,
+  "campaign_url": "https://republic.com/analog-cases",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/analog-cases/show_updates",
+  "gzip_sha256": "3b0d81c577aae260cc336328d5eb6a0cd4bde45c412fe2bf9833c26df7e493dd",
+  "http_status": 200,
+  "parent_sha256": "97d526842e3d17dfbe805c0c6f6d41e4a1ff695f6bb35ea67dc4e1493ee75bc5",
+  "raw_sha256": "0bbbc3b517357aa9de51b7506a682bb38082e58bc16fa696355995db39142025",
+  "received_at": "2026-10-10T02:23:18.153949+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:17.598881+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0bbbc3b517357aa9de51b7506a682bb38082e58bc16fa696355995db39142025.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/analog-cases/show_updates"
+}

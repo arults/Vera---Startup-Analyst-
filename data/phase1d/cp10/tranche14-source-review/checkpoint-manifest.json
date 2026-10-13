@@ -1,0 +1,61 @@
+{
+  "status": "INDEPENDENT_SOURCE_REVIEW_AND_PORTABLE_NORMALIZATION_ACCEPTED_FINAL_JEV_AND_ADMISSION_PENDING",
+  "upstream_primary_ledger_sha256": "ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23",
+  "upstream_independent_review_sha256": "63c9a17c822847ec84b85b5c34d7c2c0fef3b1f1fd722d7cc4d0fa5251af1f70",
+  "normalization_attestation_sha256": "f543402d9cfc9bf6af7f225309db4255f75c0748f82bc70930e1418cf1c60544",
+  "files": [
+    {
+      "path": "PRIMARY_REVIEW_REPORT.md",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/PRIMARY_REVIEW_REPORT.md",
+      "sha256": "c0274ab2dbb14211baaf71dd314498c511681ccea7a51ead46b69543bd58bf01",
+      "bytes": 10087
+    },
+    {
+      "path": "README.md",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/README.md",
+      "sha256": "a71590c81bb9cfed0cfd5256ee37418200e01e326989e656c3f9cdb39a697b2e",
+      "bytes": 3327
+    },
+    {
+      "path": "amendment-inventory.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/amendment-inventory.json",
+      "sha256": "c1b9222e91606f55495b861dafeea83ac1c642bae7835bb0eaca6c937aa5b86c",
+      "bytes": 6446
+    },
+    {
+      "path": "fourteen-dispositions.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/fourteen-dispositions.json",
+      "sha256": "53e2d98e240551782132eb62c707a6c1f0fbeb49ad2857fd1b6a5b602f9fe958",
+      "bytes": 421665
+    },
+    {
+      "path": "independent-final-review.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/independent-final-review.json",
+      "sha256": "950b421dc3796ecc891dc23468333669ce63ad25cc24efbab44b7a68c2e81c2c",
+      "bytes": 13399
+    },
+    {
+      "path": "normalization-lineage.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/normalization-lineage.json",
+      "sha256": "fbf9b5b0c36223179c59a9f7240d6922093cbcb7d65bab9be19c10c177fb54cd",
+      "bytes": 61990
+    },
+    {
+      "path": "source-references.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/source-references.json",
+      "sha256": "0ae09641ea7ef7f1f0c9ec59a4b9bc05d4a4402b268e6ba2773723a8ad10cba8",
+      "bytes": 24721
+    },
+    {
+      "path": "normalization-attestation.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/normalization-attestation.json",
+      "sha256": "f543402d9cfc9bf6af7f225309db4255f75c0748f82bc70930e1418cf1c60544",
+      "bytes": 5949
+    }
+  ],
+  "source_final_JEV": "PENDING_SPECIFIC_DISCLOSURE_AUTHORIZATION",
+  "this_tranche_admissions": 0,
+  "earlier_two_row_release_changed": false,
+  "phase_complete": false,
+  "global_plateau": false
+}

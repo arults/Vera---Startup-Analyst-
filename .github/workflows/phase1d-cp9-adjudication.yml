@@ -1,0 +1,98 @@
+name: Phase 1D CP9 evidence adjudication
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp9-adjudication.yml]
+permissions:
+  contents: write
+concurrency:
+  group: phase1d-cp9-empirical
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install isolated evidence-review dependencies
+        run: python -m pip install requests beautifulsoup4 lxml pymupdf pypdf
+      - name: Independently verify public post/PDF fields and build conservative evidence ledger
+        run: python -m src.phase1d.adjudicate_cp9
+      - name: Full regression and historical scientific checks
+        if: always()
+        run: |
+          mkdir -p evidence/phase1d_cp9/adjudication
+          python -m unittest discover -s tests -v > evidence/phase1d_cp9/adjudication/full-tests.txt 2>&1
+          python -m src.phase1d.verifier_v4 > evidence/phase1d_cp9/adjudication/historical-scientific-verifier.json
+          tail -5 evidence/phase1d_cp9/adjudication/full-tests.txt
+      - name: Verify adjudication invariants independently
+        run: |
+          python - <<'PY'
+          import json,hashlib,csv
+          from pathlib import Path
+          b=Path('data/phase1d/cp9');p=b/'adjudication';sha=lambda b:hashlib.sha256(b).hexdigest()
+          old=json.loads((p/'preserved_before.json').read_text());s=json.loads((p/'summary.json').read_text());rows=json.loads((p/'latest_operating_evidence.json').read_text());docs=json.loads((p/'native_document_field_review.json').read_text());event=json.loads((p/'unbanked_winddown_announcement.json').read_text())
+          g={}
+          g['all_prior_data_unchanged']=all(Path(k).is_file() and sha(Path(k).read_bytes())==v for k,v in old.items())
+          g['reviewed47']=len(rows)==47
+          g['admitted31_reports_only']=sum(r['source_evidence_admitted'] for r in rows)==31
+          g['point25']=sum(r['exact_operating_evidence_date'] is not None for r in rows)==25
+          g['period6']=sum(r['period_start'] is not None for r in rows)==6
+          g['held16']=sum(not r['source_evidence_admitted'] for r in rows)==16
+          g['no_period_point_imputation']=all(r['exact_operating_evidence_date'] is None for r in rows if r['period_start'])
+          g['no_real_world_certification']=all(not r['real_world_survival_certified'] for r in rows)
+          g['no_estimation_admissions']=all(not r['estimation_eligible'] for r in rows)
+          g['point_chronology']=all(r['native_completion_date']<=r['exact_operating_evidence_date']<=r['publication_date'] for r in rows if r['exact_operating_evidence_date'])
+          by={r['campaign_url'].rsplit('/',1)[-1]:r for r in rows}
+          g['hawaiian_explicit_year_end']=by['hawaiian-bros']['exact_operating_evidence_date']=='2023-12-31'
+          g['stockcard_content_date']=by['stockcard']['exact_operating_evidence_date']=='2024-07-04'
+          g['unbanked_continuity']=any(d.get('legal_continuity_verified') and d.get('conversion_date')=='2022-01-01' for d in docs)
+          g['winddown_not_completed_closure']=event['event_type']=='WIND_DOWN_ANNOUNCED' and not event['completed_closure_verified']
+          g['no_invented_investor_loss']=event['investor_loss_fraction'] is None and event['investor_payout_date'] is None
+          g['new2022_not_old2019_round']=event['linked_campaign_first_live_date']=='2022-01-24' and not event['old_2019_round_in_study']
+          g['intermediary_CIK_not_issuer']=all(d['intermediary_cik_is_not_issuer_cik'] for d in docs)
+          g['safe_not_priced_equity']=all(not d['qualifying_priced_followon'] for d in docs)
+          union=list(csv.DictReader((p/'republic_us_candidate_union.csv').open()))
+          g['125_distinct_campaign_candidates']=len(union)==125 and len({r['source_url'] for r in union})==125
+          g['122_fully_bound_date_pairs']=s['launch_completion_pairs_fully_source_bound']==120+json.loads((b/'cycle-3-bounded-documents-linked-rounds/summary.json').read_text())['new_timeline_pairs_verified']
+          g['29_captured_PDFs_not29_adjudicated']=s['native_public_PDFs_captured']==7+22 and s['native_document_issuer_and_SAFE_family_reviews']==4
+          g['four_censuses_still_held']=len(s['incomplete_native_censuses'])==4 and not s['phase_complete']
+          g['no_promotion_or_false_plateau']=not s['rates_promoted'] and not s['global_research_plateau']
+          historical=json.loads(Path('evidence/phase1d_cp9/adjudication/historical-scientific-verifier.json').read_text())
+          g['historical43_pass']=historical['passed']==historical['gate_count']==43
+          result={'checks':g,'passed':sum(g.values()),'total':len(g),'prior_data_files_checked':len(old),'scope':'Independent invariants and field-source checks. Not a complete census or independently audited investor outcomes.'}
+          with open('evidence/phase1d_cp9/adjudication/independent-checks.json','x') as f:json.dump(result,f,indent=2)
+          print(result)
+          assert all(g.values())
+          PY
+      - name: Save additive adjudication and verification receipts
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/phase1d/cp9 evidence/phase1d_cp9
+          if git diff --cached --name-status | grep -v '^A[[:space:]]'; then exit 1; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'CP9: verified operating-report and legal-continuity evidence; complete-census and numerical gates remain blocked'
+            git push origin HEAD:phase-1d
+          fi
+      - name: Export derived verification evidence without full copyrighted source bodies
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp9-adjudication
+          cp -r data/phase1d/cp9/adjudication /tmp/vera-cp9-adjudication/ || true
+          cp -r evidence/phase1d_cp9 /tmp/vera-cp9-adjudication/
+          cp src/phase1d/adjudicate_cp9.py /tmp/vera-cp9-adjudication/
+          git rev-parse HEAD > /tmp/vera-cp9-adjudication/source-commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp9-adjudication-${{ github.run_id }}
+          path: /tmp/vera-cp9-adjudication/
+          retention-days: 30
+          if-no-files-found: error

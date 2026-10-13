@@ -1,0 +1,18 @@
+{
+  "bytes": 127495,
+  "campaign_url": "https://republic.com/win-win",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/win-win/show_updates",
+  "gzip_sha256": "cbc16e81f606c8f3de62f9eec109a081c930617947e3953eaa12b420e95e60b6",
+  "http_status": 200,
+  "parent_sha256": "c9768d41619ab9861bfb0f1f4d66e79b9afc3451359d5f2695fa2c2b38bcfb33",
+  "raw_sha256": "19725333d8d8695e0dc73309886e5c10bf83835f8895b6bf28bc8c16e38907ab",
+  "received_at": "2026-10-10T02:39:03.737813+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:02.989513+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/19725333d8d8695e0dc73309886e5c10bf83835f8895b6bf28bc8c16e38907ab.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/win-win/show_updates"
+}

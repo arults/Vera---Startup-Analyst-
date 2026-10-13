@@ -1,0 +1,6 @@
+{
+  "access_bypass_attempted": false,
+  "at": "2026-10-09T09:55:16.816867+00:00",
+  "error": "RuntimeError:SEC index not publicly accessible; no bypass",
+  "route": "https://www.sec.gov/data-research/sec-markets-data/crowdfunding-offerings-data-sets"
+}

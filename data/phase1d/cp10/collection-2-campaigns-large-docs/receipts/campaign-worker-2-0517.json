@@ -1,0 +1,18 @@
+{
+  "bytes": 28591,
+  "campaign_url": "https://republic.com/resonado",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/resonado/show_updates",
+  "gzip_sha256": "094c6b9d6513fc2639581088c0f8a5d2bf7f96f9fac8d587cbdc9f9e2f2681b8",
+  "http_status": 200,
+  "parent_sha256": "18f1265c9e952252e9d71e658fef6f602cbef925bf3efd6c32536dfc39cd1a08",
+  "raw_sha256": "f39d7284f29bd4e30958457e4b1ed9470df6bc6ca55ba273dec25a0044fff603",
+  "received_at": "2026-10-10T02:36:32.837624+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:32.264191+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f39d7284f29bd4e30958457e4b1ed9470df6bc6ca55ba273dec25a0044fff603.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/resonado/show_updates"
+}

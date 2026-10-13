@@ -1,0 +1,23 @@
+{
+  "implementation_version": "1.0.4.3-assignment-local",
+  "status": "PREPARED_NOT_PUBLISHED",
+  "full_source_bodies_included": false,
+  "private_receipts_included": false,
+  "actual_ecotone_proposal_included": false,
+  "real_approvals_included": false,
+  "absolute_machine_paths_included": false,
+  "synthetic_review_fixtures_labelled": true,
+  "portable_tests": {
+    "discovered": 191,
+    "passed": 190,
+    "skipped": 1,
+    "failed": 0,
+    "skip": "Original native archives unavailable in clean portable copy"
+  },
+  "native_pins_included_as_hashes_only": true,
+  "network_calls": 0,
+  "jev_calls": 0,
+  "external_writes": 0,
+  "policy_byte_identical_to_predecessor": true,
+  "runtime_delta": "Selected-identity source cutoff validation plus implementation identifier"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 280805,
+  "campaign_url": "https://republic.com/rheenergise",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/rheenergise/show_updates",
+  "gzip_sha256": "d05cd73d0c5c5c77d660011fbad8115798498720a779ec2482796760f71a3bb5",
+  "http_status": 200,
+  "legal_name": "RheEnergise Limited",
+  "native_offering_id": 14393,
+  "parent_sha256": "48cd7b3f5863bcfd73238c3cc868ffc5575a27a17a9740f2de669ed60dedf800",
+  "raw_sha256": "365b9dd4ce52bf369ecd190b720c117b4aacd38ea8e30cc55253884ac263d964",
+  "received_at": "2026-10-10T00:52:28.526343+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:27.790804+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/365b9dd4ce52bf369ecd190b720c117b4aacd38ea8e30cc55253884ac263d964.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/rheenergise/show_updates"
+}

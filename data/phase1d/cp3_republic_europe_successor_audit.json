@@ -1,0 +1,14 @@
+{
+  "reviewed_candidates": 14,
+  "parsed_successor_edges": 14,
+  "unparsed_candidates": 0,
+  "event_class": "INTERNAL_RESTRUCTURE",
+  "acquisition_successes_added": 0,
+  "closures_added": 0,
+  "positive_followup_edges": 14,
+  "jev": {
+    "event_class_probability": 1,
+    "identity_link_probability": 1,
+    "positive_followup_yes_probability": 0.85
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "dispositions": {
+    "unresolved": 2865
+  },
+  "empirical_promotion": false,
+  "full_population_migrated": false,
+  "input_configuration_sha256": "219b3aa099d02a5cd0f60669c736de734e112b198ea9af289de58b71318a6425",
+  "limitations": [
+    "No company union across overlapping Wefunder frames.",
+    "EU company keys retain source identity; legal jurisdiction is not inferred.",
+    "Raw-profile counts reported elsewhere are not loaded rows.",
+    "No review receipts loaded; verified_complete is not established.",
+    "No cross-platform economic-round merge performed."
+  ],
+  "loaded_rows": 2865,
+  "prior_rates_changed": false,
+  "reconciliation": [
+    {
+      "input_rows": 42,
+      "lineage_rows": 42,
+      "path": "data/cohort_manifest.csv"
+    },
+    {
+      "input_rows": 568,
+      "lineage_rows": 568,
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/native_campaign_candidates.json"
+    },
+    {
+      "input_rows": 66,
+      "lineage_rows": 66,
+      "path": "data/phase1d/cp1_tavily_candidates_eu_web.csv"
+    },
+    {
+      "input_rows": 220,
+      "lineage_rows": 220,
+      "path": "data/phase1d/cp1_tavily_candidates_us.csv"
+    },
+    {
+      "input_rows": 952,
+      "lineage_rows": 952,
+      "path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv"
+    },
+    {
+      "input_rows": 952,
+      "lineage_rows": 952,
+      "path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv"
+    },
+    {
+      "input_rows": 65,
+      "lineage_rows": 65,
+      "path": "data/phase1d/cp7/analysis-cp8-verified/wefunder_public_profile_event_candidates.csv"
+    }
+  ],
+  "requirements": {
+    "git_blob": "fb62fb062274cf51b8090f91990c3181dc99bdb2",
+    "path": "docs/PHASE_1C_SPEC.md",
+    "sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+    "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+  },
+  "requirements_version": "phase1c-spec-717e7be8-register-v1",
+  "schema_version": "completion-register/1.0.0",
+  "sources": [
+    {
+      "adapter": "wf_funded",
+      "expected_rows": 42,
+      "git_blob": "45d143961d73585dcbe8f7534463ea7362513249",
+      "path": "data/cohort_manifest.csv",
+      "scope": "frozen_wefunder_funded_2020",
+      "sha256": "62468cea323ed6d2732df90cbe5ced04990db907cf908e4939b4128a302f78c8",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "us_offering",
+      "expected_rows": 568,
+      "git_blob": "b8997b8e19c80746a42f400b4667590de0dc592f",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/native_campaign_candidates.json",
+      "scope": "republic_us_cp10_offering_candidates",
+      "sha256": "1fe6501749a18029eff67b44ebd613234b6c4408f57f98cb6b601f458a02cc50",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "discovery",
+      "expected_rows": 66,
+      "git_blob": "f52d6268c610970dc2ad68d31661a93d1353f7ed",
+      "path": "data/phase1d/cp1_tavily_candidates_eu_web.csv",
+      "scope": "cp1_search_discovery",
+      "sha256": "621f39a8d80374bf901060844402796286902e99e6f5174d25648b9f216d3413",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "discovery",
+      "expected_rows": 220,
+      "git_blob": "f47ac20fe2979718bea8ad468f9ef47cd7307914",
+      "path": "data/phase1d/cp1_tavily_candidates_us.csv",
+      "scope": "cp1_search_discovery",
+      "sha256": "ccb4af63998aebdb32686126f8a73d1342a7989dd372d685a4576a4174d2c76b",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "eu_round",
+      "expected_rows": 952,
+      "git_blob": "18af1ddafadebdd673209ad9b85a4df445440fcf",
+      "path": "data/phase1d/cp2_republic_europe_rounds_normalized.csv",
+      "scope": "eu_native_funded_rounds_mixed_offering_year_resolution",
+      "sha256": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "eu_outcome",
+      "expected_rows": 952,
+      "git_blob": "8d15721a66b6a46ef92f6a139303d9f327930f84",
+      "path": "data/phase1d/cp7/analysis-cp8-verified/republic_europe_outcome_ledger_v5.csv",
+      "scope": "eu_outcomes_v5_source_frame",
+      "sha256": "b31a7a1e60a11ab94f40ad32c68cb632ae20a7fc7a37b58b29e1bcc869ef5dbe",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    },
+    {
+      "adapter": "wf_event",
+      "expected_rows": 65,
+      "git_blob": "9c7c9204923191d3857057689cd30df85201e29a",
+      "path": "data/phase1d/cp7/analysis-cp8-verified/wefunder_public_profile_event_candidates.csv",
+      "scope": "wefunder_cp8_candidate_profile_events",
+      "sha256": "20c466c83e96d361c3a2ef17640433b479cdcf551773a0970a2de7d7bd8ad5ef",
+      "source_commit": "717e7be8f6ee672815f69ef8d8885ff9a555055d"
+    }
+  ]
+}

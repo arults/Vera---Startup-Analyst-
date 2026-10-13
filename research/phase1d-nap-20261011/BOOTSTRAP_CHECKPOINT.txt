@@ -1,0 +1,9 @@
+2026-10-11 Vera Phase 1D bootstrap reporting checkpoint
+
+New reconstruction of the unpublished caller safeguard, independently verified before publication. The old exact candidate was not recovered. Four scoped code/test/document files and a targeted CI workflow are included. Frozen source data, seeds, point estimates, original quantiles and RQ2 gates remain unchanged.
+
+Verified locally: 47 tests, including optional archived replay, passed without skips; 39 separate independent checks passed. Independently replayed 13,000 v4 and 16,000 v5 draws, all supported and defined. These are overlapping versions, not 29,000 companies. Original RQ1 columns and RQ2 outputs unchanged. Synthetic seed-71 control has 257 unsupported draws of 1,000, all retained; uncertainty interval correctly withheld.
+
+Private actual-ledger full-draw sidecars are excluded from publication. CI runs the synthetic/reporting suite without private replay environment variables; one optional replay test is expected to skip there. Local replay is separately recorded above. Remote CI and readback are pending at preparation time.
+
+This fixes a demonstrated reporting hazard, not an observed actual-cohort error or the remaining full multistate scientific integration. No empirical rates or priors are promoted. No actual private study/code was sent to JEV; the session's JEV check was a generic methodology evaluation only.

@@ -1,0 +1,18 @@
+{
+  "bytes": 102078,
+  "campaign_url": "https://republic.com/cns-pharmaceuticals",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cns-pharmaceuticals/show_updates",
+  "gzip_sha256": "d48e96792b90615a3cdd8e3b06181c9654841b7c9b8889c8a27320c5a9c5f6cb",
+  "http_status": 200,
+  "parent_sha256": "693fa933f687150baa2af7ecd19df01265f6c93312658dab1361d5d9d75be090",
+  "raw_sha256": "649b8db4b5a997589f43b6a0147d8dae6399329e60d97dbd5f091e6cf9f5824b",
+  "received_at": "2026-10-10T02:25:34.375752+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:33.769144+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/649b8db4b5a997589f43b6a0147d8dae6399329e60d97dbd5f091e6cf9f5824b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cns-pharmaceuticals/show_updates"
+}

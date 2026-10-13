@@ -1,0 +1,18 @@
+{
+  "bytes": 65114,
+  "campaign_url": "https://republic.com/kencko-foods",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/kencko-foods/show_updates",
+  "gzip_sha256": "563a96110e74e30337eea29a54ea92ea61f9e88ffd059fde095e2f952942b451",
+  "http_status": 200,
+  "parent_sha256": "196c0878bbc30d3d9397d2c4c1cd3fed404e64d0a6f178b525c6d75175367538",
+  "raw_sha256": "88236d870766e6151a8637a6410793cd2a1a30c4f5f52a4d3c32da3d78345da3",
+  "received_at": "2026-10-10T02:32:23.604522+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:23.005045+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/88236d870766e6151a8637a6410793cd2a1a30c4f5f52a4d3c32da3d78345da3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/kencko-foods/show_updates"
+}

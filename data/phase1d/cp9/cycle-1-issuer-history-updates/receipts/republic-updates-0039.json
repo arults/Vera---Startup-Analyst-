@@ -1,0 +1,19 @@
+{
+  "bytes": 268275,
+  "campaign_url": "https://republic.com/fashwire",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/fashwire/show_updates",
+  "gzip_sha256": "9ee30082c1ea571a9f802608e34705c61b48cda22ac9001f8dbc0c0baaf2c280",
+  "http_status": 200,
+  "legal_name": "Fashwire Inc.",
+  "native_offering_id": 410,
+  "parent_sha256": "424eb6c91bb65186673a7e3e74b22ca5e5a4d4be6672e56e8d45822efcbefcaa",
+  "raw_sha256": "56b19202ba3ce9650a151432742966eaf87be2d3389a14ec00d19a32af17791a",
+  "received_at": "2026-10-10T00:52:01.038045+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:00.339898+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/56b19202ba3ce9650a151432742966eaf87be2d3389a14ec00d19a32af17791a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fashwire/show_updates"
+}

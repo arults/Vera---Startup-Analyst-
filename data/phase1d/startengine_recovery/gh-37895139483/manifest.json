@@ -1,0 +1,350 @@
+{
+  "candidate_urls": [],
+  "captures": [
+    {
+      "candidate_count": 0,
+      "candidate_urls": [],
+      "captured_at": "2026-10-09T06:45:23.286373+00:00",
+      "kind": "network_json",
+      "sha256": "c0ecd49fdadf76837559c2f6051d4783b660677d8f4046e8f16bb45bc388d371",
+      "status": 200,
+      "total_hints": [
+        {
+          "path": "$.aggregations.industries[16].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[17].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[18].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[19].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[20].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[21].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[22].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[23].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[24].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[25].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[26].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 1
+        },
+        {
+          "path": "$.aggregations.industries[10].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[11].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[12].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[13].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[14].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[15].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[8].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[9].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 2
+        },
+        {
+          "path": "$.aggregations.industries[5].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 3
+        },
+        {
+          "path": "$.aggregations.industries[6].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 3
+        },
+        {
+          "path": "$.aggregations.industries[7].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 3
+        },
+        {
+          "path": "$.aggregations.industries[2].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 4
+        },
+        {
+          "path": "$.aggregations.industries[3].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 4
+        },
+        {
+          "path": "$.aggregations.industries[4].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 4
+        },
+        {
+          "path": "$.aggregations.industries[1].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 6
+        },
+        {
+          "path": "$.aggregations.industries[0].count",
+          "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+          "value": 7
+        }
+      ],
+      "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum"
+    },
+    {
+      "candidate_count": 0,
+      "candidate_urls": [],
+      "captured_at": "2026-10-09T06:45:24.156235+00:00",
+      "kind": "network_json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "total_hints": [],
+      "url": "https://www.startengine.com/service/reward/program"
+    }
+  ],
+  "census_status": "CENSUS_INCOMPLETE",
+  "created_at": "2026-10-09T06:45:17.620262+00:00",
+  "directory_stops": [
+    {
+      "at": "2026-10-09T06:45:21.366789+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://www.startengine.com/explore"
+    },
+    {
+      "at": "2026-10-09T06:45:24.024003+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://www.startengine.com/explore/offerings"
+    }
+  ],
+  "errors": [
+    {
+      "at": "2026-10-09T06:45:21.366766+00:00",
+      "error": "HTTP 202",
+      "url": "https://www.startengine.com/explore"
+    },
+    {
+      "at": "2026-10-09T06:45:21.373282+00:00",
+      "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+    },
+    {
+      "at": "2026-10-09T06:45:21.375072+00:00",
+      "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+    },
+    {
+      "at": "2026-10-09T06:45:21.377186+00:00",
+      "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+      "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=Reg+D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED"
+    },
+    {
+      "at": "2026-10-09T06:45:24.023981+00:00",
+      "error": "HTTP 404",
+      "url": "https://www.startengine.com/explore/offerings"
+    },
+    {
+      "at": "2026-10-09T06:45:24.200856+00:00",
+      "error": "TargetClosedError('Response.body: Target page, context or browser has been closed')",
+      "url": "https://www.startengine.com/service/strapi/api/homepages?populate=%2A&pagination%5Bpage%5D=0&pagination%5BpageSize%5D=3"
+    }
+  ],
+  "rates_promoted": false,
+  "run_id": "gh-37895139483",
+  "schema": "phase1d-startengine-recovery-v1",
+  "scope": "Public StartEngine directory/network recovery only; historical platform-year denominator unresolved until independently verified.",
+  "seeds_completed": [],
+  "total_hints": [
+    {
+      "path": "$.aggregations.industries[16].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[17].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[18].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[19].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[20].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[21].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[22].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[23].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[24].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[25].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[26].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 1
+    },
+    {
+      "path": "$.aggregations.industries[10].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[11].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[12].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[13].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[14].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[15].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[8].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[9].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 2
+    },
+    {
+      "path": "$.aggregations.industries[5].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 3
+    },
+    {
+      "path": "$.aggregations.industries[6].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 3
+    },
+    {
+      "path": "$.aggregations.industries[7].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 3
+    },
+    {
+      "path": "$.aggregations.industries[2].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 4
+    },
+    {
+      "path": "$.aggregations.industries[3].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 4
+    },
+    {
+      "path": "$.aggregations.industries[4].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 4
+    },
+    {
+      "path": "$.aggregations.industries[1].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 6
+    },
+    {
+      "path": "$.aggregations.industries[0].count",
+      "source": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=&size=3&sortBy=mostMomentum",
+      "value": 7
+    }
+  ],
+  "updated_at": "2026-10-09T06:45:24.391605+00:00"
+}

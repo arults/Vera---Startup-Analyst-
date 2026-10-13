@@ -1,0 +1,18 @@
+{
+  "bytes": 1851,
+  "campaign_url": "https://republic.com/healthy-hip-hop",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/healthy-hip-hop/show_updates",
+  "gzip_sha256": "7cf7831e1862a4c6bce04c4bcb5cd4f19d62311e72acb65b42d68b0f25552421",
+  "http_status": 200,
+  "parent_sha256": "81639a871a88361b975de28e0638fa2be2361083f71e706f18f86dbe2393a4f4",
+  "raw_sha256": "a77c8cb0061c0c17bca1cf597325791ca482669022e7edb2cc159a78934aa9b7",
+  "received_at": "2026-10-10T02:29:18.415554+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:29:17.885453+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a77c8cb0061c0c17bca1cf597325791ca482669022e7edb2cc159a78934aa9b7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/healthy-hip-hop/show_updates"
+}

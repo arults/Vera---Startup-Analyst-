@@ -1,0 +1,53 @@
+name: Phase 1D company register validation
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/company-register-v0.1.0/**'
+      - '.github/workflows/phase1d-company-register-validation.yml'
+permissions:
+  contents: read
+jobs:
+  verify_exact_head:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Test additive migration safeguards
+        run: python -I -B -m unittest discover -s research/company-register-v0.1.0/tests -p 'test_*.py' -v
+      - name: Rebuild from hash-pinned existing inputs
+        run: >-
+          python -I -B research/company-register-v0.1.0/src/phase1d/completion_register.py
+          --root .
+          --config research/company-register-v0.1.0/source_manifest.json
+          --output "$RUNNER_TEMP/company-register-rebuild"
+      - name: Verify complete artifact sets and reproduced contents
+        shell: bash
+        run: |
+          python -I -B - <<'PY'
+          import base64, gzip, hashlib, json, os
+          from pathlib import Path
+          expected = Path('research/company-register-v0.1.0/generated')
+          actual = Path(os.environ['RUNNER_TEMP']) / 'company-register-rebuild'
+          decoded = []
+          for directory in (expected, actual):
+              hashes = json.loads((directory / 'artifact_hashes.json').read_text())
+              assert {p.name for p in directory.iterdir()} == set(hashes) | {'artifact_hashes.json'}, 'artifact set differs'
+              content = {}
+              for name, digest in hashes.items():
+                  assert Path(name).name == name, 'invalid artifact path'
+                  raw = (directory / name).read_bytes()
+                  assert hashlib.sha256(raw).hexdigest() == digest, name
+                  content[name] = gzip.decompress(base64.b64decode(raw)) if name.endswith('.gz.b64') else raw
+              decoded.append(content)
+          assert decoded[0] == decoded[1], 'canonical generated contents differ'
+          print('All artifact hashes, file sets and canonical generated contents match.')
+          PY

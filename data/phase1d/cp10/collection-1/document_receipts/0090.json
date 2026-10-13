@@ -1,0 +1,49 @@
+{
+  "bytes": 4921310,
+  "campaign_url": "https://republic.com/tracflo",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "TracFlo Form C.pdf",
+  "page_count": 84,
+  "parent_sha256": "ce3b98807791eb12ae5c6fa9b747c1fdd6f3ffd22190e5da233264b140f753b8",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1031,
+      "pymupdf_sha256": "1005c2b87c49bb0634df9fc2a9441ba0463bfd5275355b38b708138bada97a19",
+      "pypdf_chars": 1031,
+      "pypdf_sha256": "1005c2b87c49bb0634df9fc2a9441ba0463bfd5275355b38b708138bada97a19"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1583,
+      "pymupdf_sha256": "9da9f95608374352eaa8f51dd2c6407024cf585fc803dd857c62e10664ffdebc",
+      "pypdf_chars": 1583,
+      "pypdf_sha256": "9da9f95608374352eaa8f51dd2c6407024cf585fc803dd857c62e10664ffdebc"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1070,
+      "pymupdf_sha256": "33fb76658e3384ce7c012e60f940cc52c1c3174734de940d5534da5b46fc1263",
+      "pypdf_chars": 1070,
+      "pypdf_sha256": "33fb76658e3384ce7c012e60f940cc52c1c3174734de940d5534da5b46fc1263"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2549,
+      "pymupdf_sha256": "a7c5ac45ebd3a7c1fe89a9789236f3efd3ebf7b5abcdd614b3f2bad014549845",
+      "pypdf_chars": 2549,
+      "pypdf_sha256": "a7c5ac45ebd3a7c1fe89a9789236f3efd3ebf7b5abcdd614b3f2bad014549845"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/f18b11eb562d083238c5ef06ca46c1477786ae72be1336c34a35003971851ad4.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/f18b11eb562d083238c5ef06ca46c1477786ae72be1336c34a35003971851ad4.bin.gz",
+  "source_sha256": "f18b11eb562d083238c5ef06ca46c1477786ae72be1336c34a35003971851ad4",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/669?view=preview"
+}

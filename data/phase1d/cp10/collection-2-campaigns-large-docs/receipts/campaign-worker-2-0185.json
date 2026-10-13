@@ -1,0 +1,18 @@
+{
+  "bytes": 101017,
+  "campaign_url": "https://republic.com/fanalyze",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fanalyze/show_updates",
+  "gzip_sha256": "07ae8457b211e545af5508d6d7244f8a619934d3a5ccfdd48779eec263360b82",
+  "http_status": 200,
+  "parent_sha256": "f4989fe51615a008ac4da4f9de1781cde60808fd959ceeef792128788c553531",
+  "raw_sha256": "fdcce2e748ca9810d1c0ca2a570eb8f71276450d1a05e461b9439296ea5f5b2a",
+  "received_at": "2026-10-10T02:27:30.621106+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:29.829616+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fdcce2e748ca9810d1c0ca2a570eb8f71276450d1a05e461b9439296ea5f5b2a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fanalyze/show_updates"
+}

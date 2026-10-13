@@ -1,0 +1,19 @@
+{
+  "bytes": 80948,
+  "campaign_url": "https://republic.com/teooh",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/teooh/show_updates",
+  "gzip_sha256": "4680770766962b608866ea3699d820888559c4c9667425e549ec23ab8ed9bffc",
+  "http_status": 200,
+  "legal_name": "Teooh Inc.",
+  "native_offering_id": 464,
+  "parent_sha256": "fc819eeea756571473f1dec1681d0c829aec3a3dbb6588048617314d21d84333",
+  "raw_sha256": "063ec12f5c183f7502458f25ff42149193758ae26c8880045e161e62925e7728",
+  "received_at": "2026-10-10T00:52:41.633652+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:41.102967+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/063ec12f5c183f7502458f25ff42149193758ae26c8880045e161e62925e7728.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/teooh/show_updates"
+}

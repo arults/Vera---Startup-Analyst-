@@ -1,0 +1,28 @@
+name: Phase 1D first-success uncertainty validation
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/first-success-uncertainty-v0.1.0/**'
+      - 'research/explicit-history-statistics-v0.2.0/**'
+      - '.github/workflows/phase1d-first-success-uncertainty-validation.yml'
+permissions:
+  contents: read
+jobs:
+  verify_exact_head:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        shell: bash
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Validate first-success uncertainty and immutable dependency bindings
+        shell: bash
+        run: python -I -B research/first-success-uncertainty-v0.1.0/validate.py

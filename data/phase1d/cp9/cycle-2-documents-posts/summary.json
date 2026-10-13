@@ -1,0 +1,23 @@
+{
+  "all_prior_data_unchanged": true,
+  "census_complete": false,
+  "completed_at": "2026-10-10T01:12:55.895265+00:00",
+  "document_responses_captured": 8,
+  "document_urls_queued": 131,
+  "expected_titles_visible": 362,
+  "full_post_responses_captured": 362,
+  "full_post_urls_queued": 362,
+  "login_walls_detected": 0,
+  "new_sources_not_yet_outcome_adjudicated": true,
+  "pdf_magic_verified_not_content_verified": 7,
+  "prior_data_files_preserved": 1667,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "source_status_counts": {
+    "native-documents:NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN": 121,
+    "native-documents:PUBLIC_CAPTURED_UNADJUDICATED": 8,
+    "native-documents:REQUEST_OR_VALIDATION_ERROR": 2,
+    "native-full-posts:PUBLIC_CAPTURED_UNADJUDICATED": 362
+  },
+  "version": "0.6.4-dev.research.2"
+}

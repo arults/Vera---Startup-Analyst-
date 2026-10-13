@@ -1,0 +1,27 @@
+name: Vera return probability format validation
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/return-probability-format-v1/**'
+      - '.github/workflows/vera-return-probability-format-validation.yml'
+permissions:
+  contents: read
+jobs:
+  verify_exact_head:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Check return panel release guards
+        run: python -I -B -m unittest discover -s research/return-probability-format-v1/tests -p 'test_*.py' -v
+      - name: Check honest abstention example
+        run: python -I -B research/return-probability-format-v1/tools/validate_return_panel.py research/return-probability-format-v1/examples/return-panel-abstention-v1.json

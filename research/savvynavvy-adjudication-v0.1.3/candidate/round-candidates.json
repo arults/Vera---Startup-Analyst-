@@ -1,0 +1,778 @@
+[
+  {
+    "row_ordinal": 29,
+    "round_id": "reurope:savvy-navvy1",
+    "company_id": "reurope-company:10919572",
+    "frozen_row": {
+      "round_id": "reurope:savvy-navvy1",
+      "canonical_company_id": "reurope-company:10919572",
+      "campaign_name": "savvy navvy",
+      "platform": "republic_europe",
+      "offering_year": "2020",
+      "offering_year_status": "BOUNDED_YEAR",
+      "primary_field": "mobility_logistics_aerospace",
+      "completion_date": "2020-03-04",
+      "success_date": "2022-02-24",
+      "success_type": "qualified_priced_followon",
+      "success_valuation_multiple": "4.997705144135",
+      "closure_date": "",
+      "closure_type": "",
+      "last_positive_date": "2026-10-09",
+      "censor_date": "2026-10-09",
+      "followup_months": "79.178644763860",
+      "current_eligible_evidence": "true",
+      "evidence_trace": "index_completion:2020-03-04|later_funded_round:reurope:savvy-navvy2:2021-04-20|later_funded_round:reurope:savvy-navvy3:2022-02-24|later_funded_round:reurope:savvy-navvy4:2023-03-06|later_funded_round:reurope:savvy-navvy5:2024-06-05|later_funded_round:reurope:savvy-navvy6:2025-12-09|secondary_market_current_eligible:2026-10-09",
+      "outcome_ascertainment_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "terminal_event_type": "",
+      "terminal_event_interval_start": "",
+      "terminal_event_interval_end": "",
+      "terminal_event_midpoint_for_primary": "",
+      "terminal_event_date_status": "",
+      "terminal_event_evidence_url": "",
+      "terminal_event_success_value": "",
+      "terminal_event_sensitivity": "",
+      "success_evidence_url": "https://europe.republic.com/savvy-navvy3",
+      "success_evidence_sha256": "2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef",
+      "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+      "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+    },
+    "campaign_price_observation": {
+      "url": "https://europe.republic.com/savvy-navvy1",
+      "final_url": "https://europe.republic.com/savvy-navvy1",
+      "round_id": "reurope:savvy-navvy1",
+      "campaign_name": "savvy navvy",
+      "company_number": "10919572",
+      "company_key": "10919572",
+      "funded_date": "2020-03-04",
+      "instrument_type": "Equity",
+      "exact_pre_money_currency": "GBP",
+      "exact_pre_money_valuation": "1902516",
+      "exact_pre_money_text": "£1,902,516",
+      "valuation_basis": "FULLY_DILUTED_PRE_MONEY",
+      "raised_currency": "GBP",
+      "raised_amount": "616462",
+      "investors": "550",
+      "content_sha256": "c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3",
+      "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c44a8256e5cafbe1070b65a34204f4068377af50dfa54ab6f536385e905904f3.html.gz",
+      "received_at": "2026-10-09T09:28:10.398615+00:00",
+      "dom_valuation_matches": "True",
+      "dom_identity_matches": "True",
+      "source_valid": "True",
+      "binding_issues": "",
+      "binding_valid": "True",
+      "old_display_valuation": "1900000.0",
+      "old_display_currency": "GBP"
+    },
+    "campaign_id": "28289",
+    "source_evidence_class": "PLATFORM_HOSTED_ISSUER_CAMPAIGN",
+    "source_independence": "NOT_INDEPENDENT_OF_ISSUER_OR_PLATFORM",
+    "campaign_funded_label_date": "2020-03-04",
+    "financial_promotion_approved_as_of": "2020-02-03",
+    "first_live_date": null,
+    "offering_year_candidate": "2020",
+    "offering_year_candidate_basis": "Same-year promotion approval and displayed Funded dates; bounded-year argument retained, neither observation asserted first-live.",
+    "kiis_previous_campaign_observation": {
+      "document": "sources/kiis-20251110.pdf",
+      "page": 3,
+      "table": "Previous campaigns",
+      "raw_date_label": "Completion date",
+      "raw_date": "06/02/2020",
+      "parsed_date": "2020-02-06",
+      "date_format": "DD/MM/YYYY",
+      "raw_type": "Primary, Equity",
+      "amount_raised_gbp": "615821.09",
+      "mapping_status": "CANDIDATE_MATCH_BY_SAME_ISSUER_YEAR_AND_SEQUENTIAL_ROUND_CONTEXT; table has no campaign ID",
+      "semantic_status": "DIFFERING_OBSERVATIONS_UNDER_CANDIDATE_ROUND_MAPPING_NOT_CONFIRMED_SAME_ROUND_CONTRADICTION",
+      "days_before_campaign_funded": 27,
+      "days_after_promotion_approval": 3,
+      "campaign_raised_minus_kiis_amount_gbp": "640.91",
+      "also_in_2024_kiis": true
+    },
+    "origin_selected": null,
+    "initial_state_selected": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "evidence_eligibility": "NOT_DETERMINED",
+    "gate_reviews": {
+      "round_identity_and_funded_origin": {
+        "status": "HOLD",
+        "reason": "Native company ID and distinct campaign IDs are verified source observations supporting a six-round identity candidate. KIIS previous-equity rows have no campaign IDs: linkage to individual campaigns remains a candidate based on issuer, year and sequential context. Date and amount observations differ under those candidate links; adjudicate economic-round correspondence and origin semantics without selecting a convenient date. Round 6 Funded and Equity labels are accepted source facts; absence of a later KIIS is not a universal independent-contract requirement.",
+        "supported_subpredicates": {
+          "strong_issuer_id": "10919572",
+          "distinct_native_campaign_id": "28289",
+          "campaign_fields": "SOURCE_OBSERVATIONS_VERIFIED_NOT_AUTOMATIC_HISTORY_ADMISSION"
+        }
+      },
+      "initial_state": {
+        "status": "HOLD",
+        "reason": "No automatic PRE/POST. Prior2019 round and operating narrative retained; independent operation and index-specific prior success require explicit entry review."
+      },
+      "index_success_and_target": {
+        "status": "HOLD",
+        "reason": "Preserve exact pre-money valuation observations and all15 ratio controls. Ratio alone does not finish economic/security comparability or choose incident versus baseline-plus-incident target."
+      },
+      "typed_event_chronology": {
+        "status": "HOLD",
+        "reason": "No transitions emitted. Source-labelled dates remain separate; exact successful-financing event times and first-event qualification are unresolved."
+      },
+      "endpoint_observation": {
+        "status": "HOLD",
+        "reason": "Frozen 2026-10-09 last-positive/censor fields retained as input only. Secondary trading eligibility and retrieval time are not dated affirmative operation. No new endpoint or follow-up extension."
+      },
+      "cohort_assignment": {
+        "status": "PASS_BOUNDED_COHORT_ONLY",
+        "supported_subpredicates": {
+          "cohort_membership_review": "SUPPORTED_SAME_YEAR_BOUND",
+          "offering_year": "2020",
+          "exact_first_live_required_for_year": false
+        },
+        "reason": "Same-year financial-promotion approval and campaign Funded bounds support the supplied offering year. Exact first-live day is not required for bounded-year membership. This scoped pass does not confer economic-round identity, history admission or evidence eligibility; those decisions remain separate."
+      }
+    },
+    "native_text_opening_excerpt": "savvy navvy | EIS Crowdfunding Opportunity | Seedrs\nClose\nJump to:\nNavigation\nContent\nFooter\nsavvy navvy\nFollow\nGoogle Maps for sailors, making navigation easy, safe and fast, helping everyone enjoy sailing!\n153%\n-\nFunded\n4 Mar 2020\n£400,001\ntarget\n£616,462\nfrom\n550\ninvestors\nMore\nLess\nBusiness overview\nLocation\nLondon,\nUnited Kingdom\nSocial media\nWebsite\nwww.savvy-navvy.com/\nSectors\nTravel, Leisure & Sport\nDigital\nB2C\nCompany number\n10919572\nIncorporation date\n16 Aug 2017\nMore\nLess\nInvestment summary\nType\nEquity\nValuation (pre-money)\n£1.9M\nEquity offered\n24.45%\nUK tax relief\nEIS\nMore\nLess\nBusiness highlights\nMore than 22,000 registered users, across 100+ countries\nLeisure marine industry is worth €103 billion (2018)\n€20 billion spent on boat accessories and marine equipment\nWe expect to exit in a trade sale in 4 to 6 years time\nMore\nLess\nKey features\nSecondary Market\nNominee investment\nmin. £11.73 +\nDirect investment\nmin. £25,000.00 +\n",
+    "global_history_disposition": "HELD_OTHER_PREPARATION_GATES"
+  },
+  {
+    "row_ordinal": 279,
+    "round_id": "reurope:savvy-navvy2",
+    "company_id": "reurope-company:10919572",
+    "frozen_row": {
+      "round_id": "reurope:savvy-navvy2",
+      "canonical_company_id": "reurope-company:10919572",
+      "campaign_name": "savvy navvy",
+      "platform": "republic_europe",
+      "offering_year": "2021",
+      "offering_year_status": "BOUNDED_YEAR",
+      "primary_field": "mobility_logistics_aerospace",
+      "completion_date": "2021-04-20",
+      "success_date": "2022-02-24",
+      "success_type": "qualified_priced_followon",
+      "success_valuation_multiple": "3.453837385604",
+      "closure_date": "",
+      "closure_type": "",
+      "last_positive_date": "2026-10-09",
+      "censor_date": "2026-10-09",
+      "followup_months": "65.642710472279",
+      "current_eligible_evidence": "true",
+      "evidence_trace": "index_completion:2021-04-20|later_funded_round:reurope:savvy-navvy3:2022-02-24|later_funded_round:reurope:savvy-navvy4:2023-03-06|later_funded_round:reurope:savvy-navvy5:2024-06-05|later_funded_round:reurope:savvy-navvy6:2025-12-09|secondary_market_current_eligible:2026-10-09",
+      "outcome_ascertainment_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "terminal_event_type": "",
+      "terminal_event_interval_start": "",
+      "terminal_event_interval_end": "",
+      "terminal_event_midpoint_for_primary": "",
+      "terminal_event_date_status": "",
+      "terminal_event_evidence_url": "",
+      "terminal_event_success_value": "",
+      "terminal_event_sensitivity": "",
+      "success_evidence_url": "https://europe.republic.com/savvy-navvy3",
+      "success_evidence_sha256": "2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef",
+      "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+      "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+    },
+    "campaign_price_observation": {
+      "url": "https://europe.republic.com/savvy-navvy2",
+      "final_url": "https://europe.republic.com/savvy-navvy2",
+      "round_id": "reurope:savvy-navvy2",
+      "campaign_name": "savvy navvy",
+      "company_number": "10919572",
+      "company_key": "10919572",
+      "funded_date": "2021-04-20",
+      "instrument_type": "Equity",
+      "exact_pre_money_currency": "GBP",
+      "exact_pre_money_valuation": "2752942",
+      "exact_pre_money_text": "£2,752,942",
+      "valuation_basis": "FULLY_DILUTED_PRE_MONEY",
+      "raised_currency": "GBP",
+      "raised_amount": "866042",
+      "investors": "642",
+      "content_sha256": "c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5",
+      "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/c697a313271bfee1eb3f35913b97bed6d8000b467a34224c7e935bba34e2ffb5.html.gz",
+      "received_at": "2026-10-09T09:28:11.052452+00:00",
+      "dom_valuation_matches": "True",
+      "dom_identity_matches": "True",
+      "source_valid": "True",
+      "binding_issues": "",
+      "binding_valid": "True",
+      "old_display_valuation": "2800000.0",
+      "old_display_currency": "GBP"
+    },
+    "campaign_id": "29081",
+    "source_evidence_class": "PLATFORM_HOSTED_ISSUER_CAMPAIGN",
+    "source_independence": "NOT_INDEPENDENT_OF_ISSUER_OR_PLATFORM",
+    "campaign_funded_label_date": "2021-04-20",
+    "financial_promotion_approved_as_of": "2021-03-22",
+    "first_live_date": null,
+    "offering_year_candidate": "2021",
+    "offering_year_candidate_basis": "Same-year promotion approval and displayed Funded dates; bounded-year argument retained, neither observation asserted first-live.",
+    "kiis_previous_campaign_observation": {
+      "document": "sources/kiis-20251110.pdf",
+      "page": 3,
+      "table": "Previous campaigns",
+      "raw_date_label": "Completion date",
+      "raw_date": "24/03/2021",
+      "parsed_date": "2021-03-24",
+      "date_format": "DD/MM/YYYY",
+      "raw_type": "Primary, Equity",
+      "amount_raised_gbp": "865212.45",
+      "mapping_status": "CANDIDATE_MATCH_BY_SAME_ISSUER_YEAR_AND_SEQUENTIAL_ROUND_CONTEXT; table has no campaign ID",
+      "semantic_status": "DIFFERING_OBSERVATIONS_UNDER_CANDIDATE_ROUND_MAPPING_NOT_CONFIRMED_SAME_ROUND_CONTRADICTION",
+      "days_before_campaign_funded": 27,
+      "days_after_promotion_approval": 2,
+      "campaign_raised_minus_kiis_amount_gbp": "829.55",
+      "also_in_2024_kiis": true
+    },
+    "origin_selected": null,
+    "initial_state_selected": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "evidence_eligibility": "NOT_DETERMINED",
+    "gate_reviews": {
+      "round_identity_and_funded_origin": {
+        "status": "HOLD",
+        "reason": "Native company ID and distinct campaign IDs are verified source observations supporting a six-round identity candidate. KIIS previous-equity rows have no campaign IDs: linkage to individual campaigns remains a candidate based on issuer, year and sequential context. Date and amount observations differ under those candidate links; adjudicate economic-round correspondence and origin semantics without selecting a convenient date. Round 6 Funded and Equity labels are accepted source facts; absence of a later KIIS is not a universal independent-contract requirement.",
+        "supported_subpredicates": {
+          "strong_issuer_id": "10919572",
+          "distinct_native_campaign_id": "29081",
+          "campaign_fields": "SOURCE_OBSERVATIONS_VERIFIED_NOT_AUTOMATIC_HISTORY_ADMISSION"
+        }
+      },
+      "initial_state": {
+        "status": "HOLD",
+        "reason": "No automatic PRE/POST. Prior2019 round and operating narrative retained; independent operation and index-specific prior success require explicit entry review."
+      },
+      "index_success_and_target": {
+        "status": "HOLD",
+        "reason": "Preserve exact pre-money valuation observations and all15 ratio controls. Ratio alone does not finish economic/security comparability or choose incident versus baseline-plus-incident target."
+      },
+      "typed_event_chronology": {
+        "status": "HOLD",
+        "reason": "No transitions emitted. Source-labelled dates remain separate; exact successful-financing event times and first-event qualification are unresolved."
+      },
+      "endpoint_observation": {
+        "status": "HOLD",
+        "reason": "Frozen 2026-10-09 last-positive/censor fields retained as input only. Secondary trading eligibility and retrieval time are not dated affirmative operation. No new endpoint or follow-up extension."
+      },
+      "cohort_assignment": {
+        "status": "PASS_BOUNDED_COHORT_ONLY",
+        "supported_subpredicates": {
+          "cohort_membership_review": "SUPPORTED_SAME_YEAR_BOUND",
+          "offering_year": "2021",
+          "exact_first_live_required_for_year": false
+        },
+        "reason": "Same-year financial-promotion approval and campaign Funded bounds support the supplied offering year. Exact first-live day is not required for bounded-year membership. This scoped pass does not confer economic-round identity, history admission or evidence eligibility; those decisions remain separate."
+      }
+    },
+    "native_text_opening_excerpt": "savvy navvy | EIS Crowdfunding Campaign | Seedrs\nClose\nJump to:\nNavigation\nContent\nFooter\nsavvy navvy\nFollow\nThe Google Maps for sailors, making boating easy, safe and fast. Helping everyone enjoy sailing!\n173%\n-\nFunded\n20 Apr 2021\n£500,004\ntarget\n£866,042\nfrom\n642\ninvestors\nMore\nLess\nBusiness overview\nLocation\nLondon,\nUnited Kingdom\nSocial media\nWebsite\nwww.savvy-navvy.com/\nSectors\nTravel, Leisure & Sport\nDigital\nB2C\nCompany number\n10919572\nIncorporation date\n16 Aug 2017\nMore\nLess\nInvestment summary\nType\nEquity\nValuation (pre-money)\n£2.8M\nEquity offered\n23.91%\nUK tax relief\nEIS\nMore\nLess\nBusiness highlights\nBacked by the founders of Kahoot\n431% year on year customer growth\n93% chart coverage in the key boating regions\nReady to scale across 17 countries\nMore\nLess\nKey features\nSecondary Market\nNominee investment\nmin. £12.51 +\nDirect investment\nmin. £25,000.00 +\nIdea\nTeam\nUpdates\nInvestors\n642\nDiscussion\nDocuments\nIdea\nIntroduction\nAt sav",
+    "global_history_disposition": "HELD_OTHER_PREPARATION_GATES"
+  },
+  {
+    "row_ordinal": 460,
+    "round_id": "reurope:savvy-navvy3",
+    "company_id": "reurope-company:10919572",
+    "frozen_row": {
+      "round_id": "reurope:savvy-navvy3",
+      "canonical_company_id": "reurope-company:10919572",
+      "campaign_name": "savvy navvy",
+      "platform": "republic_europe",
+      "offering_year": "2022",
+      "offering_year_status": "BOUNDED_YEAR",
+      "primary_field": "mobility_logistics_aerospace",
+      "completion_date": "2022-02-24",
+      "success_date": "2025-12-09",
+      "success_type": "qualified_priced_followon",
+      "success_valuation_multiple": "1.581594187931",
+      "closure_date": "",
+      "closure_type": "",
+      "last_positive_date": "2026-10-09",
+      "censor_date": "2026-10-09",
+      "followup_months": "55.457905544148",
+      "current_eligible_evidence": "true",
+      "evidence_trace": "index_completion:2022-02-24|later_funded_round:reurope:savvy-navvy4:2023-03-06|later_funded_round:reurope:savvy-navvy5:2024-06-05|later_funded_round:reurope:savvy-navvy6:2025-12-09|secondary_market_current_eligible:2026-10-09",
+      "outcome_ascertainment_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "terminal_event_type": "",
+      "terminal_event_interval_start": "",
+      "terminal_event_interval_end": "",
+      "terminal_event_midpoint_for_primary": "",
+      "terminal_event_date_status": "",
+      "terminal_event_evidence_url": "",
+      "terminal_event_success_value": "",
+      "terminal_event_sensitivity": "",
+      "success_evidence_url": "https://europe.republic.com/savvy-navvy6",
+      "success_evidence_sha256": "9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008",
+      "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+      "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+    },
+    "campaign_price_observation": {
+      "url": "https://europe.republic.com/savvy-navvy3",
+      "final_url": "https://europe.republic.com/savvy-navvy3",
+      "round_id": "reurope:savvy-navvy3",
+      "campaign_name": "savvy navvy",
+      "company_number": "10919572",
+      "company_key": "10919572",
+      "funded_date": "2022-02-24",
+      "instrument_type": "Equity",
+      "exact_pre_money_currency": "GBP",
+      "exact_pre_money_valuation": "9508214",
+      "exact_pre_money_text": "£9,508,214",
+      "valuation_basis": "FULLY_DILUTED_PRE_MONEY",
+      "raised_currency": "GBP",
+      "raised_amount": "1382090",
+      "investors": "830",
+      "content_sha256": "2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef",
+      "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/2ab72cb4f79a50594ac7f7e9b6b14627c3c29ba5f913f7e45188671ae77269ef.html.gz",
+      "received_at": "2026-10-09T09:28:11.608574+00:00",
+      "dom_valuation_matches": "True",
+      "dom_identity_matches": "True",
+      "source_valid": "True",
+      "binding_issues": "",
+      "binding_valid": "True",
+      "old_display_valuation": "9500000.0",
+      "old_display_currency": "GBP"
+    },
+    "campaign_id": "29558",
+    "source_evidence_class": "PLATFORM_HOSTED_ISSUER_CAMPAIGN",
+    "source_independence": "NOT_INDEPENDENT_OF_ISSUER_OR_PLATFORM",
+    "campaign_funded_label_date": "2022-02-24",
+    "financial_promotion_approved_as_of": "2022-01-21",
+    "first_live_date": null,
+    "offering_year_candidate": "2022",
+    "offering_year_candidate_basis": "Same-year promotion approval and displayed Funded dates; bounded-year argument retained, neither observation asserted first-live.",
+    "kiis_previous_campaign_observation": {
+      "document": "sources/kiis-20251110.pdf",
+      "page": 3,
+      "table": "Previous campaigns",
+      "raw_date_label": "Completion date",
+      "raw_date": "24/01/2022",
+      "parsed_date": "2022-01-24",
+      "date_format": "DD/MM/YYYY",
+      "raw_type": "Primary, Equity",
+      "amount_raised_gbp": "1349024.24",
+      "mapping_status": "CANDIDATE_MATCH_BY_SAME_ISSUER_YEAR_AND_SEQUENTIAL_ROUND_CONTEXT; table has no campaign ID",
+      "semantic_status": "DIFFERING_OBSERVATIONS_UNDER_CANDIDATE_ROUND_MAPPING_NOT_CONFIRMED_SAME_ROUND_CONTRADICTION",
+      "days_before_campaign_funded": 31,
+      "days_after_promotion_approval": 3,
+      "campaign_raised_minus_kiis_amount_gbp": "33065.76",
+      "also_in_2024_kiis": true
+    },
+    "origin_selected": null,
+    "initial_state_selected": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "evidence_eligibility": "NOT_DETERMINED",
+    "gate_reviews": {
+      "round_identity_and_funded_origin": {
+        "status": "HOLD",
+        "reason": "Native company ID and distinct campaign IDs are verified source observations supporting a six-round identity candidate. KIIS previous-equity rows have no campaign IDs: linkage to individual campaigns remains a candidate based on issuer, year and sequential context. Date and amount observations differ under those candidate links; adjudicate economic-round correspondence and origin semantics without selecting a convenient date. Round 6 Funded and Equity labels are accepted source facts; absence of a later KIIS is not a universal independent-contract requirement.",
+        "supported_subpredicates": {
+          "strong_issuer_id": "10919572",
+          "distinct_native_campaign_id": "29558",
+          "campaign_fields": "SOURCE_OBSERVATIONS_VERIFIED_NOT_AUTOMATIC_HISTORY_ADMISSION"
+        }
+      },
+      "initial_state": {
+        "status": "HOLD",
+        "reason": "No automatic PRE/POST. Prior2019 round and operating narrative retained; independent operation and index-specific prior success require explicit entry review."
+      },
+      "index_success_and_target": {
+        "status": "HOLD",
+        "reason": "Preserve exact pre-money valuation observations and all15 ratio controls. Ratio alone does not finish economic/security comparability or choose incident versus baseline-plus-incident target."
+      },
+      "typed_event_chronology": {
+        "status": "HOLD",
+        "reason": "No transitions emitted. Source-labelled dates remain separate; exact successful-financing event times and first-event qualification are unresolved."
+      },
+      "endpoint_observation": {
+        "status": "HOLD",
+        "reason": "Frozen 2026-10-09 last-positive/censor fields retained as input only. Secondary trading eligibility and retrieval time are not dated affirmative operation. No new endpoint or follow-up extension."
+      },
+      "cohort_assignment": {
+        "status": "PASS_BOUNDED_COHORT_ONLY",
+        "supported_subpredicates": {
+          "cohort_membership_review": "SUPPORTED_SAME_YEAR_BOUND",
+          "offering_year": "2022",
+          "exact_first_live_required_for_year": false
+        },
+        "reason": "Same-year financial-promotion approval and campaign Funded bounds support the supplied offering year. Exact first-live day is not required for bounded-year membership. This scoped pass does not confer economic-round identity, history admission or evidence eligibility; those decisions remain separate."
+      }
+    },
+    "native_text_opening_excerpt": "savvy navvy | EIS Crowdfunding Campaign | Seedrs\nClose\nJump to:\nNavigation\nContent\nFooter\nsavvy navvy\nFollow\nThe Google Maps for boaters, making boating easy, safe and fast. Getting everyone out on the water!\n179%\n-\nFunded\n24 Feb 2022\n£750,004\ntarget\n£1,382,090\nfrom\n830\ninvestors\nMore\nLess\nBusiness overview\nLocation\nLondon,\nUnited Kingdom\nSocial media\nWebsite\nwww.savvy-navvy.com/\nSectors\nTravel, Leisure & Sport\nDigital\nB2C\nCompany number\n10919572\nIncorporation date\n16 Aug 2017\nMore\nLess\nInvestment summary\nType\nEquity\nValuation (pre-money)\n£9.5M\nEquity offered\n12.43%\nShare price\n£10.76\nUK tax relief\nEIS\nMore\nLess\nBusiness highlights\n1,400% user growth (Q3 '21 Year on Year)\nExceeded 2021 sales targets by 18%\n£660,000 ARR*\n5:1 LTV/CAC ratio\nMore\nLess\nKey features\nSecondary Market\nNominee investment\nmin. £10.76 +\nDirect investment\nmin. £25,000.00 +\nIdea\nTeam\nUpdates\nInvestors\n830\nDiscussion\nDocuments\nIdea\nIntroduction\nWe save boaters hours ",
+    "global_history_disposition": "HELD_OTHER_PREPARATION_GATES"
+  },
+  {
+    "row_ordinal": 664,
+    "round_id": "reurope:savvy-navvy4",
+    "company_id": "reurope-company:10919572",
+    "frozen_row": {
+      "round_id": "reurope:savvy-navvy4",
+      "canonical_company_id": "reurope-company:10919572",
+      "campaign_name": "savvy navvy",
+      "platform": "republic_europe",
+      "offering_year": "2023",
+      "offering_year_status": "BOUNDED_YEAR",
+      "primary_field": "mobility_logistics_aerospace",
+      "completion_date": "2023-03-06",
+      "success_date": "",
+      "success_type": "",
+      "success_valuation_multiple": "",
+      "closure_date": "",
+      "closure_type": "",
+      "last_positive_date": "2026-10-09",
+      "censor_date": "2026-10-09",
+      "followup_months": "43.137577002053",
+      "current_eligible_evidence": "true",
+      "evidence_trace": "index_completion:2023-03-06|later_funded_round:reurope:savvy-navvy5:2024-06-05|later_funded_round:reurope:savvy-navvy6:2025-12-09|secondary_market_current_eligible:2026-10-09",
+      "outcome_ascertainment_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "terminal_event_type": "",
+      "terminal_event_interval_start": "",
+      "terminal_event_interval_end": "",
+      "terminal_event_midpoint_for_primary": "",
+      "terminal_event_date_status": "",
+      "terminal_event_evidence_url": "",
+      "terminal_event_success_value": "",
+      "terminal_event_sensitivity": "",
+      "success_evidence_url": "",
+      "success_evidence_sha256": "",
+      "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+      "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+    },
+    "campaign_price_observation": {
+      "url": "https://europe.republic.com/savvy-navvy4",
+      "final_url": "https://europe.republic.com/savvy-navvy4",
+      "round_id": "reurope:savvy-navvy4",
+      "campaign_name": "savvy navvy",
+      "company_number": "10919572",
+      "company_key": "10919572",
+      "funded_date": "2023-03-06",
+      "instrument_type": "Equity",
+      "exact_pre_money_currency": "GBP",
+      "exact_pre_money_valuation": "11997450",
+      "exact_pre_money_text": "£11,997,450",
+      "valuation_basis": "FULLY_DILUTED_PRE_MONEY",
+      "raised_currency": "GBP",
+      "raised_amount": "1347589",
+      "investors": "851",
+      "content_sha256": "9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c",
+      "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9b5841bb3198e11cee3c5ab24f5a837985dc3b41670c6927508450968cd8830c.html.gz",
+      "received_at": "2026-10-09T09:28:12.171040+00:00",
+      "dom_valuation_matches": "True",
+      "dom_identity_matches": "True",
+      "source_valid": "True",
+      "binding_issues": "",
+      "binding_valid": "True",
+      "old_display_valuation": "12000000.0",
+      "old_display_currency": "GBP"
+    },
+    "campaign_id": "30264",
+    "source_evidence_class": "PLATFORM_HOSTED_ISSUER_CAMPAIGN",
+    "source_independence": "NOT_INDEPENDENT_OF_ISSUER_OR_PLATFORM",
+    "campaign_funded_label_date": "2023-03-06",
+    "financial_promotion_approved_as_of": "2023-01-30",
+    "first_live_date": null,
+    "offering_year_candidate": "2023",
+    "offering_year_candidate_basis": "Same-year promotion approval and displayed Funded dates; bounded-year argument retained, neither observation asserted first-live.",
+    "kiis_previous_campaign_observation": {
+      "document": "sources/kiis-20251110.pdf",
+      "page": 3,
+      "table": "Previous campaigns",
+      "raw_date_label": "Completion date",
+      "raw_date": "30/01/2023",
+      "parsed_date": "2023-01-30",
+      "date_format": "DD/MM/YYYY",
+      "raw_type": "Primary, Equity",
+      "amount_raised_gbp": "1342737.70",
+      "mapping_status": "CANDIDATE_MATCH_BY_SAME_ISSUER_YEAR_AND_SEQUENTIAL_ROUND_CONTEXT; table has no campaign ID",
+      "semantic_status": "DIFFERING_OBSERVATIONS_UNDER_CANDIDATE_ROUND_MAPPING_NOT_CONFIRMED_SAME_ROUND_CONTRADICTION",
+      "days_before_campaign_funded": 35,
+      "days_after_promotion_approval": 0,
+      "campaign_raised_minus_kiis_amount_gbp": "4851.30",
+      "also_in_2024_kiis": true
+    },
+    "origin_selected": null,
+    "initial_state_selected": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "evidence_eligibility": "NOT_DETERMINED",
+    "gate_reviews": {
+      "round_identity_and_funded_origin": {
+        "status": "HOLD",
+        "reason": "Native company ID and distinct campaign IDs are verified source observations supporting a six-round identity candidate. KIIS previous-equity rows have no campaign IDs: linkage to individual campaigns remains a candidate based on issuer, year and sequential context. Date and amount observations differ under those candidate links; adjudicate economic-round correspondence and origin semantics without selecting a convenient date. Round 6 Funded and Equity labels are accepted source facts; absence of a later KIIS is not a universal independent-contract requirement.",
+        "supported_subpredicates": {
+          "strong_issuer_id": "10919572",
+          "distinct_native_campaign_id": "30264",
+          "campaign_fields": "SOURCE_OBSERVATIONS_VERIFIED_NOT_AUTOMATIC_HISTORY_ADMISSION"
+        }
+      },
+      "initial_state": {
+        "status": "HOLD",
+        "reason": "No automatic PRE/POST. Prior2019 round and operating narrative retained; independent operation and index-specific prior success require explicit entry review."
+      },
+      "index_success_and_target": {
+        "status": "HOLD",
+        "reason": "Preserve exact pre-money valuation observations and all15 ratio controls. Ratio alone does not finish economic/security comparability or choose incident versus baseline-plus-incident target."
+      },
+      "typed_event_chronology": {
+        "status": "HOLD",
+        "reason": "No transitions emitted. Source-labelled dates remain separate; exact successful-financing event times and first-event qualification are unresolved."
+      },
+      "endpoint_observation": {
+        "status": "HOLD",
+        "reason": "Frozen 2026-10-09 last-positive/censor fields retained as input only. Secondary trading eligibility and retrieval time are not dated affirmative operation. No new endpoint or follow-up extension."
+      },
+      "cohort_assignment": {
+        "status": "PASS_BOUNDED_COHORT_ONLY",
+        "supported_subpredicates": {
+          "cohort_membership_review": "SUPPORTED_SAME_YEAR_BOUND",
+          "offering_year": "2023",
+          "exact_first_live_required_for_year": false
+        },
+        "reason": "Same-year financial-promotion approval and campaign Funded bounds support the supplied offering year. Exact first-live day is not required for bounded-year membership. This scoped pass does not confer economic-round identity, history admission or evidence eligibility; those decisions remain separate."
+      }
+    },
+    "native_text_opening_excerpt": "savvy navvy | EIS Crowdfunding Opportunity | Seedrs\nClose\nJump to:\nNavigation\nContent\nFooter\nsavvy navvy\nFollow\nThe Google Maps for boats. Charts, weather, tides... Everything you need in one place.\n223%\n-\nFunded\n6 Mar 2023\n£600,005\ntarget\n£1,347,589\nfrom\n851\ninvestors\nMore\nLess\nBusiness overview\nLocation\nSt Albans,\nUnited Kingdom\nSocial media\nWebsite\nwww.savvy-navvy.com\nSectors\nTravel, Leisure & Sport\nDigital\nB2C\nCompany number\n10919572\nIncorporation date\n16 Aug 2017\nMore\nLess\nInvestment summary\nType\nEquity\nValuation (pre-money)\n£12M\nEquity offered\n10.07%\nShare price\n£11.89\nUK tax relief\nEIS\nMore\nLess\nBusiness highlights\nSince lockdown, we've grown our ARR more than 18-fold to £1.5M\nCashflow positive during Aug/Sept 2022\nClose to a million app downloads, across more than 100 countries\nLTV/CAC Ratio 6:1\nMore\nLess\nKey features\nSecondary Market\nNominee investment\nmin. £11.89 +\nDirect investment\nmin. £25,000.00 +\nIdea\nInvestor Perks\nKey In",
+    "global_history_disposition": "HELD_OTHER_PREPARATION_GATES"
+  },
+  {
+    "row_ordinal": 836,
+    "round_id": "reurope:savvy-navvy5",
+    "company_id": "reurope-company:10919572",
+    "frozen_row": {
+      "round_id": "reurope:savvy-navvy5",
+      "canonical_company_id": "reurope-company:10919572",
+      "campaign_name": "savvy navvy",
+      "platform": "republic_europe",
+      "offering_year": "2024",
+      "offering_year_status": "BOUNDED_YEAR",
+      "primary_field": "mobility_logistics_aerospace",
+      "completion_date": "2024-06-05",
+      "success_date": "",
+      "success_type": "",
+      "success_valuation_multiple": "",
+      "closure_date": "",
+      "closure_type": "",
+      "last_positive_date": "2026-10-09",
+      "censor_date": "2026-10-09",
+      "followup_months": "28.123203285421",
+      "current_eligible_evidence": "true",
+      "evidence_trace": "index_completion:2024-06-05|later_funded_round:reurope:savvy-navvy6:2025-12-09|secondary_market_current_eligible:2026-10-09",
+      "outcome_ascertainment_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "terminal_event_type": "",
+      "terminal_event_interval_start": "",
+      "terminal_event_interval_end": "",
+      "terminal_event_midpoint_for_primary": "",
+      "terminal_event_date_status": "",
+      "terminal_event_evidence_url": "",
+      "terminal_event_success_value": "",
+      "terminal_event_sensitivity": "",
+      "success_evidence_url": "",
+      "success_evidence_sha256": "",
+      "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+      "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+    },
+    "campaign_price_observation": {
+      "url": "https://europe.republic.com/savvy-navvy5",
+      "final_url": "https://europe.republic.com/savvy-navvy5",
+      "round_id": "reurope:savvy-navvy5",
+      "campaign_name": "savvy navvy",
+      "company_number": "10919572",
+      "company_key": "10919572",
+      "funded_date": "2024-06-05",
+      "instrument_type": "Equity",
+      "exact_pre_money_currency": "GBP",
+      "exact_pre_money_valuation": "13999301",
+      "exact_pre_money_text": "£13,999,301",
+      "valuation_basis": "FULLY_DILUTED_PRE_MONEY",
+      "raised_currency": "GBP",
+      "raised_amount": "1232893",
+      "investors": "716",
+      "content_sha256": "5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f",
+      "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/5717acf92fb9fbabe0ef93d913b4a9e64fdfd3f4f1e63f7654cf2082937e2e0f.html.gz",
+      "received_at": "2026-10-09T09:28:12.751706+00:00",
+      "dom_valuation_matches": "True",
+      "dom_identity_matches": "True",
+      "source_valid": "True",
+      "binding_issues": "",
+      "binding_valid": "True",
+      "old_display_valuation": "14000000.0",
+      "old_display_currency": "GBP"
+    },
+    "campaign_id": "30901",
+    "source_evidence_class": "PLATFORM_HOSTED_ISSUER_CAMPAIGN",
+    "source_independence": "NOT_INDEPENDENT_OF_ISSUER_OR_PLATFORM",
+    "campaign_funded_label_date": "2024-06-05",
+    "financial_promotion_approved_as_of": "2024-04-29",
+    "first_live_date": null,
+    "offering_year_candidate": "2024",
+    "offering_year_candidate_basis": "Same-year promotion approval and displayed Funded dates; bounded-year argument retained, neither observation asserted first-live.",
+    "kiis_previous_campaign_observation": {
+      "document": "sources/kiis-20251110.pdf",
+      "page": 3,
+      "table": "Previous campaigns",
+      "raw_date_label": "Completion date",
+      "raw_date": "30/04/2024",
+      "parsed_date": "2024-04-30",
+      "date_format": "DD/MM/YYYY",
+      "raw_type": "Primary, Equity",
+      "amount_raised_gbp": "1216945.40",
+      "mapping_status": "CANDIDATE_MATCH_BY_SAME_ISSUER_YEAR_AND_SEQUENTIAL_ROUND_CONTEXT; table has no campaign ID",
+      "semantic_status": "DIFFERING_OBSERVATIONS_UNDER_CANDIDATE_ROUND_MAPPING_NOT_CONFIRMED_SAME_ROUND_CONTRADICTION",
+      "days_before_campaign_funded": 36,
+      "days_after_promotion_approval": 1,
+      "campaign_raised_minus_kiis_amount_gbp": "15947.60",
+      "also_in_2024_kiis": false
+    },
+    "origin_selected": null,
+    "initial_state_selected": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "evidence_eligibility": "NOT_DETERMINED",
+    "gate_reviews": {
+      "round_identity_and_funded_origin": {
+        "status": "HOLD",
+        "reason": "Native company ID and distinct campaign IDs are verified source observations supporting a six-round identity candidate. KIIS previous-equity rows have no campaign IDs: linkage to individual campaigns remains a candidate based on issuer, year and sequential context. Date and amount observations differ under those candidate links; adjudicate economic-round correspondence and origin semantics without selecting a convenient date. Round 6 Funded and Equity labels are accepted source facts; absence of a later KIIS is not a universal independent-contract requirement.",
+        "supported_subpredicates": {
+          "strong_issuer_id": "10919572",
+          "distinct_native_campaign_id": "30901",
+          "campaign_fields": "SOURCE_OBSERVATIONS_VERIFIED_NOT_AUTOMATIC_HISTORY_ADMISSION"
+        }
+      },
+      "initial_state": {
+        "status": "HOLD",
+        "reason": "No automatic PRE/POST. Prior2019 round and operating narrative retained; independent operation and index-specific prior success require explicit entry review."
+      },
+      "index_success_and_target": {
+        "status": "HOLD",
+        "reason": "Preserve exact pre-money valuation observations and all15 ratio controls. Ratio alone does not finish economic/security comparability or choose incident versus baseline-plus-incident target."
+      },
+      "typed_event_chronology": {
+        "status": "HOLD",
+        "reason": "No transitions emitted. Source-labelled dates remain separate; exact successful-financing event times and first-event qualification are unresolved."
+      },
+      "endpoint_observation": {
+        "status": "HOLD",
+        "reason": "Frozen 2026-10-09 last-positive/censor fields retained as input only. Secondary trading eligibility and retrieval time are not dated affirmative operation. No new endpoint or follow-up extension."
+      },
+      "cohort_assignment": {
+        "status": "PASS_BOUNDED_COHORT_ONLY",
+        "supported_subpredicates": {
+          "cohort_membership_review": "SUPPORTED_SAME_YEAR_BOUND",
+          "offering_year": "2024",
+          "exact_first_live_required_for_year": false
+        },
+        "reason": "Same-year financial-promotion approval and campaign Funded bounds support the supplied offering year. Exact first-live day is not required for bounded-year membership. This scoped pass does not confer economic-round identity, history admission or evidence eligibility; those decisions remain separate."
+      }
+    },
+    "native_text_opening_excerpt": "savvy navvy | EIS Crowdfunding Campaign | Seedrs\nClose\nJump to:\nNavigation\nContent\nFooter\nsavvy navvy\nFollow\nThe 'Google Maps' for boats. Charts, weather, tides... Everything you need in one place.\n243%\n-\nFunded\n5 Jun 2024\n£500,008\ntarget\n£1,232,893\nfrom\n716\ninvestors\nMore\nLess\nBusiness overview\nLocation\nBorehamwood,\nUnited Kingdom\nSocial media\nWebsite\nwww.savvy-navvy.com\nSectors\nTravel, Leisure & Sport\nDigital\nB2C\nCompany number\n10919572\nIncorporation date\n16 Aug 2017\nMore\nLess\nInvestment summary\nType\nEquity\nValuation (pre-money)\n£14M\nEquity offered\n8.00%\nShare price\n£12.1\nUK tax relief\nEIS\nMore\nLess\nBusiness highlights\n+1,600,000 App Downloads\n$2.9M ARR (USD)\nWon British Marine business of the year 2023\nThe company continues to have zero debt\nMore\nLess\nKey features\nSecondary Market\nNominee investment\nmin. £24.20 +\nDirect investment\nmin. £50,000.00 +\nPitch\nKey Information\nKey Information\nTeam\nUpdates\nInvestors\n716\nDiscussion\nDocuments\n",
+    "global_history_disposition": "HELD_OTHER_PREPARATION_GATES"
+  },
+  {
+    "row_ordinal": 944,
+    "round_id": "reurope:savvy-navvy6",
+    "company_id": "reurope-company:10919572",
+    "frozen_row": {
+      "round_id": "reurope:savvy-navvy6",
+      "canonical_company_id": "reurope-company:10919572",
+      "campaign_name": "savvy navvy",
+      "platform": "republic_europe",
+      "offering_year": "2025",
+      "offering_year_status": "BOUNDED_YEAR",
+      "primary_field": "mobility_logistics_aerospace",
+      "completion_date": "2025-12-09",
+      "success_date": "",
+      "success_type": "",
+      "success_valuation_multiple": "",
+      "closure_date": "",
+      "closure_type": "",
+      "last_positive_date": "2026-10-09",
+      "censor_date": "2026-10-09",
+      "followup_months": "9.987679671458",
+      "current_eligible_evidence": "true",
+      "evidence_trace": "index_completion:2025-12-09|secondary_market_current_eligible:2026-10-09",
+      "outcome_ascertainment_status": "RIGHT_CENSORED_NO_CLOSURE_EVENT",
+      "terminal_event_type": "",
+      "terminal_event_interval_start": "",
+      "terminal_event_interval_end": "",
+      "terminal_event_midpoint_for_primary": "",
+      "terminal_event_date_status": "",
+      "terminal_event_evidence_url": "",
+      "terminal_event_success_value": "",
+      "terminal_event_sensitivity": "",
+      "success_evidence_url": "",
+      "success_evidence_sha256": "",
+      "priced_followon_audit_scope": "ALL_NATIVE_REPEAT_ROUNDS_THROUGH_2026_10_09",
+      "prior_version": "cp3_republic_europe_outcome_ledger_v4.csv"
+    },
+    "campaign_price_observation": {
+      "url": "https://europe.republic.com/savvy-navvy6",
+      "final_url": "https://europe.republic.com/savvy-navvy6",
+      "round_id": "reurope:savvy-navvy6",
+      "campaign_name": "savvy navvy",
+      "company_number": "10919572",
+      "company_key": "10919572",
+      "funded_date": "2025-12-09",
+      "instrument_type": "Equity",
+      "exact_pre_money_currency": "GBP",
+      "exact_pre_money_valuation": "15038136",
+      "exact_pre_money_text": "£15,038,136",
+      "valuation_basis": "FULLY_DILUTED_PRE_MONEY",
+      "raised_currency": "GBP",
+      "raised_amount": "692633",
+      "investors": "459",
+      "content_sha256": "9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008",
+      "capture_path": "data/phase1d/cp7/cycle-3/batch-0005/captures/9d3e40fd3d22025b7d83769d704e315e2a5393f7adf4f1fef01ac633d660f008.html.gz",
+      "received_at": "2026-10-09T09:28:13.310029+00:00",
+      "dom_valuation_matches": "True",
+      "dom_identity_matches": "True",
+      "source_valid": "True",
+      "binding_issues": "",
+      "binding_valid": "True",
+      "old_display_valuation": "15000000.0",
+      "old_display_currency": "GBP"
+    },
+    "campaign_id": "31183",
+    "source_evidence_class": "PLATFORM_HOSTED_ISSUER_CAMPAIGN",
+    "source_independence": "NOT_INDEPENDENT_OF_ISSUER_OR_PLATFORM",
+    "campaign_funded_label_date": "2025-12-09",
+    "financial_promotion_approved_as_of": "2025-11-10",
+    "first_live_date": null,
+    "offering_year_candidate": "2025",
+    "offering_year_candidate_basis": "Same-year promotion approval and displayed Funded dates; bounded-year argument retained, neither observation asserted first-live.",
+    "kiis_previous_campaign_observation": null,
+    "origin_selected": null,
+    "initial_state_selected": null,
+    "prepared_history": "NOT_CONSTRUCTED",
+    "evidence_eligibility": "NOT_DETERMINED",
+    "gate_reviews": {
+      "round_identity_and_funded_origin": {
+        "status": "HOLD",
+        "reason": "Native company ID and distinct campaign IDs are verified source observations supporting a six-round identity candidate. KIIS previous-equity rows have no campaign IDs: linkage to individual campaigns remains a candidate based on issuer, year and sequential context. Date and amount observations differ under those candidate links; adjudicate economic-round correspondence and origin semantics without selecting a convenient date. Round 6 Funded and Equity labels are accepted source facts; absence of a later KIIS is not a universal independent-contract requirement.",
+        "supported_subpredicates": {
+          "strong_issuer_id": "10919572",
+          "distinct_native_campaign_id": "31183",
+          "campaign_fields": "SOURCE_OBSERVATIONS_VERIFIED_NOT_AUTOMATIC_HISTORY_ADMISSION"
+        }
+      },
+      "initial_state": {
+        "status": "HOLD",
+        "reason": "No automatic PRE/POST. Prior2019 round and operating narrative retained; independent operation and index-specific prior success require explicit entry review."
+      },
+      "index_success_and_target": {
+        "status": "HOLD",
+        "reason": "Preserve exact pre-money valuation observations and all15 ratio controls. Ratio alone does not finish economic/security comparability or choose incident versus baseline-plus-incident target."
+      },
+      "typed_event_chronology": {
+        "status": "HOLD",
+        "reason": "No transitions emitted. Source-labelled dates remain separate; exact successful-financing event times and first-event qualification are unresolved."
+      },
+      "endpoint_observation": {
+        "status": "HOLD",
+        "reason": "Frozen 2026-10-09 last-positive/censor fields retained as input only. Secondary trading eligibility and retrieval time are not dated affirmative operation. No new endpoint or follow-up extension."
+      },
+      "cohort_assignment": {
+        "status": "PASS_BOUNDED_COHORT_ONLY",
+        "supported_subpredicates": {
+          "cohort_membership_review": "SUPPORTED_SAME_YEAR_BOUND",
+          "offering_year": "2025",
+          "exact_first_live_required_for_year": false
+        },
+        "reason": "Same-year financial-promotion approval and campaign Funded bounds support the supplied offering year. Exact first-live day is not required for bounded-year membership. This scoped pass does not confer economic-round identity, history admission or evidence eligibility; those decisions remain separate."
+      }
+    },
+    "native_text_opening_excerpt": "savvy navvy | EIS Crowdfunding Investment | Seedrs\nClose\nJump to:\nNavigation\nContent\nFooter\nsavvy navvy\nFollow\nMarine navigation platform behind the consumer boating app and integrated helm dislays.\n197%\n-\nFunded\n9 Dec 2025\n£350,002\ntarget\n£692,633\nfrom\n459\ninvestors\nMore\nLess\nBusiness overview\nLocation\nBorehamwood,\nUnited Kingdom\nSocial media\nWebsite\nwww.savvy-navvy.com\nSectors\nTravel, Leisure & Sport\nDigital\nB2C\nCompany number\n10919572\nIncorporation date\n16 Aug 2017\nMore\nLess\nInvestment summary\nType\nEquity\nValuation (pre-money)\n£15M\nEquity offered\n4.40%\nShare price\n£11.85\nUK tax relief\nEIS\nMore\nLess\nBusiness highlights\nMore than 3 million app downloads\n$3.5M ARR  (B2C)\n$2.1M commercial pipeline contract value  (B2B)\nCompany continues to have zero loan\nMore\nLess\nKey features\nSecondary Market\nNominee investment\nmin. £23.70 +\nDirect investment\nmin. £50,000.00 +\nPitch\nKey Information\nTeam\nUpdates\nInvestors\n459\nDiscussion\nDocuments\nPitch\nA",
+    "global_history_disposition": "HELD_OTHER_PREPARATION_GATES"
+  }
+]

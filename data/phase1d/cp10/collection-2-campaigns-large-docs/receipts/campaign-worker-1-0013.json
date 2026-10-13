@@ -1,0 +1,18 @@
+{
+  "bytes": 44382,
+  "campaign_url": "https://republic.com/adwallet",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/adwallet/show_updates",
+  "gzip_sha256": "352489c37cde29e3d454c44b9f3b6c13cfbec41f1378eeb1dfa7ff9f8517ff6d",
+  "http_status": 200,
+  "parent_sha256": "69a95efcd6b15d2dd62dd69ef5d63e12a34212c572257a1843e91748560f7a3f",
+  "raw_sha256": "e4ddd545f1c01133c997607944284625c2b8a1a40985ca9ffcafaa52b51ed7fc",
+  "received_at": "2026-10-10T02:22:56.597271+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:56.025875+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e4ddd545f1c01133c997607944284625c2b8a1a40985ca9ffcafaa52b51ed7fc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/adwallet/show_updates"
+}

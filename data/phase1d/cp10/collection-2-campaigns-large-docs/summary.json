@@ -1,0 +1,35 @@
+{
+  "all_current_single_path_candidates_attempted": false,
+  "all_prior_data_unchanged": true,
+  "checkpoint": "CP10",
+  "classification_counts": {
+    "NATIVE_CAMPAIGN_IDENTIFIER_BOUND": 568,
+    "PUBLIC_NON_CAMPAIGN_OR_UNRESOLVED_SCHEMA": 96,
+    "REDIRECT_ALIAS_OR_SCOPE_HOLD": 255,
+    "SOURCE_UNAVAILABLE": 323
+  },
+  "completed_at": "2026-10-10T02:39:34.367443+00:00",
+  "full_historical_census_complete": false,
+  "global_plateau": false,
+  "known_legacy_campaigns_missing_current_sitemap": 14,
+  "known_legacy_campaigns_retained": 125,
+  "large_document_holds": 0,
+  "large_document_requests": 5,
+  "large_documents_fully_captured": 5,
+  "limitation": "Native campaign fields and current discovery-frame validation are not canonical economic-round identities, dated outcomes, or complete historical population.",
+  "new_campaign_dates_source_verified": 449,
+  "new_launch_year_eligible_candidates": 363,
+  "new_native_identifier_bound_campaigns": 568,
+  "new_single_path_URLs_classified": 1242,
+  "new_successful_completion_milestones": 448,
+  "phase_complete": false,
+  "prior_data_files_preserved": 3382,
+  "rates_promoted": false,
+  "source_status_counts": {
+    "HTTP_ERROR_OR_UNFOLLOWED_REDIRECT": 4,
+    "NETWORK_ERROR": 1,
+    "NOT_ATTEMPTED_ACCESS_CIRCUIT": 318,
+    "PUBLIC_CAPTURED_UNADJUDICATED": 1487
+  },
+  "version": "0.6.5-dev.research.2"
+}

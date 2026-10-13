@@ -1,0 +1,285 @@
+{
+  "schema": "vera.multisource.evidence.v1",
+  "policy": "vera.multisource.claim-policy.v1.1.0",
+  "dataset": "augmented_research_only",
+  "estimator_enabled": false,
+  "prior_promotion_enabled": false,
+  "native_baseline": {
+    "release": "canonical-research-v0.5.0",
+    "release_sha256": "fc8bf913e84db576b3d78b716b7e425a6eef2c5a3224bc15c84b633e0c1c20fb",
+    "spec_sha256": "7b15477eddab724ff03a4191da8de687f8f2b1c035965176cfe4deb12a05144e",
+    "outcomes": "UNCHANGED"
+  },
+  "sources": [
+    {
+      "id": "currently-wine",
+      "url": "https://republic.com/currently-wine-co-daniel-rodriguez-q1-26-currently-wine-co-investor-update-2026",
+      "publisher": "issuer on Republic",
+      "source_type": "platform_issuer_report",
+      "origin_family": "currently-wine-issuer-report",
+      "relationship": "interested_party",
+      "capture": "sources/currently-wine.txt",
+      "capture_sha256": "44ba8169573fc92e1f30db3910ef2add03e6af2be16b730c43098e8796ae74e7",
+      "original_sha256": "bcea3d3a47976594f396ec6fa1bf85d3778a759004a3d2fb714fcfd7be93088f",
+      "capture_scope": "Publication-minimized exact excerpt only. Original full-body artifact is not bundled; original_sha256 retains prior archived source/receipt provenance, not the excerpt hash.",
+      "original_body_inspected": true,
+      "origin_rationale": "Issuer or buyer self-report; all transaction-party reporting treated as one origin family. Importer inspected archived complete text; independent reviewer pending.",
+      "upstream_urls": [
+        "https://republic.com/currently-wine-co-daniel-rodriguez-q1-26-currently-wine-co-investor-update-2026"
+      ],
+      "retrieved_at": null,
+      "retrieval_missingness": "not_reported",
+      "publication_date": "2026-04-08",
+      "as_of_date": null,
+      "full_body_available_in_package": false,
+      "body_inspection": {
+        "inspector": "demo_importer",
+        "artifact_reference": "outcome-wave1/currently-wine-visible.txt",
+        "artifact_sha256": "8f59dc3952dbdd70be622148fd29ddba4d4ea994e0e68ffa3fc2b11e0768ed62",
+        "inspected_scope": "Complete archived visible issuer body read during local implementation; original HTML hash separately retained.",
+        "independent_review": "pending"
+      }
+    },
+    {
+      "id": "reental",
+      "url": "https://republic.com/reental-carla-castello-richart-republic-investor-update-november-2025-hello",
+      "publisher": "issuer on Republic",
+      "source_type": "platform_issuer_report",
+      "origin_family": "reental-issuer-report",
+      "relationship": "interested_party",
+      "capture": "sources/reental.txt",
+      "capture_sha256": "0b9048567265b57c113f9cde930be35c4ab3a6104f47eb325af5d83f54c34ff0",
+      "original_sha256": "762f36066bc890a9728f53f3265d82830e7f8ef01888f59c80a162c210734c02",
+      "capture_scope": "Publication-minimized exact excerpt only. Original full-body artifact is not bundled; original_sha256 retains prior archived source/receipt provenance, not the excerpt hash.",
+      "original_body_inspected": true,
+      "origin_rationale": "Issuer or buyer self-report; all transaction-party reporting treated as one origin family. Importer inspected archived complete text; independent reviewer pending.",
+      "upstream_urls": [
+        "https://republic.com/reental-carla-castello-richart-republic-investor-update-november-2025-hello"
+      ],
+      "retrieved_at": null,
+      "retrieval_missingness": "not_reported",
+      "publication_date": "2026-01-02",
+      "as_of_date": null,
+      "full_body_available_in_package": false,
+      "body_inspection": {
+        "inspector": "demo_importer",
+        "artifact_reference": "outcome-wave1/reental-visible.txt",
+        "artifact_sha256": "6d79a909d4c843b042843062f57cea5e8e6946c670fb60c079ae5c674d50342f",
+        "inspected_scope": "Complete archived visible issuer body read during local implementation; original HTML hash separately retained.",
+        "independent_review": "pending"
+      }
+    },
+    {
+      "id": "inlightened-buyer",
+      "url": "https://www.locumtenens.com/news-and-insights/press-releases/locumtenenscom-completes-acquisition-of-inlightened/",
+      "publisher": "LocumTenens.com",
+      "source_type": "buyer_announcement",
+      "origin_family": "inlightened-acquisition-party-origin",
+      "relationship": "interested_party",
+      "capture": "sources/inlightened-buyer.txt",
+      "capture_sha256": "1ce05d33626ae329aec6ec94bc6a1ae8f6ba58e889a06fec6ccbf17287e67749",
+      "original_sha256": "01ca4d37619f0d03664da38faefef97576558cffcfb272976d5ab4d34d0d3014",
+      "capture_scope": "Publication-minimized exact excerpt only. Original full-body artifact is not bundled; original_sha256 retains prior archived source/receipt provenance, not the excerpt hash. Tool presentation markup rendered to its visible display label; this is normalized excerpt text, not original publisher HTML.",
+      "original_body_inspected": true,
+      "origin_rationale": "Issuer or buyer self-report; all transaction-party reporting treated as one origin family. Importer inspected archived complete text; independent reviewer pending.",
+      "upstream_urls": [
+        "https://www.locumtenens.com/news-and-insights/press-releases/locumtenenscom-completes-acquisition-of-inlightened/"
+      ],
+      "retrieved_at": null,
+      "retrieval_missingness": "not_reported",
+      "publication_date": "2023-08-14",
+      "as_of_date": null,
+      "body_inspection": {
+        "artifact_reference": "outcome-wave1/primary-web-open-receipt.json",
+        "artifact_sha256": "01ca4d37619f0d03664da38faefef97576558cffcfb272976d5ab4d34d0d3014",
+        "inspected_scope": "Buyer article body lines12-31 including completed-act statement, founders/product and operational-autonomy caveat; original tool-text receipt rather than HTML. Capture in package is an excerpt; archived receipt is not bundled.",
+        "inspector": "demo_importer",
+        "independent_review": "pending"
+      },
+      "full_body_available_in_package": false,
+      "presentation_normalization": {
+        "version": "tool-citation-visible-label.v1",
+        "parent_capture_sha256": "1abe0add81ea61e584db1ccad422caa0432df11018e654f52b621e41bc4c729d",
+        "normalized_capture_sha256": "1ce05d33626ae329aec6ec94bc6a1ae8f6ba58e889a06fec6ccbf17287e67749",
+        "original_artifact_sha256_unchanged": "01ca4d37619f0d03664da38faefef97576558cffcfb272976d5ab4d34d0d3014",
+        "transformation": "Replace tool citation wrapper with its visible link label; remove only citation syntax and link target rendering. No new retrieval or source-content certification."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "currently-wine-activity",
+      "company_id": "proud-pour-inc__currentlywine-com",
+      "round_id": "proud-pour-inc__republic-safe-series-2025__2025-01-21",
+      "claim_type": "operating_activity",
+      "assertion": "Reported Q1 revenue and active distribution relationships; planned sales and future acquisition interest excluded.",
+      "value": "source_reported",
+      "time": {
+        "kind": "activity_period",
+        "start": "2026-01-01",
+        "end": "2026-03-31",
+        "basis": "Explicit reporting period; no point-date imputation"
+      },
+      "identity": {
+        "scope": "business_identity_proposed",
+        "mapping_review_status": "pending",
+        "strong_ids": [],
+        "medium_identifiers": [
+          {
+            "kind": "domain",
+            "value": "currentlywine-com",
+            "provenance": "outcome-wave1/outcome-proposals.json; independently reviewed new crosswalk still required"
+          },
+          {
+            "kind": "campaign_crosswalk",
+            "value": "https://republic.com/currently-wine",
+            "provenance": "outcome-wave1/outcome-proposals.json; independently reviewed new crosswalk still required"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source_id": "currently-wine",
+          "excerpt": "Q1\u201926 Revenue: $26k",
+          "locator": "Publication-minimized captured excerpt; full-body context in prior archive",
+          "stance": "supports"
+        }
+      ],
+      "contradictions": [],
+      "missingness": {
+        "exact_event_date": "not_reported",
+        "current_operation": "not_reported"
+      },
+      "collector": "demo_importer",
+      "reviews": [],
+      "predicate_review": {
+        "supported_claim_type": null,
+        "rationale": null
+      }
+    },
+    {
+      "id": "reental-activity",
+      "company_id": "reental-holding-company__reental-co",
+      "round_id": "reental-holding-company__republic-crowd-safe-series-2024__2024-03-22",
+      "claim_type": "operating_activity",
+      "assertion": "Reported two projects launched and portfolio distributions in November; project yields are not Crowd SAFE shareholder cash flows.",
+      "value": "source_reported",
+      "time": {
+        "kind": "activity_period",
+        "start": "2025-11-01",
+        "end": "2025-11-30",
+        "basis": "Explicit reporting period; no point-date imputation"
+      },
+      "identity": {
+        "scope": "business_identity_proposed",
+        "mapping_review_status": "pending",
+        "strong_ids": [],
+        "medium_identifiers": [
+          {
+            "kind": "domain",
+            "value": "reental-co",
+            "provenance": "outcome-wave1/outcome-proposals.json; independently reviewed new crosswalk still required"
+          },
+          {
+            "kind": "campaign_crosswalk",
+            "value": "https://republic.com/reental",
+            "provenance": "outcome-wave1/outcome-proposals.json; independently reviewed new crosswalk still required"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source_id": "reental",
+          "excerpt": "Two new projects were launched during the month",
+          "locator": "Publication-minimized captured excerpt; full-body context in prior archive",
+          "stance": "supports"
+        }
+      ],
+      "contradictions": [],
+      "missingness": {
+        "exact_event_date": "not_reported",
+        "current_operation": "not_reported"
+      },
+      "collector": "demo_importer",
+      "reviews": [],
+      "predicate_review": {
+        "supported_claim_type": null,
+        "rationale": null
+      }
+    },
+    {
+      "id": "inlightened-completion",
+      "company_id": "inlightened-inc__getinlightened-com",
+      "round_id": "inlightened-inc__republic-crowd-safe-series-2022__2022-08-26",
+      "claim_type": "acquisition_completed",
+      "assertion": "Buyer reports completed acquisition; exact legal close and consideration unknown.",
+      "value": "source_reported",
+      "time": {
+        "kind": "upper_bound",
+        "end": "2023-08-14",
+        "basis": "Completed by announcement, not exact closing date"
+      },
+      "identity": {
+        "scope": "business_identity_proposed",
+        "mapping_review_status": "pending",
+        "strong_ids": [],
+        "medium_identifiers": [
+          {
+            "kind": "domain",
+            "value": "getinlightened.com",
+            "provenance": "outcome-wave1/outcome-proposals.json; independently reviewed new crosswalk still required"
+          },
+          {
+            "kind": "founders",
+            "value": "Shelli Pavone; Michelle Higginson",
+            "provenance": "outcome-wave1/outcome-proposals.json; independently reviewed new crosswalk still required"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source_id": "inlightened-buyer",
+          "excerpt": "today announced it has acquired Inlightened",
+          "locator": "Normalized publication excerpt; original archived tool-text source referenced by original hash",
+          "stance": "supports"
+        }
+      ],
+      "contradictions": [],
+      "missingness": {
+        "exact_event_date": "not_reported",
+        "current_operation": "not_reported",
+        "security_issuer_chain": "not_reported",
+        "control_transfer": "not_reported",
+        "shareholder_consideration": "not_reported",
+        "investor_return": "not_reported"
+      },
+      "collector": "demo_importer",
+      "reviews": [],
+      "predicate_review": {
+        "supported_claim_type": null,
+        "rationale": null
+      }
+    }
+  ],
+  "research_plan": {
+    "policy": "vera.multisource.claim-policy.v1.1.0",
+    "declared_at": null,
+    "retrospective_import": true,
+    "routes": [],
+    "stopping_rationale": "Local import demonstration only; new prospective source sweep required."
+  },
+  "source_review": null,
+  "rollout": {
+    "required_policy": "vera.multisource.claim-policy.v1.1.0",
+    "acknowledgements": []
+  },
+  "derivative_lineage": {
+    "parent_dataset_sha256": "3cf11b3f436b286ba107cdf941012069b98dbadd289e3b9d30c02a7e4535488c",
+    "purpose": "Presentation-normalized public derivative of frozen publication-minimized example.",
+    "semantic_changes": "None intended: visible link label replaces tool-renderer citation syntax. New capture/data hashes; no approval transfer."
+  },
+  "policy_migration": {
+    "parent_policy": "vera.multisource.claim-policy.v1.0.0",
+    "new_reviews": "pending; none migrated"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 80733,
+  "campaign_url": "https://republic.com/kapitalwise",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/kapitalwise/show_updates",
+  "gzip_sha256": "216632a0ff62ec083dce5d298c67ec827a86acb3bb3b857a6d0374e78c50c07b",
+  "http_status": 200,
+  "parent_sha256": "f7c4a7673fc200cec87735ee92d8df89fd1046e107b248e6e4e40a18a0327953",
+  "raw_sha256": "177c283dfba347b1f391d1865d6ebc969bbd74462af73a54ebebab950ed61ba5",
+  "received_at": "2026-10-10T02:32:19.224573+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:18.604144+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/177c283dfba347b1f391d1865d6ebc969bbd74462af73a54ebebab950ed61ba5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/kapitalwise/show_updates"
+}

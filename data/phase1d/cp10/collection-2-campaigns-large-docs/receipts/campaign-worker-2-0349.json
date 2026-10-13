@@ -1,0 +1,18 @@
+{
+  "bytes": 31189,
+  "campaign_url": "https://republic.com/madebos",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/madebos/show_updates",
+  "gzip_sha256": "3dada2204e0c4c7672e4dc0a897a9696a2b0b6374e65915f158e1da8004fe6b4",
+  "http_status": 200,
+  "parent_sha256": "597e96b80ac547e3d642c2f606b3607040d14795f0c11eac263d91e8decb858f",
+  "raw_sha256": "acf31a575acbd7b710e5661697064f136979cdada9d7209d930bc60a2d3628ef",
+  "received_at": "2026-10-10T02:33:19.188788+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:18.635060+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/acf31a575acbd7b710e5661697064f136979cdada9d7209d930bc60a2d3628ef.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/madebos/show_updates"
+}

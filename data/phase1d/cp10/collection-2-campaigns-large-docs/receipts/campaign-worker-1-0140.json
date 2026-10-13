@@ -1,0 +1,18 @@
+{
+  "bytes": 76623,
+  "campaign_url": "https://republic.com/day-one",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/day-one/show_updates",
+  "gzip_sha256": "2f5efd93c74911be89f9a512a9bb256c3369e64238cf368090807adf7f152108",
+  "http_status": 200,
+  "parent_sha256": "2668239d31562e676ba17d0112bb63ad7c92ac448975bc877bf3dc54651f41c7",
+  "raw_sha256": "05e24525c8a899c9a753c8ebc700196813cd46e7d15e7d75872891e0536c6105",
+  "received_at": "2026-10-10T02:26:52.779042+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:52.168097+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/05e24525c8a899c9a753c8ebc700196813cd46e7d15e7d75872891e0536c6105.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/day-one/show_updates"
+}

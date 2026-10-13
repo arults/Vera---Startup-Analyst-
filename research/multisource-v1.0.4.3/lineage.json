@@ -1,0 +1,46 @@
+{
+  "implementation_version": "1.0.4.3-assignment-local",
+  "delivery_status": "PUBLIC_CANDIDATE_NOT_PUBLISHED",
+  "accepted_content_sha256": {
+    "verify_package.py": "4f293a4a78827b0abd5b147024367869aa2ddd14b9660f6def9de527250f5e99",
+    "precision_withdrawal.py": "0b4dfef7eae67135c9a6a0937373fc7a8a11c3dacfbe371b7c4b6ab1968cd187",
+    "customer_observations.py": "25cb3ae109d78d7696925e3f9fcff60bc5c1a2b9ab933031203cb1fdddb0596a",
+    "scoped_review.py": "118e53b2978d22585a801cb66b3ca4781f4dca58457d119bcaff5b91b634457b",
+    "source_verifier.py": "12e3d0c7d33efef1a428ee014af0e50b7ec746c6e88aa34c61b84f055619e3a8",
+    "timing.py": "1b05bd9a2511612f106344d9cd3b94f1d343c5e2fe5bde597d1d3ac6a31bd626",
+    "evidence.py": "3379d349ab3af52b827fae692539cdff05a573370192d4d3893a989f3cc500b1",
+    "POLICY.md": "1aadf72d14ab9481c034f7b73b97de66964bb3ca8d21c5f19bab22814c9b818d",
+    "CUSTOMER_OBSERVATIONS.md": "3b80ec7f369fe83d6ea38df848cb0b60dbb6a5135c77540a6eea774b17245658",
+    "evidence.schema.json": "1cae6201b32314f0a14059cf8f8c96132fb695bb2f85cdea843343c12c592f86",
+    "tests/test_source_verifier.py": "056e073a5a80d4414343b180a158a4e4df475995d799fcbc40074e832c50a5af",
+    "tests/test_evidence.py": "f070b2b3c995bca7604ffef1af720d7da1594b1df7fb80a81b673381c0bb3702",
+    "tests/test_historical_plan.py": "70ac6f3bd3b8ca645f88ad6252aae1cb2350b41c0f130deb09a995431bec0c9b",
+    "tests/test_release.py": "e52e4ce1616f1f2a65d6ef15d2ab389eb5bc62b171c55b1959c24b1a522f4d3b",
+    "tests/test_time_windows.py": "41b1de5d3335c05da88b778e2e95b683608f8f91c09d9b786efbc46fd47021a7",
+    "tests/test_precision_withdrawal.py": "afe971994bfcb5f66e16138411a75a90a9bcc11d6fd694260de2d8dd5f1027e0",
+    "tests/test_customer_observations.py": "42b5c845ec34a119640b7582da3ef8e31e2019f0f6ce201f2f6edc11a6590e91",
+    "tests/test_missing_search_times.py": "cae3ead46616da8e8214da977aad6a1d7ce7ff3888b41698c4f17f67d21d2e43",
+    "tests/test_report_version.py": "17523d0eb3e496558b4041ec712cd051cc67d16813cd5aaf53113e0e7483901d",
+    "tests/test_scoped_review.py": "5a09aea190a1e512ea2b092156df20d626d464e133fffbd155736bc21e6a127e",
+    "tests/test_utc_cutoff.py": "5401536a79d3ce906fba38f86f4bc349f983485ef3731928df64ee1fb19e3331",
+    "tests/test_identity_source_cutoff.py": "a240a262d3cb9050fc18cef999c2b05c4460b7375211e86de4fdcad9d7a39836",
+    "IDENTITY_CUTOFF_CHANGE.md": "e37794be39a4b593e773631f7a9462aca58e657c470acfbfb3fea51d221e82d2"
+  },
+  "actual_customer_data_included": false,
+  "private_review_reports_included": false,
+  "real_approvals_included": false,
+  "external_jev_exact_code_approval_claimed": false,
+  "predecessor_implementation_version": "1.0.4.2-customer-local",
+  "runtime_changed": true,
+  "policy_bytes_changed": false,
+  "changes": [
+    "Selected-identity source cutoff validation",
+    "Implementation identifier",
+    "Synthetic identity cutoff regression and predicate-evidence field-scope document"
+  ],
+  "assignment_reassessment": {
+    "base_commit": "6fe2501ef779fe53f323145e03f0bd57eee54cca",
+    "policy_bytes_unchanged": true,
+    "change": "Separate operator-bound retrospective assignment route and receipt-bound declaration windows; no estimator change"
+  }
+}

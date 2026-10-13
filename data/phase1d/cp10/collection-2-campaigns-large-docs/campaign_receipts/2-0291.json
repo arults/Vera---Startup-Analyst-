@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Pure Culture Beauty",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/pure-culture",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fb52ab5508d7032eca073a3afa07af78eddc2a760a2e135e32a0dffe1e873cc8.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1970393",
+    "final_url": "https://republic.com/pure-culture",
+    "first_live_date": "",
+    "investors": "38",
+    "legal_name_from_platform": "BeNome, Inc.",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "49422",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "fb52ab5508d7032eca073a3afa07af78eddc2a760a2e135e32a0dffe1e873cc8",
+    "source_url": "https://republic.com/pure-culture",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2023-07-18",
+    "successful_close_year_NOT_offering_year": "2023"
+  },
+  "final_url": "https://republic.com/pure-culture",
+  "first_live_date": "2023-05-18",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2023-07-18",
+      "Successfully raised $49,422 🍾"
+    ],
+    [
+      "2023-05-18",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 2245,
+  "native_state": "finalized",
+  "offering_year": 2023,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fb52ab5508d7032eca073a3afa07af78eddc2a760a2e135e32a0dffe1e873cc8.bin.gz",
+  "source_sha256": "fb52ab5508d7032eca073a3afa07af78eddc2a760a2e135e32a0dffe1e873cc8",
+  "successful_completion_date": "2023-07-18",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7e702956922c96773bbf1e6cd5a1200f9f73d12deec5cfed0285bc56f16411a0.bin.gz",
+  "timeline_source_sha256": "7e702956922c96773bbf1e6cd5a1200f9f73d12deec5cfed0285bc56f16411a0",
+  "url": "https://republic.com/pure-culture",
+  "year_in_study": true
+}

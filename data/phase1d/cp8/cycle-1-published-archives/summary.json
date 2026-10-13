@@ -1,0 +1,20 @@
+{
+  "access_bypass_attempted": false,
+  "all_published_filing_archives_verified": false,
+  "all_target_filing_archives_verified": false,
+  "completed_at": "2026-10-09T15:25:11.551746+00:00",
+  "platform_census_complete": false,
+  "published_quarters_required": 26,
+  "published_quarters_verified": 0,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "status_counts": {
+    "HTTP_ERROR_NO_BYPASS": 2,
+    "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN": 24
+  },
+  "target_quarters_required": 24,
+  "target_quarters_verified": 0,
+  "unpublished_followup_quarters": [
+    "2026Q3"
+  ]
+}

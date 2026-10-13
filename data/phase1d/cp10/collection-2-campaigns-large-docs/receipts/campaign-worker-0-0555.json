@@ -1,0 +1,18 @@
+{
+  "bytes": 1852,
+  "campaign_url": "https://republic.com/softbar",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/softbar/show_updates",
+  "gzip_sha256": "9ebbbfc39f47ecd016eea394f38d93a9cbff9fe1a5af905e1d52378e0d972fb3",
+  "http_status": 200,
+  "parent_sha256": "7f4604feaa1403699aa2dbd9243019178025e662b216922f9a155071deb3ffd7",
+  "raw_sha256": "645fbd8ad67ccb5fa2c49a07e8f72e71ac1828cc4ac4bc22b785bea6f5b42e02",
+  "received_at": "2026-10-10T02:37:14.255183+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:13.635726+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/645fbd8ad67ccb5fa2c49a07e8f72e71ac1828cc4ac4bc22b785bea6f5b42e02.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/softbar/show_updates"
+}

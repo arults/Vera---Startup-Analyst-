@@ -1,0 +1,18 @@
+{
+  "bytes": 42079,
+  "campaign_url": "https://republic.com/everytable",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/everytable/show_updates",
+  "gzip_sha256": "216b8c908dcedf373b4b3282ef34f80c009b8e78324b642b2b185aaef0c1d85c",
+  "http_status": 200,
+  "parent_sha256": "18d6261eb195a98ea2ac41351d49803fa60e713a0eff429d4340ad5682646425",
+  "raw_sha256": "803f4b044eeb523003e04c7d6b289dc5a42db2e62b1e52aed715b08d66268ca7",
+  "received_at": "2026-10-10T02:27:24.901846+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:24.320403+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/803f4b044eeb523003e04c7d6b289dc5a42db2e62b1e52aed715b08d66268ca7.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/everytable/show_updates"
+}

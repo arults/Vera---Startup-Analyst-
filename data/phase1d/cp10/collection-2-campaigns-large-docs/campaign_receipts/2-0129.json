@@ -1,0 +1,35 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": null,
+  "final_url": "https://republic.com/fy",
+  "first_live_date": "2022-05-27",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2022-09-01",
+      "Successfully raised $64,350 🍾"
+    ],
+    [
+      "2022-05-27",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 1608,
+  "native_state": "preparing_to_finalize",
+  "offering_year": 2022,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1565cfd1a9554f40bb88e9bd13eb81494af1d6885d378537ed67fc22a39c6be9.bin.gz",
+  "source_sha256": "1565cfd1a9554f40bb88e9bd13eb81494af1d6885d378537ed67fc22a39c6be9",
+  "successful_completion_date": "2022-09-01",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/616c86548ef829193dd2890c3871700496164a7d8b1c434ba58e52b4a4bd6787.bin.gz",
+  "timeline_source_sha256": "616c86548ef829193dd2890c3871700496164a7d8b1c434ba58e52b4a4bd6787",
+  "url": "https://republic.com/fy",
+  "year_in_study": true
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 1324677,
+  "campaign_url": "https://republic.com/revero",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/19104?view=preview",
+  "gzip_sha256": "00c78f1ab726d1f844c37ee789c2a9641ac07a44878094de555ce0bf10198abe",
+  "http_status": 200,
+  "label": "Revero Form C.pdf",
+  "parent_sha256": "976e3614393ee9872132458c4fd4b2ebd9f1d0b2c44bde0b4f00f505205ab0c0",
+  "raw_sha256": "99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c",
+  "received_at": "2026-10-10T02:09:11.227157+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:10.501127+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/99ef6487b2604be77b6b0de8464843a431bd57322891583717dc095b4443709c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/19104?view=preview"
+}

@@ -1,0 +1,59 @@
+{
+  "state": {
+    "purpose": "Generic methods review of an external-source admission amendment for historical private-company research. No company records, repository content, private data, estimates or customer identifiers are provided.",
+    "problem": "A historical study used platform-hosted evidence only. Broader trustworthy-source research is authorized, but unversioned reuse of the old admission restriction would leave outside facts context-only. Existing historical inputs, policies, outputs and hashes must remain immutable.",
+    "proposal": [
+      "Activate a prospectively versioned source-scope amendment. New reviewed research observations may use competent public official records, issuer/buyer/investor original documents, reputable inspected original journalism and attributable specialist databases. Preserve original native results and label new observations by evidence policy; do not relabel them native or pass them through old-method guards by editing hashes.",
+      "Require a minimal per-company or claim-specific logged sweep of applicable regulator/registry, company website/IR, specialist crowdfunding tracker plus accessible relevant startup funding tracker, and reputable news including adverse/contradictory searches. Attempt/log each material family rather than force subscriptions, invented availability or arbitrary independent-source counts. Archives, buyer/investor documents, courts and sector databases become mandatory when material to historical availability, transactions, distress or sector claims.",
+      "Research logs distinguish not searched, no relevant result in bounded search, inaccessible/auth blocked, retrieved but not inspected, and inspected. Named tools/pages are not proof of actual coverage.",
+      "Admission is predicate-specific: match legal entity and indexed economic round where relevant; inspect original context; preserve precise excerpt/locator/hash; record publisher, interested-party relationship, factual-origin family, publication date, event date/interval, source-as-of date, archived capture/known-at date and retrieval date separately. Later documents can evidence earlier events in retrospective work but cannot masquerade as information available at the historical cutoff.",
+      "No universal two-source rule: one competent direct official source may establish a narrow fact, while issuer self-claims and secondary assertions retain attribution and conditional corroboration. Repeated/syndicated text across websites counts as one factual origin. Database lineage must be inspected; unavailable underlying evidence limits admission.",
+      "Record contradictory evidence without majority voting; resolve with entity, event definition, time, competent directness and later correction, and independent review. Unresolved material conflicts hold that claim. Lack of news/filing/database coverage never proves survival, failure or no funding. Missing funding reports do not prove no securities sold.",
+      "Keep atomic facts distinct from statistical identification: legal dissolution is not necessarily operating cessation; brand/product activity is not original issuer operation; acquisition is not realized investor return; a dated operating observation does not establish uninterrupted history or independent censoring. Preserve interval uncertainty and endpoint-specific unknowns.",
+      "Dedicated independent source verifier must assess material route coverage, competent originals, origin independence, identity/time entailment and remaining alternatives; independent claim verifier separately signs only the bounded observation. No automatic graph, history, censor endpoint, numerical estimate, prior or production promotion. New empirical method admission needs its own declared source policy, model/observation assumptions, identity/round/state gates and review; unchanged model mathematics do not prove unchanged ascertainment.",
+      "Use a bounded fresh pilot of predeclared unresolved predicates with honest sampled scope and hold outcomes; assess whether newly admissible sources close the exact predicate, expose a different missing predicate, or remain unavailable. Do not infer global research adequacy from pilot success or failure."
+    ],
+    "decision_scope": "Whether to implement this research-source correction and test narrow factual admission, not whether any real company or numerical estimator qualifies."
+  },
+  "questions": {
+    "source_amendment": {
+      "type": "choice",
+      "instructions": "Choose the best method correction for the stated problem.",
+      "criteria": {
+        "ACTIVATE_VERSIONED_SCOPED_ROUTE": "Activate the prospective research-fact route with preserved native history, actual role reviews and independent statistical-method gates.",
+        "KEEP_EXTERNAL_CONTEXT_ONLY": "Continue to reject all external facts for every future research gate solely because the historical study was platform-only.",
+        "REPLACE_HISTORICAL_RESULTS": "Overwrite the historical native outputs using the expanded source set.",
+        "REVISE_BEFORE_PILOT": "The proposal has a material conceptual defect requiring revision before even bounded factual-admission testing."
+      }
+    },
+    "minimum_search": {
+      "type": "choice",
+      "instructions": "Which search adequacy rule is most defensible for private-company research?",
+      "criteria": {
+        "CLAIM_SPECIFIC_MATERIAL_ROUTES": "Require logged relevant official, issuer, tracker and news sweeps; conditional deep routes; competent source inspection; explicit gaps and independent scoped sufficiency review.",
+        "TWO_DOMAINS_SUFFICE": "Any two distinct website domains are adequate corroboration.",
+        "EXHAUST_ALL_SOURCES": "Every named paid tracker and every possible public source must be obtained before any narrow fact can be accepted.",
+        "ONE_POSITIVE_RESULT_ENDS_SEARCH": "Stop after the first supportive result without checking material contrary evidence."
+      }
+    },
+    "identification_boundary": {
+      "type": "choice",
+      "instructions": "Does expanded high-quality source coverage by itself validate event/censor dates, independent censoring or numerical priors?",
+      "criteria": {
+        "SEPARATE_EVIDENCE_FROM_IDENTIFICATION": "No; affirm only entailed dated facts and require separate empirical model, observation, selection and censoring review.",
+        "AUTOMATICALLY_ENABLE_ESTIMATOR": "Yes; trustworthy sources remove the need for those separate gates.",
+        "NO_EXTERNAL_FACT_CAN_BE_USEFUL": "No external evidence may reduce a missing predicate without a complete estimator."
+      }
+    },
+    "first_test": {
+      "type": "choice",
+      "instructions": "Choose the most useful immediate validation of this amendment.",
+      "criteria": {
+        "TEST_PREDECLARED_MISSING_PREDICATES": "Fresh bounded researcher plus independent source/claim-verifier pilot; preserve holds and compare exact predicates before/after admission.",
+        "REPEAT_GENERIC_POLICY_DOCUMENTS": "Write another general framework without researching unresolved facts.",
+        "SWEEP_ENTIRE_COHORT_BEFORE_TEST": "Require exhaustive full-cohort collection before testing any admission effect.",
+        "PROMOTE_IF_PILOT_HAS_POSITIVES": "Promote a numerical prior if a few selected cases gain facts."
+      }
+    }
+  }
+}

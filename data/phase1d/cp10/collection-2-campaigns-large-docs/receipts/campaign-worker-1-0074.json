@@ -1,0 +1,18 @@
+{
+  "bytes": 97424,
+  "campaign_url": "https://republic.com/boon-vr",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/boon-vr/show_updates",
+  "gzip_sha256": "7593e7dd8dc8459c4872e1562f81702e8d90d678f9d5a0bbd38fa4d57fa0a76f",
+  "http_status": 200,
+  "parent_sha256": "dbdfc0c76ae1a3b7d1fd5839cec082df9dc2bd5e5e7de0b0439c050e21087b29",
+  "raw_sha256": "1c2bb0b75364e45018c052d984634973005aa0b75ff0018ac86cc86b1f500591",
+  "received_at": "2026-10-10T02:24:38.744358+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:38.093473+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1c2bb0b75364e45018c052d984634973005aa0b75ff0018ac86cc86b1f500591.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/boon-vr/show_updates"
+}

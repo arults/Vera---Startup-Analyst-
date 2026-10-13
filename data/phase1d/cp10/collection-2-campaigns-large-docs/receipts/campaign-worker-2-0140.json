@@ -1,0 +1,18 @@
+{
+  "bytes": 30680,
+  "campaign_url": "https://republic.com/dallas-cityfund",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/dallas-cityfund/show_updates",
+  "gzip_sha256": "b9e20f60a6eaa6bc245d81c5baadc1749d7fd44f6cde1bc316a7a1f5e2e1b292",
+  "http_status": 200,
+  "parent_sha256": "ab9e27953bef25a1c55bb8ba520e20ec5ae734374297b56515d9cd464fe8cf08",
+  "raw_sha256": "de75d5cdf201c9481063bc968200fb9576cba6df4e24a7d024bec1d04be6b9ef",
+  "received_at": "2026-10-10T02:26:15.714951+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:15.156197+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/de75d5cdf201c9481063bc968200fb9576cba6df4e24a7d024bec1d04be6b9ef.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dallas-cityfund/show_updates"
+}

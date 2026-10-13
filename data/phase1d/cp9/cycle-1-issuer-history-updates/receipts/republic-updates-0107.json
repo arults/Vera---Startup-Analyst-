@@ -1,0 +1,19 @@
+{
+  "bytes": 558408,
+  "campaign_url": "https://republic.com/ternio",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/ternio/show_updates",
+  "gzip_sha256": "d5963a1fe69245b5f7d811ccd0df871a21ae02db7c87b80afc843d442ccdef68",
+  "http_status": 200,
+  "legal_name": "Ternio, LLC",
+  "native_offering_id": 397,
+  "parent_sha256": "7841f09b4a009939b1b77e9d9f51ea7e7191cb4d3a2dcf9f92f14835ee7e096d",
+  "raw_sha256": "e2a456273bfc56f00976100c6869212991b9309e57ca6797b5e5460310ba53aa",
+  "received_at": "2026-10-10T00:52:42.713010+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:41.636373+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/e2a456273bfc56f00976100c6869212991b9309e57ca6797b5e5460310ba53aa.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ternio/show_updates"
+}

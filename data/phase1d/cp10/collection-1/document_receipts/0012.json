@@ -1,0 +1,49 @@
+{
+  "bytes": 13510076,
+  "campaign_url": "https://republic.com/citiesense",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Citiesense Form C.pdf",
+  "page_count": 68,
+  "parent_sha256": "916c2daaa062fdd875fd263c8d4f110cc79d4909b40f5a49e1e38ba373bd7694",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1256,
+      "pymupdf_sha256": "fcad45e450fbb7c3c73daa94b5a561bc6a3bab6d2112d11933ae5111da50b216",
+      "pypdf_chars": 1708,
+      "pypdf_sha256": "189efde45b61aa692695df6616e576956413a6b990f1be3d5175ed33fdce5fd9"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1784,
+      "pymupdf_sha256": "6b67405c62932db1fd315b975d1b8fd86e0cbd899787776426d49ce0ba564b96",
+      "pypdf_chars": 2316,
+      "pypdf_sha256": "b48dc53a1ecf6e0bb043ac0bd5ef5141620510403e4966ab2b28bb43af9047cf"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1204,
+      "pymupdf_sha256": "9dc1bcefd4aeb79aadba442cac85dc757fc5b63a1662f9d267782ff46ff2afa5",
+      "pypdf_chars": 1680,
+      "pypdf_sha256": "c0d44d02a17c7ca8e55e4f5bcd77a74054611071d09ac8251ca60cdd69b8eabf"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1481,
+      "pymupdf_sha256": "a9374ca6098422668e1ad8553f74bbd90176f57d3f3bdc286c840be7a69cbcb6",
+      "pypdf_chars": 2051,
+      "pypdf_sha256": "4a9018f349f6c62e2168761d7acfae0013f9c0c3c600bc5bb833123307b244ea"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/4829bc6c8453b0f4f6c2d49ffb344029e15b5a84af0293d4b604ce2ceef9dec0.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/4829bc6c8453b0f4f6c2d49ffb344029e15b5a84af0293d4b604ce2ceef9dec0.bin.gz",
+  "source_sha256": "4829bc6c8453b0f4f6c2d49ffb344029e15b5a84af0293d4b604ce2ceef9dec0",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/71?view=preview"
+}

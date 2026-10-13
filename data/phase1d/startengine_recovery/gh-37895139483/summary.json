@@ -1,0 +1,77 @@
+{
+  "candidate_count": 0,
+  "capture_count": 2,
+  "census_status": "CENSUS_INCOMPLETE",
+  "completed_seed_count": 0,
+  "directory_stops": [
+    {
+      "at": "2026-10-09T06:45:21.366789+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://www.startengine.com/explore"
+    },
+    {
+      "at": "2026-10-09T06:45:24.024003+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://www.startengine.com/explore/offerings"
+    }
+  ],
+  "errors": [
+    {
+      "at": "2026-10-09T06:45:21.366766+00:00",
+      "error": "HTTP 202",
+      "url": "https://www.startengine.com/explore"
+    },
+    {
+      "at": "2026-10-09T06:45:21.373282+00:00",
+      "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/current/tombstones"
+    },
+    {
+      "at": "2026-10-09T06:45:21.375072+00:00",
+      "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+      "url": "https://www.startengine.com/service/primary_facade/v2/offerings/industries?midLevelOnly=true"
+    },
+    {
+      "at": "2026-10-09T06:45:21.377186+00:00",
+      "error": "Error('Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.')",
+      "url": "https://www.startengine.com/service/elastic-search/search/offering/search?fingerprint=&page=0&query=&regulationTypes=Reg+D&size=200&sortBy=mostMomentum&statuses=APPROVED%2CTESTING%2CCLOSED"
+    },
+    {
+      "at": "2026-10-09T06:45:24.023981+00:00",
+      "error": "HTTP 404",
+      "url": "https://www.startengine.com/explore/offerings"
+    },
+    {
+      "at": "2026-10-09T06:45:24.200856+00:00",
+      "error": "TargetClosedError('Response.body: Target page, context or browser has been closed')",
+      "url": "https://www.startengine.com/service/strapi/api/homepages?populate=%2A&pagination%5Bpage%5D=0&pagination%5BpageSize%5D=3"
+    }
+  ],
+  "explicit_total_hints": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "integrity_gates": {
+    "checks": {
+      "candidate_union_reconciles": true,
+      "candidate_urls_canonical": true,
+      "capture_counts_reconcile": true,
+      "captures_distinct": true,
+      "census_not_silently_complete": true,
+      "no_rate_promotion": true,
+      "public_resources_only": true,
+      "schema": true,
+      "snapshot_hashes_verified": true,
+      "timestamps_present": true
+    },
+    "passed": 10,
+    "total": 10
+  },
+  "manifest_sha256": "fbb429105c689316b0e425bced391815305f63598fef089a9e010a6d67aee9ee",
+  "rates_promoted": false,
+  "run_id": "gh-37895139483"
+}

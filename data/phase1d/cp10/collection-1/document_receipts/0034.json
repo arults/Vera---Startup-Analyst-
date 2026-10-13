@@ -1,0 +1,49 @@
+{
+  "bytes": 1671108,
+  "campaign_url": "https://republic.com/helloava",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "HelloAva Form C-A.pdf",
+  "page_count": 90,
+  "parent_sha256": "6c15b1f0f3dd99cc44ba6536159d5bce2f38983d192ef47878d20b8521528116",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 866,
+      "pymupdf_sha256": "a4e2472e641a94c28bd345f01425c055f0a49c94904287bcc6cbf58346c19508",
+      "pypdf_chars": 866,
+      "pypdf_sha256": "a4e2472e641a94c28bd345f01425c055f0a49c94904287bcc6cbf58346c19508"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1600,
+      "pymupdf_sha256": "2a1e98afea5ff193220c1ef3abd3ad3f74a7efd4d9150e03e15451a30ae4b8e1",
+      "pypdf_chars": 1600,
+      "pypdf_sha256": "2a1e98afea5ff193220c1ef3abd3ad3f74a7efd4d9150e03e15451a30ae4b8e1"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1055,
+      "pymupdf_sha256": "ee3b9faa6f7c376609d2e81ec17ca1f5d903028e3475dd713e3c250fe0b92720",
+      "pypdf_chars": 1055,
+      "pypdf_sha256": "ee3b9faa6f7c376609d2e81ec17ca1f5d903028e3475dd713e3c250fe0b92720"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1279,
+      "pymupdf_sha256": "a109f4752bc95379923e7f59fe0882c13668976801e4260ef9937f9e230602ea",
+      "pypdf_chars": 1279,
+      "pypdf_sha256": "a109f4752bc95379923e7f59fe0882c13668976801e4260ef9937f9e230602ea"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/d2f79b879dc2d49a3db2c42d4754d2c60c78dfe025ac528f9b4d9baf05f81b74.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d2f79b879dc2d49a3db2c42d4754d2c60c78dfe025ac528f9b4d9baf05f81b74.bin.gz",
+  "source_sha256": "d2f79b879dc2d49a3db2c42d4754d2c60c78dfe025ac528f9b4d9baf05f81b74",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/93?view=preview"
+}

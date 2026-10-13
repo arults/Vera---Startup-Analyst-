@@ -1,0 +1,242 @@
+{
+  "status": "ACCEPT_EXACT_TWO_ROW_LOCAL_RESEARCH_ADAPTER",
+  "artifact_hashes": {
+    "admission-adapter/scripts/admission_adapter.py": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+    "admission-adapter/inputs/frozen-input-manifest.json": "8d1153317a3defdcf1157adbd032282f1ff7ef86bff3a3a20c7b31decb47825d",
+    "admission-adapter/tests/test_admission_adapter.py": "e0950aa4c49bcb2a07385f47d498b6caf38feb5c3b10889e22d8625445fc4cc8",
+    "admission-adapter/releases/v0.3.0/canonical-research-ledger.json": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28"
+  },
+  "checks": [
+    {
+      "id": "exact_released_bytes_reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "two_accepted_research_rows_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "all_global_promotion_gates_false",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "no_synthetic_or_hypothetical_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "portable_output_no_workspace_paths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "no_invented_relations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom-phood:frozen_model_valid_and_layer_b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom-phood:operative_caps_not_claimed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom-phood:unknown_outcome_not_zero_event",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom-phood:no_census_or_production_or_estimator_admission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom-phood:source_anchors_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom-phood:source_hashes_still_bind_original_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "stockcard:frozen_model_valid_and_layer_b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "stockcard:operative_caps_not_claimed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "stockcard:unknown_outcome_not_zero_event",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "stockcard:no_census_or_production_or_estimator_admission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "stockcard:source_anchors_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "stockcard:source_hashes_still_bind_original_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "phantom_three_amount_displays_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "conditional_outside_offering_not_real_row",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "frozen_input_rejects:changed_raw_source",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "loaded_input_digest_changed:phantom-phood__native_parent",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:missing_source",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "loaded_input_digest_changed:stockcard__form_c",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:forged_review_acceptance",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "parsed_input_changed:review",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:extra_unreviewed_row",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "parsed_input_changed:matrix",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:invented_priced_value",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "parsed_input_changed:matrix",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:production_true",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "parsed_input_changed:decisions",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:phase_complete_true",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "parsed_input_changed:decisions",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "frozen_input_rejects:missing_scope",
+      "passed": true,
+      "detail": {
+        "rejection_reason": "parsed_input_changed:matrix",
+        "scope": "Byte/parsed-input authentication of already reviewed records, not a generic semantic adjudicator."
+      }
+    },
+    {
+      "id": "relocated_repository_layout_replays_identically",
+      "passed": true,
+      "detail": {
+        "network_calls": 0,
+        "method": "Copied exact pinned packaged inputs and reconstructed declared repository paths from verified raw bytes; gzip transport changed, raw evidence unchanged."
+      }
+    },
+    {
+      "id": "relocated_corrupt_source_rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "concurrent_conflicting_publication_never_overwrites",
+      "passed": true,
+      "detail": {
+        "results": [
+          "CONFLICT_REJECTED",
+          "CREATED_IMMUTABLE_RELEASE",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY",
+          "CONFLICT_REJECTED",
+          "UNCHANGED_IDENTICAL_REPLAY"
+        ]
+      }
+    },
+    {
+      "id": "existing_output_conflict_preserves_exact_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "worker_adapter_suite_rerun",
+      "passed": true,
+      "detail": {
+        "tests": 45,
+        "exit_code": 0
+      }
+    },
+    {
+      "id": "final_artifacts_unchanged_during_independent_review",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "count": 34,
+  "passed": 34,
+  "worker_suite": {
+    "tests": 45,
+    "exit_code": 0
+  },
+  "evidence_scope": "Real release recomputation and source integrity checks; deliberate mutations/races are synthetic engineering challenges, not empirical observations.",
+  "limits": [
+    "Exact two-row adapter only; do not describe its pinned-input rejections as generic semantic classification of arbitrary campaigns.",
+    "No production/prior/estimator promotion. Outcomes, historical census, full cross-platform identity and broad-study completion remain open.",
+    "Repository-layout relocation is verified locally; no remote repository integration or full CI run is claimed."
+  ]
+}

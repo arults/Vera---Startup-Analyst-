@@ -1,0 +1,14 @@
+{
+  "normalized_rows": 952,
+  "cohort_year_usable_rows": 796,
+  "strong_company_id_rows": 946,
+  "strong_company_id_share": 0.9936974789915967,
+  "weak_name_fallback_rows": 6,
+  "weak_name_fallback_share": 0.0063025210084033615,
+  "usable_strong_rows": 796,
+  "usable_weak_rows": 0,
+  "weak_fallback_unique_ids": 6,
+  "weak_fallback_repeat_ids": 0,
+  "weak_fallback_repeat_examples": [],
+  "round_ids_unique": true
+}

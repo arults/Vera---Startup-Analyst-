@@ -1,0 +1,52 @@
+name: Phase 1D Republic Europe identity review
+'on':
+  workflow_dispatch:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1c/**'
+      - 'src/phase1d/**'
+      - 'tests/**'
+      - 'scripts/ci/validate_identity_checkpoint.py'
+      - '.github/workflows/phase1d-republic-europe-identity-review.yml'
+permissions:
+  contents: read
+jobs:
+  review_queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact triggered head
+        shell: bash
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Install existing regression dependencies
+        run: |
+          python -m pip install --only-binary=:all: requests beautifulsoup4 curl_cffi
+      - name: Validate full suite and isolated candidate checkpoint
+        shell: bash
+        run: >-
+          python -B scripts/ci/validate_identity_checkpoint.py
+          --expected-sha "$GITHUB_SHA"
+          --scratch-root "$RUNNER_TEMP/identity-candidate-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Upload hash and status evidence only
+        uses: actions/upload-artifact@v4
+        with:
+          name: identity-candidate-evidence-${{ github.sha }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/identity-candidate-${{ github.run_id }}-${{ github.run_attempt }}/evidence/validation.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: State validation scope
+        if: always()
+        shell: bash
+        run: |
+          echo 'Full regression and isolated candidate replay only; inspect stage results and test skips.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No canonical checkpoint files are committed. Raw candidates and full-draw sidecars remain together in disposable runner storage; only verified hash/status evidence is uploaded on success.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No empirical rates or priors are promoted. A passing run does not establish scientific completeness.' >> "$GITHUB_STEP_SUMMARY"

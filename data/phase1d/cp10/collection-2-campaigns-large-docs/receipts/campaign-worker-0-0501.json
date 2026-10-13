@@ -1,0 +1,20 @@
+{
+  "bytes": 136913,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/republic-educational-series-intellectual-property",
+  "gzip_sha256": "0b95d8362f7d3e41e1b66e8c0814a8c361070891f6446e34e9156e308c341f33",
+  "http_status": 200,
+  "raw_sha256": "0eec7ae356ba8a83cd5efb15e6b3ca5cc893200fcb3317dfdc856f7eda74d899",
+  "received_at": "2026-10-10T02:36:14.600094+00:00",
+  "redirects": [
+    "https://republic.com/events/republic-educational-series-intellectual-property"
+  ],
+  "retrieval_started_at": "2026-10-10T02:36:13.938336+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0eec7ae356ba8a83cd5efb15e6b3ca5cc893200fcb3317dfdc856f7eda74d899.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/republic-educational-series-intellectual-property"
+}

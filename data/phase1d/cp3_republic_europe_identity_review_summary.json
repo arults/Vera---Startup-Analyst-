@@ -1,0 +1,19 @@
+{
+  "candidate_rows": 27,
+  "eligible_pages_with_candidates": 11,
+  "followup_rows_extended": 0,
+  "generated_at": "2026-10-09T07:11:12.722948+00:00",
+  "matches_applied": 0,
+  "pages_with_candidates": 23,
+  "pages_without_candidates": 308,
+  "policy": {
+    "alias_signal": "deterministic aliases create review candidates; no automatic match",
+    "all_new_candidates": "100% review required before follow-up extension",
+    "name_similarity_only": "never auto-match",
+    "slug_signal": "review only; no automatic match"
+  },
+  "strong_company_number_candidate_pages": 1,
+  "unique_top_candidate_pages": 20,
+  "unique_top_with_two_or_more_signals": 8,
+  "unmatched_business_pages_input": 331
+}

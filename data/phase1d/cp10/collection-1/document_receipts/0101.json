@@ -1,0 +1,49 @@
+{
+  "bytes": 2917100,
+  "campaign_url": "https://republic.com/zoop",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Zoop Form C.pdf",
+  "page_count": 67,
+  "parent_sha256": "ac9f46eccac12ca8ac56b8ba0918fc2dff0bf49d3e565eb729612c2c420b9036",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 927,
+      "pymupdf_sha256": "3ae7c8195ff87a990e0725a8956a7e9246da93c6e6fc54bc498a22d1c7d1aeb3",
+      "pypdf_chars": 927,
+      "pypdf_sha256": "3ae7c8195ff87a990e0725a8956a7e9246da93c6e6fc54bc498a22d1c7d1aeb3"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1811,
+      "pymupdf_sha256": "81ba048bcfe61d469efe411ce93ba1c422bf4dee2f91b1668d455783dd7cf993",
+      "pypdf_chars": 1811,
+      "pypdf_sha256": "81ba048bcfe61d469efe411ce93ba1c422bf4dee2f91b1668d455783dd7cf993"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1068,
+      "pymupdf_sha256": "6ef68f04148b7efddc23e1583276ef7cca51075ca27dfd1933421ba8fab9b7e9",
+      "pypdf_chars": 1068,
+      "pypdf_sha256": "6ef68f04148b7efddc23e1583276ef7cca51075ca27dfd1933421ba8fab9b7e9"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3186,
+      "pymupdf_sha256": "e71b0cde8be35c934ace1f3166181d870c0c5252fb3ac820bfaab9637f55e6c0",
+      "pypdf_chars": 3187,
+      "pypdf_sha256": "864d2b670387825f75b29227f0c8cb5393989ecc09ddba19c47fea3bf12afae4"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/d7d512432ccfc9c09e939d566121b98171c54e794a9b395ed00f41fd9a7ece60.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/d7d512432ccfc9c09e939d566121b98171c54e794a9b395ed00f41fd9a7ece60.bin.gz",
+  "source_sha256": "d7d512432ccfc9c09e939d566121b98171c54e794a9b395ed00f41fd9a7ece60",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/8202?view=preview"
+}

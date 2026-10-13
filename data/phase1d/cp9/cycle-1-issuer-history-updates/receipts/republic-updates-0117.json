@@ -1,0 +1,19 @@
+{
+  "bytes": 88381,
+  "campaign_url": "https://republic.com/watrfall",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/watrfall/show_updates",
+  "gzip_sha256": "55b3a68aeeb1c1c898f224221a4816bcbf42a1caa8c3c006434a69026e21cf7f",
+  "http_status": 200,
+  "legal_name": "MR DTP LLC",
+  "native_offering_id": 14990,
+  "parent_sha256": "aa2cc40f3ee3422be74d432ce8e23d4025bb8d7aa225d6e66f77bee4a47e8a66",
+  "raw_sha256": "9bc52e865810daa3cb34740e46b8a48efde86598a9066ee6dd7bad2d9933454b",
+  "received_at": "2026-10-10T00:52:48.470638+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:47.935359+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/9bc52e865810daa3cb34740e46b8a48efde86598a9066ee6dd7bad2d9933454b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/watrfall/show_updates"
+}

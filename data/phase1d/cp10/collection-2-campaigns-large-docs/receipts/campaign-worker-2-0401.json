@@ -1,0 +1,18 @@
+{
+  "bytes": 38104,
+  "campaign_url": "https://republic.com/navigate-capital",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/navigate-capital/show_updates",
+  "gzip_sha256": "3514fcf9914431933ddd90192b76a26b630f374aeee81e62d29c72036fd90bd7",
+  "http_status": 200,
+  "parent_sha256": "968b6818140300f21de937092bab219c43599c2a22de19e0d8d12b27abaeb71b",
+  "raw_sha256": "3da74495f9c13f0411132aad9d470f830dcc13f4d66accc548a766aac0b2461c",
+  "received_at": "2026-10-10T02:34:21.463496+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:20.886245+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3da74495f9c13f0411132aad9d470f830dcc13f4d66accc548a766aac0b2461c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/navigate-capital/show_updates"
+}

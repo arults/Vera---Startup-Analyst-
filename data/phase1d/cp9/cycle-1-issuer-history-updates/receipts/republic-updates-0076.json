@@ -1,0 +1,19 @@
+{
+  "bytes": 213985,
+  "campaign_url": "https://republic.com/popularium",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/popularium/show_updates",
+  "gzip_sha256": "1e94fecb8959db4030710e22b834ed6c379f8d62de81fb5f40396cea82055cbf",
+  "http_status": 200,
+  "legal_name": "Popularium, Inc.",
+  "native_offering_id": 10139,
+  "parent_sha256": "3a61fce37095663e12b29ba818db94262d2fa695a268df0bc5c65c18d506620c",
+  "raw_sha256": "def761f35006c5049a451dd0216618c2ae8217670c0bae667dfcc938e474152c",
+  "received_at": "2026-10-10T00:52:22.957174+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:22.312424+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/def761f35006c5049a451dd0216618c2ae8217670c0bae667dfcc938e474152c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/popularium/show_updates"
+}

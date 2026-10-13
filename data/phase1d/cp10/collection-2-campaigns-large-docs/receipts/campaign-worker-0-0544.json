@@ -1,0 +1,18 @@
+{
+  "bytes": 69682,
+  "campaign_url": "https://republic.com/skillmil",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/skillmil/show_updates",
+  "gzip_sha256": "c0c1e91273ea2a4f7681fc0c11d684a9334d30bd03660054d8653e250bc32197",
+  "http_status": 200,
+  "parent_sha256": "c824c65ca4a7e7fbe0005ae8a67fa5256aaa05bab8681201bc0368332eb718aa",
+  "raw_sha256": "51b9b638ea6619672d62d4483f58cbe09547196c82845caae4e5ae49ffb3fa82",
+  "received_at": "2026-10-10T02:37:02.431622+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:01.699926+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/51b9b638ea6619672d62d4483f58cbe09547196c82845caae4e5ae49ffb3fa82.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/skillmil/show_updates"
+}

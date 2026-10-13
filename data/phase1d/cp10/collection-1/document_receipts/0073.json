@@ -1,0 +1,49 @@
+{
+  "bytes": 1708757,
+  "campaign_url": "https://republic.com/sienna-sauce-2020",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Sienna Sauce Form C.pdf",
+  "page_count": 71,
+  "parent_sha256": "f3498218092a95f9a2207ebe158c0fc717660762e7cc98a5eb75019071f22585",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1056,
+      "pymupdf_sha256": "f7c2ad00525db8f3b2dd17e9e5995dfd212618a7741af04392f949c812c7e7e8",
+      "pypdf_chars": 1056,
+      "pypdf_sha256": "f7c2ad00525db8f3b2dd17e9e5995dfd212618a7741af04392f949c812c7e7e8"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1575,
+      "pymupdf_sha256": "15b77f3af32ba55086831dd47640a291f6d9e2d09bc455012aaaca061bf37a5f",
+      "pypdf_chars": 1578,
+      "pypdf_sha256": "69f78c4a8767d80b961a1d1f3847c5b48f6dee9aeaf4dfcccc11f15795edd316"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1799,
+      "pymupdf_sha256": "21d76c24d7880e0da25e142c892629125abbbf786c5200f134fe9f43ac263f7a",
+      "pypdf_chars": 1806,
+      "pypdf_sha256": "8a189519f0eb02816f83323032ae7a623da804672891b29d8b8a8695b7dca6b2"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1252,
+      "pymupdf_sha256": "33f4fec99c8ab2f4b53dff029017973b880329080a99b4ad9cbdc4e0b774fa51",
+      "pypdf_chars": 1254,
+      "pypdf_sha256": "072030292f6350284d6bf5834d3427d3063bc5b462df41a2c48059ce4bb25c40"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/6663b193f08e5a84b0a72e38620540b105f6a4813d7114f6af4d7ffbca623d73.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/6663b193f08e5a84b0a72e38620540b105f6a4813d7114f6af4d7ffbca623d73.bin.gz",
+  "source_sha256": "6663b193f08e5a84b0a72e38620540b105f6a4813d7114f6af4d7ffbca623d73",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/147?view=preview"
+}

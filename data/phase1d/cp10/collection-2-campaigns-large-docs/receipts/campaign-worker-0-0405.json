@@ -1,0 +1,18 @@
+{
+  "bytes": 50195,
+  "campaign_url": "https://republic.com/note-2020",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/note-2020/show_updates",
+  "gzip_sha256": "1d39a8762a58687a46e1e769a00398c834e275f7fc40c9c33175b07af8050188",
+  "http_status": 200,
+  "parent_sha256": "da63476a6b908d66e683b049a9f8e4ffe45bcd2ef3c1eeefc5ea4d40e8b0d755",
+  "raw_sha256": "e0b010303eef219735397b128c4d450a892665dd70daa0aab6d2779eb15fc569",
+  "received_at": "2026-10-10T02:34:26.506982+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:25.929600+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e0b010303eef219735397b128c4d450a892665dd70daa0aab6d2779eb15fc569.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/note-2020/show_updates"
+}

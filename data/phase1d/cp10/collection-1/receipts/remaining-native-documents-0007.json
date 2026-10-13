@@ -1,0 +1,18 @@
+{
+  "bytes": 1025965,
+  "campaign_url": "https://republic.com/buy-alerts",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/2160?view=preview",
+  "gzip_sha256": "7d08a320ec0dba89af0ab403919e7d077622668e9619f2e1ccb928c9c624598a",
+  "http_status": 200,
+  "label": "BuyAlerts Form C.pdf",
+  "parent_sha256": "be77a673b53242bce2630fde1d359e7f81227a4df4c08518bc3009e880fda40a",
+  "raw_sha256": "8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a",
+  "received_at": "2026-10-10T02:07:27.182745+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:26.489553+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8ff0eccd227feef684d43c90856fe7972b24b5987d79f1ac2e751625879dd85a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/2160?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 82810,
+  "campaign_url": "https://republic.com/see-me",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/see-me/show_updates",
+  "gzip_sha256": "b29c85d6e98b9a141468ed051198d4bc05b29a76a8ab5e7c33eaa911807e6e53",
+  "http_status": 200,
+  "parent_sha256": "793b0a4d3a880040bdaca9b1a8f70bf467163f0debd1ccff452e93edef2d9636",
+  "raw_sha256": "76fc8e2751d14e4da5d1a0d53e0b115a358f0e7640b632fb61c2d92d66009f40",
+  "received_at": "2026-10-10T02:36:47.769451+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:47.165054+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/76fc8e2751d14e4da5d1a0d53e0b115a358f0e7640b632fb61c2d92d66009f40.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/see-me/show_updates"
+}

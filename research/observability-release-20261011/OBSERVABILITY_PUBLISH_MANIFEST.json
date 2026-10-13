@@ -1,0 +1,108 @@
+{
+  "schema_version": "vera.publish-manifest/1",
+  "base_is_staging_root": true,
+  "files": [
+    {
+      "path": ".github/workflows/vera-observability-validation.yml",
+      "sha256": "c0349b69674afc22126a83204bace350ca8621666f469f47316ca5d1518ddad3",
+      "bytes": 1683
+    },
+    {
+      "path": "research/observability-v0.1.0/README.md",
+      "sha256": "5088d6a9ccd29893699ce93d089ae2e5fe52e4371ddc87f5602dc03dcb9393cb",
+      "bytes": 14279
+    },
+    {
+      "path": "research/observability-v0.1.0/VERIFICATION.json",
+      "sha256": "fe3bb3a9eb70b41fe1b8d5e4e85da5626aef13e7cba79e961988d198b37bdf16",
+      "bytes": 4296
+    },
+    {
+      "path": "research/observability-v0.1.0/build_schemas.py",
+      "sha256": "7ab645a47b5ebd086386d6a705a6ee7be1fc72a6a3a4ce5da192e0273e4b044a",
+      "bytes": 4221
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/interrupted-resumed.jsonl",
+      "sha256": "760ce3a775400435d60722597e46707ffd9140acc406c68256a2acfa1ddec90e",
+      "bytes": 10933
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/dashboard.html",
+      "sha256": "b1590574c20ff03ce23c20c0875de4981fcc5e821510b90b86ad2d2d37b90532",
+      "bytes": 21130
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/metrics/dashboard.html",
+      "sha256": "32ad64984a89a28a3520455a3a55623517f3b7ac775d9518a6f3bb087fcb3fbe",
+      "bytes": 6049
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/metrics/metrics.json",
+      "sha256": "4d5f9c7146a40b5e12a738f939bdec37f4396948fbf4f5aa351313ff957f133b",
+      "bytes": 8908
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/metrics/metrics.md",
+      "sha256": "7824610f08772029ea6cafcc9184102a5c0ae31f841e6dafe98cdfab0af028fc",
+      "bytes": 654
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/metrics.jsonl",
+      "sha256": "72a229de69b55d30a95fd872dfd738425f2c38b57927fcd2433515cb71953a26",
+      "bytes": 3420
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/observability.json",
+      "sha256": "823244afd92312724d7834c703eb195e968ad35ee1b8d464849aea69ba4c8726",
+      "bytes": 17385
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic/trace.jsonl",
+      "sha256": "18a1f6b5e837f6f2008bae2964c5ec084256ad4c0fd39693fd20a2fb768f9001",
+      "bytes": 9779
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic-benchmark.json",
+      "sha256": "87a6fa11af3b23d104fee3f0d9eb708325bcc360e13e6e2fb710e581609afa81",
+      "bytes": 7245
+    },
+    {
+      "path": "research/observability-v0.1.0/examples/synthetic-comparison.json",
+      "sha256": "496541cba54b69f2c9a07551bd90756f29a85cd58aec3e87a86676117e40d719",
+      "bytes": 1719
+    },
+    {
+      "path": "research/observability-v0.1.0/schemas/eval.schema.json",
+      "sha256": "192c618e226a57586c4e8b7bddafb7d0d2c65b6b8ac2493f436117e1cd69ed2a",
+      "bytes": 6057
+    },
+    {
+      "path": "research/observability-v0.1.0/schemas/trace.schema.json",
+      "sha256": "b2afbd804fdfc0b37e4ac3cd951b326415d9426b1a9553913896444a990c46ef",
+      "bytes": 35694
+    },
+    {
+      "path": "research/observability-v0.1.0/synthetic_benchmark.py",
+      "sha256": "24e010440ed6cae45d6c86a1c96c6bc6dc25d22b7a2d243ec8b720067a007084",
+      "bytes": 15814
+    },
+    {
+      "path": "research/observability-v0.1.0/test_observability.py",
+      "sha256": "8ff0f044337f41d3149e35002d3acb8b3bb1ed9b882ad79765f4c033294e9632",
+      "bytes": 30546
+    },
+    {
+      "path": "research/observability-v0.1.0/vera_observability.py",
+      "sha256": "6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b",
+      "bytes": 39015
+    }
+  ],
+  "excluded": [
+    ".validation/**",
+    "__pycache__/**",
+    "test-results.txt",
+    "PUBLISH_MANIFEST.json"
+  ],
+  "scope": "additive_observability_toolkit_and_readonly_scoped_ci_only"
+}

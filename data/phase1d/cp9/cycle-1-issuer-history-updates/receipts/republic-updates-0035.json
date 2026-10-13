@@ -1,0 +1,19 @@
+{
+  "bytes": 80120,
+  "campaign_url": "https://republic.com/dryvebox",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/dryvebox/show_updates",
+  "gzip_sha256": "70b4135fc933ab0a8c58da827696e0bd52f9e0fe06bcfb4250a27b55856712eb",
+  "http_status": 200,
+  "legal_name": "Dryvebox, Inc.",
+  "native_offering_id": 1059,
+  "parent_sha256": "d7a93f047c9680832619137013b1ef16ae855a35890546a9b79b37a9de12adf9",
+  "raw_sha256": "007a7d833aa3fb3b688b671dd9aaa1a75bdcbe7a31b8cc54052ed15e782565be",
+  "received_at": "2026-10-10T00:51:58.747327+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:58.195003+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/007a7d833aa3fb3b688b671dd9aaa1a75bdcbe7a31b8cc54052ed15e782565be.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dryvebox/show_updates"
+}

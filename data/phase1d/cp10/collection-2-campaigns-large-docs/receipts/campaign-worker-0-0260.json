@@ -1,0 +1,18 @@
+{
+  "bytes": 46816,
+  "campaign_url": "https://republic.com/hope-neuron",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hope-neuron/show_updates",
+  "gzip_sha256": "ed00211eb0e309774e2796d21c48725aa0db666e589fd8502d4017af9bcd9a4c",
+  "http_status": 200,
+  "parent_sha256": "9b78035d8afd2abe6352ead0ae1ea8a01384bbb7bf0982f1aaafa339b09bc061",
+  "raw_sha256": "471b4c591ba112ede8598625ae876d4ae5dd62a7484c031665751a133894323d",
+  "received_at": "2026-10-10T02:30:07.014072+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:06.323171+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/471b4c591ba112ede8598625ae876d4ae5dd62a7484c031665751a133894323d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hope-neuron/show_updates"
+}

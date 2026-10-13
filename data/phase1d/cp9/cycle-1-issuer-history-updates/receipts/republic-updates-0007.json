@@ -1,0 +1,19 @@
+{
+  "bytes": 52376,
+  "campaign_url": "https://republic.com/alphaflow",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/alphaflow/show_updates",
+  "gzip_sha256": "d94795c5a3f5e4b1cc0522331feac2f01ff3a8fa264c76e786e3ed43fa443833",
+  "http_status": 200,
+  "legal_name": "AlphaFlow Inc.",
+  "native_offering_id": 974,
+  "parent_sha256": "2e4987c0a45a34e4f96f261adfdf8c055d6d04b55ced7b38f49805b9822c0890",
+  "raw_sha256": "3e08b0dd175fab95aa5e60c14219fdd3201bc00d4e60b29ca424cd40006d4983",
+  "received_at": "2026-10-10T00:51:41.320174+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:40.800571+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/3e08b0dd175fab95aa5e60c14219fdd3201bc00d4e60b29ca424cd40006d4983.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/alphaflow/show_updates"
+}

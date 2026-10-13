@@ -1,0 +1,18 @@
+{
+  "bytes": 82570,
+  "campaign_url": "https://republic.com/season-three",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/season-three/show_updates",
+  "gzip_sha256": "9dbebdc9bbd907c5a4e40d751ff307241fbc43f66239c0cd2c0d9c8ac83fa903",
+  "http_status": 200,
+  "parent_sha256": "8773a3c5061c444d22d99e4b7785fa83bd234d055fbf4ce435ba20c2f89f32df",
+  "raw_sha256": "ebfd4e95b4ade7df168416f9e6efecf068d877fc711eed26bd4935200c974058",
+  "received_at": "2026-10-10T02:36:56.088832+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:55.487680+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ebfd4e95b4ade7df168416f9e6efecf068d877fc711eed26bd4935200c974058.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/season-three/show_updates"
+}

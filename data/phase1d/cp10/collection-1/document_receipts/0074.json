@@ -1,0 +1,49 @@
+{
+  "bytes": 11729747,
+  "campaign_url": "https://republic.com/skyhi",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Form C-A SkyHi 1.7.20.pdf",
+  "page_count": 81,
+  "parent_sha256": "9907b59f3610850aa18a102bef96d4a51d41c97e3b631973da7b70aa9cb909bf",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1208,
+      "pymupdf_sha256": "4e03868a7a67346538db25bc4e65e0808ceaca868ea953027f6f96a37fb723a6",
+      "pypdf_chars": 1613,
+      "pypdf_sha256": "73747330ef8b12df61c5937250f81e8175d8b7e4ea305b5a651d4cf504128460"
+    },
+    {
+      "both_have_text": false,
+      "page": 2,
+      "pymupdf_chars": 0,
+      "pymupdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pypdf_chars": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1226,
+      "pymupdf_sha256": "23a8db2f4cfd060d6ebb3353b01ba5e1ff8ac1658c97e5470043326827c3ad80",
+      "pypdf_chars": 1726,
+      "pypdf_sha256": "1ed5601fcbf1f2400021a2347e363ef55a066a3581432f808ddf290d46ee6814"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1287,
+      "pymupdf_sha256": "d8b117a9eac3692a46bfd7cc539b2672f83cab6f74a41ac5d9bb73d3f78a0f03",
+      "pypdf_chars": 1723,
+      "pypdf_sha256": "c063374f27aaeb2d19456fe3c7deb00ba8ae9716a78bcae74cea99e3c94f8c11"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/8f6e1b395de8ab336b22ebf6d2619eb45ab20e19b48474c1409577a790ed2bea.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8f6e1b395de8ab336b22ebf6d2619eb45ab20e19b48474c1409577a790ed2bea.bin.gz",
+  "source_sha256": "8f6e1b395de8ab336b22ebf6d2619eb45ab20e19b48474c1409577a790ed2bea",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/119?view=preview"
+}

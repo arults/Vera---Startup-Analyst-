@@ -1,0 +1,41 @@
+{
+  "matrix_sha256": "0bbadd0f5d85d039eb6a7b2288ef9a1681d118428ec843ec0fed6a793311eebc",
+  "status": "ACCEPT_TWO_BOUNDED_OBSERVED_LAYER_B_ROWS_PENDING_FINAL_JEV",
+  "checks": [
+    {
+      "campaign": "https://republic.com/phantom-phood",
+      "schema_errors": [],
+      "model_errors": [],
+      "layer_b_predicate": true,
+      "expanded_legal_suffix_collision_matches": [
+        "https://republic.com/phantom-phood"
+      ],
+      "primary_field_independently_accepted": true,
+      "bounded_identity_and_round_independently_accepted": true,
+      "estimation_eligibility": false
+    },
+    {
+      "campaign": "https://republic.com/stockcard",
+      "schema_errors": [],
+      "model_errors": [],
+      "layer_b_predicate": true,
+      "expanded_legal_suffix_collision_matches": [
+        "https://republic.com/stockcard"
+      ],
+      "primary_field_independently_accepted": true,
+      "bounded_identity_and_round_independently_accepted": true,
+      "estimation_eligibility": false
+    }
+  ],
+  "independent_source_checks": "selected-source-checks.json:24/24",
+  "reasoning_scope": "Original source inspection supports successfully completed public Reg CF financings and mandatory second-review identity/series/window adjudication. No universal private signature requirement. Hypothetical conditional concurrent offering does not prove a second actual round. Native IDs remain separate from analyst canonical IDs.",
+  "mandatory_limits": [
+    "Only the two observed Republic rows in a case-selected research ledger; no extrapolation to568CP10candidates.",
+    "Known-frame collision check is not proof of cross-platform exhaustive deduplication.",
+    "Offered caps retain source-scope labels; never comparable priced valuations or verified individual operative terms.",
+    "No outcome, exact investor payout, historical census, rate, production prior, study completion or plateau admission."
+  ],
+  "exact_corrections_required": [],
+  "minor_clarity_recommendation": "Use offered_valuation_cap in downstream transformations or otherwise enforce valuation_cap_scope; do not discard scope metadata when mapping into RoundRecord. Existing scoped matrix representation is accepted.",
+  "additional_code_patch_review": "Pending separate local ambiguous-round patch; does not block this factual matrix review."
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 1855,
+  "campaign_url": "https://republic.com/interlock",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/interlock/show_updates",
+  "gzip_sha256": "8db899a3fe46c2a7c00120ccb59f666b853efdcbdb8374de633eb2a7952cc841",
+  "http_status": 200,
+  "parent_sha256": "3d9d839582cad66ce24f136e6c4d3335da1752104e2f85ccc6fd3bbf15dacdfc",
+  "raw_sha256": "089e461263945991cd12daf9f33cbdc41ab65b54aaad37f69107233fd696d06d",
+  "received_at": "2026-10-10T02:31:09.602432+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:09.070662+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/089e461263945991cd12daf9f33cbdc41ab65b54aaad37f69107233fd696d06d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/interlock/show_updates"
+}

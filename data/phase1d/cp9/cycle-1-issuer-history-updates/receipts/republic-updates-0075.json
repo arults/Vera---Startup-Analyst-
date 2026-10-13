@@ -1,0 +1,19 @@
+{
+  "bytes": 74516,
+  "campaign_url": "https://republic.com/plei-jan-2020",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/plei-jan-2020/show_updates",
+  "gzip_sha256": "0f2a16be3798ca96d94be32c9889edbff59e79be543144e72d1fe8c91bf39f95",
+  "http_status": 200,
+  "legal_name": "Plei, Inc.",
+  "native_offering_id": 417,
+  "parent_sha256": "d757196a9052b4318ac39a9af2c6b1d274bf5f8c8ff6de4362bf75e1ecd8d28e",
+  "raw_sha256": "a636170d83cec7773172244245e49a3a1f1b99bb7be184d92f5c00b4aee71cc1",
+  "received_at": "2026-10-10T00:52:22.309884+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:21.786264+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/a636170d83cec7773172244245e49a3a1f1b99bb7be184d92f5c00b4aee71cc1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/plei-jan-2020/show_updates"
+}

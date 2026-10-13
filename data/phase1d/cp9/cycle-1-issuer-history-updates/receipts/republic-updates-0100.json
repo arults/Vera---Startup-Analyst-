@@ -1,0 +1,19 @@
+{
+  "bytes": 140279,
+  "campaign_url": "https://republic.com/status-money",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/status-money/show_updates",
+  "gzip_sha256": "07c51f01877fc198530fdaa03d05ea522dd016a080563e5a15ab3feadeda954d",
+  "http_status": 200,
+  "legal_name": "Status Money Inc.",
+  "native_offering_id": 355,
+  "parent_sha256": "7f25848bc1a5a45ce264b62cdb3e9d3ddfe27c1ced79284ce5bebbdc0dc68633",
+  "raw_sha256": "338cd34d27147f0d3f58fab987fe3cbc638e25cf1ec4223fd24c26291435b5d1",
+  "received_at": "2026-10-10T00:52:37.807350+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:37.215163+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/338cd34d27147f0d3f58fab987fe3cbc638e25cf1ec4223fd24c26291435b5d1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/status-money/show_updates"
+}

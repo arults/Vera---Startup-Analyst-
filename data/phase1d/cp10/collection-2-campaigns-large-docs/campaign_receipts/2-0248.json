@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "NanoVMs",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/nanovms",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/cf1eca58c7830be54faee3905c1d91fba1f40f694228aef8de03f9c509acb068.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1805056",
+    "final_url": "https://republic.com/nanovms",
+    "first_live_date": "",
+    "investors": "3045",
+    "legal_name_from_platform": "NanoVMs, Inc.",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "949410",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "cf1eca58c7830be54faee3905c1d91fba1f40f694228aef8de03f9c509acb068",
+    "source_url": "https://republic.com/nanovms",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2020-08-16",
+    "successful_close_year_NOT_offering_year": "2020"
+  },
+  "final_url": "https://republic.com/nanovms",
+  "first_live_date": "2020-04-23",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2020-08-16",
+      "Successfully raised $949,410.82 🍾"
+    ],
+    [
+      "2020-04-23",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 492,
+  "native_state": "finalized",
+  "offering_year": 2020,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/cf1eca58c7830be54faee3905c1d91fba1f40f694228aef8de03f9c509acb068.bin.gz",
+  "source_sha256": "cf1eca58c7830be54faee3905c1d91fba1f40f694228aef8de03f9c509acb068",
+  "successful_completion_date": "2020-08-16",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d13d11e0de45f32e8ee7185eeb6aa0f3794354ce4e8ff8aa6b50e3a2fd8f3ad7.bin.gz",
+  "timeline_source_sha256": "d13d11e0de45f32e8ee7185eeb6aa0f3794354ce4e8ff8aa6b50e3a2fd8f3ad7",
+  "url": "https://republic.com/nanovms",
+  "year_in_study": true
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 89986,
+  "campaign_url": "https://republic.com/currently-wine",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/currently-wine/show_updates",
+  "gzip_sha256": "7e0aff0a70a3ffa87347db459465a299b21262ba8b983d0980eaa96596b2b087",
+  "http_status": 200,
+  "legal_name": "Proud Pour Inc.",
+  "native_offering_id": 11538,
+  "parent_sha256": "d9497de87d815807104f3287e574d2fc9ec0d5c8410ec8e6eed80952655db581",
+  "raw_sha256": "e752bd425ea677f8ed48a5c2bf85430a7086a8962bf1fa15dfda46e59a1964c1",
+  "received_at": "2026-10-10T00:51:55.082123+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:54.169102+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/e752bd425ea677f8ed48a5c2bf85430a7086a8962bf1fa15dfda46e59a1964c1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/currently-wine/show_updates"
+}

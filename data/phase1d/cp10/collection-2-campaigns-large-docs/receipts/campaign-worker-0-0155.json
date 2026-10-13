@@ -1,0 +1,18 @@
+{
+  "bytes": 19993,
+  "campaign_url": "https://republic.com/doorage",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/doorage/show_updates",
+  "gzip_sha256": "6c250428cdf0a67ec0a68151b95fabb9a13d081c654ff9a23f1baa5c53ab17de",
+  "http_status": 200,
+  "parent_sha256": "c864e11eab0b9d77a124c3449acb812067dc0bec61f45c8d9d6eafbd20ee6a1d",
+  "raw_sha256": "a3cd6f99fafa0a49841c52b06711054aad620cbbf766da7d2f25fb8eb642f494",
+  "received_at": "2026-10-10T02:26:39.986988+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:39.436670+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a3cd6f99fafa0a49841c52b06711054aad620cbbf766da7d2f25fb8eb642f494.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/doorage/show_updates"
+}

@@ -1,0 +1,52 @@
+{
+  "files": {
+    "cp2_republic_europe_company_id_collision_audit.csv": "d54334cb3ec97b7c4450e27a22910c6c03495c3b0b21dd2df0f126e9bc53745a",
+    "cp2_republic_europe_rounds_normalized.csv": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+    "cp2_republic_europe_year_unresolved.csv": "01adb52dd228b27c795914c47ff6769d97d50345e3841292b8b3d719e2366680"
+  },
+  "generated_at": "2026-10-09T07:00:41.956749+00:00",
+  "summary": {
+    "blocked_collision_keys": [],
+    "bounded_year_by_year": {
+      "2020": 184,
+      "2021": 191,
+      "2022": 181,
+      "2023": 142,
+      "2024": 47,
+      "2025": 51
+    },
+    "bounded_year_field_counts": {
+      "climate_energy_industrial": 46,
+      "consumer_retail": 57,
+      "fintech_insurtech": 124,
+      "food_beverage_agtech": 196,
+      "healthcare_medtech": 63,
+      "media_gaming_creator": 32,
+      "mobility_logistics_aerospace": 95,
+      "other_diversified": 68,
+      "realestate_hospitality_proptech": 36,
+      "saas_enterprise_software": 79
+    },
+    "cohort_year_unresolved_rows": 156,
+    "cohort_year_usable_rows": 796,
+    "cohort_year_usable_share": 0.8361344537815126,
+    "collision_groups_blocked_for_review": 0,
+    "company_id_rule": "Unicode NFKC; remove control/format and non-alphanumeric separators; uppercase; strip leading zeroes for all-digit comparison key; preserve raw value",
+    "formatting_collision_groups_merged": 3,
+    "jev": {
+      "block_nonformat_collision_probability": 1.0,
+      "bounded_same_year_probability": 0.61,
+      "company_number_normalization_probability": 0.95,
+      "design_reopen_yes_probability": 0.16,
+      "exact_date_interval_bounds_probability": 1.0,
+      "merge_with_audit_probability": 0.98
+    },
+    "normalized_rows": 952,
+    "platform": "republic_europe",
+    "repeat_company_round_rows": 163,
+    "scope": "funded rounds with platform funded year 2020-2025",
+    "unique_companies": 789,
+    "unique_round_ids": 952,
+    "year_rule": "offering year assigned only when approval_date and funded_date are both platform-hosted and in the same calendar year; exact first_live_date remains null"
+  }
+}

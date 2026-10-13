@@ -1,0 +1,49 @@
+{
+  "bytes": 3322204,
+  "campaign_url": "https://republic.com/inahsi",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Inahsi Form C.pdf",
+  "page_count": 137,
+  "parent_sha256": "c597131dc5ed153a811d510a7d81515295ab05aed770301779a06b2ed99ba655",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 918,
+      "pymupdf_sha256": "d097cb3be16ff119cc92a46fc7f4f5799774f5fea2c75a73ea0a73333a6a7ad8",
+      "pypdf_chars": 918,
+      "pypdf_sha256": "d097cb3be16ff119cc92a46fc7f4f5799774f5fea2c75a73ea0a73333a6a7ad8"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1421,
+      "pymupdf_sha256": "ba15b46815b3478d64922370d6dc19874ec8a7ab3786d3e610a3a449c8e5789a",
+      "pypdf_chars": 1421,
+      "pypdf_sha256": "ba15b46815b3478d64922370d6dc19874ec8a7ab3786d3e610a3a449c8e5789a"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1332,
+      "pymupdf_sha256": "2c78cf1f67883a81fe178425f5036e8c28ecb8dc0759a05ba62a4007034ea010",
+      "pypdf_chars": 1333,
+      "pypdf_sha256": "4ab297fb0a6ebf49243e6af3194c4631cbaa4f2fe7617d1ed1fa43641a1d2d1f"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2923,
+      "pymupdf_sha256": "8dc0731ef6a268cf652a28c94f31dc7b176fe7f570bf0ab0269736a9c5e38839",
+      "pypdf_chars": 2935,
+      "pypdf_sha256": "56d000eb766b4252b279838552bac94e52fc8748a9cd65979052e9896131de08"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/c62ec8d59fe870463179dba0b71c212796db617f17ff841f91d591bb4b199841.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/c62ec8d59fe870463179dba0b71c212796db617f17ff841f91d591bb4b199841.bin.gz",
+  "source_sha256": "c62ec8d59fe870463179dba0b71c212796db617f17ff841f91d591bb4b199841",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/741?view=preview"
+}

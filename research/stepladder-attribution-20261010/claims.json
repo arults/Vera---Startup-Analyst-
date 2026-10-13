@@ -1,0 +1,125 @@
+{
+  "schema": "vera-bounded-stepladder-attribution-v1",
+  "scope": "Five bounded source observations plus one source-declared website/legal-number association. These are attributions, not canonical outcome, censor or model admissions.",
+  "observations": [
+    {
+      "id": "SL-ID-1",
+      "assertion": "Companies House maps number 10052693 to STEP LADDER SOLUTIONS LTD.",
+      "limits": "Legal-name/number mapping only. Separate source-declared website association below does not establish historical issuer/security continuity.",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/10052693",
+      "retrieval_date": "2026-10-10",
+      "evidence_scope": "Inspected web-tool extracted text, not raw HTML or a historical archive."
+    },
+    {
+      "id": "SL-LEGAL-1",
+      "assertion": "Registry records a creditors voluntary liquidation with winding-up commencement on 2026-05-12.",
+      "limits": "No exact operational cessation, dissolution, realized loss, recovery or terminal independent-operation conclusion. Underlying filing/Gazette resolution not independently inspected; original official case summary sufficient for attributed registry event.",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/10052693/insolvency",
+      "retrieval_date": "2026-10-10",
+      "evidence_scope": "Inspected web-tool extracted text, not raw HTML or a historical archive.",
+      "event_date": "2026-05-12",
+      "date_meaning": "Explicit commencement-of-winding-up field in case number1, creditors voluntary liquidation. Not inferred from publication, filing, retrieval or practitioner-appointment date."
+    },
+    {
+      "id": "SL-OPERATING-1",
+      "assertion": "Issuer page labels GBP5.4m as 2022 run-rate new business.",
+      "limits": "Not audited realized annual revenue, completed transactions, dated service availability or independently measured operations. Adjacent metrics are not automatically dated2022; template placeholders weaken broader interpretation.",
+      "source_url": "https://www.joinstepladder.com/circles",
+      "retrieval_date": "2026-10-10",
+      "evidence_scope": "Inspected web-tool extracted text, not raw HTML or a historical archive.",
+      "time_semantics": "2022 labels the run-rate metric. Do not use calendar-year endpoints as observed activity dates or assert full-year operation."
+    },
+    {
+      "id": "SL-OPERATING-2",
+      "assertion": "The Guardian’s June 2022 article presents StepLadder’s digital circles as available to join at reporting.",
+      "limits": "Brand/domain attribution only. Upstream factual origin may be issuer information; independent publisher does not establish factual independence, issuer metrics, legal/security continuity or uninterrupted operation. No date or credibility transfers to undated issuer pages. Mutable article snapshot does not prove exact historical text availability.",
+      "source_url": "https://www.theguardian.com/money/2022/jun/13/save-budget-borrow-cost-of-living-crisis",
+      "retrieval_date": "2026-10-10",
+      "evidence_scope": "Inspected web-tool extracted text, not raw HTML or a historical archive.",
+      "time_semantics": {
+        "publication": "2022-06-13T08:00:00+02:00",
+        "modification": "2022-06-29T13:37:00+02:00",
+        "reading": "Dated reporting context, not a separately measured event day. Exact timing of relevant sentence versus publication/update unknown.",
+        "event_date": null,
+        "earliest_public_availability_of_exact_text": null
+      },
+      "predicate": "publisher_attributed_service_availability_as_of_reporting",
+      "identity_scope": "StepLadder brand/domain only; not a verified historical legal-entity operating observation."
+    },
+    {
+      "id": "SL-COUNTER-1",
+      "assertion": "Issuer homepage says no StepLadder Circles are currently available to join, while pointing to Circles360 business services.",
+      "limits": "Contrasting retained promotional content prevents treating page as verified present operations or shutdown. Circles360 link does not establish legal succession.",
+      "source_url": "https://www.joinstepladder.com/",
+      "retrieval_date": "2026-10-10",
+      "evidence_scope": "Inspected web-tool extracted text, not raw HTML or a historical archive.",
+      "time_semantics": "Undated source-relative current language; retrieval is when text acquired, not when unavailability began."
+    }
+  ],
+  "source_declared_association": {
+    "id": "SL-ASSOCIATION-1",
+    "assertion": "The inspected StepLadder homepage links its business website, whose terms identify owner/operator Step Ladder Solutions Ltd, company number 10052693.",
+    "scope": "Attribution of explicit cross-domain association and legal owner declaration in inspected source snapshots. Strong legal number normalizes by whitespace removal only.",
+    "source_chain": [
+      {
+        "source": "https://www.joinstepladder.com/",
+        "locator": "Prior original extraction lines9–18; business-site link3",
+        "predicate": "Source explicitly refers to linked domain as its business site"
+      },
+      {
+        "source": "https://www.step-ladder-solutions.com/terms-conditions",
+        "locator": "Title and lines199–205",
+        "predicate": "Terms disclose website owner/operator and England/Wales company number",
+        "number_as_rendered": "1005 2693",
+        "normalized_number": "10052693"
+      },
+      {
+        "source": "https://find-and-update.company-information.service.gov.uk/company/10052693",
+        "locator": "Prior original overview lines13–15",
+        "predicate": "Registry legal-name and company-number match"
+      }
+    ],
+    "temporal_applicability": {
+      "terms_publication": null,
+      "terms_effective_date": null,
+      "retrieval_window": [
+        "2026-10-10T23:06:34.708Z",
+        "2026-10-10T23:06:35.227Z"
+      ],
+      "source_currentness": "Unknown. Undated disclosure with older office information and explicit no-currency warranty. Retrieval does not certify current ownership.",
+      "copyright2016": "Not publication/effective date or continuity proof.",
+      "historical_bridge": "Not independently sufficient to identify exact2021campaign issuer/security or exact2022operator. No automatic backward application of undated legal details.",
+      "prior_publisher_observation": "Remains accepted at brand/domain level; neither invalidated nor silently upgraded to a verified historical legal-entity operating observation."
+    },
+    "origin_and_limits": {
+      "issuer_origin": "Homepage and linked business-site legal disclosure are related issuer claims, not two independent operational confirmations.",
+      "registry_origin": "Competent for legal name/number only, not independent confirmation of website control.",
+      "related_entity_risk": "Explicit site-owner declaration supports declared association, but cannot rule out changed operator, related subsidiary, licensing, brand transfer or stale site terms across time. No broad all-products ownership or legal succession inferred.",
+      "excluded": [
+        "Corporate control",
+        "Continuous independence",
+        "Current commercial operation",
+        "Historical security continuity",
+        "Investor settlement or recovery",
+        "Canonical censor or outcome admission"
+      ]
+    },
+    "evidence_scope": "Inspected web-tool extracted snapshots, not raw HTML or historical archive. Exact source availability in earlier years is unestablished."
+  },
+  "source_variety": {
+    "official_registry": "Overview and insolvency case are same registry origin, not independent corroboration.",
+    "issuer": "Homepage and circles page are one interested-party family; mirrored Circles360 content is not an added origin.",
+    "journalism": "Separate publishing route; upstream factual independence unestablished.",
+    "blocked_source": "Oxford PDF unavailable with403; no accepted evidence and no reroute in supplied read ledger."
+  },
+  "chronology_limits": "Original observation retrieval windows were reconstructed; strict first-plan-before-first-request chronology is not independently established. Later bridge request timestamps do not repair this prior missingness. Retrieval, publication, modification, event and exact historical-text availability are distinct.",
+  "interpretation_limits": [
+    "Registry winding-up commencement is a legal event, not exact operational cessation, dissolution, investor loss, settlement or recovery.",
+    "2022 labels the issuer run-rate metric; calendar-year endpoints are not observed activity dates. Adjacent metrics do not inherit that label.",
+    "Publisher service availability at reporting remains a bounded brand/domain observation, with exact sentence timing versus publication/update unknown.",
+    "Undated website-owner declaration supports source-declared association only. It does not identify the exact 2021 campaign issuer/security or 2022 operator, and does not establish current ownership.",
+    "Related issuer pages are one interested-party family. Separate journalism may still originate from issuer information. Registry identity does not independently verify website control.",
+    "No continuous operation, independence, legal succession, historical security bridge, current commercial operation or investor outcome conclusion.",
+    "No original bodies, private receipts or model payloads are included."
+  ]
+}

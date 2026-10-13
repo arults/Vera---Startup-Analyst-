@@ -1,0 +1,28 @@
+{
+  "active_only_directory_confirmed": false,
+  "all_campaign_candidates_after_union": 122,
+  "annual_report_aggregate": {
+    "deals_launched_2021": 226,
+    "denominator_admissible": false,
+    "scope": "Republic Retail aggregate spans multiple entities/products/exemptions; not comparable to an incomplete historical RegCF campaign sample",
+    "source_url": "https://republic.com/2021"
+  },
+  "capture_status_counts": {
+    "HTTP_ERROR_OR_REDIRECT": 1,
+    "PUBLIC_CAPTURED_UNADJUDICATED": 4
+  },
+  "checks_passed": 9,
+  "checks_total": 9,
+  "completed_at": "2026-10-09T15:34:34.492577+00:00",
+  "four_historical_censuses_complete": false,
+  "new_campaign_pages_parsed": 2,
+  "new_campaigns_closed2020_2025_not_offering_cohorts": 1,
+  "new_source_bound_observations": 3,
+  "positive_payout_observation_candidates": 1,
+  "public_pages_verified": 3,
+  "rates_promoted": false,
+  "research_plateau": false,
+  "scope": "source-bound candidate outcomes and discovery only",
+  "source_availability_separate_from_checks": true,
+  "version": "0.6.3-dev.research.1"
+}

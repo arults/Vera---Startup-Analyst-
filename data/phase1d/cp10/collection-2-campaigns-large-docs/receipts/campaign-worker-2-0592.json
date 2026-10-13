@@ -1,0 +1,18 @@
+{
+  "bytes": 75469,
+  "campaign_url": "https://republic.com/taprm",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/taprm/show_updates",
+  "gzip_sha256": "858fed2245a1170e908100957dd74fd116b81d112fc10bbb197bef62c34b7ec3",
+  "http_status": 200,
+  "parent_sha256": "3633cccb0413d3301d95632c7055d652f24b9c5e8040a6023c4dd59ec3645742",
+  "raw_sha256": "8b4aa1f4791ab9ddcf18ff7d0a5a823cb01287b462e4c60cc7b4868e106759b0",
+  "received_at": "2026-10-10T02:38:01.174351+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:00.555818+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8b4aa1f4791ab9ddcf18ff7d0a5a823cb01287b462e4c60cc7b4868e106759b0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/taprm/show_updates"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "ACCEPT_PATH_ONLY_PORTABLE_NORMALIZATION",
+  "semantic_equivalence_accepted": true,
+  "inputs": {
+    "matrix": {
+      "upstream_original_sha256": "0bbadd0f5d85d039eb6a7b2288ef9a1681d118428ec843ec0fed6a793311eebc",
+      "portable_sha256": "fe776120902f1dda0122ce538fdabc3c46547e932401f7cad6d62743c87a638b"
+    },
+    "decisions": {
+      "upstream_original_sha256": "e8b60c16cd2b3f5e69aa2a410c151287c5b65a7a804167c40c15e59b310a1e23",
+      "portable_sha256": "feda2353de104c425439d6cfccd8e1e8aa2702157ce1f367d4216dd3647e4a91"
+    }
+  },
+  "changed_string_count": 28,
+  "all_changes_match_declared_json_pointers": true,
+  "nonpath_values_and_source_hashes_unchanged": true,
+  "source_paths_match_preexisting_immutable_repository_urls": true,
+  "normalized_files_have_no_workspace_absolute_paths": true,
+  "normalization_report_sha256": "667685880668c3a5ab23784d242d2a8e50fddaea98ef7205ce330606702ee32c",
+  "original_review_sha256": "e18a7d073491f3d7031e64cab04ff38a90fecacb7408671fb993f035889d5d81",
+  "scope": "Independent comparison certifies exactly these portable derivative bytes preserve accepted original semantic content. It does not rebind the historical review or JEV receipts to new bytes; original-to-portable lineage is explicit."
+}

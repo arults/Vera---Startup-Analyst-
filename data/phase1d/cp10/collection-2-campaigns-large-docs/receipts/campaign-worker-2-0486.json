@@ -1,0 +1,18 @@
+{
+  "bytes": 58663,
+  "campaign_url": "https://republic.com/raas99",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/raas99/show_updates",
+  "gzip_sha256": "9f51c32dac60f15a348644f52159c49981165db8a3dddcd448f0b53628c8f63a",
+  "http_status": 200,
+  "parent_sha256": "e12d3346cd1ca5d4c1912a6362f42e9d319b8a1059b7f08ff46f80d7681143c0",
+  "raw_sha256": "ebd70e5cbe9de4844e8a4af6d77abe9e5b398c0586163e4bd6f937cadd651ca3",
+  "received_at": "2026-10-10T02:35:58.382100+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:57.807374+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ebd70e5cbe9de4844e8a4af6d77abe9e5b398c0586163e4bd6f937cadd651ca3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/raas99/show_updates"
+}

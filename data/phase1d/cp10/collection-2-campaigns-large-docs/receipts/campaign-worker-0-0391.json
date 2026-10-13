@@ -1,0 +1,18 @@
+{
+  "bytes": 20628,
+  "campaign_url": "https://republic.com/myro-regd",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/myro-regd/show_updates",
+  "gzip_sha256": "9d30834cd806474526effaab541f92a405c6d60582c8704d9b33dc1130a6c5a8",
+  "http_status": 200,
+  "parent_sha256": "de3eae457cf0a3a90f3749a2124b1af7bcd9bc04297d134471114989313cb4bd",
+  "raw_sha256": "8dc5710dd7aef0c250630f52c903170c87360df855a2c2e599d6321ab46af312",
+  "received_at": "2026-10-10T02:34:10.231120+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:09.658769+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8dc5710dd7aef0c250630f52c903170c87360df855a2c2e599d6321ab46af312.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/myro-regd/show_updates"
+}

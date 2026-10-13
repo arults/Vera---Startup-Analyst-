@@ -1,0 +1,49 @@
+{
+  "bytes": 4725849,
+  "campaign_url": "https://republic.com/sweetberry",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "SweetBerry Form C:A 4.23.2020.pdf",
+  "page_count": 49,
+  "parent_sha256": "4192e0f0cb6844429776712abe38b0a5dc14e6ddbf9ae50c42a1ae7a85230e8b",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1263,
+      "pymupdf_sha256": "963ab9e2df13954fa211cace870462deec16ac574db78609c732f7830dba4ec7",
+      "pypdf_chars": 1721,
+      "pypdf_sha256": "b31d384ac114d332be09d75a459bd9bef3b79b00f41f0be6d75fe75bc9ec2350"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1770,
+      "pymupdf_sha256": "1efdded3428d2e82426766290785b2d3c502bb86ea42e9f9040152a4d1676737",
+      "pypdf_chars": 2430,
+      "pypdf_sha256": "674072cbd43c81044b5b4194e6e42f509251bd35a7db9633b691ebede034188d"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1285,
+      "pymupdf_sha256": "edabd9fc5e0ac4a63d53a83d278e9be402684005200d25f7cc2cd88e79920562",
+      "pypdf_chars": 1796,
+      "pypdf_sha256": "fc2f37c21e6fda5474af2d1741e5313644171b63a05e11c6a3ab730529e3b457"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 943,
+      "pymupdf_sha256": "5b31df91590211c826e1f7d626fe2a3c30299c540ac0019ccd739558f6ff966a",
+      "pypdf_chars": 1285,
+      "pypdf_sha256": "f7ee2b678a92e74f1272b9467cc4e507c80014dd0219d93b5da571f91877f755"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/66f56704d697f887b248fd9ab88ae0363200dbf4aafd01a9c9a469b5a6d8fc7f.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/66f56704d697f887b248fd9ab88ae0363200dbf4aafd01a9c9a469b5a6d8fc7f.bin.gz",
+  "source_sha256": "66f56704d697f887b248fd9ab88ae0363200dbf4aafd01a9c9a469b5a6d8fc7f",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/169?view=preview"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 47853,
+  "campaign_url": "https://republic.com/ecotone-renewables",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/ecotone-renewables/show_updates",
+  "gzip_sha256": "0d4e6fbddaa8551acb4b32202dbc7f60e36ecc54feb581f548da1ca72f342c7f",
+  "http_status": 200,
+  "legal_name": "Ecotone Renewables PBC",
+  "native_offering_id": 12933,
+  "parent_sha256": "aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+  "raw_sha256": "f25af4c8ba12cd93a9dd667243546ab03f66f7ef937562ede63ee223dc295d02",
+  "received_at": "2026-10-10T00:51:59.245165+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:58.749905+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/f25af4c8ba12cd93a9dd667243546ab03f66f7ef937562ede63ee223dc295d02.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ecotone-renewables/show_updates"
+}

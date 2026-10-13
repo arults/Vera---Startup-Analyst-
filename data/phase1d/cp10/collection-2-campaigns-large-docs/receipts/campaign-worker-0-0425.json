@@ -1,0 +1,18 @@
+{
+  "bytes": 120951,
+  "campaign_url": "https://republic.com/overland-bound",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/overland-bound/show_updates",
+  "gzip_sha256": "76bcf6c91792a61e594e2181f1ae2e138152785eca2bb6581440fe01087894ba",
+  "http_status": 200,
+  "parent_sha256": "9efe983eb2dc367ec901016b2b45b626ad83b7008677239e3640fc9f767faa02",
+  "raw_sha256": "09f1abe2eb39bbfb57cf0433d105264dab3ea4ea85c3bce8713f7d390468252f",
+  "received_at": "2026-10-10T02:34:48.998841+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:48.301913+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/09f1abe2eb39bbfb57cf0433d105264dab3ea4ea85c3bce8713f7d390468252f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/overland-bound/show_updates"
+}

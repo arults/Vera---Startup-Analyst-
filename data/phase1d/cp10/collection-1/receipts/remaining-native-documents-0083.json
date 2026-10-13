@@ -1,0 +1,18 @@
+{
+  "bytes": 137155,
+  "campaign_url": "https://republic.com/startglobal",
+  "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "final_url": "https://republic.com/documents/11091?view=preview",
+  "gzip_sha256": "2bc48621601e247c2125871bf91de81f305ba2d7a3ef72125384b06d5398be68",
+  "http_status": 200,
+  "label": "StartGlobal Form C.docx",
+  "parent_sha256": "0237ef374ae42ded93ac795934efc4ff5c2bc11ab3a71ca226c4f7e98bafaab2",
+  "raw_sha256": "e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4",
+  "received_at": "2026-10-10T02:09:23.336069+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:22.686882+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/e67524f48f6a7da369cb724b9c287ccdebca575cdcad443561f905ae6c13ebb4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/11091?view=preview"
+}

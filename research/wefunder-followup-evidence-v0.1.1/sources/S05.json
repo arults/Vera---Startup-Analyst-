@@ -1,0 +1,21 @@
+{
+  "id": "S05",
+  "url": "https://wefunder.com/feed/142054",
+  "source_type": "platform_hosted_company_post",
+  "retrieval": "web.click turn406view0",
+  "locators": "lines22-32",
+  "excerpt": "Our offering closes tomorrow, February 18th.",
+  "facts": {
+    "publication_datetime": "2021-02-17T15:43:08Z",
+    "author": "Dave MacLean",
+    "subject": "Quadrant Biosciences"
+  },
+  "limitations": [
+    "Scheduled closing is not successful actual close.",
+    "Do not replace cohort close proxy 2021-02-21 or later filing date without round reconciliation."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained."
+}

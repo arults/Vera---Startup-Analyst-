@@ -1,0 +1,18 @@
+{
+  "bytes": 10248859,
+  "campaign_url": "https://republic.com/beacons-ai",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/454?view=preview",
+  "gzip_sha256": "479cb99342f358036d051e40d27290221f293660b6684bffdbd3d4186c6f65e7",
+  "http_status": 200,
+  "label": "Beacons AI Form C.pdf",
+  "parent_sha256": "bcc0d53dc9649b4b1057e155dea4e98911ae18b0dc15cb925bbb10c268aa3ef7",
+  "raw_sha256": "b7b08cfa89fbb471baa68d5a822cfd35d7633b63e0c33e86dee0a3799e09691b",
+  "received_at": "2026-10-10T01:21:30.131441+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:28.533299+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/b7b08cfa89fbb471baa68d5a822cfd35d7633b63e0c33e86dee0a3799e09691b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/454?view=preview"
+}

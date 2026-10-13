@@ -1,0 +1,22 @@
+{
+  "Jev_choice": "execute_separate_discovery_inventory",
+  "Jev_confidence": 1.0,
+  "Jev_probability": 1.0,
+  "limits": {
+    "error_circuit_breaker": 2,
+    "max_archive_bytes": 20000000,
+    "max_archives": 27,
+    "max_uncompressed_archive_bytes": 100000000,
+    "seconds_between_requests": 0.6
+  },
+  "rules": [
+    "RegCF is not allRegA/RegD.",
+    "FormCfiling is not a funded economic round.",
+    "Filing date is not first-live.",
+    "C-TR is not closure.",
+    "Coissuer/SPV identity needs separate validation.",
+    "No cohort, outcome, main branch, registry or prior promotion."
+  ],
+  "scope": "EXTERNAL_REGULATOR_DISCOVERY_ONLY",
+  "started_at": "2026-10-09T09:55:16.678672+00:00"
+}

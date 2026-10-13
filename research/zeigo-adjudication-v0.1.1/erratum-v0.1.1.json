@@ -1,0 +1,13 @@
+{
+  "version": "0.1.1",
+  "created_at_utc": "2026-10-11T13:22:32.057705+00:00",
+  "original_sha256": "6bbd1081332ea5909066cd9c478b0c880ad8e7c8db42a6ea7f5d9773a2c5032a",
+  "successor_sha256": "1aee03194d91dacb36877cf22ea3afb893cfcedea2a5cf071bfef7f6db2d1cd9",
+  "changes": [
+    "Next-action acquisition-success predicate corrected to transaction value OR shareholder consideration; actual payout evidence is separate and only required for realized-return claims.",
+    "Governing analytical cutoff explicitly null/unadjudicated; per-source retrieval clocks relocated to retrieval observation."
+  ],
+  "source_facts_changed": false,
+  "canonical_data_changed": false,
+  "review_status": "PENDING_SUCCESSOR_REVIEW"
+}

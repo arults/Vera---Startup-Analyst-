@@ -1,0 +1,18 @@
+{
+  "bytes": 1824456,
+  "campaign_url": "https://republic.com/reental",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/8407?view=preview",
+  "gzip_sha256": "a37b051ea12fbbb0b55eddfb613a678cf7b383c55b798d99fac685381dd9763b",
+  "http_status": 200,
+  "label": "Reental Form C.pdf",
+  "parent_sha256": "b7fc8f4c511543371948e958bb3e7f8ef4bcbbb41d596e8ffd1c20abd5e0629b",
+  "raw_sha256": "52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad",
+  "received_at": "2026-10-10T02:09:04.897074+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:04.089685+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/52df8708541b387ad9125b1c5fe3fbb20263b35f112d9714573dce57e6c32cad.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/8407?view=preview"
+}

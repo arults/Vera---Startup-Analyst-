@@ -1,0 +1,21 @@
+{
+  "approval_date_coverage": 0.9558823529411765,
+  "approval_date_known": 910,
+  "cross_calendar_year_count": 114,
+  "cross_calendar_year_share": 0.12527472527472527,
+  "funded_and_approval_lag_n": 910,
+  "interpretation": "Approval date is platform-hosted pre-funding timing evidence; audit is for cohort-year proxy suitability only and does not automatically change the frozen first-live rule.",
+  "lag_days_max": 231,
+  "lag_days_median": 50.0,
+  "lag_days_min": 8,
+  "lag_days_p10": 28,
+  "lag_days_p25": 38,
+  "lag_days_p75": 64,
+  "lag_days_p90": 85,
+  "n_scoped": 952,
+  "negative_lag_count": 0,
+  "platform": "republic_europe",
+  "same_calendar_year_count": 796,
+  "same_calendar_year_share": 0.8747252747252747,
+  "scope_funded_years": "2020-2025"
+}

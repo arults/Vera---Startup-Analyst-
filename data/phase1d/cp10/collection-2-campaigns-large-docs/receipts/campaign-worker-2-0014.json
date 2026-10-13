@@ -1,0 +1,18 @@
+{
+  "bytes": 27746,
+  "campaign_url": "https://republic.com/advisorcheck",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/advisorcheck/show_updates",
+  "gzip_sha256": "c40dedd40a09ef8ab030459bf1b4d81851b297450a706e0e11e7431265ce1310",
+  "http_status": 200,
+  "parent_sha256": "207ca187647f3806df156d6004d19683c6501e3640de9ae6bd8a0f737fc221bd",
+  "raw_sha256": "50188562a81c8d9c64974661e6b00ff804e0bf9ac944f77a1c4b724767910490",
+  "received_at": "2026-10-10T02:22:59.331029+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:22:58.782000+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/50188562a81c8d9c64974661e6b00ff804e0bf9ac944f77a1c4b724767910490.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/advisorcheck/show_updates"
+}

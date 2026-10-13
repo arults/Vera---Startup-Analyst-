@@ -1,0 +1,18 @@
+{
+  "bytes": 258320,
+  "campaign_url": "https://republic.com/linen",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/linen/show_updates",
+  "gzip_sha256": "76690ae0afb7ab7899168b8f860bde777ad23f50d7b1999f6de99fb74c63c96f",
+  "http_status": 200,
+  "parent_sha256": "c304ca8f1dcd29974fb5de2e913451f7afd7d299c4dff36ef83f5a9d8313f1ba",
+  "raw_sha256": "9ef8be4a6a716ddbd7ed641e0b7d2712ae31ee1d274ef763c70536459e3e8040",
+  "received_at": "2026-10-10T02:32:49.728605+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:48.887773+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9ef8be4a6a716ddbd7ed641e0b7d2712ae31ee1d274ef763c70536459e3e8040.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/linen/show_updates"
+}

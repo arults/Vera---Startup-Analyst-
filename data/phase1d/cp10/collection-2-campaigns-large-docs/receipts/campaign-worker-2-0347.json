@@ -1,0 +1,18 @@
+{
+  "bytes": 54927,
+  "campaign_url": "https://republic.com/lumida-wealth",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lumida-wealth/show_updates",
+  "gzip_sha256": "cc8153624607331acec42aa4fc7a15fedb199c714a2dccfc129bc154fab199fc",
+  "http_status": 200,
+  "parent_sha256": "c1e985e98e6172b43d0641e7515afcaec4afbd8f15ed745b706bc4dc660b54b0",
+  "raw_sha256": "6bf70abc614e94aae236d170204ff43e834557c1c234cd90b820e0731981647b",
+  "received_at": "2026-10-10T02:33:14.905157+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:14.234195+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6bf70abc614e94aae236d170204ff43e834557c1c234cd90b820e0731981647b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lumida-wealth/show_updates"
+}

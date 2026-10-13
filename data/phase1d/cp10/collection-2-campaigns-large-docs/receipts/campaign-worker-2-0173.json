@@ -1,0 +1,18 @@
+{
+  "bytes": 34467,
+  "campaign_url": "https://republic.com/emilie-heathe",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/emilie-heathe/show_updates",
+  "gzip_sha256": "214d8a81e841c40ac58f4e443cbe5ff4899ebd223db83132476ebf0aa449fa6c",
+  "http_status": 200,
+  "parent_sha256": "a359b890a7b3eb45a328cacf32b57b464860371a068d51e5dac58383b2a41217",
+  "raw_sha256": "b5d4ef961e37eb0b7d76d7897474d151445b77372d8fab2b0959d104eb3cf517",
+  "received_at": "2026-10-10T02:27:10.345373+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:09.790130+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b5d4ef961e37eb0b7d76d7897474d151445b77372d8fab2b0959d104eb3cf517.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/emilie-heathe/show_updates"
+}

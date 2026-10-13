@@ -1,0 +1,24 @@
+{
+  "id": "S01",
+  "url": "https://wefunder.com/sapientx/details",
+  "source_type": "platform_hosted_issuer_disclosure",
+  "retrieval": "web.open turn398view2",
+  "locators": "lines 129,137-150",
+  "excerpt": "For the period ended December 31, 2023, the Company had revenues of $34,100",
+  "facts": {
+    "period_end": "2023-12-31",
+    "annual_revenue_usd": 34100,
+    "incorporation": "Delaware April 2016",
+    "company_domain": "sapientx.com",
+    "financing_label": "January 2025"
+  },
+  "limitations": [
+    "Summary November 2023 cash 145000 and monthly 6000 differ in as-of scope from MD&A December 31 cash 65196/monthly 22000; do not combine.",
+    "Cached extracts disagree $944481 versus $945481 total raised; not used for exact offering match.",
+    "Financial PDF link failed fetch."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained."
+}

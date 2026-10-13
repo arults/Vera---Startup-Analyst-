@@ -1,0 +1,18 @@
+{
+  "bytes": 634691,
+  "campaign_url": "https://republic.com/fuelgems",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/fuelgems/show_updates",
+  "gzip_sha256": "f5061cc04d80a224209dbe913528f10a82cca610c8186d3611f939219afeca11",
+  "http_status": 200,
+  "parent_sha256": "aa6479c05c2cdb04639d8d30bf95099c36e955eb146f2e6491486b72b1d4f6e6",
+  "raw_sha256": "356a7f5a4eec5d34294fb97dc9c149c35fe328a740c37b333d41483403ba3311",
+  "received_at": "2026-10-10T02:28:15.700268+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:14.503225+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/356a7f5a4eec5d34294fb97dc9c149c35fe328a740c37b333d41483403ba3311.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fuelgems/show_updates"
+}

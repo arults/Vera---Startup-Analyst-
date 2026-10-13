@@ -1,0 +1,56 @@
+{
+  "comparisons": [
+    {
+      "dimension_changes": {
+        "closure_audit_target_coverage": 0.0,
+        "denominator_grade_platform_share": 0.0,
+        "promoted_rate_share": 0.0,
+        "rate_eligible_strong_identity_share": 0.0,
+        "republic_europe_cohort_year_coverage": 0.0,
+        "rq1_reportable_share": 0.0,
+        "rq2_reportable_share": 0.0,
+        "scientific_gate_pass_share": 0.0,
+        "usable_positive_followup_coverage": 0.0
+      },
+      "errors": [],
+      "improvements_over_threshold": [],
+      "material_labels_changed": false,
+      "regressions": [],
+      "research_plateau": false,
+      "source_hashes_changed": false,
+      "state_stable": true,
+      "threshold": 0.05
+    },
+    {
+      "dimension_changes": {
+        "closure_audit_target_coverage": 0.0,
+        "denominator_grade_platform_share": 0.0,
+        "promoted_rate_share": 0.0,
+        "rate_eligible_strong_identity_share": 0.0,
+        "republic_europe_cohort_year_coverage": 0.0,
+        "rq1_reportable_share": 0.0,
+        "rq2_reportable_share": 0.0,
+        "scientific_gate_pass_share": 0.0,
+        "usable_positive_followup_coverage": 0.0
+      },
+      "errors": [],
+      "improvements_over_threshold": [],
+      "material_labels_changed": false,
+      "regressions": [],
+      "research_plateau": false,
+      "source_hashes_changed": false,
+      "state_stable": true,
+      "threshold": 0.05
+    }
+  ],
+  "empirical_promotion": false,
+  "interpretation": "Structural/evidence gate only; Verifier/Jev adjudication still required.",
+  "reasons": [
+    "two_substantive_iteration_receipts_required"
+  ],
+  "replay_stable": true,
+  "research_plateau": false,
+  "schema_version": "1.0.0",
+  "scope": "phase1d_public_platform_research",
+  "status": "PLATEAU_NOT_DEMONSTRATED"
+}

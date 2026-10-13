@@ -1,0 +1,26 @@
+{
+  "accepted_eligible_pages": 2,
+  "accepted_not_eligible_pages": 3,
+  "accepted_pages": 5,
+  "candidate_rows": 27,
+  "decision_counts": {
+    "ACCEPTED_JEV_RULE": 5,
+    "HELD_COLLISION": 8,
+    "HELD_INSUFFICIENT_SIGNALS": 14
+  },
+  "followup_rows_extended": 2,
+  "generated_at": "2026-10-09T07:11:12.821895+00:00",
+  "held_candidate_rows": 22,
+  "jev": {
+    "acceptance_rule_probability": 0.87,
+    "hold_lower_ranked_collision_probability": 0.83,
+    "normalize_then_rebuild_probability": 0.94
+  },
+  "observations_v1_rows": 453,
+  "observations_v2_rows": 458,
+  "policy": "Accepted only single-candidate pages with a unique top and both platform_slug_exact and deterministic_alias_exact; every collision, tie and one-signal rebrand remains held.",
+  "queue_pages": 23,
+  "usable_cohort_unique_companies": 676,
+  "usable_companies_with_positive_followup": 262,
+  "usable_positive_followup_coverage": 0.3875739644970414
+}

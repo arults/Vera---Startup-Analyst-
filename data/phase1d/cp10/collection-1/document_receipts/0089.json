@@ -1,0 +1,49 @@
+{
+  "bytes": 6828565,
+  "campaign_url": "https://republic.com/the-sports-bra",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "The Sports Bra Form C.pdf",
+  "page_count": 188,
+  "parent_sha256": "d93a168c9838371354a96e92e70e07ea72377e8f96c3337f14728b5329385e14",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 946,
+      "pymupdf_sha256": "9467c4c191c10eb27811ef30093cd0e3e6a02dbeeb949c9554b7258ba13a67a4",
+      "pypdf_chars": 946,
+      "pypdf_sha256": "9467c4c191c10eb27811ef30093cd0e3e6a02dbeeb949c9554b7258ba13a67a4"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1961,
+      "pymupdf_sha256": "8002574dad9307e2cee84dadf56bafa01673ae5ccbc9f060202efaacd10342fc",
+      "pypdf_chars": 1962,
+      "pypdf_sha256": "4af1938b5769a238e5b265a3c0081a9efb57b1cb7cd17df97a297b563929af5b"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1200,
+      "pymupdf_sha256": "05bf250e9881844e0d7d55a2169ca86d0d8235c8f81007c37bffeae7b187775c",
+      "pypdf_chars": 1202,
+      "pypdf_sha256": "96af3c27338ca136b7854a1c24c389470e57a130c9661018950905b9f91876b6"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2715,
+      "pymupdf_sha256": "0171e86c2ef021c323c2a4da31c3ecafc07215b0ae9c255631270005e1e5c177",
+      "pypdf_chars": 2715,
+      "pypdf_sha256": "0171e86c2ef021c323c2a4da31c3ecafc07215b0ae9c255631270005e1e5c177"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/8d6a0fa552039072d49ec899f2432647b085db9593a9d1abe1e01acb3a10f8b9.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8d6a0fa552039072d49ec899f2432647b085db9593a9d1abe1e01acb3a10f8b9.bin.gz",
+  "source_sha256": "8d6a0fa552039072d49ec899f2432647b085db9593a9d1abe1e01acb3a10f8b9",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/23364?view=preview"
+}

@@ -1,0 +1,19 @@
+{
+  "companies_with_multiple_rounds": 124,
+  "normalized_rounds": 952,
+  "platform": "republic_europe",
+  "policy": "Audit only; no candidate auto-collapsed before Jev/Verifier decision.",
+  "repeat_round_rows": 287,
+  "rounds_per_company_distribution": {
+    "1": 665,
+    "2": 94,
+    "3": 24,
+    "4": 4,
+    "5": 1,
+    "6": 1
+  },
+  "same_round_review_candidates": 0,
+  "same_round_score_distribution": {},
+  "sequence_edge_candidates": 163,
+  "unique_companies": 789
+}

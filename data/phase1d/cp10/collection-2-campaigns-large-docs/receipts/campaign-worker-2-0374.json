@@ -1,0 +1,18 @@
+{
+  "bytes": 29669,
+  "campaign_url": "https://republic.com/minna-goods",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/minna-goods/show_updates",
+  "gzip_sha256": "db0cf96c97754935ed81ed0357a1e3c48c032da92173922e6f574a2160be502f",
+  "http_status": 200,
+  "parent_sha256": "dcd4cebf6deda524b3ef3298a06f2c395ceb81a721b232f3680c6738d8acb901",
+  "raw_sha256": "c9e81516e9b12f100791bc1fdf4c9adf93840db6f1eea0c35cfe3a632b9a8d4e",
+  "received_at": "2026-10-10T02:33:50.472587+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:49.906594+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c9e81516e9b12f100791bc1fdf4c9adf93840db6f1eea0c35cfe3a632b9a8d4e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/minna-goods/show_updates"
+}

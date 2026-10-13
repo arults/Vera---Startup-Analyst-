@@ -1,0 +1,18 @@
+{
+  "bytes": 12322792,
+  "campaign_url": "https://republic.com/growing-talent",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/100?view=preview",
+  "gzip_sha256": "3e974a5986e423be333b29ceeb59b261f572d7acc44becb855ca57e9fb5acf61",
+  "http_status": 200,
+  "label": "Growing Talent Form C:A 11.8.19.pdf",
+  "parent_sha256": "0014cacf14eb7846c7e72415cd25930499fc33954077714457dbc9e652763b02",
+  "raw_sha256": "860e8f67f448d8a3535bdab7208d8e99260ed58d61327f5295de3df2b98269cd",
+  "received_at": "2026-10-10T02:08:10.901303+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:09.392223+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/860e8f67f448d8a3535bdab7208d8e99260ed58d61327f5295de3df2b98269cd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/100?view=preview"
+}

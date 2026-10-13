@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "486a773c8dfc5717a88020c765cd16cd4d147ec5",
+  "component": "run-metrics-v0.1.0",
+  "source_sha256": "624f781a0f547b96a9e370d0893d2aae255b6af5bdbef01db45cec89e91075ab",
+  "package_tests": {
+    "passed": 79,
+    "failed": 0,
+    "command": "python -I -B -m unittest discover -s research/run-metrics-v0.1.0 -p 'test_*.py' -v"
+  },
+  "independent_review": {
+    "passed": 26,
+    "blocking_findings_remaining": 0,
+    "source": "independent-review.md and test_vera_metrics_independent.py",
+    "observed_at": "2026-10-11T10:01:23Z"
+  },
+  "synthetic_example_exact_reproduction": true,
+  "live_company_analysis": false,
+  "global_runtime_integration": false,
+  "repository_implementation_scope": "additive standalone host hooks and command-boundary adapter; original scientific files untouched",
+  "remote_ci": "not yet run for unpublished candidate",
+  "files": {
+    ".github/workflows/vera-run-metrics-validation.yml": "82a68fd1799d44be4171ba57b14ccbef54897189145b79e07459aafe924d9327",
+    "research/run-metrics-v0.1.0/README.md": "e589b2bdf4a33998339c160ee4f892e0d82357695144ddac854150a280f529d5",
+    "research/run-metrics-v0.1.0/event.schema.json": "066a4b9c2583b6d0af5ed4bb5ae83461abfa0bd091a201e804e8481dfd38760f",
+    "research/run-metrics-v0.1.0/examples/dashboard.html": "74b66328c455e1efe952cf9a26e95f8afd1180f8b0aaf6319c75130b6fb9e7dc",
+    "research/run-metrics-v0.1.0/examples/metrics.json": "579bd8970d86a630e28b7f1b4482f2290ce49ce382ebf197219b3d6a4ccf0393",
+    "research/run-metrics-v0.1.0/examples/metrics.md": "c659a98fc6fd8c1651bc3bea8eca4c8fe8a6c2e303aec51602a263e5005fd151",
+    "research/run-metrics-v0.1.0/examples/synthetic.jsonl": "4b6f034193178317576d829c53e0464d66c467878edcc69e19c36a13bdac018f",
+    "research/run-metrics-v0.1.0/test_vera_metrics.py": "88dc77e958cfd62fd50b6c035989b5d744ebf0059138801736bbf426161a747d",
+    "research/run-metrics-v0.1.0/vera_metrics.py": "624f781a0f547b96a9e370d0893d2aae255b6af5bdbef01db45cec89e91075ab"
+  },
+  "revision_note": "Partial cost table cells now retain estimate/invoice billing basis; one two-basis regression added; JSON arithmetic unchanged."
+}

@@ -1,0 +1,27 @@
+name: Phase 1D bootstrap reporting safeguard
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1c/**'
+      - 'src/phase1d/estimate_republic_europe_candidate_v3.py'
+      - 'tests/test_reporting*.py'
+      - '.github/workflows/phase1d-bootstrap-reporting.yml'
+permissions:
+  contents: read
+jobs:
+  reporting_regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Run synthetic and reporting regressions
+        run: python -B -m unittest discover -s tests -p 'test_reporting*.py' -v

@@ -1,0 +1,19 @@
+{
+  "bytes": 70137,
+  "campaign_url": "https://republic.com/fund-the-first",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/fund-the-first/show_updates",
+  "gzip_sha256": "796ffb067e98d43210817ad437613ca3e59250595e3254b93560adaaa2e6242e",
+  "http_status": 200,
+  "legal_name": "FT1 Inc.",
+  "native_offering_id": 924,
+  "parent_sha256": "034751d89623cdfb04b4af0955762c7d2501ec29bf7a7e331ce2a65a42c1347f",
+  "raw_sha256": "a1d2dd5011f06805c831f2583413ab7e0ebe80cc9e331d334fa47fbc97aec703",
+  "received_at": "2026-10-10T00:52:02.664756+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:02.116044+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/a1d2dd5011f06805c831f2583413ab7e0ebe80cc9e331d334fa47fbc97aec703.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fund-the-first/show_updates"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 1852,
+  "campaign_url": "https://republic.com/the-cru",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/the-cru/show_updates",
+  "gzip_sha256": "aff8611502fad5ee8c17a2ca715292a8a260012aaf06c0f6456aa5a2ac350748",
+  "http_status": 200,
+  "legal_name": "TheCru II, Inc.",
+  "native_offering_id": 2005,
+  "parent_sha256": "eb6b0ff519f5eff50d0dc0f142af971f18a1fa64f420b3fe0d1988e15b2c400d",
+  "raw_sha256": "0d48a0803695b8892b69a906e42b5caab78814f3e2e18fd3c103d6d7125b1043",
+  "received_at": "2026-10-10T00:52:43.181402+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:42.722036+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/0d48a0803695b8892b69a906e42b5caab78814f3e2e18fd3c103d6d7125b1043.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/the-cru/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 137934,
+  "campaign_url": "https://republic.com/snapdna",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/snapdna/show_updates",
+  "gzip_sha256": "2989787484f2b776181ed160448718fbf0f15c26c25889ad70a9d5eef96ae125",
+  "http_status": 200,
+  "parent_sha256": "f498837bed6b8a1317a01318111643a4c423e2acd1e4bd42a68c0545b00354a6",
+  "raw_sha256": "7d3068b58955085bdd7e6e5f5841a948977ba284e94b4baab27aada1cab1e2a3",
+  "received_at": "2026-10-10T02:37:12.112973+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:11.403767+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7d3068b58955085bdd7e6e5f5841a948977ba284e94b4baab27aada1cab1e2a3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/snapdna/show_updates"
+}

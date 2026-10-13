@@ -1,0 +1,18 @@
+{
+  "bytes": 588517,
+  "campaign_url": "https://republic.com/phantom-phood",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/2055?view=preview",
+  "gzip_sha256": "862b7335b2d047a0a74476fb8348539f9b70ae5820a0c9d2f1da26088e6bd4fd",
+  "http_status": 200,
+  "label": "Phantom Phood Form C.pdf",
+  "parent_sha256": "d8d4397af459265221c67cece7018c48b1a067939e1409869bb43f49be4ef475",
+  "raw_sha256": "1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087",
+  "received_at": "2026-10-10T02:08:44.062889+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:43.269947+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/1f0bdb5ff3f606182ebe55476a6a37192eb0d0cd2be7ddf49a1f18caeee01087.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/2055?view=preview"
+}

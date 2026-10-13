@@ -1,0 +1,18 @@
+{
+  "bytes": 36375,
+  "campaign_url": "https://republic.com/compliq",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/compliq/show_updates",
+  "gzip_sha256": "bc7bda1ba286ad37ac424317dd9965248cdc1891bd3c5e3856d58102e0295a8c",
+  "http_status": 200,
+  "parent_sha256": "3dc2410687ad818031ba551839d68e5040ea1864cde22bae864a45c3b824bd4d",
+  "raw_sha256": "d40f33b8d90815114a2e7a63482cf70e853862321b7d00302934a30b3bd7fb4f",
+  "received_at": "2026-10-10T02:25:38.770733+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:38.180235+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d40f33b8d90815114a2e7a63482cf70e853862321b7d00302934a30b3bd7fb4f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/compliq/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 155104,
+  "campaign_url": "https://republic.com/borderless-entertainment",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/borderless-entertainment/show_updates",
+  "gzip_sha256": "66939f6c0c04e9a8c1bbfca9b907fa43764449bddb22578934b98bd2bcb72e0c",
+  "http_status": 200,
+  "parent_sha256": "772b3189be9411e00df78acf70de849a73a3dbd9b807e9f293c0da3406bb0417",
+  "raw_sha256": "02b434f1775bedf8e7fb1a6c637e1765139f937f58298697ce76e2b46f7b1873",
+  "received_at": "2026-10-10T02:24:44.903816+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:44.154715+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/02b434f1775bedf8e7fb1a6c637e1765139f937f58298697ce76e2b46f7b1873.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/borderless-entertainment/show_updates"
+}

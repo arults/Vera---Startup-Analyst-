@@ -1,0 +1,191 @@
+{
+  "schema_version": "vera.synthetic-benchmark/1",
+  "synthetic": true,
+  "dataset_ref": "sha256:6d848af273348fa1ea396f1ce8386a66294d62484d03d266cdcd06e86f3be422",
+  "evaluator_ref": "ver:contract-harness-1",
+  "evaluator_source_ref": "sha256:24e010440ed6cae45d6c86a1c96c6bc6dc25d22b7a2d243ec8b720067a007084",
+  "implementation_ref": "sha256:6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b",
+  "config_ref": "ver:synthetic-config-1",
+  "cases": [
+    {
+      "case_id": "complete",
+      "input_ref": "sha256:21f8980f56e815fe49551bd2b9cdac141380a660f304153e5c7fe8cfdf240380",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "healthy",
+      "execution_outcome": "completed",
+      "engineering_quality": "passed_declared_checks",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-complete",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "missing-component",
+      "input_ref": "sha256:ac47e4acaba50ddbe0b24bb197a10dc1e241644d96b6c2bfb82f227fcab8616d",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "partial",
+      "execution_outcome": "blocked",
+      "engineering_quality": "passed_declared_checks",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-missing-component",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "tool-exception",
+      "input_ref": "sha256:17b21c142497761a7a1d969e31db100ffe40d0599e1c43e99736120b041a5474",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "healthy",
+      "execution_outcome": "failed",
+      "engineering_quality": "passed_declared_checks",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-tool-exception",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "retry",
+      "input_ref": "sha256:7076e24e3abed04f74ec022fbd70f89d723f442b0a6c6986a179ec6285887d0c",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "healthy",
+      "execution_outcome": "completed",
+      "engineering_quality": "passed_declared_checks",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-retry",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "resume-after-crash",
+      "input_ref": "sha256:135e89cc6163f5c6a18409c1aba8a6e9d5cfb0b610de1f4b6eb8439a0dfc493a",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "partial",
+      "execution_outcome": "completed",
+      "engineering_quality": "passed_declared_checks",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-resume-after-crash",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "missing-evaluation",
+      "input_ref": "sha256:8515adb56c2c469b63b9c4331414a45237d1c625c2dcb0170ec887552d9e2575",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "partial",
+      "execution_outcome": "completed",
+      "engineering_quality": "incomplete",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-missing-evaluation",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "failed-evaluation",
+      "input_ref": "sha256:ddc5212e198f9cd7c49a608a5278f897980b98703eb6fb5a2774b136754a7e60",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "healthy",
+      "execution_outcome": "completed",
+      "engineering_quality": "failed",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-failed-evaluation",
+      "metrics_correlation": "matched"
+    },
+    {
+      "case_id": "generic-jev-only",
+      "input_ref": "sha256:99a945b560d024578d10b3add747085ee67b725e13b3748a9652012c4d2f050c",
+      "config_ref": "ver:synthetic-config-1",
+      "rubric_ref": "ver:synthetic-contract-rubric-1",
+      "model_ref": "ver:deterministic-no-llm-1",
+      "prompt_ref": "ver:synthetic-prompt-1",
+      "checks": {
+        "telemetry_health": true,
+        "execution_outcome": true,
+        "engineering_quality": true,
+        "research_not_claimed": true,
+        "local_work_executed": true
+      },
+      "passed": true,
+      "telemetry_health": "healthy",
+      "execution_outcome": "completed",
+      "engineering_quality": "not_evaluated",
+      "research_quality": "not_evaluated",
+      "run_id": "synthetic-generic-jev-only",
+      "metrics_correlation": "matched"
+    }
+  ],
+  "passed": true,
+  "metrics_adapter": "connected_local",
+  "research_quality": "not_evaluated",
+  "warning": "Engineering and synthetic checks do not establish research accuracy, calibration, or prior promotion."
+}

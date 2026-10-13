@@ -1,0 +1,42 @@
+{
+  "phase": "Phase 1D execution plateau",
+  "evaluated_at": "2026-10-09",
+  "workflow_run": 37899535030,
+  "threshold": 0.05,
+  "method": "Exact deterministic comparison of normalized research-state dimensions, material labels and source hashes. Jev ordinal-score fluctuations are advisory and do not define plateau.",
+  "dimensions": {
+    "denominator_grade_platform_share": 0.2,
+    "republic_europe_cohort_year_coverage": 0.8361344537815126,
+    "rate_eligible_strong_identity_share": 1.0,
+    "usable_positive_followup_coverage": 0.3875739644970414,
+    "closure_audit_target_coverage": 1.0,
+    "scientific_gate_pass_share": 1.0,
+    "rq1_reportable_share": 0.0,
+    "rq2_reportable_share": 0.0,
+    "promoted_rate_share": 0.0
+  },
+  "rounds": [
+    {
+      "round_id": "deterministic-b",
+      "previous_round_id": "deterministic-a",
+      "plateau": true,
+      "improvements_over_threshold": [],
+      "material_label_flips": {},
+      "source_hash_changes": {}
+    },
+    {
+      "round_id": "deterministic-c",
+      "previous_round_id": "deterministic-b",
+      "plateau": true,
+      "improvements_over_threshold": [],
+      "material_label_flips": {},
+      "source_hash_changes": {}
+    }
+  ],
+  "declaration": "TWO_CONSECUTIVE_DETERMINISTIC_PLATEAU_ROUNDS_PASS",
+  "source_artifacts": [
+    "data/phase1d/plateau/deterministic-a.json",
+    "data/phase1d/plateau/deterministic-b.json",
+    "data/phase1d/plateau/deterministic-c.json"
+  ]
+}

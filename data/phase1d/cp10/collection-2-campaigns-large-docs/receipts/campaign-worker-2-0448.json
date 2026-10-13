@@ -1,0 +1,18 @@
+{
+  "bytes": 967070,
+  "campaign_url": "https://republic.com/pittmoss",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pittmoss/show_updates",
+  "gzip_sha256": "e938b2106aa801acaa5c553a2edb030fc476fc0e807bf1e4c59328db7f7563b6",
+  "http_status": 200,
+  "parent_sha256": "6d886074763e947c0c473371d52ce37fe047e881c837833589ac5076d046691f",
+  "raw_sha256": "d2ac5a523c9289d14e121cc4140d3d6d34a7ae8554f3fb77bc587fef0f02f825",
+  "received_at": "2026-10-10T02:35:15.415297+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:13.876937+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d2ac5a523c9289d14e121cc4140d3d6d34a7ae8554f3fb77bc587fef0f02f825.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pittmoss/show_updates"
+}

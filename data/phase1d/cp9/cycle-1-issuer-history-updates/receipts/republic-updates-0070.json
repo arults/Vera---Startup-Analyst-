@@ -1,0 +1,19 @@
+{
+  "bytes": 57111,
+  "campaign_url": "https://republic.com/people-first-rh",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/people-first-rh/show_updates",
+  "gzip_sha256": "cd93007b891feaa94a77027b6d92f9f719467114519bb08a75c87dab3d06009f",
+  "http_status": 200,
+  "legal_name": "People First RH",
+  "native_offering_id": 527,
+  "parent_sha256": "a5a03b66d30403fc8d19430dce997029af84b8493ce2612efd3c4f8f88eb7e94",
+  "raw_sha256": "3b91d3846917c494f3f427ed99489355e712bdce389cc225d86a4f9d2c63cda4",
+  "received_at": "2026-10-10T00:52:19.743073+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:19.232558+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/3b91d3846917c494f3f427ed99489355e712bdce389cc225d86a4f9d2c63cda4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/people-first-rh/show_updates"
+}

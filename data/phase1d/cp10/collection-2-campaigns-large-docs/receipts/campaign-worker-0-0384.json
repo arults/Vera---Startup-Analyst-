@@ -1,0 +1,18 @@
+{
+  "bytes": 46802,
+  "campaign_url": "https://republic.com/mullybox",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mullybox/show_updates",
+  "gzip_sha256": "b347e57851f51b7a23848a3df6de89be922e35e85c3f006728d18cf4e0d01850",
+  "http_status": 200,
+  "parent_sha256": "e7bb5f01684900053e2f30e53c60323e9289182012e407c3e9b1655b10137e19",
+  "raw_sha256": "22b423eebeedac1b8ebccdb495d817639bb77b2017ee7a0390976eb9d0a0b8f4",
+  "received_at": "2026-10-10T02:34:02.350612+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:01.743017+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/22b423eebeedac1b8ebccdb495d817639bb77b2017ee7a0390976eb9d0a0b8f4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mullybox/show_updates"
+}

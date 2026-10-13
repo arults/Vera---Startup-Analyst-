@@ -1,0 +1,18 @@
+{
+  "bytes": 8911202,
+  "campaign_url": "https://republic.com/layali",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/82?view=preview",
+  "gzip_sha256": "0abb4eca3b5d80c12d6915fd96b3acd61ab4957b35af74265439eb01bf4f5d6b",
+  "http_status": 200,
+  "label": "Layali Form C.pdf",
+  "parent_sha256": "ed480f40c202c4881cce8138d48ef589465a6f240c56805519e8d2723696a3d5",
+  "raw_sha256": "91e861da32fba2352db29d7db39a4cce8b66374dab2982b8e904a799e852629c",
+  "received_at": "2026-10-10T02:08:33.281254+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:32.060785+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/91e861da32fba2352db29d7db39a4cce8b66374dab2982b8e904a799e852629c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/82?view=preview"
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Research-only Crua selected issuer-identity read-only view and separate SapientX source-policy clarification",
+  "expected_parent_commit": "da020aabe0da8e9c6da04cd594f9c16067f4f031",
+  "core_candidate_manifest_sha256": "e12dfde09da8384becef2a2cf4d6d0d11281dee7b391de9bfc1a8e416ae2080e",
+  "independent_review_receipt_sha256": "e0fcbf88fc0b68a16a0f4fced4b0768c4e69f4190640c7ea83e24a00e504186c",
+  "file_count_excluding_manifest": 12,
+  "bytes_excluding_manifest": 160930,
+  "files": [
+    {
+      "path": "research/company-register-v0.1.1/README.md",
+      "bytes": 5018,
+      "sha256": "aa829b9bf2dd8a74e5e9d193d3086ed98a1e586baac2adbe2ae9b04df03d7dda",
+      "git_blob": "5bc371f7b72e81b92d3cd5c3156ddcf8362ab09f"
+    },
+    {
+      "path": "research/company-register-v0.1.1/evidence/FILE_HASHES.json",
+      "bytes": 913,
+      "sha256": "42d0636f568d19f281847e452265239eb912dcb9caeeba43b577ac6f978e86c1",
+      "git_blob": "f5cc13e404d4f70536e2dd35d1300276e53f44a9"
+    },
+    {
+      "path": "research/company-register-v0.1.1/evidence/ISSUER_IDENTITY_FACTS.json",
+      "bytes": 23829,
+      "sha256": "391bf5b290488137939e9bc6b7b2f4f4db8f7bbdad3303e7cb889dddfaa7a1b3",
+      "git_blob": "7554834ab62396ced246aa4ab41d79beca8f2b90"
+    },
+    {
+      "path": "research/company-register-v0.1.1/evidence/REGISTER_BINDINGS.json",
+      "bytes": 38870,
+      "sha256": "a4c994019eb5d6a03246abc5e7b0a7322b20e288c9b53eb356a9ac1ee7afea7b",
+      "git_blob": "4879e013e3083dc68407498788c3424d146dd8ce"
+    },
+    {
+      "path": "research/company-register-v0.1.1/evidence/REVIEW.md",
+      "bytes": 4106,
+      "sha256": "30362d4f0e085c508b331a21aa75ff1c0510c66e972701e0e02cb93509c33214",
+      "git_blob": "2d20fcb90859cd8cfdaca09762b1ed55fb168dce"
+    },
+    {
+      "path": "research/company-register-v0.1.1/evidence/REVIEW_RECEIPT.json",
+      "bytes": 46956,
+      "sha256": "49f74dd5d6f9f54e01fadf5f87199417492ac7aa3a6f21271e017cf0b4f7bae1",
+      "git_blob": "2705b0b74450943b9f0ec47c5ac453653b322902"
+    },
+    {
+      "path": "research/company-register-v0.1.1/evidence/VALIDATION.json",
+      "bytes": 1047,
+      "sha256": "d7a0300c79fc64e48d6e645c0e6f0828101b20d5afd0de2951fc327f19752d94",
+      "git_blob": "bfccda4f628eeadbd11abe9d9feec1545225abea"
+    },
+    {
+      "path": "research/company-register-v0.1.1/inspect_reviewed.py",
+      "bytes": 18546,
+      "sha256": "3065d2ea69998e43020673e11b301d1416f8e86fffff80339546ff87096509e1",
+      "git_blob": "7112c1c231d52e71844e3c8379bcb5be55c99ed1"
+    },
+    {
+      "path": "research/company-register-v0.1.1/reviews/independent-review-receipt.json",
+      "bytes": 6108,
+      "sha256": "e0fcbf88fc0b68a16a0f4fced4b0768c4e69f4190640c7ea83e24a00e504186c",
+      "git_blob": "f069888c0baf293af943b35b4a217a3e67df80af"
+    },
+    {
+      "path": "research/company-register-v0.1.1/tests/test_reviewed_view.py",
+      "bytes": 10894,
+      "sha256": "757ef2d58dff4d6264ab1562ca4547b8872af2a6f7f293a8eb1126f8a25242aa",
+      "git_blob": "310191aed1e9f20b8a65dfa7ab795c802d72c73f"
+    },
+    {
+      "path": "research/sapientx-source-policy-clarification-v0.1.1/README.md",
+      "bytes": 2044,
+      "sha256": "f5d497c1587fb74f67ef0388aeea22abb898b8d25724e5a9e1ed7bb8ec07ffde",
+      "git_blob": "cefa4d8ef707e144d27a06cb28523255cd48e979"
+    },
+    {
+      "path": "research/sapientx-source-policy-clarification-v0.1.1/source-policy-clarification.json",
+      "bytes": 2599,
+      "sha256": "422c0db233e8c5500aa4fed6ae3c796563becd208a755f96a15c7015263b756c",
+      "git_blob": "04668a19256a329daed222e405dd21cd25f4c631"
+    }
+  ],
+  "only_new_research_paths": true,
+  "canonical_inputs_changed": false,
+  "baseline_register_files_changed": false,
+  "plugin_or_global_version_changed": false,
+  "raw_source_files_included": false,
+  "existing_native_capture_dependencies": "Already committed files are checked at runtime; none are copied into this release.",
+  "review_support_artifacts": "Receipt references additional independently generated audit files by hash; those local support files are not bundled or claimed as uploaded.",
+  "verification": {
+    "baseline_tests": 25,
+    "implementation_tests": 19,
+    "independent_tests": 10,
+    "independent_fault_probes": 96,
+    "baseline_regeneration_rows": 2865,
+    "baseline_regeneration_tables": 9,
+    "baseline_exact_compressed_bytes_match": true,
+    "baseline_files_unchanged": 20,
+    "reviewed_output_sha256": "d83b56e04e2e65fb5f35e134e5b06bc8daa489fa7c84afd74f8cf1c5116c3003"
+  },
+  "scientific_delta": {
+    "new_companies": 0,
+    "new_rounds": 0,
+    "new_canonical_outcomes": 0,
+    "selected_native_issuer_matches": 6,
+    "derived_assessment_applications": 16,
+    "original_company_keys_retained": 2,
+    "original_round_ids_retained": 6,
+    "other_gates_changed": false,
+    "completion_counts_established": false,
+    "rates_computed": false,
+    "sapientx_identity_study_gate": "NOT_ADMITTED_EXTERNAL_CONTEXT_ONLY"
+  },
+  "usage": {
+    "run_id": "vera-crua-reviewed-view-20261011",
+    "new_external_primary_source_fetches": 0,
+    "jev_invocations": 0,
+    "tokens": null,
+    "total_tool_invocations": null,
+    "cost_usd": null,
+    "peak_rss_bytes": null,
+    "unavailable_reason": "No full attributable provider/tool/RAM accounting exposed; null is not zero. Immutable GitHub dependencies were retrieved for local reconstruction and tests."
+  }
+}

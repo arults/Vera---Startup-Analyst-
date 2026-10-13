@@ -1,0 +1,18 @@
+{
+  "bytes": 127714,
+  "campaign_url": "https://republic.com/pakt",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pakt/show_updates",
+  "gzip_sha256": "50139b0468a0172c83854eaa8da64695d2a6b1ddd1c884f51af568a197fdb6ed",
+  "http_status": 200,
+  "parent_sha256": "83578858c5d53e41bef58db6621724f5bb1ef645c0611e710769f5dc0082b852",
+  "raw_sha256": "24c007436bd7dea2705e7e12a82f29b827077223949c138374949baee0de1273",
+  "received_at": "2026-10-10T02:34:51.324106+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:50.637164+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/24c007436bd7dea2705e7e12a82f29b827077223949c138374949baee0de1273.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pakt/show_updates"
+}

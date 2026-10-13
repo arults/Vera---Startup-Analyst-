@@ -1,0 +1,19 @@
+{
+  "bytes": 145552,
+  "campaign_url": "https://republic.com/helloava",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/helloava/show_updates",
+  "gzip_sha256": "ef1fe14b446d819ffcaec26fb6473794f603b9f69bf32079203fba626998d2b6",
+  "http_status": 200,
+  "legal_name": "HelloAva, INC",
+  "native_offering_id": 302,
+  "parent_sha256": "6c15b1f0f3dd99cc44ba6536159d5bce2f38983d192ef47878d20b8521528116",
+  "raw_sha256": "7b0c10801b81d62ac54fe6fdfa36f641b5dc92fc79db8b4eb17cbdf40b07be2a",
+  "received_at": "2026-10-10T00:52:05.812129+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:05.198068+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/7b0c10801b81d62ac54fe6fdfa36f641b5dc92fc79db8b4eb17cbdf40b07be2a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/helloava/show_updates"
+}

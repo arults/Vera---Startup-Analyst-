@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-09T07:11:12.912890+00:00",
+  "output_files": {
+    "cp3_republic_europe_outcome_ledger_v4.csv": "bdde1df18a6e345b0951b00c41ad399f7de64036c6bafbe7313491ae76fcc57c",
+    "cp3_republic_europe_outcome_ledger_v4_summary.json": "68a01390058445955f23a26bf79b0e12c5b3cefb1ede535100d20e4869aa7eb6"
+  },
+  "source_files": {
+    "cp2_republic_europe_rounds_normalized.csv": "30c0c41c63e371c17571b9d4388720c3f25dbfd4aa6a73421f29ddbe952e73d4",
+    "cp3_republic_europe_business_observations_v2.csv": "193a2cae796cee99bb718c2eef036ff7603fd65b4e89d46a61ec5557dd2e9957",
+    "cp3_republic_europe_outcome_ledger_v3.csv": "8c3e35d3e6005a8e275f0637ee33b4ac0de50599464ecd20fad9111af40a0c6f"
+  },
+  "summary": {
+    "closure_rows": 0,
+    "followup_companies_extended": 1,
+    "followup_rounds_extended": 2,
+    "identity_rows_migrated": 946,
+    "positive_observation_companies": 291,
+    "rows": 952,
+    "rules": {
+      "company_identity": "round_id -> canonical normalized company identity from CP2 rebuild",
+      "not_eligible": "neutral; does not extend follow-up and is not closure",
+      "positive_followup": "latest reviewed Eligible business-page observation extends only nonterminal rows",
+      "terminal": "later secondary status cannot reopen a terminal endpoint"
+    },
+    "success_rows": 63,
+    "supersedes_for_estimation": "cp3_republic_europe_outcome_ledger_v3.csv",
+    "terminal_events_reopened": 0,
+    "terminal_rows": 2,
+    "unique_companies": 789,
+    "usable_rows": 796,
+    "usable_unique_companies": 676,
+    "version": "v4"
+  }
+}

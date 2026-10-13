@@ -1,0 +1,18 @@
+{
+  "bytes": 1390748,
+  "campaign_url": "https://republic.com/bounty0x",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/63?view=preview",
+  "gzip_sha256": "71eb3a69d0ad82fd79fccb55b1e8e420f75b89c265d8fe16a301daa5b856c3a5",
+  "http_status": 200,
+  "label": "Bounty0x Form C",
+  "parent_sha256": "516eb14681abd84cd5f442b154ff58597cbffab39fb6b21fd42a8a36f4f43928",
+  "raw_sha256": "f24d85995217c1d4f82476d61bd2bb21f96a038a5d79a39c4d433b3335d8d812",
+  "received_at": "2026-10-10T02:07:20.899385+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:20.158891+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/f24d85995217c1d4f82476d61bd2bb21f96a038a5d79a39c4d433b3335d8d812.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/63?view=preview"
+}

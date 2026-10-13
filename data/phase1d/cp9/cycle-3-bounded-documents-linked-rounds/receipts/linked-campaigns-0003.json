@@ -1,0 +1,16 @@
+{
+  "bytes": 202764,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "QuickLoadz2022 issuer references second campaign; canonical2024 page independently discovered by web search.",
+  "final_url": "https://republic.com/quickloadz",
+  "gzip_sha256": "cdb8ab59e09d633d5f732a127bd98e07f60676018d3412ad4dd6adda5b362953",
+  "http_status": 200,
+  "raw_sha256": "54a8cfe905775529dd6949084c4cb04fe50317f34f69dbddebdfdad18e3f98d2",
+  "received_at": "2026-10-10T01:20:56.682535+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:20:55.717464+00:00",
+  "source_group": "linked-campaigns",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/54a8cfe905775529dd6949084c4cb04fe50317f34f69dbddebdfdad18e3f98d2.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/quickloadz"
+}

@@ -1,0 +1,14 @@
+{
+  "campaign_url": "https://republic.com/qoins",
+  "content_type": "application/pdf",
+  "downloaded_bytes": 48037888,
+  "final_url": "https://republic.com/documents/845?view=preview",
+  "http_status": 200,
+  "label": "Qoins Form C.pdf",
+  "parent_sha256": "8703082b50563378f1d0ebb71ea367492d8b4cee8319c880e646a06d742cc248",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:52.141118+00:00",
+  "source_group": "remaining-native-documents",
+  "status": "DOCUMENT_LOCAL_BYTE_LIMIT_HOLD",
+  "url": "https://republic.com/documents/845?view=preview"
+}

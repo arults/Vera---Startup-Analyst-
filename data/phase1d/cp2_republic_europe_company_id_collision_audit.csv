@@ -1,0 +1,4 @@
+canonical_number_key,raw_company_numbers,raw_variant_count,campaign_name_keys,shared_name_key,status,auto_merge
+8007191,08007191 | 8007191,2,assetz capital,assetz capital,FORMATTING_EQUIVALENT_MERGED,true
+9464530,09464530 | 9464530,2,family secret,family secret,FORMATTING_EQUIVALENT_MERGED,true
+CHE152681235,CHE-152.681.235 | CHE­152.681.235,2,swisscann,swisscann,FORMATTING_EQUIVALENT_MERGED,true

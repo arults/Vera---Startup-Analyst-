@@ -1,0 +1,18 @@
+{
+  "bytes": 207727,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/fluentpet",
+  "gzip_sha256": "8965fe6bf2b536abee9d96a800526b2d366076d5773c11bd86f03169f0c6475a",
+  "http_status": 200,
+  "raw_sha256": "1af655924085279134ae6f173928fdc2176554009a43893bd8d5db9dbac6b96a",
+  "received_at": "2026-10-10T02:27:52.284856+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:51.342744+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1af655924085279134ae6f173928fdc2176554009a43893bd8d5db9dbac6b96a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/fluentpet"
+}

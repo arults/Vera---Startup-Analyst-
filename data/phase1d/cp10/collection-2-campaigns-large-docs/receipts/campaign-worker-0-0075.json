@@ -1,0 +1,18 @@
+{
+  "bytes": 85868,
+  "campaign_url": "https://republic.com/bookandmain",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bookandmain/show_updates",
+  "gzip_sha256": "e6472cd0b465800f1a1f45eb175e1b15ec7573ed5b9d92a7031b863ac3ca0466",
+  "http_status": 200,
+  "parent_sha256": "2f1e2e0c00cf07a57ef131301ad9d6a954b8835189682b8223523c02fb5608de",
+  "raw_sha256": "f7bc0c08d79cf87b31bf8b7ae536186d42708ce69f4f84196eaaaf965acb900a",
+  "received_at": "2026-10-10T02:24:39.252166+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:38.643574+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f7bc0c08d79cf87b31bf8b7ae536186d42708ce69f4f84196eaaaf965acb900a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bookandmain/show_updates"
+}

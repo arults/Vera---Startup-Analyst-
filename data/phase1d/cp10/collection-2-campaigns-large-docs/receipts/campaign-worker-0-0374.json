@@ -1,0 +1,18 @@
+{
+  "bytes": 30909,
+  "campaign_url": "https://republic.com/mobile-cooks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/mobile-cooks/show_updates",
+  "gzip_sha256": "0f5b829df8e1e0d863bd1544a34e7ec8aef2c1496846f0b1484bcfc201c2070d",
+  "http_status": 200,
+  "parent_sha256": "cfc5820a9a5cbbe67e9bf32efa31e28ca9f3eab6089057130ed3f493dd8c8eb3",
+  "raw_sha256": "071351a4c8938c996676f701aac7b17cac19f6c88ef993dc93d5060a2697b2c8",
+  "received_at": "2026-10-10T02:33:51.038693+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:50.456809+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/071351a4c8938c996676f701aac7b17cac19f6c88ef993dc93d5060a2697b2c8.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/mobile-cooks/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 100133,
+  "campaign_url": "https://republic.com/indemnis",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/indemnis/show_updates",
+  "gzip_sha256": "f0c8f4508fb71f327427811c8cf4d5a69f731a251f7a95bdda7f67a2db186903",
+  "http_status": 200,
+  "parent_sha256": "3017706160275d5b8a53c90468dac642a36242f566bc1eec1ff2e48cab7bb707",
+  "raw_sha256": "b312044b80d16b8d5ddc78e7855929a9fe7c428905f175f591fd6f02496f5ce5",
+  "received_at": "2026-10-10T02:30:45.512789+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:44.860811+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b312044b80d16b8d5ddc78e7855929a9fe7c428905f175f591fd6f02496f5ce5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/indemnis/show_updates"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S07",
+  "url": "https://www.prnewswire.com/news-releases/the-worlds-first-live-event-subscription-marketplace-is-born-as-festivalpass-announces-its-global-launch-from-austin-texas-301559253.html",
+  "source_type": "issuer_press_release_off_platform",
+  "retrieval": "web.find turn420view2",
+  "locators": "lines487-514,520",
+  "excerpt": "SOURCE festivalPass",
+  "facts": {
+    "publication_date": "2022-06-01",
+    "publication_local_time": "11:18 ET",
+    "issuer_claim": "global-launch announcement describing current live-event ticket and hotel-booking access",
+    "founder": "Ed Vincent"
+  },
+  "limitations": [
+    "Company-controlled primary claim; no independently verified transactional activity.",
+    "Not native-platform evidence; no canonical censor extension.",
+    "Not first-ever operational launch: Wefunder already describes web app live in Fall 2019. No new economic round inferred."
+  ],
+  "raw_source_sha256": null,
+  "archival_form": "manually checked safe fact/excerpt derivative, not raw webpage",
+  "observed_date_utc": "2026-10-11",
+  "security_review": "No scripts, cookies, headers, session URLs or embedded webtokens retained."
+}

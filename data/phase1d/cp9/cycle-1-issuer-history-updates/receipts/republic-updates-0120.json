@@ -1,0 +1,19 @@
+{
+  "bytes": 21039,
+  "campaign_url": "https://republic.com/wellwell",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/wellwell/show_updates",
+  "gzip_sha256": "95bd500e30b7e977971297683c927a471a24641d269d1926a2a40de76366baf3",
+  "http_status": 200,
+  "legal_name": "WellWell LLC",
+  "native_offering_id": 680,
+  "parent_sha256": "76fe770947652a0a98e2defe404aab64262a6f7ec1a6d0312fd39f149070646d",
+  "raw_sha256": "0812248f4456695a2a8a8e523b3d8825294a9928254b5c0a53118b051a9560ca",
+  "received_at": "2026-10-10T00:52:50.471213+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:49.990732+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/0812248f4456695a2a8a8e523b3d8825294a9928254b5c0a53118b051a9560ca.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/wellwell/show_updates"
+}

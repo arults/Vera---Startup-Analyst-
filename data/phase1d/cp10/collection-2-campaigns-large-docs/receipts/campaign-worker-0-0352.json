@@ -1,0 +1,18 @@
+{
+  "bytes": 207099,
+  "campaign_url": "https://republic.com/massa",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/massa/show_updates",
+  "gzip_sha256": "fa07d35b45d1c2609ff2b27e6a0a2dcdf24bff28dfed18ce6b9651b215cd3f7c",
+  "http_status": 200,
+  "parent_sha256": "087aee3f4e0b2896182e6209ddab89bf762b7e583ffa63f96d4fb9320c615101",
+  "raw_sha256": "9b1b7f9af85f77f3fb27a8efab0b40e7d927dfbea8964ec85d596c1c4f2c37e5",
+  "received_at": "2026-10-10T02:33:24.288058+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:23.591655+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/9b1b7f9af85f77f3fb27a8efab0b40e7d927dfbea8964ec85d596c1c4f2c37e5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/massa/show_updates"
+}

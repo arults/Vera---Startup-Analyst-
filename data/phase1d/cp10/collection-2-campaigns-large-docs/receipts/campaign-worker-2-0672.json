@@ -1,0 +1,18 @@
+{
+  "bytes": 308154,
+  "campaign_url": "https://republic.com/zephyr-aerospace",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/zephyr-aerospace/show_updates",
+  "gzip_sha256": "d249fa61229ca01e1135168220779a20df789dfb044fbbd4f85dbdc78002ebd1",
+  "http_status": 200,
+  "parent_sha256": "e0a27eee508bfa3b54c9e78dfb86ad19b0c2fd5f02e095cc20e6fd4241f25434",
+  "raw_sha256": "3ef46fd9a011e4419dcef58f3cae725b60aac1603e183702b4f7d52f69331c83",
+  "received_at": "2026-10-10T02:39:31.410542+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:30.560418+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3ef46fd9a011e4419dcef58f3cae725b60aac1603e183702b4f7d52f69331c83.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/zephyr-aerospace/show_updates"
+}

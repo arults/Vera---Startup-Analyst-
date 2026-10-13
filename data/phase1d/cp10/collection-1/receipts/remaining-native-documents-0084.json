@@ -1,0 +1,18 @@
+{
+  "bytes": 5630283,
+  "campaign_url": "https://republic.com/status-money",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/85?view=preview",
+  "gzip_sha256": "b9fee55c1084498fcaa0362fa08a816aa1bf373c8e781b75f8b7793b35a72045",
+  "http_status": 200,
+  "label": "Status Money Form C .pdf",
+  "parent_sha256": "7f25848bc1a5a45ce264b62cdb3e9d3ddfe27c1ced79284ce5bebbdc0dc68633",
+  "raw_sha256": "852679abd85a48108b67f11a92d403ea0763d7985c7574345e277501f0d8c3fa",
+  "received_at": "2026-10-10T02:09:24.360511+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:23.336386+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/852679abd85a48108b67f11a92d403ea0763d7985c7574345e277501f0d8c3fa.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/85?view=preview"
+}

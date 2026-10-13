@@ -1,0 +1,18 @@
+{
+  "bytes": 88326,
+  "campaign_url": "https://republic.com/steepedcoffee2022",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/steepedcoffee2022/show_updates",
+  "gzip_sha256": "e840bcc464dd7c33ece63b7d03c1c35bbd89c9fd2820790ee37c146e73214edc",
+  "http_status": 200,
+  "parent_sha256": "e8057f1a234e15ff2c4fd091033203ee18336ff9f83e7e67ace7732a29488783",
+  "raw_sha256": "199294080e40c4ef337c1358ea5ac115c0c9220d144a85a57e2087d12bc4331f",
+  "received_at": "2026-10-10T02:37:39.352821+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:38.742678+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/199294080e40c4ef337c1358ea5ac115c0c9220d144a85a57e2087d12bc4331f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/steepedcoffee2022/show_updates"
+}

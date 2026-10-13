@@ -1,0 +1,19 @@
+{
+  "bytes": 1748037,
+  "campaign_url": "https://republic.com/quickloadz",
+  "content_type": "application/pdf",
+  "discovery": "Exactnewcampaignpublicdocumentlink",
+  "final_url": "https://republic.com/documents/7220?view=preview",
+  "gzip_sha256": "05e52376041cbb0b4d5804c1c0a4d99b3cce74f6d8122a9322f406c5f4d52cac",
+  "http_status": 200,
+  "label": "Quick Loadz Form C .pdf",
+  "parent_sha256": "54a8cfe905775529dd6949084c4cb04fe50317f34f69dbddebdfdad18e3f98d2",
+  "raw_sha256": "4c288c22d4cb42669b261b5202543eb834a42a44ae3f57b6ef385c100625b58e",
+  "received_at": "2026-10-10T01:21:05.797785+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:04.958964+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/4c288c22d4cb42669b261b5202543eb834a42a44ae3f57b6ef385c100625b58e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/7220?view=preview"
+}

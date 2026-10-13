@@ -1,0 +1,18 @@
+{
+  "bytes": 293224,
+  "campaign_url": "https://republic.com/arable-brewing",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/arable-brewing/show_updates",
+  "gzip_sha256": "3168ed0f9811d9a2bca09eee7dc66a293609b7c02b6c307cf16c17b6cd691149",
+  "http_status": 200,
+  "parent_sha256": "c31c80dcf8155e7e88953afbb8a6ca9eca7588552eee59b298b910637e39d39f",
+  "raw_sha256": "112849399a9c227d7fd7814c43e8692e54a73d4be109ee409dbd7a06d2ab3609",
+  "received_at": "2026-10-10T02:23:34.404953+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:33.587579+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/112849399a9c227d7fd7814c43e8692e54a73d4be109ee409dbd7a06d2ab3609.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/arable-brewing/show_updates"
+}

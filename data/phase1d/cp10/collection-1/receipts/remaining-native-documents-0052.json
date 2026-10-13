@@ -1,0 +1,18 @@
+{
+  "bytes": 2722496,
+  "campaign_url": "https://republic.com/lynx-city",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/471?view=preview",
+  "gzip_sha256": "26ed5642bbac6f9443c9e58268944dd7fc4d51b77669a2103dd31f23c312de8a",
+  "http_status": 200,
+  "label": "Lynx City Form C.pdf",
+  "parent_sha256": "e8fd45246649df387ebfd6a8060af46cf30dd9c4c86fb0c62c36845866f28f61",
+  "raw_sha256": "7b492153761f28fff480a8f905c827513615cb324468426f800db0ac7424d150",
+  "received_at": "2026-10-10T02:08:34.286970+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:33.423046+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/7b492153761f28fff480a8f905c827513615cb324468426f800db0ac7424d150.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/471?view=preview"
+}

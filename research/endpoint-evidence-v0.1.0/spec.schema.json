@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Endpoint evidence plan specification v0.1.0",
+  "description": "Planning specification only. No facts, eligibility or empirical readiness are authenticated. Runtime cross-field checks are in requirements.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["endpoint", "purpose", "frame", "method", "platform_year", "field_breakdown"],
+  "properties": {
+    "endpoint": {"enum": ["operating_survival", "qualifying_company_success", "investor_moic"]},
+    "purpose": {"enum": ["historical_endpoint", "forecast"]},
+    "frame": {"enum": ["funded_rounds", "company_origin", "proposed_position"]},
+    "method": {"enum": ["exact_history", "interval_supported", "horizon_status", "forecast_model"]},
+    "platform_year": {"type": "boolean"},
+    "field_breakdown": {"type": "boolean"}
+  }
+}

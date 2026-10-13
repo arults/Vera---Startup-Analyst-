@@ -1,0 +1,18 @@
+{
+  "bytes": 1984314,
+  "campaign_url": "https://republic.com/ecotone-renewables",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/13499?view=preview",
+  "gzip_sha256": "17aa11a52cc0c69670bf4cc6cc22e3c60b86ebd742d886d742a3f7a6f16dc806",
+  "http_status": 200,
+  "label": "Ecotone - Form C.pdf",
+  "parent_sha256": "aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+  "raw_sha256": "145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104",
+  "received_at": "2026-10-10T02:07:51.687300+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:50.902328+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/13499?view=preview"
+}

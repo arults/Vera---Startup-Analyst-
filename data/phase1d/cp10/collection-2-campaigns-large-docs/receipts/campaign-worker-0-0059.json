@@ -1,0 +1,18 @@
+{
+  "bytes": 93134,
+  "campaign_url": "https://republic.com/back-porch-homes",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/back-porch-homes/show_updates",
+  "gzip_sha256": "f06912c56de82e90a1775042511cedf7138318aca635981e3dea0d95119ef717",
+  "http_status": 200,
+  "parent_sha256": "a16d98bb3a11219c28ee9b13c9759b71e382c8045df4e04fc96fdb5b351fe250",
+  "raw_sha256": "982ea36587c079d1e658cee10aff29bc9135aa14cef7510df8ed533414a5fc95",
+  "received_at": "2026-10-10T02:24:12.817335+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:12.176606+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/982ea36587c079d1e658cee10aff29bc9135aa14cef7510df8ed533414a5fc95.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/back-porch-homes/show_updates"
+}

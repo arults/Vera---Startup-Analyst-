@@ -1,0 +1,20 @@
+{
+  "bytes": 135593,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/sheworx-fintech-with-impact",
+  "gzip_sha256": "34ce4f22ca8d2ffda458afc7b08de166269473f40ab31e521acb7283ae3b8d78",
+  "http_status": 200,
+  "raw_sha256": "f29af9a8a1b7f4e3baa2020673fcdf0141aecac4186e921cd7227211065f582c",
+  "received_at": "2026-10-10T02:36:52.217827+00:00",
+  "redirects": [
+    "https://republic.com/events/sheworx-fintech-with-impact"
+  ],
+  "retrieval_started_at": "2026-10-10T02:36:51.566711+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f29af9a8a1b7f4e3baa2020673fcdf0141aecac4186e921cd7227211065f582c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sheworx-fintech-with-impact"
+}

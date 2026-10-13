@@ -1,0 +1,33 @@
+name: Phase 1D verifier
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'src/phase1d/verifier_v3.py'
+      - 'src/phase1d/verifier_v3_repaired.py'
+      - 'src/phase1d/verifier_v4.py'
+      - 'src/phase1d/**'
+      - 'tests/test_phase1d*'
+      - 'data/phase1d/**'
+      - '.github/workflows/phase1d-verifier.yml'
+      - 'checkpoints/PHASE_1D*'
+      - 'evidence/jev/PHASE_1D*'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional recovery dependencies
+        run: pip install requests beautifulsoup4 curl_cffi
+      - name: Full regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Phase 1D post-closure-audit scientific verifier
+        run: python -m src.phase1d.verifier_v4

@@ -1,0 +1,18 @@
+{
+  "bytes": 3935791,
+  "content_type": "application/xml",
+  "discovery": "Exact child URL published in native sitemap index; public-CDN resource only.",
+  "final_url": "https://uploads.republic.com/sitemaps/sitemap2.xml",
+  "gzip_sha256": "583a642c1d604f846bb2f1da07c6daadb05f93709c25d96fffa49e65ef501573",
+  "http_status": 200,
+  "parent_sha256": "13f00f03604cee1f73a1d3bf5f51ee9d1b355de8a52e4881b163ad956ff3fdbf",
+  "parent_url": "https://republic.com/sitemaps/sitemap.xml",
+  "raw_sha256": "9d4ee69f5ccd4d07c1fcdf02adbf927c8510bf1ca218d146f6567819c129abe1",
+  "received_at": "2026-10-10T02:07:20.936567+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:20.242800+00:00",
+  "source_group": "public-sitemaps",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9d4ee69f5ccd4d07c1fcdf02adbf927c8510bf1ca218d146f6567819c129abe1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://uploads.republic.com/sitemaps/sitemap2.xml"
+}

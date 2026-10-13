@@ -1,0 +1,18 @@
+{
+  "bytes": 236136,
+  "campaign_url": "https://republic.com/dexfreight",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/dexfreight/show_updates",
+  "gzip_sha256": "c3fdcc556a339cc305176f89074316aed6e8af2126a16d05b63ce7bebe18d2f8",
+  "http_status": 200,
+  "parent_sha256": "9c8d43f9b9ac47f5286481c119eeb365258484b23ca186cf03b5cd0be15f7c8c",
+  "raw_sha256": "8862c699e080895653b357415db42f485f1ea874fc6e041c894859a0332e02dd",
+  "received_at": "2026-10-10T02:26:29.229599+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:28.420326+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/8862c699e080895653b357415db42f485f1ea874fc6e041c894859a0332e02dd.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/dexfreight/show_updates"
+}

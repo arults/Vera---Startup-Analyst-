@@ -1,0 +1,18 @@
+{
+  "bytes": 8955,
+  "campaign_url": "https://republic.com/wunderkeks",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/wunderkeks/show_updates",
+  "gzip_sha256": "3e14c4d3c47c4705603cae6c11a737bed5bf46f904b25c4397c630ef248f0ff7",
+  "http_status": 200,
+  "parent_sha256": "3f39019eb2bb7a492e85a9772b7d93792aafb3fe291f21ddb1f47cd94448821d",
+  "raw_sha256": "d086a2ad25f36618de0095c1af237faf34281a3b73da6b661add522190bd7486",
+  "received_at": "2026-10-10T02:39:13.385522+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:12.829521+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/d086a2ad25f36618de0095c1af237faf34281a3b73da6b661add522190bd7486.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/wunderkeks/show_updates"
+}

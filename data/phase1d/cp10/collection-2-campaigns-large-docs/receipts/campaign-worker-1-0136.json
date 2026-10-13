@@ -1,0 +1,18 @@
+{
+  "bytes": 104711,
+  "campaign_url": "https://republic.com/cybr-2026",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cybr-2026/show_updates",
+  "gzip_sha256": "f5029181a2a1e61b048a4e9fbd3001b331d3bd3dac26b1df1d181000fd3a1601",
+  "http_status": 200,
+  "parent_sha256": "32f58f8751403bfb361c84a93527ca0bd9f209613fc9e9a0b1d5a989dee6f757",
+  "raw_sha256": "29ea12bdb66c6c6209a6ab48e8289747e609761e3841b5161131a55608fe5fda",
+  "received_at": "2026-10-10T02:26:46.195025+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:45.561856+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/29ea12bdb66c6c6209a6ab48e8289747e609761e3841b5161131a55608fe5fda.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cybr-2026/show_updates"
+}

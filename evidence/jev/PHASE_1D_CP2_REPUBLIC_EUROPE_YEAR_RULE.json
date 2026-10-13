@@ -1,0 +1,41 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "execution_issue": "Republic Europe exact first-live date unavailable on 952 funded 2020-2025 pages",
+  "audit": {
+    "n_scoped": 952,
+    "approval_date_known": 910,
+    "approval_date_coverage": 0.9558823529411765,
+    "negative_lag_count": 0,
+    "lag_days_median": 50,
+    "lag_days_p10": 28,
+    "lag_days_p90": 85,
+    "same_calendar_year_count": 796,
+    "cross_calendar_year_count": 114,
+    "missing_approval": 42
+  },
+  "answers": {
+    "cohort_year_recovery": {
+      "choice": "bounded_same_year",
+      "confidence": 0.48,
+      "probabilities": {
+        "bounded_same_year": 0.61,
+        "suppress_all": 0.39,
+        "approval_proxy_all": 0,
+        "funded_year_proxy": 0
+      }
+    },
+    "exact_date_storage": {
+      "choice": "interval_bounds",
+      "confidence": 1,
+      "probabilities": {
+        "interval_bounds": 1,
+        "approval_as_date": 0,
+        "funded_as_date": 0
+      }
+    },
+    "design_reopen": {
+      "yes_probability": 0.16
+    }
+  }
+}

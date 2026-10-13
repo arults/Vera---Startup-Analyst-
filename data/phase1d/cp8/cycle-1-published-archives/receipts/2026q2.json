@@ -1,0 +1,13 @@
+{
+  "attempted_at": "2026-10-09T15:25:10.480730+00:00",
+  "bytes": 1924,
+  "http_status": 403,
+  "quarter": 2,
+  "received_at": "2026-10-09T15:25:11.550952+00:00",
+  "sha256": "3effc03cd6b219766f1c910345e2d771ae86053bb36aeaa090ac0b5faa86d5ba",
+  "source_path": "data/phase1d/cp8/cycle-1-published-archives/archives/2026q2.response.bin",
+  "status": "HTTP_ERROR_NO_BYPASS",
+  "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2026q2_cf.zip",
+  "url_provenance": "DIRECT_LINK_FOLLOWED",
+  "year": 2026
+}

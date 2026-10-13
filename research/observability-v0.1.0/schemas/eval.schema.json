@@ -1,0 +1,266 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "eval_id",
+    "component",
+    "span_id",
+    "status",
+    "quality_axis",
+    "scope",
+    "reviewer_basis",
+    "refs",
+    "evidence_ref",
+    "reason_code",
+    "jev"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "vera.eval/1"
+    },
+    "eval_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+    },
+    "component": {
+      "type": "string",
+      "enum": [
+        "analysis",
+        "identity",
+        "jev",
+        "model",
+        "persistence",
+        "planning",
+        "prompt",
+        "report",
+        "research",
+        "retrieval",
+        "sourcing_verifier",
+        "system"
+      ]
+    },
+    "span_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "blocked",
+        "fail",
+        "incomplete",
+        "not_run",
+        "pass"
+      ]
+    },
+    "quality_axis": {
+      "type": "string",
+      "enum": [
+        "engineering",
+        "research"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "component",
+        "full_system",
+        "generic_method",
+        "synthetic_contract"
+      ]
+    },
+    "reviewer_basis": {
+      "type": "string",
+      "enum": [
+        "deterministic_check",
+        "human_review",
+        "jev_structured",
+        "synthetic_fixture"
+      ]
+    },
+    "refs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact",
+        "code",
+        "config",
+        "dataset",
+        "input",
+        "model",
+        "prompt",
+        "rubric"
+      ],
+      "properties": {
+        "artifact": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "code": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "config": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dataset": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "input": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "prompt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rubric": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "evidence_ref": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "reason_code": {
+      "type": "string",
+      "enum": [
+        "ASSERTION_FAILED",
+        "DEPENDENCY_UNAVAILABLE",
+        "EVIDENCE_MISSING",
+        "INSUFFICIENT_PROVENANCE",
+        "NONE",
+        "OUT_OF_SCOPE"
+      ]
+    },
+    "jev": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "model_ref",
+            "question_ref",
+            "response_ref",
+            "confidence",
+            "review_scope"
+          ],
+          "properties": {
+            "model_ref": {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            "question_ref": {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            "response_ref": {
+              "type": "string",
+              "pattern": "^(sha256:[a-f0-9]{64}|ver:[A-Za-z0-9][A-Za-z0-9_.:-]{0,119})$"
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "review_scope": {
+              "type": "string",
+              "enum": [
+                "component",
+                "full_system",
+                "generic_method",
+                "synthetic_contract"
+              ]
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vera:eval:1",
+  "title": "Vera structured evaluation 1",
+  "description": "Structural contract only. Runtime validation additionally enforces target, scope, provenance and chronology."
+}

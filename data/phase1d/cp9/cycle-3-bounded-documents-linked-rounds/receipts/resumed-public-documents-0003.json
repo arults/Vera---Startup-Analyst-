@@ -1,0 +1,19 @@
+{
+  "bytes": 13794222,
+  "campaign_url": "https://republic.com/unbanked",
+  "content_type": "application/pdf",
+  "discovery": "Exactnewcampaignpublicdocumentlink",
+  "final_url": "https://republic.com/documents/990?view=preview",
+  "gzip_sha256": "7c0b0e7289360de9b92a90ed254c4ed70f91ad7f517e0edcb66164f0f731381b",
+  "http_status": 200,
+  "label": "Unbanked Form C.pdf",
+  "parent_sha256": "a7ca769d4b545772809a3d9a8719929868fa59b308db0b666677ea957d9cfcd7",
+  "raw_sha256": "616af78745aa622f6383ded2ca311c8122dd2ff31a165835beb6f79878759ee1",
+  "received_at": "2026-10-10T01:21:04.958461+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:03.589892+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/616af78745aa622f6383ded2ca311c8122dd2ff31a165835beb6f79878759ee1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/990?view=preview"
+}

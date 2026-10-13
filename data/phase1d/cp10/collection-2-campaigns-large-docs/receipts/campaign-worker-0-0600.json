@@ -1,0 +1,18 @@
+{
+  "bytes": 102600,
+  "campaign_url": "https://republic.com/thomsens",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/thomsens/show_updates",
+  "gzip_sha256": "e69f9f5781c3024097aff83cc05f9637f17a5902671105405594c642ed761d89",
+  "http_status": 200,
+  "parent_sha256": "71ef80e9047294163e044630dbff899c2efaa840473524b5b691d01f66e34e22",
+  "raw_sha256": "95f193fedbc4126693ce8366e7f5629ffd49f3648de245312a0dbd4a9e9d9221",
+  "received_at": "2026-10-10T02:38:06.439484+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:05.747992+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/95f193fedbc4126693ce8366e7f5629ffd49f3648de245312a0dbd4a9e9d9221.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/thomsens/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 226501,
+  "campaign_url": "https://republic.com/pluto7",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pluto7/show_updates",
+  "gzip_sha256": "054911fd548931cec81bef126a52220b3c69b68c2b9409d81f33e27cac132618",
+  "http_status": 200,
+  "parent_sha256": "c26ade3576ccd738f77ae9b5b38c9d2e13df9ee1d6dbd30b5212b05133bce83a",
+  "raw_sha256": "53b550d3f4b8db3e40d1f6f787a3c8de963fb2ec6949003702783a2ed36b35e0",
+  "received_at": "2026-10-10T02:35:19.071397+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:18.148684+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/53b550d3f4b8db3e40d1f6f787a3c8de963fb2ec6949003702783a2ed36b35e0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pluto7/show_updates"
+}

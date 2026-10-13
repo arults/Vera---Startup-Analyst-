@@ -1,0 +1,31 @@
+name: Phase 1D operating uncertainty numerical guards
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/operating-uncertainty-guards-v0.1.0/**'
+      - 'research/explicit-history-statistics-v0.2.0/**'
+      - 'tests/test_operating_guards_independent.py'
+      - '.github/workflows/phase1d-operating-uncertainty-validation.yml'
+permissions:
+  contents: read
+jobs:
+  numerical_guard_validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact pushed commit
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Validate pinned dependencies and synthetic numerical controls
+        run: python -I -B research/operating-uncertainty-guards-v0.1.0/validate.py
+      - name: Verify isolated relocation and dependency rejection
+        run: python -I -B research/operating-uncertainty-guards-v0.1.0/test_isolated_validation.py
+      - name: Run independent numerical guard controls
+        run: python -I -B -m unittest discover -s tests -p test_operating_guards_independent.py -v

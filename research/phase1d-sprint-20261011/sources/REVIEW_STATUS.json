@@ -1,0 +1,12 @@
+{
+  "review_status": "ACCEPTED_BOUNDED_SOURCE_ATTRIBUTIONS_WITH_EXPLICIT_HOLDS",
+  "catalogues": {
+    "europe-claims.md": "63469c83eeef4b71e713d032ff5a15f4ac4c497c9525d19aea23ec2ad123239e",
+    "unitonomy-claims.json": "322ed7e667ecd05b2516e0908a57622777e33e96218bd677b7e67c49d0938db6"
+  },
+  "scope": "Source-attributed findings only. Historical pending labels in preserved catalogue bytes refer to preparation before independent review. No canonical admission, outcome or censor promotion, source-policy amendment, rates, priors or full Phase1D completion.",
+  "independent_verdict_hashes": {
+    "EU_VERDICT.json": "2283ed8bd5a6d479da972493430ea7ef6b3a7d2c8254be4c5a5e3ec58dce0054",
+    "UNITONOMY_PUBLIC_VERDICT.json": "5ea33c4e4dbb6c1a265b497804c2a6a498cda998edbc9d283fd367a46b3ab713"
+  }
+}

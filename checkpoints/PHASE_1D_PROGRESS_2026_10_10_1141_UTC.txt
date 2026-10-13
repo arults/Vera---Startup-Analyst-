@@ -1,0 +1,56 @@
+LATEST ADDENDUM - 2026-10-10 13:41 UTC
+
+Phase 1D remains incomplete. Global research plateau and production-estimation eligibility remain false.
+
+- SKILLS.md now contains the 13 numbered sourcing requirements, including no fabrication and explicit missing-data disclosure. Update verified at commit d7039e1406541c4a5025d3e9a418f29a5122830d.
+- Republic's 22-read tranche added 9 distinct native offering IDs and 6 launch-date mappings: 5 in the study window and 1 in 2026. Campaign-URL candidates increased from 693 to 702; distinct observed native IDs increased from 689 to 698. These are separate source-discovery units, not companies or admitted economic rounds. There are 307 unattempted discovery paths, including possible aliases/noncampaigns. Bounded source coverage passed independent review; final JEV acceptance is absent following a denied call and a cancelled retry. No canonical admission or outcome was added by this tranche.
+- Restored 360 previously archived Wefunder offering records. This is recovery of existing evidence, not 360 new offerings or new funding admissions. Identity/round linkage and historical coverage gaps remain.
+- Multisource implementation candidate 1.0.1 passes integrity checks and 79 local tests beside its archives; isolated portability testing passes 78 with 1 explicit missing-archive skip. Native pins remain unchanged. This is not an actual research-batch release.
+- Public-source JEV supports two narrow attributed reports: Inlightened's buyer-reported acquisition and Ethos's issuer-reported operating activity in November 2024. These do not establish audited outcomes or investor returns. The 2025 Ethos agreement's completion, successor mapping and investor consequences remain unresolved; the whole pilot batch remains unreleased.
+- The real pilot exposed provenance/time representation and batch-scope limitations. A minimal 1.0.2 design is under review. Final JEV evaluation of implementation details still awaits specific disclosure authorization; no completed system review is claimed.
+- The v0.5 public research-package upload remains paused after a cancelled write; source-system code has not been published. No package commit or branch update occurred. Published progress text and SKILLS.md do not imply that those artifacts or code are published.
+
+Next work remains bounded source verification, review of the proposed representation fixes, and historical cohort/outcome coverage. No estimates, rates or priors are promoted.
+
+HISTORICAL CHECKPOINTS BELOW - preserved verbatim; their dated status is not a new completion claim.
+
+LATEST ADDENDUM - 2026-10-10 12:07 UTC
+
+Phase 1D remains incomplete. The latest local canonical research ledger, v0.5.0, is applied and independently verified: 12 company/round rows, 12 stage records and 104 explicit holds. Nine previously observation-only proposals now have bounded canonical research admission. Their 82 source qualifications are preserved, their analytical clocks remain null, and outcomes remain UNKNOWN. There is no production, estimator, graph or follow-on promotion.
+
+The immutable ten-observation ledger is unchanged. Nine of its observations overlap the twelve canonical rows, so the combined total remains 13 unique financing observations, not 22. Nobody Studios remains observation-only, with no certified canonical economic unit, unresolved prior-financing relation, no merge and a null clock. The original two-row and three-row releases and the fourteen-campaign source matrix are also unchanged. Identical replay passed, and independent review confirmed the exact applied output and preserved restrictions.
+
+The newer local release artifacts remain unpublished. Full artifact publication is still blocked and specific artifact-publication approval is pending. This GitHub text is a status update only. Historical coverage, outcome ascertainment, remaining case-specific holds and the earlier unpassed overall source gate remain open; no base rates or priors are enabled.
+
+SHA-256 anchors:
+Canonical v0.5.0: fc8bf913e84db576b3d78b716b7e425a6eef2c5a3224bc15c84b633e0c1c20fb
+Independent post-application review: cbef5ebef3afbb709bb847b47bb9ad293ae8eea2cb1b464879d839f2098206c6
+
+HISTORICAL CHECKPOINT BELOW - preserved verbatim.
+Its 11:41 counts describe that earlier checkpoint and are superseded by this addendum.
+
+VERA PHASE 1D PROGRESS - 2026-10-10 11:41 UTC
+
+Status: Phase 1D remains incomplete. This is a progress checkpoint, not a production release or a claim that the historical cohort is complete.
+
+VERIFIED LOCAL RELEASES
+- Canonical research ledger v0.4.0: 3 companies and 3 bounded research rounds, including the newly reviewed 18.21 Drinks offering. Independent post-application review passed. The original two-row ledger is preserved unchanged.
+- Separate research-observation ledger v0.3.1: 10 admitted observations, comprising 9 bounded current-round proposals and 1 Nobody Studios current-offering observation. Independent post-application checks passed; this ledger is unchanged by the canonical append.
+- Together these represent 13 research observations. They do not represent 13 resolved economic rounds. There are zero production or estimator admissions.
+
+RESTRICTIONS STILL IN FORCE
+- Nobody Studios retains both closing events, an unresolved prior-financing relation, no merge, null canonical round ID and null estimator clock.
+- 18.21 Drinks has supported completion date 2020-12-15, but its estimator clock is null and outcome is UNKNOWN.
+- Two case-specific canonical holds and two first-launch-2019 exclusions from the fourteen-campaign review remain. Offered caps remain source-scoped metadata; operative/comparable valuation is not inferred from them.
+- The corrected source review supported the narrow ten-observation release. It did not convert the earlier unpassed overall source gate into a pass.
+- No numeric base rates, priors, graph promotion or outcome assumptions were introduced. Historical platform coverage and outcome ascertainment remain incomplete.
+
+GITHUB PUBLICATION BLOCKER
+The new three-row canonical release and ten-observation release artifacts are local only. The larger 38-path observation checkpoint upload stalled twice without a returned GitHub result. Neither attempt was followed by a commit or branch update. The expected tree could not be retrieved; phase-1d was last verified at 42f282b8d32c883df6d4f78b773566a2bec8b29c at 11:37 UTC. Existing earlier checkpoints remain intact. The prepared package is frozen, and no remote CI result is claimed for these unpublished artifacts. This text does not publish or activate those packages.
+
+NEXT COMPLETION GATES
+Safely publish and verify the reviewed artifacts, then continue bounded evidence work on historical cohort coverage, unresolved round/clock cases and outcome linkage. Production estimation remains held until the frozen cohort and outcome gates pass.
+
+REPRODUCIBILITY ANCHORS (SHA-256)
+Canonical v0.4.0: 0605489ed460ea779464a55c805c09e91fb21d4cbd6ece6804d3435d47176c6b
+Observations v0.3.1: 250a95904b82d812e5f61a039f7b3e6cb72f994948b835c65628bcf722393819

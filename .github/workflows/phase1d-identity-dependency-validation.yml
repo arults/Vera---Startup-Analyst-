@@ -1,0 +1,130 @@
+name: Phase 1D identity dependency validation only
+# Separate from the held identity writer. This never regenerates its checkpoint.
+'on':
+  push:
+    branches: [phase-1d]
+    paths:
+      - ".github/workflows/phase1d-identity-dependency-validation.yml"
+permissions:
+  contents: read
+jobs:
+  validate_exact_checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: c57ab8d645dbd904909f30223bc93ff2e45734aa
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Verify and export immutable source without Git credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = c57ab8d645dbd904909f30223bc93ff2e45734aa
+          mkdir "$RUNNER_TEMP/identity-validation-source" "$RUNNER_TEMP/identity-validation-image"
+          git archive c57ab8d645dbd904909f30223bc93ff2e45734aa | tar -x -C "$RUNNER_TEMP/identity-validation-source"
+      - name: Verify complete exported source against the immutable commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -I - c57ab8d645dbd904909f30223bc93ff2e45734aa "$RUNNER_TEMP/identity-validation-source" <<'PYTHON'
+          """Fail closed unless export exactly matches tracked commit files and types."""
+          import os
+          from pathlib import Path
+          import stat
+          import subprocess
+          import sys
+          
+          revision, destination = sys.argv[1:]
+          root = Path(destination).resolve()
+          raw = subprocess.check_output(['git', 'ls-tree', '-rz', revision])
+          expected = {}
+          for record in raw.split(b'\0'):
+              if not record:
+                  continue
+              metadata, raw_path = record.split(b'\t', 1)
+              mode, kind, oid = metadata.split()
+              path = os.fsdecode(raw_path)
+              if kind != b'blob' or mode not in (b'100644', b'100755', b'120000'):
+                  raise SystemExit('Unsupported tracked object/type: ' + repr(path))
+              parts = Path(path).parts
+              if Path(path).is_absolute() or '..' in parts or '.git' in parts:
+                  raise SystemExit('Unsafe tracked path: ' + repr(path))
+              expected[path] = (mode, oid)
+          actual = {}
+          directories = set()
+          for base, dirs, files in os.walk(root, followlinks=False):
+              for name in dirs[:]:
+                  p = Path(base) / name
+                  rel = str(p.relative_to(root))
+                  if p.is_symlink():
+                      actual[rel] = p
+                      dirs.remove(name)
+                  else:
+                      directories.add(rel)
+              for name in files:
+                  p = Path(base) / name
+                  actual[str(p.relative_to(root))] = p
+          if set(actual) != set(expected):
+              raise SystemExit('Export file inventory differs from commit')
+          expected_directories = {str(parent) for path in expected for parent in Path(path).parents if str(parent) != '.'}
+          if directories != expected_directories:
+              raise SystemExit('Export directory inventory differs from commit')
+          with subprocess.Popen(['git', 'cat-file', '--batch'], stdin=subprocess.PIPE, stdout=subprocess.PIPE) as git:
+              for path, (mode, oid) in expected.items():
+                  git.stdin.write(oid + b'\n')
+                  git.stdin.flush()
+                  header = git.stdout.readline().split()
+                  if len(header) != 3 or header[0] != oid or header[1] != b'blob':
+                      raise SystemExit('Unexpected Git blob response')
+                  content = git.stdout.read(int(header[2]))
+                  if git.stdout.read(1) != b'\n' or len(content) != int(header[2]):
+                      raise SystemExit('Incomplete Git blob response')
+                  if content.startswith(b'version https://git-lfs.github.com/spec/v1'):
+                      raise SystemExit('LFS materialization is unsupported: ' + repr(path))
+                  p = actual[path]
+                  st = p.lstat()
+                  if mode == b'120000':
+                      if not stat.S_ISLNK(st.st_mode) or os.fsencode(os.readlink(p)) != content:
+                          raise SystemExit('Symlink type/bytes differ: ' + repr(path))
+                      if Path(os.readlink(p)).is_absolute() or not p.resolve().is_relative_to(root):
+                          raise SystemExit('Symlink escapes export: ' + repr(path))
+                  else:
+                      if not stat.S_ISREG(st.st_mode) or p.read_bytes() != content:
+                          raise SystemExit('Regular file type/bytes differ: ' + repr(path))
+                      if bool(st.st_mode & 0o111) != (mode == b'100755'):
+                          raise SystemExit('Executable mode differs: ' + repr(path))
+              git.stdin.close()
+              if git.wait() != 0:
+                  raise SystemExit('Git blob reader failed')
+          print('Exact commit file, byte, type and executable-mode inventory verified; unsupported gitlinks/LFS rejected.')
+          PYTHON
+      - name: Prepare Python 3.12 and dependency repair without repository code
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > "$RUNNER_TEMP/identity-validation-image/Dockerfile" <<'DOCKERFILE'
+          FROM python:3.12-slim
+          RUN python -m pip install --no-cache-dir --only-binary=:all: requests beautifulsoup4 curl_cffi
+          DOCKERFILE
+          docker build --pull -t identity-dependency-validation "$RUNNER_TEMP/identity-validation-image"
+          docker image inspect identity-dependency-validation --format '{{.Id}}'
+      - name: Run full tests offline with read-only source and disposable scratch
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm --network none --read-only --cap-drop ALL \
+            --security-opt no-new-privileges --user 65534:65534 \
+            --pids-limit 256 --memory 2g --cpus 2 \
+            --tmpfs /tmp:rw,nosuid,nodev,size=512m,mode=1777 \
+            --mount "type=bind,src=$RUNNER_TEMP/identity-validation-source,dst=/work,readonly" \
+            --workdir /work --env HOME=/tmp --env TMPDIR=/tmp \
+            --env PYTHONDONTWRITEBYTECODE=1 identity-dependency-validation \
+            sh -ec 'python --version; python -m pip freeze; python -B -c "from bs4 import BeautifulSoup; assert BeautifulSoup(\"<p>ok</p>\", \"html.parser\").p.get_text() == \"ok\""; python -B -m unittest discover -s tests -v'
+      - name: State validation scope even when tests fail
+        if: always()
+        shell: bash
+        run: |
+          echo 'Dependency and regression validation only. Inspect the full test summary, including skips.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Temporary synthetic test fixtures are permitted. Persistent canonical producer execution and scientific checkpoint regeneration remain held; passing tests do not establish scientific completeness.' >> "$GITHUB_STEP_SUMMARY"

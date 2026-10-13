@@ -1,0 +1,18 @@
+{
+  "bytes": 194881,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/jumpstart",
+  "gzip_sha256": "70e6bb49a40d270c9d67497e03b6c93fa304127aba3ddd8a20e647c7cbbaa32d",
+  "http_status": 200,
+  "raw_sha256": "59f1ecba30bddc31104f0aff527cb015bac4c8d6ce1c1b85a9e8eefb3d560808",
+  "received_at": "2026-10-10T02:32:04.014015+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:03.082408+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/59f1ecba30bddc31104f0aff527cb015bac4c8d6ce1c1b85a9e8eefb3d560808.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/jumpstart"
+}

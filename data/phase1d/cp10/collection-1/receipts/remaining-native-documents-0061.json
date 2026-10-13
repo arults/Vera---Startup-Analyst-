@@ -1,0 +1,18 @@
+{
+  "bytes": 10733198,
+  "campaign_url": "https://republic.com/plain-sight",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/496?view=preview",
+  "gzip_sha256": "2bfb638fa23add752f1a20d8d0a532ea250251a5afbc2e43045a5023af4c0c16",
+  "http_status": 200,
+  "label": "Plain Sight Form C.pdf",
+  "parent_sha256": "b1448f08e95c7573f10faa445c7ada0c8fd27e195229f6bbb368f888eccaa196",
+  "raw_sha256": "3df75929697a8f1c60031952dfac510f6cb7209a06ecc40ad90a59f0d3e94d5a",
+  "received_at": "2026-10-10T02:08:47.734127+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:46.243538+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/3df75929697a8f1c60031952dfac510f6cb7209a06ecc40ad90a59f0d3e94d5a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/496?view=preview"
+}

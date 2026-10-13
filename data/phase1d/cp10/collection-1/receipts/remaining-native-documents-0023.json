@@ -1,0 +1,18 @@
+{
+  "bytes": 8027027,
+  "campaign_url": "https://republic.com/ember-fund-2019",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/127?view=preview",
+  "gzip_sha256": "9bbd11d72dd906a32488be4ac9990978765575508d8d254207825d8363311680",
+  "http_status": 200,
+  "label": "Ember Fund Form C-A 01.21.2020.pdf",
+  "parent_sha256": "09a8535f48fb1d252fcf7bcfaa24db65b47d7095b4ba1cf99d972611764feb60",
+  "raw_sha256": "05041fb0b5f940c927e9aeb75df0d435ca88bcaa6330a27f9201b5131d8221df",
+  "received_at": "2026-10-10T02:07:53.005782+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:51.911774+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/05041fb0b5f940c927e9aeb75df0d435ca88bcaa6330a27f9201b5131d8221df.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/127?view=preview"
+}

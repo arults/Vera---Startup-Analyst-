@@ -1,0 +1,49 @@
+{
+  "bytes": 1883513,
+  "campaign_url": "https://republic.com/watrfall",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Watrfall - Form C-A.pdf",
+  "page_count": 126,
+  "parent_sha256": "aa2cc40f3ee3422be74d432ce8e23d4025bb8d7aa225d6e66f77bee4a47e8a66",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1018,
+      "pymupdf_sha256": "855b45e6399bf90356eb78c9009cf363897f78304597620de51816cedaccc523",
+      "pypdf_chars": 1040,
+      "pypdf_sha256": "4ff8f402d8a986d60c6b8830e21ef1bc48da50cbb3f71fd1dd61aa6f27f15d24"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1871,
+      "pymupdf_sha256": "e07bf2a2af9ecaa08cce72ae108fe363809aa7cbdaa45f01566c7042313a6fd8",
+      "pypdf_chars": 1873,
+      "pypdf_sha256": "7e7fce6af0ac27d697116fd1a0a0ba1b3ab14b37c1dc15db66a79f2bff3f3f79"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1071,
+      "pymupdf_sha256": "aa5bf4b1bccda5333d9168a3170fca00562730b3180cd59bfbdc7072e3623a03",
+      "pypdf_chars": 1071,
+      "pypdf_sha256": "aa5bf4b1bccda5333d9168a3170fca00562730b3180cd59bfbdc7072e3623a03"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3262,
+      "pymupdf_sha256": "199104121dbfcaa6d43c7ff49b82e3a655d90dc0effa43374148097766e7c0ac",
+      "pypdf_chars": 3262,
+      "pypdf_sha256": "199104121dbfcaa6d43c7ff49b82e3a655d90dc0effa43374148097766e7c0ac"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/a42059b8b3a42a88808c4d671963b64f16df510d31b410a2829cd3e86cd36146.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/a42059b8b3a42a88808c4d671963b64f16df510d31b410a2829cd3e86cd36146.bin.gz",
+  "source_sha256": "a42059b8b3a42a88808c4d671963b64f16df510d31b410a2829cd3e86cd36146",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/18265?view=preview"
+}

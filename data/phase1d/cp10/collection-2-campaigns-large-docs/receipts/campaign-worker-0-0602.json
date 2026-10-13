@@ -1,0 +1,18 @@
+{
+  "bytes": 178915,
+  "campaign_url": "https://republic.com/tibu-2023",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/tibu-2023/show_updates",
+  "gzip_sha256": "a1328f84e16efe5a3d35575dd54fe0cbef9ccfa928f3d976d271e3374ad3e503",
+  "http_status": 200,
+  "parent_sha256": "3de811295e9ff7be2cee217295c26862c883f5388ebed946344686275c91633c",
+  "raw_sha256": "2420699417d4069296ede5b24f5ec537ef67b09d4ee06b6d0efe8075dcdb7bb1",
+  "received_at": "2026-10-10T02:38:08.620951+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:07.948387+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2420699417d4069296ede5b24f5ec537ef67b09d4ee06b6d0efe8075dcdb7bb1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/tibu-2023/show_updates"
+}

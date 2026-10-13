@@ -1,0 +1,18 @@
+{
+  "bytes": 19218,
+  "campaign_url": "https://republic.com/lila",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lila/show_updates",
+  "gzip_sha256": "c2ae84efc622e02fcb7945f57fa3a5be7f3f6dff74b31f73c4fbcaa5f275267c",
+  "http_status": 200,
+  "parent_sha256": "399bfcb1dfd7e483ae19b5caec63303e1f1f7bcec9b38cca6a10d6fdeaab16cc",
+  "raw_sha256": "db6d3602ff1db9ca1b08820f7e7403406143fb60437eda5b804ea995a837be32",
+  "received_at": "2026-10-10T02:32:56.618580+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:56.071449+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/db6d3602ff1db9ca1b08820f7e7403406143fb60437eda5b804ea995a837be32.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lila/show_updates"
+}

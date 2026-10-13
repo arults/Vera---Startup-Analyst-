@@ -1,0 +1,18 @@
+{
+  "bytes": 161716,
+  "campaign_url": "https://republic.com/brikclik",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/brikclik/show_updates",
+  "gzip_sha256": "cd8927d853ff4426c7e02cba955c984849f7a08aa39d45fdeca0a3168150ce3e",
+  "http_status": 200,
+  "parent_sha256": "030631d7f8b385921d0c09e4d79178266ef2228d4b38547ed4848c734f003153",
+  "raw_sha256": "ba465e84f474ea76c627de3d635dc9e0452cd74c3d289c319c3df9a7679ffb3f",
+  "received_at": "2026-10-10T02:24:53.695847+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:52.957775+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ba465e84f474ea76c627de3d635dc9e0452cd74c3d289c319c3df9a7679ffb3f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/brikclik/show_updates"
+}

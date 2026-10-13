@@ -1,0 +1,18 @@
+{
+  "bytes": 147130,
+  "campaign_url": "https://republic.com/btr-nation",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/btr-nation/show_updates",
+  "gzip_sha256": "40e99c1faafb76f876b9e3da162558c3780a306edba455eadb73fbeebb864995",
+  "http_status": 200,
+  "parent_sha256": "d11782b576fdf9bf8ee1babfdcf402a7226cc5eae71f63508bd28ec65a3cd117",
+  "raw_sha256": "1ad76600a10ecd644d7124a29aa6cfe25572a8f3b910e059b5ab2563928b7543",
+  "received_at": "2026-10-10T02:24:55.869970+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:55.158122+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1ad76600a10ecd644d7124a29aa6cfe25572a8f3b910e059b5ab2563928b7543.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/btr-nation/show_updates"
+}

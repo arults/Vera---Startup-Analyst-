@@ -1,0 +1,19 @@
+{
+  "bytes": 369057,
+  "campaign_url": "https://republic.com/jane-west-january-2020",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/jane-west-january-2020/show_updates",
+  "gzip_sha256": "886ddfc0e4d7f928103895625cf65e5b396f33990f68114a0f09190759404e1e",
+  "http_status": 200,
+  "legal_name": "Pistil & Pollen, LLC",
+  "native_offering_id": 420,
+  "parent_sha256": "89432bf9cdc64bdd9c082dfc07c49c96bcb7a943ab361247aedb59b6e014f231",
+  "raw_sha256": "76e93989848d55b6d56735eba05bcca9bc8316d3bd7f0634eb6a8d9dc452ec74",
+  "received_at": "2026-10-10T00:52:12.416025+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:11.535162+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/76e93989848d55b6d56735eba05bcca9bc8316d3bd7f0634eb6a8d9dc452ec74.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/jane-west-january-2020/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 74807,
+  "campaign_url": "https://republic.com/raceya",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/raceya/show_updates",
+  "gzip_sha256": "cf789a6f1b8e3d14fcbf26fcb75b96478cae132a84ad15e59ef358e59c5383b4",
+  "http_status": 200,
+  "parent_sha256": "17db8af5cd077584bf86b02eaa5ebf8a843bfabcb974649cac979edaaf12a31b",
+  "raw_sha256": "a319978bbde3a8390bb70cf95869d51deda28d97a44a85e775bf5e1a8fff24be",
+  "received_at": "2026-10-10T02:35:48.841201+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:48.235647+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a319978bbde3a8390bb70cf95869d51deda28d97a44a85e775bf5e1a8fff24be.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/raceya/show_updates"
+}

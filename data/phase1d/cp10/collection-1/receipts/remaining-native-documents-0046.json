@@ -1,0 +1,18 @@
+{
+  "bytes": 2080722,
+  "campaign_url": "https://republic.com/inlightened",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1595?view=preview",
+  "gzip_sha256": "623ab2c2540a9d20c0112e3e559189f397b5fef7f46d6c6828baea54d4097dc6",
+  "http_status": 200,
+  "label": "Inlightened Form C.pdf",
+  "parent_sha256": "cedf155f7daf0beea2b1a3dd319e665cfdcc103191569f6ed971e59fc979e5c7",
+  "raw_sha256": "dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979",
+  "received_at": "2026-10-10T02:08:27.268193+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:26.547870+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/dcd184fa97c687c381c01a456a0e268b3d83ea56ea0186ec2d8dc56d23f6a979.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1595?view=preview"
+}

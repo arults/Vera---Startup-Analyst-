@@ -1,0 +1,78 @@
+{
+  "schema_version": "vera.observability-verification/1",
+  "package_version": "0.1.0",
+  "scope": "local_explicit_adapter_and_synthetic_contracts_only",
+  "runtime_sha256": "6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b",
+  "harness_sha256": "24e010440ed6cae45d6c86a1c96c6bc6dc25d22b7a2d243ec8b720067a007084",
+  "test_sha256": "8ff0f044337f41d3149e35002d3acb8b3bb1ed9b882ad79765f4c033294e9632",
+  "metrics_runtime_sha256": "624f781a0f547b96a9e370d0893d2aae255b6af5bdbef01db45cec89e91075ab",
+  "python_version": "3.12.14",
+  "package_tests": {
+    "passed": 88,
+    "failed": 0,
+    "skipped": 0,
+    "command": "python -I -B -m unittest discover -s research/observability-v0.1.0 -p 'test_*.py' -v"
+  },
+  "synthetic_replay": {
+    "independent_replays": 2,
+    "cases_per_replay": 8,
+    "all_case_checks_passed": true,
+    "matched_case_regressions": 0,
+    "metrics_adapter": "actual_local_run_metrics_recorder",
+    "linked_dashboard": "examples/synthetic/dashboard.html",
+    "metric_run_and_attempt_correlation": "matched",
+    "metric_dashboard_content": "verified_generated_bytes",
+    "schema_validated_events": 202,
+    "research_quality": "not_evaluated",
+    "no_live_company_runs": true,
+    "no_provider_calls": true
+  },
+  "structural_schemas": {
+    "draft": "2020-12",
+    "both_schema_documents_valid": true,
+    "runtime_semantic_validation": "mandatory"
+  },
+  "html_validation": {
+    "generated": true,
+    "escaping_and_safe_relative_links_tested": true,
+    "linked_metrics_html_bytes_verified": true,
+    "visual_browser_qa": "not_run_executor_browser_launch_blocked"
+  },
+  "integration_limits": [
+    "No production company-analysis host adapter is connected.",
+    "No global/hidden user, model, tool or worker interception.",
+    "No hosted usage, final-response tokens or remote RAM verification.",
+    "Synthetic development fixtures have no independent holdout or empirical calibration claim.",
+    "Remote publication commit and CI are separate parent verification steps."
+  ],
+  "source_and_example_sha256": {
+    "README.md": "5088d6a9ccd29893699ce93d089ae2e5fe52e4371ddc87f5602dc03dcb9393cb",
+    "build_schemas.py": "7ab645a47b5ebd086386d6a705a6ee7be1fc72a6a3a4ce5da192e0273e4b044a",
+    "examples/interrupted-resumed.jsonl": "760ce3a775400435d60722597e46707ffd9140acc406c68256a2acfa1ddec90e",
+    "examples/synthetic/dashboard.html": "b1590574c20ff03ce23c20c0875de4981fcc5e821510b90b86ad2d2d37b90532",
+    "examples/synthetic/metrics/dashboard.html": "32ad64984a89a28a3520455a3a55623517f3b7ac775d9518a6f3bb087fcb3fbe",
+    "examples/synthetic/metrics/metrics.json": "4d5f9c7146a40b5e12a738f939bdec37f4396948fbf4f5aa351313ff957f133b",
+    "examples/synthetic/metrics/metrics.md": "7824610f08772029ea6cafcc9184102a5c0ae31f841e6dafe98cdfab0af028fc",
+    "examples/synthetic/metrics.jsonl": "72a229de69b55d30a95fd872dfd738425f2c38b57927fcd2433515cb71953a26",
+    "examples/synthetic/observability.json": "823244afd92312724d7834c703eb195e968ad35ee1b8d464849aea69ba4c8726",
+    "examples/synthetic/trace.jsonl": "18a1f6b5e837f6f2008bae2964c5ec084256ad4c0fd39693fd20a2fb768f9001",
+    "examples/synthetic-benchmark.json": "87a6fa11af3b23d104fee3f0d9eb708325bcc360e13e6e2fb710e581609afa81",
+    "examples/synthetic-comparison.json": "496541cba54b69f2c9a07551bd90756f29a85cd58aec3e87a86676117e40d719",
+    "schemas/eval.schema.json": "192c618e226a57586c4e8b7bddafb7d0d2c65b6b8ac2493f436117e1cd69ed2a",
+    "schemas/trace.schema.json": "b2afbd804fdfc0b37e4ac3cd951b326415d9426b1a9553913896444a990c46ef",
+    "synthetic_benchmark.py": "24e010440ed6cae45d6c86a1c96c6bc6dc25d22b7a2d243ec8b720067a007084",
+    "test_observability.py": "8ff0f044337f41d3149e35002d3acb8b3bb1ed9b882ad79765f4c033294e9632",
+    "vera_observability.py": "6c363eca3fca6b6c6cc7f34677557cb0b4baa563ba1cb638ef85a146b3f2b84b"
+  },
+  "independent_review": {
+    "passed_checks": 46,
+    "scope": "25 trace faults, 15 benchmark comparisons, 6 metrics joins",
+    "exact_runtime_and_harness_hashes_rechecked": true,
+    "final_additional_verification": [
+      "two fresh linked synthetic replays",
+      "formal schema validation",
+      "exact stored-example reproduction"
+    ],
+    "reviewer_basis": "independent code and synthetic fault checks; not research calibration"
+  }
+}

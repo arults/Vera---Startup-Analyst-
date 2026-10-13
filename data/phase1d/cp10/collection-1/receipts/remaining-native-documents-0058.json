@@ -1,0 +1,18 @@
+{
+  "bytes": 7277949,
+  "campaign_url": "https://republic.com/people-first-rh",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/208?view=preview",
+  "gzip_sha256": "50060cd3711eafec533d987ffc68b1d468fdb5b1fff05d06fa856d513a49b563",
+  "http_status": 200,
+  "label": "PeopleFirstRH Form C.pdf",
+  "parent_sha256": "a5a03b66d30403fc8d19430dce997029af84b8493ce2612efd3c4f8f88eb7e94",
+  "raw_sha256": "cb7891ced7452fd5b3889d49789ea597f34b483585bb916da6515e35d62e4824",
+  "received_at": "2026-10-10T02:08:43.136140+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:08:41.996949+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/cb7891ced7452fd5b3889d49789ea597f34b483585bb916da6515e35d62e4824.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/208?view=preview"
+}

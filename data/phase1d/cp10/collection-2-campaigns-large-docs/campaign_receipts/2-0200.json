@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "KAIYO Rooftop Bar & Restaurant",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/kaiyo",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c37babe0ec954d60419b270a97d0e64836a4e516801f8c6787c3b273630a5ca0.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "",
+    "final_url": "https://republic.com/kaiyo",
+    "first_live_date": "",
+    "investors": "289",
+    "legal_name_from_platform": "Rooftop Hospitality Group, LLC",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "MISSING",
+    "offering_year": "",
+    "raised_amount_usd": "436215",
+    "security_type": "Crowd IPA",
+    "source_content_sha256": "c37babe0ec954d60419b270a97d0e64836a4e516801f8c6787c3b273630a5ca0",
+    "source_url": "https://republic.com/kaiyo",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2022-04-08",
+    "successful_close_year_NOT_offering_year": "2022"
+  },
+  "final_url": "https://republic.com/kaiyo",
+  "first_live_date": "2021-03-29",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2022-04-08",
+      "Successfully raised $436,215 🍾"
+    ],
+    [
+      "2021-03-29",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 649,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/c37babe0ec954d60419b270a97d0e64836a4e516801f8c6787c3b273630a5ca0.bin.gz",
+  "source_sha256": "c37babe0ec954d60419b270a97d0e64836a4e516801f8c6787c3b273630a5ca0",
+  "successful_completion_date": "2022-04-08",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fc162eee2f2a223cb0bdd1cd322dc436dbdb53bcb8ad29023048c75ac72157d6.bin.gz",
+  "timeline_source_sha256": "fc162eee2f2a223cb0bdd1cd322dc436dbdb53bcb8ad29023048c75ac72157d6",
+  "url": "https://republic.com/kaiyo",
+  "year_in_study": true
+}

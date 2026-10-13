@@ -1,0 +1,18 @@
+{
+  "bytes": 17486,
+  "campaign_url": "https://republic.com/hydro-hash-reg-d",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/hydro-hash-reg-d/show_updates",
+  "gzip_sha256": "29c74c7185f6dc5913a537e54d871da275a3dcde1791470d1e41482e6489850f",
+  "http_status": 200,
+  "parent_sha256": "d570cd908e1a9c4ff3597989d39e8cff827473725def7a95428bfa30627ceeb3",
+  "raw_sha256": "40f80f11f49b4cf0e899d12aea68611e6f1d3fd6a547e9339f3e164e7d418e1b",
+  "received_at": "2026-10-10T02:30:27.786602+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:27.237880+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/40f80f11f49b4cf0e899d12aea68611e6f1d3fd6a547e9339f3e164e7d418e1b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hydro-hash-reg-d/show_updates"
+}

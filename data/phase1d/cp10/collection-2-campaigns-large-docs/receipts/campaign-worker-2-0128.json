@@ -1,0 +1,18 @@
+{
+  "bytes": 18594,
+  "campaign_url": "https://republic.com/cria-hair",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/cria-hair/show_updates",
+  "gzip_sha256": "cf6a05e9d3342da8053a30bf84eb667b604431cf1fd6fa0a7ef93fcfcc697c9a",
+  "http_status": 200,
+  "parent_sha256": "c8a4fcc4448fdd500c5ec86b74557c199942ba85bf5b82888d6c710ea7fad724",
+  "raw_sha256": "3900d89efc2682abbc4083d91eec8c9a3e371df76dae54448b3c71bf1432d8fc",
+  "received_at": "2026-10-10T02:25:55.799461+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:55.256318+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3900d89efc2682abbc4083d91eec8c9a3e371df76dae54448b3c71bf1432d8fc.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/cria-hair/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 226448,
+  "campaign_url": "https://republic.com/bioverge",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/bioverge/show_updates",
+  "gzip_sha256": "052d0e82b787c816e59af0b6a9e765c73425e9c9eeaf02e42759b4f5834e88b3",
+  "http_status": 200,
+  "parent_sha256": "0489cbdc87623389d88a5139ed9ba30230bd80c102c3e09e30f3ad7b6d142c22",
+  "raw_sha256": "1f1222a258c41681128bced8ae88953a03d0e08ccc6cc84a99f8ae584e42df3e",
+  "received_at": "2026-10-10T02:24:26.648792+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:25.944588+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1f1222a258c41681128bced8ae88953a03d0e08ccc6cc84a99f8ae584e42df3e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bioverge/show_updates"
+}

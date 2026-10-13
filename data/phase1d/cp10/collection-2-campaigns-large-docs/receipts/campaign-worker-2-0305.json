@@ -1,0 +1,18 @@
+{
+  "bytes": 190222,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/ivee",
+  "gzip_sha256": "91d71eca2cb2d25fd4c5f1bb3d7bc0d3ee8567bd8705af63ad49b739b5ed91ba",
+  "http_status": 200,
+  "raw_sha256": "64a574691bd7fb9d7f53d94226b5b4c6aa1778b34f2806b027482b1c7336abe0",
+  "received_at": "2026-10-10T02:31:46.945495+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:46.008953+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/64a574691bd7fb9d7f53d94226b5b4c6aa1778b34f2806b027482b1c7336abe0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ivee"
+}

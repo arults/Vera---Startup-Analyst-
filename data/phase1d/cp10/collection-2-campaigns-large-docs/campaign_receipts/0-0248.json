@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Nada",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/nada",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1ebb13dd194cd5aad16aa657fdad2c00d741982ee74c3e2a8069cc8f1d8ed9cd.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1801613",
+    "final_url": "https://republic.com/nada",
+    "first_live_date": "",
+    "investors": "3895",
+    "legal_name_from_platform": "Nada Holdings, Inc.",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "1824399",
+    "security_type": "",
+    "source_content_sha256": "1ebb13dd194cd5aad16aa657fdad2c00d741982ee74c3e2a8069cc8f1d8ed9cd",
+    "source_url": "https://republic.com/nada",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2021-07-27",
+    "successful_close_year_NOT_offering_year": "2021"
+  },
+  "final_url": "https://republic.com/nada",
+  "first_live_date": "2020-06-17",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2021-07-27",
+      "Successfully raised $1,824,399.23 🍾"
+    ],
+    [
+      "2020-06-17",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 461,
+  "native_state": "finalized",
+  "offering_year": 2020,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1ebb13dd194cd5aad16aa657fdad2c00d741982ee74c3e2a8069cc8f1d8ed9cd.bin.gz",
+  "source_sha256": "1ebb13dd194cd5aad16aa657fdad2c00d741982ee74c3e2a8069cc8f1d8ed9cd",
+  "successful_completion_date": "2021-07-27",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4759628ffd15f0fdf0a1554461415c0664d702dd3087eeaceeac842e7835510f.bin.gz",
+  "timeline_source_sha256": "4759628ffd15f0fdf0a1554461415c0664d702dd3087eeaceeac842e7835510f",
+  "url": "https://republic.com/nada",
+  "year_in_study": true
+}

@@ -1,0 +1,12 @@
+{
+  "repository_mode_cli_exit": 0,
+  "default_test_discovery_exit": 0,
+  "tests_passed": 45,
+  "output_sha256": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28",
+  "adapter_sha256": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+  "same_payload_as_local_source_map": true,
+  "portable_files_scanned": 21,
+  "absolute_workspace_strings_found": 0,
+  "remote_checkout_or_ci_claimed": false,
+  "scope": "Fresh temporary repository layout using exact hash-verified native raw inputs; gzip transport reconstructed locally. No external reads or original input mutations."
+}

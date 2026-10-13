@@ -1,0 +1,18 @@
+{
+  "bytes": 51726,
+  "campaign_url": "https://republic.com/revolution-race-cars",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/revolution-race-cars/show_updates",
+  "gzip_sha256": "de385feb99ef83d8be3384bdaa2c55223c0b80040a45c984fd56203c86e243ca",
+  "http_status": 200,
+  "parent_sha256": "e25cf2332af6efbd254c6d36fcf4e885289e842676e8080780ae9a8389cf63f8",
+  "raw_sha256": "dc824cb7641a5b7cd5d8a3d84ebfad72215e4e4850d4ed4502bda50d5ffd0e85",
+  "received_at": "2026-10-10T02:36:38.361643+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:37.770942+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/dc824cb7641a5b7cd5d8a3d84ebfad72215e4e4850d4ed4502bda50d5ffd0e85.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/revolution-race-cars/show_updates"
+}

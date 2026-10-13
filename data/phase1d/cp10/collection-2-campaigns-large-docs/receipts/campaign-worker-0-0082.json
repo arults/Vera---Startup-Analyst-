@@ -1,0 +1,18 @@
+{
+  "bytes": 201247,
+  "campaign_url": "https://republic.com/breshna",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/breshna/show_updates",
+  "gzip_sha256": "71971d7cf880def9e23a145917bc0c101f047b7815b5014f95245cc210eec39d",
+  "http_status": 200,
+  "parent_sha256": "3cd77c809724d7045e45c1e0f577867be799b4e6d6c82136a6e5cfa85c1c742e",
+  "raw_sha256": "b538ec8d0824e6f7cc8fe0858bdf72cc40a27f4927d719d3ec3c2b87f9943685",
+  "received_at": "2026-10-10T02:24:49.846931+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:49.105490+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/b538ec8d0824e6f7cc8fe0858bdf72cc40a27f4927d719d3ec3c2b87f9943685.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/breshna/show_updates"
+}

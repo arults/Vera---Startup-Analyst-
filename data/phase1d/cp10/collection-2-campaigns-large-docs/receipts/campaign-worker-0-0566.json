@@ -1,0 +1,18 @@
+{
+  "bytes": 171770,
+  "campaign_url": "https://republic.com/stojo",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/stojo/show_updates",
+  "gzip_sha256": "e36a4929302e73041825814bb82d581f2dfe27a0d39cc0f551cb0fc8d078987d",
+  "http_status": 200,
+  "parent_sha256": "4fb523c411cf1a9b644c33fb37b4a374ce419cd456e981eecc9bf91233088bbc",
+  "raw_sha256": "e5ffeb4645473f4c11c1b625fcde1d150335e5894776270d5fdf9c86d82fe932",
+  "received_at": "2026-10-10T02:37:26.759947+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:26.032137+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e5ffeb4645473f4c11c1b625fcde1d150335e5894776270d5fdf9c86d82fe932.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/stojo/show_updates"
+}

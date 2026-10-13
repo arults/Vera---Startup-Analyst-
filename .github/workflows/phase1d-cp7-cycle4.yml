@@ -1,0 +1,44 @@
+name: Phase 1D CP7 native census recovery
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp7-cycle4.yml]
+permissions:
+  contents: write
+jobs:
+  recovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - run: python -m src.phase1d.capture_cp7_cycle4
+      - name: Preserve only additive cycle 4 evidence
+        run: |
+          git config user.name 'Vera research checkpoint'
+          git config user.email '109891188+arults@users.noreply.github.com'
+          git add data/phase1d/cp7/cycle-4
+          git diff --cached --name-status > /tmp/vera-changes.txt
+          if grep -v '^A' /tmp/vera-changes.txt; then exit 1; fi
+          git commit -m 'CP7 cycle 4: native census recovery evidence; no completeness claim'
+          git push origin HEAD:phase-1d
+      - name: Export evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp7-cycle4
+          if test -d data/phase1d/cp7/cycle-4; then tar -czf /tmp/vera-cp7-cycle4/research.tar.gz data/phase1d/cp7/cycle-4; fi
+          git rev-parse HEAD > /tmp/vera-cp7-cycle4/commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp7-cycle4-${{ github.run_id }}
+          path: /tmp/vera-cp7-cycle4/
+          retention-days: 90
+          if-no-files-found: error

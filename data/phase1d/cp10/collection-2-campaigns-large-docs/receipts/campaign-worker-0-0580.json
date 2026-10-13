@@ -1,0 +1,18 @@
+{
+  "bytes": 21847,
+  "campaign_url": "https://republic.com/tagmango",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/tagmango/show_updates",
+  "gzip_sha256": "8f6288da5c35596477f8f2212efb5511ba1975bfa01ad964c5d313cea86c3ad9",
+  "http_status": 200,
+  "parent_sha256": "46b8969c31815d49679a83b8984d4e512883a138b639caa53190a38812ef7443",
+  "raw_sha256": "0a059766a7c07aa96724b3258b293f13953ae817f89c6fd10e6b767f67ab97a9",
+  "received_at": "2026-10-10T02:37:44.821713+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:37:44.271991+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/0a059766a7c07aa96724b3258b293f13953ae817f89c6fd10e6b767f67ab97a9.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/tagmango/show_updates"
+}

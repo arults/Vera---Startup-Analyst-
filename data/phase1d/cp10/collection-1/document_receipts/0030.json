@@ -1,0 +1,49 @@
+{
+  "bytes": 23039090,
+  "campaign_url": "https://republic.com/groundfloor",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Groundfloor Finance Form C.pdf",
+  "page_count": 207,
+  "parent_sha256": "6d854cd3fbcbbb5d28e5e07896cbfaef26cc0fc687481b3a5cdd0445815aa029",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 952,
+      "pymupdf_sha256": "dd4f424496a5d6d5e02e669b01250d1880b1bdda7f199f1fa3fa69d768819532",
+      "pypdf_chars": 952,
+      "pypdf_sha256": "dd4f424496a5d6d5e02e669b01250d1880b1bdda7f199f1fa3fa69d768819532"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1679,
+      "pymupdf_sha256": "6f431b978f4c6e7431636450fa7070754a28de917b74d7aae9ff26e1b16f1f0b",
+      "pypdf_chars": 1679,
+      "pypdf_sha256": "6f431b978f4c6e7431636450fa7070754a28de917b74d7aae9ff26e1b16f1f0b"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1124,
+      "pymupdf_sha256": "5887a8c1f505d55d7d14b36eb2a1423545011b4e4df05000ec133a74519efb1b",
+      "pypdf_chars": 1125,
+      "pypdf_sha256": "2c355fd2e876c953dba9cdb285a78fc9da064bfead989b49ccb1e2c634646bb2"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3190,
+      "pymupdf_sha256": "2edc170baf24c9a2ca1a14c31397b8f0009a2c256a17f8f4c0dfe788f5c7606b",
+      "pypdf_chars": 3190,
+      "pypdf_sha256": "2edc170baf24c9a2ca1a14c31397b8f0009a2c256a17f8f4c0dfe788f5c7606b"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/437fbf5be7cd1e2fdb46c795d92ccbb6bcf70b8c6de3f976a01c6b7c1344ab4f.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/437fbf5be7cd1e2fdb46c795d92ccbb6bcf70b8c6de3f976a01c6b7c1344ab4f.bin.gz",
+  "source_sha256": "437fbf5be7cd1e2fdb46c795d92ccbb6bcf70b8c6de3f976a01c6b7c1344ab4f",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/11389?view=preview"
+}

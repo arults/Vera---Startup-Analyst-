@@ -1,0 +1,19 @@
+{
+  "bytes": 28263,
+  "campaign_url": "https://republic.com/plain-sight",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/plain-sight/show_updates",
+  "gzip_sha256": "4ebee84ae76e4b0a48e110707b7c4d7834be674c96e9f0b426d439a4c7422c84",
+  "http_status": 200,
+  "legal_name": "Get to Work, Inc.",
+  "native_offering_id": 904,
+  "parent_sha256": "b1448f08e95c7573f10faa445c7ada0c8fd27e195229f6bbb368f888eccaa196",
+  "raw_sha256": "bc1cb8171112a6d72633a3a21734d2a06e57a1eade743462c48196965d4a6d9b",
+  "received_at": "2026-10-10T00:52:21.205167+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:20.724116+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/bc1cb8171112a6d72633a3a21734d2a06e57a1eade743462c48196965d4a6d9b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/plain-sight/show_updates"
+}

@@ -1,0 +1,20 @@
+{
+  "bytes": 141430,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/events/meet-the-founder-of-fetchfind",
+  "gzip_sha256": "0242b9cbea5a2f0a2fc58a247d383e91ba7f4e27fa2324efbea635c49d984d54",
+  "http_status": 200,
+  "raw_sha256": "bd2e0183faf9edbd3eaabcbc82d0ce0f72d56aebe89722f43fa8e1f84f595211",
+  "received_at": "2026-10-10T02:33:37.653574+00:00",
+  "redirects": [
+    "https://republic.com/events/meet-the-founder-of-fetchfind"
+  ],
+  "retrieval_started_at": "2026-10-10T02:33:36.957625+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bd2e0183faf9edbd3eaabcbc82d0ce0f72d56aebe89722f43fa8e1f84f595211.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/meet-the-founder-of-fetchfind"
+}

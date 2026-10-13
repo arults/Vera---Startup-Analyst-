@@ -1,0 +1,19 @@
+{
+  "bytes": 160189,
+  "campaign_url": "https://republic.com/digital-dream-labs-2020",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/digital-dream-labs-2020/show_updates",
+  "gzip_sha256": "d0ada7e089d6e204222d0fd77d735e5cc71b857c5290dae14610d0cf8883ac2b",
+  "http_status": 200,
+  "legal_name": "Digital Dream Labs, LLC",
+  "native_offering_id": 343,
+  "parent_sha256": "b65cb30dce8eda38b9a329192cfe8da8824c0ccc9a74163655c92e72db6e15c0",
+  "raw_sha256": "010f8522e8a8cbbc1592b5459ef8aefa1cffd2cfe2c2f7fff17a97a10f0b00ec",
+  "received_at": "2026-10-10T00:51:56.952157+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:56.286257+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/010f8522e8a8cbbc1592b5459ef8aefa1cffd2cfe2c2f7fff17a97a10f0b00ec.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/digital-dream-labs-2020/show_updates"
+}

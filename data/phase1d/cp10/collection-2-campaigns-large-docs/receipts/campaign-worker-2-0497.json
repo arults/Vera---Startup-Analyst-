@@ -1,0 +1,18 @@
+{
+  "bytes": 28929,
+  "campaign_url": "https://republic.com/real-made-oats",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/real-made-oats/show_updates",
+  "gzip_sha256": "6670b26f50ac8c93ee03471ca884e5d7be93df6abeba43d59ff085e7ddd94f24",
+  "http_status": 200,
+  "parent_sha256": "84d68348a7ca209d1b39c8774305eef446576a4895eb6202527f45907d9d4390",
+  "raw_sha256": "a4c1a32badaf7d1ad909afe006a1c2ed8ace06b567a5cc4a278ff904bc768fac",
+  "received_at": "2026-10-10T02:36:10.598718+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:09.968796+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a4c1a32badaf7d1ad909afe006a1c2ed8ace06b567a5cc4a278ff904bc768fac.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/real-made-oats/show_updates"
+}

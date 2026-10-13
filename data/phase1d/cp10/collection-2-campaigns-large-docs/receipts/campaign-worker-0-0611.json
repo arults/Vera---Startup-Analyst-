@@ -1,0 +1,18 @@
+{
+  "bytes": 15510,
+  "campaign_url": "https://republic.com/tradefunded",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/tradefunded/show_updates",
+  "gzip_sha256": "0ed6a28c0cb17c99d4ca7b2d70943dce77fd8ea8159346320302dfbb9c3fdb2d",
+  "http_status": 200,
+  "parent_sha256": "d6992c30de35c7908a7860a2a6b967190224818edf712bf6776c1d35c52a8a88",
+  "raw_sha256": "a97144e2773829fa91abc13cc196db54d8459591910229146465a9f1d3ecaa20",
+  "received_at": "2026-10-10T02:38:19.498200+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:18.956011+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/a97144e2773829fa91abc13cc196db54d8459591910229146465a9f1d3ecaa20.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/tradefunded/show_updates"
+}

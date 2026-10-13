@@ -1,0 +1,19 @@
+{
+  "bytes": 76590,
+  "campaign_url": "https://republic.com/natural-selection",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/natural-selection/show_updates",
+  "gzip_sha256": "35f5e4c5713dbd58fa88ba5051f057449fcd1403ffe9ef98509a3b70e0a3d124",
+  "http_status": 200,
+  "legal_name": "Natural Selection Nutrition, LLC",
+  "native_offering_id": 399,
+  "parent_sha256": "5e54e1466501c78c84586de44e44d511fe97baa86151d5f9317bc4b470408450",
+  "raw_sha256": "3c9d0bba7750a96ace29b3404b24e1c2d26ab9b8521f336b5a2c1de5e6798777",
+  "received_at": "2026-10-10T00:52:18.568588+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:18.047201+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/3c9d0bba7750a96ace29b3404b24e1c2d26ab9b8521f336b5a2c1de5e6798777.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/natural-selection/show_updates"
+}

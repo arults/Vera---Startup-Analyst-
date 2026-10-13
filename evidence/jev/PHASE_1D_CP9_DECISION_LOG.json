@@ -1,0 +1,76 @@
+{
+  "checkpoint": "CP9",
+  "date": "2026-10-10",
+  "model": "jev-1.13.0",
+  "record_type": "Extracts of actual Jev tool responses; input states are summarized, not represented as verbatim transcripts",
+  "interpretation": "Probabilities and confidence are model judgments, not statistical certainty, work-completion percentages or substitutes for evidence gates.",
+  "decisions": [
+    {
+      "iteration": 1,
+      "input_summary": "Verified CP8: incomplete four-platform native censuses, low-information estimates, failed SEC quarter archive route; select genuinely new empirical work.",
+      "answers": {
+        "research_order": {"choice": "A_then_B", "selected_probability": 0.93, "confidence": 0.91, "alternative_B_then_A_probability": 0.07},
+        "can_close_now": {"type": "noul", "yes_probability": 0.02},
+        "evidence_scope_rule": {"choice": "separate_candidate_pending_protocol_review", "selected_probability": 1.0, "confidence": 1.0}
+      }
+    },
+    {
+      "iteration": 2,
+      "input_summary": "New source-linked public Republic update fragments, distinct official SEC issuer-history route, and preserved 360-row Wefunder2020 filing frame. Acquisition announcement does not establish cash-flow date.",
+      "answers": {
+        "approve_routes": {"choice": "execute_separate_bridge_and_new_sources", "selected_probability": 1.0, "confidence": 1.0},
+        "import_frame_status": {"choice": "auditable_regulator_reconstruction_not_original_census", "selected_probability": 1.0, "confidence": 1.0},
+        "trusst_announcement_is_payout_date": {"type": "noul", "yes_probability": 0.07}
+      }
+    },
+    {
+      "iteration": 3,
+      "input_summary": "Cycle1 captured122new JSON update payloads. Initial escaped-HTML parser was wrong; exact native milestones yield244dates. Correct decoding additively and do not count replay as another research collection. Trusst launched2020, not its2021closingyear. Wind-down lead needs full text and date typing.",
+      "answers": {
+        "date_field_admission": {"choice": "admit_verified_fields_keep_cohort_holds", "selected_probability": 1.0, "confidence": 1.0},
+        "trusst_year": {"choice": "2020", "selected_probability": 1.0, "confidence": 1.0},
+        "closure_lead": {"choice": "fetch_full_notice_and_type_date", "selected_probability": 1.0, "confidence": 1.0},
+        "next_work": {"choice": "decode_verify_then_new_public_documents_and_posts", "selected_probability": 1.0, "confidence": 1.0}
+      }
+    },
+    {
+      "iteration": 4,
+      "input_summary": "120of122datepairs have complete native parent binding. Two remain held. Cityfunds city-series share issuerCIK but must not automatically merge. Woofy exactCIK/name links a2019Republic campaign with an unconfirmed2020Wefunder filing, not a funded follow-on success.",
+      "answers": {
+        "same_cik_same_round": {"choice": "keep_distinct_pending_series_terms", "selected_probability": 1.0, "confidence": 1.0},
+        "cross_platform_woofy": {"choice": "issuer_link_candidate_not_funded_followon_success", "selected_probability": 1.0, "confidence": 1.0},
+        "date_hold_reporting": {"choice": "120_verified_2_held", "selected_probability": 1.0, "confidence": 1.0}
+      }
+    },
+    {
+      "iteration": 5,
+      "input_summary": "Cycle2:362fullpublicposts,7PDFs,234tests passed. Two public documents hit12MB local limits, not access denials;121notattempted. Three exact issuer-linked campaign leads remain. Partnership/buyer acquisition/fundraising-end keywords are not terminal investor outcomes.",
+      "answers": {
+        "next_action": {"choice": "bounded_resume_and_new_campaigns", "selected_probability": 1.0, "confidence": 1.0},
+        "keyword_safety": {"choice": "typed_issuer_event_review", "selected_probability": 1.0, "confidence": 1.0},
+        "new_negative_case_link": {"choice": "verify_rebrand_legal_and_new_round_binding_first", "selected_probability": 1.0, "confidence": 1.0}
+      }
+    },
+    {
+      "iteration": 6,
+      "input_summary": "Cycle3 recovered22morePDFs and3newcampaigns,2datepairs;300MBbudget left105notattempted and1partial. Proposed31nativeoperatingreports among47reviewed latestreports, period-date safeguards, fourPDFissuer/SAFEreviews and explicit2022Ternio-to-Unbanked legalconversion. June2023nativepost announces winding down, not exact completed cessation or investor loss.",
+      "answers": {
+        "operating_reports": {"choice": "admit_source_reports_keep_truth_and_estimation_limits", "selected_probability": 1.0, "confidence": 1.0},
+        "period_dates": {"choice": "interval_or_hold_not_invented_point", "selected_probability": 1.0, "confidence": 1.0},
+        "unbanked_event": {"choice": "continuity_and_winddown_announcement_only", "selected_probability": 1.0, "confidence": 1.0},
+        "safe_followons": {"choice": "no_comparable_priced_equity", "selected_probability": 1.0, "confidence": 1.0},
+        "finish_or_plateau": {"type": "noul", "yes_probability": 0.06, "question_scope": "Full completion or global plateau justified by current state"}
+      }
+    },
+    {
+      "iteration": 7,
+      "input_summary": "Final actual adjudication run38014029889, data commit32ae3846195d21938c8d7f3ea281339a8e76917f. Three successful collection cycles;125campaign candidates,122fullybounddatepairs,31nativeoperatingreports(25point/6period),16latestreportholds,29PDFcaptures/fourissuerSAFEreviews, legalconversionandwinddownannouncementverified.234regressions,43historicalscientificchecks,24specificchecksPASS.2947previousdatafilesunchanged. Fourcensusesincomplete;105publicdocsnotattempted;no numericalpromotion or mainmerge.",
+      "answers": {
+        "checkpoint_classification": {"choice": "verified_empirical_progress_research_incomplete", "selected_probability": 1.0, "confidence": 1.0, "other_choice_probabilities": {"phase1d_fully_complete": 0.0, "only_software_progress": 0.0}},
+        "numerical_prior_promotion": {"choice": "blocked_keep_existing_priors", "selected_probability": 1.0, "confidence": 1.0, "other_choice_probabilities": {"promote_partial_census": 0.0}},
+        "global_plateau_status": {"choice": "not_demonstrated", "selected_probability": 1.0, "confidence": 1.0, "other_choice_probabilities": {"demonstrated": 0.0}},
+        "next_critical_work": {"choice": "historical_coverage_and_remaining_source_adjudication", "selected_probability": 1.0, "confidence": 1.0, "other_choice_probabilities": {"more_generic_unit_tests": 0.0, "relabel_scope_complete": 0.0}}
+      }
+    }
+  ]
+}

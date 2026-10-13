@@ -1,0 +1,20 @@
+{
+  "bytes": 334240,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/hamilton-lane-private-infrastructure-fund",
+  "gzip_sha256": "87cf46cb10ae58fdbf35ba9d6b3872f325485b51b4ef2bcad9d32b58f0909358",
+  "http_status": 200,
+  "raw_sha256": "ac62757b135e863e70710cf699fbe5693a9ba73acbaae3d16530db39ba0a6f8d",
+  "received_at": "2026-10-10T02:29:19.731773+00:00",
+  "redirects": [
+    "https://republic.com/hamilton-lane-private-infrastructure-fund"
+  ],
+  "retrieval_started_at": "2026-10-10T02:29:18.985637+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ac62757b135e863e70710cf699fbe5693a9ba73acbaae3d16530db39ba0a6f8d.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/hamilton-lane-private-infrastructure-fund-tranche-19"
+}

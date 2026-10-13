@@ -1,0 +1,20 @@
+{
+  "bytes": 194422,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/watrfall",
+  "gzip_sha256": "5e52b9c65270bb0ffa97ccfe20477576cf3272bf6ac79f87f8b815d35e546875",
+  "http_status": 200,
+  "raw_sha256": "66ddbbc9964eec38331c7a1547007d402e3fd61d78f4ede3abd4111f2ef19b7e",
+  "received_at": "2026-10-10T02:38:52.945929+00:00",
+  "redirects": [
+    "https://republic.com/watrfall"
+  ],
+  "retrieval_started_at": "2026-10-10T02:38:51.843975+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/66ddbbc9964eec38331c7a1547007d402e3fd61d78f4ede3abd4111f2ef19b7e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/watrfall-landing"
+}

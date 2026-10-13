@@ -1,0 +1,18 @@
+{
+  "bytes": 11844,
+  "campaign_url": "https://republic.com/islamic-coin",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/islamic-coin/show_updates",
+  "gzip_sha256": "4d464ccc9eb8fde1d6657203ff9dd69f6fb1d43bd71a1e7817683f48c7fb7249",
+  "http_status": 200,
+  "parent_sha256": "5c2333dcbabde51c90afe06555a8f0ffad1308c7e1bdd90e196056ee74968652",
+  "raw_sha256": "31c9c7d81f4d5ee9adb09be46f4356df2c1c587b0ebd42abfbcb3ed82eb3e92b",
+  "received_at": "2026-10-10T02:31:25.614690+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:25.056456+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/31c9c7d81f4d5ee9adb09be46f4356df2c1c587b0ebd42abfbcb3ed82eb3e92b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/islamic-coin/show_updates"
+}

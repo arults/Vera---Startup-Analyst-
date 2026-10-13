@@ -1,0 +1,51 @@
+{
+  "status": "INDEPENDENTLY_AND_JEV_ACCEPTED_EXACT_TWO_ROW_CANONICAL_RESEARCH_ADAPTER",
+  "version": "0.3.0",
+  "source_code_sha256": "8bbc74533ade26aa4a41dc58884eb8dda8f0aa9b7e26c2bfd74024b84f280d73",
+  "input_manifest_sha256": "8d1153317a3defdcf1157adbd032282f1ff7ef86bff3a3a20c7b31decb47825d",
+  "canonical_research_ledger_sha256": "026d411e62b5b37424a1bd2a9ec3e0c3fc88031c0d6f691b59c34aeb22fa7d28",
+  "independent_review_sha256": "d0f5ec382a6af6829e7e71aea721138f106799c2a05e4b03130ea643b67700a7",
+  "independent_successor_addendum_sha256": "a8ccb96ec789fefc106984b79af284eb08745f421ea01cd41bc4ed1c893e2d82",
+  "final_jev_request_sha256": "da54d9845b00f1b944c1d4cd91d49aa4c88a3458fc087a84a5c2697ac676063a",
+  "final_jev_response_sha256": "023323d2cb9ff885d967a915e812a0c8434dd0fd6767e2ed5fa28598b04ac62b",
+  "research_companies_admitted": 2,
+  "research_rounds_admitted": 2,
+  "production_admissions": 0,
+  "estimation_eligible_rows": 0,
+  "phase_complete": false,
+  "global_plateau": false,
+  "rates_promoted": false,
+  "priors_changed": false,
+  "focused_tests_passed": 45,
+  "independent_checks_passed": 34,
+  "finite_schema_parity_cases_passed": 302,
+  "portable_repository_mode_and_default_discovery_passed": true,
+  "remote_ci_claimed": false,
+  "remote_writes": 0,
+  "external_reads": 0,
+  "actual_jev_calls": 2,
+  "jev_input_tokens": 2374,
+  "jev_output_tokens": 186,
+  "native_reasoning_tokens": null,
+  "final_jev_answers": {
+    "successor_disposition": {
+      "type": "choice",
+      "choice": "accept_exact_successor_research_ledger",
+      "confidence": 0.98,
+      "probabilities": {
+        "accept_exact_successor_research_ledger": 0.99,
+        "reject_successor": 0.01,
+        "promote_full_study": 0
+      }
+    },
+    "lineage_boundary": {
+      "type": "noul",
+      "noul": 0.96
+    },
+    "downstream_promotion": {
+      "type": "noul",
+      "noul": 0.03
+    }
+  },
+  "interpretation": "The final JEV request is an explicit successor gate. Historical predecessor receipts are not rebound. Model probabilities are judgments, not study-completion percentages."
+}

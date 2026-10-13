@@ -1,0 +1,48 @@
+{
+  "completed_at": "2026-10-09T09:43:32.234832+00:00",
+  "crowdcube": {
+    "advertised_max_page": null,
+    "attempts": [
+      {
+        "capture_path": "data/phase1d/cp7/cycle-4/captures/ce2a9c4f919de20040c94b089383d153e0ef1bb932e3a10674e52de8e650b34d.bin.gz",
+        "gzip_sha256": "e2e9bd5173f92c22ef63dacd28d605b1c17ad07a700acf9b4daa7ee9eacaeb10",
+        "http_status": 403,
+        "label": "crowdcube-001",
+        "raw_sha256": "ce2a9c4f919de20040c94b089383d153e0ef1bb932e3a10674e52de8e650b34d",
+        "received_at": "2026-10-09T09:43:26.857897+00:00",
+        "result": "ACCESS_BLOCKED_OR_HTTP_ERROR",
+        "url": "https://www.crowdcube.com/companies"
+      },
+      {
+        "capture_path": "data/phase1d/cp7/cycle-4/captures/c7029b4050385e9d8f0ff0ed6b74730c15b1632bad1256c844f674ba29739d77.bin.gz",
+        "gzip_sha256": "059c2a415813cb37ae143b9a7dea5d563351af581f25e2b779bfbacf2a28b59a",
+        "http_status": 403,
+        "label": "crowdcube-002",
+        "raw_sha256": "c7029b4050385e9d8f0ff0ed6b74730c15b1632bad1256c844f674ba29739d77",
+        "received_at": "2026-10-09T09:43:27.602272+00:00",
+        "result": "ACCESS_BLOCKED_OR_HTTP_ERROR",
+        "url": "https://www.crowdcube.com/companies?page=2"
+      },
+      {
+        "capture_path": "data/phase1d/cp7/cycle-4/captures/2b65dadb80c6ea858a2538d9092d648680d20456b24f518fec871d05fe61d0e8.bin.gz",
+        "gzip_sha256": "b7bcf2803676c1341588b5276e494b0b33e5f54a7ee9e1478055f8c892be4181",
+        "http_status": 403,
+        "label": "crowdcube-003",
+        "raw_sha256": "2b65dadb80c6ea858a2538d9092d648680d20456b24f518fec871d05fe61d0e8",
+        "received_at": "2026-10-09T09:43:28.352519+00:00",
+        "result": "ACCESS_BLOCKED_OR_HTTP_ERROR",
+        "url": "https://www.crowdcube.com/companies?page=3"
+      }
+    ],
+    "candidate_profiles": 0,
+    "census_complete": false,
+    "limitation": "Company directory is not a full economic-round census; blocked/missing pages and historical campaign terms remain unresolved."
+  },
+  "rates_promoted": false,
+  "research_plateau": false,
+  "wefunder": {
+    "attempts": [],
+    "census_complete": false,
+    "status": "PUBLIC_LANDING_BLOCKED_NO_BYPASS"
+  }
+}

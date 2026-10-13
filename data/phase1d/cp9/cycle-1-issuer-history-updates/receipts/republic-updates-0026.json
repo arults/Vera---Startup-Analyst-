@@ -1,0 +1,19 @@
+{
+  "bytes": 215081,
+  "campaign_url": "https://republic.com/citiesense",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/citiesense/show_updates",
+  "gzip_sha256": "a388166628ecd35dc580e5b35468dc13782742625cdc53b85079d276c387649d",
+  "http_status": 200,
+  "legal_name": "Citiesense Inc.",
+  "native_offering_id": 308,
+  "parent_sha256": "916c2daaa062fdd875fd263c8d4f110cc79d4909b40f5a49e1e38ba373bd7694",
+  "raw_sha256": "2a6ff1820c5c15984fcec5e99ad123a3b6b7e3055ccbfe44d63d3614cd179528",
+  "received_at": "2026-10-10T00:51:53.112568+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:52.441689+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/2a6ff1820c5c15984fcec5e99ad123a3b6b7e3055ccbfe44d63d3614cd179528.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/citiesense/show_updates"
+}

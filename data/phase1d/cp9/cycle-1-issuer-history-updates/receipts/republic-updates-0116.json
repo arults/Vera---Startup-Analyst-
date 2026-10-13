@@ -1,0 +1,19 @@
+{
+  "bytes": 274060,
+  "campaign_url": "https://republic.com/wandering-barman",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/wandering-barman/show_updates",
+  "gzip_sha256": "e9064d502c6140f1356bcfba7946f7893f6503c2ba21ff4703efd8fb8ccecdb8",
+  "http_status": 200,
+  "legal_name": "The Wandering Barman LLC",
+  "native_offering_id": 372,
+  "parent_sha256": "523689c76533c71822134762817338160f70595115c020b0c6c37e4f5710357a",
+  "raw_sha256": "e49e3d5eb9e4f09e070ff34985f06b7e261d2f693caf7b5141bc6ca20ff9f37a",
+  "received_at": "2026-10-10T00:52:47.930139+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:47.192354+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/e49e3d5eb9e4f09e070ff34985f06b7e261d2f693caf7b5141bc6ca20ff9f37a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/wandering-barman/show_updates"
+}

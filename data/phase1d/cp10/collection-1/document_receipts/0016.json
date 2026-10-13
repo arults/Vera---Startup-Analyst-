@@ -1,0 +1,49 @@
+{
+  "bytes": 7003109,
+  "campaign_url": "https://republic.com/dispatch-goods",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Dispatch Goods Form C.pdf",
+  "page_count": 85,
+  "parent_sha256": "6fef4dfb697f9152058156afc8bdf128969102a8c9d000a294843dd79b9339a2",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 935,
+      "pymupdf_sha256": "436d8e5aeb71bf5134a5e535b5a3400f6b93fbeb690b3c20a6ad388879b715cc",
+      "pypdf_chars": 935,
+      "pypdf_sha256": "436d8e5aeb71bf5134a5e535b5a3400f6b93fbeb690b3c20a6ad388879b715cc"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1488,
+      "pymupdf_sha256": "1512147dc9ddd1cfbe70f9e8ae615519be1783ca844e5f38d9749b1f0e1ff71a",
+      "pypdf_chars": 1489,
+      "pypdf_sha256": "6288f9d364443e8c8fd4863838dd4bc6d09ece2901073c1ffa9d6a7ecad16c91"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1837,
+      "pymupdf_sha256": "03367d6a18d2c5563adae12b9492ba48c38465dd8874c1c7d365ef3345136dcf",
+      "pypdf_chars": 1837,
+      "pypdf_sha256": "03367d6a18d2c5563adae12b9492ba48c38465dd8874c1c7d365ef3345136dcf"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1324,
+      "pymupdf_sha256": "50292ad6d724b98e75c182f78189bfcc35ba20423a9dfc2994f03d3dbde791a8",
+      "pypdf_chars": 1324,
+      "pypdf_sha256": "50292ad6d724b98e75c182f78189bfcc35ba20423a9dfc2994f03d3dbde791a8"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/01d13f95e5bab129355361969ecb73da450897c473985f31cb8c9b110737c73b.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/01d13f95e5bab129355361969ecb73da450897c473985f31cb8c9b110737c73b.bin.gz",
+  "source_sha256": "01d13f95e5bab129355361969ecb73da450897c473985f31cb8c9b110737c73b",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/132?view=preview"
+}

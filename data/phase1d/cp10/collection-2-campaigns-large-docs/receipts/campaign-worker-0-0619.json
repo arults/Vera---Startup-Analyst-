@@ -1,0 +1,18 @@
+{
+  "bytes": 78714,
+  "campaign_url": "https://republic.com/uncooked",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/uncooked/show_updates",
+  "gzip_sha256": "700fdb00fa6ab7ef7917465f5c1c49e65bb58024c2cfeaba09e197b9dbd263ad",
+  "http_status": 200,
+  "parent_sha256": "f5f0d74b3f4273ca6d919d9a086801ed48862bd02fcf5b0a6f9f75233734c003",
+  "raw_sha256": "85b211115daf4bd69e39dc3f354564cbd632c9522489b52024a97ce675fa7da3",
+  "received_at": "2026-10-10T02:38:28.765297+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:38:28.149464+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/85b211115daf4bd69e39dc3f354564cbd632c9522489b52024a97ce675fa7da3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/uncooked/show_updates"
+}

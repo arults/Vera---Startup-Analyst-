@@ -1,0 +1,36 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"model\":\"jev-1.13.0\",\"answers\":{\"successor_disposition\":{\"type\":\"choice\",\"choice\":\"accept_exact_successor_research_ledger\",\"confidence\":0.98,\"probabilities\":{\"accept_exact_successor_research_ledger\":0.99,\"reject_successor\":0.01,\"promote_full_study\":0}},\"lineage_boundary\":{\"type\":\"noul\",\"noul\":0.96},\"downstream_promotion\":{\"type\":\"noul\",\"noul\":0.03}},\"usage\":{\"input_tokens\":1533,\"output_tokens\":113}}"
+    }
+  ],
+  "structuredContent": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "successor_disposition": {
+        "type": "choice",
+        "choice": "accept_exact_successor_research_ledger",
+        "confidence": 0.98,
+        "probabilities": {
+          "accept_exact_successor_research_ledger": 0.99,
+          "reject_successor": 0.01,
+          "promote_full_study": 0
+        }
+      },
+      "lineage_boundary": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "downstream_promotion": {
+        "type": "noul",
+        "noul": 0.03
+      }
+    },
+    "usage": {
+      "input_tokens": 1533,
+      "output_tokens": 113
+    }
+  },
+  "isError": false
+}

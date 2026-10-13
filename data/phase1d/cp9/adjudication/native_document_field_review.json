@@ -1,0 +1,112 @@
+[
+  {
+    "campaign_url": "https://republic.com/trusst",
+    "estimation_eligible": false,
+    "final_issued_terms_verified": false,
+    "instrument_family": "SAFE",
+    "intermediary_cik_is_not_issuer_cik": true,
+    "issuer_name": "Trusst Health Inc.",
+    "label": "Trusst Form C.pdf",
+    "page_field_checks": {
+      "1": {
+        "anchor": "Trusst Health Inc.",
+        "pymupdf_sha256": "82ec2769b71e753b31d7eb642f10b4cf2a73f4ae2a6bc2a7e5781c4f5e831f58",
+        "pypdf_sha256": "82ec2769b71e753b31d7eb642f10b4cf2a73f4ae2a6bc2a7e5781c4f5e831f58"
+      },
+      "2": {
+        "anchor": "Crowd",
+        "pymupdf_sha256": "cbfe5f6503022a3789dfa898883cc06825986d4c973107135127bf703b7fea62",
+        "pypdf_sha256": "a3afbbe7b1366c3331a3694c7a7bc2d1e0feb3b4eaa605809c9d8a615b0e10e0"
+      }
+    },
+    "qualifying_priced_followon": false,
+    "source_path": "data/phase1d/cp9/cycle-2-documents-posts/captures/7d71e07855be21950e54a9ac291852397e9e455a3555123c709259ba00bb03b7.bin.gz",
+    "source_sha256": "7d71e07855be21950e54a9ac291852397e9e455a3555123c709259ba00bb03b7",
+    "source_url": "https://republic.com/documents/381?view=preview",
+    "verification": "Issuer and SAFE family anchors checked with two PDF parsers; selected pages visually reviewed separately."
+  },
+  {
+    "campaign_url": "https://republic.com/unbanked",
+    "conversion_anchor": "Effective January 1, 2022",
+    "conversion_date": "2022-01-01",
+    "conversion_full_assertion_sha256": "fbdb4d1414c9b8dbeb97af8a56edb7d54c2b1609771bbf020a19731ba41291b8",
+    "conversion_source_page": 10,
+    "estimation_eligible": false,
+    "final_issued_terms_verified": false,
+    "former_legal_name": "Ternio, LLC",
+    "instrument_family": "SAFE",
+    "intermediary_cik_is_not_issuer_cik": true,
+    "issuer_name": "Unbanked, Inc.",
+    "label": "Unbanked Form C:A #2.pdf",
+    "legal_continuity_verified": true,
+    "page_field_checks": {
+      "1": {
+        "anchor": "Unbanked, Inc.",
+        "pymupdf_sha256": "1c152f8fd8466635607cb823ad46997ce9bba23e4767ca0bafc18cc2c56586cf",
+        "pypdf_sha256": "1c152f8fd8466635607cb823ad46997ce9bba23e4767ca0bafc18cc2c56586cf"
+      },
+      "2": {
+        "anchor": "Crowd",
+        "pymupdf_sha256": "167e1a829fa4f6c0a8be292ffc9bde20b18e7c95c49c289954810e4543ab5212",
+        "pypdf_sha256": "167e1a829fa4f6c0a8be292ffc9bde20b18e7c95c49c289954810e4543ab5212"
+      }
+    },
+    "qualifying_priced_followon": false,
+    "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/1f7a872e1f1fb842a440104eba1214d65d618ea002b97a5ef18c2f1c5eb6cfe2.bin.gz",
+    "source_sha256": "1f7a872e1f1fb842a440104eba1214d65d618ea002b97a5ef18c2f1c5eb6cfe2",
+    "source_url": "https://republic.com/documents/1183?view=preview",
+    "verification": "Issuer and SAFE family anchors checked with two PDF parsers; selected pages visually reviewed separately."
+  },
+  {
+    "campaign_url": "https://republic.com/quickloadz",
+    "estimation_eligible": false,
+    "final_issued_terms_verified": false,
+    "instrument_family": "SAFE",
+    "intermediary_cik_is_not_issuer_cik": true,
+    "issuer_name": "Quick Loadz Container System, LLC",
+    "label": "Quick Loadz Form C .pdf",
+    "page_field_checks": {
+      "1": {
+        "anchor": "Quick Loadz Container System, LLC",
+        "pymupdf_sha256": "9f51b4e481e6d9fb59d542909aa159ef8654c5f21d53856f3656c0e0c81c38f7",
+        "pypdf_sha256": "9f51b4e481e6d9fb59d542909aa159ef8654c5f21d53856f3656c0e0c81c38f7"
+      },
+      "2": {
+        "anchor": "Crowd",
+        "pymupdf_sha256": "24a5ca0b576f4c505e8b49c83a6b1a9b32d94bb61b592fd96becbcac5faf902d",
+        "pypdf_sha256": "24a5ca0b576f4c505e8b49c83a6b1a9b32d94bb61b592fd96becbcac5faf902d"
+      }
+    },
+    "qualifying_priced_followon": false,
+    "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/4c288c22d4cb42669b261b5202543eb834a42a44ae3f57b6ef385c100625b58e.bin.gz",
+    "source_sha256": "4c288c22d4cb42669b261b5202543eb834a42a44ae3f57b6ef385c100625b58e",
+    "source_url": "https://republic.com/documents/7220?view=preview",
+    "verification": "Issuer and SAFE family anchors checked with two PDF parsers; selected pages visually reviewed separately."
+  },
+  {
+    "campaign_url": "https://republic.com/alpha-flow",
+    "estimation_eligible": false,
+    "final_issued_terms_verified": false,
+    "instrument_family": "SAFE",
+    "intermediary_cik_is_not_issuer_cik": true,
+    "issuer_name": "AlphaFlow Inc.",
+    "label": "Alphaflow Form C.pdf",
+    "page_field_checks": {
+      "1": {
+        "anchor": "AlphaFlow Inc.",
+        "pymupdf_sha256": "227f13c9017388ba470c9bf3ebca7ca1828c232bec3a42d6d4b7e075793d1da5",
+        "pypdf_sha256": "227f13c9017388ba470c9bf3ebca7ca1828c232bec3a42d6d4b7e075793d1da5"
+      },
+      "2": {
+        "anchor": "Crowd",
+        "pymupdf_sha256": "6f6848d13eeee786ca757db9d190d051aca22ef6bc702859c8574e367687569f",
+        "pypdf_sha256": "6f6848d13eeee786ca757db9d190d051aca22ef6bc702859c8574e367687569f"
+      }
+    },
+    "qualifying_priced_followon": false,
+    "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/da1e1725bdb5d43297a4aed0c751b0a5e501e89fecbd66e9bc816c0e74848a1d.bin.gz",
+    "source_sha256": "da1e1725bdb5d43297a4aed0c751b0a5e501e89fecbd66e9bc816c0e74848a1d",
+    "source_url": "https://republic.com/documents/1627?view=preview",
+    "verification": "Issuer and SAFE family anchors checked with two PDF parsers; selected pages visually reviewed separately."
+  }
+]

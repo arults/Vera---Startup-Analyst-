@@ -1,0 +1,18 @@
+{
+  "bytes": 4390339,
+  "campaign_url": "https://republic.com/teooh",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/209?view=preview",
+  "gzip_sha256": "de24b5f1463292ea38346335b2012c230ecf44698ff66fbf377710f40b7beed0",
+  "http_status": 200,
+  "label": "Teooh Form C-A 6.1.20.pdf",
+  "parent_sha256": "fc819eeea756571473f1dec1681d0c829aec3a3dbb6588048617314d21d84333",
+  "raw_sha256": "83e68aa8c77d6f88e43246f72d845d6ed3f3ff2b32d260e126510e7e992ba371",
+  "received_at": "2026-10-10T02:09:32.109373+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:31.252157+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/83e68aa8c77d6f88e43246f72d845d6ed3f3ff2b32d260e126510e7e992ba371.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/209?view=preview"
+}

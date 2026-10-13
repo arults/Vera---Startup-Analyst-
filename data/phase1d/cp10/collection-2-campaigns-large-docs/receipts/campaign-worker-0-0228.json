@@ -1,0 +1,18 @@
+{
+  "bytes": 56713,
+  "campaign_url": "https://republic.com/grrrl",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/grrrl/show_updates",
+  "gzip_sha256": "98fc88bbd127670c31ac2d4141972082b32337502ac43deba4d5646bd2307ad5",
+  "http_status": 200,
+  "parent_sha256": "a25d2c7a92411028201e376151096736f9f804c602a0f68972cb886e01586765",
+  "raw_sha256": "e41dbdead75b0684ce279ff71be285e198b0a74d66fc0dabf5bbae75be90eda0",
+  "received_at": "2026-10-10T02:28:59.198348+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:58.621617+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e41dbdead75b0684ce279ff71be285e198b0a74d66fc0dabf5bbae75be90eda0.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/grrrl/show_updates"
+}

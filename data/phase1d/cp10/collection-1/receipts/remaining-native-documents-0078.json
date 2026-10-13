@@ -1,0 +1,18 @@
+{
+  "bytes": 1708757,
+  "campaign_url": "https://republic.com/sienna-sauce-2020",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/147?view=preview",
+  "gzip_sha256": "7a89bbcf87a04f9f5595f05190d5501ad39d0851e56c315fb978cb2c2101ddd3",
+  "http_status": 200,
+  "label": "Sienna Sauce Form C.pdf",
+  "parent_sha256": "f3498218092a95f9a2207ebe158c0fc717660762e7cc98a5eb75019071f22585",
+  "raw_sha256": "6663b193f08e5a84b0a72e38620540b105f6a4813d7114f6af4d7ffbca623d73",
+  "received_at": "2026-10-10T02:09:17.549330+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:16.818911+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/6663b193f08e5a84b0a72e38620540b105f6a4813d7114f6af4d7ffbca623d73.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/147?view=preview"
+}

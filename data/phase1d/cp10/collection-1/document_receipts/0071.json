@@ -1,0 +1,49 @@
+{
+  "bytes": 1187358,
+  "campaign_url": "https://republic.com/rocket-dollar",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "RocketDollar Form C and Exhibits (12.27.19).pdf",
+  "page_count": 83,
+  "parent_sha256": "233bd937e7d1478182e5b732ce7b57284880a6f7bb12d5bfbf6e418c126f0b4e",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1038,
+      "pymupdf_sha256": "493753ae41330027a1b64182bfb031bdb6a7209d32b615196ef83cff011a3f04",
+      "pypdf_chars": 1038,
+      "pypdf_sha256": "493753ae41330027a1b64182bfb031bdb6a7209d32b615196ef83cff011a3f04"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1696,
+      "pymupdf_sha256": "e98442c1a779d357e6abef309f6da59cebdb57ebfd6cd151bd79dce8d08fa55c",
+      "pypdf_chars": 1697,
+      "pypdf_sha256": "19a57661e65aa3c256fef8c8659e7b65dd15313bd0eb9b4bf3f933d97c5cd5a0"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1049,
+      "pymupdf_sha256": "ab2400a47c6da9b942cdc74b673c0d00df6e4018915e10552eeb50c7adc85dee",
+      "pypdf_chars": 1050,
+      "pypdf_sha256": "aa119eb14f01ea8b237baffadbc99ec4b65c943cce7776a70554c5898549f6a5"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 2691,
+      "pymupdf_sha256": "90554fd981ef154639d8498724d76f45545ae5ed733152635df6e1589cec4b3d",
+      "pypdf_chars": 2692,
+      "pypdf_sha256": "9696ca073b413c1e5f069f1d1be971872bb1f8e78e59feaaa86dc9491b5d4dac"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/a216ef7b632437e59723a49914047b4812baa16b2b04cdf8a4437cbf02a40c56.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/a216ef7b632437e59723a49914047b4812baa16b2b04cdf8a4437cbf02a40c56.bin.gz",
+  "source_sha256": "a216ef7b632437e59723a49914047b4812baa16b2b04cdf8a4437cbf02a40c56",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/117?view=preview"
+}

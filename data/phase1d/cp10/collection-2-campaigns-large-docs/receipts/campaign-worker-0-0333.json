@@ -1,0 +1,18 @@
+{
+  "bytes": 12379,
+  "campaign_url": "https://republic.com/limewire",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/limewire/show_updates",
+  "gzip_sha256": "6045aa39fa6f43957e1d27cc1269a37e9521b8676b552d67c8b04f810f55b87c",
+  "http_status": 200,
+  "parent_sha256": "e27099c19d9ccf8c85b1f9f725f2e630e9a745af00805353fe2a2ab853a137dd",
+  "raw_sha256": "add1720df4917e50f3c54c36628205a5f15eb6e708ffe68e8237e7c5cd04f0b3",
+  "received_at": "2026-10-10T02:32:45.585312+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:32:45.031889+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/add1720df4917e50f3c54c36628205a5f15eb6e708ffe68e8237e7c5cd04f0b3.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/limewire/show_updates"
+}

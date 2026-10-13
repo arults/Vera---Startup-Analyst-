@@ -1,0 +1,13 @@
+{
+  "candidate_version": "cp4_v2_corrected",
+  "source_ledger": "cp3_republic_europe_outcome_ledger_v3.csv",
+  "rate_eligible_rounds": 796,
+  "estimable_year_horizon_cells": 17,
+  "field_gate_pass_cells": 0,
+  "zeigo_terminal_events_2020_at_24m": 1,
+  "zeigo_terminal_events_2020_at_36m": 2,
+  "survival_2020_24m": 0.9859154929577465,
+  "survival_2020_36m": 0.971830985915493,
+  "invalidated_prior_candidate": "cp4_republic_europe_rq1_candidate_v1.csv / candidate_v1_summary were based on ledger v2 terminal-followup bug and must not be used.",
+  "warning": "All estimable RQ1 cells remain LOW_INFORMATION because target-horizon support is <80% and/or event counts are sparse; RQ2 has no field cell passing the frozen n/events/80% gate."
+}

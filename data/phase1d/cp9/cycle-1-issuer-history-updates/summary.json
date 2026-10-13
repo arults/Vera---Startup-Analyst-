@@ -1,0 +1,26 @@
+{
+  "all_previous_data_unchanged": true,
+  "completed_at": "2026-10-10T00:52:51.809619+00:00",
+  "four_native_censuses_complete": false,
+  "issuer_histories_queued": 453,
+  "issuer_identity_candidate_links": 0,
+  "native_offering_id_is_not_economic_round": true,
+  "native_update_fragments_captured": 122,
+  "new_results_require_adjudication": true,
+  "preserved_existing_data_files": 1277,
+  "public_documents_discovered_not_yet_fetched": 131,
+  "rates_promoted": false,
+  "regcf_filing_history_rows": 0,
+  "republic_native_offering_ids_bound": 121,
+  "research_plateau": false,
+  "source_status_counts": {
+    "acquirer:HTTP_ERROR_OR_UNFOLLOWED_REDIRECT": 1,
+    "republic-updates:PUBLIC_CAPTURED_UNADJUDICATED": 122,
+    "sec-history:HTTP_ERROR_OR_UNFOLLOWED_REDIRECT": 2,
+    "sec-history:NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN": 451
+  },
+  "version": "0.6.4-dev.research.1",
+  "wefunder_preserved_frame_rows": 360,
+  "wefunder_prior_funded_rows": 42,
+  "wefunder_prior_unconfirmed_or_excluded": 318
+}

@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "Inside.com",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/inside",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ec50504eae76e07471842f2f6746ddda46ee0c528b9ff056dd2d4f58377fd627.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1744818",
+    "final_url": "https://republic.com/inside",
+    "first_live_date": "",
+    "investors": "1497",
+    "legal_name_from_platform": "Inside.com Inc.",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "783302",
+    "security_type": "",
+    "source_content_sha256": "ec50504eae76e07471842f2f6746ddda46ee0c528b9ff056dd2d4f58377fd627",
+    "source_url": "https://republic.com/inside",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2022-04-28",
+    "successful_close_year_NOT_offering_year": "2022"
+  },
+  "final_url": "https://republic.com/inside",
+  "first_live_date": "2021-11-29",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2022-04-28",
+      "Successfully raised $783,302 🍾"
+    ],
+    [
+      "2021-11-29",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 1030,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ec50504eae76e07471842f2f6746ddda46ee0c528b9ff056dd2d4f58377fd627.bin.gz",
+  "source_sha256": "ec50504eae76e07471842f2f6746ddda46ee0c528b9ff056dd2d4f58377fd627",
+  "successful_completion_date": "2022-04-28",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1bb5236dff4a59d4ff8208538293602144dfd92d8ee0c78c76b5a91cffb5466b.bin.gz",
+  "timeline_source_sha256": "1bb5236dff4a59d4ff8208538293602144dfd92d8ee0c78c76b5a91cffb5466b",
+  "url": "https://republic.com/inside",
+  "year_in_study": true
+}

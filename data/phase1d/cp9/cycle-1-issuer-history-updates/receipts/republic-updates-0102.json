@@ -1,0 +1,19 @@
+{
+  "bytes": 52072,
+  "campaign_url": "https://republic.com/sugarwood",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/sugarwood/show_updates",
+  "gzip_sha256": "75482bc2443b71a51a659e7e976e2ba668b2b2d82a172ecbed3b736ce5ea5d0f",
+  "http_status": 200,
+  "legal_name": "Triple D Adventures, Inc.",
+  "native_offering_id": 6063,
+  "parent_sha256": "e454d30f52240d51deb2d1d4f66448d1af3dd33c7fa7cb301206e22e3f97934c",
+  "raw_sha256": "b466df5c85b9539dd49cd67ab534d7b09d4ffa7e6af60ef31da65bee1ddff651",
+  "received_at": "2026-10-10T00:52:39.120513+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:38.623796+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/b466df5c85b9539dd49cd67ab534d7b09d4ffa7e6af60ef31da65bee1ddff651.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sugarwood/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 10413,
+  "campaign_url": "https://republic.com/code-blue",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/code-blue/show_updates",
+  "gzip_sha256": "e60214b78bad0500d3c7b61849da9b8e6278520ed18889ad5874fbec2eacfc93",
+  "http_status": 200,
+  "parent_sha256": "9266344cc10ead10989dd94c97a9beeb2bd404a5a12d835f1418eb4404992021",
+  "raw_sha256": "f969e79b2ec0a7d4410c9d838c2d0d873f3dc38c4d0ddbf81a9fbd827fbb5f24",
+  "received_at": "2026-10-10T02:25:30.457356+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:29.913281+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f969e79b2ec0a7d4410c9d838c2d0d873f3dc38c4d0ddbf81a9fbd827fbb5f24.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/code-blue/show_updates"
+}

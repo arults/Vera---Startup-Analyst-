@@ -1,0 +1,18 @@
+{
+  "bytes": 1854,
+  "campaign_url": "https://republic.com/backstage",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/backstage/show_updates",
+  "gzip_sha256": "fb1ee4fa712b350cabed8f3e2bd2361f5ee81c249251d6524e2662ebcd3cf4d2",
+  "http_status": 200,
+  "parent_sha256": "4caf63ecdbfbb5857943440c76479baedc3fb7576bbc15b7cdb9bcc6ad7bbce8",
+  "raw_sha256": "7b15f15d8016ade1642e1a7b8cc0287211be41a563e29b2b68fb7c54502dfe6a",
+  "received_at": "2026-10-10T02:24:08.863037+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:08.315775+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/7b15f15d8016ade1642e1a7b8cc0287211be41a563e29b2b68fb7c54502dfe6a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/backstage/show_updates"
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "vera.phase1d.portable_checkpoint.independent_normalization_attestation.v1",
+  "as_of_utc": "2026-10-10T06:43:00Z",
+  "status": "ACCEPTED_PORTABLE_DOCUMENTATION_DERIVATIVE_ONLY",
+  "repository_prefix": "data/phase1d/cp10/tranche14-source-review",
+  "reviewed_manifest_sha256": "0fb6b225faf7f68760e284111a009c044d722f11f18e48eb613cbe1f3f563db9",
+  "normalization_lineage_sha256": "fbf9b5b0c36223179c59a9f7240d6922093cbcb7d65bab9be19c10c177fb54cd",
+  "upstream_artifacts": {
+    "fourteen-dispositions.json": {
+      "upstream_sha256": "ce72599e524af405bf8683a71be351471d272541c3b70e16009f476312b10e23",
+      "upstream_artifact_name": "fourteen-dispositions.json"
+    },
+    "independent-final-review.json": {
+      "upstream_sha256": "63c9a17c822847ec84b85b5c34d7c2c0fef3b1f1fd722d7cc4d0fa5251af1f70",
+      "upstream_artifact_name": "independent-final-review.json"
+    },
+    "PRIMARY_REVIEW_REPORT.md": {
+      "upstream_sha256": "ec5dcd15c4e35ef454336aeb96dbb4f52018a48a6755578cca762d1d4be0462c",
+      "upstream_artifact_name": "PRIMARY_REVIEW_REPORT.md"
+    },
+    "amendment-inventory.json": {
+      "upstream_sha256": "71d4af6b7d97a23ca232dfe37d7411901227df79fa24193007cb49f6b5815c89",
+      "upstream_artifact_name": "amendment-local-inventory.json"
+    }
+  },
+  "portable_files": [
+    {
+      "path": "PRIMARY_REVIEW_REPORT.md",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/PRIMARY_REVIEW_REPORT.md",
+      "sha256": "c0274ab2dbb14211baaf71dd314498c511681ccea7a51ead46b69543bd58bf01",
+      "bytes": 10087
+    },
+    {
+      "path": "README.md",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/README.md",
+      "sha256": "a71590c81bb9cfed0cfd5256ee37418200e01e326989e656c3f9cdb39a697b2e",
+      "bytes": 3327
+    },
+    {
+      "path": "amendment-inventory.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/amendment-inventory.json",
+      "sha256": "c1b9222e91606f55495b861dafeea83ac1c642bae7835bb0eaca6c937aa5b86c",
+      "bytes": 6446
+    },
+    {
+      "path": "fourteen-dispositions.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/fourteen-dispositions.json",
+      "sha256": "53e2d98e240551782132eb62c707a6c1f0fbeb49ad2857fd1b6a5b602f9fe958",
+      "bytes": 421665
+    },
+    {
+      "path": "independent-final-review.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/independent-final-review.json",
+      "sha256": "950b421dc3796ecc891dc23468333669ce63ad25cc24efbab44b7a68c2e81c2c",
+      "bytes": 13399
+    },
+    {
+      "path": "normalization-lineage.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/normalization-lineage.json",
+      "sha256": "fbf9b5b0c36223179c59a9f7240d6922093cbcb7d65bab9be19c10c177fb54cd",
+      "bytes": 61990
+    },
+    {
+      "path": "source-references.json",
+      "repository_path": "data/phase1d/cp10/tranche14-source-review/source-references.json",
+      "sha256": "0ae09641ea7ef7f1f0c9ec59a4b9bc05d4a4402b268e6ba2773723a8ad10cba8",
+      "bytes": 24721
+    }
+  ],
+  "checks": {
+    "passed": 489,
+    "total": 489,
+    "checks_artifact_sha256": "82eb84c82d5e37cc79e41682ff9430929c2c0f25641a8398f0c75541ec4a2d8b",
+    "json_leaf_changes": 159,
+    "matrix_leaf_changes": 154,
+    "independent_review_leaf_changes": 4,
+    "amendment_inventory_leaf_changes": 1,
+    "categories": {
+      "frozen_rule_repository_locator": 1,
+      "local_artifact_path_to_content_hash": 140,
+      "preserved_manifest_repository_locator": 1,
+      "private_retry_detail_to_project_gate": 15,
+      "upstream_local_locator_to_lineage_reference": 2
+    },
+    "report_replacements": 6,
+    "explicit_report_derivative_prefix": true,
+    "repository_source_pointers_checked": 42,
+    "repository_tree_complete": true,
+    "repository_base_commit": "ee9c79eccfc5a2c9106138f6c6988f1d18db2133"
+  },
+  "scientific_equivalence": {
+    "accepted": true,
+    "source_facts_dates_amounts_instruments_identity_decisions_holds_unchanged": true,
+    "matrix_nonlocator_changes": "Only fourteen pending-JEV status strings were generalized to the equivalent project gate.",
+    "source_path_changes": "140 absolute artifact locators were replaced with hashes independently recomputed from the original local bytes. Original repository capture paths, raw hashes and native URLs remain unchanged and reusable.",
+    "review_changes": "Two upstream locators, one frozen-rule repository locator, and the pending-gate wording changed. Original matrix/report hashes were preserved rather than rebound to derivative bytes.",
+    "report_changes": "Six explicitly enumerated replacements and a derivative-label prefix; project review status updated from the separately frozen independent review, source findings unchanged. Original binary captures are not duplicated; original reviewed text excerpts remain embedded.",
+    "amendment_inventory_changes": "Only its manifest locator changed; source matches, no-match limits and captured amendment pointers are unchanged."
+  },
+  "gate_boundaries": {
+    "scientific_definition_changes": false,
+    "new_source_adjudication": false,
+    "new_admissions": 0,
+    "new_jev_evaluations": 0,
+    "external_reads": 0,
+    "final_jev_and_admission_extension": "PENDING",
+    "estimator_activation": false,
+    "prior_or_rate_promotion": false,
+    "phase1d_completion": false,
+    "global_plateau": false
+  },
+  "publication_scope": "The exact seven-file documentation checkpoint listed here is a faithful portable derivative at the preserved source-review scope. This attestation does not approve a new canonical-ledger release or replace the pending final evaluation.",
+  "internal_details_redaction": {
+    "absolute_executor_paths_absent": true,
+    "chat_identifiers_absent": true,
+    "raw_denial_responses_or_requests_absent": true,
+    "pending_project_gate_preserved": true
+  },
+  "historical_receipts_silently_rebound": false
+}

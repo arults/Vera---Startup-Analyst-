@@ -1,0 +1,18 @@
+{
+  "bytes": 139969,
+  "campaign_url": "https://republic.com/alpine-x",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/alpine-x/show_updates",
+  "gzip_sha256": "7c54df4daf9ccf0c157e3ebd2fe6f4f845e5f0013a93053f17c0d02fe9665e9f",
+  "http_status": 200,
+  "parent_sha256": "c398e554fdd64c1dec1bf2f31c302b6e5b1ad212c3ceae9c8bcd145be139c7a8",
+  "raw_sha256": "199589c94c4e8bbcdab832f7566842b3a21c32266a7b8fc9a68e01d41bb530b1",
+  "received_at": "2026-10-10T02:23:09.993046+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:09.286163+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/199589c94c4e8bbcdab832f7566842b3a21c32266a7b8fc9a68e01d41bb530b1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/alpine-x/show_updates"
+}

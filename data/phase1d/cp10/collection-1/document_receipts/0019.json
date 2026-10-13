@@ -1,0 +1,49 @@
+{
+  "bytes": 1984314,
+  "campaign_url": "https://republic.com/ecotone-renewables",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Ecotone - Form C.pdf",
+  "page_count": 133,
+  "parent_sha256": "aedabfe4f234b19d2d8bc911e871536c6814a056b4e88ef424f3bf7d6a198a06",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 951,
+      "pymupdf_sha256": "1fca8e040549e975f4183789f275f5fc74313f53ff596db55f78f8f50a3c74e0",
+      "pypdf_chars": 951,
+      "pypdf_sha256": "1fca8e040549e975f4183789f275f5fc74313f53ff596db55f78f8f50a3c74e0"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1823,
+      "pymupdf_sha256": "f6aec3e269fe7cfb887d46d25faee53c5f0d003ab204f03aa429150eeec290aa",
+      "pypdf_chars": 1823,
+      "pypdf_sha256": "f6aec3e269fe7cfb887d46d25faee53c5f0d003ab204f03aa429150eeec290aa"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1042,
+      "pymupdf_sha256": "7e0b4f5a5aa43d586fc392956ac4045b55571d01b6ffc92e8320d2390f03164b",
+      "pypdf_chars": 1042,
+      "pypdf_sha256": "7e0b4f5a5aa43d586fc392956ac4045b55571d01b6ffc92e8320d2390f03164b"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3187,
+      "pymupdf_sha256": "7ea37e18f12c0a12ef34862449858fd0055d27bea46ec0642adc6af841fa96ec",
+      "pypdf_chars": 3187,
+      "pypdf_sha256": "7ea37e18f12c0a12ef34862449858fd0055d27bea46ec0642adc6af841fa96ec"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104.bin.gz",
+  "source_sha256": "145eb1d003a89cda1371d18134389f56523c8e45ec0bc8ad4b8bb0e888ffe104",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/13499?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 78442,
+  "campaign_url": "https://republic.com/coding-autism",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/coding-autism/show_updates",
+  "gzip_sha256": "6d522896a8069beb315451f725e2240bf757ffeb75b993768923050344b6b124",
+  "http_status": 200,
+  "parent_sha256": "0024a275893ecdae574e98a9f374e5b996426fac24dd5c849cca81abc8f38b41",
+  "raw_sha256": "fb180c94d8103645ee46ae952468c0667edac98449f2577bcf4bd0782ffc5ee1",
+  "received_at": "2026-10-10T02:26:11.447618+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:10.740199+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fb180c94d8103645ee46ae952468c0667edac98449f2577bcf4bd0782ffc5ee1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/coding-autism/show_updates"
+}

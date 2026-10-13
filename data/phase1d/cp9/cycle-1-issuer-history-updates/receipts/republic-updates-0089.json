@@ -1,0 +1,19 @@
+{
+  "bytes": 21839,
+  "campaign_url": "https://republic.com/ryse-3",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/ryse-3/show_updates",
+  "gzip_sha256": "02d287fb3d3390304c22263df6e4a694f0ea5d1e235dcc8f9c9e2c631a4bdf7f",
+  "http_status": 200,
+  "legal_name": "RYSE Inc.",
+  "native_offering_id": 13496,
+  "parent_sha256": "faa3dc8ba6794f435bffbc6bbe712995c485eaf479a53f1a396b15ec0244f4bd",
+  "raw_sha256": "cfda6c0b4bda532aeb42cac48af1083f11927ad2efec04696b2bdb371c563a82",
+  "received_at": "2026-10-10T00:52:30.815669+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:30.342009+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/cfda6c0b4bda532aeb42cac48af1083f11927ad2efec04696b2bdb371c563a82.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ryse-3/show_updates"
+}

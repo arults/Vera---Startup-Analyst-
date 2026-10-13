@@ -1,0 +1,151 @@
+What To Expect As A Startup Investor - Republic Europe Investor Resources
+How to invest
+Education Hub
+Login
+Sign up
+Login
+Sign up
+Investor Resources
+What Is Startup Investing?
+How To Invest In Startups
+What Are The Risks Of Investing In Startups?
+How To Select Startups To Invest In
+What To Expect As A Startup Investor
+How Do Startup Investors Make Money?
+How To Buy And Sell Shares On The Secondary Market
+Tax And The Benefits Of Investing In Startups
+What Are Your Rights As An Investor In Early Stage Companies?
+Investing for High Net Worth and Sophisticated Investors on R Europe
+Home
+>
+What To Expect As A Startup Investor
+MENU GUIDES
+What To Expect As A Startup Investor
+Once you’ve done your due diligence, reviewed the financials and the pitch, asked your questions and invested – what happens next with your investment?
+In this guide we’ll cover:
+How shares are issued to investors
+What happens once you’ve invested in a business
+How to keep up to date with your investment
+What impacts the value of your investment
+How to generate a return on your investment
+What happens straight after you click to invest?
+Once you invest, your investment appears in your Seedrs ‘
+Investment Account
+’. Once the funding round closes and shares are issued, the investment will appear in your Seedrs ‘
+Portfolio
+’.
+Your Seedrs Investment Account will display all open investments. These are investments in businesses whose campaigns are still live, or businesses whose campaigns have closed, but are still in due diligence.
+Once we’ve completed our due diligence process on the investment, and paid the funds to the fundraising business, your investment will be considered closed. It will be moved from your Seedrs Investment Account to your Portfolio, where you can keep up to date with company updates and discussions.
+What happens between investing and shares being issued?
+When a campaign hits its target and then closes to further investment, our investment and legal teams get to work on closing the round. We run through the following steps with businesses before beneficial ownership certificates are distributed:
+Direct investor payments:
+Founders provide proof of receipt of funds from direct investments that were reflected in the campaign, to ensure the company has raised all the funds they have claimed to.
+Closing documentation
+: The Seedrs legal team prepares the legal documentation required to close the round. This typically includes the shareholder agreement, subscription agreement, articles of association, and ancillary documents (shareholder and Companies House Forms). Once prepared and agreed with the business, these are circulated with relevant parties for signing.
+Advanced Assurance (if applicable):
+Advanced assurance is HMRC’s way of determining whether a company meets the conditions of S/EIS, and whether an investment will qualify for the tax benefits associated with the schemes. If the investment round is S/EIS eligible, we require proof of advanced assurance from HMRC prior to the transfer of funds.
+Final due diligence checks:
+Before funds are transferred, we run final KYC checks on the company, its directors and majority shareholders. Depending on the results we may request further documentation in order to support these checks, e.g. proof of identity and address.
+Funds transfer
+: Once all documents have been signed and the above steps have been completed, funds are transferred to the business.
+Beneficial share certificates issued
+: Once legal documents have been signed and funds transferred then beneficial share certificates will be issued to investors by email and available to them to view in your Seedrs Portfolio account, along with other details of the investment.
+What is a beneficial ownership certificate?
+This is a legally binding document certifying that you are the beneficial owner of a specific number of shares held by Seedrs Nominees Limited, signed by the Seedrs CEO and CIO.
+When you invest in a business on Seedrs through the nominee structure, Seedrs Nominees LTD is the legal shareholder on your behalf and takes care of all the administrative shareholder work. Any financial benefit (e.g. the right to dividends, capital returns on an exit and any tax relief) will flow back to you.
+Now shares have been issued, you’re a shareholder. What next?
+Congratulations on becoming a shareholder in a promising startup through Seedrs! You’ve added another asset class into your investment portfolio. We see many investors amplify the business’ success on social media to raise its profile. These brand lovers are now proud investors and often seek opportunities to help the business succeed, while they watch the business grow from the sidelines.
+While you may find yourself wanting to support the business that you’ve invested in in this way, there are also some important personal considerations to be aware of:
+Tax relief
+Was the business you invested in eligible for tax relief? UK investors can take advantage of the EIS and SEIS schemes. These schemes offer income tax and loss relief for investors into eligible businesses. You can learn more about EIS and SEIS tax relief in our guide
+‘Tax And The Benefits Of Investing In Startups’
+.
+Once the investment round has completed and shares are in your portfolio, the business will typically begin the tax relief process.
+There are 3 stages to be completed before the certificates are available:
+Business to submit:
+We have requested information from the company for the tax application.
+Submission in review:
+Information required for the tax application from the company received. Seedrs will begin drafting the application which will be sent to the company for approval before it is submitted to HMRC.
+Submitted to HMRC:
+Tax relief application submitted to HMRC.
+Once the application is approved by HMRC, a custom digital tax certificate will be issued to each investor in the ‘Tax documents’ section of the portfolio, and investors can claim tax relief.
+Investors can also download a summary for each financial year to assist with filing personal tax returns. You can learn more about tax relief and how to claim it in our
+Tax guide
+.
+How to stay up to date with the businesses you’ve invested in
+Now you’re an investor in the business, you’ll have access to the post-investment business page. This page looks similar to the
+campaign page
+, but with different featured sections. This is accessible through your Seedrs ‘
+Portfolio
+’.
+(
+Example business page
+)
+Company Updates
+On each company’s business page, under the ‘Updates’ tab, you’ll see updates from the business and from Seedrs about the business.
+We require businesses to post quarterly updates for their investors, and we chase companies that don’t meet this requirement. We encourage businesses to post updates that are rich with data and enable investors to get a true picture of company progress.
+We also encourage businesses to use this forum to share their updates, and avoid using other methods like email lists. This ensures that all information is collected in one place, and any new investors through the Secondary Market have equal access to information.
+Please note that none of the news, updates or other information available on the post-investment pages have been reviewed or approved by Seedrs. Any such information should be treated as direct communications from the entrepreneur without any involvement from Seedrs.
+Please read and follow our Community Code of Conduct when interacting on the discussion forum.
+Discussion forum
+Alongside the ‘Updates’ tab on the business post-investment page, you’ll find the ‘Discussion’ tab. Under this tab you can engage with the founders of the business, and other investors. Start a topic if you’ve got a question that would be valuable to be answered publicly, and engage with other investors on their posts.
+Please note that we have a
+Community Code of Conduct
+governing the discussion forum, which you should review ahead of posting.
+How involved can I be as a shareholder?
+If you believe that you can add value to any of the companies you have invested in, then please do reach out to them to suggest a meeting or to offer more active involvement. The businesses are often busy growing and may not need your particular skill set at this stage of their development, but most entrepreneurs appreciate offers of support from their investors and will take you up on it if they can.
+At the very least, many businesses appreciate you telling colleagues, friends and family about them to help build their profile.
+What impacts the value of my investment?
+The value of your investment is directly tied to the valuation of the business you invest in, as you’ve bought a percentage of the business. As the share price changes, the value of your investment will change with it.
+As private companies that raise money on Seedrs grow, many may go on to raise further rounds of funding. When these further funding rounds take place, the business will be valued again, and new shares are created at a new share price, which impacts your initial investment.
+Follow on funding rounds
+When a business you’ve invested in seeks to raise more money, you will often have pre-emption rights that allow you to invest a pro rata amount in that round based on your current shareholding. Sometimes the company will even be happy for you to invest more than your pro rata allocation. When there is an opportunity to invest in a company’s follow-on round, we will let you know and explain the mechanics. Generally, you will be able to make your investment via Seedrs – even if the rest of the round is being raised elsewhere – but occasionally a bespoke process is required.
+Please note that, in some cases, we may need to waive your pre-emption rights, and you will not be able to invest in a follow-on round. This generally happens where the round is significant in size and, due to reasons of confidentiality or other sensitivities among institutional investors, maintaining pre-emption rights would jeopardise the round and the potential success of the company. If we do waive your right to pre-emption, it will only happen when we are satisfied that it is in the best interest of company growth.
+You can learn more about pre-emption rights and your other rights as an investor in our guide
+‘What Are Your Rights As An Investor In Early Stage Companies?’
+.
+Dilution in startup investing
+Dilution is a natural part of the investment process and we see it as generally something to be embraced rather than feared. Sometimes predatory dilution can be used to take advantage of smaller shareholders, but the investor protections on Seedrs means that the dilution you see on a Seedrs investment is generally more likely to increase the value of your investment than to decrease it.
+Here’s an example to illustrate why:
+William logs into Seedrs and browses the startup listings. A listing called Toybucket catches his eye: it’s an online platform for renting toys and is an SEIS eligible listing. It has been set up by a young entrepreneur called Ruby who describes it as “LoveFilm for toys” and they are looking to raise £50,000 in exchange for 20% of the company. This is a post money valuation of £250,000. William thinks it has huge potential and invests £500. 99 other investors agree with William and decide to invest and the listing goes on to reach 100% of the funding it is looking for. Seedrs completes its due diligence, finalises the paperwork and the funds are transferred to Toybucket Ltd’s company bank account. Seedrs now manages 20% of the shares as nominee for the 100 shareholders, including William. William now owns 0.20% of Toybucket.
+Ruby sets off and works tirelessly on Toybucket and makes fantastic progress, receiving positive press and steady customer growth. The time comes when she needs to raise a further £150,000 to hire a key developer to help with her website and increase her marketing spend. She submits a new listing to Seedrs, looking to raise £150,000 in exchange for 15% of the company. This is a post money valuation of £1,000,000. Under the shareholders’ agreement that Seedrs entered into with Toybucket, William has pre-emption rights, which entitles him to purchase further shares in Toybucket to enable him to keep his ownership of Toybucket at 0.20%. However he decides not to exercise his pre-emption rights and instead invests the money in two other companies on Seedrs. Ruby successfully raises the money and Seedrs performs the same tasks as before and transfers the funds to Toybucket Ltd. Because William did not exercise his pre-emption rights, he now owns 0.17% of Toybucket.
+Three years later, Ruby has done incredibly well. The company has 22 staff and is turning over £15 million per year. Yahoo, which has been on a bit of a spending spree recently, has agreed to buy the company for £30,000,000. William’s shares, which represent 0.17% of the company, are now worth £51,000. Oh, and by the way, the £50,500 profit that William has made is completely tax free, as it was an SEIS eligible investment.
+Is William bothered about being diluted from 0.20% to 0.17%? Probably not.
+The above is a made up story, but it describes a pattern that happens all the time in private equity. Provided that a company is raising more money at the same or higher valuation than at the time when you invested, the fact that such a round of financing will dilute you is not necessarily a bad thing. The slice of the pie that you own is getting smaller, but the size of the pie is getting bigger.
+William could have exercised his pre-emption rights and invested more money to maintain his 0.20% – this “follow-on investing” is a very valid way of investing. But choosing not to follow his money, and accepting the dilution, is equally valid. He didn’t make quite as big a profit in Toybucket as if he had invested more. But then again, the story could very well have ended up with Ruby having to wind up the company because there was no demand for online toy rental; meanwhile, one of the other investments that William made with the money that he saved from not exercising his pre-emption rights might have been in a company that was subsequently bought by Google. By accepting the dilution and using his money to diversify his portfolio, William has increased his chances of having a major success.
+What this all comes down to is that dilution and diversification are two sides of the same coin. We all know that diversification is vital when investing in early-stage businesses, but sometimes diversification means passing on the chance to invest more in the same company – and thereby accepting a bit of dilution – in order to use your funds to invest in new companies. And when that’s the choice, it’s easy to see why dilution isn’t the scary concept it is sometimes made out to be. Instead, it is a natural part of the investment process which should be welcomed and embraced.
+How do you generate a return on your startup investment?
+There are a number of ways that you can generate a return on your startup investment:
+The startup exiting, by being acquired by another business or listing on the public markets
+The startup paying dividends, having turned profitable
+Selling your startup shares on the Seedrs Secondary Market
+What does it mean when a startup ‘exits’?
+When a startup exits, it means that the company has been sold, merged with another company, or gone public through an initial public offering (IPO). In other words, the startup has reached the end of its lifecycle as an independent company and has transitioned to a new phase. This can take more than 10 years from first investment in some cases, and is typically the first opportunity for investors to realise a return.
+You can learn more about exits in our next guide,
+‘How Do Startup Investors Make Money?’
+.
+What is a startup dividend?
+A dividend is a payment made by a company to its shareholders, typically as a distribution of profits.
+Startups rarely pay dividends, as they typically reinvest their profits back into the company to fuel growth. Paying dividends can be seen as a sign that a company has matured and is no longer pursuing aggressive growth. However, in some cases, a startup may choose to pay dividends to reward shareholders or to attract new investors.
+What does ‘exiting on the Seedrs Secondary Market mean’?
+One of the main downsides of investing in startups is the long time taken to realise a return on your investment. The main premise of startup investing is getting in early and allowing the company to grow, but this means investors can often be waiting 10 years or more to see a return on investment. This level of inflexibility often turns investors away from startup investing to more traditional markets with greater liquidity, for instance publicly traded companies on a stock market.
+To solve the liquidity problem of startup investing, we built the Seedrs Secondary Market. This private company stock market is open one week per month, and allows startup shareholders to trade their shares with other investors, allowing them to exit early and realise a return on their investment.
+You can learn more about exits in another guide,
+‘How To Buy And Sell Shares On The Secondary Market’.
+​​
+Receiving returns
+When returns are generated through dividends or sale of your shares, we will credit the funds, less our fee (and for publicly listed shares, any broker fee), directly into your Investment Account and let you know. This is unlikely to be for some time after your initial investment.
+What happens when a startup fails?
+Investing in early-stage and growth-focussed businesses is high risk, and it is more likely than not that a business will fail.
+In some cases, a failed business will either be wound up or sold at a nominal price, while in other cases, the business won’t formally shut down but we’ll write off the investment and dispose of the shares. We’ll work with failing businesses to ensure that any available shareholder proceeds are distributed, but they’re likely to represent less than the original investment, and there may not be any proceeds at all.
+What happens when a business winds up?
+To help you to understand what may happen, we’ve created an overview of how businesses may wind up under the law of England and Wales. Broadly speaking, administration allows a struggling company to attempt to rescue the business or sort out the best outcome for creditors while still trading. In contrast, strike off and liquidation are used when a company ceases to trade, its assets are sold, and it is formally dissolved.
+Please keep in mind Seedrs does not provide legal, financial or tax advice of any kind and you should consult with a professional advisor if you have questions about how a winding up may affect your investments. You can read the guide
+here
+.
+We encourage investors to look examples of when businesses haven’t succeeded as well as the perhaps more publicised success stories, in order to give a balance view of the risks involved. In our Investor newsletter, we explore the good news stories as well as the failures, to help investors better inform themselves of the risks, and help them ask the right questions when thinking which investment opportunity is right for them. You can sign up to this below
+Seedrs Limited (trading as Republic Europe) is authorised and regulated by the Financial Conduct Authority
+(No. 550317)
+.
+© Seedrs Limited 2024. All rights reserved. Seedrs is a registered European Community trademark (No. 008771537), registered United Kingdom trademark (No. UK00908771537) and registered United States service mark (No. 85423072) of Seedrs Limited, a limited company registered in England and Wales (No. 06848016), with registered office at Stylus Building, 112-116 Old Street, London EC1V 9BG, United Kingdom, VAT No. GB 208 3065 32. Europe.republic.com is a website owned and operated by Seedrs Limited (trading as Republic Europe).
+Back to top

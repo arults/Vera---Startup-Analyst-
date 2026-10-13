@@ -1,0 +1,47 @@
+{
+  "candidate_urls": [],
+  "captures": [],
+  "census_status": "CENSUS_INCOMPLETE",
+  "created_at": "2026-10-09T06:36:05.341505+00:00",
+  "date_policy": "deadline is not successful_close or first_live; no year imputation.",
+  "directory_stops": [
+    {
+      "at": "2026-10-09T06:36:07.562790+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/companies/portfolio"
+    },
+    {
+      "at": "2026-10-09T06:36:07.622406+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/funded-ventures"
+    },
+    {
+      "at": "2026-10-09T06:36:07.705821+00:00",
+      "reason": "ACCESS_OR_CAPTURE_ERROR",
+      "seed": "https://republic.com/reg-cf-offerings"
+    }
+  ],
+  "errors": [
+    {
+      "at": "2026-10-09T06:36:07.562769+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/companies/portfolio"
+    },
+    {
+      "at": "2026-10-09T06:36:07.622385+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/funded-ventures"
+    },
+    {
+      "at": "2026-10-09T06:36:07.705801+00:00",
+      "error": "HTTP 403",
+      "url": "https://republic.com/reg-cf-offerings"
+    }
+  ],
+  "rates_promoted": false,
+  "run_id": "gh-37894313863",
+  "schema": "phase1d-republic-us-recovery-v1",
+  "scope": "Native discovery candidates only. Historical layer-A/B coverage unresolved.",
+  "seeds_completed": [],
+  "updated_at": "2026-10-09T06:36:07.705824+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 96952,
+  "campaign_url": "https://republic.com/maternova",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/maternova/show_updates",
+  "gzip_sha256": "68a0ac2509e2038977b15f04e7d87fcb7740d134d0fbae6977d458b333417ac9",
+  "http_status": 200,
+  "parent_sha256": "c6763634eecdbd62ad4587bd0631457d9c3ca30aee18fb549e56dc9d2e4d097e",
+  "raw_sha256": "bea7f0f6515bd4e79891baf4e5404ba94899dfc19612d44a3adbebfc874e293f",
+  "received_at": "2026-10-10T02:33:31.578746+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:30.979439+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/bea7f0f6515bd4e79891baf4e5404ba94899dfc19612d44a3adbebfc874e293f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/maternova/show_updates"
+}

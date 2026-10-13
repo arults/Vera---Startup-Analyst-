@@ -1,0 +1,19 @@
+{
+  "bytes": 377975,
+  "campaign_url": "https://republic.com/janover-ventures",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/janover-ventures/show_updates",
+  "gzip_sha256": "8374b80aa9a6871da5c762541794b35a73d1d15105364b05f1f5a57d889e063b",
+  "http_status": 200,
+  "legal_name": "Janover Ventures LLC",
+  "native_offering_id": 493,
+  "parent_sha256": "b4efa55b4b54d1b8a84cb4f23f019b490d3869bad9a622a1d519da70bcfa1961",
+  "raw_sha256": "883ee70b1599485a4191b58282452503b6c9f771b05d1ba2a1386b83aa3163d5",
+  "received_at": "2026-10-10T00:52:13.297884+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:12.422543+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/883ee70b1599485a4191b58282452503b6c9f771b05d1ba2a1386b83aa3163d5.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/janover-ventures/show_updates"
+}

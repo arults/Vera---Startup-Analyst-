@@ -1,0 +1,18 @@
+{
+  "bytes": 86870,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/capital",
+  "gzip_sha256": "e4d35429097d9fb0a1db47a9cf6339e4d0876ef0446b4b87edb2a7d617ef36e9",
+  "http_status": 200,
+  "raw_sha256": "df1c0f416427d3de960d2da417bffe97b37b25c095d3ddf6389833a32d615f2f",
+  "received_at": "2026-10-10T02:25:05.677233+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:05.082352+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/df1c0f416427d3de960d2da417bffe97b37b25c095d3ddf6389833a32d615f2f.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/capital"
+}

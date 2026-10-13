@@ -1,0 +1,18 @@
+{
+  "bytes": 12113496,
+  "campaign_url": "https://republic.com/event-hollow",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/178?view=preview",
+  "gzip_sha256": "64849ef3328e2723b47df8c28927c2619a760fa30e023cc9e41d568b8011defe",
+  "http_status": 200,
+  "label": "Event Hollow Form C-A 4.28.20.pdf",
+  "parent_sha256": "dd95c4710cb9ddafbc82ac49a65b6afb70f93d8d2ed97e74970194c211e99038",
+  "raw_sha256": "4eef97c78a85c1c6dbcffe314cdeddb96fddf1a7bbb46efd4f562ee72503d89a",
+  "received_at": "2026-10-10T02:07:54.834016+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:07:53.140165+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/4eef97c78a85c1c6dbcffe314cdeddb96fddf1a7bbb46efd4f562ee72503d89a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/178?view=preview"
+}

@@ -1,0 +1,19 @@
+{
+  "bytes": 130225,
+  "campaign_url": "https://republic.com/rehabpath",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/rehabpath/show_updates",
+  "gzip_sha256": "99c7c4eaa1d82bed471772e3e0aff18c38ab5ae515959a9104990a0374d6d805",
+  "http_status": 200,
+  "legal_name": "RehabPath, Inc.",
+  "native_offering_id": 396,
+  "parent_sha256": "360bf912dd3fcce9aa0d41ff32159e359a3397cbc351760d77ae0d5541a2b60e",
+  "raw_sha256": "729259b16294fcc92d4beaa6ea05b92be86ccab471a4dabe67b41e65613ff465",
+  "received_at": "2026-10-10T00:52:27.326541+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:52:26.754695+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/729259b16294fcc92d4beaa6ea05b92be86ccab471a4dabe67b41e65613ff465.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/rehabpath/show_updates"
+}

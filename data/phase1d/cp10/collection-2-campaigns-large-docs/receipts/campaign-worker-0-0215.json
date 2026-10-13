@@ -1,0 +1,18 @@
+{
+  "bytes": 76121,
+  "campaign_url": "https://republic.com/gesture",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/gesture/show_updates",
+  "gzip_sha256": "df4430797e78605b27262157d943e8307c5060ed4abacb72918b419d3025fd82",
+  "http_status": 200,
+  "parent_sha256": "635c9cc511c6c8dded95a9777d3c1e2e74b9cd67a51bdec844d31e09852d1c44",
+  "raw_sha256": "fa22df1dfd2201c5415278d10696739ccd43e2886b9bb0b30f379c401021cd70",
+  "received_at": "2026-10-10T02:28:31.700826+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:31.106180+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fa22df1dfd2201c5415278d10696739ccd43e2886b9bb0b30f379c401021cd70.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/gesture/show_updates"
+}

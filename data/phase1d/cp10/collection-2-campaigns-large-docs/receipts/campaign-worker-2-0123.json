@@ -1,0 +1,18 @@
+{
+  "bytes": 10426,
+  "campaign_url": "https://republic.com/congreso",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/congreso/show_updates",
+  "gzip_sha256": "754f783c7297a6d902ffb746987d3527ad58a235d871b0702cb8c12ae99786e7",
+  "http_status": 200,
+  "parent_sha256": "0870540ff1ec8ea36418bac1ce5201ef2fa56c9fcbfab02659023027e000107f",
+  "raw_sha256": "3895f07916d5529baae8e81de1b05613cd86f9d7d624d6a9173b836effc18c79",
+  "received_at": "2026-10-10T02:25:47.544054+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:47.004975+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/3895f07916d5529baae8e81de1b05613cd86f9d7d624d6a9173b836effc18c79.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/congreso/show_updates"
+}

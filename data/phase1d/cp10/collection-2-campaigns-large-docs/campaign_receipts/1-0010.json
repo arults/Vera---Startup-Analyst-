@@ -1,0 +1,58 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": {
+    "campaign_name": "AdWallet",
+    "canonical_company_id": "",
+    "canonical_link": "https://republic.com/adwallet",
+    "capture_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/69a95efcd6b15d2dd62dd69ef5d63e12a34212c572257a1843e91748560f7a3f.bin.gz",
+    "census_complete": false,
+    "economic_round_id": "",
+    "estimation_eligible": false,
+    "filing_cik_from_platform_links": "1815995",
+    "final_url": "https://republic.com/adwallet",
+    "first_live_date": "",
+    "investors": "412",
+    "legal_name_from_platform": "AdWallet Inc.",
+    "limitations": "Close is not first-live; linked CIK needs issuer/coissuer resolution; directory/search selection is incomplete; capture date is not survival evidence",
+    "linked_cik_status": "SINGLE_LINKED_CIK_PENDING_ENTITY_VALIDATION",
+    "offering_year": "",
+    "raised_amount_usd": "148965",
+    "security_type": "Crowd SAFE",
+    "source_content_sha256": "69a95efcd6b15d2dd62dd69ef5d63e12a34212c572257a1843e91748560f7a3f",
+    "source_url": "https://republic.com/adwallet",
+    "status": "SOURCE_VERIFIED_FIELDS_COHORT_AND_ECONOMIC_ROUND_HELD",
+    "successful_close_date": "2021-07-03",
+    "successful_close_year_NOT_offering_year": "2021"
+  },
+  "final_url": "https://republic.com/adwallet",
+  "first_live_date": "2021-03-15",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2021-07-03",
+      "Successfully raised $148,965 🍾"
+    ],
+    [
+      "2021-03-15",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 779,
+  "native_state": "finalized",
+  "offering_year": 2021,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/69a95efcd6b15d2dd62dd69ef5d63e12a34212c572257a1843e91748560f7a3f.bin.gz",
+  "source_sha256": "69a95efcd6b15d2dd62dd69ef5d63e12a34212c572257a1843e91748560f7a3f",
+  "successful_completion_date": "2021-07-03",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e4ddd545f1c01133c997607944284625c2b8a1a40985ca9ffcafaa52b51ed7fc.bin.gz",
+  "timeline_source_sha256": "e4ddd545f1c01133c997607944284625c2b8a1a40985ca9ffcafaa52b51ed7fc",
+  "url": "https://republic.com/adwallet",
+  "year_in_study": true
+}

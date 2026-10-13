@@ -1,0 +1,18 @@
+{
+  "bytes": 17087560,
+  "campaign_url": "https://republic.com/blue",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/207?view=preview",
+  "gzip_sha256": "570cd419a530b14d36b9e3f19c74d832473c875b6a0307e87a641fc8db1dc347",
+  "http_status": 200,
+  "label": "Blue Form C-A 05.29.2020.pdf",
+  "parent_sha256": "bc84431b48721097a139bf14acc1cd0bac6521c846305d3d0e3d24c57af08870",
+  "raw_sha256": "529adef912e43dcf5e90d63267de3543ce55b665f97e08c7d0d0c1bc63e92bde",
+  "received_at": "2026-10-10T01:21:32.159830+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:21:30.131775+00:00",
+  "source_group": "resumed-public-documents",
+  "source_path": "data/phase1d/cp9/cycle-3-bounded-documents-linked-rounds/captures/529adef912e43dcf5e90d63267de3543ce55b665f97e08c7d0d0c1bc63e92bde.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/207?view=preview"
+}

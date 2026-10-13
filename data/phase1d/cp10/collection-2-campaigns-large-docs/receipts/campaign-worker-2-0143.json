@@ -1,0 +1,18 @@
+{
+  "bytes": 77172,
+  "content_type": "text/html; charset=utf-8",
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "final_url": "https://republic.com/deal-room-disclaimer",
+  "gzip_sha256": "63bba1c5d25ede4675163ce7fc3bd072f0513015eef66c5668bfdf03d5d1a543",
+  "http_status": 200,
+  "raw_sha256": "4981892c60ead5f5112f63f723e40b5ccf3eb7cc1887c3a98b5427913fb5a8c1",
+  "received_at": "2026-10-10T02:26:20.720552+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:26:20.107069+00:00",
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/4981892c60ead5f5112f63f723e40b5ccf3eb7cc1887c3a98b5427913fb5a8c1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/deal-room-disclaimer"
+}

@@ -1,0 +1,10 @@
+{
+  "campaign_url": "https://republic.com/alphaflow",
+  "error": "ValueError:response byte limit",
+  "label": "AlphaFlow Form C.pdf",
+  "parent_sha256": "2e4987c0a45a34e4f96f261adfdf8c055d6d04b55ced7b38f49805b9822c0890",
+  "retrieval_started_at": "2026-10-10T01:08:23.096388+00:00",
+  "source_group": "native-documents",
+  "status": "REQUEST_OR_VALIDATION_ERROR",
+  "url": "https://republic.com/documents/595?view=preview"
+}

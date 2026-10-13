@@ -1,0 +1,18 @@
+{
+  "bytes": 120427,
+  "campaign_url": "https://republic.com/jane-west",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/jane-west/show_updates",
+  "gzip_sha256": "bfc48f6749a7523d1afbefc16a09f99676b0b5247f6d672e4662df4b34d4d6e6",
+  "http_status": 200,
+  "parent_sha256": "f757eeaee36cd9144ad7ddef7fd37f624c5893f5610db2cc6a1c0de849b18869",
+  "raw_sha256": "246585a9356a05e58e2c25804beab66151f8f81f77226a187a2d88c9d47ea6ab",
+  "received_at": "2026-10-10T02:31:36.736132+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:31:36.076763+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/246585a9356a05e58e2c25804beab66151f8f81f77226a187a2d88c9d47ea6ab.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/jane-west/show_updates"
+}

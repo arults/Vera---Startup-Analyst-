@@ -1,0 +1,39 @@
+{
+  "campaign_url": "https://republic.com/hellowoofy-december-2019",
+  "capture_format": "ORDERED_GZIP_CHUNKS_RECONSTRUCT_RAW",
+  "chunks": [
+    {
+      "gzip_sha256": "970be8333ac18cd62097ce6e74478d73bad2145fc43c23be924b2697ab3e65ad",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/d2ad3c739739b3e9d6cdfd36a6c75da21c835f19cf6c247f1ccd784a2d593682.bin.gz",
+      "raw_bytes": 32000000,
+      "raw_sha256": "d2ad3c739739b3e9d6cdfd36a6c75da21c835f19cf6c247f1ccd784a2d593682"
+    },
+    {
+      "gzip_sha256": "2442c7c67546186b5e60f5b459ba4310a5f45586ab8b26a816907ae3d70afd82",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/6fe86e6681f140d12d14239d7684a068228723f59020e937d16ea9628892cfde.bin.gz",
+      "raw_bytes": 32000000,
+      "raw_sha256": "6fe86e6681f140d12d14239d7684a068228723f59020e937d16ea9628892cfde"
+    },
+    {
+      "gzip_sha256": "7b99f9ce998e4756380bc37f3ed0deba8bf8132c5538d172bee3dca047410cab",
+      "path": "data/phase1d/cp10/collection-2-campaigns-large-docs/document_chunks/0d7ac8b8d8162f7cc606c4fedab72764be1720ecc9c028fa49b80d6c552404eb.bin.gz",
+      "raw_bytes": 12243841,
+      "raw_sha256": "0d7ac8b8d8162f7cc606c4fedab72764be1720ecc9c028fa49b80d6c552404eb"
+    }
+  ],
+  "content_type": "application/pdf",
+  "estimation_eligible": false,
+  "final_url": "https://republic.com/documents/142?view=preview",
+  "full_semantic_review_complete": false,
+  "http_status": 200,
+  "label": "Woofy Form C:A 02.12.2020.pdf",
+  "parent_sha256": "3063bb0e955bade6df85ee08cbe7581e3bfe0ba9af08cf5ad8f0a1d2c020bf94",
+  "pdf_magic_verified": true,
+  "raw_bytes": 76243841,
+  "raw_sha256": "be4419e9e38d9d4181e3a55c50ee525f1f53e9fe709049a164061a2b4895ef35",
+  "received_at": "2026-10-10T02:22:56.213054+00:00",
+  "source_group": "large-documents",
+  "started_at": "2026-10-10T02:22:52.888499+00:00",
+  "status": "PUBLIC_FULL_DOCUMENT_CAPTURED",
+  "url": "https://republic.com/documents/142?view=preview"
+}

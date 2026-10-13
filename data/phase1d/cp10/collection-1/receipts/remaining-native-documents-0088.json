@@ -1,0 +1,18 @@
+{
+  "bytes": 10424378,
+  "campaign_url": "https://republic.com/sweetberry",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/99?view=preview",
+  "gzip_sha256": "161c4d8d4485e518f7799b3143fe3cc3d93e9a21bc445f4af38afe89d9ab9bb3",
+  "http_status": 200,
+  "label": "Sweetberry Form C.pdf",
+  "parent_sha256": "4192e0f0cb6844429776712abe38b0a5dc14e6ddbf9ae50c42a1ae7a85230e8b",
+  "raw_sha256": "0a1265d0a91e8f4f722bdc627c6a530b46e83ec1932e827845616eb88b1c6166",
+  "received_at": "2026-10-10T02:09:29.023290+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:27.715152+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/0a1265d0a91e8f4f722bdc627c6a530b46e83ec1932e827845616eb88b1c6166.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/99?view=preview"
+}

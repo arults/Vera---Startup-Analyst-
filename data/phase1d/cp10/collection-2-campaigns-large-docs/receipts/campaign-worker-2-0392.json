@@ -1,0 +1,18 @@
+{
+  "bytes": 28135,
+  "campaign_url": "https://republic.com/muvr",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/muvr/show_updates",
+  "gzip_sha256": "23dd400b89a955b5d5ead4efb48d1cbee346ecf0a1c3ed7c8094f84766737fed",
+  "http_status": 200,
+  "parent_sha256": "3d6ae468c4b58b2660b770a78b701a7fc5a44da2ddb764ebaaad61dc8cd53faa",
+  "raw_sha256": "f84d8f2a388d1788b3d7cbd5dfe1fce2347ac8733c0a4d741cc96939a13c4fa6",
+  "received_at": "2026-10-10T02:34:10.772092+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:10.208881+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/f84d8f2a388d1788b3d7cbd5dfe1fce2347ac8733c0a4d741cc96939a13c4fa6.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/muvr/show_updates"
+}

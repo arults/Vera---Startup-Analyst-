@@ -1,0 +1,18 @@
+{
+  "bytes": 82473,
+  "campaign_url": "https://republic.com/youngry",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/youngry/show_updates",
+  "gzip_sha256": "3e3fc0344a4aa70c3cd53c442bfb318d7410634272a0d9119d56f11a89226edf",
+  "http_status": 200,
+  "parent_sha256": "dd5098ed1b0b3a9b004b993a1a9a3247ebb28aaa72885b6e4dbfc27d6d6ee3be",
+  "raw_sha256": "e2f2a823367cfb1d9df5cae3741b1b4b92e4047d946888acd1c7f810cc830294",
+  "received_at": "2026-10-10T02:39:27.175095+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:39:26.569574+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/e2f2a823367cfb1d9df5cae3741b1b4b92e4047d946888acd1c7f810cc830294.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/youngry/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 19846,
+  "campaign_url": "https://republic.com/olive-tree-people",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/olive-tree-people/show_updates",
+  "gzip_sha256": "ee2df755d7cb24c0a153b9c5b53770c3f4847d60972e39d9fd69759385d584ac",
+  "http_status": 200,
+  "parent_sha256": "80573479d20c6ccd5fa814ab4f3bcc3f5a452a5b262459a2bc1bf6824947389f",
+  "raw_sha256": "cb6f3bf5cc0dbf332200cea854f3f74b524051230f3f94eba53c70854a998f62",
+  "received_at": "2026-10-10T02:34:39.870378+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:39.307276+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/cb6f3bf5cc0dbf332200cea854f3f74b524051230f3f94eba53c70854a998f62.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/olive-tree-people/show_updates"
+}

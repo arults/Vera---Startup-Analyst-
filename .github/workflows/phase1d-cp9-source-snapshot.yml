@@ -1,0 +1,27 @@
+name: Phase 1D CP9 source snapshot
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp9-source-snapshot.yml]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Export tracked source without credentials
+        run: |
+          mkdir -p /tmp/vera-cp9
+          git archive --format=tar.gz --output=/tmp/vera-cp9/branch-source.tar.gz HEAD
+          git rev-parse HEAD > /tmp/vera-cp9/source-commit.txt
+          sha256sum /tmp/vera-cp9/branch-source.tar.gz > /tmp/vera-cp9/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: phase1d-cp9-source-${{ github.run_id }}
+          path: /tmp/vera-cp9/
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,19 @@
+{
+  "bytes": 257855,
+  "campaign_url": "https://republic.com/axle-ai-2020",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/axle-ai-2020/show_updates",
+  "gzip_sha256": "42317233035ba40dfb2ef0a52f531484476f52da0a240533f9cfc9804ca65922",
+  "http_status": 200,
+  "legal_name": "Axle AI, Inc.",
+  "native_offering_id": 354,
+  "parent_sha256": "41a3527e8d5b631dcd0af4ce39c840588c15778f0e73ca6080c575636dca99f6",
+  "raw_sha256": "b039be14691fdecbc095919fcf85485739bc053bbedb3bb015961a33323271a4",
+  "received_at": "2026-10-10T00:51:45.688191+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:45.028268+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/b039be14691fdecbc095919fcf85485739bc053bbedb3bb015961a33323271a4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/axle-ai-2020/show_updates"
+}

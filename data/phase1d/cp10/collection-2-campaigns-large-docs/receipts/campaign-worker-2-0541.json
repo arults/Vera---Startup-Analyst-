@@ -1,0 +1,18 @@
+{
+  "bytes": 361503,
+  "campaign_url": "https://republic.com/sentry-ai",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/sentry-ai/show_updates",
+  "gzip_sha256": "15109af06e2e55e2c5976f427334054a7e9518d89a4b49e40ab0f036c534c3c2",
+  "http_status": 200,
+  "parent_sha256": "deb36ff39e7973523cbcdaa989ece1780c159b6559c57ae9c0c4d91d8dd253d4",
+  "raw_sha256": "19065af870cf81f98b19546078c3d0661ce6dde2f3dad8dd71688091223dad10",
+  "received_at": "2026-10-10T02:36:59.796590+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:36:58.949347+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/19065af870cf81f98b19546078c3d0661ce6dde2f3dad8dd71688091223dad10.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/sentry-ai/show_updates"
+}

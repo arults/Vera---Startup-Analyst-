@@ -1,0 +1,43 @@
+name: Phase 1D CP7 empirical source research
+on:
+  push:
+    branches: [phase-1d]
+    paths: [.github/workflows/phase1d-cp7-research.yml]
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase-1d
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Collect public sources without authentication or access bypass
+        run: python -m src.phase1d.capture_cp7_sources
+      - name: Preserve only additive research files
+        run: |
+          git config user.name 'Vera research checkpoint'
+          git config user.email '109891188+arults@users.noreply.github.com'
+          git add data/phase1d/cp7/cycle-1
+          git diff --cached --name-status | tee /tmp/vera-cp7-changes.txt
+          if grep -v '^A' /tmp/vera-cp7-changes.txt; then exit 1; fi
+          git commit -m 'CP7 cycle 1: checkpoint public source captures; no census or prior promotion'
+          git push origin HEAD:phase-1d
+      - name: Export checkpoint evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/vera-cp7-research
+          if test -d data/phase1d/cp7/cycle-1; then tar -czf /tmp/vera-cp7-research/research.tar.gz data/phase1d/cp7/cycle-1; fi
+          git rev-parse HEAD > /tmp/vera-cp7-research/commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1d-cp7-research-${{ github.run_id }}
+          path: /tmp/vera-cp7-research/
+          if-no-files-found: error
+          retention-days: 90

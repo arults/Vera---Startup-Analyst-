@@ -1,0 +1,18 @@
+{
+  "bytes": 146028,
+  "campaign_url": "https://republic.com/epilog",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/epilog/show_updates",
+  "gzip_sha256": "7e0364a4bbe320eb686c64e45be16dc7059329f3286f2a5e2fd4a791492dcd4f",
+  "http_status": 200,
+  "parent_sha256": "812868280f2a72064dc9feb4806a7c1028695018c38d8c562f576ac5b73f7c4d",
+  "raw_sha256": "6630fc8a8556ab3aac70541ccbc2e050bfc464e9ff98babeb558b25f0331021c",
+  "received_at": "2026-10-10T02:27:13.763744+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:27:13.090807+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6630fc8a8556ab3aac70541ccbc2e050bfc464e9ff98babeb558b25f0331021c.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/epilog/show_updates"
+}

@@ -1,0 +1,545 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Vera run metrics</title><style>body{font:15px system-ui;margin:2rem;color:#17212b}table{border-collapse:collapse;width:100%}th,td{text-align:left;border:1px solid #ccd6dd;padding:.6rem;vertical-align:top}th{background:#e8f1f3}pre{white-space:pre-wrap}h1{font-size:1.7rem}</style><h1>Vera run metrics</h1><p>Operational telemetry only. Unknown values are not zero. Synthetic and live runs are grouped separately.</p><div style="overflow-x:auto"><table><tr><th>Company / run</th><th>Mode / cache / collection</th><th>Data cutoff</th><th>Status / capture / final response</th><th>Input uncached</th><th>Input cached</th><th>Output</th><th>Total tokens</th><th>Tools / distinct / all attempts</th><th>Wall to cutoff seconds</th><th>Cost</th><th>Memory</th></tr><tr><td>synthetic-company-0 / synthetic-run-0</td><td>SCREEN / cold / fixture</td><td>2026-10-11T00:00:10Z</td><td>completed / complete / included</td><td>1000 (1/1; complete)</td><td>0 (1/1; complete)</td><td>500 (1/1; complete)</td><td>1500 (1/1; complete)</td><td>0 / 0 / 1 observed (complete)</td><td>10.0</td><td>USD 0.006 (complete estimate)</td><td>synthetic-process-0: 1048576 B RSS (run_isolated_process; fixture; synthetic); context 100; storage 1024 B</td></tr><tr><td>synthetic-company-1 / synthetic-run-1</td><td>STANDARD / warm / fixture</td><td>2026-10-11T00:00:10Z</td><td>completed / partial / excluded</td><td>unknown (0/2)</td><td>unknown (0/2)</td><td>1000 (1/2; partial)</td><td>3000 (1/2; partial)</td><td>1 / 1 / 2 observed (partial)</td><td>10.0</td><td>USD 0.008 (known subtotal only; estimate)</td><td>synthetic-process-1: 2097152 B RSS (run_isolated_process; fixture; synthetic); context 200; storage 2048 B</td></tr><tr><td>synthetic-company-2 / synthetic-run-2</td><td>STANDARD / warm / fixture</td><td>2026-10-11T00:00:10Z</td><td>completed / complete / included</td><td>2200 (1/1; complete)</td><td>800 (1/1; complete)</td><td>1500 (1/1; complete)</td><td>4500 (1/1; complete)</td><td>1 / 1 / 2 observed (complete)</td><td>10.0</td><td>USD 0.0272 (complete estimate)</td><td>synthetic-process-2: 3145728 B RSS (run_isolated_process; fixture; synthetic); context 300; storage 3072 B</td></tr><tr><td>synthetic-company-3 / synthetic-run-3</td><td>DEEP / cold / fixture</td><td>2026-10-11T00:00:10Z</td><td>blocked / unavailable / excluded</td><td>unknown (0/1)</td><td>unknown (0/1)</td><td>unknown (0/1)</td><td>unknown (0/1)</td><td>unknown / unknown / 1 observed (unavailable)</td><td>10.0</td><td>unknown</td><td>unknown</td></tr></table></div><h2>Matched groups and measured sample sizes</h2><pre>[
+  {
+    &quot;analysis_mode&quot;: &quot;DEEP&quot;,
+    &quot;cache_state&quot;: &quot;cold&quot;,
+    &quot;status&quot;: &quot;blocked&quot;,
+    &quot;synthetic&quot;: true,
+    &quot;collection_source&quot;: &quot;fixture&quot;,
+    &quot;final_response_included&quot;: false,
+    &quot;model_set&quot;: [
+      {
+        &quot;provider&quot;: &quot;fixture&quot;,
+        &quot;model&quot;: &quot;fixture-model&quot;,
+        &quot;model_version&quot;: &quot;synthetic-v1&quot;
+      }
+    ],
+    &quot;n_runs&quot;: 1,
+    &quot;metrics&quot;: {
+      &quot;uncached_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;cached_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;output_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;wall_seconds&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 10.0,
+        &quot;min&quot;: 10.0,
+        &quot;max&quot;: 10.0,
+        &quot;median&quot;: 10.0,
+        &quot;p90&quot;: 10.0,
+        &quot;p95&quot;: 10.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;tool_calls&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;distinct_tool_count&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    },
+    &quot;costs&quot;: [],
+    &quot;memory_peak_groups&quot;: []
+  },
+  {
+    &quot;analysis_mode&quot;: &quot;SCREEN&quot;,
+    &quot;cache_state&quot;: &quot;cold&quot;,
+    &quot;status&quot;: &quot;completed&quot;,
+    &quot;synthetic&quot;: true,
+    &quot;collection_source&quot;: &quot;fixture&quot;,
+    &quot;final_response_included&quot;: true,
+    &quot;model_set&quot;: [
+      {
+        &quot;provider&quot;: &quot;fixture&quot;,
+        &quot;model&quot;: &quot;fixture-model&quot;,
+        &quot;model_version&quot;: &quot;synthetic-v1&quot;
+      }
+    ],
+    &quot;n_runs&quot;: 1,
+    &quot;metrics&quot;: {
+      &quot;uncached_input_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1000.0,
+        &quot;min&quot;: 1000,
+        &quot;max&quot;: 1000,
+        &quot;median&quot;: 1000.0,
+        &quot;p90&quot;: 1000.0,
+        &quot;p95&quot;: 1000.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;cached_input_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 0.0,
+        &quot;min&quot;: 0,
+        &quot;max&quot;: 0,
+        &quot;median&quot;: 0.0,
+        &quot;p90&quot;: 0.0,
+        &quot;p95&quot;: 0.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;output_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 500.0,
+        &quot;min&quot;: 500,
+        &quot;max&quot;: 500,
+        &quot;median&quot;: 500.0,
+        &quot;p90&quot;: 500.0,
+        &quot;p95&quot;: 500.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_input_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1000.0,
+        &quot;min&quot;: 1000,
+        &quot;max&quot;: 1000,
+        &quot;median&quot;: 1000.0,
+        &quot;p90&quot;: 1000.0,
+        &quot;p95&quot;: 1000.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1500.0,
+        &quot;min&quot;: 1500,
+        &quot;max&quot;: 1500,
+        &quot;median&quot;: 1500.0,
+        &quot;p90&quot;: 1500.0,
+        &quot;p95&quot;: 1500.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;wall_seconds&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 10.0,
+        &quot;min&quot;: 10.0,
+        &quot;max&quot;: 10.0,
+        &quot;median&quot;: 10.0,
+        &quot;p90&quot;: 10.0,
+        &quot;p95&quot;: 10.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;tool_calls&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 0.0,
+        &quot;min&quot;: 0,
+        &quot;max&quot;: 0,
+        &quot;median&quot;: 0.0,
+        &quot;p90&quot;: 0.0,
+        &quot;p95&quot;: 0.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;distinct_tool_count&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 0.0,
+        &quot;min&quot;: 0,
+        &quot;max&quot;: 0,
+        &quot;median&quot;: 0.0,
+        &quot;p90&quot;: 0.0,
+        &quot;p95&quot;: 0.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    },
+    &quot;costs&quot;: [
+      {
+        &quot;currency&quot;: &quot;USD&quot;,
+        &quot;basis&quot;: [
+          &quot;estimate&quot;
+        ],
+        &quot;price_versions&quot;: [
+          &quot;synthetic-v1&quot;
+        ],
+        &quot;n&quot;: 1,
+        &quot;eligible_n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;mean&quot;: &quot;0.006&quot;
+      }
+    ],
+    &quot;memory_peak_groups&quot;: [
+      {
+        &quot;scope&quot;: &quot;run_isolated_process&quot;,
+        &quot;method&quot;: &quot;fixture&quot;,
+        &quot;platform&quot;: &quot;synthetic&quot;,
+        &quot;measure&quot;: &quot;max observed process peak; not simultaneous total&quot;,
+        &quot;eligible_n&quot;: 1,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1048576.0,
+        &quot;min&quot;: 1048576,
+        &quot;max&quot;: 1048576,
+        &quot;median&quot;: 1048576.0,
+        &quot;p90&quot;: 1048576.0,
+        &quot;p95&quot;: 1048576.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    ]
+  },
+  {
+    &quot;analysis_mode&quot;: &quot;STANDARD&quot;,
+    &quot;cache_state&quot;: &quot;warm&quot;,
+    &quot;status&quot;: &quot;completed&quot;,
+    &quot;synthetic&quot;: true,
+    &quot;collection_source&quot;: &quot;fixture&quot;,
+    &quot;final_response_included&quot;: false,
+    &quot;model_set&quot;: [
+      {
+        &quot;provider&quot;: &quot;fixture&quot;,
+        &quot;model&quot;: &quot;fixture-model&quot;,
+        &quot;model_version&quot;: &quot;synthetic-v1&quot;
+      },
+      {
+        &quot;provider&quot;: &quot;unknown&quot;,
+        &quot;model&quot;: &quot;unknown&quot;,
+        &quot;model_version&quot;: &quot;unknown&quot;
+      }
+    ],
+    &quot;n_runs&quot;: 1,
+    &quot;metrics&quot;: {
+      &quot;uncached_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;cached_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;output_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_input_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_tokens&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;wall_seconds&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 10.0,
+        &quot;min&quot;: 10.0,
+        &quot;max&quot;: 10.0,
+        &quot;median&quot;: 10.0,
+        &quot;p90&quot;: 10.0,
+        &quot;p95&quot;: 10.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;tool_calls&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;distinct_tool_count&quot;: {
+        &quot;n&quot;: 0,
+        &quot;missing_count&quot;: 1,
+        &quot;mean&quot;: null,
+        &quot;min&quot;: null,
+        &quot;max&quot;: null,
+        &quot;median&quot;: null,
+        &quot;p90&quot;: null,
+        &quot;p95&quot;: null,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    },
+    &quot;costs&quot;: [
+      {
+        &quot;currency&quot;: &quot;USD&quot;,
+        &quot;basis&quot;: [
+          &quot;estimate&quot;
+        ],
+        &quot;price_versions&quot;: [
+          &quot;synthetic-v1&quot;
+        ],
+        &quot;n&quot;: 0,
+        &quot;eligible_n&quot;: 1,
+        &quot;missing_count&quot;: 1,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;mean&quot;: null
+      }
+    ],
+    &quot;memory_peak_groups&quot;: [
+      {
+        &quot;scope&quot;: &quot;run_isolated_process&quot;,
+        &quot;method&quot;: &quot;fixture&quot;,
+        &quot;platform&quot;: &quot;synthetic&quot;,
+        &quot;measure&quot;: &quot;max observed process peak; not simultaneous total&quot;,
+        &quot;eligible_n&quot;: 1,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 2097152.0,
+        &quot;min&quot;: 2097152,
+        &quot;max&quot;: 2097152,
+        &quot;median&quot;: 2097152.0,
+        &quot;p90&quot;: 2097152.0,
+        &quot;p95&quot;: 2097152.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    ]
+  },
+  {
+    &quot;analysis_mode&quot;: &quot;STANDARD&quot;,
+    &quot;cache_state&quot;: &quot;warm&quot;,
+    &quot;status&quot;: &quot;completed&quot;,
+    &quot;synthetic&quot;: true,
+    &quot;collection_source&quot;: &quot;fixture&quot;,
+    &quot;final_response_included&quot;: true,
+    &quot;model_set&quot;: [
+      {
+        &quot;provider&quot;: &quot;fixture&quot;,
+        &quot;model&quot;: &quot;fixture-model&quot;,
+        &quot;model_version&quot;: &quot;synthetic-v1&quot;
+      }
+    ],
+    &quot;n_runs&quot;: 1,
+    &quot;metrics&quot;: {
+      &quot;uncached_input_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 2200.0,
+        &quot;min&quot;: 2200,
+        &quot;max&quot;: 2200,
+        &quot;median&quot;: 2200.0,
+        &quot;p90&quot;: 2200.0,
+        &quot;p95&quot;: 2200.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;cached_input_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 800.0,
+        &quot;min&quot;: 800,
+        &quot;max&quot;: 800,
+        &quot;median&quot;: 800.0,
+        &quot;p90&quot;: 800.0,
+        &quot;p95&quot;: 800.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;output_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1500.0,
+        &quot;min&quot;: 1500,
+        &quot;max&quot;: 1500,
+        &quot;median&quot;: 1500.0,
+        &quot;p90&quot;: 1500.0,
+        &quot;p95&quot;: 1500.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_input_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 3000.0,
+        &quot;min&quot;: 3000,
+        &quot;max&quot;: 3000,
+        &quot;median&quot;: 3000.0,
+        &quot;p90&quot;: 3000.0,
+        &quot;p95&quot;: 3000.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;total_tokens&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 4500.0,
+        &quot;min&quot;: 4500,
+        &quot;max&quot;: 4500,
+        &quot;median&quot;: 4500.0,
+        &quot;p90&quot;: 4500.0,
+        &quot;p95&quot;: 4500.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;wall_seconds&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 10.0,
+        &quot;min&quot;: 10.0,
+        &quot;max&quot;: 10.0,
+        &quot;median&quot;: 10.0,
+        &quot;p90&quot;: 10.0,
+        &quot;p95&quot;: 10.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;tool_calls&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1.0,
+        &quot;min&quot;: 1,
+        &quot;max&quot;: 1,
+        &quot;median&quot;: 1.0,
+        &quot;p90&quot;: 1.0,
+        &quot;p95&quot;: 1.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      },
+      &quot;distinct_tool_count&quot;: {
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 1.0,
+        &quot;min&quot;: 1,
+        &quot;max&quot;: 1,
+        &quot;median&quot;: 1.0,
+        &quot;p90&quot;: 1.0,
+        &quot;p95&quot;: 1.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    },
+    &quot;costs&quot;: [
+      {
+        &quot;currency&quot;: &quot;USD&quot;,
+        &quot;basis&quot;: [
+          &quot;estimate&quot;
+        ],
+        &quot;price_versions&quot;: [
+          &quot;synthetic-tool-v1&quot;,
+          &quot;synthetic-v1&quot;
+        ],
+        &quot;n&quot;: 1,
+        &quot;eligible_n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;mean&quot;: &quot;0.0272&quot;
+      }
+    ],
+    &quot;memory_peak_groups&quot;: [
+      {
+        &quot;scope&quot;: &quot;run_isolated_process&quot;,
+        &quot;method&quot;: &quot;fixture&quot;,
+        &quot;platform&quot;: &quot;synthetic&quot;,
+        &quot;measure&quot;: &quot;max observed process peak; not simultaneous total&quot;,
+        &quot;eligible_n&quot;: 1,
+        &quot;unknown_provenance_count&quot;: 0,
+        &quot;excluded_incompatible_count&quot;: 0,
+        &quot;n&quot;: 1,
+        &quot;missing_count&quot;: 0,
+        &quot;mean&quot;: 3145728.0,
+        &quot;min&quot;: 3145728,
+        &quot;max&quot;: 3145728,
+        &quot;median&quot;: 3145728.0,
+        &quot;p90&quot;: 3145728.0,
+        &quot;p95&quot;: 3145728.0,
+        &quot;percentile_method&quot;: &quot;linear interpolation; descriptive only&quot;
+      }
+    ]
+  }
+]</pre><p>Observed ledger only. No global runtime interception, inferred usage, or scientific approval.</p></html>

@@ -1,0 +1,18 @@
+{
+  "bytes": 254805,
+  "campaign_url": "https://republic.com/axle-workout",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/axle-workout/show_updates",
+  "gzip_sha256": "4675f0d919f4885db1b023ae3fee88362ce94e46741b6566221f50716211b187",
+  "http_status": 200,
+  "parent_sha256": "d3a2865f3ea36b5f1dda48bec792cc9a019efa80839c6b400ad0f8bd114d1b8a",
+  "raw_sha256": "fb00f0823f3f2665d7391c80775e6f80303427ac1bc63f2b04f56ff8c0a942a1",
+  "received_at": "2026-10-10T02:24:08.524554+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:24:07.760610+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/fb00f0823f3f2665d7391c80775e6f80303427ac1bc63f2b04f56ff8c0a942a1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/axle-workout/show_updates"
+}

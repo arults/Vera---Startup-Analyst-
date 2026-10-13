@@ -1,0 +1,18 @@
+{
+  "bytes": 6442980,
+  "campaign_url": "https://republic.com/acfn",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1694?view=preview",
+  "gzip_sha256": "d1a562ccdfa54f205e9c38460a7742d822f1fc3b4449a1be2af1a99fbc4ad2a1",
+  "http_status": 200,
+  "label": "ACFN Form C.pdf",
+  "parent_sha256": "3dbb63dbfc7c3047dfacc0e55877365d6fd7dfc2427adb62ab70877c5681fbf6",
+  "raw_sha256": "1dedc22317f8daa10782932662f530244c038236ddef02c490fed2a64cff6a8a",
+  "received_at": "2026-10-10T01:08:20.586406+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T01:08:19.158499+00:00",
+  "source_group": "native-documents",
+  "source_path": "data/phase1d/cp9/cycle-2-documents-posts/captures/1dedc22317f8daa10782932662f530244c038236ddef02c490fed2a64cff6a8a.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1694?view=preview"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 40158,
+  "campaign_url": "https://republic.com/automatic",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/automatic/show_updates",
+  "gzip_sha256": "21e104c8dbb76d30a950edbb3837f38689e47f9627c6f276bb09c591c80fa416",
+  "http_status": 200,
+  "parent_sha256": "734e4ac9e24a568a512eb451d81fe64c86d3bf664c6e25ded4385b9be1b47e36",
+  "raw_sha256": "832e120be627de1bad082760ea28a23ad7a0f5b475adb29178fc822fb182b48e",
+  "received_at": "2026-10-10T02:23:52.910207+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:52.330149+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/832e120be627de1bad082760ea28a23ad7a0f5b475adb29178fc822fb182b48e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/automatic/show_updates"
+}

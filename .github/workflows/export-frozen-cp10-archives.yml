@@ -1,0 +1,157 @@
+name: Export frozen CP10 archived PDFs
+
+on:
+  push:
+    branches: [phase-1d]
+    paths:
+      - .github/workflows/export-frozen-cp10-archives.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export-archived-copies:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout only frozen archived paths
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: arults/Vera---Startup-Analyst-
+          ref: 35ea769ef176ba07b03c75e6debc81eb94a24046
+          path: archived-source
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /data/phase1d/cp10/collection-1/captures/43ab679ec59914861b5157922c7dc643377ef5f2b64fc6f0edea05fec6eee71d.bin.gz
+            /data/phase1d/cp10/collection-1/captures/f24d85995217c1d4f82476d61bd2bb21f96a038a5d79a39c4d433b3335d8d812.bin.gz
+            /data/phase1d/cp10/collection-1/captures/e2bdacb130cee6d1de137eb7a97bf2c613014a3aae984feae638d7e368a3ba65.bin.gz
+      - name: Verify each exact archived object without executing content
+        id: verify
+        shell: bash
+        run: |
+          python3 - <<'PYTHON'
+          import gzip, hashlib, json, os, pathlib, shutil, stat, subprocess
+
+          SOURCE_COMMIT = "35ea769ef176ba07b03c75e6debc81eb94a24046"
+          RECORDS = [{'name': 'blue175', 'source_path': 'data/phase1d/cp10/collection-1/captures/43ab679ec59914861b5157922c7dc643377ef5f2b64fc6f0edea05fec6eee71d.bin.gz', 'git_blob_sha1': 'b61c1ad4c8e62cfcc014e588af83af137b1d8128', 'compressed_bytes': 20505653, 'raw_sha256': '43ab679ec59914861b5157922c7dc643377ef5f2b64fc6f0edea05fec6eee71d', 'raw_bytes': 29931475}, {'name': 'bounty0x63', 'source_path': 'data/phase1d/cp10/collection-1/captures/f24d85995217c1d4f82476d61bd2bb21f96a038a5d79a39c4d433b3335d8d812.bin.gz', 'git_blob_sha1': '954fad035a8ecac50e101890546340fad5be5d1f', 'compressed_bytes': 1286274, 'raw_sha256': 'f24d85995217c1d4f82476d61bd2bb21f96a038a5d79a39c4d433b3335d8d812', 'raw_bytes': 1390748}, {'name': 'bucketlist686', 'source_path': 'data/phase1d/cp10/collection-1/captures/e2bdacb130cee6d1de137eb7a97bf2c613014a3aae984feae638d7e368a3ba65.bin.gz', 'git_blob_sha1': 'f5ba9d3d0fde0c725ca91b45b2f4230f1e524ebf', 'compressed_bytes': 12359105, 'raw_sha256': 'e2bdacb130cee6d1de137eb7a97bf2c613014a3aae984feae638d7e368a3ba65', 'raw_bytes': 12590924}]
+          CHUNK = 1024 * 1024
+
+          def verify_export(source, record, output):
+              path = source / record["source_path"]
+              if not stat.S_ISREG(path.lstat().st_mode):
+                  raise ValueError("Source is not a regular file")
+              size = path.stat().st_size
+              if size != record["compressed_bytes"]:
+                  raise ValueError("Compressed size mismatch")
+              git_hash = hashlib.sha1(("blob " + str(size) + "\0").encode())
+              compressed_hash = hashlib.sha256()
+              with path.open("rb") as stream:
+                  for chunk in iter(lambda: stream.read(CHUNK), b""):
+                      git_hash.update(chunk)
+                      compressed_hash.update(chunk)
+              if git_hash.hexdigest() != record["git_blob_sha1"]:
+                  raise ValueError("Git blob identity mismatch")
+              raw_hash, raw_bytes = hashlib.sha256(), 0
+              with gzip.open(path, "rb") as stream:
+                  while True:
+                      # Read at most one byte past the frozen expected length.
+                      chunk = stream.read(min(CHUNK, record["raw_bytes"] - raw_bytes + 1))
+                      if not chunk:
+                          break
+                      raw_bytes += len(chunk)
+                      if raw_bytes > record["raw_bytes"]:
+                          raise ValueError("Raw size bound exceeded")
+                      raw_hash.update(chunk)
+              if raw_bytes != record["raw_bytes"] or raw_hash.hexdigest() != record["raw_sha256"]:
+                  raise ValueError("Raw size or hash mismatch")
+              manifest = dict(record, source_commit=SOURCE_COMMIT,
+                              repository="arults/Vera---Startup-Analyst-",
+                              compressed_sha256=compressed_hash.hexdigest(),
+                              verified_raw_bytes=raw_bytes,
+                              verified_raw_sha256=raw_hash.hexdigest(),
+                              status="exact_archived_bytes_verified",
+                              content_executed=False, native_source_network_reads=0)
+              destination = output / record["name"]
+              destination.mkdir(parents=True, exist_ok=False)
+              shutil.copyfile(path, destination / path.name)
+              (destination / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+              return manifest
+
+          def main():
+              source = pathlib.Path("archived-source")
+              output = pathlib.Path(os.environ["RUNNER_TEMP"]) / "vera-archived-pdf-export"
+              output.mkdir(parents=True, exist_ok=False)
+              head = subprocess.run(["git", "-C", str(source), "rev-parse", "HEAD"],
+                                    check=True, capture_output=True, text=True).stdout.strip()
+              if head != SOURCE_COMMIT:
+                  raise ValueError("Source commit mismatch")
+              passed = 0
+              with open(os.environ["GITHUB_OUTPUT"], "a") as outputs:
+                  for record in RECORDS:
+                      try:
+                          tree = subprocess.run(["git", "-C", str(source), "ls-tree", SOURCE_COMMIT,
+                                                 "--", record["source_path"]],
+                                                check=True, capture_output=True, text=True).stdout.strip()
+                          expected = "100644 blob " + record["git_blob_sha1"] + "\t" + record["source_path"]
+                          if tree != expected:
+                              raise ValueError("Frozen tree identity mismatch")
+                          verify_export(source, record, output)
+                          outputs.write(record["name"] + "=true\n")
+                          passed += 1
+                          print(record["name"] + ": verified")
+                      except Exception as error:
+                          # No source bytes, exception payloads, or authentication values in logs.
+                          print(record["name"] + ": verification failed (" + type(error).__name__ + ")")
+                          outputs.write(record["name"] + "=false\n")
+                  outputs.write("all_verified=" + str(passed == len(RECORDS)).lower() + "\n")
+              print("Verified " + str(passed) + " of " + str(len(RECORDS)) + " archived objects")
+
+          if __name__ == "__main__":
+              main()
+          PYTHON
+      - name: Export blue175 archived copy
+        id: upload_blue175
+        if: ${{ always() && steps.verify.outputs.blue175 == 'true' }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cp10-archived-blue175-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/vera-archived-pdf-export/blue175/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+      - name: Export bounty0x63 archived copy
+        id: upload_bounty0x63
+        if: ${{ always() && steps.verify.outputs.bounty0x63 == 'true' }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cp10-archived-bounty0x63-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/vera-archived-pdf-export/bounty0x63/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+      - name: Export bucketlist686 archived copy
+        id: upload_bucketlist686
+        if: ${{ always() && steps.verify.outputs.bucketlist686 == 'true' }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cp10-archived-bucketlist686-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/vera-archived-pdf-export/bucketlist686/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+      - name: Require all three verified artifacts
+        if: ${{ always() }}
+        shell: bash
+        env:
+          ALL_VERIFIED: ${{ steps.verify.outputs.all_verified }}
+          UPLOAD_BLUE175: ${{ steps.upload_blue175.outcome }}
+          UPLOAD_BOUNTY0X63: ${{ steps.upload_bounty0x63.outcome }}
+          UPLOAD_BUCKETLIST686: ${{ steps.upload_bucketlist686.outcome }}
+        run: |
+          if [[ "$ALL_VERIFIED" != "true" || "$UPLOAD_BLUE175" != "success" || "$UPLOAD_BOUNTY0X63" != "success" || "$UPLOAD_BUCKETLIST686" != "success" ]]; then
+            echo "Archive export incomplete; independently successful artifacts remain available."
+            exit 1
+          fi
+          echo "All three exact archived copies exported."

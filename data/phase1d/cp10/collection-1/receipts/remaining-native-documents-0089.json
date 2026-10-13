@@ -1,0 +1,18 @@
+{
+  "bytes": 14204527,
+  "campaign_url": "https://republic.com/tallyfy",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/90?view=preview",
+  "gzip_sha256": "6b8144d63da5cf1b400e020faa1031f1a5f6a7539388e9f1c56d49b950884248",
+  "http_status": 200,
+  "label": "Tallyfy Form C:A 10.17.19.pdf",
+  "parent_sha256": "47a890283f26cefb32a64d49a08fad8e12206413614ce4934084936f92e1a5aa",
+  "raw_sha256": "804beea7d2f774c82f007d061ee960f3e08dbd4dbe770eac17737aabc46a5414",
+  "received_at": "2026-10-10T02:09:31.034040+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:29.357213+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/804beea7d2f774c82f007d061ee960f3e08dbd4dbe770eac17737aabc46a5414.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/90?view=preview"
+}

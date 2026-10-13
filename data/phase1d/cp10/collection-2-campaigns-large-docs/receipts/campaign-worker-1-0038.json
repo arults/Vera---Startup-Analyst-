@@ -1,0 +1,18 @@
+{
+  "bytes": 19099,
+  "campaign_url": "https://republic.com/asm-tranche-1",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/asm-tranche-1/show_updates",
+  "gzip_sha256": "740d67619494c746e581aa26a6653f1137fa9bc7844eb86f84224aefd46fe7b5",
+  "http_status": 200,
+  "parent_sha256": "d5b214806d8f931f50f6b8127973e4f2586f5e262d60a3ab077de64eae793b12",
+  "raw_sha256": "dff37f9e3e9eb1f776223be2ab6aa89c50405259e8322f585cae3c6a3d3df00b",
+  "received_at": "2026-10-10T02:23:38.043745+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:37.446731+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/dff37f9e3e9eb1f776223be2ab6aa89c50405259e8322f585cae3c6a3d3df00b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/asm-tranche-1/show_updates"
+}

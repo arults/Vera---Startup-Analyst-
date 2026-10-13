@@ -1,0 +1,18 @@
+{
+  "bytes": 120266,
+  "campaign_url": "https://republic.com/ingenii",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ingenii/show_updates",
+  "gzip_sha256": "fa1e7e9399cf4675d5801a427ff6c85413ab49f264db617f50d2294062fb6f5e",
+  "http_status": 200,
+  "parent_sha256": "592bea591062a5cbbe77f7b0d5105af28054be161fa44d9b6f647a22d6c71dd5",
+  "raw_sha256": "177104c67a7df0bd6057cf99ea17dbb441901518f28fe7c087fab659493c0808",
+  "received_at": "2026-10-10T02:30:56.504839+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:30:55.863045+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/177104c67a7df0bd6057cf99ea17dbb441901518f28fe7c087fab659493c0808.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ingenii/show_updates"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 139281,
+  "campaign_url": "https://republic.com/ohmnilabs",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/ohmnilabs/show_updates",
+  "gzip_sha256": "aae14415faf2924a498d2e97f16aad05e6eabdae9fb527e84be69fd61f615b92",
+  "http_status": 200,
+  "parent_sha256": "11b3b8b50a54bab21e6d10636fa38bf2dd1571de3c2535104ead0568355c4cc4",
+  "raw_sha256": "6dd4ef1e7108b472d9e5b0b206b6e26a806b694276ea7f789a3136b2823a3f58",
+  "received_at": "2026-10-10T02:34:46.180061+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:34:45.506618+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6dd4ef1e7108b472d9e5b0b206b6e26a806b694276ea7f789a3136b2823a3f58.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/ohmnilabs/show_updates"
+}

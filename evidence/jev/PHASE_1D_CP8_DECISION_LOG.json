@@ -1,0 +1,58 @@
+{
+  "phase": "1D",
+  "checkpoint": "CP8",
+  "execution_version": "0.6.3-dev.research.1",
+  "model": "jev-1.13.0",
+  "record_type": "Actual structured tool outputs transcribed with summarized input states; input summaries are not verbatim full prompts",
+  "interpretation": "Probabilities and confidence are model judgments, not empirical calibration or statistical certainty. noul answers did not return separate confidence values.",
+  "evaluations": [
+    {
+      "iteration": "baseline_reconciliation_gate",
+      "state_summary": "Actual branch contains CP7 beyond previously reported CP6; operational pointers stale; export tracked source and reconcile actual empirical work before new research.",
+      "answers": {
+        "first_action": {"type":"choice","choice":"reconcile_cp7_then_empirical_research","confidence":1,"probabilities":{"reconcile_cp7_then_empirical_research":1,"repeat_cp6_repair":0,"declare_complete":0}},
+        "promotion_now": {"type":"noul","noul":0.05}
+      },
+      "usage": {"input_tokens":717,"output_tokens":84}
+    },
+    {
+      "iteration": "published_archives_research_gate",
+      "state_summary": "Official SEC index read via web listed 26 published quarters through2026Q2, not2026Q3. Newly witnessed direct static archive links offer a distinct bounded source route; RegCF archives remain external discovery only.",
+      "answers": {
+        "static_archive_action": {"type":"choice","choice":"published_archives_plus_reconciled_cp7","confidence":1,"probabilities":{"published_archives_plus_reconciled_cp7":1,"unchanged_retry":0,"declare_census_complete":0}},
+        "quarter_policy": {"type":"choice","choice":"separate_published_vs_desired","confidence":1,"probabilities":{"separate_published_vs_desired":1,"all27_required":0,"only_successful_quarters":0}},
+        "global_plateau_now": {"type":"noul","noul":0.06}
+      },
+      "usage": {"input_tokens":1071,"output_tokens":147},
+      "execution_run":37951562361,
+      "actual_source_result":"0archives,2HTTPerrors,24notattempted after circuit opened; failed route preserved, no access bypass"
+    },
+    {
+      "iteration": "native_outcome_research_gate",
+      "state_summary": "First run passed218tests,21newscientific,43historical and8archive checks;62eligible followons after source reconciliation. Newly read Republic annual report, Trusst and Ring4 campaign pages support payout observations, not complete historical censuses or exact return/date estimates.",
+      "answers": {
+        "next_cycle": {"type":"choice","choice":"capture_native_outcomes_with_scoped_holds","confidence":1,"probabilities":{"capture_native_outcomes_with_scoped_holds":1,"repeat_failed_SEC_downloads":0,"declare_research_complete":0}},
+        "trusst_return_treatment": {"type":"choice","choice":"annualized_only_no_exact_moic","confidence":1,"probabilities":{"annualized_only_no_exact_moic":1,"2_02x_realized":0}},
+        "ring4_treatment": {"type":"choice","choice":"out_of_cohort_nonprofit_payout_control","confidence":1,"probabilities":{"out_of_cohort_nonprofit_payout_control":1,"2021_success":0}},
+        "global_plateau": {"type":"noul","noul":0.05}
+      },
+      "usage": {"input_tokens":1369,"output_tokens":197},
+      "execution_run":37952724156
+    },
+    {
+      "iteration": "final_verifier_feedback_repair_adjudication",
+      "state_summary": "Two completed research executions; source-bound empirical improvements;1259pre-existing data files preserved. Four full native pages captured,3typed payout observations with1positive candidate and2controls. Short252character directory rejection repaired with source-specific structural checks;7focused checks and218full regressions pass locally. All24RQ1cells low-information,0RQ2reportable. Four historical censuses remain incomplete; no two no-improvement substantive research iterations and no global plateau.",
+      "answers": {
+        "checkpoint_disposition": {"type":"choice","choice":"verified_empirical_progress_research_incomplete","confidence":1,"probabilities":{"verified_empirical_progress_research_incomplete":1,"fully_complete_promote":0,"discard_everything":0}},
+        "stopping_claim": {"type":"choice","choice":"checkpoint_with_explicit_blockers_not_plateau","confidence":1,"probabilities":{"checkpoint_with_explicit_blockers_not_plateau":1,"global_plateau_reached":0,"tests_equal_research_plateau":0}},
+        "repair_admissibility": {"type":"choice","choice":"accept_scope_only","confidence":1,"probabilities":{"accept_scope_only":1,"count_as_historical_census":0,"reject_all_short_sources":0}},
+        "numerical_prior_promotion": {"type":"noul","noul":0.04}
+      },
+      "usage": {"input_tokens":1941,"output_tokens":215}
+    }
+  ],
+  "rates_promoted":false,
+  "main_merge_performed":false,
+  "full_study_complete":false,
+  "global_research_plateau":false
+}

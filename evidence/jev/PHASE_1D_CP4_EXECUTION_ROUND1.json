@@ -1,0 +1,49 @@
+{
+  "model": "jev-1.13.0",
+  "evaluated_at": "2026-10-09",
+  "verifier": {
+    "run_id": 37886717240,
+    "gates": "27/27 PASS"
+  },
+  "scores_raw": {
+    "denominator_coverage": 1.13,
+    "outcome_ascertainment": 5.75,
+    "statistical_integrity": 6.44,
+    "cross_platform_breadth": 1.17,
+    "reproducibility": 7.82,
+    "reporting_validity": 7.75
+  },
+  "answers": {
+    "next_improvement": {
+      "choice": "unlock_wefunder",
+      "confidence": 0.28,
+      "probabilities": {
+        "unlock_wefunder": 0.46,
+        "improve_republic_outcomes": 0.13,
+        "unlock_republic_us": 0.19,
+        "report_now": 0.22
+      }
+    },
+    "current_promotion": {
+      "choice": "candidate_only",
+      "confidence": 0.79,
+      "probabilities": {
+        "candidate_only": 0.86,
+        "limited_republic_europe": 0.14,
+        "full_phase": 0
+      }
+    },
+    "material_design_flip": {
+      "choice": "none",
+      "confidence": 0.86,
+      "probabilities": {
+        "none": 0.88,
+        "source_scope": 0.02,
+        "field_gate": 0.02,
+        "closure_rule": 0.08,
+        "cohort": 0,
+        "estimator": 0
+      }
+    }
+  }
+}

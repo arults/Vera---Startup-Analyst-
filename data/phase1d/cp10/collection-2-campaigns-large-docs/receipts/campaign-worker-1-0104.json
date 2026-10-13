@@ -1,0 +1,18 @@
+{
+  "bytes": 1852,
+  "campaign_url": "https://republic.com/chingari-spv",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/chingari-spv/show_updates",
+  "gzip_sha256": "a5dd26f5af2191995565d6a493644162f4cad35151fa6157f7ad2a862f8cb37b",
+  "http_status": 200,
+  "parent_sha256": "6bf1e0cd62fc62bfc208a4edb965f0e0c01d65273794ee0a7bcd98dc4cfda440",
+  "raw_sha256": "971f99772b2feb60c33bee40fe87ae2dd9e4627da776bf4cd6ddd9f998d6508e",
+  "received_at": "2026-10-10T02:25:53.041185+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:25:52.505869+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/971f99772b2feb60c33bee40fe87ae2dd9e4627da776bf4cd6ddd9f998d6508e.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/chingari-spv/show_updates"
+}

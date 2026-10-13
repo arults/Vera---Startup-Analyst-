@@ -1,0 +1,49 @@
+{
+  "bytes": 1824217,
+  "campaign_url": "https://republic.com/moriondo-coffee",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Moriondo Coffee Form C.pdf",
+  "page_count": 63,
+  "parent_sha256": "16542644c557e40f1e4a21ad1460ce29945e0047ff163c0067b5fb7e1d96c737",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 984,
+      "pymupdf_sha256": "89c9443ba2eeefc9f85b1fd52099233c5ff0c2880d9757178d83592949b861be",
+      "pypdf_chars": 984,
+      "pypdf_sha256": "89c9443ba2eeefc9f85b1fd52099233c5ff0c2880d9757178d83592949b861be"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1617,
+      "pymupdf_sha256": "b2f64e4b433845730775e153b36cf6af47d5d72388da64fec27c11eed66bd648",
+      "pypdf_chars": 1619,
+      "pypdf_sha256": "cab44d9bab2609956696c604b9651deb4f95a64c0eb1d52e4265efb239ba257a"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1098,
+      "pymupdf_sha256": "c230cad4f64ea1f08e4299813260feb883ae3988c406137b1dcb00a1dc9bc0c7",
+      "pypdf_chars": 1098,
+      "pypdf_sha256": "c230cad4f64ea1f08e4299813260feb883ae3988c406137b1dcb00a1dc9bc0c7"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3098,
+      "pymupdf_sha256": "1f567e8d6dee7fc241b655dfd96abb46c24fe6fc944967771aa8d7cd431893f4",
+      "pypdf_chars": 3103,
+      "pypdf_sha256": "2decd2efca9a9f1e66ab734b6719eb4f3d12150683fe97a8116a3ff771a3cbc7"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7.bin.gz",
+  "source_sha256": "8f4848e3eae365c6f1b8dee5e4ff096c31ff890a0fab6080930bbd59441686b7",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1870?view=preview"
+}

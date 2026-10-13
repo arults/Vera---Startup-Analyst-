@@ -1,0 +1,18 @@
+{
+  "Jev_routes_confidence": 1.0,
+  "Jev_routes_probability": 1.0,
+  "cutoff": "2026-10-10",
+  "rules": [
+    "No access bypass or authentication.",
+    "Two error circuit per source; no blocked ZIP retries.",
+    "Old frame import is not new live evidence.",
+    "C-TR not closure; Form C not funding; filing date not first-live.",
+    "Announcement not transaction or payout date.",
+    "No economic-round or outcome promotion without independent adjudication.",
+    "No prior promotion, no main merge, no plateau inference."
+  ],
+  "source_commit": "11b84aa681a4991d752b545a21a981945d06958d",
+  "source_scope": "Separate regulator identity/history bridge and on-platform public updates. No original study definition changes.",
+  "started_at": "2026-10-10T00:51:27.863047+00:00",
+  "version": "0.6.4-dev.research.1"
+}

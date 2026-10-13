@@ -1,0 +1,36 @@
+name: Vera observability validation
+on:
+  push:
+    branches: [phase-1d]
+    paths:
+      - 'research/observability-v0.1.0/**'
+      - 'research/run-metrics-v0.1.0/**'
+      - '.github/workflows/vera-observability-validation.yml'
+  pull_request:
+    paths:
+      - 'research/observability-v0.1.0/**'
+      - 'research/run-metrics-v0.1.0/**'
+      - '.github/workflows/vera-observability-validation.yml'
+permissions:
+  contents: read
+jobs:
+  synthetic-observability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Verify exact triggering commit
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run isolated contract and fault regressions
+        run: python -I -B -m unittest discover -s research/observability-v0.1.0 -p 'test_*.py' -v
+      - name: Replay two matched synthetic runs with actual local metrics adapter
+        run: |
+          python -I -B research/observability-v0.1.0/synthetic_benchmark.py run --output-dir "$RUNNER_TEMP/vera-observability-baseline" --metrics-module research/run-metrics-v0.1.0/vera_metrics.py
+          python -I -B research/observability-v0.1.0/synthetic_benchmark.py run --output-dir "$RUNNER_TEMP/vera-observability-candidate" --metrics-module research/run-metrics-v0.1.0/vera_metrics.py
+          python -I -B research/observability-v0.1.0/synthetic_benchmark.py compare "$RUNNER_TEMP/vera-observability-baseline/benchmark.json" "$RUNNER_TEMP/vera-observability-candidate/benchmark.json"

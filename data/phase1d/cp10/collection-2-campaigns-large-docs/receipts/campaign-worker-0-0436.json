@@ -1,0 +1,18 @@
+{
+  "bytes": 1852,
+  "campaign_url": "https://republic.com/pfd-1011",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/pfd-1011/show_updates",
+  "gzip_sha256": "c2629cf4e5197e26b2dfc8f343eedb6d4517bd76b5b730a2d5e23f4efd7d8a25",
+  "http_status": 200,
+  "parent_sha256": "74a461fcdfc7e6ed2b875df69b577212078ad1c9a27c05ff8b700afe34ef9f8e",
+  "raw_sha256": "1866d6763dfc90faa685c8a2368d26d97abd7ac640f6b1314036b113d48f1354",
+  "received_at": "2026-10-10T02:35:01.268589+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:35:00.720364+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/1866d6763dfc90faa685c8a2368d26d97abd7ac640f6b1314036b113d48f1354.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/pfd-1011/show_updates"
+}

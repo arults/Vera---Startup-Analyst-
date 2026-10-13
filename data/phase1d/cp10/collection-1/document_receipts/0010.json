@@ -1,0 +1,49 @@
+{
+  "bytes": 1927320,
+  "campaign_url": "https://republic.com/chilling",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Chilling Form C.pdf",
+  "page_count": 75,
+  "parent_sha256": "3a8d208661c2f2d5990791ec700d8af718044b24198487359213f5abd0b21cc7",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 995,
+      "pymupdf_sha256": "1ef7b50d8c147bd44ed9da25f154604b46e8ff9b8059ccae921793ac7814e8f9",
+      "pypdf_chars": 997,
+      "pypdf_sha256": "b2353b29008f88688f731e4094017404756177a57d427f21899275d79ec50de0"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1672,
+      "pymupdf_sha256": "4aba5088bf43960ea57710bb44eb281e6dd860fea84b4fff04f39cb9bec5e15b",
+      "pypdf_chars": 1675,
+      "pypdf_sha256": "37795da135008e8f29a4e236229019a42bf123f52b26d7d1762b8d511df59feb"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1078,
+      "pymupdf_sha256": "b0c415e6ddc032f8e9f3a459880bba0dc24f4107ebea88bb11c70b508698332d",
+      "pypdf_chars": 1080,
+      "pypdf_sha256": "184dd012393925cb09779e3fdfb6c0cc0b48a4d55344ccbb679f6729c07b2e5f"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3582,
+      "pymupdf_sha256": "eb9e6cd5e8fea6365c9ab65870f3cd8a099f3d484f2dcf2fd08c539131125e53",
+      "pypdf_chars": 3605,
+      "pypdf_sha256": "45d8f5167274a8e7d5c40b8df9dec91789d41cde90ef0c45df3fb02ae399a918"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9.bin.gz",
+  "source_sha256": "08d05ca11af42578bd12a3c0dd0331890e1ed6c029a98bd4c0b0aec745ee2ce9",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/1555?view=preview"
+}

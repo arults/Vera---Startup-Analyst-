@@ -1,0 +1,18 @@
+{
+  "bytes": 55607,
+  "campaign_url": "https://republic.com/genius-juice2",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/genius-juice2/show_updates",
+  "gzip_sha256": "a5dd551a8a88a8ca921831860055748874497a162863e130e566437952aeaea8",
+  "http_status": 200,
+  "parent_sha256": "4e543d427bc988496e809e731f39d6169e82718cc60b088d687473bfcf406419",
+  "raw_sha256": "2022916e6b87051c95a13ee56a239eec78bbde0b6aebfb615e0225debd950ac4",
+  "received_at": "2026-10-10T02:28:38.867554+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:38.267697+00:00",
+  "source_group": "campaign-worker-2",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/2022916e6b87051c95a13ee56a239eec78bbde0b6aebfb615e0225debd950ac4.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/genius-juice2/show_updates"
+}

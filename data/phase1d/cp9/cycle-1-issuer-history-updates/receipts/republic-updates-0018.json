@@ -1,0 +1,19 @@
+{
+  "bytes": 185419,
+  "campaign_url": "https://republic.com/bounty0x",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://republic.com/bounty0x/show_updates",
+  "gzip_sha256": "634dff3baeffcb1f6c3c0f56fde30886adb82e4e8c3cdc7490668a1d30f2ad5a",
+  "http_status": 200,
+  "legal_name": "Bounty0x Inc.",
+  "native_offering_id": 277,
+  "parent_sha256": "516eb14681abd84cd5f442b154ff58597cbffab39fb6b21fd42a8a36f4f43928",
+  "raw_sha256": "ce861eaef53c2556181d09d52eb906f6def1a874a4699d0498c97137e04eee79",
+  "received_at": "2026-10-10T00:51:48.098512+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T00:51:47.397765+00:00",
+  "source_group": "republic-updates",
+  "source_path": "data/phase1d/cp9/cycle-1-issuer-history-updates/captures/ce861eaef53c2556181d09d52eb906f6def1a874a4699d0498c97137e04eee79.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/bounty0x/show_updates"
+}

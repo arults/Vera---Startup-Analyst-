@@ -1,0 +1,18 @@
+{
+  "bytes": 37831420,
+  "campaign_url": "https://republic.com/rehabpath",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/107?view=preview",
+  "gzip_sha256": "4e49a7f60cecb685ae57fba85508384fe2e5fbcbc92a6506ab018a3f6e343d66",
+  "http_status": 200,
+  "label": "RehabPath Form C.pdf",
+  "parent_sha256": "360bf912dd3fcce9aa0d41ff32159e359a3397cbc351760d77ae0d5541a2b60e",
+  "raw_sha256": "12f8b75138e25eae3ec428fc2c8f9fa6a81bfc8c185d19af03d32d0557e810c1",
+  "received_at": "2026-10-10T02:09:09.648382+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:06.965603+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/12f8b75138e25eae3ec428fc2c8f9fa6a81bfc8c185d19af03d32d0557e810c1.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/107?view=preview"
+}

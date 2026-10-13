@@ -1,0 +1,14 @@
+{
+  "Jev_audit_choice": "audit_all_repeat_rounds",
+  "Jev_audit_confidence": 1.0,
+  "Jev_audit_probability": 1.0,
+  "Jev_plateau_yes_probability": 0.26,
+  "Jev_versioned_correction_confidence": 0.96,
+  "Jev_versioned_correction_probability": 0.98,
+  "created_at": "2026-10-09T09:25:56.027919+00:00",
+  "critique": "Revvies exact ratio1.4946025187 fails1.5 although rounded displays imply1.5. Audit all repeat-round valuations, not only new candidates.",
+  "empirical_plateau": false,
+  "new_capture_queue": 266,
+  "repeat_campaigns": 315,
+  "repeat_groups": 133
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "attempted_at": "2026-10-09T15:25:09.388854+00:00",
+    "bytes": 1924,
+    "http_status": 403,
+    "quarter": 4,
+    "received_at": "2026-10-09T15:25:10.480190+00:00",
+    "sha256": "9179637ea954a44a7f82fec9f34aba91ab5883a2d81c6f160aec6e6acd3b9a96",
+    "source_path": "data/phase1d/cp8/cycle-1-published-archives/archives/2025q4.response.bin",
+    "status": "HTTP_ERROR_NO_BYPASS",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2025q4_cf.zip",
+    "url_provenance": "DIRECT_LINK_FOLLOWED",
+    "year": 2025
+  },
+  {
+    "attempted_at": "2026-10-09T15:25:10.480730+00:00",
+    "bytes": 1924,
+    "http_status": 403,
+    "quarter": 2,
+    "received_at": "2026-10-09T15:25:11.550952+00:00",
+    "sha256": "3effc03cd6b219766f1c910345e2d771ae86053bb36aeaa090ac0b5faa86d5ba",
+    "source_path": "data/phase1d/cp8/cycle-1-published-archives/archives/2026q2.response.bin",
+    "status": "HTTP_ERROR_NO_BYPASS",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2026q2_cf.zip",
+    "url_provenance": "DIRECT_LINK_FOLLOWED",
+    "year": 2026
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2020q1_cf.zip",
+    "url_provenance": "DIRECT_LINK_FOLLOWED",
+    "year": 2020
+  },
+  {
+    "attempted_at": null,
+    "quarter": 2,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2020q2_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2020
+  },
+  {
+    "attempted_at": null,
+    "quarter": 3,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2020q3_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2020
+  },
+  {
+    "attempted_at": null,
+    "quarter": 4,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2020q4_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2020
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2021q1_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2021
+  },
+  {
+    "attempted_at": null,
+    "quarter": 2,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2021q2_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2021
+  },
+  {
+    "attempted_at": null,
+    "quarter": 3,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2021q3_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2021
+  },
+  {
+    "attempted_at": null,
+    "quarter": 4,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2021q4_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2021
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2022q1_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2022
+  },
+  {
+    "attempted_at": null,
+    "quarter": 2,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2022q2_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2022
+  },
+  {
+    "attempted_at": null,
+    "quarter": 3,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2022q3_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2022
+  },
+  {
+    "attempted_at": null,
+    "quarter": 4,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2022q4_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2022
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2023q1_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2023
+  },
+  {
+    "attempted_at": null,
+    "quarter": 2,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2023q2_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2023
+  },
+  {
+    "attempted_at": null,
+    "quarter": 3,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2023q3_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2023
+  },
+  {
+    "attempted_at": null,
+    "quarter": 4,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2023q4_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2023
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2024q1_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2024
+  },
+  {
+    "attempted_at": null,
+    "quarter": 2,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2024q2_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2024
+  },
+  {
+    "attempted_at": null,
+    "quarter": 3,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2024q3_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2024
+  },
+  {
+    "attempted_at": null,
+    "quarter": 4,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2024q4_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2024
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2025q1_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2025
+  },
+  {
+    "attempted_at": null,
+    "quarter": 2,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2025q2_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2025
+  },
+  {
+    "attempted_at": null,
+    "quarter": 3,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2025q3_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2025
+  },
+  {
+    "attempted_at": null,
+    "quarter": 1,
+    "status": "NOT_ATTEMPTED_SOURCE_CIRCUIT_OPEN",
+    "url": "https://www.sec.gov/files/dera/data/crowdfunding-offerings-data-sets/2026q1_cf.zip",
+    "url_provenance": "PUBLISHED_LABEL_AND_PATH_CONVENTION_REQUIRES_FETCH",
+    "year": 2026
+  }
+]

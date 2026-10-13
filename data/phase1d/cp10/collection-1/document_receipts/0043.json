@@ -1,0 +1,49 @@
+{
+  "bytes": 3708804,
+  "campaign_url": "https://republic.com/ip3",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "IP3 Labs Inc Form C.pdf",
+  "page_count": 68,
+  "parent_sha256": "c47190bf61700556d40f351b0551722a51d5c6d9d490dc96007c11b2bf7742c7",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 999,
+      "pymupdf_sha256": "7efee3dc0fc937adaa9ea491823c7f56b073a8124a29471b7ac521dbb024b7d0",
+      "pypdf_chars": 1005,
+      "pypdf_sha256": "23c5e1e6f2aeaa7ffc8b010a15d590ffffb5fadc6d8e753d1ea187f1667fcc91"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1955,
+      "pymupdf_sha256": "d2230f3ae6bc72a0a751d958c98a87cee8bc6af05ee108bc2f741ca9a5fdbd92",
+      "pypdf_chars": 1959,
+      "pypdf_sha256": "34badacf5b7b1669312d56bcfc8f5583e0efec3ca6dc3111368449f90ceca6f6"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 1242,
+      "pymupdf_sha256": "aad1e0019b838a35777d3b28cf4ceed236ad368fbde937d00dff5f06e4843b30",
+      "pypdf_chars": 1244,
+      "pypdf_sha256": "16b2ef6d6032962b1878bac1235c10dea332559fb0d0d3e6dd26b6a058096803"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 3530,
+      "pymupdf_sha256": "50e1b836c9ef439fb7e47d48add3b1128ad91f1815661bae41b4cc0f452e4c3e",
+      "pypdf_chars": 3533,
+      "pypdf_sha256": "bd926dc2cf5cfc9622650f87e3f2a58c9faa808b7adc31af0578fecd5fb25eff"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/9ff1a582dcebc828d5e16d185367963ee310852e6c26d5250f9bd3b0fce065d9.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/9ff1a582dcebc828d5e16d185367963ee310852e6c26d5250f9bd3b0fce065d9.bin.gz",
+  "source_sha256": "9ff1a582dcebc828d5e16d185367963ee310852e6c26d5250f9bd3b0fce065d9",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/11256?view=preview"
+}

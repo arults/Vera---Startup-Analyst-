@@ -1,0 +1,18 @@
+{
+  "bytes": 142699,
+  "campaign_url": "https://republic.com/artory-winston-hirst",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/artory-winston-hirst/show_updates",
+  "gzip_sha256": "ebf8aff8ef6f109f4f3a8acaeaf09111c6c3982f00de5c213e138ce6ac341ce6",
+  "http_status": 200,
+  "parent_sha256": "a4e38e173c0d98bf6b80fa097d32936e66d0e4e5de5ba77b95fe5bbafbab3322",
+  "raw_sha256": "ba207637592e0e1bb05577fbb6650d9fc3048c524ebabad03b8adf444e5c7868",
+  "received_at": "2026-10-10T02:23:31.523499+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:23:30.826988+00:00",
+  "source_group": "campaign-worker-1",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/ba207637592e0e1bb05577fbb6650d9fc3048c524ebabad03b8adf444e5c7868.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/artory-winston-hirst/show_updates"
+}

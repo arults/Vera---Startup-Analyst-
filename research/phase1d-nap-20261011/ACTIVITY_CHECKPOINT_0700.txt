@@ -1,0 +1,26 @@
+Vera Phase 1D activity checkpoint
+2026-10-11, 06:30–07:00 UTC
+
+06:30 — Requested work: pending Phase 1D fixes, JEV-guided review and readable activity logs. No full research-completion claim.
+
+06:34 — Generic JEV methodology review favored fresh verification, preserved unknowns and scoped publication. No actual private company data or code was submitted; this is not empirical approval.
+
+06:35–06:38 — Rebased and published the additive company register at f36fb8109786718ee2402447cf86e934e2b8cc2a. The previous 94,730-byte SKILLS prefix and 7,629 other existing files were preserved. The register reconciles 2,865 rows from selected frozen inputs into nine logical tables; this is not a full population census. Twenty-five tests and 50 separate checks passed.
+
+06:39–06:40 — Verified the register's remote commit, tree, parent and SKILLS bytes. All four triggered CI workflows passed. Company research-completion counts remain unclassified.
+
+06:40 — A bounded identity check found no supported link between the selected 42 strict issuer records and 57 native profile IDs. One shared-token candidate was examined; association did not establish issuer equality. Other hints remain unresolved. No population overlap or disjointness was inferred, and no companies were merged.
+
+06:40–06:47 — Reconstructed the unpublished caller bootstrap safeguard as a fresh successor. The exact older candidate was unavailable, so fresh verification was required. Published at f909af945c5b027204d02729bb6357278f5a2eaf. Forty-seven local tests, including the optional archived replay, and 39 separate checks passed. Independently recomputed 13,000 v4 and 16,000 v5 draws; these overlapping versions are not 29,000 companies. Legacy RQ1 columns and RQ2 results remained unchanged. A synthetic example retained all 1,000 draws and withheld the interval because 257 lacked support. No actual-cohort failure was found in those replays. Private full-draw sidecars were excluded from publication.
+
+06:47 — A second generic JEV review supported bounded release, careful source attribution and scoped review claims. It did not review actual private code or study data.
+
+06:49 — Five workflows on the bootstrap commit passed. The existing Republic Europe identity workflow failed because beautifulsoup4 was omitted from its dependency installation; two imports failed. It stopped before rebuilding or pushing outputs. Inspection also found a separate latent success-path hazard: mutable branch checkout and automatic checkpoint writes omitted the newly required sidecars. A scoped isolated-output repair was prepared; no all-green claim was made.
+
+06:51–06:53 — Published the additive first-success uncertainty package at 57a4b99d09f1d362336335598bfd4bb846b2d8f1. Eleven new files; all 7,656 prior files preserved. Ninety-four tests passed locally and in exact-head CI; all four triggered workflows passed. Independent review covered 960 rational-reference cases and 514 reconstructed draws. Two numerical edge bugs were found, fixed and retested. Real-history preparation and empirical integration remain open.
+
+06:43–06:57 — Collected and independently reviewed 14 bounded source/qualification records. Black Sands native evidence supports historical 2023 and pre-August-2024 reported activity; its anime project is a different issuer. Rentberry's native legal document supplies a CIK bridge, while legal deadline and displayed completion dates remain distinct. Two Black Sands outside records establish catalog solicitation and interview coverage only. Financial discrepancies were retained. The three collection stages used 10, five and eight reads respectively. No source record became a canonical operating outcome, success event or promoted rate.
+
+07:00 preparation — The identity workflow repair passes 28 local tests and 16 independent checks; its full repository suite and four-stage replay remain pending exact-head CI. The preparation audit retains all 952 input rows with eligibility undetermined, and identifies a bounded review queue without constructing histories. Final audit publication and remote checks are still pending at this checkpoint.
+
+Remaining research gates include source-qualified identities and histories, explicit endpoint preparation, empirical adapter/report integration and appropriate scientific review. Passing software tests does not establish complete Phase 1D coverage, calibrated investor-return probabilities or a global research plateau.

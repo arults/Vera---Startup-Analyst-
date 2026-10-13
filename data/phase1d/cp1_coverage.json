@@ -1,0 +1,89 @@
+{
+  "checkpoint": "PHASE_1D_CP1",
+  "frozen_at": "2026-10-08",
+  "status": "PASS_WITH_SUPPRESSION",
+  "coverage_rule": "PASS only with reproducible native enumeration or convergent independent discovery with on-platform validation; otherwise CENSUS_INCOMPLETE and rate suppression.",
+  "platforms": {
+    "republic_europe": {
+      "status": "PASS_NATIVE_ENUMERABLE",
+      "native_sitemap_urls": 2896,
+      "candidate_slugs": 2073,
+      "evidence": "Republic Europe robots/sitemap gzip enumeration"
+    },
+    "startengine": {
+      "status": "CENSUS_INCOMPLETE",
+      "platform_directory_total": 1539,
+      "structured_search_unique": 112,
+      "reason": "Master directory exists but complete per-round URL/year enumeration was not recovered from accessible execution surfaces."
+    },
+    "republic_us": {
+      "status": "CENSUS_INCOMPLETE",
+      "structured_search_unique": 108,
+      "reason": "Public campaign pages validate, but exhaustive platform-year denominator not recovered."
+    },
+    "wefunder": {
+      "status": "CENSUS_INCOMPLETE",
+      "archive_status": "PARTIAL_RECENT_ARCHIVE",
+      "rate_policy": "SUPPRESS",
+      "native_api_nbHits": 149,
+      "native_api_company_rows": 149,
+      "wefunder_portal_llc_rows": 144,
+      "phase1b_2020_known_denominator": 42,
+      "phase1b_known_name_matches": 0,
+      "phase1b_known_match_share": 0,
+      "observed_started_year_counts": {
+        "2021": 3,
+        "2022": 7,
+        "2023": 12,
+        "2024": 1,
+        "2025": 26,
+        "2026": 82
+      },
+      "reason": "Wefunder native explore API is genuine and useful for recent platform observations, but the enumerated listed/visible archive recovers 0/42 of Vera's frozen 2020 Wefunder cohort; it is not denominator-grade for 2020-2025.",
+      "evidence_files": [
+        "cp1_wefunder_us_listed_visible.csv",
+        "cp1_wefunder_us_listed_visible_summary.json"
+      ]
+    },
+    "crowdcube": {
+      "status": "CENSUS_INCOMPLETE",
+      "structured_search_unique": 20,
+      "reason": "Cloudflare blocks native enumeration; search subset is non-exhaustive."
+    }
+  },
+  "jev": {
+    "incomplete_census_policy": {
+      "choice": "suppress_invalid_cells",
+      "probability": 1,
+      "confidence": 1
+    },
+    "completeness_gate": {
+      "choice": "enumerable_or_convergent",
+      "probability": 1,
+      "confidence": 1
+    },
+    "canonical_platform_extract": {
+      "choice": "yes_if_canonical_platform",
+      "probability": 1,
+      "confidence": 1
+    },
+    "cp1_freeze": {
+      "choice": "pass_with_suppression",
+      "probability": 1,
+      "confidence": 1
+    },
+    "wefunder_native_api": {
+      "choice": "partial_suppress",
+      "probability": 1,
+      "confidence": 1,
+      "next_platform": "republic_us",
+      "next_platform_probability": 0.96
+    }
+  },
+  "constraints": [
+    "No platform/year rate may be produced for CENSUS_INCOMPLETE cells.",
+    "Discovery rows remain available for future census improvement.",
+    "Search snippets never establish round status/outcomes.",
+    "Canonical platform-page extracts may establish evidence."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "bytes": 7169470,
+  "campaign_url": "https://republic.com/nanno-2019",
+  "estimation_eligible": false,
+  "full_semantic_review_complete": false,
+  "label": "Nanno Form C-A 11.06.19.pdf",
+  "page_count": 69,
+  "parent_sha256": "43279a9b80fffe9df7dc693d1183e650013981b2564114b101ac2d36ef5f19fd",
+  "pdf_magic_verified": true,
+  "preview_checks": [
+    {
+      "both_have_text": true,
+      "page": 1,
+      "pymupdf_chars": 1017,
+      "pymupdf_sha256": "839b2d541fbaabab5631584a40412829db9e79b517c6ec1d9d04a257bd528bb7",
+      "pypdf_chars": 1017,
+      "pypdf_sha256": "839b2d541fbaabab5631584a40412829db9e79b517c6ec1d9d04a257bd528bb7"
+    },
+    {
+      "both_have_text": true,
+      "page": 2,
+      "pymupdf_chars": 1544,
+      "pymupdf_sha256": "5e9ba94e09ce70996e964ce3f5f3c271a60452218ce0f512d3e743df23267021",
+      "pypdf_chars": 1544,
+      "pypdf_sha256": "5e9ba94e09ce70996e964ce3f5f3c271a60452218ce0f512d3e743df23267021"
+    },
+    {
+      "both_have_text": true,
+      "page": 3,
+      "pymupdf_chars": 998,
+      "pymupdf_sha256": "81a6d5690d4c17aa6aeb36a38f1458143ccfaa0c319019578bf33736dfc2f566",
+      "pypdf_chars": 998,
+      "pypdf_sha256": "81a6d5690d4c17aa6aeb36a38f1458143ccfaa0c319019578bf33736dfc2f566"
+    },
+    {
+      "both_have_text": true,
+      "page": 4,
+      "pymupdf_chars": 1277,
+      "pymupdf_sha256": "1c3938f207caee80bcb4be67ef7281edb16d1ddc7883fe42c72bdcc5045e62ba",
+      "pypdf_chars": 1277,
+      "pypdf_sha256": "1c3938f207caee80bcb4be67ef7281edb16d1ddc7883fe42c72bdcc5045e62ba"
+    }
+  ],
+  "preview_path": "data/phase1d/cp10/collection-1/document_previews/ffede7542be5194eea78f82dd50f32bc80e1985c6874c7bc51e2834599dc361f.json",
+  "source_path": "data/phase1d/cp10/collection-1/captures/ffede7542be5194eea78f82dd50f32bc80e1985c6874c7bc51e2834599dc361f.bin.gz",
+  "source_sha256": "ffede7542be5194eea78f82dd50f32bc80e1985c6874c7bc51e2834599dc361f",
+  "status": "PUBLIC_PDF_CAPTURE_AND_DUAL_PARSER_PREVIEW_NOT_SEMANTIC_ADMISSION",
+  "url": "https://republic.com/documents/97?view=preview"
+}

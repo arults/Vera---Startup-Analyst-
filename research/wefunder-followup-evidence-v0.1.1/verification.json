@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "pinned_input_bindings": [
+    {
+      "source": "docs/PHASE_1C_SPEC.md",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    },
+    {
+      "source": "research/company-register-v0.1.0/REPORT.md",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    },
+    {
+      "source": "reference_classes/wefunder_2020_operating_survival.json",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    },
+    {
+      "source": "data/cohort_manifest.csv",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    },
+    {
+      "source": "data/OUTCOME_PROVENANCE.md",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    },
+    {
+      "source": "checkpoints/PHASE_1D_CP6_STOP_GATE_AUDIT.md",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    },
+    {
+      "source": "data/outcomes.csv",
+      "sha256_pass": true,
+      "git_blob_pass": true
+    }
+  ],
+  "frozen_cohort_rows": 42,
+  "selected_offerings": 3,
+  "canonical_admissions": 0,
+  "safe_derivative_count": 7,
+  "credential_scan_findings": [],
+  "raw_source_archives_obtained": 0,
+  "limitations": "Pattern scan plus manual review of short safe derivatives; not a proof of arbitrary source security."
+}

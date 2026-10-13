@@ -1,0 +1,35 @@
+{
+  "classification": "NATIVE_CAMPAIGN_IDENTIFIER_BOUND",
+  "company_economic_round_identity_verified": false,
+  "date_fields_verified": true,
+  "discovery": "Published native single-segment path; not assumed campaign, no /@profile collection",
+  "estimation_eligible": false,
+  "fields": null,
+  "final_url": "https://republic.com/wayhome",
+  "first_live_date": "2023-01-19",
+  "historical_census_complete": false,
+  "independent_parsers_agree": true,
+  "milestones": [
+    [
+      "2023-04-05",
+      "Successfully raised $140,000 🍾"
+    ],
+    [
+      "2023-01-19",
+      "Launched 🚀"
+    ]
+  ],
+  "native_offering_id": 2046,
+  "native_state": "preparing_to_finalize",
+  "offering_year": 2023,
+  "sitemap_sha256": "acebc2e5b6b0fe19b5c86f7fc7ef59f030b102a1c648258aedde6de31de27ce6",
+  "sitemap_url": "https://uploads.republic.com/sitemaps/sitemap1.xml",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/6f9a78fb90d200a171705737e18643c2101d429a9c11da447381d592a0561f25.bin.gz",
+  "source_sha256": "6f9a78fb90d200a171705737e18643c2101d429a9c11da447381d592a0561f25",
+  "successful_completion_date": "2023-04-05",
+  "timeline_request_status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "timeline_source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/50af51f20f2ed5bb2e7da9c0bcce7abd317a7280fa27258133f2162ec66eec75.bin.gz",
+  "timeline_source_sha256": "50af51f20f2ed5bb2e7da9c0bcce7abd317a7280fa27258133f2162ec66eec75",
+  "url": "https://republic.com/wayhome",
+  "year_in_study": true
+}

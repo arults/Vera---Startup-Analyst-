@@ -1,0 +1,18 @@
+{
+  "bytes": 242577,
+  "campaign_url": "https://republic.com/lootmogul",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/lootmogul/show_updates",
+  "gzip_sha256": "5b800e472677a0d3732bd37a80dfa716902f556b6b6dc70a59663da19a072c06",
+  "http_status": 200,
+  "parent_sha256": "90f041595d2d5addeb79006da34adc2ad8e9c78149ab93684041c9c572b55193",
+  "raw_sha256": "35d2c40465c181d4cffc462fb4449b91d444c82919373758bf60e2fb49c4776b",
+  "received_at": "2026-10-10T02:33:01.839431+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:33:01.031592+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/35d2c40465c181d4cffc462fb4449b91d444c82919373758bf60e2fb49c4776b.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/lootmogul/show_updates"
+}

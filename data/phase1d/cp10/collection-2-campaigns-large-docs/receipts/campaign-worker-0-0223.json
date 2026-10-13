@@ -1,0 +1,18 @@
+{
+  "bytes": 82129,
+  "campaign_url": "https://republic.com/green-pinata",
+  "content_type": "application/json; charset=utf-8",
+  "discovery": "Exact source-linked public native timeline",
+  "final_url": "https://republic.com/green-pinata/show_updates",
+  "gzip_sha256": "2ef3538dde802013626f707f5789787b6d701f4afe9350260ca804b675a6fbd9",
+  "http_status": 200,
+  "parent_sha256": "987b515feae6929a8e89aaf484f41d647ab68bef3c8f1b750a1895de16428f28",
+  "raw_sha256": "655f60083f86ca557f68249bce977099c2d0168582bbd48845bbbdb35416ce33",
+  "received_at": "2026-10-10T02:28:48.769867+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:28:48.169626+00:00",
+  "source_group": "campaign-worker-0",
+  "source_path": "data/phase1d/cp10/collection-2-campaigns-large-docs/captures/655f60083f86ca557f68249bce977099c2d0168582bbd48845bbbdb35416ce33.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/green-pinata/show_updates"
+}

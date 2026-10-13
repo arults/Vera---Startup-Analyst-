@@ -1,0 +1,18 @@
+{
+  "bytes": 40470409,
+  "campaign_url": "https://republic.com/vonmercier",
+  "content_type": "application/pdf",
+  "final_url": "https://republic.com/documents/1513?view=preview",
+  "gzip_sha256": "37d3c8b764112756499a92443dfcf997bda2913a31b6a214921b6cfa8f29b63b",
+  "http_status": 200,
+  "label": "VonMercier Form C.pdf",
+  "parent_sha256": "5eac4834130268793dad125a55fc15f34bdd12f85c28620b1612c1087065d078",
+  "raw_sha256": "966d8c5d7dfdcb33d4125afe2f1907ccfe6e84cfcb71dfb513eec53af20dc482",
+  "received_at": "2026-10-10T02:09:43.996341+00:00",
+  "redirects": [],
+  "retrieval_started_at": "2026-10-10T02:09:41.085903+00:00",
+  "source_group": "remaining-native-documents",
+  "source_path": "data/phase1d/cp10/collection-1/captures/966d8c5d7dfdcb33d4125afe2f1907ccfe6e84cfcb71dfb513eec53af20dc482.bin.gz",
+  "status": "PUBLIC_CAPTURED_UNADJUDICATED",
+  "url": "https://republic.com/documents/1513?view=preview"
+}
