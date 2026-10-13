@@ -53,3 +53,7 @@ A separate fourteen-campaign review now has independently supported local propos
 ## Endpoint-specific evidence planning v0.1.0
 
 Use [the endpoint requirements planner](research/endpoint-evidence-v0.1.0/README.md) to choose a survival, qualifying-company-success or investor-cash-return work queue before collecting evidence. Its 38-field map makes irrelevant facts optional and branch/method-dependent facts conditional. It does not modify the frozen preparation audit, empirical caller, results, active plugin or numerical-release gates. The package includes synthetic examples and tests; empirical pilot and production adoption remain separate.
+
+## Method-bound survival planning v0.1.0
+
+[The additive method guard](research/endpoint-method-guard-v0.1.0/README.md) connects the endpoint checklist to the exact frozen method's requirements. That method keeps separate operating-before-success and operating-after-success states, so survival still needs their initial state and relevant success history. Investor payouts and full cap tables remain unnecessary by default. The guard binds unchanged planner, engine and source-policy bytes and returns review requirements or HOLD, never an admitted history or probability. The bounded source/fictional pilot does not establish production readiness or research-time savings.
