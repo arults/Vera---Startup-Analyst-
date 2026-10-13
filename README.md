@@ -2,6 +2,12 @@
 
 Vera is a probabilistic startup-investment research system. It treats startup outcomes as evidence-backed distributions, preserves provenance, and promotes empirical priors only after independent verification.
 
+## Current sourcing rule — October 13, 2026
+
+Use [external-source research admission v1.2.0](docs/EXTERNAL_SOURCE_ADMISSION_v1.2.0.md) for new research. Official filings/registries, company/IR originals, Kingscrowd and relevant funding trackers, and reputable news must receive a logged claim-specific sweep. Trustworthy outside evidence can establish independently reviewed, scoped research facts; it is no longer automatically context-only because of its host. A dedicated source verifier checks actual coverage, original-source depth and independence.
+
+This is a prospective source-scope correction, with a bounded missing-predicate pilot. It preserves the historical platform-observed study and all earlier outputs. The frozen native method guard remains valid for its own method and cannot silently admit the expanded source set. New facts, estimator eligibility and numerical-prior promotion remain separate decisions.
+
 ## Bounded checkpoint — October 12, 2026
 
 The [October 12 checkpoint](docs/PHASE_1D_2026_10_12_CHECKPOINT.md) records two verified engineering changes, matched synthetic shadow evaluation, targeted source follow-up and unresolved scientific gates. The RQ2 key-integrity fix is in the existing reporting function; the numerical uncertainty guard is additive and does not migrate empirical callers automatically. Scientific Phase 1D remains incomplete, with no new numeric prior or active-plugin promotion.
@@ -22,7 +28,7 @@ The [October 12 checkpoint](docs/PHASE_1D_2026_10_12_CHECKPOINT.md) records two 
 
 Review already-linked evidence for economic-round identity and funded origin, initial state, index-specific success/target, typed event chronology, endpoint-specific observation, and cohort assignment. Preserve intervals, unknown outcomes and all input rows. Construct separately versioned reviewed histories only where the evidence supports them, then run a shadow report with explicit scope and existing uncertainty/review gates. A targeted batch is not a representative cohort or full-study completion.
 
-The original [study specification](docs/PHASE_1C_SPEC.md) and [promoted-framework status](VERSION_PROGRESS.txt) remain authoritative. Source inventory, technical CI success, research admission, estimator admission and scientific promotion are distinct milestones.
+The original [study specification](docs/PHASE_1C_SPEC.md) remains authoritative for historical native-only results; the [v1.2.0 source amendment](docs/EXTERNAL_SOURCE_ADMISSION_v1.2.0.md) governs new research-fact admission. [Promoted-framework status](VERSION_PROGRESS.txt) is unchanged. Source inventory, technical CI success, research admission, estimator admission and scientific promotion are distinct milestones.
 
 ## Historical checkpoint context — October 10, 2026
 

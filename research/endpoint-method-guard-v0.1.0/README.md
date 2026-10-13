@@ -60,4 +60,9 @@ review. A documentary day tie is not automatically a scientific transition tie;
 an access restriction is not a verified historical loss-to-follow-up mechanism.
 
 Any production adoption, source admission or new method requires its own exact
-review. The frozen method and all existing holds remain controlling.
+review. The frozen method and its existing holds remain controlling for this guard's
+declared native-only route. For new external research facts, use the prospective
+[v1.2.0 source amendment](../../docs/EXTERNAL_SOURCE_ADMISSION_v1.2.0.md) and its
+independent claim/source reviews instead. Do not route those facts through this
+guard as native-compatible or change its policy/engine pins to bypass review.
+The guard implementation and frozen specification bytes remain unchanged.

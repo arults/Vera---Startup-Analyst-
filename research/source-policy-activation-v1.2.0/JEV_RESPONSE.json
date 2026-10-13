@@ -1,0 +1,61 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"model\":\"jev-1.13.0\",\"answers\":{\"source_amendment\":{\"type\":\"choice\",\"choice\":\"ACTIVATE_VERSIONED_SCOPED_ROUTE\",\"confidence\":1,\"probabilities\":{\"ACTIVATE_VERSIONED_SCOPED_ROUTE\":1,\"KEEP_EXTERNAL_CONTEXT_ONLY\":0,\"REPLACE_HISTORICAL_RESULTS\":0,\"REVISE_BEFORE_PILOT\":0}},\"minimum_search\":{\"type\":\"choice\",\"choice\":\"CLAIM_SPECIFIC_MATERIAL_ROUTES\",\"confidence\":1,\"probabilities\":{\"CLAIM_SPECIFIC_MATERIAL_ROUTES\":1,\"TWO_DOMAINS_SUFFICE\":0,\"EXHAUST_ALL_SOURCES\":0,\"ONE_POSITIVE_RESULT_ENDS_SEARCH\":0}},\"identification_boundary\":{\"type\":\"choice\",\"choice\":\"SEPARATE_EVIDENCE_FROM_IDENTIFICATION\",\"confidence\":1,\"probabilities\":{\"SEPARATE_EVIDENCE_FROM_IDENTIFICATION\":1,\"AUTOMATICALLY_ENABLE_ESTIMATOR\":0,\"NO_EXTERNAL_FACT_CAN_BE_USEFUL\":0}},\"first_test\":{\"type\":\"choice\",\"choice\":\"TEST_PREDECLARED_MISSING_PREDICATES\",\"confidence\":1,\"probabilities\":{\"TEST_PREDECLARED_MISSING_PREDICATES\":1,\"REPEAT_GENERIC_POLICY_DOCUMENTS\":0,\"SWEEP_ENTIRE_COHORT_BEFORE_TEST\":0,\"PROMOTE_IF_PILOT_HAS_POSITIVES\":0}}},\"usage\":{\"input_tokens\":1691,\"output_tokens\":327}}"
+    }
+  ],
+  "structuredContent": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "source_amendment": {
+        "type": "choice",
+        "choice": "ACTIVATE_VERSIONED_SCOPED_ROUTE",
+        "confidence": 1,
+        "probabilities": {
+          "ACTIVATE_VERSIONED_SCOPED_ROUTE": 1,
+          "KEEP_EXTERNAL_CONTEXT_ONLY": 0,
+          "REPLACE_HISTORICAL_RESULTS": 0,
+          "REVISE_BEFORE_PILOT": 0
+        }
+      },
+      "minimum_search": {
+        "type": "choice",
+        "choice": "CLAIM_SPECIFIC_MATERIAL_ROUTES",
+        "confidence": 1,
+        "probabilities": {
+          "CLAIM_SPECIFIC_MATERIAL_ROUTES": 1,
+          "TWO_DOMAINS_SUFFICE": 0,
+          "EXHAUST_ALL_SOURCES": 0,
+          "ONE_POSITIVE_RESULT_ENDS_SEARCH": 0
+        }
+      },
+      "identification_boundary": {
+        "type": "choice",
+        "choice": "SEPARATE_EVIDENCE_FROM_IDENTIFICATION",
+        "confidence": 1,
+        "probabilities": {
+          "SEPARATE_EVIDENCE_FROM_IDENTIFICATION": 1,
+          "AUTOMATICALLY_ENABLE_ESTIMATOR": 0,
+          "NO_EXTERNAL_FACT_CAN_BE_USEFUL": 0
+        }
+      },
+      "first_test": {
+        "type": "choice",
+        "choice": "TEST_PREDECLARED_MISSING_PREDICATES",
+        "confidence": 1,
+        "probabilities": {
+          "TEST_PREDECLARED_MISSING_PREDICATES": 1,
+          "REPEAT_GENERIC_POLICY_DOCUMENTS": 0,
+          "SWEEP_ENTIRE_COHORT_BEFORE_TEST": 0,
+          "PROMOTE_IF_PILOT_HAS_POSITIVES": 0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 1691,
+      "output_tokens": 327
+    }
+  },
+  "isError": false
+}
