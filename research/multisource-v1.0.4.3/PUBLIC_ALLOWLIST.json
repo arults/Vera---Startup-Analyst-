@@ -1,6 +1,7 @@
 {
   "format": "vera.public-delivery-allowlist.v1",
   "files": [
+    "ASSIGNMENT_REASSESSMENT.md",
     "COLLECTOR_TIMING.md",
     "CUSTOMER_OBSERVATIONS.md",
     "IDENTITY_CUTOFF_CHANGE.md",
@@ -13,6 +14,7 @@
     "SOURCE_VERIFIER.md",
     "UTC_CUTOFF_CHANGE.md",
     "VERIFIER.md",
+    "assignment_reassessment.py",
     "customer_observations.py",
     "demo.json",
     "evidence.py",
@@ -27,6 +29,7 @@
     "sources/currently-wine.txt",
     "sources/inlightened-buyer.txt",
     "sources/reental.txt",
+    "tests/test_assignment_reassessment.py",
     "tests/test_customer_observations.py",
     "tests/test_evidence.py",
     "tests/test_historical_plan.py",

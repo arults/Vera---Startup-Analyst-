@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit, parse_qsl
 
-IMPLEMENTATION_VERSION = '1.0.4.3-customer-local'
+IMPLEMENTATION_VERSION = '1.0.4.3-assignment-local'
 POLICY = 'vera.multisource.claim-policy.v1.1.0'
 SCHEMA = 'vera.multisource.evidence.v1'
 # Authority is specific to the assertion; eligibility is not certification of truth.
@@ -180,10 +180,10 @@ def adjudicate(c, sources, as_of):
             'native_source_scope_only':bool(valid) and all(s['source_type']=='platform_issuer_report' for s in support),
             'state_transition':None,'point_censor_date':None,'estimation_eligible':False,'numeric_prior_eligible':False}
 
-def report(data, root, as_of, reviewer_registry=None):
+def report(data, root, as_of, reviewer_registry=None, assignment_authorization=None):
     if data.get('research_scope'):
         from scoped_review import scoped_report
-        return scoped_report(data,root,as_of,reviewer_registry)
+        return scoped_report(data,root,as_of,reviewer_registry,assignment_authorization)
     return base_report(data,root,as_of,reviewer_registry)
 
 def base_report(data, root, as_of, reviewer_registry=None, context_claim_ids=(), expected_plan_policy=None):
@@ -218,7 +218,8 @@ def base_report(data, root, as_of, reviewer_registry=None, context_claim_ids=(),
 def main():
     p=argparse.ArgumentParser(); p.add_argument('input',type=Path);p.add_argument('--as-of',required=True);p.add_argument('--output',type=Path)
     p.add_argument('--reviewer-registry',type=Path,help='Operator-controlled reviewer-to-role registry; not embedded in evidence input')
-    a=p.parse_args(); result=report(json.loads(a.input.read_text()),a.input.resolve().parent,date(a.as_of),json.loads(a.reviewer_registry.read_text()) if a.reviewer_registry else None); text=json.dumps(result,indent=2,sort_keys=True)+'\n'
+    p.add_argument('--assignment-authorization',type=Path,help='Separate operator-controlled exact-packet prepublication reassessment authorization')
+    a=p.parse_args(); result=report(json.loads(a.input.read_text()),a.input.resolve().parent,date(a.as_of),json.loads(a.reviewer_registry.read_text()) if a.reviewer_registry else None,json.loads(a.assignment_authorization.read_text()) if a.assignment_authorization else None); text=json.dumps(result,indent=2,sort_keys=True)+'\n'
     if a.output:
         # Never silently replace a report: immutable content-addressed runs.
         a.output.mkdir(parents=True,exist_ok=True); dest=a.output/(sha(text.encode())+'.json')

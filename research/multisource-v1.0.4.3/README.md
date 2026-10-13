@@ -17,3 +17,7 @@ The inherited public demo contains short public excerpts with genuine claim appr
 Exact policy requirements remain conditional admission gates, not a statement of the present review status of an external dataset. Use report()/CLI for validation and release gates, not internal adjudicate(). Automated validation cannot establish testimony truth or authenticate arbitrary names.
 
 PUBLIC_ALLOWLIST.json identifies all intended delivery files. manifest.json binds every other file. lineage.json records the code/policy lineage without private review artifacts. This candidate adds selected-identity cutoff handling and version metadata; it makes no byte-identical report claim across versions. No external or JEV calls, publication, deployment or remote writes occurred during preparation.
+
+## Prepublication assignment reassessment candidate
+
+See [ASSIGNMENT_REASSESSMENT.md](ASSIGNMENT_REASSESSMENT.md). This adds an explicit operator-bound retrospective research route and receipt-backed declaration windows. The earlier customer/identity lineage remains; the current runtime identifier is `1.0.4.3-assignment-local`. The amendment helper does not authorize estimators or authenticate arbitrary names. Publication is a separate action.

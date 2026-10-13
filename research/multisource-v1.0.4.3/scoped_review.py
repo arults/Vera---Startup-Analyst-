@@ -85,12 +85,12 @@ def context_closure(data):
             if same and not any({x.get('from'),x.get('to')}=={cid,oid} for x in links):errors.append('CONTEXT_RELEVANCE_UNREVIEWED:'+cid+':'+oid)
     return sorted(closure),sorted(set(errors))
 
-def scoped_report(data,root,as_of,reviewer_registry=None):
-    try:return _scoped_report(data,root,as_of,reviewer_registry)
+def scoped_report(data,root,as_of,reviewer_registry=None,assignment_authorization=None):
+    try:return _scoped_report(data,root,as_of,reviewer_registry,assignment_authorization)
     except (AttributeError,TypeError,KeyError,IndexError) as exc:
         raise ValueError("Malformed scoped metadata: "+str(exc)) from None
 
-def _scoped_report(data,root,as_of,reviewer_registry=None):
+def _scoped_report(data,root,as_of,reviewer_registry=None,assignment_authorization=None):
     errors=validate(data,root)
     if errors:raise ValueError('\n'.join(errors))
     registry=reviewer_registry or {};scope=data['research_scope']
@@ -127,7 +127,12 @@ def _scoped_report(data,root,as_of,reviewer_registry=None):
             if not ({'claim_verifier','source_verifier'}&set(registry.get(ir.get('reviewer'),[]))):blocks.append(s['id']+':INSPECTION_REVIEWER_UNAUTHORIZED')
     # Retain full ledger in output. Derive only an audit view, binding it to fresh full-scope review.
     expected_plan_policy=None
-    if data['research_plan'].get('policy')!=data['policy']:
+    if 'prepublication_assignment_reassessment' in scope:
+        from assignment_reassessment import validate_assignment
+        if validate_assignment(data,root,as_of,registry,assignment_authorization):
+            expected_plan_policy=data['research_plan']['policy']
+        else:blocks.append('PREPUBLICATION_ASSIGNMENT_REASSESSMENT_PENDING')
+    elif data['research_plan'].get('policy')!=data['policy']:
         h=scope.get('historical_plan_reassessment',{})
         try:
             good=isinstance(h,dict) and h.get('original_policy')==data['research_plan'].get('policy') and h.get('original_policy')=='vera.multisource.claim-policy.v1.0.0' and h.get('reviewed_under')==data['policy'] and h.get('reviewed_by')==review.get('reviewer') and bool(review.get('reviewer')) and h.get('same_selected_claim_scope') is True and set(h.get('selected_claim_ids',[]))==selected and bool(h.get('rationale'))
@@ -217,6 +222,7 @@ def _scoped_report(data,root,as_of,reviewer_registry=None):
     return {'implementation_version':IMPLEMENTATION_VERSION,'policy':data['policy'],'dataset':data['dataset'],'as_of':as_of.isoformat(),'as_of_convention':'End of specified day UTC for execution/availability; source-local event days preserved',
             'input_sha256':sha(stable(data)),'source_snapshot_sha256':source_snapshot(data),'scope_sha256':scope_digest(data),
             'scope':{'selected_claim_ids':sorted(selected),'effective_context_claim_ids':closure,'excluded_routes':excluded,'contextual_routes':context_routes,'reviewed_factual_origin_groups':origin_groups,'origin_count_scope':'Distinct reviewed origins across selected fact/identity scopes; not confirmations per event or calibrated independence','reviewed_origin_group_count':len({v for v in origin_groups.values() if v}),'blockers':sorted(set(blocks))},
-            'scoped_source_coverage_audit':projected['source_coverage_audit'],'whole_batch_source_coverage_audit':whole['source_coverage_audit'],'original_operational_stop':data['research_plan'].get('stop_kind'),'original_plan_policy':data['research_plan'].get('policy'),'review_policy':data['policy'],'amended_policy_design':'Retrospective reassessment of historical plan; not prospectively registered under amended policy' if expected_plan_policy else 'Current-policy evaluation',
+            **({'assignment_reassessment':{'authorized':expected_plan_policy is not None,'operator_authorization_sha256':sha(stable(assignment_authorization)) if isinstance(assignment_authorization,dict) else None,'plan_provenance':'Postcollection normalization of an earlier assignment; detailed queries/results were not preregistered','historical_query_envelopes_authenticated':False,'estimator_admission_authorized':False}} if 'prepublication_assignment_reassessment' in scope else {}),
+            'scoped_source_coverage_audit':projected['source_coverage_audit'],'whole_batch_source_coverage_audit':whole['source_coverage_audit'],'original_operational_stop':data['research_plan'].get('stop_kind'),'original_plan_policy':data['research_plan'].get('policy'),'review_policy':data['policy'],'amended_policy_design':('Retrospective reassessment of prepublication assignment; not prospectively registered under amended policy' if 'prepublication_assignment_reassessment' in scope else 'Retrospective reassessment of historical plan; not prospectively registered under amended policy') if expected_plan_policy else 'Current-policy evaluation',
             'augmented_observations':rows,'full_ledger_preserved':True,'native_baseline':data['native_baseline'],'native_changes':0,'rates':None,'prior_promotions':0,
             'released_selected_claims':sum(r['release_status']=='RELEASED_RESEARCH_FINDING' for r in scoped_rows)}

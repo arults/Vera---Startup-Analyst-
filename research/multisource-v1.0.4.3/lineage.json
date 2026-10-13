@@ -1,5 +1,5 @@
 {
-  "implementation_version": "1.0.4.3-customer-local",
+  "implementation_version": "1.0.4.3-assignment-local",
   "delivery_status": "PUBLIC_CANDIDATE_NOT_PUBLISHED",
   "accepted_content_sha256": {
     "verify_package.py": "4f293a4a78827b0abd5b147024367869aa2ddd14b9660f6def9de527250f5e99",
@@ -37,5 +37,10 @@
     "Selected-identity source cutoff validation",
     "Implementation identifier",
     "Synthetic identity cutoff regression and predicate-evidence field-scope document"
-  ]
+  ],
+  "assignment_reassessment": {
+    "base_commit": "6fe2501ef779fe53f323145e03f0bd57eee54cca",
+    "policy_bytes_unchanged": true,
+    "change": "Separate operator-bound retrospective assignment route and receipt-bound declaration windows; no estimator change"
+  }
 }

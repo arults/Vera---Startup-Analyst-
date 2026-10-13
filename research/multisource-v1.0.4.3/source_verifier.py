@@ -14,7 +14,11 @@ def audit(data,root=None,expected_plan_policy=None):
     claims=data.get('claims',[]);sources=data.get('sources',[]);review=data.get('source_review')
     sm={s['id']:s for s in sources}; routes=plan.get('routes',[])
     if plan.get('policy')!=(expected_plan_policy or POLICY): blockers.append('WRONG_SEARCH_POLICY')
-    if not plan.get('declared_at') or plan.get('retrospective_import'): blockers.append('PROSPECTIVE_PLAN_NOT_ESTABLISHED')
+    try:
+        from timing import bounds
+        declared_low,_,_=bounds(plan,'declared_at','declared_timing',root)
+        if declared_low is None or plan.get('retrospective_import'): blockers.append('PROSPECTIVE_PLAN_NOT_ESTABLISHED')
+    except (KeyError,TypeError,ValueError,OSError,IndexError): blockers.append('PROSPECTIVE_PLAN_NOT_ESTABLISHED')
     if not plan.get('search_cutoff'): blockers.append('SEARCH_CUTOFF_MISSING')
     if len({r.get('id') for r in routes})!=len(routes): blockers.append('DUPLICATE_ROUTE')
     entities={x.get('company_id'):x for x in plan.get('entities',[])}
