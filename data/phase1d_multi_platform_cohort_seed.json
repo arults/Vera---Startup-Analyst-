@@ -1,0 +1,33 @@
+{
+  "schema_version": "phase1d-multi-platform-seed-v1",
+  "generated": "2026-10-17",
+  "note": "Discovery seed only. Not evidence. Requires live capture + multi-source sweep before any use in estimators.",
+  "platforms": {
+    "wefunder": {
+      "status": "partial",
+      "known_2020_funded": 42,
+      "source": "data/cohort_manifest.csv",
+      "next": "live hashes + 2021-2022 discovery"
+    },
+    "startengine": {
+      "status": "discovery",
+      "volume_notes": "2020 ~$147M raised by companies; 208 tracked offerings on AltStreet",
+      "next": "EDGAR Form C search for StartEngine Capital LLC"
+    },
+    "crowdcube": {
+      "status": "discovery",
+      "examples": ["Phlo Digital Pharmacy", "Citymapper", "Curve", "CIRCA5000", "Pawprint"],
+      "next": "platform archive + news corroboration"
+    },
+    "republic_us": {
+      "status": "discovery",
+      "examples": ["Gumroad", "Customer.io", "Maven", "Backstage Capital"],
+      "next": "republic.com portfolio document extraction"
+    },
+    "republic_europe": {
+      "status": "discovery",
+      "note": "Formerly Seedrs; acquired by Republic Dec 2021",
+      "next": "europe.republic.com + Dealroom cross-check"
+    }
+  }
+}
