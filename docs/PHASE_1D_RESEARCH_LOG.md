@@ -1,32 +1,24 @@
 # Phase 1D Research Log
 
-## 2026-10-17 — Initial multi-platform scan
-(see prior entries)
-
-## 2026-10-17 — Deep dive on known outcomes
-(see prior entries for Curastory Ch7 and BOXABL SPAC)
-
-## 2026-10-17 ~02:00 JST — Hour cycle: Crowdcube and Republic US seeds
+## 2026-10-17 ~08:15 JST — Continue cycle: primary evidence links
 
 ### Hypothesis tested
-H1: Public platform pages and contemporaneous news provide sufficient discovery anchors to seed Layer B RoundRecords for Crowdcube and Republic US 2020–2021 raises, which can later be upgraded with primary captures.
+H2: Public secondary docket summaries and SEC EDGAR 8-K filings provide verifiable primary-adjacent evidence sufficient to upgrade Curastory and BOXABL outcome candidates from pure discovery to capture-ready status.
 
 ### Evidence
-- Phlo Digital Pharmacy (Crowdcube): Platform page shows closed raise of £2,092,380 from 1,061 investors (126% of target). News confirms >£1.8M within two weeks of Oct 2020 launch. Source: crowdcube.com/phlo and Crowdfund Insider / UK Investor Magazine.
-- Citymapper (Crowdcube): Raised >£6.4M / ~$9M in one day May 2021 at ~£191–268M valuation context. Business Insider and Evening Standard.
-- Curve (Crowdcube): Nearly £10M from ~11,795 investors in 54 hours May 2021; fastest to £6M. BusinessWire and Crowdfund Insider.
-- Gumroad (Republic): First issuer to hit new $5M Reg CF cap; closed $5M from ~7,331 investors April 2021. Platform page republic.com/gumroad-march-2021 and case study. Crowd SAFE, $100M cap, 20% discount.
-- Customer.io (Republic): Closed $5M Aug 2021 on Republic (SAFE, $400M cap). Kingscrowd summary.
+- Curastory: Multiple independent sources confirm Chapter 7 voluntary petition filed 2026-08-27, District of Delaware, case 26-11355-TMH, Judge Thomas M Horan. Address and EIN consistent with prior records. Sources: bankruptcyobserver.com/bankruptcy-case/curastory, bkalerts.com case page. Additional 2024 contract judgment and 2025 SEC charges against founder noted as corroborating distress signals.
+- BOXABL: SEC Form 8-K (CIK 0001906364, accession around 0001493152-26-034441) confirms Business Combination closed 2026-07-17; Combined Company Class A Common Stock began trading on Nasdaq under symbol BXBL on 2026-07-20. Aggregate consideration $3.5B at $10 deemed value. Press release Exhibit 99.9 also available.
+- Phlo: Remains operating and growing (2024–2026 revenue surges, acquisition of Truepill UK in 2023, further funding 2024, Sifted rankings). Crowdcube 2020 raise confirmed on platform page. Not a closure case.
 
 ### Result
-Hypothesis supported for discovery seeding. All records remain discovery_only until primary page hashes and multi-source sweeps are complete. No outcomes inferred.
+H2 supported. Primary-adjacent URLs now recorded. Still require content SHA-256 of the actual pages/PDFs before any Verifier or Jev promotion. Secondary news alone remains insufficient.
 
 ### Mistakes / corrections logged
-- Earlier volume figures for StartEngine (e.g., $147M in 2020) are platform-reported and not row-level; treated as context only, not denominator evidence.
-- FINRA actions are platform-level compliance issues, not issuer outcome evidence. Logged in bias register.
-- Curastory and BOXABL remain candidates pending primary docket/8-K hashes; secondary news is not sufficient for promotion.
+- Earlier reliance on news summaries for Curastory filing date was directionally correct but lacked case number and court confirmation until this cycle.
+- BOXABL listing date refined to 2026-07-20 trading start (closing 2026-07-17).
+- Phlo was never a closure candidate; operating evidence is positive but not yet a typed success event under Phase 1C rules (no qualified follow-on valuation step or IPO documented here).
 
 ### Next
-- Capture primary Crowdcube and Republic pages for the seeded companies.
-- Multi-source sweeps (Reddit, YouTube, Google/Bing/DuckDuckGo) on Phlo, Curve, Gumroad.
-- Continue EDGAR guidance for StartEngine Capital Form C list.
+- Hash the primary pages when network capture is available.
+- Fill multi-source matrices for Curastory, BOXABL, Phlo, Gumroad.
+- StartEngine Capital CIK 0001665160 Form C discovery skeleton.

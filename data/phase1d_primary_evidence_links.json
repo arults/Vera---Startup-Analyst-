@@ -1,0 +1,43 @@
+{
+  "schema_version": "phase1d-primary-evidence-links-v1",
+  "generated": "2026-10-17",
+  "note": "URLs for primary or primary-adjacent evidence. Content hashes still required before promotion.",
+  "records": [
+    {
+      "round_id": "wf_2020_0001802405_020-26088",
+      "company": "Curastory Inc.",
+      "event": "closure",
+      "primary_urls": [
+        "https://www.bankruptcyobserver.com/bankruptcy-case/curastory",
+        "https://www.bkalerts.com/recent-bankruptcy-cases/delaware-bankruptcy-court/1:26-bk-11355/bankruptcy-case-curastory-inc"
+      ],
+      "case_number": "26-11355-TMH",
+      "court": "District of Delaware",
+      "filing_date": "2026-08-27",
+      "status": "capture_ready"
+    },
+    {
+      "round_id": "wf_2020_0001816937_020-26633",
+      "company": "Boxabl Inc.",
+      "event": "ipo_direct_listing",
+      "primary_urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001906364/000149315226034441/form8-k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1906364/000149315226034441/ex99-9.htm"
+      ],
+      "trading_start": "2026-07-20",
+      "symbol": "BXBL",
+      "status": "capture_ready"
+    },
+    {
+      "round_id": "cc_2020_phlo",
+      "company": "Phlo Digital Pharmacy",
+      "event": "operating_evidence",
+      "primary_urls": [
+        "https://www.crowdcube.com/phlo",
+        "https://www.wearephlo.com"
+      ],
+      "notes": "Operating and growing as of 2025-2026 reports. Not closure.",
+      "status": "capture_ready"
+    }
+  ]
+}

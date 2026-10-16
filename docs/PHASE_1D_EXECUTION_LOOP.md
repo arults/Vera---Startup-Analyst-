@@ -1,28 +1,29 @@
 # Phase 1D Execution Loop Status
 
-Last update: 2026-10-17 ~02:00 JST (hour cycle)
+Last update: 2026-10-17 ~08:15 JST (continue cycle)
 
 ## Completed this cycle
-- Logged hypothesis H1 (public pages + news sufficient for discovery seeds) with evidence and result.
-- Added concrete Crowdcube seeds: Phlo (platform page + amount), Citymapper, Curve.
-- Added Republic US seeds: Gumroad ($5M, 7331 investors, April 2021), Customer.io.
-- Updated research log with mistakes/corrections (platform volume not row-level, FINRA not issuer evidence, secondary news insufficient for promotion).
-- All new records explicitly marked discovery_only; no outcomes inferred.
+- Upgraded Curastory and BOXABL to capture_ready with primary-adjacent URLs and case/filing details.
+- Confirmed Phlo remains operating (growth, acquisition of Truepill UK, further funding); not a closure case.
+- Created primary evidence links file, multi-source matrix templates (partial coverage), and StartEngine discovery notes.
+- Logged Hypothesis H2 with evidence and result.
+- Corrections: refined BOXABL trading start date; clarified Phlo is not a failure candidate.
 
-## Hypotheses tested this cycle
-- H1: Supported for seeding. Rejected for promotion without primary hashes and multi-source sweeps.
+## Hypotheses tested
+- H2: Supported for capture-ready status. Still blocked from promotion without content hashes.
 
 ## Mistakes logged
-- Treating platform self-reported volume as potential denominator (corrected; context only).
-- Risk of promoting secondary news for Curastory/BOXABL (explicitly blocked pending primary evidence).
+- Initial Curastory filing confirmation lacked case number (now corrected).
+- Risk of treating Phlo news as negative (corrected; positive operating signals).
 
 ## Next cycle priorities
-1. Primary content capture plan for Phlo, Gumroad pages.
-2. Multi-source sweep templates filled for 2–3 of the new seeds.
-3. StartEngine Capital Form C discovery notes.
-4. Verifier gate sketch for requiring coverage matrix before any outcome label.
+1. Content hashing of the primary URLs (when network/tools allow).
+2. Complete multi-source matrices (forums, YouTube, Bing, DuckDuckGo) for the three companies.
+3. Begin StartEngine CIK Form C extraction skeleton.
+4. Verifier gate sketch requiring coverage matrix.
 
 ## Stop condition progress
-- Platforms with discovery seeds: Wefunder, Crowdcube, Republic US.
-- Strong outcome candidates: Curastory (closure), BOXABL (listing).
-- Frozen Layer B / promotable cells: still 0.
+- Capture-ready outcome candidates: Curastory (closure), BOXABL (listing).
+- Operating confirmation: Phlo.
+- Discovery seeds: Wefunder, Crowdcube, Republic US, StartEngine notes.
+- Frozen Layer B / promotable cells: still 0 (by design until hashes + Verifier + Jev).

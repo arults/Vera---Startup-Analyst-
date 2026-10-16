@@ -1,0 +1,51 @@
+{
+  "schema_version": "phase1d-multi-source-matrix-v1",
+  "generated": "2026-10-17",
+  "companies": [
+    {
+      "round_id": "wf_2020_0001802405_020-26088",
+      "legal_name": "Curastory Inc.",
+      "coverage": {
+        "platform_regulatory": {"status": "searched", "notes": "Wefunder Form C + bankruptcy docket summaries"},
+        "independent_news": {"status": "searched", "notes": "TechCrunch SEC charges, bankruptcyobserver"},
+        "discussion_forums": {"status": "not_started", "notes": ""},
+        "youtube_longform": {"status": "not_started", "notes": ""},
+        "multi_engine": {
+          "google": {"status": "searched"},
+          "bing": {"status": "not_started"},
+          "duckduckgo": {"status": "not_started"}
+        }
+      }
+    },
+    {
+      "round_id": "wf_2020_0001816937_020-26633",
+      "legal_name": "Boxabl Inc.",
+      "coverage": {
+        "platform_regulatory": {"status": "searched", "notes": "SEC 8-K and Nasdaq listing"},
+        "independent_news": {"status": "partial", "notes": ""},
+        "discussion_forums": {"status": "not_started", "notes": ""},
+        "youtube_longform": {"status": "not_started", "notes": ""},
+        "multi_engine": {
+          "google": {"status": "searched"},
+          "bing": {"status": "not_started"},
+          "duckduckgo": {"status": "not_started"}
+        }
+      }
+    },
+    {
+      "round_id": "cc_2020_phlo",
+      "legal_name": "Phlo Digital Pharmacy",
+      "coverage": {
+        "platform_regulatory": {"status": "searched", "notes": "Crowdcube page"},
+        "independent_news": {"status": "searched", "notes": "Revenue growth, Truepill acquisition"},
+        "discussion_forums": {"status": "not_started", "notes": ""},
+        "youtube_longform": {"status": "not_started", "notes": ""},
+        "multi_engine": {
+          "google": {"status": "searched"},
+          "bing": {"status": "not_started"},
+          "duckduckgo": {"status": "not_started"}
+        }
+      }
+    }
+  ]
+}
