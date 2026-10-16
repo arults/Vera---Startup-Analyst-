@@ -1,0 +1,28 @@
+{
+  "schema_version": "phase1d-multi-source-sweep-v1",
+  "company_round_id": "wf_2020_0001802405_020-26088",
+  "legal_name": "Curastory Inc.",
+  "sweep_date": "2026-10-17",
+  "coverage": {
+    "platform_regulatory": {"status": "searched", "sources": ["SEC Form C", "SEC C-U", "Wefunder campaign"]},
+    "independent_news": {"status": "searched", "sources": []},
+    "discussion_forums": {"status": "searched", "sources": ["Reddit equity crowdfunding"]},
+    "youtube_longform": {"status": "searched", "sources": []},
+    "multi_engine": {
+      "google": {"status": "searched", "unique_hits": []},
+      "bing": {"status": "searched", "unique_hits": []},
+      "duckduckgo": {"status": "searched", "unique_hits": []}
+    }
+  },
+  "candidate_claims": [
+    {
+      "claim": "Chapter 7 filing in 2026",
+      "evidence_class": "independent_secondary",
+      "source_category": "news",
+      "url": "placeholder",
+      "supports_closure": true,
+      "notes": "From Phase 1B iteration log; verify with primary court/SEC source before use"
+    }
+  ],
+  "notes": "Template. Every Layer B company must have a completed sweep before outcome labels are accepted. See docs/RESEARCH_SOURCE_RULES.md."
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "round_id": "wf_2020_0001802405_020-26088",
+    "event_date": "2026-08-27",
+    "event_type": "closure",
+    "evidence_url": "https://www.sec.gov/",
+    "platform_hosted": false,
+    "comparable_pre_valuation": null,
+    "comparable_post_valuation": null,
+    "shareholder_consideration_known": false,
+    "gross_moic": null,
+    "explicit_closure": true,
+    "evidence_class": "independent_secondary",
+    "source_category": "news",
+    "search_engines_used": ["google", "bing"],
+    "notes": "Curastory Chapter 7 filing referenced in Phase 1B iteration log. Requires primary court or SEC confirmation before promotion. Multi-source sweep still incomplete."
+  },
+  {
+    "round_id": "wf_2020_0001816937_020-26633",
+    "event_date": "2021-01-01",
+    "event_type": "operating_evidence",
+    "evidence_url": "https://www.sec.gov/",
+    "platform_hosted": true,
+    "comparable_pre_valuation": null,
+    "comparable_post_valuation": null,
+    "shareholder_consideration_known": false,
+    "gross_moic": null,
+    "explicit_closure": false,
+    "evidence_class": "primary",
+    "source_category": "sec",
+    "search_engines_used": ["google"],
+    "notes": "BOXABL listing censor example from Phase 1B. Placeholder; replace with dated platform-hosted evidence."
+  }
+]
