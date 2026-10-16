@@ -1,0 +1,57 @@
+{
+  "schema_version": "phase1d-multi-source-matrix-v1",
+  "generated": "2026-10-17",
+  "companies": [
+    {
+      "round_id": "wf_2020_0001802405_020-26088",
+      "legal_name": "Curastory Inc.",
+      "coverage": {
+        "platform_regulatory": {"status": "searched", "notes": "Wefunder Form C + bankruptcy docket summaries (case 26-11355)"},
+        "independent_news": {"status": "searched", "notes": "TechCrunch SEC charges 2025, bankruptcyobserver, prior contract judgment"},
+        "discussion_forums": {"status": "searched_not_found", "notes": "No material Reddit threads located in initial pass"},
+        "youtube_longform": {"status": "searched_not_found", "notes": "No founder interview or pitch video located"},
+        "multi_engine": {
+          "google": {"status": "searched", "unique_hits": ["bankruptcyobserver", "techcrunch SEC"]},
+          "bing": {"status": "searched", "unique_hits": []},
+          "duckduckgo": {"status": "searched", "unique_hits": []}
+        }
+      },
+      "sweep_complete": false,
+      "notes": "Forums and YouTube marked searched-not-found. Primary docket hash still pending."
+    },
+    {
+      "round_id": "wf_2020_0001816937_020-26633",
+      "legal_name": "Boxabl Inc.",
+      "coverage": {
+        "platform_regulatory": {"status": "searched", "notes": "SEC 8-K and Nasdaq BXBL listing confirmation"},
+        "independent_news": {"status": "searched", "notes": "Multiple SPAC coverage articles"},
+        "discussion_forums": {"status": "partial", "notes": "Investor discussion exists; not fully extracted"},
+        "youtube_longform": {"status": "partial", "notes": "Founder interviews and product demos exist"},
+        "multi_engine": {
+          "google": {"status": "searched"},
+          "bing": {"status": "not_started"},
+          "duckduckgo": {"status": "not_started"}
+        }
+      },
+      "sweep_complete": false,
+      "notes": "Primary 8-K hash still pending."
+    },
+    {
+      "round_id": "cc_2020_phlo",
+      "legal_name": "Phlo Digital Pharmacy",
+      "coverage": {
+        "platform_regulatory": {"status": "searched", "notes": "Crowdcube closed campaign page"},
+        "independent_news": {"status": "searched", "notes": "Revenue growth, Truepill UK acquisition 2023, further funding 2024"},
+        "discussion_forums": {"status": "searched_not_found", "notes": ""},
+        "youtube_longform": {"status": "not_started", "notes": ""},
+        "multi_engine": {
+          "google": {"status": "searched"},
+          "bing": {"status": "not_started"},
+          "duckduckgo": {"status": "not_started"}
+        }
+      },
+      "sweep_complete": false,
+      "notes": "Operating confirmation strong. Not a success or closure event yet under Phase 1C rules."
+    }
+  ]
+}
