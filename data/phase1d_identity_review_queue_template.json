@@ -1,0 +1,14 @@
+[
+  {
+    "review_id": "rev_template_001",
+    "round_id_a": "wf_2020_0001800212_020-26030",
+    "round_id_b": "wf_2020_other",
+    "match_decision": "NEEDS_REVIEW",
+    "medium_identifiers_shared": ["domain", "founder"],
+    "strong_id_match": false,
+    "review_status": "pending",
+    "reviewer_notes": "Template — populate from identity resolver output",
+    "false_match_risk": 0.3,
+    "created_at": "2026-10-17T00:00:00Z"
+  }
+]

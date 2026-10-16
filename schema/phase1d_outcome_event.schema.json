@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vera.local/schema/phase1d-outcome-event.json",
+  "title": "Vera Phase 1D outcome event",
+  "type": "object",
+  "required": ["round_id", "event_date", "event_type", "evidence_url", "platform_hosted"],
+  "properties": {
+    "round_id": {"type": "string"},
+    "event_date": {"type": "string", "format": "date"},
+    "event_type": {"enum": ["qualified_followon", "ipo_direct_listing", "acquisition", "profitable_exit", "closure", "operating_evidence"]},
+    "evidence_url": {"type": "string"},
+    "platform_hosted": {"type": "boolean"},
+    "comparable_pre_valuation": {"type": ["number", "null"]},
+    "comparable_post_valuation": {"type": ["number", "null"]},
+    "shareholder_consideration_known": {"type": "boolean"},
+    "gross_moic": {"type": ["number", "null"]},
+    "explicit_closure": {"type": "boolean"},
+    "evidence_class": {"enum": ["primary", "independent_secondary", "company_controlled_fallback", "community", "video"]},
+    "source_category": {"enum": ["platform", "sec", "news", "forum", "youtube", "other"]},
+    "search_engines_used": {"type": "array", "items": {"enum": ["google", "bing", "duckduckgo"]}},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

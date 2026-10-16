@@ -1,0 +1,41 @@
+{
+  "checkpoint": "PHASE_1D_CP2_DATA_COLLECTION_FREEZE",
+  "date": "2026-10-17",
+  "status": "READY_FOR_JEV",
+  "questions": [
+    {
+      "id": "cp2_freeze_cohort",
+      "primitive": "choice",
+      "instructions": "Given the Phase 1B 2020 funded cohort of 42 rows converted to RoundRecords with SEC URLs and structural source-capture stubs, should the Wefunder 2020 pilot Layer B cohort be frozen for identity and outcome extraction?",
+      "criteria": {
+        "options": [
+          "freeze_2020_cohort_and_proceed",
+          "require_live_content_hashes_first",
+          "expand_discovery_before_freeze"
+        ]
+      },
+      "state": {
+        "n_rounds": 42,
+        "source": "data/cohort_manifest.csv",
+        "captures_are_stubs": true,
+        "research_rules": "docs/RESEARCH_SOURCE_RULES.md requires multi-engine + forums + YouTube before outcome labels"
+      }
+    },
+    {
+      "id": "cp2_multi_source_required",
+      "primitive": "noul",
+      "instructions": "Must every Layer B company receive a documented multi-source sweep (platform/SEC + news + forums + YouTube + Google/Bing/DuckDuckGo) before any survival/success/closure label is accepted?",
+      "criteria": {"yes_means": "yes, multi-source sweep is mandatory per RESEARCH_SOURCE_RULES.md"},
+      "state": {"rule_document": "docs/RESEARCH_SOURCE_RULES.md"}
+    },
+    {
+      "id": "cp2_identity_audit_threshold",
+      "primitive": "choice",
+      "instructions": "What is the maximum acceptable sampled false-match or false-split rate before the identity matcher must be reopened?",
+      "criteria": {
+        "options": ["2_percent", "5_percent", "1_percent"]
+      },
+      "state": {"phase1c_rule": "reopen if >2%"}
+    }
+  ]
+}
