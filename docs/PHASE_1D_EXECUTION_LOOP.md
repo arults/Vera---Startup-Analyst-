@@ -1,32 +1,28 @@
 # Phase 1D Execution Loop Status
 
-Last update: 2026-10-17 (night cycle)
+Last update: 2026-10-17 ~02:00 JST (hour cycle)
 
-## Completed
-- CP1 scope + pilot plan committed.
-- Multi-source research rules embedded in SKILLS.md and docs/RESEARCH_SOURCE_RULES.md.
-- Extractor, live-fetch helper, identity/outcome schemas, Jev payloads, sample events, and multi-source template committed.
-- End-to-end plan and research log created.
-- Initial multi-platform discovery scan logged.
-- Deep dive: Curastory Chapter 7 confirmed (2026-08-27); BOXABL Nasdaq listing via SPAC confirmed (~2026-07-20).
-- StartEngine Capital LLC CIK 0001665160 identified.
-- Seedrs/Republic Europe 2020 metrics and examples logged.
-- Concrete multi-platform seed records and updated outcome events committed.
+## Completed this cycle
+- Logged hypothesis H1 (public pages + news sufficient for discovery seeds) with evidence and result.
+- Added concrete Crowdcube seeds: Phlo (platform page + amount), Citymapper, Curve.
+- Added Republic US seeds: Gumroad ($5M, 7331 investors, April 2021), Customer.io.
+- Updated research log with mistakes/corrections (platform volume not row-level, FINRA not issuer evidence, secondary news insufficient for promotion).
+- All new records explicitly marked discovery_only; no outcomes inferred.
 
-## In progress
-- Wefunder 2020 structural cohort ready for live hashing.
-- Outcome candidates for Curastory (closure) and BOXABL (IPO) ready for primary evidence capture.
+## Hypotheses tested this cycle
+- H1: Supported for seeding. Rejected for promotion without primary hashes and multi-source sweeps.
 
-## Next loop iteration
-1. Capture primary evidence for Curastory docket and BOXABL 8-K/listing.
-2. Complete multi-source sweeps on those two + 3 more companies.
-3. EDGAR query guidance or seed for StartEngine Capital Form C filings.
-4. Expand Crowdcube/Republic Europe seeds with more named companies.
-5. Extend verifier to check multi-source coverage matrix presence.
-6. Dry-run estimator on structural Wefunder set + new outcome events (no promotion).
+## Mistakes logged
+- Treating platform self-reported volume as potential denominator (corrected; context only).
+- Risk of promoting secondary news for Curastory/BOXABL (explicitly blocked pending primary evidence).
+
+## Next cycle priorities
+1. Primary content capture plan for Phlo, Gumroad pages.
+2. Multi-source sweep templates filled for 2–3 of the new seeds.
+3. StartEngine Capital Form C discovery notes.
+4. Verifier gate sketch for requiring coverage matrix before any outcome label.
 
 ## Stop condition progress
-- Platforms with frozen Layer B: 0 (Wefunder 2020 structural + strong outcome candidates).
-- Jev-promotable cells: 0 (candidates emerging).
-- Multi-source sweeps completed: 0 (templates + partial research).
-- Confirmed explicit closures or successes: 2 candidates (Curastory, BOXABL).
+- Platforms with discovery seeds: Wefunder, Crowdcube, Republic US.
+- Strong outcome candidates: Curastory (closure), BOXABL (listing).
+- Frozen Layer B / promotable cells: still 0.
