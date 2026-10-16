@@ -1,0 +1,20 @@
+[
+  {
+    "round_id": "wf_2020_sample_001",
+    "canonical_company_id": "company_placeholder_001",
+    "platform": "wefunder",
+    "offering_year": 2020,
+    "first_live_date": "2020-01-15",
+    "status": "funded_completed",
+    "primary_field": "saas_enterprise_software",
+    "instrument_type": "safe",
+    "legal_name": "Sample Issuer from Phase 1B Lineage",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/",
+    "source_availability": "PUBLIC_VISIBLE",
+    "completion_date": "2020-06-30",
+    "comparable_valuation": null,
+    "valuation_cap": 8000000,
+    "amount_raised": 150000,
+    "note": "PLACEHOLDER — replace with real Phase 1B cohort row + live source capture. Do not promote."
+  }
+]
