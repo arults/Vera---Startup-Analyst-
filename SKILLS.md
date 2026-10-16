@@ -1,9 +1,10 @@
 # SKILLS.md — Vera operational research memory
 
 Version: 0.5.0
-Date: 2026-10-08
+Date: 2026-10-17 (research-rules update)
 Phase 1B: **COMPLETE — limited empirical reference class promoted**
 Phase 1C: **COMPLETE — multi-platform calibration framework built; full dataset/rates intentionally not run**
+Phase 1D: **STARTED — CP1 scope frozen (draft); CP2 pilot extraction in progress**
 
 ## Current system state
 Vera now has:
@@ -22,6 +23,7 @@ Vera now has:
 - A reference-class rate is an anchor/bound, not a startup-specific causal probability.
 - Preserve failed/rejected approaches in docs/ITERATION_LOG.md.
 - Full multi-platform rates may be promoted only after later execution, deterministic verification and Jev promotion.
+- **Multi-source research is mandatory**: every material company or cohort must be searched across platform/regulatory, independent news, discussion forums, YouTube/long-form video, and at least Google + Bing + DuckDuckGo. See `docs/RESEARCH_SOURCE_RULES.md`. Skipping a category without an explicit searched-not-found or inaccessible flag blocks promotion.
 
 ## Phase 1B promoted reference class
 Registry: `reference_classes/wefunder_2020_operating_survival.json`
@@ -85,4 +87,6 @@ RQ2 cell gate:
 - Round 8 plateau probability 0.86; no-flip probability 0.96.
 
 ## Next execution
-The next phase may populate the Phase 1C contracts with the real 2020–2025 platform data. Do not reopen Phase 1C design unless real execution produces a concrete contract failure, identity-error rate >2%, censoring/ascertainment failure, or a Jev/Verifier gate failure.
+Phase 1D is underway. CP1 scope and Wefunder 2020–2022 pilot boundary are drafted and committed. CP2 data collection has a skeleton and sample. Full multi-platform rates remain unpromoted until Verifier + Jev gates pass. Do not reopen Phase 1C design unless real execution produces a concrete contract failure, identity-error rate >2%, censoring/ascertainment failure, or a Jev/Verifier gate failure.
+
+All research must follow `docs/RESEARCH_SOURCE_RULES.md` (multi-engine, forums, YouTube, news, platform, regulatory).
