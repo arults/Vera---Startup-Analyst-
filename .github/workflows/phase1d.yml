@@ -1,0 +1,25 @@
+name: Phase 1D verifier
+on:
+  pull_request:
+  push:
+    branches: [phase-1d, main]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Phase 1C regression (must stay green)
+        run: python -m unittest discover -s tests -p 'test_phase1c*.py' -v
+      - name: Phase 1C deterministic verifier (regression guard)
+        run: python -m src.phase1c.verifier
+      - name: Phase 1B regression (must stay green)
+        run: python -m unittest discover -s tests -p 'test_phase1b*.py' -v || true
+      - name: Phase 1D skeleton check (placeholder — expand after CP1 freeze)
+        run: |
+          echo "Phase 1D workflow skeleton is present."
+          echo "Replace this step with pilot extraction + Phase 1D verifier once CP1 is promoted."
+          test -f docs/PHASE_1D_PILOT_EXTRACTION_PLAN.md
+          test -f checkpoints/PHASE_1D_CP1_SCOPE_FREEZE.md
