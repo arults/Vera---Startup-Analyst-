@@ -1,0 +1,31 @@
+{
+  "company": "Curastory Inc.",
+  "platform": "wefunder",
+  "verified_date": "2026-10-17",
+  "status": "closure",
+  "verification_notes": "Chapter 7 voluntary petition filed 2026-08-27, District of Delaware case 26-11355-TMH. Explicit terminal failure.",
+  "rounds": [
+    {
+      "round": "Wefunder 2020",
+      "offering_key": "0001802405|020-26088",
+      "source": "Phase 1B cohort_manifest",
+      "verified": true
+    }
+  ],
+  "years_since_last_crowdfunding_round": 6,
+  "total_funding_approx_usd": 3000000,
+  "revenue": {
+    "notes": "SEC charges for inflated revenue claims. No reliable current revenue."
+  },
+  "operational_evidence": [
+    "Bankruptcy petition filed",
+    "Prior SEC settlement and founder resignation",
+    "Address consistent with prior records"
+  ],
+  "investor_return_context": {
+    "wefunder_2020": "Chapter 7; expected zero recovery for equity/SAFE holders. Explicit closure."
+  },
+  "outcome_event_candidate": "closure",
+  "multi_source_status": "partial",
+  "notes": "Strong explicit closure candidate. Primary docket hash still required before promotion."
+}

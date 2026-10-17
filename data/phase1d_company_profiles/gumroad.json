@@ -1,0 +1,38 @@
+{
+  "company": "Gumroad",
+  "platform": "republic_us",
+  "verified_date": "2026-10-17",
+  "status": "operating",
+  "verification_notes": "Website active, product updates continuing into 2026, creator earnings counters, annual meeting published. Small team noted.",
+  "rounds": [
+    {
+      "round": "Republic Reg CF 2021",
+      "date": "2021-04",
+      "amount_usd": 5000000,
+      "investors": 7331,
+      "instrument": "Crowd SAFE",
+      "valuation_cap": 100000000,
+      "source": "republic.com/gumroad-march-2021",
+      "verified": true
+    }
+  ],
+  "years_since_last_crowdfunding_round": 5,
+  "total_funding_approx_usd": 16000000,
+  "revenue": {
+    "notes": "Estimates range $12M–$23M+ in recent years; company has published profitability claims in some periods. Secondary sources only.",
+    "source": "Sacra, GetLatka, company updates",
+    "verified": "secondary"
+  },
+  "operational_evidence": [
+    "gumroad.com active",
+    "Weekly creator earnings updates 2026",
+    "2026 annual meeting published",
+    "Leadership transition (Ershad as CEO) noted"
+  ],
+  "investor_return_context": {
+    "republic_2021": "No public secondary or exit price found. $100M cap at time of raise. Later private rounds exist but conversion and realized return for SAFE holders unknown."
+  },
+  "outcome_event_candidate": "operating_evidence",
+  "multi_source_status": "partial",
+  "notes": "Strong operating confirmation. Suitable baseline anchor. No typed success event yet."
+}

@@ -1,0 +1,36 @@
+{
+  "company": "Curve",
+  "platform": "crowdcube",
+  "verified_date": "2026-10-17",
+  "status": "acquired",
+  "verification_notes": "Lloyds Banking Group announced acquisition Nov 2025. Expected close H1 2026. Crowdcube investors reportedly expected to receive no proceeds due to preference stack.",
+  "rounds": [
+    {
+      "round": "Crowdcube 2021",
+      "date": "2021-05",
+      "amount_gbp": 9900000,
+      "investors": 11795,
+      "source": "BusinessWire / Crowdfund Insider",
+      "verified": true
+    }
+  ],
+  "years_since_last_crowdfunding_round": 5,
+  "total_funding_note": "Hundreds of millions across institutional rounds; Crowdcube was one of multiple.",
+  "revenue": {
+    "notes": "Recent accounts showed losses; revenue figures secondary.",
+    "source": "CityAM / company filings summaries"
+  },
+  "operational_evidence": [
+    "Acquisition by Lloyds announced",
+    "Company still operating pending close"
+  ],
+  "investor_return_context": {
+    "crowdcube_2021": "Reported that Crowdcube nominee investors expected zero proceeds from Lloyds sale due to liquidation preference hierarchy. Acquisition consideration known only approximately (~\u00a3120M reported); not a positive realized return for crowd."
+  },
+  "outcome_event_candidate": "acquisition_value_unknown",
+  "multi_source_status": "partial",
+  "contradiction_ledger": [
+    "Exact sale price and final distribution to crowd not yet confirmed in primary documents"
+  ],
+  "notes": "Important negative-return example for baseline model. Acquisition with unknown or zero crowd consideration."
+}

@@ -1,28 +1,30 @@
 # Phase 1D Execution Loop Status
 
-Last update: 2026-10-17 ~09:00 JST
+Last update: 2026-10-17 ~09:15 JST (continue cycle)
 
 ## Completed this cycle
-- Full task decomposition plan written (docs/PHASE_1D_FULL_TASK_DECOMPOSITION.md).
-- Phlo verified company profile completed as baseline anchor template (data/phase1d_company_profiles/phlo.json + docs/PHASE_1D_PHLO_VERIFIED_PROFILE.md).
-- Answers recorded for operational status, years since rounds, funding, revenue, and investor return context, all with sources.
-- Explicitly noted: no realized return or typed success for crowd investors; operating evidence only.
+- Verified company profiles added for:
+  - Gumroad (Republic 2021): operating, ~$5M crowd raise, no realized return found.
+  - Curve (Crowdcube 2021): acquired by Lloyds (announced Nov 2025); crowd investors reportedly expected zero proceeds due to preference stack.
+  - Curastory (Wefunder 2020): Chapter 7 filed 2026-08-27; explicit closure.
+- Phlo profile already in place (operating, growth).
+- All profiles follow the C1–C8 template with sources and explicit return context.
 
 ## Hypotheses tested
-- H4: A single verified company profile (Phlo) can serve as the template for systematic baseline-model anchors across platforms. Supported.
+- H5: Applying the verified-profile template to additional companies yields usable baseline anchors (operating, acquisition-unknown, closure). Supported.
 
 ## Mistakes / corrections logged
-- Initial assumption of a possible second Crowdcube round was not confirmed; only one Crowdcube raise found. Later funding was institutional.
-- Revenue figures are secondary news; marked as such.
+- Curve acquisition outcome for crowd is adverse (zero expected proceeds) — important not to treat any acquisition as success.
+- Revenue figures remain secondary; never promoted as primary.
 
 ## Next decomposed tasks
-1. Hash primary Phlo / Curastory / BOXABL pages.
-2. Apply the same verified-profile template to 4 more companies (e.g., Gumroad, Curve, Curastory, BOXABL).
-3. Wire multi_source_gate into verifier.
-4. Expand StartEngine real Form C extraction plan.
-5. Continue loop until stop condition.
+1. Primary content hashes for key pages.
+2. Wire multi_source_gate into verifier path.
+3. StartEngine real Form C extraction plan.
+4. Add 2–3 more company profiles (e.g., Citymapper, BOXABL).
+5. Continue until stop condition.
 
 ## Stop condition progress
-- Verified company anchors: 1 (Phlo).
-- Capture-ready outcomes: Curastory, BOXABL.
+- Verified company anchors: 4 (Phlo, Gumroad, Curve, Curastory).
+- Capture-ready / strong outcomes: Curastory (closure), BOXABL (listing), Curve (acquisition unknown/adverse).
 - Promotable cells: 0.
