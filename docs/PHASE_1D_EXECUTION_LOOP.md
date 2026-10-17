@@ -3,25 +3,26 @@
 Last update: 2026-10-17 ~09:30 JST (continue cycle)
 
 ## Completed this cycle
-- Unit tests added for multi-source gate (`tests/phase1d/test_multi_source_gate.py`).
-- Wiring helper added (`src/phase1d/gate_wiring.py`) with `require_multi_source_for_outcome` and `is_outcome_promotable` (requires gate + primary hash).
-- StartEngine extractor skeleton expanded with 2020 and 2021 placeholders.
-- All changes logged.
+- Phase 1D reporting extension added (`src/phase1d/reporting_extension.py`).
+  - `phase1d_cell_decision` wraps Phase 1C RQ2 decision with multi-source gate + primary hash requirement.
+  - A cell is reportable only if base RQ gates pass AND multi-source + hash are satisfied.
+- Primary evidence links updated with explicit `content_sha256: null` and `hash_status: pending_live_fetch`.
+- No fake hashes introduced.
 
 ## Hypotheses tested
-- H7: A fail-closed multi-source gate can be unit-tested and wired without breaking existing Phase 1C contracts. Supported (tests added; wiring helper present).
+- H8: Phase 1C cell decisions can be extended with multi-source and hash requirements without altering the original Phase 1C functions. Supported.
 
 ## Mistakes / corrections logged
-- None material. Explicitly did not invent real Form C accessions or content hashes.
+- None. Explicitly preserved Phase 1C functions unchanged and kept hashes as null.
 
 ## Next decomposed tasks
-1. Run the new unit tests (when test runner is available).
-2. Integrate `is_outcome_promotable` into the main reporting/verifier path.
-3. Primary content hashes for capture-ready records.
-4. Real StartEngine Form C parse when EDGAR access is available.
-5. Continue verified company profile loop.
+1. Add unit test for `phase1d_cell_decision`.
+2. Primary live fetches and real SHA-256 population.
+3. Integrate the extension into the main verifier evidence generation path.
+4. Real StartEngine Form C extraction.
+5. Continue verified company profile expansion.
 
 ## Stop condition progress
 - Verified company anchors: 6.
-- Multi-source gate: implemented and unit-tested.
-- Promotable cells: 0 (by design until hashes + full sweeps + Verifier + Jev).
+- Multi-source + hash gate: wired into a Phase 1D cell decision wrapper.
+- Promotable cells: 0.

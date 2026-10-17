@@ -1,7 +1,7 @@
 {
   "schema_version": "phase1d-primary-evidence-links-v1",
   "generated": "2026-10-17",
-  "note": "URLs for primary or primary-adjacent evidence. Content hashes still required before promotion.",
+  "note": "URLs for primary or primary-adjacent evidence. content_sha256 remains null until live fetch.",
   "records": [
     {
       "round_id": "wf_2020_0001802405_020-26088",
@@ -14,6 +14,8 @@
       "case_number": "26-11355-TMH",
       "court": "District of Delaware",
       "filing_date": "2026-08-27",
+      "content_sha256": null,
+      "hash_status": "pending_live_fetch",
       "status": "capture_ready"
     },
     {
@@ -26,6 +28,8 @@
       ],
       "trading_start": "2026-07-20",
       "symbol": "BXBL",
+      "content_sha256": null,
+      "hash_status": "pending_live_fetch",
       "status": "capture_ready"
     },
     {
@@ -36,8 +40,10 @@
         "https://www.crowdcube.com/phlo",
         "https://www.wearephlo.com"
       ],
-      "notes": "Operating and growing as of 2025-2026 reports. Not closure.",
-      "status": "capture_ready"
+      "content_sha256": null,
+      "hash_status": "pending_live_fetch",
+      "status": "capture_ready",
+      "notes": "Operating and growing. Not a typed success event."
     }
   ]
 }
