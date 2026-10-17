@@ -1,0 +1,59 @@
+{
+  "company": "Phlo Technologies / Phlo Digital Pharmacy",
+  "platform": "crowdcube",
+  "verified_date": "2026-10-17",
+  "status": "operating",
+  "verification_notes": "Multiple independent sources confirm continued operation and growth through 2025-2026. Not a closure case.",
+  "rounds": [
+    {
+      "round": "Crowdcube 2020",
+      "date": "2020-10",
+      "amount_gbp": 2092380,
+      "investors": 1061,
+      "instrument": "convertible",
+      "source": "https://www.crowdcube.com/phlo",
+      "verified": true
+    },
+    {
+      "round": "Series A",
+      "date": "2023-02",
+      "amount_gbp": 10000000,
+      "lead": "Thairm Bio",
+      "source": "UKTN / FinSMEs / company statements",
+      "verified": true
+    },
+    {
+      "round": "Growth / Series A1",
+      "date": "2024-04",
+      "amount_gbp": 9000000,
+      "lead": "Par Equity",
+      "source": "Phlo Connect press / Business Insider / Dealroom",
+      "verified": true
+    }
+  ],
+  "years_since_last_crowdfunding_round": 6,
+  "years_since_last_funding_round": 2,
+  "total_funding_approx_gbp": 21000000,
+  "revenue": {
+    "fy_to_mar_2024": "~\u00a34M",
+    "recent": "~\u00a323M (weight-loss demand)",
+    "guidance": "\u00a380-100M by Mar 2026",
+    "source": "The Times 2025",
+    "verified": "secondary_news"
+  },
+  "operational_evidence": [
+    "Website active (wearephlo.com)",
+    "LinkedIn company page active, ~120 employees",
+    "Acquired Truepill UK assets 2023",
+    "Sifted rankings and growth reports 2025-2026",
+    "No administration or closure filings found"
+  ],
+  "investor_return_context": {
+    "crowdcube_2020": "No public secondary or exit price found. Later VC rounds at higher valuations (Dealroom ~$53M then ~$66M) imply paper step-up but dilution and instrument conversion terms unknown. Not a realized return.",
+    "later_rounds": "Institutional; no crowd secondary documented."
+  },
+  "outcome_event_candidate": "operating_evidence",
+  "multi_source_status": "partial",
+  "contradiction_ledger": [],
+  "notes": "Strong operating confirmation. Suitable as template for company-level baseline anchors. Primary page hash still pending. No typed success (qualified follow-on valuation step or IPO) documented for crowd investors."
+}
