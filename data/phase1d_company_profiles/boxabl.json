@@ -1,0 +1,32 @@
+{
+  "company": "Boxabl Inc.",
+  "platform": "wefunder",
+  "verified_date": "2026-10-17",
+  "status": "listed",
+  "verification_notes": "Nasdaq BXBL trading began 2026-07-20 via SPAC. SEC 8-K confirms close. Revenue remains low (~$3M TTM); large losses. Qualifying listing success under Phase 1C rules.",
+  "rounds": [
+    {
+      "round": "Wefunder 2020",
+      "offering_key": "0001816937|020-26633",
+      "source": "Phase 1B cohort_manifest",
+      "verified": true
+    }
+  ],
+  "years_since_last_crowdfunding_round": 6,
+  "revenue": {
+    "ttm": "~$3.16M",
+    "notes": "Large net losses continue post-listing.",
+    "source": "SEC filings summaries / stock analysis sites"
+  },
+  "operational_evidence": [
+    "Nasdaq BXBL trading",
+    "SEC 8-K Business Combination close 2026-07-17",
+    "Company still filing and operating"
+  ],
+  "investor_return_context": {
+    "wefunder_2020": "Public listing provides a market price, but dilution from SPAC and low post-listing price relative to some earlier implied valuations make realized return for early crowd holders uncertain without share-count details. Qualifying success event exists."
+  },
+  "outcome_event_candidate": "ipo_direct_listing",
+  "multi_source_status": "partial",
+  "notes": "Strong qualifying success candidate. Primary 8-K hash still required before promotion."
+}

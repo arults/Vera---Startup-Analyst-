@@ -1,0 +1,32 @@
+{
+  "company": "Citymapper",
+  "platform": "crowdcube",
+  "verified_date": "2026-10-17",
+  "status": "acquired",
+  "verification_notes": "Acquired by Via Transportation March 2023. Sources indicate mostly washout for earlier investors (terms undisclosed, reported well below some valuations).",
+  "rounds": [
+    {
+      "round": "Crowdcube 2021",
+      "date": "2021-05",
+      "amount_note": ">\u00a36.4M in one day",
+      "source": "Business Insider / Evening Standard",
+      "verified": true
+    }
+  ],
+  "years_since_last_crowdfunding_round": 5,
+  "total_funding_approx_usd": 60000000,
+  "revenue": {
+    "notes": "Pre-acquisition losses reported; post-acquisition revenue not separately disclosed.",
+    "source": "Secondary filings summaries"
+  },
+  "operational_evidence": [
+    "App still available post-acquisition",
+    "Via integrated Citymapper technology"
+  ],
+  "investor_return_context": {
+    "crowdcube_2021": "Acquisition terms largely undisclosed. Contemporary reporting suggested most earlier investors did not make money back. Not a clear positive realized return."
+  },
+  "outcome_event_candidate": "acquisition_value_unknown",
+  "multi_source_status": "partial",
+  "notes": "Acquisition with unknown/adverse crowd consideration. Useful negative-return anchor."
+}

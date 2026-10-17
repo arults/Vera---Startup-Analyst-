@@ -1,30 +1,27 @@
 # Phase 1D Execution Loop Status
 
-Last update: 2026-10-17 ~09:15 JST (continue cycle)
+Last update: 2026-10-17 ~09:20 JST (continue cycle)
 
 ## Completed this cycle
-- Verified company profiles added for:
-  - Gumroad (Republic 2021): operating, ~$5M crowd raise, no realized return found.
-  - Curve (Crowdcube 2021): acquired by Lloyds (announced Nov 2025); crowd investors reportedly expected zero proceeds due to preference stack.
-  - Curastory (Wefunder 2020): Chapter 7 filed 2026-08-27; explicit closure.
-- Phlo profile already in place (operating, growth).
-- All profiles follow the C1–C8 template with sources and explicit return context.
+- Verified profiles added for Citymapper (acquired by Via, mostly washout) and BOXABL (Nasdaq BXBL listing, low revenue).
+- Multi-source gate wiring note written.
+- StartEngine extraction plan updated with Hypothesis H6.
+- Total verified company anchors now 6.
 
 ## Hypotheses tested
-- H5: Applying the verified-profile template to additional companies yields usable baseline anchors (operating, acquisition-unknown, closure). Supported.
+- H6 (StartEngine systematic EDGAR parse) logged; skeleton ready.
 
 ## Mistakes / corrections logged
-- Curve acquisition outcome for crowd is adverse (zero expected proceeds) — important not to treat any acquisition as success.
-- Revenue figures remain secondary; never promoted as primary.
+- Citymapper acquisition was a washout for most earlier investors — not a positive return.
+- BOXABL listing is a qualifying success event, but post-listing price and dilution must be tracked for realized return context.
 
 ## Next decomposed tasks
-1. Primary content hashes for key pages.
-2. Wire multi_source_gate into verifier path.
-3. StartEngine real Form C extraction plan.
-4. Add 2–3 more company profiles (e.g., Citymapper, BOXABL).
-5. Continue until stop condition.
+1. Primary content hashes.
+2. Wire the multi-source gate into the verifier path and add a unit test.
+3. Begin real StartEngine Form C extraction when tools allow.
+4. Continue company profile loop on remaining strong seeds.
 
 ## Stop condition progress
-- Verified company anchors: 4 (Phlo, Gumroad, Curve, Curastory).
-- Capture-ready / strong outcomes: Curastory (closure), BOXABL (listing), Curve (acquisition unknown/adverse).
+- Verified company anchors: 6 (Phlo, Gumroad, Curve, Curastory, Citymapper, BOXABL).
+- Strong outcome candidates: Curastory (closure), BOXABL (listing), Curve/Citymapper (acquisition unknown/adverse).
 - Promotable cells: 0.
